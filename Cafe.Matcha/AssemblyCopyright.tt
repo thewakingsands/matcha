@@ -1,0 +1,28 @@
+﻿<#@ template language="C#" #>
+<#
+ string VersionCN = "5.3.5.0";
+ string VersionGlobal = "5.2.5.0";
+#>
+using System;
+using System.Reflection;
+
+[assembly: AssemblyTitle("Cafe.Matcha")]
+[assembly: AssemblyDescription("Cafe.Matcha")]
+[assembly: AssemblyCompany("FFCafe")]
+#if GLOBAL
+[assembly: AssemblyVersion("<#=VersionGlobal#>")]
+#else
+[assembly: AssemblyVersion("<#=VersionCN#>")]
+#endif
+[assembly: AssemblyCopyright("Copyright © FFCafe <#=DateTime.Now.Year#>")]
+
+namespace Cafe.Matcha
+{
+    partial class Data {
+#if GLOBAL
+      public const string Version = "<#=VersionGlobal#>";
+#else
+      public const string Version = "<#=VersionCN#>";
+#endif
+    }
+}

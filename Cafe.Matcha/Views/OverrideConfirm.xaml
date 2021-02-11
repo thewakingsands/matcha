@@ -1,0 +1,22 @@
+﻿<Window x:Name="window" x:Class="Cafe.Matcha.Views.OverrideConfirm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="OverrideConfirm" Height="120" Width="480" ResizeMode="NoResize" SourceInitialized="Window_SourceInitialized">
+    <Grid>
+        <Label x:Name="lMain" Content="Label" Margin="6,0,6,44"/>
+        <Grid Height="44" VerticalAlignment="Bottom" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <CheckBox HorizontalAlignment="Left" Margin="12,0,0,0" VerticalAlignment="Center" IsChecked="{Binding All, ElementName=window}">
+                <AccessText x:Name="cAll">不再询问 (_A)</AccessText>
+            </CheckBox>
+            <Button x:Name="bYes" HorizontalAlignment="Right" Margin="0,0,93,0" VerticalAlignment="Center" Width="75" Height="20" Click="BYes_Click">
+                <AccessText>是 (_Y)</AccessText>
+            </Button>
+            <Button x:Name="bNo" HorizontalAlignment="Right" Margin="0,0,12,0" VerticalAlignment="Center" Width="75" Height="20" Click="BNo_Click">
+                <AccessText>否 (_N)</AccessText>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
