@@ -24,6 +24,7 @@
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Obfuscate>true</Obfuscate>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,19 +69,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="FFXIV_ACT_Plugin">
-      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\2.0.5.10\FFXIV_ACT_Plugin.dll</HintPath>
+      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\FFXIV_ACT_Plugin.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FFXIV_ACT_Plugin.Common">
-      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\2.0.5.10\SDK\FFXIV_ACT_Plugin.Common.dll</HintPath>
+      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FFXIV_ACT_Plugin.Memory">
-      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\2.0.5.10\SDK\FFXIV_ACT_Plugin.Memory.dll</HintPath>
+      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Memory.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FFXIV_ACT_Plugin.Network">
-      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\2.0.5.10\SDK\FFXIV_ACT_Plugin.Network.dll</HintPath>
+      <HintPath>..\thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Network.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -271,6 +272,8 @@
 if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
 )</PreBuildEvent>
-    <PostBuildEvent>$(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
+    <PostBuildEvent>del $(TargetPath) /F
+xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
+$(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
 </Project>

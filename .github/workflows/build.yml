@@ -1,0 +1,67 @@
+name: Build
+
+on:
+  push:
+    branches: [ master, staging ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        configuration: [Release]
+
+    runs-on: windows-latest
+    
+    env:
+      Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.5.0.273/ACTv3.zip
+      Thirdparty_FFXIV_ACT_Plugin: https://github.com/ravahn/FFXIV_ACT_Plugin/raw/master/Releases/FFXIV_ACT_Plugin_SDK_2.0.7.0.zip
+      Solution_Name: Cafe.Matcha.sln
+      Secret_Path: Cafe.Matcha\Constant\Secret.Local.cs
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        
+    - name: Setup NuGet.exe for use with actions
+      uses: NuGet/setup-nuget@v1.0.5
+    - name: Setup MSBuild.exe
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Setup thirdparty dependencies
+      run: |
+        nuget restore ${{ env.Solution_Name }}
+
+        New-Item -Name "thirdparty" -ItemType "directory" -Force
+
+        Invoke-WebRequest -Uri ${{ env.Thirdparty_ACT }} -OutFile thirdparty\ACT.zip
+        Expand-Archive thirdparty\ACT.zip -DestinationPath thirdparty\ACT -Force
+
+        Invoke-WebRequest -Uri ${{ env.Thirdparty_FFXIV_ACT_Plugin }} -OutFile thirdparty\FFXIV_ACT_Plugin.zip
+        Expand-Archive thirdparty\FFXIV_ACT_Plugin.zip -DestinationPath thirdparty\FFXIV_ACT_Plugin -Force
+
+        Get-ChildItem .\thirdparty
+        Get-ChildItem .\thirdparty\ACT
+        Get-ChildItem .\thirdparty\FFXIV_ACT_Plugin
+
+    - name: Write Secrets
+      run: |
+        $secret_content = [System.Convert]::FromBase64String("${{ secrets.CONSTANT_SECRET_LOCAL }}")
+        [IO.File]::WriteAllBytes("${{ env.Secret_Path }}", $secret_content)
+
+    - name: Build
+      run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration
+      env:
+        Configuration: ${{ matrix.configuration }}
+
+    - name: Remove Secrets
+      run: Remove-Item -path ${{ env.Secret_Path }}
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Bundle
+        path: bin\*.zip
