@@ -1,0 +1,37 @@
+<project outputDir="bin\ConfuserEx" baseDir="..\" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="maximum" inherit="false">
+    <protection id="anti debug" action="remove" />
+    <protection id="constants" action="remove" />
+    <protection id="watermark" action="remove" />
+    <protection id="rename">
+      <argument name="mode" value="sequential" />
+      <argument name="renEnum" value="true" />
+    </protection>
+  </rule>
+  <rule pattern="match('PropertyChangedEventArgs')">
+    <protection id="ctrl flow" action="remove" />
+  </rule>
+  <rule pattern="match('^Cafe\.Matcha\.Network\..+::')">
+    <protection id="constants">
+      <argument name="mode" value="x86" />
+      <argument name="decoderCount" value="5" />
+      <argument name="elements" value="SNPI" />
+      <argument name="cfg" value="true" />
+      <argument name="compressor" value="Lz4" />
+      <argument name="compress" value="Force" />
+    </protection>
+  </rule>
+  <rule pattern="
+        name('FateTreeNodeWithChildren') or name('FateNode') or name('MainViewModel') or name('TelemetrySetting')
+        or match('Cafe\.Matcha\.Config($|\.Instance)')
+        or match('Cafe\.Matcha\.Models\..+::.+\(\)$')
+        or match('Cafe\.Matcha\.Constant\.(EventType|RequestType)($|\..+)')
+        or name('Data')">
+    <protection id="rename" action="remove" />
+  </rule>
+  <probePath>C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0</probePath>
+  <probePath>thirdparty\FFXIV_ACT_Plugin</probePath>
+  <probePath>thirdparty\ACT</probePath>
+  <probePath>..\..\..\..\.nuget\packages\recursivechangenotifier\0.4.0-b4\lib\netstandard1.0</probePath>
+  <probePath>..\..\..\..\.nuget\packages\newtonsoft.json\12.0.2\lib\net45</probePath>
+</project>
