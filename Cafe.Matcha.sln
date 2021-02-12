@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Matcha", "Cafe.Matcha\Cafe.Matcha.csproj", "{0A8BC2CF-BCBA-4A7F-974A-11F078BED997}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D469F03-878B-4652-AF39-20434C1EC28C} = {5D469F03-878B-4652-AF39-20434C1EC28C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Matcha.Packer", "Cafe.Matcha.Packer\Cafe.Matcha.Packer.csproj", "{5D469F03-878B-4652-AF39-20434C1EC28C}"
 EndProject
