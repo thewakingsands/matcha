@@ -159,6 +159,15 @@ namespace Cafe.Matcha.Views
 
         private List<int> notifiedFate = new List<int>();
         private List<int> notifiedDynamicEvent = new List<int>();
+        private long lastZoneChange = 0;
+        private long Now
+        {
+            get
+            {
+                return DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            }
+        }
+
         private bool ShouldSendNotice(BaseDTO dto)
         {
             switch (dto.EventType)
@@ -167,6 +176,7 @@ namespace Cafe.Matcha.Views
                     return true;
                 case EventType.InitZone:
                     notifiedFate.Clear();
+                    lastZoneChange = Now;
                     return true;
                 case EventType.Fate:
                     var fateDto = (FateDTO)dto;
@@ -180,7 +190,7 @@ namespace Cafe.Matcha.Views
                             }
 
                             notifiedFate.Add(fateDto.Fate);
-                            return true;
+                            return Now - lastZoneChange > 5000;
                         case "end":
                             notifiedFate.Remove(fateDto.Fate);
                             return false;
@@ -201,7 +211,7 @@ namespace Cafe.Matcha.Views
                             }
 
                             notifiedDynamicEvent.Add(deDto.Event);
-                            return true;
+                            return Now - lastZoneChange > 5000;
                         default:
                             notifiedDynamicEvent.Remove(deDto.Event);
                             return false;
