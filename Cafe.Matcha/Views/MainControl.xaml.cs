@@ -498,5 +498,11 @@ namespace Cafe.Matcha.Views
             Config.Instance.Webhook.Remove(ViewModel.SelectedWebhook);
             ViewModel.SelectedWebhook = null;
         }
+
+        private void Image_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://github.com/thewakingsands/matcha"));
+            e.Handled = true;
+        }
     }
 }

@@ -233,6 +233,7 @@
       <LastGenOutput>AssemblyCopyright.cs</LastGenOutput>
     </Content>
     <Content Include="FodyWeavers.xml" />
+    <Resource Include="GitHub-Mark-32px.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
