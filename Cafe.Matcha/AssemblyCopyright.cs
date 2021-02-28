@@ -5,7 +5,7 @@ using System.Reflection;
 [assembly: AssemblyDescription("Cafe.Matcha")]
 [assembly: AssemblyCompany("FFCafe")]
 #if GLOBAL
-[assembly: AssemblyVersion("5.2.5.0")]
+[assembly: AssemblyVersion("5.4.0.0")]
 #else
 [assembly: AssemblyVersion("5.3.5.1")]
 #endif
@@ -15,7 +15,7 @@ namespace Cafe.Matcha
 {
     partial class Data {
 #if GLOBAL
-      public const string Version = "5.2.5.0";
+      public const string Version = "5.4.0.0";
 #else
       public const string Version = "5.3.5.1";
 #endif

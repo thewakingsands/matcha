@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        configuration: [Release]
+        configuration: [Release, Release-Global]
 
     runs-on: windows-latest
     

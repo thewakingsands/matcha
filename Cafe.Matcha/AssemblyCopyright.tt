@@ -1,7 +1,7 @@
 ﻿<#@ template language="C#" #>
 <#
  string VersionCN = "5.3.5.1";
- string VersionGlobal = "5.2.5.0";
+ string VersionGlobal = "5.4.0.0";
 #>
 using System;
 using System.Reflection;
