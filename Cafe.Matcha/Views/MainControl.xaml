@@ -120,12 +120,8 @@
                                 <Button x:Name="bSettingFishTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFishTest_Click"/>
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="副本播报内容" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                        <GroupBox Header="副本播报内容" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="1*"/>
-                                    <RowDefinition Height="1*"/>
-                                </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="1*"/>
@@ -136,9 +132,8 @@
                                 <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
                                 <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
                                 <CheckBox Content="类型" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Type, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="2"/>
-                                <CheckBox Content="装等" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Item, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="3"/>
 
-                                <Button x:Name="bSettingInstTest" Content="测试" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingInstTest_Click"/>
+                                <Button x:Name="bSettingInstTest" Content="测试" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingInstTest_Click"/>
                             </Grid>
                         </GroupBox>
                         <GroupBox Header="地图切换播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">

@@ -179,8 +179,6 @@ namespace Cafe.Matcha.Models
         public bool Level { get; set; }
         [JsonProperty("type")]
         public bool Type { get; set; }
-        [JsonProperty("item")]
-        public bool Item { get; set; }
     }
 
     public class ConfigFormatterZone : BindingTarget

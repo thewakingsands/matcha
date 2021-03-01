@@ -76,11 +76,6 @@ namespace Cafe.Matcha.Utils
                 sb.AppendFormat("{0}级 ", instance.Level);
             }
 
-            if (Config.Instance.Item && instance.ItemLevelSync != 0)
-            {
-                sb.AppendFormat("装等{0} ", instance.ItemLevelSync);
-            }
-
             if (Config.Instance.Name)
             {
                 sb.Append(instance.Name);
