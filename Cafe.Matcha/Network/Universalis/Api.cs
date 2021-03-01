@@ -100,7 +100,7 @@ namespace Cafe.Matcha.Network.Universalis
                 return null;
             }
 
-            var url = $"{ApiBase}/api/{world.DataCenterEnglish}/{itemId}";
+            var url = $"{ApiBase}/api/{world.EnglishDataCenter}/{itemId}";
             var res = await Request.Send(url);
 
             try
@@ -112,7 +112,7 @@ namespace Cafe.Matcha.Network.Universalis
                 foreach (var item in data.ListingItems)
                 {
                     var itemWorld = Data.Instance.Worlds
-                        .FirstOrDefault(row => item.WorldName == row.Value.Chinese || item.WorldName == row.Value.English);
+                        .FirstOrDefault(row => item.WorldName == row.Value.LocalName || item.WorldName == row.Value.EnglishName);
 
                     if (itemWorld.Key == 0)
                     {
