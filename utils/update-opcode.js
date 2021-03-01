@@ -2,21 +2,24 @@ const opcodes = [
   'ActorControlSelf',
   {
     key: 'CEDirector',
-    global: parseInt('0x01f5', 16),
+    global: parseInt('0x01f5', 16)
   },
   {
-    key: 'CompanyAirshipStatus', 
-    karashiiro: 'AirshipTimers',
+    key: 'CompanyAirshipStatus',
+    karashiiro: 'AirshipTimers'
   },
   {
-    key: 'CompanySubmersibleStatus', 
+    key: 'CompanySubmersibleStatus',
     karashiiro: 'SubmarineTimers'
   },
   {
-    key: 'ContentFinderNotifyPop', 
+    key: 'ContentFinderNotifyPop',
     karashiiro: 'CFNotify'
   },
-  'DirectorStart',
+  {
+    key: 'DirectorStart',
+    global: parseInt('0x01d8', 16)
+  },
   'EventPlay',
   'Examine',
   'InitZone',
@@ -50,11 +53,11 @@ const outputFromKarashiiro = (list, region) => opcodes.map((item, index) => {
     item = { key: item }
   }
 
-  const { key } = item;
+  const { key } = item
   if (item[region]) {
     return outputOpcode(key, item[region])
   }
-  
+
   const fromKey = item.karashiiro || item.key
   const row = list.lists.ServerZoneIpcType.find((row) => row.name === fromKey)
   const value = row ? row.opcode : (0xF000 + index)

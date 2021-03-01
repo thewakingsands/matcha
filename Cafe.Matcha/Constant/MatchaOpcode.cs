@@ -11,7 +11,7 @@ namespace Cafe.Matcha.Constant
         CompanyAirshipStatus = 0x0206,
         CompanySubmersibleStatus = 0x013b,
         ContentFinderNotifyPop = 0x026e,
-        DirectorStart = 0xf005,
+        DirectorStart = 0x01d8,
         EventPlay = 0x0276,
         Examine = 0x0261,
         InitZone = 0x0233,
