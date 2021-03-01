@@ -8,8 +8,8 @@ namespace Cafe.Matcha.Constant
 #if GLOBAL
         ActorControlSelf = 0x03d5,
         CEDirector = 0x01f5,
-        CompanyAirshipStatus = 0xf002,
-        CompanySubmersibleStatus = 0xf003,
+        CompanyAirshipStatus = 0x0206,
+        CompanySubmersibleStatus = 0x013b,
         ContentFinderNotifyPop = 0x026e,
         DirectorStart = 0xf005,
         EventPlay = 0x0276,
