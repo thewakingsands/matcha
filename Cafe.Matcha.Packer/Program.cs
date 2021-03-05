@@ -14,7 +14,7 @@ namespace Cafe.Matcha.Packer
     {
         private static void GenerateAssembly()
         {
-            string version = DateTime.Now.ToString("yy.M.d.Hmmss");
+            string version = DateTime.UtcNow.ToString("yy.M.d.Hmm");
 
             var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Cafe.Matcha\AssemblyCopyright.cs");
             var template = @"using System.Reflection;
