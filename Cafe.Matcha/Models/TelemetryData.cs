@@ -16,11 +16,8 @@ namespace Cafe.Matcha.Models
             Date = DateTime.Now.ToString("yyyy-MM-dd");
             Timestamp = DateTimeOffset.Now.ToUnixTimeMilliseconds();
 
-            if (ParsePlugin.Instance != null)
-            {
-                Server = ParsePlugin.Instance.GetServer();
-                Zone = ParsePlugin.Instance.GetZone();
-            }
+            Server = Network.State.WorldId;
+            Zone = Network.State.ZoneId;
         }
 
         [JsonProperty("server")]

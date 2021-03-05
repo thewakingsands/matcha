@@ -122,6 +122,7 @@
     <Compile Include="Constant\Secret.cs" />
     <Compile Include="Constant\Secret.Local.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Network\State.cs" />
     <Compile Include="Network\Universalis\Structures\UniversalisQueryResponse.cs" />
     <Compile Include="Telemetry\Opcode.cs" />
     <Compile Include="Utils\BindingTarget.cs" />

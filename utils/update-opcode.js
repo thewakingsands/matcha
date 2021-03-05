@@ -46,7 +46,15 @@ const request = (url) => new Promise((resolve, reject) => {
   req.end()
 })
 
-const outputOpcode = (key, value) => `${' '.repeat(8)}${key} = 0x${value.toString(16).padStart(4, '0')},`
+const outputOpcode = (key, value) => `${' '.repeat(12)}{ 0x${value.toString(16).padStart(4, '0')}, MatchaOpcode.${key} },`
+
+const outputKeys = () => opcodes.map((item, index) => {
+  if (typeof item === 'string') {
+    item = { key: item }
+  }
+
+  return `${' '.repeat(8)}${item.key},`
+}).join('\n')
 
 const outputFromKarashiiro = (list, region) => opcodes.map((item, index) => {
   if (typeof item === 'string') {
@@ -97,13 +105,23 @@ const outputFromWorker = (list) => opcodes.map((item, index) => {
 
 namespace Cafe.Matcha.Constant
 {
-    internal enum MatchaOpcode : ushort
+    using System.Collections.Generic;
+
+    internal enum MatchaOpcode
     {
-#if GLOBAL
+${outputKeys()}
+    }
+
+    internal static class OpcodeStorage
+    {
+        public static Dictionary<ushort, MatchaOpcode> Global = new Dictionary<ushort, MatchaOpcode>
+        {
 ${outputFromKarashiiro(globalOpcodes, 'global')}
-#else
+        };
+        public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
+        {
 ${outputFromWorker(cnOpcodes, 'cn')}
-#endif
+        };
     }
 }
 `)

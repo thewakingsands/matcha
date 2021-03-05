@@ -22,6 +22,23 @@ namespace Cafe.Matcha.Network
     {
         private Fate fateTelemetry = new Fate();
 
+        private bool ToMatchaOpcode(ushort opcode, out MatchaOpcode matchaOpcode)
+        {
+            var region = Config.Instance.Region;
+            switch (region)
+            {
+                case Region.Global:
+                    return OpcodeStorage.Global.TryGetValue(opcode, out matchaOpcode);
+
+                case Region.China:
+                    return OpcodeStorage.China.TryGetValue(opcode, out matchaOpcode);
+
+                default:
+                    matchaOpcode = default;
+                    return false;
+            }
+        }
+
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
             try
@@ -45,7 +62,11 @@ namespace Cafe.Matcha.Network
                 return;
             }
 
-            var opcode = (MatchaOpcode)BitConverter.ToUInt16(message, 18);
+            if (!ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
+            {
+                return;
+            }
+
             Universalis.Client.HandlePacket(opcode, message);
 
             var data = message.Skip(32).ToArray();
@@ -110,6 +131,7 @@ namespace Cafe.Matcha.Network
                                 Type = "start",
                                 Fate = code
                             });
+
                             fateTelemetry.Send(code);
                             break;
                         }
@@ -231,9 +253,10 @@ namespace Cafe.Matcha.Network
                     return;
                 }
 
+                State.ZoneId = BitConverter.ToUInt16(data, 2);
                 FireEvent(new InitZoneDTO()
                 {
-                    Zone = BitConverter.ToUInt16(data, 2),
+                    Zone = State.ZoneId,
                     Instance = BitConverter.ToUInt16(data, 6)
                 });
             }
@@ -296,9 +319,9 @@ namespace Cafe.Matcha.Network
                 {
                     Item = (int)itemId,
                     Count = count,
-                    World = (int)ParsePlugin.Instance.GetServer()
+                    World = State.WorldId
                 });
-                ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(itemId, FireEvent));
+                ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.WorldId, itemId, FireEvent));
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListing)
             {
@@ -335,7 +358,7 @@ namespace Cafe.Matcha.Network
                 {
                     Item = itemId,
                     Data = items,
-                    World = (int)ParsePlugin.Instance.GetServer()
+                    World = State.WorldId
                 });
             }
             else if (opcode == MatchaOpcode.ItemInfo)
@@ -441,6 +464,10 @@ namespace Cafe.Matcha.Network
                     Stage = data[10],
                     Progress = data[12],
                 });
+            }
+            else if (opcode == MatchaOpcode.PlayerSpawn)
+            {
+                State.WorldId = BitConverter.ToUInt16(data, 4);
             }
         }
 

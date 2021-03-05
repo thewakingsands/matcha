@@ -12,11 +12,11 @@
         private readonly List<MarketBoardItemRequest> _marketBoardRequests = new List<MarketBoardItemRequest>();
         private readonly Api _uploader;
 
-        public uint CurrentWorldId
+        public ushort CurrentWorldId
         {
             get
             {
-                return ParsePlugin.Instance.GetServer();
+                return State.WorldId;
             }
         }
 
@@ -55,7 +55,7 @@
                 {
                     try
                     {
-                        _uploader.Upload(request);
+                        _uploader.Upload(CurrentWorldId, request);
                     }
                     catch (Exception ex)
                     {

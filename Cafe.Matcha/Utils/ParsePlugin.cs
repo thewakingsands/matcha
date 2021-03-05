@@ -42,17 +42,6 @@ namespace Cafe.Matcha.Utils
             return _parsePlugin.DataRepository.GetCurrentTerritoryID();
         }
 
-        public uint GetServer()
-        {
-            var combatantList = _parsePlugin.DataRepository.GetCombatantList();
-            if (combatantList == null || combatantList.Count == 0)
-            {
-                return 0;
-            }
-
-            return combatantList[0].CurrentWorldID;
-        }
-
         public Language GetLanguage()
         {
             return _parsePlugin.DataRepository.GetSelectedLanguageID();

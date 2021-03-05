@@ -21,7 +21,7 @@ namespace Cafe.Matcha.Network.Universalis
             _apiKey = apiKey;
         }
 
-        public async void Upload(MarketBoardItemRequest request)
+        public async void Upload(ushort worldId, MarketBoardItemRequest request)
         {
             using (var client = new WebClient())
             {
@@ -29,7 +29,7 @@ namespace Cafe.Matcha.Network.Universalis
                 var uploader = _packetProcessor.LocalContentId;
 
                 var listingsRequestObject = new UniversalisItemListingsUploadRequest();
-                listingsRequestObject.WorldId = (int)_packetProcessor.CurrentWorldId;
+                listingsRequestObject.WorldId = worldId;
                 listingsRequestObject.UploaderId = uploader;
                 listingsRequestObject.ItemId = request.CatalogId;
 
@@ -67,7 +67,7 @@ namespace Cafe.Matcha.Network.Universalis
                 await Request.SendAsJson($"{ApiBase}/upload/{_apiKey}", "", listingsRequestObject);
 
                 var historyRequestObject = new UniversalisHistoryUploadRequest();
-                historyRequestObject.WorldId = (int)_packetProcessor.CurrentWorldId;
+                historyRequestObject.WorldId = worldId;
                 historyRequestObject.UploaderId = uploader;
                 historyRequestObject.ItemId = request.CatalogId;
 
@@ -92,7 +92,7 @@ namespace Cafe.Matcha.Network.Universalis
             }
         }
 
-        public static async Task<Dictionary<int, List<UniversalisItem>>> ListByDC(int worldId, uint itemId)
+        public static async Task<Dictionary<int, List<UniversalisItem>>> ListByDC(ushort worldId, uint itemId)
         {
             var hasWorld = Data.Instance.Worlds.TryGetValue(worldId, out var world);
             if (!hasWorld)
