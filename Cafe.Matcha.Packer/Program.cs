@@ -32,7 +32,9 @@ namespace Cafe.Matcha
     }
 }
 ";
-            File.WriteAllText(path, template.Replace("{0}", version).Replace("{1}", DateTime.Now.Year.ToString()));
+            var content = template.Replace("{0}", version).Replace("{1}", DateTime.Now.Year.ToString());
+            Console.WriteLine(content);
+            File.WriteAllText(path, content);
         }
 
         private static void Bundle(string env)
