@@ -95,24 +95,28 @@
                         <GroupBox x:Name="gSettingL12n" Header="区服设置" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
                             <Grid Height="30">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="3*"/>
                                     <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="3*"/>
                                 </Grid.ColumnDefinitions>
 
                                 <Label Content="区域" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
-                                <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Grid.Column="1" 
+                                <ComboBox HorizontalAlignment="Stretch" Margin="6,0" VerticalAlignment="Center" Grid.Column="1" 
                                           ItemsSource="{Binding Regions}"
                                           DisplayMemberPath="Name" SelectedValue="{Binding Region, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
                                           IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
                                 />
                                 <Label Content="语言" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="2" Margin="6,0,0,0"/>
-                                <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Grid.Column="3" 
+                                <ComboBox HorizontalAlignment="Stretch" Margin="6,0" VerticalAlignment="Center" Grid.Column="3" 
                                           ItemsSource="{Binding Languages}"
                                           DisplayMemberPath="Name" SelectedValue="{Binding Language, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
                                           IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
                                 />
+                                <Label Content="世界" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="4" Margin="6,0,0,0"/>
+                                <Label Content="{Binding World}"  Margin="6,0" VerticalAlignment="Center" Grid.Column="5" />
                             </Grid>
                         </GroupBox>
                         <GroupBox x:Name="gSettingOutput" Header="播报方式" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">

@@ -253,10 +253,10 @@ namespace Cafe.Matcha.Network
                     return;
                 }
 
-                State.ZoneId = BitConverter.ToUInt16(data, 2);
+                State.Instance.ZoneId = BitConverter.ToUInt16(data, 2);
                 FireEvent(new InitZoneDTO()
                 {
-                    Zone = State.ZoneId,
+                    Zone = State.Instance.ZoneId,
                     Instance = BitConverter.ToUInt16(data, 6)
                 });
             }
@@ -319,9 +319,9 @@ namespace Cafe.Matcha.Network
                 {
                     Item = (int)itemId,
                     Count = count,
-                    World = State.WorldId
+                    World = State.Instance.WorldId
                 });
-                ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.WorldId, itemId, FireEvent));
+                ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListing)
             {
@@ -358,7 +358,7 @@ namespace Cafe.Matcha.Network
                 {
                     Item = itemId,
                     Data = items,
-                    World = State.WorldId
+                    World = State.Instance.WorldId
                 });
             }
             else if (opcode == MatchaOpcode.ItemInfo)
@@ -467,7 +467,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.PlayerSpawn)
             {
-                State.WorldId = BitConverter.ToUInt16(data, 4);
+                State.Instance.WorldId = BitConverter.ToUInt16(data, 4);
             }
         }
 

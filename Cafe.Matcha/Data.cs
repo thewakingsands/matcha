@@ -60,9 +60,11 @@ namespace Cafe.Matcha
             ReadData(dataRoot, "template.json", out List<Models.Template> templates);
             Templates = templates;
 
+            IsLoaded = true;
             DataLoaded?.Invoke(this, EventArgs.Empty);
         }
 
+        public bool IsLoaded = false;
         public event EventHandler DataLoaded;
     }
 }

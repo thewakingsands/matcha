@@ -16,7 +16,7 @@
         {
             get
             {
-                return State.WorldId;
+                return State.Instance.WorldId;
             }
         }
 

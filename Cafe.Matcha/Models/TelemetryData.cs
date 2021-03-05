@@ -16,8 +16,8 @@ namespace Cafe.Matcha.Models
             Date = DateTime.Now.ToString("yyyy-MM-dd");
             Timestamp = DateTimeOffset.Now.ToUnixTimeMilliseconds();
 
-            Server = Network.State.WorldId;
-            Zone = Network.State.ZoneId;
+            Server = Network.State.Instance.WorldId;
+            Zone = Network.State.Instance.ZoneId;
         }
 
         [JsonProperty("server")]

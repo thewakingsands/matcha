@@ -222,6 +222,15 @@ namespace Cafe.Matcha.ViewModels
             Data.Instance.DataLoaded += (sender, e) =>
             {
                 Templates = new ListBindingTarget<Models.Template>(Data.Instance.Templates);
+                EmitPropertyChanged("World");
+            };
+
+            Network.State.Instance.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == "WorldId")
+                {
+                    EmitPropertyChanged("World");
+                }
             };
         }
 
@@ -291,6 +300,26 @@ namespace Cafe.Matcha.ViewModels
         }
 
         public string Log { get; set; } = "";
+        public string World
+        {
+            get
+            {
+                if (!Data.Instance.IsLoaded)
+                {
+                    return "-";
+                }
+
+                var valid = Data.Instance.Worlds.TryGetValue(Network.State.Instance.WorldId, out var value);
+                if (valid)
+                {
+                    return value.LocalName;
+                }
+                else
+                {
+                    return "-";
+                }
+            }
+        }
         public ListBindingTarget<Models.Template> Templates { get; set; } = Data.Instance.Templates != null ? new ListBindingTarget<Models.Template>(Data.Instance.Templates) : null;
         public Models.Template SelectedTemplate { get; set; } = null;
         public ListBindingTarget<FateTreeNodeWithChildren> Fates { get; set; } = FateTreeNodeWithChildren.Create(null);
