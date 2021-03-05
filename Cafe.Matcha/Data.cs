@@ -3,6 +3,7 @@
 
 namespace Cafe.Matcha
 {
+    using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Windows;
@@ -58,6 +59,10 @@ namespace Cafe.Matcha
             Fates = fates;
             ReadData(dataRoot, "template.json", out List<Models.Template> templates);
             Templates = templates;
+
+            DataLoaded?.Invoke(this, EventArgs.Empty);
         }
+
+        public event EventHandler DataLoaded;
     }
 }

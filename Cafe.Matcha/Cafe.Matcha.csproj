@@ -117,6 +117,7 @@
     <Compile Include="Constant\FishEventBiteType.cs" />
     <Compile Include="Constant\FishEventType.cs" />
     <Compile Include="Constant\MatchaOpcode.cs" />
+    <Compile Include="Constant\Region.cs" />
     <Compile Include="Constant\RequestType.cs" />
     <Compile Include="Constant\Secret.cs" />
     <Compile Include="Constant\Secret.Local.cs" />

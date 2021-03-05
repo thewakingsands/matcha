@@ -11,7 +11,7 @@
              mc:Ignorable="d" d:DesignWidth="800" Height="492.287">
 
     <UserControl.DataContext>
-        <ViewModels:MainViewModel/>
+        <ViewModels:MainViewModel />
     </UserControl.DataContext>
 
     <UserControl.Resources>
@@ -65,7 +65,7 @@
                                 <Button x:Name="bSettingClearFate" Content="清空" Grid.Column="1" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.Row="1" Height="24" Click="BSettingClearFate_Click"/>
                                 <Label Content="预置模板" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
                                 <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Width="213" Grid.Column="1" 
-                                          ItemsSource="{Binding Source={x:Static matcha:Data.Instance}, Path=Templates}"
+                                          ItemsSource="{Binding Templates}"
                                           DisplayMemberPath="LocalName" SelectedValue="{Binding SelectedTemplate}"
                                           IsEditable="True" IsReadOnly="True" Focusable="False" Text="-- 请选择 --"
                                 />
@@ -92,19 +92,41 @@
                         </GroupBox>
                     </DockPanel>
                     <DockPanel LastChildFill="False" Margin="6">
-                        <GroupBox x:Name="gSettingOutput" Header="播报方式" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
+                        <GroupBox x:Name="gSettingL12n" Header="区服设置" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
                             <Grid Height="30">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="16*"/>
-                                    <ColumnDefinition Width="78*"/>
-                                    <ColumnDefinition Width="93*"/>
-                                    <ColumnDefinition Width="93*"/>
-                                    <ColumnDefinition Width="93*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <CheckBox Content="通知" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.Toast, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.ColumnSpan="2" />
-                                <CheckBox Content="语音 (TTS)" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.TTS, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.Column="2"/>
-                                <Button x:Name="bSettingOutputTest" Content="测试" Grid.Column="4" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingOutputTest_Click"/>
+                                <Label Content="区域" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
+                                <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Grid.Column="1" 
+                                          ItemsSource="{Binding Regions}"
+                                          DisplayMemberPath="Name" SelectedValue="{Binding Region, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
+                                          IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
+                                />
+                                <Label Content="语言" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="2" Margin="6,0,0,0"/>
+                                <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Grid.Column="3" 
+                                          ItemsSource="{Binding Languages}"
+                                          DisplayMemberPath="Name" SelectedValue="{Binding Language, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
+                                          IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
+                                />
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox x:Name="gSettingOutput" Header="播报方式" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="通知" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.Toast, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
+                                <CheckBox Content="语音 (TTS)" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.TTS, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.Column="1"/>
+                                <Button x:Name="bSettingOutputTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingOutputTest_Click"/>
                             </Grid>
                         </GroupBox>
                         <GroupBox Header="钓鱼播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">

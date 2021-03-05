@@ -4,6 +4,7 @@
 namespace Cafe.Matcha.Utils
 {
     using Advanced_Combat_Tracker;
+    using FFXIV_ACT_Plugin.Common;
 
     internal class ParsePlugin
     {
@@ -50,6 +51,23 @@ namespace Cafe.Matcha.Utils
             }
 
             return combatantList[0].CurrentWorldID;
+        }
+
+        public Language GetLanguage()
+        {
+            return _parsePlugin.DataRepository.GetSelectedLanguageID();
+        }
+
+        public Constant.Region GetRegion()
+        {
+            var language = GetLanguage();
+            switch (language)
+            {
+                case Language.Chinese:
+                    return Constant.Region.China;
+                default:
+                    return Constant.Region.Global;
+            }
         }
 
         private void HandleMessageSent(string connection, long epoch, byte[] message)

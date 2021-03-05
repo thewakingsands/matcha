@@ -3,6 +3,9 @@
 
 namespace Cafe.Matcha.Utils
 {
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Collections.Specialized;
     using System.ComponentModel;
 
     public class BindingTarget : INotifyPropertyChanged
@@ -18,5 +21,22 @@ namespace Cafe.Matcha.Utils
     public class StaticBindingTarget<T> : BindingTarget where T : new()
     {
         public static T Instance { get; } = new T();
+    }
+
+    public class ListBindingTarget<T> : ObservableCollection<T>
+    {
+        public ListBindingTarget() : base() { }
+        public ListBindingTarget(List<T> list) : base(list) { }
+        public ListBindingTarget(IEnumerable<T> collection) : base(collection) { }
+
+        public void EmitCollectionChanged(NotifyCollectionChangedEventArgs e)
+        {
+            OnCollectionChanged(e);
+        }
+
+        public void EmitPropertyChanged(PropertyChangedEventArgs e)
+        {
+            OnPropertyChanged(e);
+        }
     }
 }

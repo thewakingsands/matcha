@@ -7,17 +7,29 @@ namespace Cafe.Matcha.Models
     using System.Collections.ObjectModel;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.Utils;
+    using FFXIV_ACT_Plugin.Common;
     using Newtonsoft.Json;
 
     public class ConfigData : BindingTarget
     {
-        public ConfigData() : this(null, null, null, null, null, null, null)
+        public ConfigData() : this(null, null, null, null, null, null, null, null, null)
         {
         }
 
         [JsonConstructor]
-        private ConfigData(string uuid, ConfigOutput output, ConfigFormatter formatter, ConfigLogger logger, ConfigWatch watch, ConfigOverlay overlay, ObservableCollection<ConfigWebhook> webhook)
+        private ConfigData(
+            Region? region,
+            Language? language,
+            string uuid,
+            ConfigOutput output,
+            ConfigFormatter formatter,
+            ConfigLogger logger,
+            ConfigWatch watch,
+            ConfigOverlay overlay,
+            ObservableCollection<ConfigWebhook> webhook)
         {
+            Region = region;
+            Language = language;
             UUID = uuid ?? null;
             Output = output ?? new ConfigOutput();
             Formatter = formatter ?? new ConfigFormatter();
@@ -27,8 +39,15 @@ namespace Cafe.Matcha.Models
             Webhook = webhook ?? new ObservableCollection<ConfigWebhook>();
         }
 
+        [JsonProperty("region")]
+        public Region? Region { get; set; }
+
+        [JsonProperty("language")]
+        public Language? Language { get; set; }
+
         public string UUID { get; set; }
 
+        [JsonIgnore]
         public uint UUIDHash
         {
             get

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:ViewModels="clr-namespace:Cafe.Matcha.ViewModels"
         mc:Ignorable="d"
-        Title="TelemetrySetting" Height="150" Width="480" ResizeMode="NoResize" SourceInitialized="Window_SourceInitialized">
+        Title="TelemetrySetting" Height="192" Width="480" ResizeMode="NoResize" SourceInitialized="Window_SourceInitialized">
     
     <Window.DataContext>
         <ViewModels:TelemetrySetting />
@@ -21,6 +21,12 @@
             <TextBlock Margin="0,6,0,0">
                 有关公共数据汇报的具体细节，请查看
                 <Hyperlink NavigateUri="https://ffcafe.org/matcha/privacy" RequestNavigate="Hyperlink_RequestNavigate">隐私声明</Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="0,6,0,0">
+                注意：依照《通用数据保护条例》，欧盟用户请勿启用公共数据汇报
+            </TextBlock>
+            <TextBlock>
+                Notice: Accroding to GDPR, EU users should not enable telemetry.
             </TextBlock>
         </StackPanel>
         <Grid Height="44" VerticalAlignment="Bottom" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
