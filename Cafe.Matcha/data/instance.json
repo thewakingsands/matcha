@@ -1,7 +1,11 @@
 {
   "1": {
     "name": {
-      "chs": "监狱废墟托托·拉克千狱"
+      "chs": "监狱废墟托托·拉克千狱",
+      "en": "the Thousand Maws of Toto–Rak",
+      "ja": "監獄廃墟 トトラクの千獄",
+      "de": "Tausend Löcher von Toto-Rak",
+      "fr": "les Mille Gueules de Toto-Rak"
     },
     "type": 2,
     "level": 24,
@@ -12,7 +16,11 @@
   },
   "2": {
     "name": {
-      "chs": "地下灵殿塔姆·塔拉墓园"
+      "chs": "地下灵殿塔姆·塔拉墓园",
+      "en": "the Tam–Tara Deepcroft",
+      "ja": "地下霊殿 タムタラの墓所",
+      "de": "Totenacker Tam-Tara",
+      "fr": "l'Hypogée de Tam-Tara"
     },
     "type": 2,
     "level": 16,
@@ -23,7 +31,11 @@
   },
   "3": {
     "name": {
-      "chs": "封锁坑道铜铃铜山"
+      "chs": "封锁坑道铜铃铜山",
+      "en": "Copperbell Mines",
+      "ja": "封鎖坑道 カッパーベル銅山",
+      "de": "Kupferglocken-Mine",
+      "fr": "les Mines de Clochecuivre"
     },
     "type": 2,
     "level": 17,
@@ -34,7 +46,11 @@
   },
   "4": {
     "name": {
-      "chs": "天然要害沙斯塔夏溶洞"
+      "chs": "天然要害沙斯塔夏溶洞",
+      "en": "Sastasha",
+      "ja": "天然要害 サスタシャ浸食洞",
+      "de": "Sastasha",
+      "fr": "Sastasha"
     },
     "type": 2,
     "level": 15,
@@ -45,7 +61,11 @@
   },
   "5": {
     "name": {
-      "chs": "毒雾洞窟黄金谷"
+      "chs": "毒雾洞窟黄金谷",
+      "en": "the Aurum Vale",
+      "ja": "霧中行軍 オーラムヴェイル",
+      "de": "Goldklamm",
+      "fr": "le Val d'Aurum"
     },
     "type": 2,
     "level": 47,
@@ -56,7 +76,11 @@
   },
   "6": {
     "name": {
-      "chs": "名门府邸静语庄园"
+      "chs": "名门府邸静语庄园",
+      "en": "Haukke Manor",
+      "ja": "名門屋敷 ハウケタ御用邸",
+      "de": "Haukke-Herrenhaus",
+      "fr": "le Manoir des Haukke"
     },
     "type": 2,
     "level": 28,
@@ -67,7 +91,11 @@
   },
   "7": {
     "name": {
-      "chs": "魔兽领域日影地修炼所"
+      "chs": "魔兽领域日影地修炼所",
+      "en": "Halatali",
+      "ja": "魔獣領域 ハラタリ修練所",
+      "de": "Halatali",
+      "fr": "Halatali"
     },
     "type": 2,
     "level": 20,
@@ -78,7 +106,11 @@
   },
   "8": {
     "name": {
-      "chs": "休养胜地布雷福洛克斯野营地"
+      "chs": "休养胜地布雷福洛克斯野营地",
+      "en": "Brayflox's Longstop",
+      "ja": "奪還支援 ブレイフロクスの野営地",
+      "de": "Brüllvolx' Langrast",
+      "fr": "le Bivouac de Brayflox"
     },
     "type": 2,
     "level": 32,
@@ -89,7 +121,11 @@
   },
   "9": {
     "name": {
-      "chs": "古代遗迹喀恩埋没圣堂"
+      "chs": "古代遗迹喀恩埋没圣堂",
+      "en": "the Sunken Temple of Qarn",
+      "ja": "遺跡探索 カルン埋没寺院",
+      "de": "Versunkener Tempel von Qarn",
+      "fr": "le Temple enseveli de Qarn"
     },
     "type": 2,
     "level": 35,
@@ -100,7 +136,11 @@
   },
   "10": {
     "name": {
-      "chs": "神灵圣域放浪神古神殿"
+      "chs": "神灵圣域放浪神古神殿",
+      "en": "the Wanderer's Palace",
+      "ja": "旅神聖域 ワンダラーパレス",
+      "de": "Palast des Wanderers",
+      "fr": "le Palais du Vagabond"
     },
     "type": 2,
     "level": 50,
@@ -111,7 +151,11 @@
   },
   "11": {
     "name": {
-      "chs": "对龙城塞石卫塔"
+      "chs": "对龙城塞石卫塔",
+      "en": "the Stone Vigil",
+      "ja": "城塞攻略 ストーンヴィジル",
+      "de": "Steinerne Wacht",
+      "fr": "le Vigile de Pierre"
     },
     "type": 2,
     "level": 41,
@@ -122,7 +166,11 @@
   },
   "12": {
     "name": {
-      "chs": "流沙迷宫樵鸣洞"
+      "chs": "流沙迷宫樵鸣洞",
+      "en": "Cutter's Cry",
+      "ja": "流砂迷宮 カッターズクライ",
+      "de": "Sägerschrei",
+      "fr": "le Gouffre hurlant"
     },
     "type": 2,
     "level": 38,
@@ -133,7 +181,11 @@
   },
   "13": {
     "name": {
-      "chs": "山中战线泽梅尔要塞"
+      "chs": "山中战线泽梅尔要塞",
+      "en": "Dzemael Darkhold",
+      "ja": "掃討作戦 ゼーメル要塞",
+      "de": "Die Feste Dzemael",
+      "fr": "la Forteresse de Dzemael"
     },
     "type": 2,
     "level": 44,
@@ -144,7 +196,11 @@
   },
   "14": {
     "name": {
-      "chs": "邪教驻地无限城古堡"
+      "chs": "邪教驻地无限城古堡",
+      "en": "Amdapor Keep",
+      "ja": "邪教排撃 古城アムダプール",
+      "de": "Die Ruinen von Amdapor",
+      "fr": "le Château d'Amdapor"
     },
     "type": 2,
     "level": 50,
@@ -155,7 +211,11 @@
   },
   "15": {
     "name": {
-      "chs": "帝国南方堡外围激战"
+      "chs": "帝国南方堡外围激战",
+      "en": "Castrum Meridianum",
+      "ja": "外郭攻略 カストルム・メリディアヌム",
+      "de": "Castrum Meridianum - Außenbereich",
+      "fr": "Castrum Meridianum"
     },
     "type": 2,
     "level": 50,
@@ -166,7 +226,11 @@
   },
   "16": {
     "name": {
-      "chs": "天幕魔导城最终决战"
+      "chs": "天幕魔导城最终决战",
+      "en": "the Praetorium",
+      "ja": "最終決戦 魔導城プラエトリウム",
+      "de": "Castrum Meridianum - Praetorium",
+      "fr": "le Praetorium"
     },
     "type": 2,
     "level": 50,
@@ -177,7 +241,11 @@
   },
   "17": {
     "name": {
-      "chs": "领航明灯天狼星灯塔"
+      "chs": "领航明灯天狼星灯塔",
+      "en": "Pharos Sirius",
+      "ja": "怪鳥巨塔 シリウス大灯台",
+      "de": "Pharos Sirius",
+      "fr": "le Phare de Sirius"
     },
     "type": 2,
     "level": 50,
@@ -188,7 +256,11 @@
   },
   "18": {
     "name": {
-      "chs": "骚乱坑道铜铃铜山"
+      "chs": "骚乱坑道铜铃铜山",
+      "en": "Copperbell Mines (Hard)",
+      "ja": "騒乱坑道 カッパーベル銅山 (Hard)",
+      "de": "Kupferglocken-Mine (schwer)",
+      "fr": "les Mines de Clochecuivre (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -199,7 +271,11 @@
   },
   "19": {
     "name": {
-      "chs": "恶灵府邸静语庄园"
+      "chs": "恶灵府邸静语庄园",
+      "en": "Haukke Manor (Hard)",
+      "ja": "妖異屋敷 ハウケタ御用邸 (Hard)",
+      "de": "Haukke-Herrenhaus (schwer)",
+      "fr": "le Manoir des Haukke (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -210,7 +286,11 @@
   },
   "20": {
     "name": {
-      "chs": "纷争要地布雷福洛克斯野营地"
+      "chs": "纷争要地布雷福洛克斯野营地",
+      "en": "Brayflox's Longstop (Hard)",
+      "ja": "盟友支援 ブレイフロクスの野営地 (Hard)",
+      "de": "Brüllvolx' Langrast (schwer)",
+      "fr": "le Bivouac de Brayflox (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -221,7 +301,11 @@
   },
   "21": {
     "name": {
-      "chs": "剑斗领域日影地修炼所"
+      "chs": "剑斗领域日影地修炼所",
+      "en": "Halatali (Hard)",
+      "ja": "剣闘領域 ハラタリ修練所 (Hard)",
+      "de": "Halatali (schwer)",
+      "fr": "Halatali (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -232,7 +316,11 @@
   },
   "22": {
     "name": {
-      "chs": "腐坏遗迹无限城市街古迹"
+      "chs": "腐坏遗迹无限城市街古迹",
+      "en": "the Lost City of Amdapor",
+      "ja": "腐敗遺跡 古アムダプール市街",
+      "de": "Historisches Amdapor",
+      "fr": "les Vestiges de la cité d'Amdapor"
     },
     "type": 2,
     "level": 50,
@@ -243,7 +331,11 @@
   },
   "23": {
     "name": {
-      "chs": "财宝传说破舰岛"
+      "chs": "财宝传说破舰岛",
+      "en": "Hullbreaker Isle",
+      "ja": "財宝伝説 ハルブレーカー・アイル",
+      "de": "Schiffbrecher-Insel",
+      "fr": "l'Île de Crèvecarène"
     },
     "type": 2,
     "level": 50,
@@ -254,7 +346,11 @@
   },
   "24": {
     "name": {
-      "chs": "惨剧灵殿塔姆·塔拉墓园"
+      "chs": "惨剧灵殿塔姆·塔拉墓园",
+      "en": "the Tam–Tara Deepcroft (Hard)",
+      "ja": "惨劇霊殿 タムタラの墓所 (Hard)",
+      "de": "Totenacker Tam-Tara (schwer)",
+      "fr": "l'Hypogée de Tam-Tara (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -265,7 +361,11 @@
   },
   "25": {
     "name": {
-      "chs": "激战城塞石卫塔"
+      "chs": "激战城塞石卫塔",
+      "en": "the Stone Vigil (Hard)",
+      "ja": "城塞奪回 ストーンヴィジル (Hard)",
+      "de": "Steinerne Wacht (schwer)",
+      "fr": "le Vigile de Pierre (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -276,7 +376,11 @@
   },
   "26": {
     "name": {
-      "chs": "苏醒遗迹喀恩埋没圣堂"
+      "chs": "苏醒遗迹喀恩埋没圣堂",
+      "en": "the Sunken Temple of Qarn (Hard)",
+      "ja": "遺跡救援 カルン埋没寺院 (Hard)",
+      "de": "Versunkener Tempel von Qarn (schwer)",
+      "fr": "le Temple enseveli de Qarn (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -287,7 +391,11 @@
   },
   "27": {
     "name": {
-      "chs": "凛冽洞天披雪大冰壁"
+      "chs": "凛冽洞天披雪大冰壁",
+      "en": "Snowcloak",
+      "ja": "氷結潜窟 スノークローク大氷壁",
+      "de": "Das Schneekleid",
+      "fr": "Manteneige"
     },
     "type": 2,
     "level": 50,
@@ -298,7 +406,11 @@
   },
   "28": {
     "name": {
-      "chs": "逆转要害沙斯塔夏溶洞"
+      "chs": "逆转要害沙斯塔夏溶洞",
+      "en": "Sastasha (Hard)",
+      "ja": "逆襲要害 サスタシャ浸食洞 (Hard)",
+      "de": "Sastasha (schwer)",
+      "fr": "Sastasha (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -309,7 +421,11 @@
   },
   "29": {
     "name": {
-      "chs": "邪念妖地无限城古堡"
+      "chs": "邪念妖地无限城古堡",
+      "en": "Amdapor Keep (Hard)",
+      "ja": "邪念排撃 古城アムダプール (Hard)",
+      "de": "Die Ruinen von Amdapor (schwer)",
+      "fr": "le Château d'Amdapor (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -320,7 +436,11 @@
   },
   "30": {
     "name": {
-      "chs": "武装圣域放浪神古神殿"
+      "chs": "武装圣域放浪神古神殿",
+      "en": "the Wanderer's Palace (Hard)",
+      "ja": "武装聖域 ワンダラーパレス (Hard)",
+      "de": "Palast des Wanderers (schwer)",
+      "fr": "le Palais du Vagabond (brutal)"
     },
     "type": 2,
     "level": 50,
@@ -331,7 +451,11 @@
   },
   "31": {
     "name": {
-      "chs": "学识宝库迦巴勒幻想图书馆"
+      "chs": "学识宝库迦巴勒幻想图书馆",
+      "en": "the Great Gubal Library",
+      "ja": "禁書回収 グブラ幻想図書館",
+      "de": "Große Gubal-Bibliothek",
+      "fr": "la Grande bibliothèque de Gubal"
     },
     "type": 2,
     "level": 59,
@@ -342,7 +466,11 @@
   },
   "32": {
     "name": {
-      "chs": "幻龙残骸密约之塔"
+      "chs": "幻龙残骸密约之塔",
+      "en": "the Keeper of the Lake",
+      "ja": "幻龍残骸 黙約の塔",
+      "de": "Hüter des Sees",
+      "fr": "le Gardien du lac"
     },
     "type": 2,
     "level": 50,
@@ -353,7 +481,11 @@
   },
   "33": {
     "name": {
-      "chs": "空中神域不获岛"
+      "chs": "空中神域不获岛",
+      "en": "Neverreap",
+      "ja": "神域浮島 ネバーリープ",
+      "de": "Nimmerreich",
+      "fr": "Nalloncques"
     },
     "type": 2,
     "level": 60,
@@ -364,7 +496,11 @@
   },
   "34": {
     "name": {
-      "chs": "圣教中枢伊修加德教皇厅"
+      "chs": "圣教中枢伊修加德教皇厅",
+      "en": "the Vault",
+      "ja": "強硬突入 イシュガルド教皇庁",
+      "de": "Erzbasilika",
+      "fr": "La Voûte"
     },
     "type": 2,
     "level": 57,
@@ -375,7 +511,11 @@
   },
   "35": {
     "name": {
-      "chs": "博物战舰无限回廊"
+      "chs": "博物战舰无限回廊",
+      "en": "the Fractal Continuum",
+      "ja": "博物戦艦 フラクタル・コンティニアム",
+      "de": "Die Fraktal-Kontinuum",
+      "fr": "Le Continuum fractal"
     },
     "type": 2,
     "level": 60,
@@ -386,7 +526,11 @@
   },
   "36": {
     "name": {
-      "chs": "冰雪废堡暮卫塔"
+      "chs": "冰雪废堡暮卫塔",
+      "en": "the Dusk Vigil",
+      "ja": "廃砦捜索 ダスクヴィジル",
+      "de": "Abendrot-Wacht",
+      "fr": "le Vigile du Crépuscule"
     },
     "type": 2,
     "level": 51,
@@ -397,7 +541,11 @@
   },
   "37": {
     "name": {
-      "chs": "天山绝顶索姆阿尔灵峰"
+      "chs": "天山绝顶索姆阿尔灵峰",
+      "en": "Sohm Al",
+      "ja": "霊峰踏破 ソーム・アル",
+      "de": "Sohm Al",
+      "fr": "Sohm Al"
     },
     "type": 2,
     "level": 53,
@@ -408,7 +556,11 @@
   },
   "38": {
     "name": {
-      "chs": "血战苍穹魔科学研究所"
+      "chs": "血战苍穹魔科学研究所",
+      "en": "the Aetherochemical Research Facility",
+      "ja": "蒼天聖戦 魔科学研究所",
+      "de": "Ätherochemisches Forschungslabor",
+      "fr": "le Laboratoire de magismologie"
     },
     "type": 2,
     "level": 60,
@@ -419,7 +571,11 @@
   },
   "39": {
     "name": {
-      "chs": "邪龙王座龙巢神殿"
+      "chs": "邪龙王座龙巢神殿",
+      "en": "the Aery",
+      "ja": "邪竜血戦 ドラゴンズエアリー",
+      "de": "Nest des Drachen",
+      "fr": "L'Aire"
     },
     "type": 2,
     "level": 55,
@@ -430,7 +586,11 @@
   },
   "40": {
     "name": {
-      "chs": "地脉灵灯天狼星灯塔"
+      "chs": "地脉灵灯天狼星灯塔",
+      "en": "Pharos Sirius (Hard)",
+      "ja": "制圧巨塔 シリウス大灯台 (Hard)",
+      "de": "Pharos Sirius (schwer)",
+      "fr": "le Phare de Sirius (brutal)"
     },
     "type": 2,
     "level": 60,
@@ -441,7 +601,11 @@
   },
   "41": {
     "name": {
-      "chs": "草木庭园圣茉夏娜植物园"
+      "chs": "草木庭园圣茉夏娜植物园",
+      "en": "Saint Mocianne's Arboretum",
+      "ja": "草木庭園 聖モシャーヌ植物園",
+      "de": "Sankt Mocianne-Arboretum",
+      "fr": "l'Arboretum Sainte-Mocianne"
     },
     "type": 2,
     "level": 60,
@@ -452,7 +616,11 @@
   },
   "42": {
     "name": {
-      "chs": "完成集团战训练！"
+      "chs": "完成集团战训练！",
+      "en": "Basic Training: Enemy Parties",
+      "ja": "集団戦訓練をくぐり抜けろ！",
+      "de": "Einer für alle, alle für einen",
+      "fr": "Entraînement: groupes d'ennemis"
     },
     "type": 3,
     "level": 10,
@@ -463,7 +631,11 @@
   },
   "43": {
     "name": {
-      "chs": "讨伐彷徨死灵！"
+      "chs": "讨伐彷徨死灵！",
+      "en": "Under the Armor",
+      "ja": "彷徨う死霊を討て！",
+      "de": "Bockmanns Gefolge",
+      "fr": "Chasse au fantôme fantoche"
     },
     "type": 3,
     "level": 10,
@@ -474,7 +646,11 @@
   },
   "44": {
     "name": {
-      "chs": "突破所有关门，讨伐最深处的敌人！"
+      "chs": "突破所有关门，讨伐最深处的敌人！",
+      "en": "Basic Training: Enemy Strongholds",
+      "ja": "全関門を突破し、最深部の敵を討て！",
+      "de": "Sturmkommando",
+      "fr": "Entraînement: infiltration en base ennemie"
     },
     "type": 3,
     "level": 15,
@@ -485,7 +661,11 @@
   },
   "45": {
     "name": {
-      "chs": "捕获金币龟！"
+      "chs": "捕获金币龟！",
+      "en": "Hero on the Half Shell",
+      "ja": "ギルガメを捕獲せよ！",
+      "de": "Gil oder Leben",
+      "fr": "Reconquête d'une carapace escamotée"
     },
     "type": 3,
     "level": 15,
@@ -496,7 +676,11 @@
   },
   "46": {
     "name": {
-      "chs": "驱除剧毒妖花！"
+      "chs": "驱除剧毒妖花！",
+      "en": "Pulling Poison Posies",
+      "ja": "有毒妖花を駆除せよ！",
+      "de": "Unkraut jäten",
+      "fr": "Opération fleurs du mal"
     },
     "type": 3,
     "level": 20,
@@ -507,7 +691,11 @@
   },
   "47": {
     "name": {
-      "chs": "消灭恶徒团伙寄生蜂团！"
+      "chs": "消灭恶徒团伙寄生蜂团！",
+      "en": "Stinging Back",
+      "ja": "無法者「似我蜂団」を撃滅せよ！",
+      "de": "Ins Wespennest stechen",
+      "fr": "Expédition punitive contre les Ventrerouge"
     },
     "type": 3,
     "level": 20,
@@ -518,7 +706,11 @@
   },
   "48": {
     "name": {
-      "chs": "讨伐梦幻之布拉奇希奥！"
+      "chs": "讨伐梦幻之布拉奇希奥！",
+      "en": "All's Well that Ends in the Well",
+      "ja": "夢幻のブラキシオを討て！",
+      "de": "Briaxio ausschalten",
+      "fr": "Briaxio à bras raccourcis"
     },
     "type": 3,
     "level": 25,
@@ -529,7 +721,11 @@
   },
   "49": {
     "name": {
-      "chs": "击溃哥布林炸弹军团！"
+      "chs": "击溃哥布林炸弹军团！",
+      "en": "Flicking Sticks and Taking Names",
+      "ja": "爆弾魔ゴブリン軍団を撃滅せよ！",
+      "de": "Bombige Goblins",
+      "fr": "Les Gobelins bombardiers"
     },
     "type": 3,
     "level": 25,
@@ -540,7 +736,11 @@
   },
   "50": {
     "name": {
-      "chs": "讨伐污染源头魔界花！"
+      "chs": "讨伐污染源头魔界花！",
+      "en": "More than a Feeler",
+      "ja": "汚染源モルボルを討て！",
+      "de": "Tödliches Rankenspiel",
+      "fr": "Sus au morbol pollueur"
     },
     "type": 3,
     "level": 30,
@@ -551,7 +751,11 @@
   },
   "51": {
     "name": {
-      "chs": "讨伐坑道中出现的妖异！"
+      "chs": "讨伐坑道中出现的妖异！",
+      "en": "Annoy the Void",
+      "ja": "坑道に現れた妖異ブソを討て！",
+      "de": "Gefahr aus dem Nichts",
+      "fr": "Buso l'immolateur"
     },
     "type": 3,
     "level": 30,
@@ -562,7 +766,11 @@
   },
   "52": {
     "name": {
-      "chs": "注意无敌的眷属，讨伐大型妖异！"
+      "chs": "注意无敌的眷属，讨伐大型妖异！",
+      "en": "Shadow and Claw",
+      "ja": "無敵の眷属を従えし、大型妖異を討て！",
+      "de": "Kampf gegen Schatten",
+      "fr": "Ombres et griffes"
     },
     "type": 3,
     "level": 35,
@@ -573,7 +781,11 @@
   },
   "53": {
     "name": {
-      "chs": "讨伐爆弹怪的女王！"
+      "chs": "讨伐爆弹怪的女王！",
+      "en": "Long Live the Queen",
+      "ja": "ボムを率いる「ボムクイーン」を討て！",
+      "de": "Miss Bombastic",
+      "fr": "Longue vie à la Reine"
     },
     "type": 3,
     "level": 35,
@@ -584,7 +796,11 @@
   },
   "54": {
     "name": {
-      "chs": "歼灭特殊阵型的妖异！"
+      "chs": "歼灭特殊阵型的妖异！",
+      "en": "Ward Up",
+      "ja": "不気味な陣形を組む妖異をせん滅せよ！",
+      "de": "Unzertrennlich",
+      "fr": "Quintettes infernaux"
     },
     "type": 3,
     "level": 40,
@@ -595,7 +811,11 @@
   },
   "55": {
     "name": {
-      "chs": "制止三方混战的巨人族，守住遗物！"
+      "chs": "制止三方混战的巨人族，守住遗物！",
+      "en": "Solemn Trinity",
+      "ja": "三つ巴の巨人族を制し、遺物を守れ！",
+      "de": "Wuchtige Dreifaltigkeit",
+      "fr": "Trinité sinistre"
     },
     "type": 3,
     "level": 40,
@@ -606,7 +826,11 @@
   },
   "56": {
     "name": {
-      "chs": "伊弗利特讨伐战"
+      "chs": "伊弗利特讨伐战",
+      "en": "the Bowl of Embers",
+      "ja": "イフリート討伐戦",
+      "de": "Das Grab der Lohe",
+      "fr": "le Cratère des tisons"
     },
     "type": 4,
     "level": 20,
@@ -617,7 +841,11 @@
   },
   "57": {
     "name": {
-      "chs": "泰坦讨伐战"
+      "chs": "泰坦讨伐战",
+      "en": "the Navel",
+      "ja": "タイタン討伐戦",
+      "de": "Der Nabel",
+      "fr": "le Nombril"
     },
     "type": 4,
     "level": 34,
@@ -628,7 +856,11 @@
   },
   "58": {
     "name": {
-      "chs": "迦楼罗讨伐战"
+      "chs": "迦楼罗讨伐战",
+      "en": "the Howling Eye",
+      "ja": "ガルーダ討伐戦",
+      "de": "Das Tosende Auge",
+      "fr": "Hurlœil"
     },
     "type": 4,
     "level": 44,
@@ -639,7 +871,11 @@
   },
   "59": {
     "name": {
-      "chs": "伊弗利特歼灭战"
+      "chs": "伊弗利特歼灭战",
+      "en": "the Bowl of Embers (Hard)",
+      "ja": "真イフリート討滅戦",
+      "de": "Götterdämmerung - Ifrit",
+      "fr": "le Cratère des tisons (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -650,7 +886,11 @@
   },
   "60": {
     "name": {
-      "chs": "泰坦歼灭战"
+      "chs": "泰坦歼灭战",
+      "en": "the Navel (Hard)",
+      "ja": "真タイタン討滅戦",
+      "de": "Götterdämmerung - Titan",
+      "fr": "le Nombril (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -661,7 +901,11 @@
   },
   "61": {
     "name": {
-      "chs": "迦楼罗歼灭战"
+      "chs": "迦楼罗歼灭战",
+      "en": "the Howling Eye (Hard)",
+      "ja": "真ガルーダ討滅戦",
+      "de": "Götterdämmerung - Garuda",
+      "fr": "Hurlœil (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -672,7 +916,11 @@
   },
   "62": {
     "name": {
-      "chs": "里塔提恩强攻战"
+      "chs": "里塔提恩强攻战",
+      "en": "Cape Westwind",
+      "ja": "リットアティン強襲戦",
+      "de": "Kap Westwind",
+      "fr": "le Cap Vendouest"
     },
     "type": 4,
     "level": 49,
@@ -683,7 +931,11 @@
   },
   "63": {
     "name": {
-      "chs": "伊弗利特歼殛战"
+      "chs": "伊弗利特歼殛战",
+      "en": "the Bowl of Embers (Extreme)",
+      "ja": "極イフリート討滅戦",
+      "de": "Zenit der Götter - Ifrit",
+      "fr": "le Cratère des tisons (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -694,7 +946,11 @@
   },
   "64": {
     "name": {
-      "chs": "泰坦歼殛战"
+      "chs": "泰坦歼殛战",
+      "en": "the Navel (Extreme)",
+      "ja": "極タイタン討滅戦",
+      "de": "Zenit der Götter - Titan",
+      "fr": "le Nombril (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -705,7 +961,11 @@
   },
   "65": {
     "name": {
-      "chs": "迦楼罗歼殛战"
+      "chs": "迦楼罗歼殛战",
+      "en": "the Howling Eye (Extreme)",
+      "ja": "極ガルーダ討滅戦",
+      "de": "Zenit der Götter - Garuda",
+      "fr": "Hurlœil (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -716,7 +976,11 @@
   },
   "66": {
     "name": {
-      "chs": "莫古力贤王歼灭战"
+      "chs": "莫古力贤王歼灭战",
+      "en": "Thornmarch (Hard)",
+      "ja": "善王モグル・モグXII世討滅戦",
+      "de": "Königliche Konfrontation (schwer)",
+      "fr": "la Lisière de ronces (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -727,7 +991,11 @@
   },
   "67": {
     "name": {
-      "chs": "莫古力贤王歼殛战"
+      "chs": "莫古力贤王歼殛战",
+      "en": "Thornmarch (Extreme)",
+      "ja": "極王モグル・モグXII世討滅戦",
+      "de": "Königliche Konfrontation (extrem)",
+      "fr": "la Lisière de ronces (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -738,7 +1006,11 @@
   },
   "68": {
     "name": {
-      "chs": "究极神兵破坏作战"
+      "chs": "究极神兵破坏作战",
+      "en": "the Minstrel's Ballad: Ultima's Bane",
+      "ja": "究極幻想 アルテマウェポン破壊作戦",
+      "de": "Heldenlied von Ultima",
+      "fr": "le fléau d'Ultima"
     },
     "type": 4,
     "level": 50,
@@ -749,7 +1021,11 @@
   },
   "69": {
     "name": {
-      "chs": "活动挑战1"
+      "chs": "活动挑战1",
+      "en": "Special Event III",
+      "ja": "イベント用コンテンツ：3",
+      "de": "Event-Inhalt 3",
+      "fr": "Défi spécial III"
     },
     "type": 4,
     "level": 50,
@@ -760,7 +1036,11 @@
   },
   "70": {
     "name": {
-      "chs": "活动挑战2"
+      "chs": "活动挑战2",
+      "en": "Special Event I",
+      "ja": "イベント用コンテンツ：1",
+      "de": "Event-Inhalt 1",
+      "fr": "Défi spécial I"
     },
     "type": 4,
     "level": 70,
@@ -771,7 +1051,11 @@
   },
   "71": {
     "name": {
-      "chs": "活动挑战3"
+      "chs": "活动挑战3",
+      "en": "Special Event II",
+      "ja": "イベント用コンテンツ：2",
+      "de": "Event-Inhalt 2",
+      "fr": "Défi spécial II"
     },
     "type": 4,
     "level": 73,
@@ -782,7 +1066,11 @@
   },
   "72": {
     "name": {
-      "chs": "利维亚桑歼灭战"
+      "chs": "利维亚桑歼灭战",
+      "en": "the Whorleater (Hard)",
+      "ja": "真リヴァイアサン討滅戦",
+      "de": "Götterdämmerung - Leviathan",
+      "fr": "le Briseur de marées (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -793,7 +1081,11 @@
   },
   "73": {
     "name": {
-      "chs": "利维亚桑歼殛战"
+      "chs": "利维亚桑歼殛战",
+      "en": "the Whorleater (Extreme)",
+      "ja": "極リヴァイアサン討滅戦",
+      "de": "Zenit der Götter - Leviathan",
+      "fr": "le Briseur de marées (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -804,7 +1096,11 @@
   },
   "74": {
     "name": {
-      "chs": "死化奇美拉讨伐战"
+      "chs": "死化奇美拉讨伐战",
+      "en": "A Relic Reborn: the Chimera",
+      "ja": "ドルムキマイラ討伐戦",
+      "de": "Kampf gegen die Dhorme-Chimära",
+      "fr": "la chimère dhorme du Coerthas"
     },
     "type": 4,
     "level": 50,
@@ -815,7 +1111,11 @@
   },
   "75": {
     "name": {
-      "chs": "海德拉讨伐战"
+      "chs": "海德拉讨伐战",
+      "en": "A Relic Reborn: the Hydra",
+      "ja": "ハイドラ討伐戦",
+      "de": "Kampf gegen die Hydra",
+      "fr": "l'hydre d'Halatali"
     },
     "type": 4,
     "level": 50,
@@ -826,7 +1126,11 @@
   },
   "76": {
     "name": {
-      "chs": "大桥上的决斗"
+      "chs": "大桥上的决斗",
+      "en": "Battle on the Big Bridge",
+      "ja": "ギルガメッシュ討伐戦",
+      "de": "Duell auf der großen Brücke",
+      "fr": "Affrontement sur le grand pont"
     },
     "type": 4,
     "level": 50,
@@ -837,7 +1141,11 @@
   },
   "77": {
     "name": {
-      "chs": "拉姆歼灭战"
+      "chs": "拉姆歼灭战",
+      "en": "the Striking Tree (Hard)",
+      "ja": "真ラムウ討滅戦",
+      "de": "Götterdämmerung - Ramuh",
+      "fr": "l'Arbre du jugement (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -848,7 +1156,11 @@
   },
   "78": {
     "name": {
-      "chs": "拉姆歼殛战"
+      "chs": "拉姆歼殛战",
+      "en": "the Striking Tree (Extreme)",
+      "ja": "極ラムウ討滅戦",
+      "de": "Zenit der Götter - Ramuh",
+      "fr": "l'Arbre du jugement (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -859,7 +1171,11 @@
   },
   "79": {
     "name": {
-      "chs": "希瓦歼灭战"
+      "chs": "希瓦歼灭战",
+      "en": "Akh Afah Amphitheatre (Hard)",
+      "ja": "真シヴァ討滅戦",
+      "de": "Götterdämmerung - Shiva",
+      "fr": "l'Amphithéâtre d'Akh Afah (brutal)"
     },
     "type": 4,
     "level": 50,
@@ -870,7 +1186,11 @@
   },
   "80": {
     "name": {
-      "chs": "希瓦歼殛战"
+      "chs": "希瓦歼殛战",
+      "en": "Akh Afah Amphitheatre (Extreme)",
+      "ja": "極シヴァ討滅戦",
+      "de": "Zenit der Götter - Shiva",
+      "fr": "l'Amphithéâtre d'Akh Afah (extrême)"
     },
     "type": 4,
     "level": 50,
@@ -881,7 +1201,11 @@
   },
   "81": {
     "name": {
-      "chs": "艾玛吉娜杯斗技大会决赛"
+      "chs": "艾玛吉娜杯斗技大会决赛",
+      "en": "the Dragon's Neck",
+      "ja": "アマジナ杯闘技会決勝戦",
+      "de": "Das Drachenhals-Kolosseum",
+      "fr": "le Col du dragon"
     },
     "type": 4,
     "level": 50,
@@ -892,7 +1216,11 @@
   },
   "82": {
     "name": {
-      "chs": "奥丁歼灭战"
+      "chs": "奥丁歼灭战",
+      "en": "Urth's Fount",
+      "ja": "闘神オーディン討滅戦",
+      "de": "Jenseits Urths Quelle",
+      "fr": "la Fontaine d'Urth"
     },
     "type": 4,
     "level": 50,
@@ -903,7 +1231,11 @@
   },
   "83": {
     "name": {
-      "chs": "皇都伊修加德保卫战"
+      "chs": "皇都伊修加德保卫战",
+      "en": "the Steps of Faith",
+      "ja": "皇都イシュガルド防衛戦",
+      "de": "Der Schicksalsweg",
+      "fr": "le Siège de la sainte Cité d'Ishgard"
     },
     "type": 4,
     "level": 50,
@@ -914,7 +1246,11 @@
   },
   "84": {
     "name": {
-      "chs": "那布里亚勒斯讨伐战"
+      "chs": "那布里亚勒斯讨伐战",
+      "en": "the Chrysalis",
+      "ja": "アシエン・ナプリアレス討伐戦",
+      "de": "Chrysalis",
+      "fr": "La Chrysalide"
     },
     "type": 4,
     "level": 50,
@@ -925,7 +1261,11 @@
   },
   "85": {
     "name": {
-      "chs": "无限城的死斗"
+      "chs": "无限城的死斗",
+      "en": "Battle in the Big Keep",
+      "ja": "真ギルガメッシュ討滅戦",
+      "de": "Revanche in den Ruinen",
+      "fr": "Revanche au vieux château"
     },
     "type": 4,
     "level": 50,
@@ -936,7 +1276,11 @@
   },
   "86": {
     "name": {
-      "chs": "罗波那歼灭战"
+      "chs": "罗波那歼灭战",
+      "en": "Thok ast Thok (Hard)",
+      "ja": "真ラーヴァナ討滅戦",
+      "de": "Götterdämmerung - Ravana",
+      "fr": "Thok ast Thok (brutal)"
     },
     "type": 4,
     "level": 53,
@@ -947,7 +1291,11 @@
   },
   "87": {
     "name": {
-      "chs": "罗波那歼殛战"
+      "chs": "罗波那歼殛战",
+      "en": "Thok ast Thok (Extreme)",
+      "ja": "極ラーヴァナ討滅戦",
+      "de": "Zenit der Götter - Ravana",
+      "fr": "Thok ast Thok (extrême)"
     },
     "type": 4,
     "level": 60,
@@ -958,7 +1306,11 @@
   },
   "88": {
     "name": {
-      "chs": "俾斯麦歼灭战"
+      "chs": "俾斯麦歼灭战",
+      "en": "the Limitless Blue (Hard)",
+      "ja": "真ビスマルク討滅戦",
+      "de": "Götterdämmerung - Bismarck",
+      "fr": "L'Immensité bleue (brutal)"
     },
     "type": 4,
     "level": 57,
@@ -969,7 +1321,11 @@
   },
   "89": {
     "name": {
-      "chs": "俾斯麦歼殛战"
+      "chs": "俾斯麦歼殛战",
+      "en": "the Limitless Blue (Extreme)",
+      "ja": "極ビスマルク討滅戦",
+      "de": "Zenit der Götter - Bismarck",
+      "fr": "L'Immensité bleue (extrême)"
     },
     "type": 4,
     "level": 60,
@@ -980,7 +1336,11 @@
   },
   "90": {
     "name": {
-      "chs": "圆桌骑士歼灭战"
+      "chs": "圆桌骑士歼灭战",
+      "en": "the Singularity Reactor",
+      "ja": "ナイツ・オブ・ラウンド討滅戦",
+      "de": "Singularitäts-Reaktor",
+      "fr": "le Réacteur de singularité"
     },
     "type": 4,
     "level": 60,
@@ -991,7 +1351,11 @@
   },
   "91": {
     "name": {
-      "chs": "圆桌骑士幻想歼灭战"
+      "chs": "圆桌骑士幻想歼灭战",
+      "en": "the Minstrel's Ballad: Thordan's Reign",
+      "ja": "蒼天幻想 ナイツ・オブ・ラウンド討滅戦",
+      "de": "Heldenlied von Thordans Fall",
+      "fr": "le règne de Thordan"
     },
     "type": 4,
     "level": 60,
@@ -1002,7 +1366,11 @@
   },
   "92": {
     "name": {
-      "chs": "水晶塔 古代人迷宫"
+      "chs": "水晶塔 古代人迷宫",
+      "en": "the Labyrinth of the Ancients",
+      "ja": "クリスタルタワー：古代の民の迷宮",
+      "de": "Kristallturm - Das Labyrinth der Alten",
+      "fr": "la Tour de Cristal - Dédale antique"
     },
     "type": 5,
     "level": 50,
@@ -1013,7 +1381,11 @@
   },
   "93": {
     "name": {
-      "chs": "巴哈姆特大迷宫 邂逅之章1"
+      "chs": "巴哈姆特大迷宫 邂逅之章1",
+      "en": "the Binding Coil of Bahamut - Turn 1",
+      "ja": "大迷宮バハムート：邂逅編1",
+      "de": "Verschlungene Schatten 1",
+      "fr": "le Labyrinthe de Bahamut I"
     },
     "type": 5,
     "level": 50,
@@ -1024,7 +1396,11 @@
   },
   "94": {
     "name": {
-      "chs": "巴哈姆特大迷宫 邂逅之章2"
+      "chs": "巴哈姆特大迷宫 邂逅之章2",
+      "en": "the Binding Coil of Bahamut - Turn 2",
+      "ja": "大迷宮バハムート：邂逅編2",
+      "de": "Verschlungene Schatten 2",
+      "fr": "le Labyrinthe de Bahamut II"
     },
     "type": 5,
     "level": 50,
@@ -1035,7 +1411,11 @@
   },
   "95": {
     "name": {
-      "chs": "巴哈姆特大迷宫 邂逅之章3"
+      "chs": "巴哈姆特大迷宫 邂逅之章3",
+      "en": "the Binding Coil of Bahamut - Turn 3",
+      "ja": "大迷宮バハムート：邂逅編3",
+      "de": "Verschlungene Schatten 3",
+      "fr": "le Labyrinthe de Bahamut III"
     },
     "type": 5,
     "level": 50,
@@ -1046,7 +1426,11 @@
   },
   "96": {
     "name": {
-      "chs": "巴哈姆特大迷宫 邂逅之章4"
+      "chs": "巴哈姆特大迷宫 邂逅之章4",
+      "en": "the Binding Coil of Bahamut - Turn 4",
+      "ja": "大迷宮バハムート：邂逅編4",
+      "de": "Verschlungene Schatten 4",
+      "fr": "le Labyrinthe de Bahamut IV"
     },
     "type": 5,
     "level": 50,
@@ -1057,7 +1441,11 @@
   },
   "97": {
     "name": {
-      "chs": "巴哈姆特大迷宫 邂逅之章5"
+      "chs": "巴哈姆特大迷宫 邂逅之章5",
+      "en": "the Binding Coil of Bahamut - Turn 5",
+      "ja": "大迷宮バハムート：邂逅編5",
+      "de": "Verschlungene Schatten 5",
+      "fr": "le Labyrinthe de Bahamut V"
     },
     "type": 5,
     "level": 50,
@@ -1068,7 +1456,11 @@
   },
   "98": {
     "name": {
-      "chs": "巴哈姆特大迷宫 入侵之章1"
+      "chs": "巴哈姆特大迷宫 入侵之章1",
+      "en": "the Second Coil of Bahamut - Turn 1",
+      "ja": "大迷宮バハムート：侵攻編1",
+      "de": "Verschlungene Schatten 2 - 1",
+      "fr": "les Méandres de Bahamut I"
     },
     "type": 5,
     "level": 50,
@@ -1079,7 +1471,11 @@
   },
   "99": {
     "name": {
-      "chs": "巴哈姆特大迷宫 入侵之章2"
+      "chs": "巴哈姆特大迷宫 入侵之章2",
+      "en": "the Second Coil of Bahamut - Turn 2",
+      "ja": "大迷宮バハムート：侵攻編2",
+      "de": "Verschlungene Schatten 2 - 2",
+      "fr": "les Méandres de Bahamut II"
     },
     "type": 5,
     "level": 50,
@@ -1090,7 +1486,11 @@
   },
   "100": {
     "name": {
-      "chs": "巴哈姆特大迷宫 入侵之章3"
+      "chs": "巴哈姆特大迷宫 入侵之章3",
+      "en": "the Second Coil of Bahamut - Turn 3",
+      "ja": "大迷宮バハムート：侵攻編3",
+      "de": "Verschlungene Schatten 2 - 3",
+      "fr": "les Méandres de Bahamut III"
     },
     "type": 5,
     "level": 50,
@@ -1101,7 +1501,11 @@
   },
   "101": {
     "name": {
-      "chs": "巴哈姆特大迷宫 入侵之章4"
+      "chs": "巴哈姆特大迷宫 入侵之章4",
+      "en": "the Second Coil of Bahamut - Turn 4",
+      "ja": "大迷宮バハムート：侵攻編4",
+      "de": "Verschlungene Schatten 2 - 4",
+      "fr": "les Méandres de Bahamut IV"
     },
     "type": 5,
     "level": 50,
@@ -1112,7 +1516,11 @@
   },
   "102": {
     "name": {
-      "chs": "水晶塔 希尔科斯塔"
+      "chs": "水晶塔 希尔科斯塔",
+      "en": "Syrcus Tower",
+      "ja": "クリスタルタワー：シルクスの塔",
+      "de": "Kristallturm - Der Syrcus-Turm",
+      "fr": "la Tour de Cristal - Tour de Syrcus"
     },
     "type": 5,
     "level": 50,
@@ -1123,7 +1531,11 @@
   },
   "103": {
     "name": {
-      "chs": "巴哈姆特零式大迷宫 入侵之章1"
+      "chs": "巴哈姆特零式大迷宫 入侵之章1",
+      "en": "the Second Coil of Bahamut (Savage) - Turn 1",
+      "ja": "大迷宮バハムート零式：侵攻編1",
+      "de": "Verschlungene Schatten 2 - 1 (episch)",
+      "fr": "les Méandres de Bahamut I (sadique)"
     },
     "type": 5,
     "level": 50,
@@ -1134,7 +1546,11 @@
   },
   "104": {
     "name": {
-      "chs": "巴哈姆特零式大迷宫 入侵之章2"
+      "chs": "巴哈姆特零式大迷宫 入侵之章2",
+      "en": "the Second Coil of Bahamut (Savage) - Turn 2",
+      "ja": "大迷宮バハムート零式：侵攻編2",
+      "de": "Verschlungene Schatten 2 - 2 (episch)",
+      "fr": "les Méandres de Bahamut II (sadique)"
     },
     "type": 5,
     "level": 50,
@@ -1145,7 +1561,11 @@
   },
   "105": {
     "name": {
-      "chs": "巴哈姆特零式大迷宫 入侵之章3"
+      "chs": "巴哈姆特零式大迷宫 入侵之章3",
+      "en": "the Second Coil of Bahamut (Savage) - Turn 3",
+      "ja": "大迷宮バハムート零式：侵攻編3",
+      "de": "Verschlungene Schatten 2 - 3 (episch)",
+      "fr": "les Méandres de Bahamut III (sadique)"
     },
     "type": 5,
     "level": 50,
@@ -1156,7 +1576,11 @@
   },
   "106": {
     "name": {
-      "chs": "巴哈姆特零式大迷宫 入侵之章4"
+      "chs": "巴哈姆特零式大迷宫 入侵之章4",
+      "en": "the Second Coil of Bahamut (Savage) - Turn 4",
+      "ja": "大迷宮バハムート零式：侵攻編4",
+      "de": "Verschlungene Schatten 2 - 4 (episch)",
+      "fr": "les Méandres de Bahamut IV (sadique)"
     },
     "type": 5,
     "level": 50,
@@ -1167,7 +1591,11 @@
   },
   "107": {
     "name": {
-      "chs": "巴哈姆特大迷宫 真源之章1"
+      "chs": "巴哈姆特大迷宫 真源之章1",
+      "en": "the Final Coil of Bahamut - Turn 1",
+      "ja": "大迷宮バハムート：真成編1",
+      "de": "Verschlungene Schatten 3 - 1",
+      "fr": "l'Abîme de Bahamut I"
     },
     "type": 5,
     "level": 50,
@@ -1178,7 +1606,11 @@
   },
   "108": {
     "name": {
-      "chs": "巴哈姆特大迷宫 真源之章2"
+      "chs": "巴哈姆特大迷宫 真源之章2",
+      "en": "the Final Coil of Bahamut - Turn 2",
+      "ja": "大迷宮バハムート：真成編2",
+      "de": "Verschlungene Schatten 3 - 2",
+      "fr": "l'Abîme de Bahamut II"
     },
     "type": 5,
     "level": 50,
@@ -1189,7 +1621,11 @@
   },
   "109": {
     "name": {
-      "chs": "巴哈姆特大迷宫 真源之章3"
+      "chs": "巴哈姆特大迷宫 真源之章3",
+      "en": "the Final Coil of Bahamut - Turn 3",
+      "ja": "大迷宮バハムート：真成編3",
+      "de": "Verschlungene Schatten 3 - 3",
+      "fr": "l'Abîme de Bahamut III"
     },
     "type": 5,
     "level": 50,
@@ -1200,7 +1636,11 @@
   },
   "110": {
     "name": {
-      "chs": "巴哈姆特大迷宫 真源之章4"
+      "chs": "巴哈姆特大迷宫 真源之章4",
+      "en": "the Final Coil of Bahamut - Turn 4",
+      "ja": "大迷宮バハムート：真成編4",
+      "de": "Verschlungene Schatten 3 - 4",
+      "fr": "l'Abîme de Bahamut IV"
     },
     "type": 5,
     "level": 50,
@@ -1211,7 +1651,11 @@
   },
   "111": {
     "name": {
-      "chs": "水晶塔 暗之世界"
+      "chs": "水晶塔 暗之世界",
+      "en": "the World of Darkness",
+      "ja": "クリスタルタワー：闇の世界",
+      "de": "Die Welt der Dunkelheit",
+      "fr": "la Tour de Cristal - Monde des Ténèbres"
     },
     "type": 5,
     "level": 50,
@@ -1222,7 +1666,11 @@
   },
   "112": {
     "name": {
-      "chs": "亚历山大机神城 启动之章1"
+      "chs": "亚历山大机神城 启动之章1",
+      "en": "Alexander - The Fist of the Father",
+      "ja": "機工城アレキサンダー：起動編1",
+      "de": "Alexander - Faust des Vaters",
+      "fr": "Alexander - Le Poing du Père"
     },
     "type": 5,
     "level": 60,
@@ -1233,7 +1681,11 @@
   },
   "113": {
     "name": {
-      "chs": "亚历山大机神城 启动之章2"
+      "chs": "亚历山大机神城 启动之章2",
+      "en": "Alexander - The Cuff of the Father",
+      "ja": "機工城アレキサンダー：起動編2",
+      "de": "Alexander - Elle des Vaters",
+      "fr": "Alexander - Le Poignet du Père"
     },
     "type": 5,
     "level": 60,
@@ -1244,7 +1696,11 @@
   },
   "114": {
     "name": {
-      "chs": "亚历山大机神城 启动之章3"
+      "chs": "亚历山大机神城 启动之章3",
+      "en": "Alexander - The Arm of the Father",
+      "ja": "機工城アレキサンダー：起動編3",
+      "de": "Alexander - Arm des Vaters",
+      "fr": "Alexander - Le Bras du Père"
     },
     "type": 5,
     "level": 60,
@@ -1255,7 +1711,11 @@
   },
   "115": {
     "name": {
-      "chs": "亚历山大机神城 启动之章4"
+      "chs": "亚历山大机神城 启动之章4",
+      "en": "Alexander - The Burden of the Father",
+      "ja": "機工城アレキサンダー：起動編4",
+      "de": "Alexander - Last des Vaters",
+      "fr": "Alexander - Le Fardeau du Père"
     },
     "type": 5,
     "level": 60,
@@ -1266,7 +1726,11 @@
   },
   "116": {
     "name": {
-      "chs": "亚历山大零式机神城 启动之章1"
+      "chs": "亚历山大零式机神城 启动之章1",
+      "en": "Alexander - The Fist of the Father (Savage)",
+      "ja": "機工城アレキサンダー零式：起動編1",
+      "de": "Alexander - Faust des Vaters (episch)",
+      "fr": "Alexander - Le Poing du Père (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1277,7 +1741,11 @@
   },
   "117": {
     "name": {
-      "chs": "亚历山大零式机神城 启动之章2"
+      "chs": "亚历山大零式机神城 启动之章2",
+      "en": "Alexander - The Cuff of the Father (Savage)",
+      "ja": "機工城アレキサンダー零式：起動編2",
+      "de": "Alexander - Elle des Vaters (episch)",
+      "fr": "Alexander - Le Poignet du Père (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1288,7 +1756,11 @@
   },
   "118": {
     "name": {
-      "chs": "亚历山大零式机神城 启动之章3"
+      "chs": "亚历山大零式机神城 启动之章3",
+      "en": "Alexander - The Arm of the Father (Savage)",
+      "ja": "機工城アレキサンダー零式：起動編3",
+      "de": "Alexander - Arm des Vaters (episch)",
+      "fr": "Alexander - Le Bras du Père (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1299,7 +1771,11 @@
   },
   "119": {
     "name": {
-      "chs": "亚历山大零式机神城 启动之章4"
+      "chs": "亚历山大零式机神城 启动之章4",
+      "en": "Alexander - The Burden of the Father (Savage)",
+      "ja": "機工城アレキサンダー零式：起動編4",
+      "de": "Alexander - Last des Vaters (episch)",
+      "fr": "Alexander - Le Fardeau du Père (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1310,7 +1786,11 @@
   },
   "120": {
     "name": {
-      "chs": "魔航船虚无方舟"
+      "chs": "魔航船虚无方舟",
+      "en": "the Void Ark",
+      "ja": "魔航船ヴォイドアーク",
+      "de": "Die Nichts-Arche",
+      "fr": "l'Arche du néant"
     },
     "type": 5,
     "level": 60,
@@ -1321,7 +1801,11 @@
   },
   "127": {
     "name": {
-      "chs": "周边遗迹群 (阵地战)"
+      "chs": "周边遗迹群 (阵地战)",
+      "en": "the Borderland Ruins (Secure)",
+      "ja": "外縁遺跡群 (制圧戦)",
+      "de": "Äußere Ruinen (Sicherung)",
+      "fr": "les Ruines frontalières (annexion)"
     },
     "type": 6,
     "level": 30,
@@ -1332,7 +1816,11 @@
   },
   "130": {
     "name": {
-      "chs": "尘封秘岩 (争夺战)"
+      "chs": "尘封秘岩 (争夺战)",
+      "en": "Seal Rock (Seize)",
+      "ja": "シールロック (争奪戦)",
+      "de": "Robbenholm (Eroberung)",
+      "fr": "le Rocher des tréfonds (invasion)"
     },
     "type": 6,
     "level": 30,
@@ -1343,7 +1831,11 @@
   },
   "131": {
     "name": {
-      "chs": "云冠群岛白昼探索"
+      "chs": "云冠群岛白昼探索",
+      "en": "the Diadem (Easy)",
+      "ja": "雲海探索 ディアデム諸島 (Easy)",
+      "de": "Das Diadem (leicht)",
+      "fr": "Le Diadème (facile)"
     },
     "type": 23,
     "level": 60,
@@ -1354,7 +1846,11 @@
   },
   "132": {
     "name": {
-      "chs": "云冠群岛黄昏探索"
+      "chs": "云冠群岛黄昏探索",
+      "en": "the Diadem",
+      "ja": "雲海探索 ディアデム諸島",
+      "de": "Das Diadem",
+      "fr": "Le Diadème"
     },
     "type": 23,
     "level": 60,
@@ -1365,7 +1861,11 @@
   },
   "133": {
     "name": {
-      "chs": "云冠群岛夜晚探索"
+      "chs": "云冠群岛夜晚探索",
+      "en": "the Diadem (Hard)",
+      "ja": "雲海探索 ディアデム諸島 (Hard)",
+      "de": "Das Diadem (schwer)",
+      "fr": "Le Diadème (brutal)"
     },
     "type": 23,
     "level": 60,
@@ -1376,7 +1876,11 @@
   },
   "134": {
     "name": {
-      "chs": "萨菲洛特歼灭战"
+      "chs": "萨菲洛特歼灭战",
+      "en": "Containment Bay S1T7",
+      "ja": "魔神セフィロト討滅戦",
+      "de": "Götterdämmerung - Sephirot",
+      "fr": "Unité de contention S1P7"
     },
     "type": 4,
     "level": 60,
@@ -1387,7 +1891,11 @@
   },
   "135": {
     "name": {
-      "chs": "萨菲洛特歼殛战"
+      "chs": "萨菲洛特歼殛战",
+      "en": "Containment Bay S1T7 (Extreme)",
+      "ja": "極魔神セフィロト討滅戦",
+      "de": "Zenit der Götter - Sephirot",
+      "fr": "Unité de contention S1P7 (extrême)"
     },
     "type": 4,
     "level": 60,
@@ -1398,7 +1906,11 @@
   },
   "136": {
     "name": {
-      "chs": "亚历山大机神城 律动之章1"
+      "chs": "亚历山大机神城 律动之章1",
+      "en": "Alexander - The Fist of the Son",
+      "ja": "機工城アレキサンダー：律動編1",
+      "de": "Alexander - Faust des Sohnes",
+      "fr": "Alexander - Le Poing du Fils"
     },
     "type": 5,
     "level": 60,
@@ -1409,7 +1921,11 @@
   },
   "137": {
     "name": {
-      "chs": "亚历山大机神城 律动之章2"
+      "chs": "亚历山大机神城 律动之章2",
+      "en": "Alexander - The Cuff of the Son",
+      "ja": "機工城アレキサンダー：律動編2",
+      "de": "Alexander - Elle des Sohnes",
+      "fr": "Alexander - Le Poignet du Fils"
     },
     "type": 5,
     "level": 60,
@@ -1420,7 +1936,11 @@
   },
   "138": {
     "name": {
-      "chs": "亚历山大机神城 律动之章3"
+      "chs": "亚历山大机神城 律动之章3",
+      "en": "Alexander - The Arm of the Son",
+      "ja": "機工城アレキサンダー：律動編3",
+      "de": "Alexander - Arm des Sohnes",
+      "fr": "Alexander - Le Bras du Fils"
     },
     "type": 5,
     "level": 60,
@@ -1431,7 +1951,11 @@
   },
   "139": {
     "name": {
-      "chs": "亚历山大机神城 律动之章4"
+      "chs": "亚历山大机神城 律动之章4",
+      "en": "Alexander - The Burden of the Son",
+      "ja": "機工城アレキサンダー：律動編4",
+      "de": "Alexander - Last des Sohnes",
+      "fr": "Alexander - Le Fardeau du Fils"
     },
     "type": 5,
     "level": 60,
@@ -1442,7 +1966,11 @@
   },
   "140": {
     "name": {
-      "chs": "神圣遗迹无限城市街古迹"
+      "chs": "神圣遗迹无限城市街古迹",
+      "en": "the Lost City of Amdapor (Hard)",
+      "ja": "神聖遺跡 古アムダプール市街 (Hard)",
+      "de": "Historisches Amdapor (schwer)",
+      "fr": "les Vestiges de la cité d'Amdapor (brutal)"
     },
     "type": 2,
     "level": 60,
@@ -1453,7 +1981,11 @@
   },
   "141": {
     "name": {
-      "chs": "星海空间颠倒塔"
+      "chs": "星海空间颠倒塔",
+      "en": "the Antitower",
+      "ja": "星海観測 逆さの塔 ",
+      "de": "Antiturm",
+      "fr": "L'Antitour"
     },
     "type": 2,
     "level": 60,
@@ -1464,7 +1996,11 @@
   },
   "143": {
     "name": {
-      "chs": "群狼盛宴 (4对4 / 练习赛)"
+      "chs": "群狼盛宴 (4对4 / 练习赛)",
+      "en": "the Feast (4 on 4 - Training)",
+      "ja": "ザ・フィースト (4対4 / カジュアルマッチ)",
+      "de": "The Feast (4 gegen 4, Übungskampf)",
+      "fr": "The Feast (4x4/entraînement)"
     },
     "type": 6,
     "level": 30,
@@ -1475,7 +2011,11 @@
   },
   "145": {
     "name": {
-      "chs": "群狼盛宴 (4对4 / 段位赛)"
+      "chs": "群狼盛宴 (4对4 / 段位赛)",
+      "en": "the Feast (4 on 4 - Ranked)",
+      "ja": "ザ・フィースト (4対4 / ランクマッチ)",
+      "de": "The Feast (4 gegen 4, gewertet)",
+      "fr": "The Feast (4x4/classé)"
     },
     "type": 6,
     "level": 30,
@@ -1486,7 +2026,11 @@
   },
   "147": {
     "name": {
-      "chs": "亚历山大零式机神城 律动之章1"
+      "chs": "亚历山大零式机神城 律动之章1",
+      "en": "Alexander - The Fist of the Son (Savage)",
+      "ja": "機工城アレキサンダー零式：律動編1",
+      "de": "Alexander - Faust des Sohnes (episch)",
+      "fr": "Alexander - Le Poing du Fils (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1497,7 +2041,11 @@
   },
   "148": {
     "name": {
-      "chs": "亚历山大零式机神城 律动之章2"
+      "chs": "亚历山大零式机神城 律动之章2",
+      "en": "Alexander - The Cuff of the Son (Savage)",
+      "ja": "機工城アレキサンダー零式：律動編2",
+      "de": "Alexander - Elle des Sohnes (episch)",
+      "fr": "Alexander - Le Poignet du Fils (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1508,7 +2056,11 @@
   },
   "149": {
     "name": {
-      "chs": "亚历山大零式机神城 律动之章3"
+      "chs": "亚历山大零式机神城 律动之章3",
+      "en": "Alexander - The Arm of the Son (Savage)",
+      "ja": "機工城アレキサンダー零式：律動編3",
+      "de": "Alexander - Arm des Sohnes (episch)",
+      "fr": "Alexander - Le Bras du Fils (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1519,7 +2071,11 @@
   },
   "150": {
     "name": {
-      "chs": "亚历山大零式机神城 律动之章4"
+      "chs": "亚历山大零式机神城 律动之章4",
+      "en": "Alexander - The Burden of the Son (Savage)",
+      "ja": "機工城アレキサンダー零式：律動編4",
+      "de": "Alexander - Last des Sohnes (episch)",
+      "fr": "Alexander - Le Fardeau du Fils (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1530,7 +2086,11 @@
   },
   "151": {
     "name": {
-      "chs": "躲避范围攻击"
+      "chs": "躲避范围攻击",
+      "en": "Avoid Area of Effect Attacks",
+      "ja": "範囲攻撃を避けよう！",
+      "de": "Flächenangriffen ausweichen",
+      "fr": "Éviter les attaques à aire d'effet"
     },
     "type": 20,
     "level": 15,
@@ -1541,7 +2101,11 @@
   },
   "152": {
     "name": {
-      "chs": "掌握仇恨连击"
+      "chs": "掌握仇恨连击",
+      "en": "Execute a Combo to Increase Enmity",
+      "ja": "コンボで敵視を集めよう！",
+      "de": "Mit Kombos Feindseligkeit auf sich ziehen",
+      "fr": "Générer de l'inimitié avec un combo"
     },
     "type": 20,
     "level": 15,
@@ -1552,7 +2116,11 @@
   },
   "153": {
     "name": {
-      "chs": "控制敌人的仇恨"
+      "chs": "控制敌人的仇恨",
+      "en": "Execute a Combo in Battle",
+      "ja": "実戦でコンボに挑戦しよう！",
+      "de": "Kombos im Kampf einsetzen",
+      "fr": "Effectuer le combo en combat"
     },
     "type": 20,
     "level": 15,
@@ -1563,7 +2131,11 @@
   },
   "154": {
     "name": {
-      "chs": "控制多个敌人的仇恨"
+      "chs": "控制多个敌人的仇恨",
+      "en": "Accrue Enmity from Multiple Targets",
+      "ja": "複数の敵から敵視を集めよう！",
+      "de": "Feindseligkeit mehrerer Gegner auf sich ziehen",
+      "fr": "Attirer l'inimitié de plusieurs ennemis sur soi"
     },
     "type": 20,
     "level": 15,
@@ -1574,7 +2146,11 @@
   },
   "155": {
     "name": {
-      "chs": "实战控制多个敌人的仇恨"
+      "chs": "实战控制多个敌人的仇恨",
+      "en": "Engage Multiple Targets",
+      "ja": "実戦で複数の敵と戦ってみよう！",
+      "de": "Gegen mehrere Gegner auf einmal kämpfen",
+      "fr": "Affronter plusieurs ennemis"
     },
     "type": 20,
     "level": 15,
@@ -1585,7 +2161,11 @@
   },
   "156": {
     "name": {
-      "chs": "控制远处敌人的仇恨"
+      "chs": "控制远处敌人的仇恨",
+      "en": "Execute a Ranged Attack to Increase Enmity",
+      "ja": "遠距離から敵視を集めよう！",
+      "de": "Aus der Ferne Feindseligkeit auf sich ziehen",
+      "fr": "Générer de l'inimitié à distance"
     },
     "type": 20,
     "level": 15,
@@ -1596,7 +2176,11 @@
   },
   "157": {
     "name": {
-      "chs": "留心增援的敌人"
+      "chs": "留心增援的敌人",
+      "en": "Engage Enemy Reinforcements",
+      "ja": "敵の増援に対応しよう！",
+      "de": "Feindliche Verstärkung aufhalten",
+      "fr": "Faire face à des renforts ennemis"
     },
     "type": 20,
     "level": 15,
@@ -1607,7 +2191,11 @@
   },
   "158": {
     "name": {
-      "chs": "配合防护职业打倒单个敌人"
+      "chs": "配合防护职业打倒单个敌人",
+      "en": "Assist Allies in Defeating a Target",
+      "ja": "味方と協力して敵を倒そう！",
+      "de": "Gegner gemeinsam besiegen",
+      "fr": "Vaincre un ennemi en assistant des alliés"
     },
     "type": 20,
     "level": 15,
@@ -1618,7 +2206,11 @@
   },
   "159": {
     "name": {
-      "chs": "配合防护职业打倒多个敌人"
+      "chs": "配合防护职业打倒多个敌人",
+      "en": "Defeat an Occupied Target",
+      "ja": "味方が引きつけている敵を倒そう！",
+      "de": "Den Gegner eines Verbündeten besiegen",
+      "fr": "Vaincre un ennemi occupé par un allié"
     },
     "type": 20,
     "level": 15,
@@ -1629,7 +2221,11 @@
   },
   "160": {
     "name": {
-      "chs": "躲避范围攻击的同时进行战斗"
+      "chs": "躲避范围攻击的同时进行战斗",
+      "en": "Avoid Engaged Targets",
+      "ja": "敵の攻撃を避けながら戦おう！",
+      "de": "Angriffen ausweichen",
+      "fr": "Combattre en évitant les attaques ennemies"
     },
     "type": 20,
     "level": 15,
@@ -1640,7 +2236,11 @@
   },
   "161": {
     "name": {
-      "chs": "打倒增援的敌人"
+      "chs": "打倒增援的敌人",
+      "en": "Engage Enemy Reinforcements",
+      "ja": "敵の増援に対応しよう！",
+      "de": "Feindliche Verstärkung aufhalten",
+      "fr": "Éliminer les renforts ennemis"
     },
     "type": 20,
     "level": 15,
@@ -1651,7 +2251,11 @@
   },
   "162": {
     "name": {
-      "chs": "灵活运用场地机关"
+      "chs": "灵活运用场地机关",
+      "en": "Interact with the Battlefield",
+      "ja": "ギミックを活用して戦おう！",
+      "de": "Mit dem Gelände interagieren",
+      "fr": "Interagir avec le décor en combat"
     },
     "type": 20,
     "level": 15,
@@ -1662,7 +2266,11 @@
   },
   "163": {
     "name": {
-      "chs": "治疗防护职业"
+      "chs": "治疗防护职业",
+      "en": "Heal an Ally",
+      "ja": "味方を回復しよう！",
+      "de": "Verbündete heilen",
+      "fr": "Soigner un allié"
     },
     "type": 20,
     "level": 15,
@@ -1673,7 +2281,11 @@
   },
   "164": {
     "name": {
-      "chs": "治疗小队队员"
+      "chs": "治疗小队队员",
+      "en": "Heal Multiple Allies",
+      "ja": "複数の味方を回復しよう！",
+      "de": "Mehrere Verbündete heilen",
+      "fr": "Soigner plusieurs alliés"
     },
     "type": 20,
     "level": 15,
@@ -1684,7 +2296,11 @@
   },
   "165": {
     "name": {
-      "chs": "躲避范围攻击的同时进行战斗"
+      "chs": "躲避范围攻击的同时进行战斗",
+      "en": "Avoid Engaged Targets",
+      "ja": "敵の攻撃を避けながら戦おう！",
+      "de": "Angriffen ausweichen",
+      "fr": "Combattre en évitant les attaques ennemies"
     },
     "type": 20,
     "level": 15,
@@ -1695,7 +2311,11 @@
   },
   "166": {
     "name": {
-      "chs": "最终训练"
+      "chs": "最终训练",
+      "en": "Final Exercise",
+      "ja": "最終訓練！",
+      "de": "Letzte Übung",
+      "fr": "Exercice final"
     },
     "type": 20,
     "level": 15,
@@ -1706,7 +2326,11 @@
   },
   "167": {
     "name": {
-      "chs": "四国联合军演"
+      "chs": "四国联合军演",
+      "en": "a Spectacle for the Ages",
+      "ja": "四国合同演習",
+      "de": "Truppenübung der Eorzäischen Allianz",
+      "fr": "La grande manœuvre éorzéenne"
     },
     "type": 7,
     "level": 1,
@@ -1717,7 +2341,11 @@
   },
   "168": {
     "name": {
-      "chs": "禁忌城邦玛哈"
+      "chs": "禁忌城邦玛哈",
+      "en": "the Weeping City of Mhach",
+      "ja": "禁忌都市マハ",
+      "de": "Die Stadt der Tränen",
+      "fr": "la Cité défendue de Mhach"
     },
     "type": 5,
     "level": 60,
@@ -1728,7 +2356,11 @@
   },
   "169": {
     "name": {
-      "chs": "尼德霍格征龙战"
+      "chs": "尼德霍格征龙战",
+      "en": "the Final Steps of Faith",
+      "ja": "ニーズヘッグ征竜戦",
+      "de": "Der letzte Schicksalsweg",
+      "fr": "la Dernière avancée de la Foi"
     },
     "type": 4,
     "level": 60,
@@ -1739,7 +2371,11 @@
   },
   "170": {
     "name": {
-      "chs": "尼德霍格传奇征龙战"
+      "chs": "尼德霍格传奇征龙战",
+      "en": "the Minstrel's Ballad: Nidhogg's Rage",
+      "ja": "極ニーズヘッグ征竜戦",
+      "de": "Das Lied von Nidhoggs letztem Ruf",
+      "fr": "l'ire de Nidhogg"
     },
     "type": 4,
     "level": 60,
@@ -1750,7 +2386,11 @@
   },
   "171": {
     "name": {
-      "chs": "天龙宫殿忆罪宫"
+      "chs": "天龙宫殿忆罪宫",
+      "en": "Sohr Khai",
+      "ja": "天竜宮殿 ソール・カイ",
+      "de": "Sohr Khai",
+      "fr": "Sohr Khai"
     },
     "type": 2,
     "level": 60,
@@ -1761,7 +2401,11 @@
   },
   "172": {
     "name": {
-      "chs": "黑涡传说破舰岛"
+      "chs": "黑涡传说破舰岛",
+      "en": "Hullbreaker Isle (Hard)",
+      "ja": "黒渦伝説 ハルブレーカー・アイル (Hard)",
+      "de": "Schiffbrecher-Insel (schwer)",
+      "fr": "l'Île de Crèvecarène (brutal)"
     },
     "type": 2,
     "level": 60,
@@ -1772,7 +2416,11 @@
   },
   "173": {
     "name": {
-      "chs": "雷古拉·范·休著斯追击战"
+      "chs": "雷古拉·范·休著斯追击战",
+      "en": "a Bloody Reunion",
+      "ja": "レグラ・ヴァン・ヒュドルス追撃戦",
+      "de": "Blutiges Wiedersehen",
+      "fr": "Course-poursuite dans le laboratoire"
     },
     "type": 7,
     "level": 1,
@@ -1783,7 +2431,11 @@
   },
   "174": {
     "name": {
-      "chs": "死者宫殿 地下1～10层"
+      "chs": "死者宫殿 地下1～10层",
+      "en": "the Palace of the Dead (Floors 1-10)",
+      "ja": "死者の宮殿 B1～B10",
+      "de": "Palast der Toten (Ebenen 1-10)",
+      "fr": "le Palais des morts (sous-sols 1-10)"
     },
     "type": 21,
     "level": 1,
@@ -1794,7 +2446,11 @@
   },
   "175": {
     "name": {
-      "chs": "死者宫殿 地下11～20层"
+      "chs": "死者宫殿 地下11～20层",
+      "en": "the Palace of the Dead (Floors 11-20)",
+      "ja": "死者の宮殿 B11～B20",
+      "de": "Palast der Toten (Ebenen 11-20)",
+      "fr": "le Palais des morts (sous-sols 11-20)"
     },
     "type": 21,
     "level": 1,
@@ -1805,7 +2461,11 @@
   },
   "176": {
     "name": {
-      "chs": "死者宫殿 地下21～30层"
+      "chs": "死者宫殿 地下21～30层",
+      "en": "the Palace of the Dead (Floors 21-30)",
+      "ja": "死者の宮殿 B21～B30",
+      "de": "Palast der Toten (Ebenen 21-30)",
+      "fr": "le Palais des morts (sous-sols 21-30)"
     },
     "type": 21,
     "level": 1,
@@ -1816,7 +2476,11 @@
   },
   "177": {
     "name": {
-      "chs": "死者宫殿 地下31～40层"
+      "chs": "死者宫殿 地下31～40层",
+      "en": "the Palace of the Dead (Floors 31-40)",
+      "ja": "死者の宮殿 B31～B40",
+      "de": "Palast der Toten (Ebenen 31-40)",
+      "fr": "le Palais des morts (sous-sols 31-40)"
     },
     "type": 21,
     "level": 1,
@@ -1827,7 +2491,11 @@
   },
   "178": {
     "name": {
-      "chs": "死者宫殿 地下41～50层"
+      "chs": "死者宫殿 地下41～50层",
+      "en": "the Palace of the Dead (Floors 41-50)",
+      "ja": "死者の宮殿 B41～B50",
+      "de": "Palast der Toten (Ebenen 41-50)",
+      "fr": "le Palais des morts (sous-sols 41-50)"
     },
     "type": 21,
     "level": 1,
@@ -1838,7 +2506,11 @@
   },
   "179": {
     "name": {
-      "chs": "水城宝物库"
+      "chs": "水城宝物库",
+      "en": "the Aquapolis",
+      "ja": "宝物庫 アクアポリス",
+      "de": "Aquapolis",
+      "fr": "l'Aquapole"
     },
     "type": 9,
     "level": 1,
@@ -1849,7 +2521,11 @@
   },
   "180": {
     "name": {
-      "chs": "荣誉野 (碎冰战)"
+      "chs": "荣誉野 (碎冰战)",
+      "en": "the Fields of Glory (Shatter)",
+      "ja": "フィールド・オブ・グローリー (砕氷戦)",
+      "de": "Feld der Ehre (Zersplitterung)",
+      "fr": "les Champs de la Gloire (brise-glace)"
     },
     "type": 6,
     "level": 30,
@@ -1860,7 +2536,11 @@
   },
   "181": {
     "name": {
-      "chs": "亡灵府邸闹鬼庄园"
+      "chs": "亡灵府邸闹鬼庄园",
+      "en": "the Haunted Manor",
+      "ja": "亡霊屋敷 ホーンテッドマナー",
+      "de": "Das Geisterschloss",
+      "fr": "le Manoir hanté"
     },
     "type": 22,
     "level": 1,
@@ -1871,7 +2551,11 @@
   },
   "182": {
     "name": {
-      "chs": "险峻峡谷塞尔法特尔溪谷"
+      "chs": "险峻峡谷塞尔法特尔溪谷",
+      "en": "Xelphatol",
+      "ja": "峻厳渓谷 ゼルファトル",
+      "de": "Xelphatol",
+      "fr": "Xelphatol"
     },
     "type": 2,
     "level": 60,
@@ -1882,7 +2566,11 @@
   },
   "183": {
     "name": {
-      "chs": "索菲娅歼灭战"
+      "chs": "索菲娅歼灭战",
+      "en": "Containment Bay P1T6",
+      "ja": "女神ソフィア討滅戦",
+      "de": "Götterdämmerung - Sophia",
+      "fr": "Unité de contention P1P6"
     },
     "type": 4,
     "level": 60,
@@ -1893,7 +2581,11 @@
   },
   "184": {
     "name": {
-      "chs": "索菲娅歼殛战"
+      "chs": "索菲娅歼殛战",
+      "en": "Containment Bay P1T6 (Extreme)",
+      "ja": "極女神ソフィア討滅戦",
+      "de": "Zenit der Götter - Sophia",
+      "fr": "Unité de contention P1P6 (extrême)"
     },
     "type": 4,
     "level": 60,
@@ -1904,7 +2596,11 @@
   },
   "186": {
     "name": {
-      "chs": "亚历山大机神城 天动之章1"
+      "chs": "亚历山大机神城 天动之章1",
+      "en": "Alexander - The Eyes of the Creator",
+      "ja": "機工城アレキサンダー：天動編1",
+      "de": "Alexander - Augen des Schöpfers",
+      "fr": "Alexander - Les Yeux du Créateur"
     },
     "type": 5,
     "level": 60,
@@ -1915,7 +2611,11 @@
   },
   "187": {
     "name": {
-      "chs": "亚历山大机神城 天动之章2"
+      "chs": "亚历山大机神城 天动之章2",
+      "en": "Alexander - The Breath of the Creator",
+      "ja": "機工城アレキサンダー：天動編2",
+      "de": "Alexander - Atem des Schöpfers",
+      "fr": "Alexander - Le Souffle du Créateur"
     },
     "type": 5,
     "level": 60,
@@ -1926,7 +2626,11 @@
   },
   "188": {
     "name": {
-      "chs": "亚历山大机神城 天动之章3"
+      "chs": "亚历山大机神城 天动之章3",
+      "en": "Alexander - The Heart of the Creator",
+      "ja": "機工城アレキサンダー：天動編3",
+      "de": "Alexander - Herz des Schöpfers",
+      "fr": "Alexander - Le Cœur du Créateur"
     },
     "type": 5,
     "level": 60,
@@ -1937,7 +2641,11 @@
   },
   "189": {
     "name": {
-      "chs": "亚历山大机神城 天动之章4"
+      "chs": "亚历山大机神城 天动之章4",
+      "en": "Alexander - The Soul of the Creator",
+      "ja": "機工城アレキサンダー：天動編4",
+      "de": "Alexander - Seele des Schöpfers",
+      "fr": "Alexander - L'Âme du Créateur"
     },
     "type": 5,
     "level": 60,
@@ -1948,7 +2656,11 @@
   },
   "190": {
     "name": {
-      "chs": "亚历山大零式机神城 天动之章1"
+      "chs": "亚历山大零式机神城 天动之章1",
+      "en": "Alexander - The Eyes of the Creator (Savage)",
+      "ja": "機工城アレキサンダー零式：天動編1",
+      "de": "Alexander - Augen des Schöpfers (episch)",
+      "fr": "Alexander - Les Yeux du Créateur (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1959,7 +2671,11 @@
   },
   "191": {
     "name": {
-      "chs": "亚历山大零式机神城 天动之章2"
+      "chs": "亚历山大零式机神城 天动之章2",
+      "en": "Alexander - The Breath of the Creator (Savage)",
+      "ja": "機工城アレキサンダー零式：天動編2",
+      "de": "Alexander - Atem des Schöpfers (episch)",
+      "fr": "Alexander - Le Souffle du Créateur (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1970,7 +2686,11 @@
   },
   "192": {
     "name": {
-      "chs": "亚历山大零式机神城 天动之章3"
+      "chs": "亚历山大零式机神城 天动之章3",
+      "en": "Alexander - The Heart of the Creator (Savage)",
+      "ja": "機工城アレキサンダー零式：天動編3",
+      "de": "Alexander - Herz des Schöpfers (episch)",
+      "fr": "Alexander - Le Cœur du Créateur (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1981,7 +2701,11 @@
   },
   "193": {
     "name": {
-      "chs": "亚历山大零式机神城 天动之章4"
+      "chs": "亚历山大零式机神城 天动之章4",
+      "en": "Alexander - The Soul of the Creator (Savage)",
+      "ja": "機工城アレキサンダー零式：天動編4",
+      "de": "Alexander - Seele des Schöpfers (episch)",
+      "fr": "Alexander - L'Âme du Créateur (sadique)"
     },
     "type": 5,
     "level": 60,
@@ -1992,7 +2716,11 @@
   },
   "194": {
     "name": {
-      "chs": "纠缠不清的宿命"
+      "chs": "纠缠不清的宿命",
+      "en": "One Life for One World",
+      "ja": "絡み合う宿命",
+      "de": "Weltenübergreifendes Schicksal",
+      "fr": "Destins entrecroisés"
     },
     "type": 7,
     "level": 1,
@@ -2003,7 +2731,11 @@
   },
   "195": {
     "name": {
-      "chs": "九宫幻卡：幻卡对局室"
+      "chs": "九宫幻卡：幻卡对局室",
+      "en": "the Triple Triad Battlehall",
+      "ja": "トリプルトライアド：カードバトルルーム",
+      "de": "Triple Triad: Weltensalon",
+      "fr": "Arène Triple Triade"
     },
     "type": 19,
     "level": 1,
@@ -2014,7 +2746,11 @@
   },
   "196": {
     "name": {
-      "chs": "秘本宝库迦巴勒幻想图书馆"
+      "chs": "秘本宝库迦巴勒幻想图书馆",
+      "en": "the Great Gubal Library (Hard)",
+      "ja": "稀書回収 グブラ幻想図書館 (Hard)",
+      "de": "Große Gubal-Bibliothek (schwer)",
+      "fr": "la Grande bibliothèque de Gubal (brutal)"
     },
     "type": 2,
     "level": 60,
@@ -2025,7 +2761,11 @@
   },
   "197": {
     "name": {
-      "chs": "萌宠之王：玩家对战（绩点赛）"
+      "chs": "萌宠之王：玩家对战（绩点赛）",
+      "en": "LoVM: Player Battle (RP)",
+      "ja": "LoVM：プレイヤー対戦 (RP変動あり)",
+      "de": "Kampf der Trabanten: Gegen Spieler (um RP)",
+      "fr": "Bataille simple contre un joueur (avec PR)"
     },
     "type": 19,
     "level": 1,
@@ -2036,7 +2776,11 @@
   },
   "198": {
     "name": {
-      "chs": "萌宠之王：大赛对战（玩家对战）"
+      "chs": "萌宠之王：大赛对战（玩家对战）",
+      "en": "LoVM: Tournament",
+      "ja": "LoVM：大会対戦 (プレイヤー対戦）",
+      "de": "Kampf der Trabanten: Turnier (gegen Spieler)",
+      "fr": "Bataille de tournoi contre des joueurs"
     },
     "type": 19,
     "level": 1,
@@ -2047,7 +2791,11 @@
   },
   "199": {
     "name": {
-      "chs": "萌宠之王：玩家对战（无绩点赛）"
+      "chs": "萌宠之王：玩家对战（无绩点赛）",
+      "en": "LoVM: Player Battle (Non-RP)",
+      "ja": "LoVM：プレイヤー対戦 (RP変動なし)",
+      "de": "Kampf der Trabanten: Gegen Spieler (ohne RP)",
+      "fr": "Bataille simple contre un joueur (sans PR)"
     },
     "type": 19,
     "level": 1,
@@ -2058,7 +2806,11 @@
   },
   "201": {
     "name": {
-      "chs": "群狼盛宴 (狼狱演习场：自定赛)"
+      "chs": "群狼盛宴 (狼狱演习场：自定赛)",
+      "en": "the Feast (Custom Match - Feasting Grounds)",
+      "ja": "ザ・フィースト (ウルヴズジェイル演習場：カスタムマッチ）",
+      "de": "The Feast (Wolfshöhle: Schaukampf)",
+      "fr": "The Feast (personnalisé/Festin des loups)"
     },
     "type": 6,
     "level": 30,
@@ -2069,7 +2821,11 @@
   },
   "202": {
     "name": {
-      "chs": "云冠群岛白昼探索（狩猎专用）"
+      "chs": "云冠群岛白昼探索（狩猎专用）",
+      "en": "the Diadem Hunting Grounds (Easy)",
+      "ja": "雲海探索 ディアデム諸島：狩猟限定 (Easy)",
+      "de": "Das Diadem - Jagdgründe (leicht)",
+      "fr": "Le Diadème: terrains de chasse (facile)"
     },
     "type": 23,
     "level": 60,
@@ -2080,7 +2836,11 @@
   },
   "203": {
     "name": {
-      "chs": "云冠群岛黄昏探索（狩猎专用）"
+      "chs": "云冠群岛黄昏探索（狩猎专用）",
+      "en": "the Diadem Hunting Grounds",
+      "ja": "雲海探索 ディアデム諸島：狩猟限定",
+      "de": "Das Diadem - Jagdgründe",
+      "fr": "Le Diadème: terrains de chasse"
     },
     "type": 23,
     "level": 60,
@@ -2091,7 +2851,11 @@
   },
   "204": {
     "name": {
-      "chs": "死者宫殿 地下51～60层"
+      "chs": "死者宫殿 地下51～60层",
+      "en": "the Palace of the Dead (Floors 51-60)",
+      "ja": "死者の宮殿 B51～B60",
+      "de": "Palast der Toten (Ebenen 51 - 60)",
+      "fr": "le Palais des morts (sous-sols 51-60)"
     },
     "type": 21,
     "level": 1,
@@ -2102,7 +2866,11 @@
   },
   "205": {
     "name": {
-      "chs": "死者宫殿 地下61～70层"
+      "chs": "死者宫殿 地下61～70层",
+      "en": "the Palace of the Dead (Floors 61-70)",
+      "ja": "死者の宮殿 B61～B70",
+      "de": "Palast der Toten (Ebenen 61 - 70)",
+      "fr": "le Palais des morts (sous-sols 61-70)"
     },
     "type": 21,
     "level": 1,
@@ -2113,7 +2881,11 @@
   },
   "206": {
     "name": {
-      "chs": "死者宫殿 地下71～80层"
+      "chs": "死者宫殿 地下71～80层",
+      "en": "the Palace of the Dead (Floors 71-80)",
+      "ja": "死者の宮殿 B71～B80",
+      "de": "Palast der Toten (Ebenen 71 - 80)",
+      "fr": "le Palais des morts (sous-sols 71-80)"
     },
     "type": 21,
     "level": 1,
@@ -2124,7 +2896,11 @@
   },
   "207": {
     "name": {
-      "chs": "死者宫殿 地下81～90层"
+      "chs": "死者宫殿 地下81～90层",
+      "en": "the Palace of the Dead (Floors 81-90)",
+      "ja": "死者の宮殿 B81～B90",
+      "de": "Palast der Toten (Ebenen 81 - 90)",
+      "fr": "le Palais des morts (sous-sols 81-90)"
     },
     "type": 21,
     "level": 1,
@@ -2135,7 +2911,11 @@
   },
   "208": {
     "name": {
-      "chs": "死者宫殿 地下91～100层"
+      "chs": "死者宫殿 地下91～100层",
+      "en": "the Palace of the Dead (Floors 91-100)",
+      "ja": "死者の宮殿 B91～B100",
+      "de": "Palast der Toten (Ebenen 91 - 100)",
+      "fr": "le Palais des morts (sous-sols 91-100)"
     },
     "type": 21,
     "level": 1,
@@ -2146,7 +2926,11 @@
   },
   "209": {
     "name": {
-      "chs": "死者宫殿 地下101～110层"
+      "chs": "死者宫殿 地下101～110层",
+      "en": "the Palace of the Dead (Floors 101-110)",
+      "ja": "死者の宮殿 B101～B110",
+      "de": "Palast der Toten (Ebenen 101 - 110)",
+      "fr": "le Palais des morts (sous-sols 101-110)"
     },
     "type": 21,
     "level": 1,
@@ -2157,7 +2941,11 @@
   },
   "210": {
     "name": {
-      "chs": "死者宫殿 地下111～120层"
+      "chs": "死者宫殿 地下111～120层",
+      "en": "the Palace of the Dead (Floors 111-120)",
+      "ja": "死者の宮殿 B111～B120",
+      "de": "Palast der Toten (Ebenen 111 - 120)",
+      "fr": "le Palais des morts (sous-sols 111-120)"
     },
     "type": 21,
     "level": 1,
@@ -2168,7 +2956,11 @@
   },
   "211": {
     "name": {
-      "chs": "死者宫殿 地下121～130层"
+      "chs": "死者宫殿 地下121～130层",
+      "en": "the Palace of the Dead (Floors 121-130)",
+      "ja": "死者の宮殿 B121～B130",
+      "de": "Palast der Toten (Ebenen 121 - 130)",
+      "fr": "le Palais des morts (sous-sols 121-130)"
     },
     "type": 21,
     "level": 1,
@@ -2179,7 +2971,11 @@
   },
   "212": {
     "name": {
-      "chs": "死者宫殿 地下131～140层"
+      "chs": "死者宫殿 地下131～140层",
+      "en": "the Palace of the Dead (Floors 131-140)",
+      "ja": "死者の宮殿 B131～B140",
+      "de": "Palast der Toten (Ebenen 131 - 140)",
+      "fr": "le Palais des morts (sous-sols 131-140)"
     },
     "type": 21,
     "level": 1,
@@ -2190,7 +2986,11 @@
   },
   "213": {
     "name": {
-      "chs": "死者宫殿 地下141～150层"
+      "chs": "死者宫殿 地下141～150层",
+      "en": "the Palace of the Dead (Floors 141-150)",
+      "ja": "死者の宮殿 B141～B150",
+      "de": "Palast der Toten (Ebenen 141 - 150)",
+      "fr": "le Palais des morts (sous-sols 141-150)"
     },
     "type": 21,
     "level": 1,
@@ -2201,7 +3001,11 @@
   },
   "214": {
     "name": {
-      "chs": "死者宫殿 地下151～160层"
+      "chs": "死者宫殿 地下151～160层",
+      "en": "the Palace of the Dead (Floors 151-160)",
+      "ja": "死者の宮殿 B151～B160",
+      "de": "Palast der Toten (Ebenen 151 - 160)",
+      "fr": "le Palais des morts (sous-sols 151-160)"
     },
     "type": 21,
     "level": 1,
@@ -2212,7 +3016,11 @@
   },
   "215": {
     "name": {
-      "chs": "死者宫殿 地下161～170层"
+      "chs": "死者宫殿 地下161～170层",
+      "en": "the Palace of the Dead (Floors 161-170)",
+      "ja": "死者の宮殿 B161～B170",
+      "de": "Palast der Toten (Ebenen 161 - 170)",
+      "fr": "le Palais des morts (sous-sols 161-170)"
     },
     "type": 21,
     "level": 1,
@@ -2223,7 +3031,11 @@
   },
   "216": {
     "name": {
-      "chs": "死者宫殿 地下171～180层"
+      "chs": "死者宫殿 地下171～180层",
+      "en": "the Palace of the Dead (Floors 171-180)",
+      "ja": "死者の宮殿 B171～B180",
+      "de": "Palast der Toten (Ebenen 171 - 180)",
+      "fr": "le Palais des morts (sous-sols 171-180)"
     },
     "type": 21,
     "level": 1,
@@ -2234,7 +3046,11 @@
   },
   "217": {
     "name": {
-      "chs": "死者宫殿 地下181～190层"
+      "chs": "死者宫殿 地下181～190层",
+      "en": "the Palace of the Dead (Floors 181-190)",
+      "ja": "死者の宮殿 B181～B190",
+      "de": "Palast der Toten (Ebenen 181 - 190)",
+      "fr": "le Palais des morts (sous-sols 181-190)"
     },
     "type": 21,
     "level": 1,
@@ -2245,7 +3061,11 @@
   },
   "218": {
     "name": {
-      "chs": "死者宫殿 地下191～200层"
+      "chs": "死者宫殿 地下191～200层",
+      "en": "the Palace of the Dead (Floors 191-200)",
+      "ja": "死者の宮殿 B191～B200",
+      "de": "Palast der Toten (Ebenen 191 - 200)",
+      "fr": "le Palais des morts (sous-sols 191-200)"
     },
     "type": 21,
     "level": 1,
@@ -2256,7 +3076,11 @@
   },
   "219": {
     "name": {
-      "chs": "坚牢铁壁巴埃萨长城"
+      "chs": "坚牢铁壁巴埃萨长城",
+      "en": "Baelsar's Wall",
+      "ja": "巨大防壁 バエサルの長城",
+      "de": "Baelsar-Wall",
+      "fr": "la Muraille de Baelsar"
     },
     "type": 2,
     "level": 60,
@@ -2267,7 +3091,11 @@
   },
   "220": {
     "name": {
-      "chs": "影之国"
+      "chs": "影之国",
+      "en": "Dun Scaith",
+      "ja": "影の国ダン・スカー",
+      "de": "Dun Scaith",
+      "fr": "Dun Scaith"
     },
     "type": 5,
     "level": 60,
@@ -2278,7 +3106,11 @@
   },
   "221": {
     "name": {
-      "chs": "天山深境索姆阿尔灵峰"
+      "chs": "天山深境索姆阿尔灵峰",
+      "en": "Sohm Al (Hard)",
+      "ja": "霊峰浄化 ソーム・アル (Hard)",
+      "de": "Sohm Al (schwer)",
+      "fr": "Sohm Al (brutal)"
     },
     "type": 2,
     "level": 60,
@@ -2289,7 +3121,11 @@
   },
   "222": {
     "name": {
-      "chs": "加尔提诺平原遭遇战"
+      "chs": "加尔提诺平原遭遇战",
+      "en": "The Carteneau Flats: Heliodrome",
+      "ja": "カルテノー平原遭遇戦",
+      "de": "Heliodrom",
+      "fr": "Rixe à l'Héliodrome"
     },
     "type": 7,
     "level": 1,
@@ -2300,7 +3136,11 @@
   },
   "223": {
     "name": {
-      "chs": "祖尔宛歼灭战"
+      "chs": "祖尔宛歼灭战",
+      "en": "Containment Bay Z1T9",
+      "ja": "鬼神ズルワーン討滅戦",
+      "de": "Götterdämmerung - Zurvan",
+      "fr": "Unité de contention Z1P9"
     },
     "type": 4,
     "level": 60,
@@ -2311,7 +3151,11 @@
   },
   "224": {
     "name": {
-      "chs": "祖尔宛歼殛战"
+      "chs": "祖尔宛歼殛战",
+      "en": "Containment Bay Z1T9 (Extreme)",
+      "ja": "極鬼神ズルワーン討滅戦",
+      "de": "Zenit der Götter - Zurvan",
+      "fr": "Unité de contention Z1P9 (extrême)"
     },
     "type": 4,
     "level": 60,
@@ -2322,7 +3166,11 @@
   },
   "225": {
     "name": {
-      "chs": "云冠群岛战争神猎场"
+      "chs": "云冠群岛战争神猎场",
+      "en": "the Diadem - Trials of the Fury",
+      "ja": "雲海探索 ディアデム諸島 (狩猟)",
+      "de": "Das Diadem - Halones Prüfung",
+      "fr": "Le Diadème - Épreuves de Halone"
     },
     "type": 23,
     "level": 60,
@@ -2333,7 +3181,11 @@
   },
   "228": {
     "name": {
-      "chs": "群狼盛宴 (4对4 / 练习赛)"
+      "chs": "群狼盛宴 (4对4 / 练习赛)",
+      "en": "the Feast (4 on 4 - Training)",
+      "ja": "ザ・フィースト (4対4 / カジュアルマッチ)",
+      "de": "The Feast (4 gegen 4, Übungskampf)",
+      "fr": "The Feast (4x4/entraînement)"
     },
     "type": 6,
     "level": 30,
@@ -2344,7 +3196,11 @@
   },
   "230": {
     "name": {
-      "chs": "群狼盛宴 (4对4 / 段位赛)"
+      "chs": "群狼盛宴 (4对4 / 段位赛)",
+      "en": "the Feast (4 on 4 - Ranked)",
+      "ja": "ザ・フィースト (4対4 / ランクマッチ)",
+      "de": "The Feast (4 gegen 4, gewertet)",
+      "fr": "The Feast (4x4/classé)"
     },
     "type": 6,
     "level": 30,
@@ -2355,7 +3211,11 @@
   },
   "233": {
     "name": {
-      "chs": "群狼盛宴 (地衣宫演习场：自定赛)"
+      "chs": "群狼盛宴 (地衣宫演习场：自定赛)",
+      "en": "the Feast (Custom Match - Lichenweed)",
+      "ja": "ザ・フィースト (ライケンウィード演習場：カスタムマッチ）",
+      "de": "The Feast (Flechtenhain: Schaukampf)",
+      "fr": "The Feast (personnalisé/Pré-de-lichen)"
     },
     "type": 6,
     "level": 30,
@@ -2366,7 +3226,11 @@
   },
   "234": {
     "name": {
-      "chs": "云冠群岛丰饶神福地"
+      "chs": "云冠群岛丰饶神福地",
+      "en": "the Diadem - Trials of the Matron",
+      "ja": "雲海探索 ディアデム諸島 (採集)",
+      "de": "Das Diadem - Nophicas Prüfung",
+      "fr": "Le Diadème - Épreuves de Nophica"
     },
     "type": 23,
     "level": 60,
@@ -2377,7 +3241,11 @@
   },
   "235": {
     "name": {
-      "chs": "海底宫殿紫水宫"
+      "chs": "海底宫殿紫水宫",
+      "en": "Shisui of the Violet Tides",
+      "ja": "海底宮殿 紫水宮",
+      "de": "Shisui",
+      "fr": "le Palais aux Marées violettes"
     },
     "type": 2,
     "level": 63,
@@ -2388,7 +3256,11 @@
   },
   "236": {
     "name": {
-      "chs": "修行古刹星导寺"
+      "chs": "修行古刹星导寺",
+      "en": "The Temple of the Fist",
+      "ja": "壊神修行 星導山寺院",
+      "de": "Tempel der Faust",
+      "fr": "le Temple du Poing"
     },
     "type": 2,
     "level": 70,
@@ -2399,7 +3271,11 @@
   },
   "237": {
     "name": {
-      "chs": "鱼道现身！"
+      "chs": "鱼道现身！",
+      "en": "It's Probably a Trap",
+      "ja": "ギョドウ現る！",
+      "de": "Ein zweifelhaftes Angebot",
+      "fr": "Un drôle de Namazu"
     },
     "type": 7,
     "level": 1,
@@ -2410,7 +3286,11 @@
   },
   "238": {
     "name": {
-      "chs": "漂流海域妖歌海"
+      "chs": "漂流海域妖歌海",
+      "en": "The Sirensong Sea",
+      "ja": "漂流海域 セイレーン海",
+      "de": "Sirenen-See",
+      "fr": "la Mer du Chant des sirènes"
     },
     "type": 2,
     "level": 61,
@@ -2421,7 +3301,11 @@
   },
   "239": {
     "name": {
-      "chs": "神龙歼灭战"
+      "chs": "神龙歼灭战",
+      "en": "the Royal Menagerie",
+      "ja": "神龍討滅戦",
+      "de": "Königliche Menagerie",
+      "fr": "la Ménagerie royale"
     },
     "type": 4,
     "level": 70,
@@ -2432,7 +3316,11 @@
   },
   "240": {
     "name": {
-      "chs": "试炼行路巴儿达木霸道"
+      "chs": "试炼行路巴儿达木霸道",
+      "en": "Bardam's Mettle",
+      "ja": "伝統試練 バルダム覇道",
+      "de": "Bardams Probe",
+      "fr": "la Force de Bardam"
     },
     "type": 2,
     "level": 65,
@@ -2443,7 +3331,11 @@
   },
   "241": {
     "name": {
-      "chs": "解放决战多玛王城"
+      "chs": "解放决战多玛王城",
+      "en": "Doma Castle",
+      "ja": "解放決戦 ドマ城",
+      "de": "Burg Doma",
+      "fr": "le Château de Doma"
     },
     "type": 2,
     "level": 67,
@@ -2454,7 +3346,11 @@
   },
   "242": {
     "name": {
-      "chs": "巨炮要塞帝国白山堡"
+      "chs": "巨炮要塞帝国白山堡",
+      "en": "Castrum Abania",
+      "ja": "巨砲要塞 カストルム・アバニア",
+      "de": "Castrum Abania",
+      "fr": "Castrum Abania"
     },
     "type": 2,
     "level": 69,
@@ -2465,7 +3361,11 @@
   },
   "243": {
     "name": {
-      "chs": "须佐之男歼灭战"
+      "chs": "须佐之男歼灭战",
+      "en": "the Pool of Tribute",
+      "ja": "スサノオ討滅戦",
+      "de": "Götterdämmerung - Susano",
+      "fr": "la Crique aux tributs"
     },
     "type": 4,
     "level": 63,
@@ -2476,7 +3376,11 @@
   },
   "244": {
     "name": {
-      "chs": "须佐之男歼殛战"
+      "chs": "须佐之男歼殛战",
+      "en": "the Pool of Tribute (Extreme)",
+      "ja": "極スサノオ討滅戦",
+      "de": "Zenit der Götter - Susano",
+      "fr": "la Crique aux tributs (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -2487,7 +3391,11 @@
   },
   "245": {
     "name": {
-      "chs": "抗争之力"
+      "chs": "抗争之力",
+      "en": "With Heart and Steel",
+      "ja": "抗う力",
+      "de": "Die Kraft des Widerstands",
+      "fr": "Transmigration démoniaque"
     },
     "type": 7,
     "level": 70,
@@ -2498,7 +3406,11 @@
   },
   "246": {
     "name": {
-      "chs": "那达慕"
+      "chs": "那达慕",
+      "en": "Naadam",
+      "ja": "終節の合戦",
+      "de": "Naadam",
+      "fr": "La grande bataille du Naadam"
     },
     "type": 7,
     "level": 1,
@@ -2509,7 +3421,11 @@
   },
   "247": {
     "name": {
-      "chs": "鏖战红莲阿拉米格"
+      "chs": "鏖战红莲阿拉米格",
+      "en": "Ala Mhigo",
+      "ja": "紅蓮決戦 アラミゴ",
+      "de": "Ala Mhigo",
+      "fr": "Ala Mhigo"
     },
     "type": 2,
     "level": 70,
@@ -2520,7 +3436,11 @@
   },
   "248": {
     "name": {
-      "chs": "海都路人身首异"
+      "chs": "海都路人身首异",
+      "en": "Blood on the Deck",
+      "ja": "海都を震わす人斬りの宴！",
+      "de": "Mord ist sein Hobby",
+      "fr": "La légende de Musosai: l'assassin de Limsa Lominsa"
     },
     "type": 7,
     "level": 54,
@@ -2531,7 +3451,11 @@
   },
   "249": {
     "name": {
-      "chs": "极恶之人木枯"
+      "chs": "极恶之人木枯",
+      "en": "The Face of True Evil",
+      "ja": "極悪人コガラシ",
+      "de": "Der Inbegriff des Bösen",
+      "fr": "L'abominable Kogarashi"
     },
     "type": 7,
     "level": 60,
@@ -2542,7 +3466,11 @@
   },
   "250": {
     "name": {
-      "chs": "松叶门外之变"
+      "chs": "松叶门外之变",
+      "en": "Matsuba Mayhem",
+      "ja": "松葉門外の変",
+      "de": "Vorfall auf dem Matsuba-Platz",
+      "fr": "Règlement de compte au square Matsuba"
     },
     "type": 7,
     "level": 65,
@@ -2553,7 +3481,11 @@
   },
   "251": {
     "name": {
-      "chs": "决战龟甲岛"
+      "chs": "决战龟甲岛",
+      "en": "The Battle on Bekko",
+      "ja": "ベッコウ島の決闘",
+      "de": "Entscheidungsschlacht auf Bekko",
+      "fr": "L'affrontement de deux justices"
     },
     "type": 7,
     "level": 70,
@@ -2564,7 +3496,11 @@
   },
   "252": {
     "name": {
-      "chs": "欧米茄时空狭缝 德尔塔幻境1"
+      "chs": "欧米茄时空狭缝 德尔塔幻境1",
+      "en": "Deltascape V1.0",
+      "ja": "次元の狭間オメガ：デルタ編1",
+      "de": "Deltametrie 1.0",
+      "fr": "Deltastice v1.0"
     },
     "type": 5,
     "level": 70,
@@ -2575,7 +3511,11 @@
   },
   "253": {
     "name": {
-      "chs": "欧米茄时空狭缝 德尔塔幻境2"
+      "chs": "欧米茄时空狭缝 德尔塔幻境2",
+      "en": "Deltascape V2.0",
+      "ja": "次元の狭間オメガ：デルタ編2",
+      "de": "Deltametrie 2.0",
+      "fr": "Deltastice v2.0"
     },
     "type": 5,
     "level": 70,
@@ -2586,7 +3526,11 @@
   },
   "254": {
     "name": {
-      "chs": "欧米茄时空狭缝 德尔塔幻境3"
+      "chs": "欧米茄时空狭缝 德尔塔幻境3",
+      "en": "Deltascape V3.0",
+      "ja": "次元の狭間オメガ：デルタ編3",
+      "de": "Deltametrie 3.0",
+      "fr": "Deltastice v3.0"
     },
     "type": 5,
     "level": 70,
@@ -2597,7 +3541,11 @@
   },
   "255": {
     "name": {
-      "chs": "欧米茄时空狭缝 德尔塔幻境4"
+      "chs": "欧米茄时空狭缝 德尔塔幻境4",
+      "en": "Deltascape V4.0",
+      "ja": "次元の狭間オメガ：デルタ編4",
+      "de": "Deltametrie 4.0",
+      "fr": "Deltastice v4.0"
     },
     "type": 5,
     "level": 70,
@@ -2608,7 +3556,11 @@
   },
   "256": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 德尔塔幻境1"
+      "chs": "欧米茄零式时空狭缝 德尔塔幻境1",
+      "en": "Deltascape V1.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：デルタ編1",
+      "de": "Deltametrie 1.0 (episch)",
+      "fr": "Deltastice v1.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -2619,7 +3571,11 @@
   },
   "257": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 德尔塔幻境2"
+      "chs": "欧米茄零式时空狭缝 德尔塔幻境2",
+      "en": "Deltascape V2.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：デルタ編2",
+      "de": "Deltametrie 2.0 (episch)",
+      "fr": "Deltastice v2.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -2630,7 +3586,11 @@
   },
   "258": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 德尔塔幻境3"
+      "chs": "欧米茄零式时空狭缝 德尔塔幻境3",
+      "en": "Deltascape V3.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：デルタ編3",
+      "de": "Deltametrie 3.0 (episch)",
+      "fr": "Deltastice v3.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -2641,7 +3601,11 @@
   },
   "259": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 德尔塔幻境4"
+      "chs": "欧米茄零式时空狭缝 德尔塔幻境4",
+      "en": "Deltascape V4.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：デルタ編4",
+      "de": "Deltametrie 4.0 (episch)",
+      "fr": "Deltastice v4.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -2652,7 +3616,11 @@
   },
   "260": {
     "name": {
-      "chs": "原初的战士"
+      "chs": "原初的战士",
+      "en": "Curious Gorge Meets His Match",
+      "ja": "原初的な彼女",
+      "de": "Die Urkraft in ihr",
+      "fr": "L'épreuve de force"
     },
     "type": 7,
     "level": 60,
@@ -2663,7 +3631,11 @@
   },
   "261": {
     "name": {
-      "chs": "大会开始"
+      "chs": "大会开始",
+      "en": "In Thal's Name",
+      "ja": "ウル王杯闘技会の始まり",
+      "de": "Thal zu Ehren",
+      "fr": "Le tournoi commémoratif du sultanat"
     },
     "type": 7,
     "level": 63,
@@ -2674,7 +3646,11 @@
   },
   "262": {
     "name": {
-      "chs": "恶党孤城黄金阁"
+      "chs": "恶党孤城黄金阁",
+      "en": "Kugane Castle",
+      "ja": "悪党成敗 クガネ城",
+      "de": "Schloss Kugane",
+      "fr": "le Château de Kugane"
     },
     "type": 2,
     "level": 70,
@@ -2685,7 +3661,11 @@
   },
   "263": {
     "name": {
-      "chs": "吉祥天女歼灭战"
+      "chs": "吉祥天女歼灭战",
+      "en": "Emanation",
+      "ja": "ラクシュミ討滅戦",
+      "de": "Götterdämmerung - Lakshmi",
+      "fr": "Émanation"
     },
     "type": 4,
     "level": 67,
@@ -2696,7 +3676,11 @@
   },
   "264": {
     "name": {
-      "chs": "吉祥天女歼殛战"
+      "chs": "吉祥天女歼殛战",
+      "en": "Emanation (Extreme)",
+      "ja": "極ラクシュミ討滅戦",
+      "de": "Zenit der Götter - Lakshmi",
+      "fr": "Émanation (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -2707,7 +3691,11 @@
   },
   "265": {
     "name": {
-      "chs": "穿越时空的夙愿"
+      "chs": "穿越时空的夙愿",
+      "en": "Our Unsung Heroes",
+      "ja": "時をかける願い",
+      "de": "Ein Wunsch aus alten Zeiten",
+      "fr": "L'espoir en héritage"
     },
     "type": 7,
     "level": 70,
@@ -2718,7 +3706,11 @@
   },
   "266": {
     "name": {
-      "chs": "燃烧吧高吉"
+      "chs": "燃烧吧高吉",
+      "en": "The Heart of the Problem",
+      "ja": "燃えよゴージ！",
+      "de": "Kriegerische Leidenschaft",
+      "fr": "Passion guerrière"
     },
     "type": 7,
     "level": 70,
@@ -2729,7 +3721,11 @@
   },
   "267": {
     "name": {
-      "chs": "漆黑的巨龙"
+      "chs": "漆黑的巨龙",
+      "en": "Dark as the Night Sky",
+      "ja": "漆黒の巨竜",
+      "de": "Der tobende Drache",
+      "fr": "Aussi sombre que la nuit"
     },
     "type": 7,
     "level": 68,
@@ -2740,7 +3736,11 @@
   },
   "268": {
     "name": {
-      "chs": "运河宝物库"
+      "chs": "运河宝物库",
+      "en": "the Lost Canals of Uznair",
+      "ja": "宝物庫 ウズネアカナル",
+      "de": "Kanäle von Uznair",
+      "fr": "les Canaux perdus d'Uznair"
     },
     "type": 9,
     "level": 1,
@@ -2751,7 +3751,11 @@
   },
   "269": {
     "name": {
-      "chs": "于里昂热的秘策"
+      "chs": "于里昂热的秘策",
+      "en": "The Resonant",
+      "ja": "ウリエンジェの秘策",
+      "de": "Wege zur Transzendenz",
+      "fr": "La ruse d'Urianger"
     },
     "type": 7,
     "level": 1,
@@ -2762,7 +3766,11 @@
   },
   "270": {
     "name": {
-      "chs": "为了更强"
+      "chs": "为了更强",
+      "en": "Raising the Sword",
+      "ja": "さらなる剣術の高みへ",
+      "de": "Die hohe Kunst des Schwertkampfs",
+      "fr": "La finale des champions"
     },
     "type": 7,
     "level": 70,
@@ -2773,7 +3781,11 @@
   },
   "271": {
     "name": {
-      "chs": "遥远的憧憬"
+      "chs": "遥远的憧憬",
+      "en": "The Orphans and the Broken Blade",
+      "ja": "あと三度、遥かな憧憬",
+      "de": "Probe des Meisters",
+      "fr": "L'aspiration refoulée"
     },
     "type": 7,
     "level": 65,
@@ -2784,7 +3796,11 @@
   },
   "272": {
     "name": {
-      "chs": "再次相见"
+      "chs": "再次相见",
+      "en": "Our Compromise",
+      "ja": "あと一度、君に会えたら",
+      "de": "Aus der Tiefe des Herzens",
+      "fr": "La dernière séparation"
     },
     "type": 7,
     "level": 70,
@@ -2795,7 +3811,11 @@
   },
   "273": {
     "name": {
-      "chs": "红血之龙骑士"
+      "chs": "红血之龙骑士",
+      "en": "Dragon Sound",
+      "ja": "紅の竜騎士",
+      "de": "Der Rubin-Drachenreiter",
+      "fr": "Le Dragon écarlate"
     },
     "type": 7,
     "level": 70,
@@ -2806,7 +3826,11 @@
   },
   "274": {
     "name": {
-      "chs": "影隐忍法贴"
+      "chs": "影隐忍法贴",
+      "en": "When Clans Collide",
+      "ja": "影隠忍法帖",
+      "de": "Aus dem Verborgenen",
+      "fr": "La bataille des clans"
     },
     "type": 7,
     "level": 70,
@@ -2817,7 +3841,11 @@
   },
   "275": {
     "name": {
-      "chs": "时空狭缝外缘"
+      "chs": "时空狭缝外缘",
+      "en": "Interdimensional Rift",
+      "ja": "次元の狭間：外縁",
+      "de": "Interdimensionaler Riss",
+      "fr": "Fissure interdimensionnelle"
     },
     "type": 7,
     "level": 1,
@@ -2828,7 +3856,11 @@
   },
   "276": {
     "name": {
-      "chs": "运河宝物库深层"
+      "chs": "运河宝物库深层",
+      "en": "the Hidden Canals of Uznair",
+      "ja": "宝物庫 ウズネアカナル深層",
+      "de": "Vergessene Kanäle von Uznair",
+      "fr": "les Canaux cachés d'Uznair"
     },
     "type": 9,
     "level": 1,
@@ -2839,7 +3871,11 @@
   },
   "277": {
     "name": {
-      "chs": "距骨研究所 (机动战)"
+      "chs": "距骨研究所 (机动战)",
+      "en": "Astragalos",
+      "ja": "アストラガロス (機工戦)",
+      "de": "Astragalos",
+      "fr": "Astragalos (machinerie)"
     },
     "type": 6,
     "level": 30,
@@ -2850,7 +3886,11 @@
   },
   "278": {
     "name": {
-      "chs": "神龙梦幻歼灭战"
+      "chs": "神龙梦幻歼灭战",
+      "en": "the Minstrel's Ballad: Shinryu's Domain",
+      "ja": "極神龍討滅戦",
+      "de": "Heldenlied von Shinryu",
+      "fr": "Le domaine de Shinryu"
     },
     "type": 4,
     "level": 70,
@@ -2861,7 +3901,11 @@
   },
   "279": {
     "name": {
-      "chs": "沉没神殿斯卡拉遗迹"
+      "chs": "沉没神殿斯卡拉遗迹",
+      "en": "the Drowned City of Skalla",
+      "ja": "水没遺構 スカラ",
+      "de": "Die versunkene Stadt Skalla",
+      "fr": "la Cité engloutie de Skalla"
     },
     "type": 2,
     "level": 70,
@@ -2872,7 +3916,11 @@
   },
   "280": {
     "name": {
-      "chs": "巴哈姆特绝境战"
+      "chs": "巴哈姆特绝境战",
+      "en": "the Unending Coil of Bahamut (Ultimate)",
+      "ja": "絶バハムート討滅戦",
+      "de": "Endlose Schatten von Bahamut (fatal)",
+      "fr": "l'Abîme infini de Bahamut (fatal)"
     },
     "type": 28,
     "level": 70,
@@ -2883,7 +3931,11 @@
   },
   "281": {
     "name": {
-      "chs": "失落之都拉巴纳斯塔"
+      "chs": "失落之都拉巴纳斯塔",
+      "en": "the Royal City of Rabanastre",
+      "ja": "失われた都 ラバナスタ",
+      "de": "Rabanastre",
+      "fr": "la Cité royale de Rabanastre"
     },
     "type": 5,
     "level": 70,
@@ -2894,7 +3946,11 @@
   },
   "282": {
     "name": {
-      "chs": "英雄归来"
+      "chs": "英雄归来",
+      "en": "Return of the Bull",
+      "ja": "英雄の帰還",
+      "de": "Verrat der Qalyana",
+      "fr": "Retour au bercail"
     },
     "type": 7,
     "level": 1,
@@ -2905,7 +3961,11 @@
   },
   "283": {
     "name": {
-      "chs": "禁地优雷卡 常风之地"
+      "chs": "禁地优雷卡 常风之地",
+      "en": "the Forbidden Land, Eureka Anemos",
+      "ja": "禁断の地 エウレカ：アネモス編",
+      "de": "Eureka Anemos",
+      "fr": "Eurêka Anemos"
     },
     "type": 26,
     "level": 70,
@@ -2916,7 +3976,11 @@
   },
   "284": {
     "name": {
-      "chs": "红玉火山狱之盖"
+      "chs": "红玉火山狱之盖",
+      "en": "Hells' Lid",
+      "ja": "紅玉火山 獄之蓋",
+      "de": "Höllenspund",
+      "fr": "le Couvercle des enfers"
     },
     "type": 2,
     "level": 70,
@@ -2927,7 +3991,11 @@
   },
   "285": {
     "name": {
-      "chs": "疯狂战舰无限回廊"
+      "chs": "疯狂战舰无限回廊",
+      "en": "the Fractal Continuum (Hard)",
+      "ja": "暴走戦艦 フラクタル・コンティニアム (Hard)",
+      "de": "Die Fraktal-Kontinuum (schwer)",
+      "fr": "le Continuum fractal (brutal)"
     },
     "type": 2,
     "level": 70,
@@ -2938,7 +4006,11 @@
   },
   "286": {
     "name": {
-      "chs": "欧米茄时空狭缝 西格玛幻境1"
+      "chs": "欧米茄时空狭缝 西格玛幻境1",
+      "en": "Sigmascape V1.0",
+      "ja": "次元の狭間オメガ：シグマ編1",
+      "de": "Sigmametrie 1.0",
+      "fr": "Sigmastice v1.0"
     },
     "type": 5,
     "level": 70,
@@ -2949,7 +4021,11 @@
   },
   "287": {
     "name": {
-      "chs": "欧米茄时空狭缝 西格玛幻境2"
+      "chs": "欧米茄时空狭缝 西格玛幻境2",
+      "en": "Sigmascape V2.0",
+      "ja": "次元の狭間オメガ：シグマ編2",
+      "de": "Sigmametrie 2.0",
+      "fr": "Sigmastice v2.0"
     },
     "type": 5,
     "level": 70,
@@ -2960,7 +4036,11 @@
   },
   "288": {
     "name": {
-      "chs": "欧米茄时空狭缝 西格玛幻境3"
+      "chs": "欧米茄时空狭缝 西格玛幻境3",
+      "en": "Sigmascape V3.0",
+      "ja": "次元の狭間オメガ：シグマ編3",
+      "de": "Sigmametrie 3.0",
+      "fr": "Sigmastice v3.0"
     },
     "type": 5,
     "level": 70,
@@ -2971,7 +4051,11 @@
   },
   "289": {
     "name": {
-      "chs": "欧米茄时空狭缝 西格玛幻境4"
+      "chs": "欧米茄时空狭缝 西格玛幻境4",
+      "en": "Sigmascape V4.0",
+      "ja": "次元の狭間オメガ：シグマ編4",
+      "de": "Sigmametrie 4.0",
+      "fr": "Sigmastice v4.0"
     },
     "type": 5,
     "level": 70,
@@ -2982,7 +4066,11 @@
   },
   "290": {
     "name": {
-      "chs": "白虎镇魂战"
+      "chs": "白虎镇魂战",
+      "en": "the Jade Stoa",
+      "ja": "白虎征魂戦",
+      "de": "Seelentanz - Byakko",
+      "fr": "la Clairière de Jade"
     },
     "type": 4,
     "level": 70,
@@ -2993,7 +4081,11 @@
   },
   "291": {
     "name": {
-      "chs": "白虎诗魂战"
+      "chs": "白虎诗魂战",
+      "en": "the Jade Stoa (Extreme)",
+      "ja": "極白虎征魂戦",
+      "de": "Seelensturm - Byakko",
+      "fr": "la Clairière de Jade (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -3004,7 +4096,11 @@
   },
   "292": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 西格玛幻境1"
+      "chs": "欧米茄零式时空狭缝 西格玛幻境1",
+      "en": "Sigmascape V1.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：シグマ編1",
+      "de": "Sigmametrie 1.0 (episch)",
+      "fr": "Sigmastice v1.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -3015,7 +4111,11 @@
   },
   "293": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 西格玛幻境2"
+      "chs": "欧米茄零式时空狭缝 西格玛幻境2",
+      "en": "Sigmascape V2.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：シグマ編2",
+      "de": "Sigmametrie 2.0 (episch)",
+      "fr": "Sigmastice v2.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -3026,7 +4126,11 @@
   },
   "294": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 西格玛幻境3"
+      "chs": "欧米茄零式时空狭缝 西格玛幻境3",
+      "en": "Sigmascape V3.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：シグマ編3",
+      "de": "Sigmametrie 3.0 (episch)",
+      "fr": "Sigmastice v3.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -3037,7 +4141,11 @@
   },
   "295": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 西格玛幻境4"
+      "chs": "欧米茄零式时空狭缝 西格玛幻境4",
+      "en": "Sigmascape V4.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：シグマ編4",
+      "de": "Sigmametrie 4.0 (episch)",
+      "fr": "Sigmastice v4.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -3048,7 +4156,11 @@
   },
   "473": {
     "name": {
-      "chs": "良缘仪式"
+      "chs": "良缘仪式",
+      "en": "the Valentione's Ceremony",
+      "ja": "ヴァレンティオンセレモニー",
+      "de": "Valentionzeremonie",
+      "fr": "la Cérémonie de la Valention"
     },
     "type": 22,
     "level": 1,
@@ -3059,7 +4171,11 @@
   },
   "474": {
     "name": {
-      "chs": "火龙狩猎战"
+      "chs": "火龙狩猎战",
+      "en": "the Great Hunt",
+      "ja": "リオレウス狩猟戦",
+      "de": "Jagd auf Rathalos",
+      "fr": "Chasse au Rathalos"
     },
     "type": 4,
     "level": 70,
@@ -3070,7 +4186,11 @@
   },
   "475": {
     "name": {
-      "chs": "火龙上位狩猎战"
+      "chs": "火龙上位狩猎战",
+      "en": "the Great Hunt (Extreme)",
+      "ja": "極リオレウス狩猟戦",
+      "de": "Jagd auf Rathalos (schwer)",
+      "fr": "Chasse au Rathalos (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -3081,7 +4201,11 @@
   },
   "476": {
     "name": {
-      "chs": "群狼盛宴 (战队段位赛)"
+      "chs": "群狼盛宴 (战队段位赛)",
+      "en": "the Feast (Team Ranked)",
+      "ja": "ザ・フィースト (チーム用ランクマッチ)",
+      "de": "The Feast (Team, gewertet)",
+      "fr": "The Feast (classé/équipe JcJ)"
     },
     "type": 6,
     "level": 30,
@@ -3092,7 +4216,11 @@
   },
   "478": {
     "name": {
-      "chs": "群狼盛宴 (段位赛)"
+      "chs": "群狼盛宴 (段位赛)",
+      "en": "the Feast (Ranked)",
+      "ja": "ザ・フィースト (ランクマッチ)",
+      "de": "The Feast (gewertet)",
+      "fr": "The Feast (classé)"
     },
     "type": 6,
     "level": 30,
@@ -3103,7 +4231,11 @@
   },
   "479": {
     "name": {
-      "chs": "群狼盛宴 (练习赛)"
+      "chs": "群狼盛宴 (练习赛)",
+      "en": "the Feast (Training)",
+      "ja": "ザ・フィースト (カジュアルマッチ)",
+      "de": "The Feast (Übungskampf)",
+      "fr": "The Feast (entraînement)"
     },
     "type": 6,
     "level": 30,
@@ -3114,7 +4246,11 @@
   },
   "480": {
     "name": {
-      "chs": "群狼盛宴 (水晶塔演习场：自定赛)"
+      "chs": "群狼盛宴 (水晶塔演习场：自定赛)",
+      "en": "the Feast (Custom Match - Crystal Tower)",
+      "ja": "ザ・フィースト (クリスタルタワー演習場：カスタムマッチ）",
+      "de": "The Feast (Kristallturm-Arena: Schaukampf)",
+      "fr": "The Feast (personnalisé/Tour de Cristal)"
     },
     "type": 6,
     "level": 30,
@@ -3125,7 +4261,11 @@
   },
   "481": {
     "name": {
-      "chs": "陆行鸟竞赛：竞赛教学"
+      "chs": "陆行鸟竞赛：竞赛教学",
+      "en": "Chocobo Race: Tutorial",
+      "ja": "チョコボレース：チュートリアル",
+      "de": "Chocobo-Rennen: Übungsbahn",
+      "fr": "Course d'appentissage"
     },
     "type": 19,
     "level": 1,
@@ -3136,7 +4276,11 @@
   },
   "482": {
     "name": {
-      "chs": "第1关：抢占内圈赛道"
+      "chs": "第1关：抢占内圈赛道",
+      "en": "Race 1 - Hugging the Inside",
+      "ja": "第1節：インコースを狙え",
+      "de": "1: Immer schön innen",
+      "fr": "CP1 - Toujours à la corde!"
     },
     "type": 19,
     "level": 1,
@@ -3147,7 +4291,11 @@
   },
   "483": {
     "name": {
-      "chs": "第2关：躲避范围攻击"
+      "chs": "第2关：躲避范围攻击",
+      "en": "Race 2 - Keep Away",
+      "ja": "第2節：範囲攻撃を避けろ",
+      "de": "2: Vorsicht, Flächenangriff",
+      "fr": "CP2 - Gare aux attaques à aires d'effet!"
     },
     "type": 19,
     "level": 1,
@@ -3158,7 +4306,11 @@
   },
   "484": {
     "name": {
-      "chs": "第3关：能力不是万能的"
+      "chs": "第3关：能力不是万能的",
+      "en": "Race 3 - Inability",
+      "ja": "第3節：アビリティに頼るな",
+      "de": "3: Fähigkeiten sind nicht alles",
+      "fr": "CP3 - En avant même sans aptitudes!"
     },
     "type": 19,
     "level": 1,
@@ -3169,7 +4321,11 @@
   },
   "485": {
     "name": {
-      "chs": "第4关：沉重的竞赛（上）"
+      "chs": "第4关：沉重的竞赛（上）",
+      "en": "Race 4 - Heavy Hooves",
+      "ja": "第4節：ヘヴィなレース",
+      "de": "4: Ein gewichtiges Rennen",
+      "fr": "CP4 - Une course très très pesante!"
     },
     "type": 19,
     "level": 1,
@@ -3180,7 +4336,11 @@
   },
   "486": {
     "name": {
-      "chs": "第5关：站住别跑"
+      "chs": "第5关：站住别跑",
+      "en": "Race 5 - Defending the Rush",
+      "ja": "第5節：とんずらを阻止せよ",
+      "de": "5: Hiergeblieben!",
+      "fr": "CP5 - Attention aux départs rapides!"
     },
     "type": 19,
     "level": 1,
@@ -3191,7 +4351,11 @@
   },
   "487": {
     "name": {
-      "chs": "第6关：打击竞争对手"
+      "chs": "第6关：打击竞争对手",
+      "en": "Race 6 - Road Rivals",
+      "ja": "第6節：ライバルを叩け",
+      "de": "6: Rivale auf Trab",
+      "fr": "CP6 - Pas de pitié pour les rivaux!"
     },
     "type": 19,
     "level": 1,
@@ -3202,7 +4366,11 @@
   },
   "488": {
     "name": {
-      "chs": "第7关：梦幻的结界"
+      "chs": "第7关：梦幻的结界",
+      "en": "Race 7 - Field of Dreams",
+      "ja": "第7節：フィールド・オブ・ドリームズ",
+      "de": "7: Feld der Träume",
+      "fr": "CP7 - Prendre du champ avec les champs!"
     },
     "type": 19,
     "level": 1,
@@ -3213,7 +4381,11 @@
   },
   "489": {
     "name": {
-      "chs": "第8关：鹬蚌相争渔翁得利"
+      "chs": "第8关：鹬蚌相争渔翁得利",
+      "en": "Race 8 - Playing Both Ends",
+      "ja": "第8節：漁夫の利を狙え",
+      "de": "8: Der lachende Dritte",
+      "fr": "CP8 - Laissons les rivaux s'éliminer!"
     },
     "type": 19,
     "level": 1,
@@ -3224,7 +4396,11 @@
   },
   "490": {
     "name": {
-      "chs": "第9关：体力之战"
+      "chs": "第9关：体力之战",
+      "en": "Race 9 - Stamina",
+      "ja": "第9節：スタミナの戦い",
+      "de": "9: Der längere Atem",
+      "fr": "CP9 - Une bataille d'endurance!"
     },
     "type": 19,
     "level": 1,
@@ -3235,7 +4411,11 @@
   },
   "491": {
     "name": {
-      "chs": "第10关：逃亡者和追赶者"
+      "chs": "第10关：逃亡者和追赶者",
+      "en": "Race 10 - Cat and Mouse",
+      "ja": "第10節：逃げる者と追う者と",
+      "de": "10: Zwei Temperamente",
+      "fr": "CP10 - Course poursuite!"
     },
     "type": 19,
     "level": 1,
@@ -3246,7 +4426,11 @@
   },
   "492": {
     "name": {
-      "chs": "第11关：全速冲刺"
+      "chs": "第11关：全速冲刺",
+      "en": "Race 11 - Mad Dash",
+      "ja": "第11節：全速で駆け抜けろ",
+      "de": "11: Volle Kraft voraus",
+      "fr": "CP11 - À bride abattue!"
     },
     "type": 19,
     "level": 1,
@@ -3257,7 +4441,11 @@
   },
   "493": {
     "name": {
-      "chs": "第12关：活用竞赛能力"
+      "chs": "第12关：活用竞赛能力",
+      "en": "Race 12 - Bag of Tricks",
+      "ja": "第12節：アビリティを駆使せよ",
+      "de": "12: Fähigkeiten ohne Wenn und Extra",
+      "fr": "CP12 - Une épreuve d'aptitude!"
     },
     "type": 19,
     "level": 1,
@@ -3268,7 +4456,11 @@
   },
   "494": {
     "name": {
-      "chs": "第13关：突破对手的协作"
+      "chs": "第13关：突破对手的协作",
+      "en": "Race 13 - Tag Team",
+      "ja": "第13節：連携プレイに勝利せよ",
+      "de": "13: Ein unschlagbares Gespann",
+      "fr": "CP13 - Un travail d'équipe!"
     },
     "type": 19,
     "level": 1,
@@ -3279,7 +4471,11 @@
   },
   "495": {
     "name": {
-      "chs": "第14关：沉重的竞赛（下）"
+      "chs": "第14关：沉重的竞赛（下）",
+      "en": "Race 14 - Heavier Hooves",
+      "ja": "第14節：続ヘヴィなレース",
+      "de": "14: Ein äußerst gewichtiges Rennen",
+      "fr": "CP14 - Une course encore plus pesante!"
     },
     "type": 19,
     "level": 1,
@@ -3290,7 +4486,11 @@
   },
   "496": {
     "name": {
-      "chs": "第15关：究极陆行鸟竞赛"
+      "chs": "第15关：究极陆行鸟竞赛",
+      "en": "Race 15 - Ultimatum",
+      "ja": "第15節：究極のレース",
+      "de": "15: Rennen der Superlative",
+      "fr": "CP15 - La course des extrêmes!"
     },
     "type": 19,
     "level": 1,
@@ -3301,7 +4501,11 @@
   },
   "497": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3312,7 +4516,11 @@
   },
   "498": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3323,7 +4531,11 @@
   },
   "499": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3334,7 +4546,11 @@
   },
   "500": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3345,7 +4561,11 @@
   },
   "501": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3356,7 +4576,11 @@
   },
   "502": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3367,7 +4591,11 @@
   },
   "503": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3378,7 +4606,11 @@
   },
   "504": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3389,7 +4621,11 @@
   },
   "505": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3400,7 +4636,11 @@
   },
   "506": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3411,7 +4651,11 @@
   },
   "507": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3422,7 +4666,11 @@
   },
   "508": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3433,7 +4681,11 @@
   },
   "509": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3444,7 +4696,11 @@
   },
   "510": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3455,7 +4711,11 @@
   },
   "511": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3466,7 +4726,11 @@
   },
   "512": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3477,7 +4741,11 @@
   },
   "513": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3488,7 +4756,11 @@
   },
   "514": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3499,7 +4771,11 @@
   },
   "515": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3510,7 +4786,11 @@
   },
   "516": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3521,7 +4801,11 @@
   },
   "517": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3532,7 +4816,11 @@
   },
   "518": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3543,7 +4831,11 @@
   },
   "519": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3554,7 +4846,11 @@
   },
   "520": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3565,7 +4861,11 @@
   },
   "521": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3576,7 +4876,11 @@
   },
   "522": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3587,7 +4891,11 @@
   },
   "523": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3598,7 +4906,11 @@
   },
   "524": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3609,7 +4921,11 @@
   },
   "525": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3620,7 +4936,11 @@
   },
   "526": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3631,7 +4951,11 @@
   },
   "527": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3642,7 +4966,11 @@
   },
   "528": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3653,7 +4981,11 @@
   },
   "529": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3664,7 +4996,11 @@
   },
   "530": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3675,7 +5011,11 @@
   },
   "531": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3686,7 +5026,11 @@
   },
   "532": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3697,7 +5041,11 @@
   },
   "533": {
     "name": {
-      "chs": "陆行鸟竞赛：荒野大道"
+      "chs": "陆行鸟竞赛：荒野大道",
+      "en": "Chocobo Race: Sagolii Road",
+      "ja": "チョコボレース：サゴリーロード",
+      "de": "Chocobo-Rennen: Sagolii-Straße",
+      "fr": "Course de chocobos: Route de Sagolii"
     },
     "type": 19,
     "level": 1,
@@ -3708,7 +5056,11 @@
   },
   "534": {
     "name": {
-      "chs": "陆行鸟竞赛：太阳海岸"
+      "chs": "陆行鸟竞赛：太阳海岸",
+      "en": "Chocobo Race: Costa del Sol",
+      "ja": "チョコボレース：コスタ・デル・ソル",
+      "de": "Chocobo-Rennen: Sonnenküste",
+      "fr": "Course de chocobos: Costa del Sol"
     },
     "type": 19,
     "level": 1,
@@ -3719,7 +5071,11 @@
   },
   "535": {
     "name": {
-      "chs": "陆行鸟竞赛：恬静小路"
+      "chs": "陆行鸟竞赛：恬静小路",
+      "en": "Chocobo Race: Tranquil Paths",
+      "ja": "チョコボレース：トランキルパス",
+      "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+      "fr": "Course de chocobos: Sentes tranquilles"
     },
     "type": 19,
     "level": 1,
@@ -3730,7 +5086,11 @@
   },
   "536": {
     "name": {
-      "chs": "风水灵庙岩燕庙"
+      "chs": "风水灵庙岩燕庙",
+      "en": "the Swallow's Compass",
+      "ja": "風水霊殿 ガンエン廟",
+      "de": "Kompass der Schwalbe",
+      "fr": "le Compas de l'Hirondelle"
     },
     "type": 2,
     "level": 70,
@@ -3741,7 +5101,11 @@
   },
   "537": {
     "name": {
-      "chs": "月读歼灭战"
+      "chs": "月读歼灭战",
+      "en": "Castrum Fluminis",
+      "ja": "ツクヨミ討滅戦",
+      "de": "Götterdämmerung - Tsukuyomi",
+      "fr": "Castrum Fluminis"
     },
     "type": 4,
     "level": 70,
@@ -3752,7 +5116,11 @@
   },
   "538": {
     "name": {
-      "chs": "月读幽夜歼灭战"
+      "chs": "月读幽夜歼灭战",
+      "en": "the Minstrel's Ballad: Tsukuyomi's Pain",
+      "ja": "極ツクヨミ討滅戦",
+      "de": "Zenit der Götter - Tsukuyomi",
+      "fr": "Castrum Fluminis (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -3763,7 +5131,11 @@
   },
   "539": {
     "name": {
-      "chs": "究极神兵绝境战"
+      "chs": "究极神兵绝境战",
+      "en": "the Weapon's Refrain (Ultimate)",
+      "ja": "絶アルテマウェポン破壊作戦",
+      "de": "Heldenlied von Ultima (fatal)",
+      "fr": "la Fantasmagorie d'Ultima (fatal)"
     },
     "type": 28,
     "level": 70,
@@ -3774,7 +5146,11 @@
   },
   "540": {
     "name": {
-      "chs": "天之御柱 1～10层"
+      "chs": "天之御柱 1～10层",
+      "en": "Heaven-on-High  (Floors 1-10)",
+      "ja": "アメノミハシラ 1～10層",
+      "de": "Himmelssäule (Ebenen 1-10)",
+      "fr": "le Pilier des Cieux (étages 1-10)"
     },
     "type": 21,
     "level": 61,
@@ -3785,7 +5161,11 @@
   },
   "541": {
     "name": {
-      "chs": "天之御柱 11～20层"
+      "chs": "天之御柱 11～20层",
+      "en": "Heaven-on-High  (Floors 11-20)",
+      "ja": "アメノミハシラ 11～20層",
+      "de": "Himmelssäule (Ebenen 11-20)",
+      "fr": "le Pilier des Cieux (étages 11-20)"
     },
     "type": 21,
     "level": 61,
@@ -3796,7 +5176,11 @@
   },
   "542": {
     "name": {
-      "chs": "天之御柱 21～30层"
+      "chs": "天之御柱 21～30层",
+      "en": "Heaven-on-High  (Floors 21-30)",
+      "ja": "アメノミハシラ 21～30層",
+      "de": "Himmelssäule (Ebenen 21-30)",
+      "fr": "le Pilier des Cieux (étages 21-30)"
     },
     "type": 21,
     "level": 61,
@@ -3807,7 +5191,11 @@
   },
   "543": {
     "name": {
-      "chs": "天之御柱 31～40层"
+      "chs": "天之御柱 31～40层",
+      "en": "Heaven-on-High  (Floors 31-40)",
+      "ja": "アメノミハシラ 31～40層",
+      "de": "Himmelssäule (Ebenen 31-40)",
+      "fr": "le Pilier des Cieux (étages 31-40)"
     },
     "type": 21,
     "level": 61,
@@ -3818,7 +5206,11 @@
   },
   "544": {
     "name": {
-      "chs": "天之御柱 41～50层"
+      "chs": "天之御柱 41～50层",
+      "en": "Heaven-on-High  (Floors 41-50)",
+      "ja": "アメノミハシラ 41～50層",
+      "de": "Himmelssäule (Ebenen 41-50)",
+      "fr": "le Pilier des Cieux (étages 41-50)"
     },
     "type": 21,
     "level": 61,
@@ -3829,7 +5221,11 @@
   },
   "545": {
     "name": {
-      "chs": "天之御柱 51～60层"
+      "chs": "天之御柱 51～60层",
+      "en": "Heaven-on-High  (Floors 51-60)",
+      "ja": "アメノミハシラ 51～60層",
+      "de": "Himmelssäule (Ebenen 51-60)",
+      "fr": "le Pilier des Cieux (étages 51-60)"
     },
     "type": 21,
     "level": 61,
@@ -3840,7 +5236,11 @@
   },
   "546": {
     "name": {
-      "chs": "天之御柱 61～70层"
+      "chs": "天之御柱 61～70层",
+      "en": "Heaven-on-High  (Floors 61-70)",
+      "ja": "アメノミハシラ 61～70層",
+      "de": "Himmelssäule (Ebenen 61-70)",
+      "fr": "le Pilier des Cieux (étages 61-70)"
     },
     "type": 21,
     "level": 61,
@@ -3851,7 +5251,11 @@
   },
   "547": {
     "name": {
-      "chs": "天之御柱 71～80层"
+      "chs": "天之御柱 71～80层",
+      "en": "Heaven-on-High  (Floors 71-80)",
+      "ja": "アメノミハシラ 71～80層",
+      "de": "Himmelssäule (Ebenen 71-80)",
+      "fr": "le Pilier des Cieux (étages 71-80)"
     },
     "type": 21,
     "level": 61,
@@ -3862,7 +5266,11 @@
   },
   "548": {
     "name": {
-      "chs": "天之御柱 81～90层"
+      "chs": "天之御柱 81～90层",
+      "en": "Heaven-on-High  (Floors 81-90)",
+      "ja": "アメノミハシラ 81～90層",
+      "de": "Himmelssäule (Ebenen 81-90)",
+      "fr": "le Pilier des Cieux (étages 81-90)"
     },
     "type": 21,
     "level": 61,
@@ -3873,7 +5281,11 @@
   },
   "549": {
     "name": {
-      "chs": "天之御柱 91～100层"
+      "chs": "天之御柱 91～100层",
+      "en": "Heaven-on-High  (Floors 91-100)",
+      "ja": "アメノミハシラ 91～100層",
+      "de": "Himmelssäule (Ebenen 91-100)",
+      "fr": "le Pilier des Cieux (étages 91-100)"
     },
     "type": 21,
     "level": 61,
@@ -3884,7 +5296,11 @@
   },
   "550": {
     "name": {
-      "chs": "封闭圣塔黎铎拉纳大灯塔"
+      "chs": "封闭圣塔黎铎拉纳大灯塔",
+      "en": "the Ridorana Lighthouse",
+      "ja": "封じられた聖塔 リドルアナ",
+      "de": "Richtfeuer von Ridorana",
+      "fr": "le Phare de Ridorana"
     },
     "type": 5,
     "level": 70,
@@ -3895,7 +5311,11 @@
   },
   "552": {
     "name": {
-      "chs": "第1关：新手教学"
+      "chs": "第1关：新手教学",
+      "en": "Stage 1: Tutorial",
+      "ja": "第1節：チュートリアル",
+      "de": "Stufe 1: Einführung",
+      "fr": "Bataille 1: Tutoriel"
     },
     "type": 19,
     "level": 1,
@@ -3906,7 +5326,11 @@
   },
   "553": {
     "name": {
-      "chs": "第2关：到处都是巧儿鸟"
+      "chs": "第2关：到处都是巧儿鸟",
+      "en": "Stage 2: Hatching a Plan",
+      "ja": "第2節：チョコチョコチョコチョコボ",
+      "de": "Stufe 2: Federn lassen",
+      "fr": "Bataille 2: Ô beaux chocobos"
     },
     "type": 19,
     "level": 1,
@@ -3917,7 +5341,11 @@
   },
   "554": {
     "name": {
-      "chs": "第3关：万事开头难"
+      "chs": "第3关：万事开头难",
+      "en": "Stage 3: The First Move",
+      "ja": "第3節：序盤にありそうな戦い",
+      "de": "Stufe 3: Angriff der Ungeziefer",
+      "fr": "Bataille 3: Des ouvertures"
     },
     "type": 19,
     "level": 1,
@@ -3928,7 +5356,11 @@
   },
   "555": {
     "name": {
-      "chs": "第4关：小小巨兽"
+      "chs": "第4关：小小巨兽",
+      "en": "Stage 4: Little Big Beast",
+      "ja": "第4節：小さな巨獣",
+      "de": "Stufe 4: Riesenbaby-Goobbue",
+      "fr": "Bataille 4: Grosses petites bestioles"
     },
     "type": 19,
     "level": 1,
@@ -3939,7 +5371,11 @@
   },
   "556": {
     "name": {
-      "chs": "第5关：蛮族叛乱"
+      "chs": "第5关：蛮族叛乱",
+      "en": "Stage 5: Turning Tribes",
+      "ja": "第5節：蛮族たちの反乱",
+      "de": "Stufe 5: Aufstand der Wilden",
+      "fr": "Bataille 5: Hommes-bêtes révoltés"
     },
     "type": 19,
     "level": 1,
@@ -3950,7 +5386,11 @@
   },
   "557": {
     "name": {
-      "chs": "第6关：恐怖的墓园"
+      "chs": "第6关：恐怖的墓园",
+      "en": "Stage 6: Off the Deepcroft",
+      "ja": "第6節：恐怖、タラタラの墓所",
+      "de": "Stufe 6: Gedankenspiele",
+      "fr": "Bataille 6: Hypogée de Tam-Tam"
     },
     "type": 19,
     "level": 1,
@@ -3961,7 +5401,11 @@
   },
   "558": {
     "name": {
-      "chs": "第7关：劲敌共斗"
+      "chs": "第7关：劲敌共斗",
+      "en": "Stage 7: Rivals",
+      "ja": "第7節：ライバルたちの共闘",
+      "de": "Stufe 7: Vierbeinige Feinde",
+      "fr": "Bataille 7: Comme chien et chat"
     },
     "type": 19,
     "level": 1,
@@ -3972,7 +5416,11 @@
   },
   "559": {
     "name": {
-      "chs": "第8关：光暗之界乃拂晓"
+      "chs": "第8关：光暗之界乃拂晓",
+      "en": "Stage 8: Always Darkest",
+      "ja": "第8節：暁は光と闇とを分かつ",
+      "de": "Stufe 8: Das Bündchen der Morgenröte",
+      "fr": "Bataille 8: Héritiers miniatures"
     },
     "type": 19,
     "level": 1,
@@ -3983,7 +5431,11 @@
   },
   "560": {
     "name": {
-      "chs": "第9关：铜山爆破"
+      "chs": "第9关：铜山爆破",
+      "en": "Stage 9: Mine Your Minions",
+      "ja": "第9節：爆破、カパカパベル銅山",
+      "de": "Stufe 9: Auf den Schleim gegangen",
+      "fr": "Bataille 9: Déflagration à Clochecuivre"
     },
     "type": 19,
     "level": 1,
@@ -3994,7 +5446,11 @@
   },
   "561": {
     "name": {
-      "chs": "第10关：蔓德拉之子"
+      "chs": "第10关：蔓德拉之子",
+      "en": "Stage 10: Children of Mandragora",
+      "ja": "第10節：マンドラ帝国の逆襲",
+      "de": "Stufe 10: Mandragora-Salat",
+      "fr": "Bataille 10: Invasion de mandragores"
     },
     "type": 19,
     "level": 1,
@@ -4005,7 +5461,11 @@
   },
   "562": {
     "name": {
-      "chs": "第11关：女王陛下万岁！"
+      "chs": "第11关：女王陛下万岁！",
+      "en": "Stage 11: The Queen and I",
+      "ja": "第11節：女王陛下万歳！",
+      "de": "Stufe 11: Die trabantäische Allianz",
+      "fr": "Bataille 11: Longue vie aux Sultanes!"
     },
     "type": 19,
     "level": 1,
@@ -4016,7 +5476,11 @@
   },
   "563": {
     "name": {
-      "chs": "第12关：打砖块"
+      "chs": "第12关：打砖块",
+      "en": "Stage 12: Breakout",
+      "ja": "第12節：デモンズブロック崩し",
+      "de": "Stufe 12: Alea iacta est",
+      "fr": "Bataille 12: Château d'Amdapeur"
     },
     "type": 19,
     "level": 1,
@@ -4027,7 +5491,11 @@
   },
   "564": {
     "name": {
-      "chs": "第13关：首席机械师"
+      "chs": "第13关：首席机械师",
+      "en": "Stage 13: My Name Is Cid",
+      "ja": "第13節：筆頭機工師ガーロンド",
+      "de": "Stufe 13: Luftadmiral Garlond",
+      "fr": "Bataille 13: Épreuve des Forges"
     },
     "type": 19,
     "level": 1,
@@ -4038,7 +5506,11 @@
   },
   "565": {
     "name": {
-      "chs": "第14关：硬如坚果"
+      "chs": "第14关：硬如坚果",
+      "en": "Stage 14: Like a Nut",
+      "ja": "第14節：ナッツの味にはもう飽きた",
+      "de": "Stufe 14: Eins auf die Nuss",
+      "fr": "Bataille 14: Casse-noisette"
     },
     "type": 19,
     "level": 1,
@@ -4049,7 +5521,11 @@
   },
   "566": {
     "name": {
-      "chs": "第15关：小小斗神讨伐战"
+      "chs": "第15关：小小斗神讨伐战",
+      "en": "Stage 15: Urth's Spout",
+      "ja": "第15節：極小オーディン討滅戦",
+      "de": "Stufe 15: Der Dunkle Reiter",
+      "fr": "Bataille 15: Mini-fontaine d'Urth"
     },
     "type": 19,
     "level": 1,
@@ -4060,7 +5536,11 @@
   },
   "567": {
     "name": {
-      "chs": "第16关：陆行鸟大进军"
+      "chs": "第16关：陆行鸟大进军",
+      "en": "Stage 16: Exodus",
+      "ja": "第16節：チョコボ大行進",
+      "de": "Stufe 16: Chocobo-Mania",
+      "fr": "Bataille 16: Parade des chocobos"
     },
     "type": 19,
     "level": 1,
@@ -4071,7 +5551,11 @@
   },
   "568": {
     "name": {
-      "chs": "第17关：披雪小冰壁"
+      "chs": "第17关：披雪小冰壁",
+      "en": "Stage 17: Over the Wall",
+      "ja": "第17節：融解、スノークローク小氷壁",
+      "de": "Stufe 17: Jenseits des Schneekleids",
+      "fr": "Bataille 17: Bonhommes de Manteneige"
     },
     "type": 19,
     "level": 1,
@@ -4082,7 +5566,11 @@
   },
   "569": {
     "name": {
-      "chs": "第18关：小怪物狩猎"
+      "chs": "第18关：小怪物狩猎",
+      "en": "Stage 18: The Hunt",
+      "ja": "第18節：小さなモブハント",
+      "de": "Stufe 18: Die Trabanten-Jagd",
+      "fr": "Bataille 18: Mini-contrat de chasse"
     },
     "type": 19,
     "level": 1,
@@ -4093,7 +5581,11 @@
   },
   "570": {
     "name": {
-      "chs": "第19关：小桥上的决斗"
+      "chs": "第19关：小桥上的决斗",
+      "en": "Stage 19: Battle on the Bitty Bridge",
+      "ja": "第19節：極小ギルガメッシュ討滅戦",
+      "de": "Stufe 19: Gilgameschs Hühnerstall",
+      "fr": "Bataille 19: Revanche de Gilgamini"
     },
     "type": 19,
     "level": 1,
@@ -4104,7 +5596,11 @@
   },
   "571": {
     "name": {
-      "chs": "第20关：愿水晶给予你指引"
+      "chs": "第20关：愿水晶给予你指引",
+      "en": "Stage 20: Guiding Light",
+      "ja": "第20節：汝にクリスタルの導きあれ",
+      "de": "Stufe 20: Trabanten des Lichts",
+      "fr": "Bataille 20: Pouvoir de la Lumière"
     },
     "type": 19,
     "level": 1,
@@ -4115,7 +5611,11 @@
   },
   "572": {
     "name": {
-      "chs": "第21关：贤者的试炼"
+      "chs": "第21关：贤者的试炼",
+      "en": "Stage 21: Wise Words",
+      "ja": "第21節：賢人ルイゾワの試練",
+      "de": "Stufe 21: Die Leveilleurs",
+      "fr": "Bataille 21: Louisoix et petits fils"
     },
     "type": 19,
     "level": 1,
@@ -4126,7 +5626,11 @@
   },
   "573": {
     "name": {
-      "chs": "第22关：暗淡的世界"
+      "chs": "第22关：暗淡的世界",
+      "en": "Stage 22: World of Poor Lighting",
+      "ja": "第22節：薄闇の世界",
+      "de": "Stufe 22: Kleine Welt der Dunkelheit",
+      "fr": "Bataille 22: Monde des Quasi-ténèbres"
     },
     "type": 19,
     "level": 1,
@@ -4137,7 +5641,11 @@
   },
   "574": {
     "name": {
-      "chs": "第23关：巴哈姆特小迷宫邂逅之章"
+      "chs": "第23关：巴哈姆特小迷宫邂逅之章",
+      "en": "Stage 23: The Binding Coil",
+      "ja": "第23節：大迷惑バハムート邂逅編",
+      "de": "Stufe 23: In die Verschlungenen Schatten",
+      "fr": "Bataille 23: Labyrinthe de Basta-mut"
     },
     "type": 19,
     "level": 1,
@@ -4148,7 +5656,11 @@
   },
   "575": {
     "name": {
-      "chs": "第24关：巴哈姆特小迷宫真源之章"
+      "chs": "第24关：巴哈姆特小迷宫真源之章",
+      "en": "Stage 24: The Final Coil",
+      "ja": "第24節：大迷惑バハムート真成編",
+      "de": "Stufe 24: Bahamut, der Aufzieh-Primae",
+      "fr": "Bataille 24: Abîme de Basta-mut"
     },
     "type": 19,
     "level": 1,
@@ -4159,7 +5671,11 @@
   },
   "576": {
     "name": {
-      "chs": "萌宠之王：讨伐级单人战"
+      "chs": "萌宠之王：讨伐级单人战",
+      "en": "LoVM: Master Battle",
+      "ja": "LoVM：ミニオンクラス (Easy)",
+      "de": "Kampf der Trabanten: Trabantenkampf",
+      "fr": "Bataille simple contre l'ordinateur (facile)"
     },
     "type": 19,
     "level": 1,
@@ -4170,7 +5686,11 @@
   },
   "577": {
     "name": {
-      "chs": "萌宠之王：歼灭级单人战"
+      "chs": "萌宠之王：歼灭级单人战",
+      "en": "LoVM: Master Battle (Hard)",
+      "ja": "LoVM：真ミニオンクラス (Normal)",
+      "de": "Kampf der Trabanten: Trabantendämmerung",
+      "fr": "Bataille simple contre l'ordinateur (normal)"
     },
     "type": 19,
     "level": 1,
@@ -4181,7 +5701,11 @@
   },
   "578": {
     "name": {
-      "chs": "萌宠之王：歼殛级单人战"
+      "chs": "萌宠之王：歼殛级单人战",
+      "en": "LoVM: Master Battle (Extreme)",
+      "ja": "LoVM：極ミニオンクラス (Hard)",
+      "de": "Kampf der Trabanten: Zenit der Trabanten",
+      "fr": "Bataille simple contre l'ordinateur (brutal)"
     },
     "type": 19,
     "level": 1,
@@ -4192,7 +5716,11 @@
   },
   "579": {
     "name": {
-      "chs": "萌宠之王：大赛对战（人机对战）"
+      "chs": "萌宠之王：大赛对战（人机对战）",
+      "en": "LoVM: Master Tournament",
+      "ja": "LoVM：大会対戦 (CPU対戦)",
+      "de": "Kampf der Trabanten: Turnier (gegen Arenameister)",
+      "fr": "Bataille de tournoi contre l'ordinateur"
     },
     "type": 19,
     "level": 1,
@@ -4203,7 +5731,11 @@
   },
   "580": {
     "name": {
-      "chs": "群狼盛宴 (水晶塔演习场：战队自定赛)"
+      "chs": "群狼盛宴 (水晶塔演习场：战队自定赛)",
+      "en": "the Feast (Team Custom Match - Crystal Tower)",
+      "ja": "ザ・フィースト (クリスタルタワー演習場：チーム用カスタムマッチ)",
+      "de": "The Feast (Kristallturm-Arena: Team-Schaukampf) ",
+      "fr": "The Feast (personnalisé/équipe JcJ/Tour de Cristal)"
     },
     "type": 6,
     "level": 30,
@@ -4214,7 +5746,11 @@
   },
   "581": {
     "name": {
-      "chs": "禁地优雷卡 恒冰之地"
+      "chs": "禁地优雷卡 恒冰之地",
+      "en": "the Forbidden Land, Eureka Pagos",
+      "ja": "禁断の地 エウレカ：パゴス編",
+      "de": "Eureka Pagos",
+      "fr": "Eurêka Pagos"
     },
     "type": 26,
     "level": 70,
@@ -4225,7 +5761,11 @@
   },
   "582": {
     "name": {
-      "chs": "拂晓的少年"
+      "chs": "拂晓的少年",
+      "en": "Emissary of the Dawn",
+      "ja": "「暁」の少年",
+      "de": "Der Knabe der Morgenröte",
+      "fr": "Voyage en terre hostile"
     },
     "type": 7,
     "level": 70,
@@ -4236,7 +5776,11 @@
   },
   "583": {
     "name": {
-      "chs": "灾厄重现军事演习"
+      "chs": "灾厄重现军事演习",
+      "en": "the Calamity Retold",
+      "ja": "新生祭軍事演習",
+      "de": "Gedenkschlacht der Eorzäischen Allianz",
+      "fr": "les grandes manœuvres commémoratives"
     },
     "type": 22,
     "level": 30,
@@ -4247,7 +5791,11 @@
   },
   "584": {
     "name": {
-      "chs": "污染庭园圣茉夏娜植物园"
+      "chs": "污染庭园圣茉夏娜植物园",
+      "en": "Saint Mocianne's Arboretum (Hard)",
+      "ja": "草木汚染 聖モシャーヌ植物園 (Hard)",
+      "de": "Sankt Mocianne-Arboretum (schwer)",
+      "fr": "l'Arboretum Sainte-Mocianne (brutal)"
     },
     "type": 2,
     "level": 70,
@@ -4258,7 +5806,11 @@
   },
   "585": {
     "name": {
-      "chs": "死亡大地终末焦土"
+      "chs": "死亡大地终末焦土",
+      "en": "the Burn",
+      "ja": "永久焦土 ザ・バーン",
+      "de": "Das Kargland",
+      "fr": "L'Escarre"
     },
     "type": 2,
     "level": 70,
@@ -4269,7 +5821,11 @@
   },
   "586": {
     "name": {
-      "chs": "运河宝物库神殿"
+      "chs": "运河宝物库神殿",
+      "en": "the Shifting Altars of Uznair",
+      "ja": "宝物庫 ウズネアカナル祭殿",
+      "de": "Glücksaltäre von Uznair",
+      "fr": "le Temple sacré d'Uznair"
     },
     "type": 9,
     "level": 1,
@@ -4280,7 +5836,11 @@
   },
   "587": {
     "name": {
-      "chs": "欧米茄时空狭缝 阿尔法幻境1"
+      "chs": "欧米茄时空狭缝 阿尔法幻境1",
+      "en": "Alphascape V1.0",
+      "ja": "次元の狭間オメガ：アルファ編1",
+      "de": "Alphametrie 1.0",
+      "fr": "Alphastice v1.0"
     },
     "type": 5,
     "level": 70,
@@ -4291,7 +5851,11 @@
   },
   "588": {
     "name": {
-      "chs": "欧米茄时空狭缝 阿尔法幻境2"
+      "chs": "欧米茄时空狭缝 阿尔法幻境2",
+      "en": "Alphascape V2.0",
+      "ja": "次元の狭間オメガ：アルファ編2",
+      "de": "Alphametrie 2.0",
+      "fr": "Alphastice v2.0"
     },
     "type": 5,
     "level": 70,
@@ -4302,7 +5866,11 @@
   },
   "589": {
     "name": {
-      "chs": "欧米茄时空狭缝 阿尔法幻境3"
+      "chs": "欧米茄时空狭缝 阿尔法幻境3",
+      "en": "Alphascape V3.0",
+      "ja": "次元の狭間オメガ：アルファ編3",
+      "de": "Alphametrie 3.0",
+      "fr": "Alphastice v3.0"
     },
     "type": 5,
     "level": 70,
@@ -4313,7 +5881,11 @@
   },
   "590": {
     "name": {
-      "chs": "欧米茄时空狭缝 阿尔法幻境4"
+      "chs": "欧米茄时空狭缝 阿尔法幻境4",
+      "en": "Alphascape V4.0",
+      "ja": "次元の狭間オメガ：アルファ編4",
+      "de": "Alphametrie 4.0",
+      "fr": "Alphastice v4.0"
     },
     "type": 5,
     "level": 70,
@@ -4324,7 +5896,11 @@
   },
   "591": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 阿尔法幻境1"
+      "chs": "欧米茄零式时空狭缝 阿尔法幻境1",
+      "en": "Alphascape V1.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：アルファ編1",
+      "de": "Alphametrie 1.0 (episch)",
+      "fr": "Alphastice v1.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -4335,7 +5911,11 @@
   },
   "592": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 阿尔法幻境2"
+      "chs": "欧米茄零式时空狭缝 阿尔法幻境2",
+      "en": "Alphascape V2.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：アルファ編2",
+      "de": "Alphametrie 2.0 (episch)",
+      "fr": "Alphastice v2.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -4346,7 +5926,11 @@
   },
   "593": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 阿尔法幻境3"
+      "chs": "欧米茄零式时空狭缝 阿尔法幻境3",
+      "en": "Alphascape V3.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：アルファ編3",
+      "de": "Alphametrie 3.0 (episch)",
+      "fr": "Alphastice v3.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -4357,7 +5941,11 @@
   },
   "594": {
     "name": {
-      "chs": "欧米茄零式时空狭缝 阿尔法幻境4"
+      "chs": "欧米茄零式时空狭缝 阿尔法幻境4",
+      "en": "Alphascape V4.0 (Savage)",
+      "ja": "次元の狭間オメガ零式：アルファ編4",
+      "de": "Alphametrie 4.0 (episch)",
+      "fr": "Alphastice v4.0 (sadique)"
     },
     "type": 5,
     "level": 70,
@@ -4368,7 +5956,11 @@
   },
   "595": {
     "name": {
-      "chs": "保镖歼灭战"
+      "chs": "保镖歼灭战",
+      "en": "Kugane Ohashi",
+      "ja": "真ヨウジンボウ討滅戦",
+      "de": "Duell auf der Kugane-Brücke",
+      "fr": "le Pont Ohashi"
     },
     "type": 4,
     "level": 70,
@@ -4379,7 +5971,11 @@
   },
   "596": {
     "name": {
-      "chs": "朱雀镇魂战"
+      "chs": "朱雀镇魂战",
+      "en": "Hells' Kier",
+      "ja": "朱雀征魂戦",
+      "de": "Seelentanz - Suzaku",
+      "fr": "le Nid des Lamentations"
     },
     "type": 4,
     "level": 70,
@@ -4390,7 +5986,11 @@
   },
   "597": {
     "name": {
-      "chs": "朱雀诗魂战"
+      "chs": "朱雀诗魂战",
+      "en": "Hells' Kier (Extreme)",
+      "ja": "極朱雀征魂戦",
+      "de": "Seelensturm - Suzaku",
+      "fr": "le Nid des Lamentations (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -4401,7 +6001,11 @@
   },
   "598": {
     "name": {
-      "chs": "禁地优雷卡 涌火之地"
+      "chs": "禁地优雷卡 涌火之地",
+      "en": "the Forbidden Land, Eureka Pyros",
+      "ja": "禁断の地 エウレカ：ピューロス編",
+      "de": "Eureka Pyros",
+      "fr": "Eurêka Pyros"
     },
     "type": 26,
     "level": 70,
@@ -4412,7 +6016,11 @@
   },
   "599": {
     "name": {
-      "chs": "隐塞 (机动战)"
+      "chs": "隐塞 (机动战)",
+      "en": "Hidden Gorge",
+      "ja": "ヒドゥンゴージ (機工戦)",
+      "de": "Verborgene Schlucht",
+      "fr": "Gorge dérobée (machinerie)"
     },
     "type": 6,
     "level": 30,
@@ -4423,7 +6031,11 @@
   },
   "600": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4434,7 +6046,11 @@
   },
   "601": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4445,7 +6061,11 @@
   },
   "602": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4456,7 +6076,11 @@
   },
   "603": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4467,7 +6091,11 @@
   },
   "604": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4478,7 +6106,11 @@
   },
   "605": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4489,7 +6121,11 @@
   },
   "606": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4500,7 +6136,11 @@
   },
   "607": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4511,7 +6151,11 @@
   },
   "608": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -4522,7 +6166,11 @@
   },
   "609": {
     "name": {
-      "chs": "楔石洞"
+      "chs": "楔石洞",
+      "en": "The Will of the Moon",
+      "ja": "楔石の虚",
+      "de": "Der Wille der Mondgöttin",
+      "fr": "Ralliement dans la steppe"
     },
     "type": 7,
     "level": 70,
@@ -4533,7 +6181,11 @@
   },
   "610": {
     "name": {
-      "chs": "出道战"
+      "chs": "出道战",
+      "en": "All's Well That Starts Well",
+      "ja": "デビューマッチ",
+      "de": "Debüt in der Himmlischen Arena",
+      "fr": "Début du spectacle"
     },
     "type": 27,
     "level": 50,
@@ -4544,7 +6196,11 @@
   },
   "611": {
     "name": {
-      "chs": "国境战线基姆利特暗区"
+      "chs": "国境战线基姆利特暗区",
+      "en": "the Ghimlyt Dark",
+      "ja": "境界戦線 ギムリトダーク",
+      "de": "Die Ghimlyt-Finsternis",
+      "fr": "Les Ténèbres de Ghimlyt"
     },
     "type": 2,
     "level": 70,
@@ -4555,7 +6211,11 @@
   },
   "612": {
     "name": {
-      "chs": "布丁拼盘"
+      "chs": "布丁拼盘",
+      "en": "Much Ado About Pudding",
+      "ja": "プリン・アラモード",
+      "de": "Pudding nach Art des Hauses",
+      "fr": "Puddings à la mode"
     },
     "type": 27,
     "level": 50,
@@ -4566,7 +6226,11 @@
   },
   "613": {
     "name": {
-      "chs": "最初的岩壁——辛巴克那"
+      "chs": "最初的岩壁——辛巴克那",
+      "en": "Waiting for Golem",
+      "ja": "最初の岩壁「シパクナー」",
+      "de": "Zipacna - Aller Anfang ist schwer",
+      "fr": "Zipacna, le premier obstacle"
     },
     "type": 27,
     "level": 50,
@@ -4577,7 +6241,11 @@
   },
   "614": {
     "name": {
-      "chs": "怪力铁巨人——克利俄斯"
+      "chs": "怪力铁巨人——克利俄斯",
+      "en": "Gentlemen Prefer Swords",
+      "ja": "怪力の鉄巨人「クレイオス」",
+      "de": "Kreios - Der Mann aus Stahl",
+      "fr": "Kreios, le destructeur d'acier"
     },
     "type": 27,
     "level": 50,
@@ -4588,7 +6256,11 @@
   },
   "615": {
     "name": {
-      "chs": "金币龟兄弟"
+      "chs": "金币龟兄弟",
+      "en": "The Threepenny Turtles",
+      "ja": "ギルガメブラザーズ",
+      "de": "Die Bruderschaft der Kröten",
+      "fr": "La fratrie des gilkhélones"
     },
     "type": 27,
     "level": 50,
@@ -4599,7 +6271,11 @@
   },
   "616": {
     "name": {
-      "chs": "铁鹰战士"
+      "chs": "铁鹰战士",
+      "en": "Eye Society",
+      "ja": "ブラインド・フューリー",
+      "de": "Den Tod im Auge",
+      "fr": "Vengeance aveugle"
     },
     "type": 27,
     "level": 50,
@@ -4610,7 +6286,11 @@
   },
   "617": {
     "name": {
-      "chs": "粘液怪合唱团"
+      "chs": "粘液怪合唱团",
+      "en": "A Chorus Slime",
+      "ja": "シアーハートアタック",
+      "de": "Heißkalte Schauer",
+      "fr": "Pure attaque cardiaque"
     },
     "type": 27,
     "level": 50,
@@ -4621,7 +6301,11 @@
   },
   "618": {
     "name": {
-      "chs": "青之牙、红之牙"
+      "chs": "青之牙、红之牙",
+      "en": "Bomb-edy of Errors",
+      "ja": "青い牙、赤い牙",
+      "de": "Explosiv - Vorhut in Blau und Rot",
+      "fr": "Crocs bleus et crocs rouges"
     },
     "type": 27,
     "level": 50,
@@ -4632,7 +6316,11 @@
   },
   "619": {
     "name": {
-      "chs": "七彩甜点——棉花糖"
+      "chs": "七彩甜点——棉花糖",
+      "en": "To Kill a Mockingslime",
+      "ja": "七色の甘味「ギモーヴ」",
+      "de": "Guimauve und die sieben Gesichter des Todes",
+      "fr": "Guimauve, le goût de l'arc-en-ciel"
     },
     "type": 27,
     "level": 50,
@@ -4643,7 +6331,11 @@
   },
   "620": {
     "name": {
-      "chs": "无头王者——幽黑曲偶"
+      "chs": "无头王者——幽黑曲偶",
+      "en": "A Little Knight Music",
+      "ja": "偶像の王者「クロムドゥーブ」",
+      "de": "Crom Dubh - König der Götzen",
+      "fr": "Crom Dubh, roi des idoles"
     },
     "type": 27,
     "level": 50,
@@ -4654,7 +6346,11 @@
   },
   "621": {
     "name": {
-      "chs": "爆前速攻"
+      "chs": "爆前速攻",
+      "en": "Some Like It Excruciatingly Hot",
+      "ja": "爆ボム・ファーストアタック",
+      "de": "Explosiv - Die zweite Welle",
+      "fr": "Les courtes mèches"
     },
     "type": 27,
     "level": 50,
@@ -4665,7 +6361,11 @@
   },
   "622": {
     "name": {
-      "chs": "寄生植物——白鹭花"
+      "chs": "寄生植物——白鹭花",
+      "en": "The Plant-om of the Opera",
+      "ja": "寄生植物「ヒドノラ」",
+      "de": "Hydnora - Der Parasit, der Paras sieht",
+      "fr": "Hydnora, la plante parasite"
     },
     "type": 27,
     "level": 50,
@@ -4676,7 +6376,11 @@
   },
   "623": {
     "name": {
-      "chs": "猩红死妖姬——卡蜜拉"
+      "chs": "猩红死妖姬——卡蜜拉",
+      "en": "Beauty and a Beast",
+      "ja": "紅の死妖姫「カーミラ」",
+      "de": "Carmilla - Prinzessin des Todes",
+      "fr": "La mystérieuse Carmilla"
     },
     "type": 27,
     "level": 50,
@@ -4687,7 +6391,11 @@
   },
   "624": {
     "name": {
-      "chs": "陪葬"
+      "chs": "陪葬",
+      "en": "Blobs in the Woods",
+      "ja": "死なばもろともーッ！",
+      "de": "Der Tod kommt süß gekleidet",
+      "fr": "La mort n'a pas d'ami"
     },
     "type": 27,
     "level": 50,
@@ -4698,7 +6406,11 @@
   },
   "625": {
     "name": {
-      "chs": "来自亚拉戈的威胁——斗兽系统"
+      "chs": "来自亚拉戈的威胁——斗兽系统",
+      "en": "The Me Nobody Nodes",
+      "ja": "アラグの脅威「闘獣システム」",
+      "de": "Die Bestie steckt im System",
+      "fr": "La sphère bestiale, une menace allagoise"
     },
     "type": 27,
     "level": 50,
@@ -4709,7 +6421,11 @@
   },
   "626": {
     "name": {
-      "chs": "怪力兽王——迪克巴朗"
+      "chs": "怪力兽王——迪克巴朗",
+      "en": "Sunset Bull-evard",
+      "ja": "豪腕の獣王「ティクバラン」",
+      "de": "Tikbalang - Der rechte Arm des Verderbens",
+      "fr": "Tikbalang, bras tout-puissant"
     },
     "type": 27,
     "level": 50,
@@ -4720,7 +6436,11 @@
   },
   "627": {
     "name": {
-      "chs": "刚柔铁巨人——克利俄斯改"
+      "chs": "刚柔铁巨人——克利俄斯改",
+      "en": "The Sword of Music",
+      "ja": "剛柔の鉄巨人「クレイオス改」",
+      "de": "Kreios - Neues vom Mann aus Stahl",
+      "fr": "Kreios plie, mais ne rompt pas"
     },
     "type": 27,
     "level": 50,
@@ -4731,7 +6451,11 @@
   },
   "628": {
     "name": {
-      "chs": "爆破死斗"
+      "chs": "爆破死斗",
+      "en": "Midsummer Night's Explosion",
+      "ja": "爆破デスマッチ",
+      "de": "Explosiv - Revanche mit Wumms",
+      "fr": "Rencontre explosive"
     },
     "type": 27,
     "level": 50,
@@ -4742,7 +6466,11 @@
   },
   "629": {
     "name": {
-      "chs": "魅惑芳香——反光丽贝卡"
+      "chs": "魅惑芳香——反光丽贝卡",
+      "en": "On a Clear Day You Can Smell Forever",
+      "ja": "魅惑の芳香「リフレクティブ・レベッカ」",
+      "de": "Rebekkha - Verführerische Gerüche",
+      "fr": "Miroir, mon beau miroir"
     },
     "type": 27,
     "level": 50,
@@ -4753,7 +6481,11 @@
   },
   "630": {
     "name": {
-      "chs": "著名组合——奥尔特罗斯&提丰"
+      "chs": "著名组合——奥尔特罗斯&提丰",
+      "en": "Miss Typhon",
+      "ja": "名コンビ「オルトロス＆テュポーン」",
+      "de": "Ultros & Typhon - Zwei wie Rotz und Wasser",
+      "fr": "Duo de choc: Orthros et maître Typhon"
     },
     "type": 27,
     "level": 50,
@@ -4764,7 +6496,11 @@
   },
   "631": {
     "name": {
-      "chs": "愤怒合成兽——阿帕德马克"
+      "chs": "愤怒合成兽——阿帕德马克",
+      "en": "Chimera on a Hot Tin Roof",
+      "ja": "憤怒の合成獣「アペデマク」",
+      "de": "Apademak - Die cholerische Chimära",
+      "fr": "La chimèrique colère d'Apademak"
     },
     "type": 27,
     "level": 50,
@@ -4775,7 +6511,11 @@
   },
   "632": {
     "name": {
-      "chs": "爆炸湮灭——先祖爆弹怪"
+      "chs": "爆炸湮灭——先祖爆弹怪",
+      "en": "Here Comes the Boom",
+      "ja": "爆発の対消滅「グランパボム」",
+      "de": "Explosiv - Urgroßbomber lässt es krachen",
+      "fr": "L'histoire détonante de Papi bombo"
     },
     "type": 27,
     "level": 50,
@@ -4786,7 +6526,11 @@
   },
   "633": {
     "name": {
-      "chs": "魔兽皇太子——贝希摩斯太子"
+      "chs": "魔兽皇太子——贝希摩斯太子",
+      "en": "Behemoths and Broomsticks",
+      "ja": "魔獣の皇太子「クロンプリンツ・ベヒーモス」",
+      "de": "Kronprinz-Behemoth - Vom Teufel besessen",
+      "fr": "Kronprinz béhémoth, le prince héritier"
     },
     "type": 27,
     "level": 50,
@@ -4797,7 +6541,11 @@
   },
   "634": {
     "name": {
-      "chs": "异形人偶师——艾匹罗基"
+      "chs": "异形人偶师——艾匹罗基",
+      "en": "Amazing Technicolor Pit Fiends",
+      "ja": "異形の人形師「エペロギ」",
+      "de": "Epilogi - Das Ende kommt immer zuletzt",
+      "fr": "Epilogi, l'étrange marionnettiste"
     },
     "type": 27,
     "level": 50,
@@ -4808,7 +6556,11 @@
   },
   "635": {
     "name": {
-      "chs": "邪恶青魔法师——启示者"
+      "chs": "邪恶青魔法师——启示者",
+      "en": "Dirty Rotten Azulmagia",
+      "ja": "悪の青魔道士「アポカリョープス」",
+      "de": "Azulmagia - Der Blaumagier des Bösen",
+      "fr": "L'abominable Azulmagia"
     },
     "type": 27,
     "level": 50,
@@ -4819,7 +6571,11 @@
   },
   "636": {
     "name": {
-      "chs": "乐欲之所瓯博讷修道院"
+      "chs": "乐欲之所瓯博讷修道院",
+      "en": "the Orbonne Monastery",
+      "ja": "楽欲の僧院 オーボンヌ",
+      "de": "Kloster von Orbonne",
+      "fr": "le Monastère d'Orbonne"
     },
     "type": 5,
     "level": 70,
@@ -4830,7 +6586,11 @@
   },
   "637": {
     "name": {
-      "chs": "青龙镇魂战"
+      "chs": "青龙镇魂战",
+      "en": "the Wreath of Snakes",
+      "ja": "青龍征魂戦",
+      "de": "Seelentanz - Seiryu",
+      "fr": "l'Îlot des Amertumes"
     },
     "type": 4,
     "level": 70,
@@ -4841,7 +6601,11 @@
   },
   "638": {
     "name": {
-      "chs": "青龙诗魂战"
+      "chs": "青龙诗魂战",
+      "en": "the Wreath of Snakes (Extreme)",
+      "ja": "極青龍征魂戦",
+      "de": "Seelensturm - Seiryu",
+      "fr": "l'Îlot des Amertumes (extrême)"
     },
     "type": 4,
     "level": 70,
@@ -4852,7 +6616,11 @@
   },
   "639": {
     "name": {
-      "chs": "禁地优雷卡 丰水之地"
+      "chs": "禁地优雷卡 丰水之地",
+      "en": "the Forbidden Land, Eureka Hydatos",
+      "ja": "禁断の地 エウレカ：ヒュダトス編",
+      "de": "Eureka Hydatos",
+      "fr": "Eurêka Hydatos"
     },
     "type": 26,
     "level": 70,
@@ -4863,7 +6631,11 @@
   },
   "640": {
     "name": {
-      "chs": "空军装甲驾驶员"
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
     },
     "type": 19,
     "level": 1,
@@ -4874,7 +6646,11 @@
   },
   "641": {
     "name": {
-      "chs": "空军装甲驾驶员"
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
     },
     "type": 19,
     "level": 1,
@@ -4885,7 +6661,11 @@
   },
   "642": {
     "name": {
-      "chs": "空军装甲驾驶员"
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
     },
     "type": 19,
     "level": 1,
@@ -4896,7 +6676,11 @@
   },
   "643": {
     "name": {
-      "chs": "多玛方城战：一般桌（段位战）"
+      "chs": "多玛方城战：一般桌（段位战）",
+      "en": "Novice Mahjong (Ranked)",
+      "ja": "ドマ式麻雀：一般卓 (段位変動有り)",
+      "de": "Anfänger-Mahjong (gewertet)",
+      "fr": "Mahjong domien: tous rangs (classé)"
     },
     "type": 19,
     "level": 1,
@@ -4907,7 +6691,11 @@
   },
   "644": {
     "name": {
-      "chs": "多玛方城战：有段桌（段位战）"
+      "chs": "多玛方城战：有段桌（段位战）",
+      "en": "Advanced Mahjong (Ranked)",
+      "ja": "ドマ式麻雀：有段卓 (段位変動有り)",
+      "de": "Fortgeschrittenen-Mahjong (gewertet)",
+      "fr": "Mahjong domien: dan seulement (classé)"
     },
     "type": 19,
     "level": 1,
@@ -4918,7 +6706,11 @@
   },
   "645": {
     "name": {
-      "chs": "多玛方城战：4人亲友桌（带食断）"
+      "chs": "多玛方城战：4人亲友桌（带食断）",
+      "en": "Four-player Mahjong (Kuitan Enabled)",
+      "ja": "ドマ式麻雀：4人セット卓 (クイタン有り)",
+      "de": "4-Spieler-Mahjong (Kuitan aktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (avec kuitan)"
     },
     "type": 19,
     "level": 1,
@@ -4929,7 +6721,11 @@
   },
   "646": {
     "name": {
-      "chs": "风之使者"
+      "chs": "风之使者",
+      "en": "Messenger of the Winds",
+      "ja": "来訪せし風の御使",
+      "de": "Durch den Sturm und zurück",
+      "fr": "La Messagère du vent"
     },
     "type": 7,
     "level": 50,
@@ -4940,7 +6736,11 @@
   },
   "648": {
     "name": {
-      "chs": "英雄挽歌"
+      "chs": "英雄挽歌",
+      "en": "a Requiem for Heroes",
+      "ja": "英雄への鎮魂歌",
+      "de": "Requiem der Helden",
+      "fr": "Un requiem pour les héros"
     },
     "type": 7,
     "level": 70,
@@ -4951,7 +6751,11 @@
   },
   "649": {
     "name": {
-      "chs": "水妖幻园多恩美格禁园"
+      "chs": "水妖幻园多恩美格禁园",
+      "en": "Dohn Mheg",
+      "ja": "水妖幻園 ドォーヌ・メグ",
+      "de": "Dohn Mheg",
+      "fr": "Dohn Mheg"
     },
     "type": 2,
     "level": 73,
@@ -4962,7 +6766,11 @@
   },
   "650": {
     "name": {
-      "chs": "多玛方城战：4人亲友桌（不带食断）"
+      "chs": "多玛方城战：4人亲友桌（不带食断）",
+      "en": "Four-player Mahjong (Kuitan Disabled)",
+      "ja": "ドマ式麻雀：4人セット卓 (クイタン無し)",
+      "de": "4-Spieler-Mahjong (Kuitan deaktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (sans kuitan)"
     },
     "type": 19,
     "level": 1,
@@ -4973,7 +6781,11 @@
   },
   "651": {
     "name": {
-      "chs": "文明古迹奇坦那神影洞"
+      "chs": "文明古迹奇坦那神影洞",
+      "en": "the Qitana Ravel",
+      "ja": "古跡探索 キタンナ神影洞",
+      "de": "Irrungen der Qitari",
+      "fr": "L'Enchevêtrement des Qitari"
     },
     "type": 2,
     "level": 75,
@@ -4984,7 +6796,11 @@
   },
   "652": {
     "name": {
-      "chs": "末日暗影亚马乌罗提"
+      "chs": "末日暗影亚马乌罗提",
+      "en": "Amaurot",
+      "ja": "終末幻想 アーモロート",
+      "de": "Amaurot",
+      "fr": "Amaurote"
     },
     "type": 2,
     "level": 80,
@@ -4995,7 +6811,11 @@
   },
   "653": {
     "name": {
-      "chs": "伊甸希望乐园 觉醒之章1"
+      "chs": "伊甸希望乐园 觉醒之章1",
+      "en": "Eden's Gate: Resurrection",
+      "ja": "希望の園エデン：覚醒編1",
+      "de": "Edens Erwachen - Auferstehung",
+      "fr": "L'Éveil d'Éden - Résurrection"
     },
     "type": 5,
     "level": 80,
@@ -5006,7 +6826,11 @@
   },
   "654": {
     "name": {
-      "chs": "伊甸零式希望乐园 觉醒之章1"
+      "chs": "伊甸零式希望乐园 觉醒之章1",
+      "en": "Eden's Gate: Resurrection (Savage)",
+      "ja": "希望の園エデン零式：覚醒編1",
+      "de": "Edens Erwachen - Auferstehung (episch)",
+      "fr": "L'Éveil d'Éden - Résurrection (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5017,7 +6841,11 @@
   },
   "655": {
     "name": {
-      "chs": "异界遗构希尔科斯孪晶塔"
+      "chs": "异界遗构希尔科斯孪晶塔",
+      "en": "the Twinning",
+      "ja": "異界遺構 シルクス・ツイニング",
+      "de": "Der Kristallzwilling",
+      "fr": "La Macle de Syrcus"
     },
     "type": 2,
     "level": 80,
@@ -5028,7 +6856,11 @@
   },
   "656": {
     "name": {
-      "chs": "避暑离宫马利卡大井"
+      "chs": "避暑离宫马利卡大井",
+      "en": "Malikah's Well",
+      "ja": "爽涼離宮 マリカの大井戸",
+      "de": "Malikahs Brunnen",
+      "fr": "le Puits de Malikah"
     },
     "type": 2,
     "level": 77,
@@ -5039,7 +6871,11 @@
   },
   "657": {
     "name": {
-      "chs": "缇坦妮雅歼灭战"
+      "chs": "缇坦妮雅歼灭战",
+      "en": "The Dancing Plague",
+      "ja": "ティターニア討滅戦",
+      "de": "Offenbarung - Titania",
+      "fr": "la Valse du Monarque"
     },
     "type": 4,
     "level": 73,
@@ -5050,7 +6886,11 @@
   },
   "658": {
     "name": {
-      "chs": "缇坦妮雅歼殛战"
+      "chs": "缇坦妮雅歼殛战",
+      "en": "the Dancing Plague (Extreme)",
+      "ja": "極ティターニア討滅戦",
+      "de": "Letzte Läuterung - Titania",
+      "fr": "la Valse du Monarque (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5061,7 +6901,11 @@
   },
   "659": {
     "name": {
-      "chs": "伪造天界格鲁格火山"
+      "chs": "伪造天界格鲁格火山",
+      "en": "Mt. Gulg",
+      "ja": "偽造天界 グルグ火山",
+      "de": "Der Gulg",
+      "fr": "Mont Gulg"
     },
     "type": 2,
     "level": 79,
@@ -5072,7 +6916,11 @@
   },
   "661": {
     "name": {
-      "chs": "创造机构阿尼德罗学院"
+      "chs": "创造机构阿尼德罗学院",
+      "en": "Akadaemia Anyder",
+      "ja": "創造機関 アナイダアカデミア",
+      "de": "Akadaemia Anyder",
+      "fr": "Akadaemia Anydre"
     },
     "type": 2,
     "level": 80,
@@ -5083,7 +6931,11 @@
   },
   "666": {
     "name": {
-      "chs": "无瑕灵君歼灭战"
+      "chs": "无瑕灵君歼灭战",
+      "en": "The Crown of the Immaculate",
+      "ja": "イノセンス討滅戦",
+      "de": "Offenbarung - Innozenz",
+      "fr": "La Couronne de l'Immaculé"
     },
     "type": 4,
     "level": 79,
@@ -5094,7 +6946,11 @@
   },
   "667": {
     "name": {
-      "chs": "无瑕灵君歼殛战"
+      "chs": "无瑕灵君歼殛战",
+      "en": "the Crown of the Immaculate (Extreme)",
+      "ja": "極イノセンス討滅戦",
+      "de": "Letzte Läuterung - Innozenz",
+      "fr": "La Couronne de l'Immaculé (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5105,7 +6961,11 @@
   },
   "676": {
     "name": {
-      "chs": "遇袭集落水滩村"
+      "chs": "遇袭集落水滩村",
+      "en": "Holminster Switch",
+      "ja": "殺戮郷村 ホルミンスター",
+      "de": "Holminster",
+      "fr": "Holminster"
     },
     "type": 2,
     "level": 71,
@@ -5116,7 +6976,11 @@
   },
   "678": {
     "name": {
-      "chs": "摇摆的天平"
+      "chs": "摇摆的天平",
+      "en": "The Hardened Heart",
+      "ja": "揺れる天秤",
+      "de": "Ob Mitleid oder Hass",
+      "fr": "Naissance d'un bourreau"
     },
     "type": 7,
     "level": 0,
@@ -5127,7 +6991,11 @@
   },
   "679": {
     "name": {
-      "chs": "古代大再生魔法"
+      "chs": "古代大再生魔法",
+      "en": "The Lost and the Found",
+      "ja": "古の大再生魔法",
+      "de": "Alter Zauber",
+      "fr": "Magie ancestrale"
     },
     "type": 7,
     "level": 0,
@@ -5138,7 +7006,11 @@
   },
   "680": {
     "name": {
-      "chs": "废都拿巴示艾兰"
+      "chs": "废都拿巴示艾兰",
+      "en": "Coming Clean",
+      "ja": "廃都ナバスアレン",
+      "de": "Vater und Bruder",
+      "fr": "Sur les rails de Nabaath Areng"
     },
     "type": 7,
     "level": 0,
@@ -5149,7 +7021,11 @@
   },
   "681": {
     "name": {
-      "chs": "机关、诅咒、剧毒与……"
+      "chs": "机关、诅咒、剧毒与……",
+      "en": "Legend of the Not-so-hidden Temple",
+      "ja": "仕掛けと呪いと毒と",
+      "de": "Der Beichtstuhl von Toupasa dem Älteren",
+      "fr": "Le Confessionnal de Toupasa l'ancien"
     },
     "type": 7,
     "level": 0,
@@ -5160,7 +7036,11 @@
   },
   "682": {
     "name": {
-      "chs": "伊甸希望乐园 觉醒之章3"
+      "chs": "伊甸希望乐园 觉醒之章3",
+      "en": "Eden's Gate: Inundation",
+      "ja": "希望の園エデン：覚醒編3",
+      "de": "Edens Erwachen - Überflutung",
+      "fr": "L'Éveil d'Éden - Déluge"
     },
     "type": 5,
     "level": 80,
@@ -5171,7 +7051,11 @@
   },
   "683": {
     "name": {
-      "chs": "伊甸零式希望乐园 觉醒之章3"
+      "chs": "伊甸零式希望乐园 觉醒之章3",
+      "en": "Eden's Gate: Inundation (Savage)",
+      "ja": "希望の園エデン零式：覚醒編3",
+      "de": "Edens Erwachen - Überflutung (episch)",
+      "fr": "L'Éveil d'Éden - Déluge (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5182,7 +7066,11 @@
   },
   "684": {
     "name": {
-      "chs": "伊甸希望乐园 觉醒之章2"
+      "chs": "伊甸希望乐园 觉醒之章2",
+      "en": "Eden's Gate: Descent",
+      "ja": "希望の園エデン：覚醒編2",
+      "de": "Edens Erwachen - Niederkunft",
+      "fr": "L'Éveil d'Éden - Descente"
     },
     "type": 5,
     "level": 80,
@@ -5193,7 +7081,11 @@
   },
   "685": {
     "name": {
-      "chs": "伊甸零式希望乐园 觉醒之章2"
+      "chs": "伊甸零式希望乐园 觉醒之章2",
+      "en": "Eden's Gate: Descent (Savage)",
+      "ja": "希望の園エデン零式：覚醒編2",
+      "de": "Edens Erwachen - Niederkunft (episch)",
+      "fr": "L'Éveil d'Éden - Descente (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5204,7 +7096,11 @@
   },
   "686": {
     "name": {
-      "chs": "奈贝尔特的后悔"
+      "chs": "奈贝尔特的后悔",
+      "en": "Nyelbert's Lament",
+      "ja": "ナイルベルトの後悔",
+      "de": "Ein großes Opfer",
+      "fr": "Une cupidité bien généreuse"
     },
     "type": 7,
     "level": 0,
@@ -5215,7 +7111,11 @@
   },
   "687": {
     "name": {
-      "chs": "哈迪斯歼灭战"
+      "chs": "哈迪斯歼灭战",
+      "en": "The Dying Gasp",
+      "ja": "ハーデス討滅戦",
+      "de": "Offenbarung - Hades",
+      "fr": "le Râle de l'Agonie"
     },
     "type": 4,
     "level": 80,
@@ -5226,7 +7126,11 @@
   },
   "688": {
     "name": {
-      "chs": "梦羽宝境"
+      "chs": "梦羽宝境",
+      "en": "The Dungeons of Lyhe Ghiah",
+      "ja": "宝物庫 リェー・ギア・ダンジョン",
+      "de": "Verliese von Lyhe Ghiah",
+      "fr": "le Donjon hypogéen du Lyhe Ghiah"
     },
     "type": 9,
     "level": 1,
@@ -5237,7 +7141,11 @@
   },
   "689": {
     "name": {
-      "chs": "伊甸希望乐园 觉醒之章4"
+      "chs": "伊甸希望乐园 觉醒之章4",
+      "en": "Eden's Gate: Sepulture",
+      "ja": "希望の園エデン：覚醒編4",
+      "de": "Edens Erwachen - Beerdigung",
+      "fr": "L'Éveil d'Éden - Inhumation"
     },
     "type": 5,
     "level": 80,
@@ -5248,7 +7156,11 @@
   },
   "690": {
     "name": {
-      "chs": "伊甸零式希望乐园 觉醒之章4"
+      "chs": "伊甸零式希望乐园 觉醒之章4",
+      "en": "Eden's Gate: Sepulture (Savage)",
+      "ja": "希望の園エデン零式：覚醒編4",
+      "de": "Edens Erwachen - Beerdigung (episch)",
+      "fr": "L'Éveil d'Éden - Inhumation (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5259,7 +7171,11 @@
   },
   "691": {
     "name": {
-      "chs": "勇敢的猎人"
+      "chs": "勇敢的猎人",
+      "en": "The Hunter's Legacy",
+      "ja": "勇気の狩人",
+      "de": "Der Legende auf der Spur",
+      "fr": "La chasseuse de légende"
     },
     "type": 7,
     "level": 0,
@@ -5270,7 +7186,11 @@
   },
   "692": {
     "name": {
-      "chs": "魔法宫殿宇宙宫"
+      "chs": "魔法宫殿宇宙宫",
+      "en": "The Grand Cosmos",
+      "ja": "魔法宮殿 グラン・コスモス",
+      "de": "Chateau Cosmea",
+      "fr": "le Cosmos coruscant"
     },
     "type": 2,
     "level": 80,
@@ -5281,7 +7201,11 @@
   },
   "693": {
     "name": {
-      "chs": "哈迪斯孤念歼灭战"
+      "chs": "哈迪斯孤念歼灭战",
+      "en": "The Minstrel's Ballad: Hades's Elegy",
+      "ja": "極ハーデス討滅戦",
+      "de": "Letzte Läuterung - Hades",
+      "fr": "Le Râle de l'Agonie (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5292,7 +7216,11 @@
   },
   "694": {
     "name": {
-      "chs": "亚历山大绝境战"
+      "chs": "亚历山大绝境战",
+      "en": "The Epic of Alexander (Ultimate)",
+      "ja": "絶アレキサンダー討滅戦",
+      "de": "Alexander (fatal)",
+      "fr": "L'Odyssée d'Alexander (fatal)"
     },
     "type": 28,
     "level": 80,
@@ -5303,7 +7231,11 @@
   },
   "695": {
     "name": {
-      "chs": "强大的老爹——洪巴巴之父"
+      "chs": "强大的老爹——洪巴巴之父",
+      "en": "Papa Mia",
+      "ja": "豪腕の父親「フンババ・パパ」",
+      "de": "Papa Mia",
+      "fr": "Papa Humbaba, le paternel aux gros bras"
     },
     "type": 27,
     "level": 60,
@@ -5314,7 +7246,11 @@
   },
   "696": {
     "name": {
-      "chs": "鼻息爆破死斗"
+      "chs": "鼻息爆破死斗",
+      "en": "Lock up Your Snorters",
+      "ja": "はないき爆破デスマッチ",
+      "de": "Explosives Schnaufen",
+      "fr": "Fungaaah! Et boum!"
     },
     "type": 27,
     "level": 60,
@@ -5325,7 +7261,11 @@
   },
   "697": {
     "name": {
-      "chs": "绝妙傀儡师——都灵"
+      "chs": "绝妙傀儡师——都灵",
+      "en": "Dangerous When Dead",
+      "ja": "至妙の傀儡子「ドゥリン」",
+      "de": "Begnadeter Puppenspieler",
+      "fr": "Durinn, marionnettiste d'outre-tombe"
     },
     "type": 27,
     "level": 60,
@@ -5336,7 +7276,11 @@
   },
   "698": {
     "name": {
-      "chs": "水与火之歌"
+      "chs": "水与火之歌",
+      "en": "Red, Fraught, and Blue",
+      "ja": "水と炎の歌",
+      "de": "Die Melodie von Feuer und Wasser",
+      "fr": "La mélodie du feu et de l'eau"
     },
     "type": 27,
     "level": 60,
@@ -5347,7 +7291,11 @@
   },
   "699": {
     "name": {
-      "chs": "世界第一剑士——齐格弗里德"
+      "chs": "世界第一剑士——齐格弗里德",
+      "en": "The Catch of the Siegfried",
+      "ja": "世界一の剣士「ジークフリード」",
+      "de": "Siegfried, der beste Schwertkämpfer der Welt!",
+      "fr": "Siegfried, le plus grand bretteur du monde"
     },
     "type": 27,
     "level": 60,
@@ -5358,7 +7306,11 @@
   },
   "700": {
     "name": {
-      "chs": "复制工厂废墟"
+      "chs": "复制工厂废墟",
+      "en": "The Copied Factory",
+      "ja": "複製サレタ工場廃墟",
+      "de": "Die kopierte Fabrik",
+      "fr": "La réplique de l'usine désaffectée"
     },
     "type": 5,
     "level": 80,
@@ -5369,7 +7321,11 @@
   },
   "701": {
     "name": {
-      "chs": "昂萨哈凯尔（竞争战）"
+      "chs": "昂萨哈凯尔（竞争战）",
+      "en": "Onsal Hakair (Danshig Naadam)",
+      "ja": "オンサル・ハカイル (終節戦)",
+      "de": "Onsal Hakair (Danshig Naadam)",
+      "fr": "Onsal Hakair (Danshig Naadam)"
     },
     "type": 6,
     "level": 30,
@@ -5380,7 +7336,11 @@
   },
   "702": {
     "name": {
-      "chs": "纯白誓约、漆黑密约"
+      "chs": "纯白誓约、漆黑密约",
+      "en": "Vows of Virtue, Deeds of Cruelty",
+      "ja": "白き誓約、黒き密約",
+      "de": "Der Wolf und der Drachenreiter",
+      "fr": "Vœux de vertu, actes de cruauté"
     },
     "type": 7,
     "level": 80,
@@ -5391,7 +7351,11 @@
   },
   "703": {
     "name": {
-      "chs": "我心依旧"
+      "chs": "我心依旧",
+      "en": "As the Heart Bids",
+      "ja": "この心が望むがままに",
+      "de": "Trubel im Traumland",
+      "fr": "À l'écoute de soi"
     },
     "type": 7,
     "level": 70,
@@ -5402,7 +7366,11 @@
   },
   "705": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5413,7 +7381,11 @@
   },
   "706": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5424,7 +7396,11 @@
   },
   "707": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5435,7 +7411,11 @@
   },
   "708": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5446,7 +7426,11 @@
   },
   "709": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5457,7 +7441,11 @@
   },
   "710": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5468,7 +7456,11 @@
   },
   "711": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5479,7 +7471,11 @@
   },
   "712": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5490,7 +7486,11 @@
   },
   "713": {
     "name": {
-      "chs": "虚景跳跳乐大挑战"
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
     },
     "type": 19,
     "level": 1,
@@ -5501,7 +7501,11 @@
   },
   "714": {
     "name": {
-      "chs": "黑风海底阿尼德罗追忆馆"
+      "chs": "黑风海底阿尼德罗追忆馆",
+      "en": "Anamnesis Anyder",
+      "ja": "黒風海底 アニドラス・アナムネーシス",
+      "de": "Anamnesis Anyder",
+      "fr": "Anamnesis Anydre"
     },
     "type": 2,
     "level": 80,
@@ -5512,7 +7516,11 @@
   },
   "715": {
     "name": {
-      "chs": "伊甸希望乐园 共鸣之章1"
+      "chs": "伊甸希望乐园 共鸣之章1",
+      "en": "Eden's Verse: Fulmination",
+      "ja": "希望の園エデン：共鳴編1",
+      "de": "Edens Resonanz - Entladung",
+      "fr": "Les Accords d'Éden - Fulmination"
     },
     "type": 5,
     "level": 80,
@@ -5523,7 +7531,11 @@
   },
   "716": {
     "name": {
-      "chs": "伊甸零式希望乐园 共鸣之章1"
+      "chs": "伊甸零式希望乐园 共鸣之章1",
+      "en": "Eden's Verse: Fulmination (Savage)",
+      "ja": "希望の園エデン零式：共鳴編1",
+      "de": "Edens Resonanz - Entladung (episch)",
+      "fr": "Les Accords d'Éden - Fulmination (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5534,7 +7546,11 @@
   },
   "717": {
     "name": {
-      "chs": "红宝石神兵破坏作战"
+      "chs": "红宝石神兵破坏作战",
+      "en": "Cinder Drift",
+      "ja": "ルビーウェポン破壊作戦",
+      "de": "Rubinfeuer - Entfesselung",
+      "fr": "Les Nuées de Brandons"
     },
     "type": 4,
     "level": 80,
@@ -5545,7 +7561,11 @@
   },
   "718": {
     "name": {
-      "chs": "红宝石神兵狂想作战"
+      "chs": "红宝石神兵狂想作战",
+      "en": "Cinder Drift (Extreme)",
+      "ja": "極ルビーウェポン破壊作戦",
+      "de": "Rubinfeuer - Trauma",
+      "fr": "Les Nuées de Brandons (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5556,7 +7576,11 @@
   },
   "719": {
     "name": {
-      "chs": "伊甸希望乐园 共鸣之章2"
+      "chs": "伊甸希望乐园 共鸣之章2",
+      "en": "Eden's Verse: Furor",
+      "ja": "希望の園エデン：共鳴編2",
+      "de": "Edens Resonanz - Raserei",
+      "fr": "Les Accords d'Éden - Fureur"
     },
     "type": 5,
     "level": 80,
@@ -5567,7 +7591,11 @@
   },
   "720": {
     "name": {
-      "chs": "伊甸零式希望乐园 共鸣之章2"
+      "chs": "伊甸零式希望乐园 共鸣之章2",
+      "en": "Eden's Verse: Furor (Savage)",
+      "ja": "希望の園エデン零式：共鳴編2",
+      "de": "Edens Resonanz - Raserei (episch)",
+      "fr": "Les Accords d'Éden - Fureur (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5578,7 +7606,11 @@
   },
   "721": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5589,7 +7621,11 @@
   },
   "722": {
     "name": {
-      "chs": "天上福地云冠群岛"
+      "chs": "天上福地云冠群岛",
+      "en": "the Diadem",
+      "ja": "雲海採集 ディアデム諸島",
+      "de": "Das Diadem - Erschließung",
+      "fr": "Le Diadème"
     },
     "type": 16,
     "level": 10,
@@ -5600,7 +7636,11 @@
   },
   "723": {
     "name": {
-      "chs": "博兹雅堡垒蒸发事件"
+      "chs": "博兹雅堡垒蒸发事件",
+      "en": "the Bozja Incident",
+      "ja": "シタデル・ボズヤ蒸発事変",
+      "de": "Der Bozja-Vorfall",
+      "fr": "Prélude à la catastrophe"
     },
     "type": 7,
     "level": 80,
@@ -5611,7 +7651,11 @@
   },
   "724": {
     "name": {
-      "chs": "英雄无法安息"
+      "chs": "英雄无法安息",
+      "en": "A Sleep Disturbed",
+      "ja": "汝、英雄の眠り妨げるは",
+      "de": "Von schlafenden Helden",
+      "fr": "L'épreuve ronka"
     },
     "type": 7,
     "level": 80,
@@ -5622,7 +7666,11 @@
   },
   "725": {
     "name": {
-      "chs": "博兹雅堡垒追忆战"
+      "chs": "博兹雅堡垒追忆战",
+      "en": "Memoria Misera (Extreme)",
+      "ja": "極シタデル・ボズヤ追憶戦",
+      "de": "Memoria Misera (extrem)",
+      "fr": "Memoria Misera (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5633,7 +7681,11 @@
   },
   "726": {
     "name": {
-      "chs": "伊甸希望乐园 共鸣之章3"
+      "chs": "伊甸希望乐园 共鸣之章3",
+      "en": "Eden's Verse: Iconoclasm",
+      "ja": "希望の園エデン：共鳴編3",
+      "de": "Edens Resonanz - Bildersturm",
+      "fr": "Les Accords d'Éden - Iconoclasme"
     },
     "type": 5,
     "level": 80,
@@ -5644,7 +7696,11 @@
   },
   "727": {
     "name": {
-      "chs": "伊甸零式希望乐园 共鸣之章3"
+      "chs": "伊甸零式希望乐园 共鸣之章3",
+      "en": "Eden's Verse: Iconoclasm (Savage)",
+      "ja": "希望の園エデン零式：共鳴編3",
+      "de": "Edens Resonanz - Bildersturm (episch)",
+      "fr": "Les Accords d'Éden - Iconoclasme (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5655,7 +7711,11 @@
   },
   "728": {
     "name": {
-      "chs": "伊甸希望乐园 共鸣之章4"
+      "chs": "伊甸希望乐园 共鸣之章4",
+      "en": "Eden's Verse: Refulgence",
+      "ja": "希望の園エデン：共鳴編4",
+      "de": "Edens Resonanz - Erstarrung",
+      "fr": "Les Accords d'Éden - Éclat"
     },
     "type": 5,
     "level": 80,
@@ -5666,7 +7726,11 @@
   },
   "729": {
     "name": {
-      "chs": "伊甸零式希望乐园 共鸣之章4"
+      "chs": "伊甸零式希望乐园 共鸣之章4",
+      "en": "Eden's Verse: Refulgence (Savage)",
+      "ja": "希望の園エデン零式：共鳴編4",
+      "de": "Edens Resonanz - Erstarrung (episch)",
+      "fr": "Les Accords d'Éden - Éclat (sadique)"
     },
     "type": 5,
     "level": 80,
@@ -5677,7 +7741,11 @@
   },
   "730": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5688,7 +7756,11 @@
   },
   "731": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5699,7 +7771,11 @@
   },
   "732": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5710,7 +7786,11 @@
   },
   "733": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5721,7 +7801,11 @@
   },
   "734": {
     "name": {
-      "chs": "出海垂钓"
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
     },
     "type": 16,
     "level": 1,
@@ -5732,7 +7816,11 @@
   },
   "735": {
     "name": {
-      "chs": "南方博兹雅战线"
+      "chs": "南方博兹雅战线",
+      "en": "The Bozjan Southern Front",
+      "ja": "南方ボズヤ戦線",
+      "de": "Bozja-Südfront",
+      "fr": "Front sud de Bozja"
     },
     "type": 29,
     "level": 71,
@@ -5743,7 +7831,11 @@
   },
   "736": {
     "name": {
-      "chs": "人偶军事基地"
+      "chs": "人偶军事基地",
+      "en": "the Puppets' Bunker",
+      "ja": "人形タチノ軍事基地",
+      "de": "Die Puppenfestung",
+      "fr": "La base militaire des Pantins"
     },
     "type": 5,
     "level": 80,
@@ -5754,7 +7846,11 @@
   },
   "737": {
     "name": {
-      "chs": "暗影决战诺弗兰特"
+      "chs": "暗影决战诺弗兰特",
+      "en": "the Heroes' Gauntlet",
+      "ja": "漆黒決戦 ノルヴラント",
+      "de": "Schlacht um Norvrandt",
+      "fr": "La Traversée de Norvrandt"
     },
     "type": 2,
     "level": 80,
@@ -5765,7 +7861,11 @@
   },
   "738": {
     "name": {
-      "chs": "光之战士歼灭战"
+      "chs": "光之战士歼灭战",
+      "en": "the Seat of Sacrifice",
+      "ja": "ウォーリア・オブ・ライト討滅戦",
+      "de": "Krieger des Lichts",
+      "fr": "Le Trône du Sacrifice"
     },
     "type": 4,
     "level": 80,
@@ -5776,7 +7876,11 @@
   },
   "739": {
     "name": {
-      "chs": "光之战士幻耀歼灭战"
+      "chs": "光之战士幻耀歼灭战",
+      "en": "the Seat of Sacrifice (Extreme)",
+      "ja": "極ウォーリア・オブ・ライト討滅戦",
+      "de": "Krieger des Lichts (extrem)",
+      "fr": "Le Trône du Sacrifice (extrême)"
     },
     "type": 4,
     "level": 80,
@@ -5787,7 +7891,11 @@
   },
   "740": {
     "name": {
-      "chs": "飞翔吧，前往维尔利特！"
+      "chs": "飞翔吧，前往维尔利特！",
+      "en": "Sleep Now in Sapphire",
+      "ja": "飛べ！ ウェルリトへ ",
+      "de": "Luftangriff auf Werlyt",
+      "fr": "Sur la mer de saphir"
     },
     "type": 7,
     "level": 80,
@@ -5798,7 +7906,11 @@
   },
   "741": {
     "name": {
-      "chs": "飞翔吧，前往维尔利特！"
+      "chs": "飞翔吧，前往维尔利特！",
+      "en": "Sleep Now in Sapphire",
+      "ja": "飛べ！ ウェルリトへ ",
+      "de": "Luftangriff auf Werlyt",
+      "fr": "Sur la mer de saphir"
     },
     "type": 7,
     "level": 80,
@@ -5809,7 +7921,11 @@
   },
   "742": {
     "name": {
-      "chs": "天上福地云冠群岛"
+      "chs": "天上福地云冠群岛",
+      "en": "the Diadem",
+      "ja": "雲海採集 ディアデム諸島",
+      "de": "Das Diadem - Erschließung",
+      "fr": "Le Diadème"
     },
     "type": 16,
     "level": 10,
@@ -5820,7 +7936,11 @@
   },
   "743": {
     "name": {
-      "chs": "褪色的记忆"
+      "chs": "褪色的记忆",
+      "en": "Faded Memories",
+      "ja": "色あせた記憶",
+      "de": "Verblasste Erinnerungen",
+      "fr": "Souvenir périssable"
     },
     "type": 7,
     "level": 80,
@@ -5831,7 +7951,11 @@
   },
   "744": {
     "name": {
-      "chs": "希瓦幻巧战"
+      "chs": "希瓦幻巧战",
+      "en": "the Akh Afah Amphitheatre (Unreal)",
+      "ja": "幻シヴァ討滅戦",
+      "de": "Traumprüfung - Shiva",
+      "fr": "l'Amphithéâtre d'Akh Afah (irréel)"
     },
     "type": 4,
     "level": 80,

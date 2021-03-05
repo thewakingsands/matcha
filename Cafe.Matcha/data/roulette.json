@@ -1,107 +1,247 @@
 {
   "1": {
-    "chs": "随机任务：练级"
+    "chs": "随机任务：练级",
+    "en": "Duty Roulette: Leveling",
+    "ja": "コンテンツルーレット：レべリング",
+    "de": "Zufallsinhalt: Stufensteigerung",
+    "fr": "Mission aléatoire : gain de niveaux"
   },
   "2": {
-    "chs": "随机任务：50级/60级/70级"
+    "chs": "随机任务：50级/60级/70级",
+    "en": "Duty Roulette: Level 50/60/70 Dungeons",
+    "ja": "コンテンツルーレット：レベル50・60・70ダンジョン",
+    "de": "Zufallsinhalt: Stufe 50/60/70",
+    "fr": "Mission aléatoire : donjons nv 50/60/70"
   },
   "3": {
-    "chs": "随机任务：主线任务"
+    "chs": "随机任务：主线任务",
+    "en": "Duty Roulette: Main Scenario",
+    "ja": "コンテンツルーレット：メインクエスト",
+    "de": "Zufallsinhalt: Hauptszenario",
+    "fr": "Mission aléatoire : épopée"
   },
   "4": {
-    "chs": "随机任务：行会令"
+    "chs": "随机任务：行会令",
+    "en": "Duty Roulette: Guildhests",
+    "ja": "コンテンツルーレット：ギルドオーダー",
+    "de": "Zufallsinhalt: Gildengeheiß",
+    "fr": "Mission aléatoire : opérations de guilde"
   },
   "5": {
-    "chs": "随机任务：高难度"
+    "chs": "随机任务：高难度",
+    "en": "Duty Roulette: Expert",
+    "ja": "コンテンツルーレット：エキスパート",
+    "de": "Zufallsinhalt: Experte",
+    "fr": "Mission aléatoire : expert"
   },
   "6": {
-    "chs": "随机任务：讨伐歼灭战"
+    "chs": "随机任务：讨伐歼灭战",
+    "en": "Duty Roulette: Trials",
+    "ja": "コンテンツルーレット：討伐・討滅戦",
+    "de": "Zufallsinhalt: Prüfung",
+    "fr": "Mission aléatoire : défis"
   },
   "7": {
-    "chs": "每日挑战：纷争前线"
+    "chs": "每日挑战：纷争前线",
+    "en": "Daily Challenge: Frontline",
+    "ja": "デイリーチャレンジ：フロントライン",
+    "de": "Tagesherausforderung: PvP-Front",
+    "fr": "Challenge quotidien : Front"
   },
   "8": {
-    "chs": "随机任务：80级"
+    "chs": "随机任务：80级",
+    "en": "Duty Roulette: Level 80 Dungeons",
+    "ja": "コンテンツルーレット：レベル80ダンジョン",
+    "de": "Zufallsinhalt: Stufe 80",
+    "fr": "Mission aléatoire : donjons nv 80"
   },
   "9": {
-    "chs": "随机任务：指导者"
+    "chs": "随机任务：指导者",
+    "en": "Duty Roulette: Mentor",
+    "ja": "コンテンツルーレット：メンター",
+    "de": "Zufallsinhalt: Mentor",
+    "fr": "Mission aléatoire : mentor"
   },
   "11": {
-    "chs": "群狼盛宴 (练习赛)"
+    "chs": "群狼盛宴 (练习赛)",
+    "en": "The Feast (Training Match)",
+    "ja": "ザ・フィースト (カジュアルマッチ)",
+    "de": "The Feast (Übungskampf)",
+    "fr": "The Feast (entraînement)"
   },
   "13": {
-    "chs": "群狼盛宴 (段位赛)"
+    "chs": "群狼盛宴 (段位赛)",
+    "en": "The Feast (Ranked Match)",
+    "ja": "ザ・フィースト (ランクマッチ)",
+    "de": "The Feast (gewertet)",
+    "fr": "The Feast (classé)"
   },
   "15": {
-    "chs": "随机任务：团队任务"
+    "chs": "随机任务：团队任务",
+    "en": "Duty Roulette: Alliance Raids",
+    "ja": "コンテンツルーレット：アライアンスレイド",
+    "de": "Zufallsinhalt: Allianz-Raid",
+    "fr": "Mission aléatoire : raids en alliance"
   },
   "16": {
-    "chs": "群狼盛宴 (战队段位赛)"
+    "chs": "群狼盛宴 (战队段位赛)",
+    "en": "The Feast (Team Ranked Match)",
+    "ja": "ザ・フィースト (チーム用ランクマッチ)",
+    "de": "The Feast (Team, gewertet)",
+    "fr": "The Feast (classé/équipe JcJ)"
   },
   "17": {
-    "chs": "随机任务：大型任务"
+    "chs": "随机任务：大型任务",
+    "en": "Duty Roulette: Normal Raids",
+    "ja": "コンテンツルーレット：ノーマルレイド",
+    "de": "Zufallsinhalt: Normaler Raid",
+    "fr": "Mission aléatoire : raids normaux"
   },
   "18": {
-    "chs": "陆行鸟竞赛：荒野大道"
+    "chs": "陆行鸟竞赛：荒野大道",
+    "en": "Chocobo Race: Sagolii Road",
+    "ja": "チョコボレース：サゴリーロード",
+    "de": "Chocobo-Rennen: Sagolii-Straße",
+    "fr": "Course de chocobos : Route de Sagolii"
   },
   "19": {
-    "chs": "陆行鸟竞赛：太阳海岸"
+    "chs": "陆行鸟竞赛：太阳海岸",
+    "en": "Chocobo Race: Costa del Sol",
+    "ja": "チョコボレース：コスタ・デル・ソル",
+    "de": "Chocobo-Rennen: Sonnenküste",
+    "fr": "Course de chocobos : Costa del Sol"
   },
   "20": {
-    "chs": "陆行鸟竞赛：恬静小路"
+    "chs": "陆行鸟竞赛：恬静小路",
+    "en": "Chocobo Race: Tranquil Paths",
+    "ja": "チョコボレース：トランキルパス",
+    "de": "Chocobo-Rennen: Pfad der Seelenruhe",
+    "fr": "Course de chocobos : Sentes tranquilles"
   },
   "21": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "22": {
-    "chs": "陆行鸟竞赛：荒野大道（无报酬）"
+    "chs": "陆行鸟竞赛：荒野大道（无报酬）",
+    "en": "Chocobo Race: Sagolii Road (No Rewards)",
+    "ja": "チョコボレース：サゴリーロード (報酬なし)",
+    "de": "Chocobo-Rennen: Sagolii-Straße (keine Belohnung)",
+    "fr": "Course de chocobos : Route de Sagolii (aucune récompense)"
   },
   "23": {
-    "chs": "陆行鸟竞赛：太阳海岸（无报酬）"
+    "chs": "陆行鸟竞赛：太阳海岸（无报酬）",
+    "en": "Chocobo Race: Costa del Sol (No Rewards)",
+    "ja": "チョコボレース：コスタ・デル・ソル (報酬なし)",
+    "de": "Chocobo-Rennen: Sonnenküste (keine Belohnung)",
+    "fr": "Course de chocobos : Costa del Sol (aucune récompense)"
   },
   "24": {
-    "chs": "陆行鸟竞赛：恬静小路（无报酬）"
+    "chs": "陆行鸟竞赛：恬静小路（无报酬）",
+    "en": "Chocobo Race: Tranquil Paths (No Rewards)",
+    "ja": "チョコボレース：トランキルパス (報酬なし)",
+    "de": "Chocobo-Rennen: Pfad der Seelenruhe (keine Belohnung)",
+    "fr": "Course de chocobos : Sentes tranquilles (aucune récompense)"
   },
   "25": {
-    "chs": "陆行鸟竞赛：随机赛道（无报酬）"
+    "chs": "陆行鸟竞赛：随机赛道（无报酬）",
+    "en": "Chocobo Race: Random (No Rewards)",
+    "ja": "チョコボレース：コースルーレット (報酬なし)",
+    "de": "Chocobo-Rennen: Zufallsstrecke (keine Belohnung)",
+    "fr": "Course de chocobos : aléatoire (aucune récompense)"
   },
   "26": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "27": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "28": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "29": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "30": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "31": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "32": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "33": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "34": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "35": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "36": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "37": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   },
   "38": {
-    "chs": "陆行鸟竞赛：随机赛道"
+    "chs": "陆行鸟竞赛：随机赛道",
+    "en": "Chocobo Race: Random",
+    "ja": "チョコボレース：コースルーレット",
+    "de": "Chocobo-Rennen: Zufallsstrecke",
+    "fr": "Course de chocobos : aléatoire"
   }
 }

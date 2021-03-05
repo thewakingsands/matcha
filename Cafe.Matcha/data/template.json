@@ -1,7 +1,11 @@
 [
   {
     "name": {
-      "chs": "«火天文书»第一卷"
+      "chs": "«火天文书»第一卷",
+      "en": "copy of the Book of Skyfire I",
+      "ja": "黄道十二文書：炎天一巻",
+      "de": "Tafel[p] des Himmelsfeuers I",
+      "fr": "exemplaire du Livre du feu céleste I"
     },
     "fate": [
       480,
@@ -11,7 +15,11 @@
   },
   {
     "name": {
-      "chs": "«火天文书»第二卷"
+      "chs": "«火天文书»第二卷",
+      "en": "copy of the Book of Skyfire II",
+      "ja": "黄道十二文書：炎天二巻",
+      "de": "Tafel[p] des Himmelsfeuers II",
+      "fr": "exemplaire du Livre du feu céleste II"
     },
     "fate": [
       571,
@@ -21,7 +29,11 @@
   },
   {
     "name": {
-      "chs": "«火狱文书»第一卷"
+      "chs": "«火狱文书»第一卷",
+      "en": "copy of the Book of Netherfire I",
+      "ja": "黄道十二文書：炎獄一巻",
+      "de": "Tafel[p] des Jenseitsfeuers I",
+      "fr": "exemplaire du Livre du feu infernal I"
     },
     "fate": [
       521,
@@ -31,7 +43,11 @@
   },
   {
     "name": {
-      "chs": "«水天文书»第一卷"
+      "chs": "«水天文书»第一卷",
+      "en": "copy of the Book of Skyfall I",
+      "ja": "黄道十二文書：水天一巻",
+      "de": "Tafel[p] des Himmelsfalles I",
+      "fr": "exemplaire du Livre de l'eau céleste I"
     },
     "fate": [
       475,
@@ -41,7 +57,11 @@
   },
   {
     "name": {
-      "chs": "«水天文书»第二卷"
+      "chs": "«水天文书»第二卷",
+      "en": "copy of the Book of Skyfall II",
+      "ja": "黄道十二文書：水天二巻",
+      "de": "Tafel[p] des Himmelsfalles II",
+      "fr": "exemplaire du Livre de l'eau céleste II"
     },
     "fate": [
       569,
@@ -51,7 +71,11 @@
   },
   {
     "name": {
-      "chs": "«水狱文书»第一卷"
+      "chs": "«水狱文书»第一卷",
+      "en": "copy of the Book of Netherfall I",
+      "ja": "黄道十二文書：水獄一巻",
+      "de": "Tafel[p] des Jenseitsfalles I",
+      "fr": "exemplaire du Livre de l'eau infernale I"
     },
     "fate": [
       632,
@@ -61,7 +85,11 @@
   },
   {
     "name": {
-      "chs": "«风天文书»第一卷"
+      "chs": "«风天文书»第一卷",
+      "en": "copy of the Book of Skywind I",
+      "ja": "黄道十二文書：風天一巻",
+      "de": "Tafel[p] des Himmelswindes I",
+      "fr": "exemplaire du Livre du vent céleste I"
     },
     "fate": [
       317,
@@ -71,7 +99,11 @@
   },
   {
     "name": {
-      "chs": "«风天文书»第二卷"
+      "chs": "«风天文书»第二卷",
+      "en": "copy of the Book of Skywind II",
+      "ja": "黄道十二文書：風天二巻",
+      "de": "Tafel[p] des Himmelswindes II",
+      "fr": "exemplaire du Livre du vent céleste II"
     },
     "fate": [
       552,
@@ -81,7 +113,11 @@
   },
   {
     "name": {
-      "chs": "«土天文书»第一卷"
+      "chs": "«土天文书»第一卷",
+      "en": "copy of the Book of Skyearth I",
+      "ja": "黄道十二文書：土天一巻",
+      "de": "Tafel[p] der Himmelserde I",
+      "fr": "exemplaire du Livre de la terre céleste I"
     },
     "fate": [
       493,
