@@ -106,11 +106,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyCopyright.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AssemblyCopyright.tt</DependentUpon>
-    </Compile>
+    <Compile Include="AssemblyCopyright.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Constant\ActorControlType.cs" />
     <Compile Include="Constant\EventType.cs" />
@@ -230,10 +226,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AssemblyCopyright.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>AssemblyCopyright.cs</LastGenOutput>
-    </Content>
     <Content Include="FodyWeavers.xml" />
     <Resource Include="GitHub-Mark-32px.png" />
   </ItemGroup>
@@ -241,11 +233,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Clarius.TransformOnBuild">
-      <Version>1.22.0</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="Confuser.MSBuild">
       <Version>1.4.1</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -275,7 +262,8 @@
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>
-    <PreBuildEvent>cd $(ProjectDir)Constant\
+    <PreBuildEvent>$(TargetDir)..\Cafe.Matcha.Packer Assembly
+cd $(ProjectDir)Constant\
 
 if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
