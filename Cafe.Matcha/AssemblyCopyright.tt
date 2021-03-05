@@ -1,6 +1,7 @@
 ﻿<#@ template language="C#" #>
+<#@ output extension=".cs" #>
 <#
- string Version = "2.0.0.0";
+string Version = DateTime.Now.ToString("yy.M.d.Hmmss");
 #>
 using System;
 using System.Reflection;

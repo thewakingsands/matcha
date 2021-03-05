@@ -241,6 +241,11 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Clarius.TransformOnBuild">
+      <Version>1.22.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Confuser.MSBuild">
       <Version>1.4.1</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -276,7 +281,7 @@ if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
 )</PreBuildEvent>
     <PostBuildEvent>del $(TargetPath) /F
-xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
+  xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
 $(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
 </Project>

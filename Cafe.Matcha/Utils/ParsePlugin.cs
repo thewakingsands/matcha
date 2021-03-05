@@ -37,11 +37,6 @@ namespace Cafe.Matcha.Utils
             _parsePlugin.DataSubscription.NetworkSent -= HandleMessageSent;
         }
 
-        public uint GetZone()
-        {
-            return _parsePlugin.DataRepository.GetCurrentTerritoryID();
-        }
-
         public Language GetLanguage()
         {
             return _parsePlugin.DataRepository.GetSelectedLanguageID();
