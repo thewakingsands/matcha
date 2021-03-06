@@ -36,7 +36,7 @@ namespace Cafe.Matcha
             switch (Instance.Language)
             {
                 case FFXIV_ACT_Plugin.Common.Language.Chinese:
-                    return "zh";
+                    return "chs";
                 case FFXIV_ACT_Plugin.Common.Language.English:
                     return "en";
                 case FFXIV_ACT_Plugin.Common.Language.French:
