@@ -8,21 +8,31 @@ namespace Cafe.Matcha.Models
     public class ItemName
     {
         [JsonProperty("chs")]
-        public string Chinese;
-        /*
+        public string Chinese = null;
         [JsonProperty("en")]
-        public string English;
+        public string English = null;
         [JsonProperty("ja")]
-        public string Japanese;
+        public string Japanese = null;
         [JsonProperty("de")]
-        public string German;
+        public string German = null;
         [JsonProperty("fr")]
-        public string Franch;
-        */
+        public string French = null;
 
         public override string ToString()
         {
-            return Chinese;
+            switch (Config.Instance.Language)
+            {
+                case FFXIV_ACT_Plugin.Common.Language.French:
+                    return French ?? English;
+                case FFXIV_ACT_Plugin.Common.Language.German:
+                    return German ?? English;
+                case FFXIV_ACT_Plugin.Common.Language.Japanese:
+                    return Japanese ?? English;
+                case FFXIV_ACT_Plugin.Common.Language.Chinese:
+                    return Chinese ?? English;
+                default:
+                    return English;
+            }
         }
     }
 }

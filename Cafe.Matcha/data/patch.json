@@ -1,14 +1,30 @@
 {
   "2": {
-    "chs": "重生之境"
+    "chs": "重生之境",
+    "en": "A Realm Reborn",
+    "ja": "新生エオルゼア",
+    "de": "A Realm Reborn",
+    "fr": "A Realm Reborn"
   },
   "3": {
-    "chs": "苍穹之禁城"
+    "chs": "苍穹之禁城",
+    "en": "Heavensward",
+    "ja": "蒼天のイシュガルド",
+    "de": "Heavensward",
+    "fr": "Heavensward"
   },
   "4": {
-    "chs": "红莲之狂潮"
+    "chs": "红莲之狂潮",
+    "en": "Stormblood",
+    "ja": "紅蓮のリベレーター",
+    "de": "Stormblood",
+    "fr": "Stormblood"
   },
   "5": {
-    "chs": "暗影之逆焰"
+    "chs": "暗影之逆焰",
+    "en": "Shadowbringers",
+    "ja": "漆黒のヴィランズ",
+    "de": "Shadowbringers",
+    "fr": "Shadowbringers"
   }
 }

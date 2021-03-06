@@ -33,15 +33,14 @@
             }
         }
 
-        public static async void QueryItem(uint itemId, Action<BaseDTO> fireEvent)
+        public static async void QueryItem(ushort worldId, uint itemId, Action<BaseDTO> fireEvent)
         {
             if (!Enabled || ParsePlugin.Instance == null)
             {
                 return;
             }
 
-            var currentServer = (int)ParsePlugin.Instance.GetServer();
-            var items = await Api.ListByDC(currentServer, itemId);
+            var items = await Api.ListByDC(worldId, itemId);
             if (items == null)
             {
                 return;
@@ -50,7 +49,7 @@
             foreach (var pair in items)
             {
                 var server = pair.Key;
-                if (server == currentServer)
+                if (server == worldId)
                 {
                     continue;
                 }

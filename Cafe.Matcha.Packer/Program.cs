@@ -12,9 +12,33 @@ namespace Cafe.Matcha.Packer
 
     public class Program
     {
-        private static void Main(string[] args)
+        private static void GenerateAssembly()
         {
-            string env = args.Length >= 1 ? args[0] : "Release";
+            string version = DateTime.UtcNow.ToString("yy.M.d.Hmm");
+
+            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Cafe.Matcha\AssemblyCopyright.cs");
+            var template = @"using System.Reflection;
+
+[assembly: AssemblyTitle(""Cafe.Matcha"")]
+[assembly: AssemblyDescription(""Cafe.Matcha"")]
+[assembly: AssemblyCompany(""FFCafe"")]
+[assembly: AssemblyVersion(""{0}"")]
+[assembly: AssemblyCopyright(""Copyright © FFCafe {1}"")]
+
+namespace Cafe.Matcha
+{
+    partial class Data {
+        public const string Version = ""{0}"";
+    }
+}
+";
+            var content = template.Replace("{0}", version).Replace("{1}", DateTime.Now.Year.ToString());
+            Console.WriteLine(content);
+            File.WriteAllText(path, content);
+        }
+
+        private static void Bundle(string env)
+        {
             var root = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, env);
             var entry = Path.Combine(root, "Cafe.Matcha.dll");
             var version = FileVersionInfo.GetVersionInfo(entry);
@@ -45,5 +69,19 @@ namespace Cafe.Matcha.Packer
                 }
             }
         }
+
+        private static void Main(string[] args)
+        {
+            string env = args.Length >= 1 ? args[0] : "Release";
+            if (env == "Assembly")
+            {
+                GenerateAssembly();
+            }
+            else
+            {
+                Bundle(env);
+            }
+        }
+
     }
 }

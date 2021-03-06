@@ -1,140 +1,560 @@
 {
+  "23": {
+    "name": "Asura",
+    "name_en": "Asura",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "24": {
+    "name": "Belias",
+    "name_en": "Belias",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "28": {
+    "name": "Pandaemonium",
+    "name_en": "Pandaemonium",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "29": {
+    "name": "Shinryu",
+    "name_en": "Shinryu",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "30": {
+    "name": "Unicorn",
+    "name_en": "Unicorn",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "31": {
+    "name": "Yojimbo",
+    "name_en": "Yojimbo",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "32": {
+    "name": "Zeromus",
+    "name_en": "Zeromus",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "33": {
+    "name": "Twintania",
+    "name_en": "Twintania",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "34": {
+    "name": "Brynhildr",
+    "name_en": "Brynhildr",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "35": {
+    "name": "Famfrit",
+    "name_en": "Famfrit",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "36": {
+    "name": "Lich",
+    "name_en": "Lich",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "37": {
+    "name": "Mateus",
+    "name_en": "Mateus",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "39": {
+    "name": "Omega",
+    "name_en": "Omega",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "40": {
+    "name": "Jenova",
+    "name_en": "Jenova",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "41": {
+    "name": "Zalera",
+    "name_en": "Zalera",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "42": {
+    "name": "Zodiark",
+    "name_en": "Zodiark",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "43": {
+    "name": "Alexander",
+    "name_en": "Alexander",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "44": {
+    "name": "Anima",
+    "name_en": "Anima",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "45": {
+    "name": "Carbuncle",
+    "name_en": "Carbuncle",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "46": {
+    "name": "Fenrir",
+    "name_en": "Fenrir",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "47": {
+    "name": "Hades",
+    "name_en": "Hades",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "48": {
+    "name": "Ixion",
+    "name_en": "Ixion",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "49": {
+    "name": "Kujata",
+    "name_en": "Kujata",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "50": {
+    "name": "Typhon",
+    "name_en": "Typhon",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "51": {
+    "name": "Ultima",
+    "name_en": "Ultima",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "52": {
+    "name": "Valefor",
+    "name_en": "Valefor",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "53": {
+    "name": "Exodus",
+    "name_en": "Exodus",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "54": {
+    "name": "Faerie",
+    "name_en": "Faerie",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "55": {
+    "name": "Lamia",
+    "name_en": "Lamia",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "56": {
+    "name": "Phoenix",
+    "name_en": "Phoenix",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "57": {
+    "name": "Siren",
+    "name_en": "Siren",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "58": {
+    "name": "Garuda",
+    "name_en": "Garuda",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "59": {
+    "name": "Ifrit",
+    "name_en": "Ifrit",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "60": {
+    "name": "Ramuh",
+    "name_en": "Ramuh",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "61": {
+    "name": "Titan",
+    "name_en": "Titan",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "62": {
+    "name": "Diabolos",
+    "name_en": "Diabolos",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "63": {
+    "name": "Gilgamesh",
+    "name_en": "Gilgamesh",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "64": {
+    "name": "Leviathan",
+    "name_en": "Leviathan",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "65": {
+    "name": "Midgardsormr",
+    "name_en": "Midgardsormr",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "66": {
+    "name": "Odin",
+    "name_en": "Odin",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "67": {
+    "name": "Shiva",
+    "name_en": "Shiva",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "68": {
+    "name": "Atomos",
+    "name_en": "Atomos",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "69": {
+    "name": "Bahamut",
+    "name_en": "Bahamut",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "70": {
+    "name": "Chocobo",
+    "name_en": "Chocobo",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "71": {
+    "name": "Moogle",
+    "name_en": "Moogle",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "72": {
+    "name": "Tonberry",
+    "name_en": "Tonberry",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "73": {
+    "name": "Adamantoise",
+    "name_en": "Adamantoise",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "74": {
+    "name": "Coeurl",
+    "name_en": "Coeurl",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "75": {
+    "name": "Malboro",
+    "name_en": "Malboro",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "76": {
+    "name": "Tiamat",
+    "name_en": "Tiamat",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "77": {
+    "name": "Ultros",
+    "name_en": "Ultros",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "78": {
+    "name": "Behemoth",
+    "name_en": "Behemoth",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "79": {
+    "name": "Cactuar",
+    "name_en": "Cactuar",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "80": {
+    "name": "Cerberus",
+    "name_en": "Cerberus",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "81": {
+    "name": "Goblin",
+    "name_en": "Goblin",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "82": {
+    "name": "Mandragora",
+    "name_en": "Mandragora",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "83": {
+    "name": "Louisoix",
+    "name_en": "Louisoix",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "85": {
+    "name": "Spriggan",
+    "name_en": "Spriggan",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "90": {
+    "name": "Aegis",
+    "name_en": "Aegis",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "91": {
+    "name": "Balmung",
+    "name_en": "Balmung",
+    "dc": "Crystal",
+    "dc_en": "Crystal"
+  },
+  "92": {
+    "name": "Durandal",
+    "name_en": "Durandal",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "93": {
+    "name": "Excalibur",
+    "name_en": "Excalibur",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "94": {
+    "name": "Gungnir",
+    "name_en": "Gungnir",
+    "dc": "Elemental",
+    "dc_en": "Elemental"
+  },
+  "95": {
+    "name": "Hyperion",
+    "name_en": "Hyperion",
+    "dc": "Primal",
+    "dc_en": "Primal"
+  },
+  "96": {
+    "name": "Masamune",
+    "name_en": "Masamune",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "97": {
+    "name": "Ragnarok",
+    "name_en": "Ragnarok",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "98": {
+    "name": "Ridill",
+    "name_en": "Ridill",
+    "dc": "Gaia",
+    "dc_en": "Gaia"
+  },
+  "99": {
+    "name": "Sargatanas",
+    "name_en": "Sargatanas",
+    "dc": "Aether",
+    "dc_en": "Aether"
+  },
+  "161": {
+    "name": "Chocobo",
+    "name_en": "Chocobo",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "166": {
+    "name": "Moogle",
+    "name_en": "Moogle",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
   "1042": {
-    "chs": "拉诺西亚",
-    "en": "LaNuoXiYa",
-    "dc_chs": "陆行鸟",
+    "name": "拉诺西亚",
+    "name_en": "LaNuoXiYa",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1043": {
-    "chs": "紫水栈桥",
-    "en": "ZiShuiZhanQiao",
-    "dc_chs": "猫小胖",
+    "name": "紫水栈桥",
+    "name_en": "ZiShuiZhanQiao",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1044": {
-    "chs": "幻影群岛",
-    "en": "HuanYingQunDao",
-    "dc_chs": "陆行鸟",
+    "name": "幻影群岛",
+    "name_en": "HuanYingQunDao",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1045": {
-    "chs": "摩杜纳",
-    "en": "MoDuNa",
-    "dc_chs": "猫小胖",
+    "name": "摩杜纳",
+    "name_en": "MoDuNa",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1060": {
-    "chs": "萌芽池",
-    "en": "MengYaChi",
-    "dc_chs": "陆行鸟",
+    "name": "萌芽池",
+    "name_en": "MengYaChi",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1076": {
-    "chs": "白金幻象",
-    "en": "BaiJinHuanXiang",
-    "dc_chs": "莫古力",
+    "name": "白金幻象",
+    "name_en": "BaiJinHuanXiang",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1081": {
-    "chs": "神意之地",
-    "en": "ShenYiZhiDi",
-    "dc_chs": "陆行鸟",
+    "name": "神意之地",
+    "name_en": "ShenYiZhiDi",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1106": {
-    "chs": "静语庄园",
-    "en": "JingYuZhuangYuan",
-    "dc_chs": "猫小胖",
+    "name": "静语庄园",
+    "name_en": "JingYuZhuangYuan",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1113": {
-    "chs": "旅人栈桥",
-    "en": "LvRenZhanQiao",
-    "dc_chs": "莫古力",
+    "name": "旅人栈桥",
+    "name_en": "LvRenZhanQiao",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1121": {
-    "chs": "拂晓之间",
-    "en": "FuXiaoZhiJian",
-    "dc_chs": "莫古力",
+    "name": "拂晓之间",
+    "name_en": "FuXiaoZhiJian",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1166": {
-    "chs": "龙巢神殿",
-    "en": "Longchaoshendian",
-    "dc_chs": "莫古力",
+    "name": "龙巢神殿",
+    "name_en": "Longchaoshendian",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1167": {
-    "chs": "红玉海",
-    "en": "HongYuHai",
-    "dc_chs": "陆行鸟",
+    "name": "红玉海",
+    "name_en": "HongYuHai",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1169": {
-    "chs": "延夏",
-    "en": "YanXia",
-    "dc_chs": "猫小胖",
+    "name": "延夏",
+    "name_en": "YanXia",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1170": {
-    "chs": "潮风亭",
-    "en": "ChaoFengTing",
-    "dc_chs": "莫古力",
+    "name": "潮风亭",
+    "name_en": "ChaoFengTing",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1171": {
-    "chs": "神拳痕",
-    "en": "ShenQuanHen",
-    "dc_chs": "莫古力",
+    "name": "神拳痕",
+    "name_en": "ShenQuanHen",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1172": {
-    "chs": "白银乡",
-    "en": "BaiYinXiang",
-    "dc_chs": "莫古力",
+    "name": "白银乡",
+    "name_en": "BaiYinXiang",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1173": {
-    "chs": "宇宙和音",
-    "en": "YuZhouHeYin",
-    "dc_chs": "陆行鸟",
+    "name": "宇宙和音",
+    "name_en": "YuZhouHeYin",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1174": {
-    "chs": "沃仙曦染",
-    "en": "WoXianXiRan",
-    "dc_chs": "陆行鸟",
+    "name": "沃仙曦染",
+    "name_en": "WoXianXiRan",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1175": {
-    "chs": "晨曦王座",
-    "en": "ChenXiWangZuo",
-    "dc_chs": "陆行鸟",
+    "name": "晨曦王座",
+    "name_en": "ChenXiWangZuo",
+    "dc": "陆行鸟",
     "dc_en": "LuXingNiao"
   },
   "1176": {
-    "chs": "梦羽宝境",
-    "en": "MengYuBaoJing",
-    "dc_chs": "莫古力",
+    "name": "梦羽宝境",
+    "name_en": "MengYuBaoJing",
+    "dc": "莫古力",
     "dc_en": "MoGuLi"
   },
   "1177": {
-    "chs": "海猫茶屋",
-    "en": "HaiMaoChaWu",
-    "dc_chs": "猫小胖",
+    "name": "海猫茶屋",
+    "name_en": "HaiMaoChaWu",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1178": {
-    "chs": "柔风海湾",
-    "en": "RouFengHaiWan",
-    "dc_chs": "猫小胖",
+    "name": "柔风海湾",
+    "name_en": "RouFengHaiWan",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
   "1179": {
-    "chs": "琥珀原",
-    "en": "HuPoYuan",
-    "dc_chs": "猫小胖",
+    "name": "琥珀原",
+    "name_en": "HuPoYuan",
+    "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   }
 }

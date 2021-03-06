@@ -10,7 +10,7 @@ namespace Cafe.Matcha.Utils
 
     internal class Formatter
     {
-        private static Models.ConfigFormatter Config => Matcha.Config.Instance.Formatter;
+        private static Models.ConfigFormatter FormatterConfig => Config.Instance.Formatter;
         private static string GetFateText(int code)
         {
             if (!Data.Instance.Fates.TryGetValue(code, out var fate))
@@ -19,12 +19,12 @@ namespace Cafe.Matcha.Utils
             }
 
             StringBuilder sb = new StringBuilder();
-            if (Config.Fate.Level)
+            if (FormatterConfig.Fate.Level)
             {
                 sb.AppendFormat("{0}级 ", fate.Level);
             }
 
-            if (Config.Fate.Name)
+            if (FormatterConfig.Fate.Name)
             {
                 sb.Append(fate.Name);
             }
@@ -34,7 +34,7 @@ namespace Cafe.Matcha.Utils
 
         private static string GetDynamicEventText(DynamicEventDTO dto)
         {
-            if (Config.CriticalEngagement.Name)
+            if (FormatterConfig.CriticalEngagement.Name)
             {
                 if (Data.Instance.DynamicEvents.TryGetValue(dto.Event, out var dynamicEvent))
                 {
@@ -65,23 +65,18 @@ namespace Cafe.Matcha.Utils
             }
 
             StringBuilder sb = new StringBuilder();
-            if (Config.Instance.Type && Data.Instance.InstanceTypes.TryGetValue(instance.Type, out var instanceType))
+            if (FormatterConfig.Instance.Type && Data.Instance.InstanceTypes.TryGetValue(instance.Type, out var instanceType))
             {
                 sb.Append(instanceType);
                 sb.Append(' ');
             }
 
-            if (Config.Instance.Level)
+            if (FormatterConfig.Instance.Level)
             {
                 sb.AppendFormat("{0}级 ", instance.Level);
             }
 
-            if (Config.Instance.Item && instance.ItemLevelSync != 0)
-            {
-                sb.AppendFormat("装等{0} ", instance.ItemLevelSync);
-            }
-
-            if (Config.Instance.Name)
+            if (FormatterConfig.Instance.Name)
             {
                 sb.Append(instance.Name);
             }
@@ -92,7 +87,7 @@ namespace Cafe.Matcha.Utils
         private static string GetZoneText(InitZoneDTO dto)
         {
             StringBuilder sb = new StringBuilder();
-            if (Config.Zone.Name)
+            if (FormatterConfig.Zone.Name)
             {
                 if (Data.Instance.Territories.TryGetValue(dto.Zone, out var territoryData))
                 {
@@ -105,7 +100,7 @@ namespace Cafe.Matcha.Utils
                 }
             }
 
-            if (Config.Zone.Instance && dto.Instance != 0)
+            if (FormatterConfig.Zone.Instance && dto.Instance != 0)
             {
                 if (Data.Instance.Instances.TryGetValue(dto.Instance, out var instanceData))
                 {
@@ -123,18 +118,18 @@ namespace Cafe.Matcha.Utils
 
         private static string GetFishText(FishBiteDTO dto)
         {
-            if (!Config.Fish.Bite && !Config.Fish.BiteType)
+            if (!FormatterConfig.Fish.Bite && !FormatterConfig.Fish.BiteType)
             {
                 return null;
             }
 
             StringBuilder sb = new StringBuilder();
-            if (Config.Fish.Bite)
+            if (FormatterConfig.Fish.Bite)
             {
                 sb.Append("咬钩 ");
             }
 
-            if (Config.Fish.BiteType)
+            if (FormatterConfig.Fish.BiteType)
             {
                 switch (dto.Type)
                 {
@@ -208,6 +203,8 @@ namespace Cafe.Matcha.Utils
             sb.Append(DateTime.Now.ToString("O"));
             sb.Append("|0|Matcha#");
             sb.Append(Data.Version);
+            sb.Append('#');
+            sb.Append(Config.GetLanguageString());
             sb.Append('-');
             sb.Append(category);
             sb.Append('|');

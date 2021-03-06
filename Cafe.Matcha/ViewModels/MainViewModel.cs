@@ -6,8 +6,10 @@ namespace Cafe.Matcha.ViewModels
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using System.Collections.Specialized;
     using System.Linq;
     using Cafe.Matcha.Utils;
+    using FFXIV_ACT_Plugin.Common;
 
     internal class FateNode : FateTreeNode
     {
@@ -61,13 +63,11 @@ namespace Cafe.Matcha.ViewModels
     {
         private static Models.ItemName multipleTerritories = new Models.ItemName()
         {
-            Chinese = "多个地区",
-            /*
-            English = "Multiple Territories",
-            Japanese = "複数の地域",
-            German = "Mehrere Gebiete",
-            Franch = "Territoires multiples"
-            */
+            Chinese = "未知地区",
+            English = "Unknown Area",
+            Japanese = "不明なエリア",
+            German = "Unbekannter Bereich",
+            French = "Zone inconnue"
         };
 
         public FateTerritoryTree(int territoryId)
@@ -134,9 +134,9 @@ namespace Cafe.Matcha.ViewModels
 
         public ObservableCollection<FateTreeNode> Children { get; set; }
 
-        public static ObservableCollection<FateTreeNodeWithChildren> Create(Dictionary<int, Models.FateData> fates)
+        public static ListBindingTarget<FateTreeNodeWithChildren> Create(Dictionary<int, Models.FateData> fates)
         {
-            var result = new ObservableCollection<FateTreeNodeWithChildren>()
+            var result = new ListBindingTarget<FateTreeNodeWithChildren>()
             {
                 new FateTerritoryTree(0)
             };
@@ -187,6 +187,18 @@ namespace Cafe.Matcha.ViewModels
         public abstract bool IsChecked { get; set; }
     }
 
+    public struct L12nRegion
+    {
+        public Constant.Region ID { get; set; }
+        public Models.ItemName Name { get; set; }
+    }
+
+    public struct L12nLanguage
+    {
+        public Language ID { get; set; }
+        public string Name { get; set; }
+    }
+
     public class MainViewModel : BindingTarget
     {
         public MainViewModel()
@@ -197,8 +209,81 @@ namespace Cafe.Matcha.ViewModels
                 {
                     EmitPropertyChanged("DataReport");
                 }
+
+                if (e.PropertyName == "Language")
+                {
+                    var ne = new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset);
+                    Regions.EmitCollectionChanged(ne);
+                    Fates.EmitCollectionChanged(ne);
+                    Templates.EmitCollectionChanged(ne);
+                }
+            };
+
+            Data.Instance.DataLoaded += (sender, e) =>
+            {
+                Templates = new ListBindingTarget<Models.Template>(Data.Instance.Templates);
+                EmitPropertyChanged("World");
+            };
+
+            Network.State.Instance.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == "WorldId")
+                {
+                    EmitPropertyChanged("World");
+                }
             };
         }
+
+        public ListBindingTarget<L12nLanguage> Languages { get; } = new ListBindingTarget<L12nLanguage>
+        {
+            new L12nLanguage
+            {
+                ID = Language.English,
+                Name = "English"
+            },
+            new L12nLanguage
+            {
+                ID = Language.French,
+                Name = "Français"
+            },
+            new L12nLanguage
+            {
+                ID = Language.German,
+                Name = "Deutsche"
+            },
+            new L12nLanguage
+            {
+                ID = Language.Japanese,
+                Name = "日本語"
+            },
+            new L12nLanguage
+            {
+                ID = Language.Chinese,
+                Name = "中文"
+            },
+        };
+
+        public ListBindingTarget<L12nRegion> Regions { get; } = new ListBindingTarget<L12nRegion>
+        {
+            new L12nRegion
+            {
+                ID = Constant.Region.Global,
+                Name = new Models.ItemName
+                {
+                    English = "Global",
+                    Chinese = "国际服"
+                }
+            },
+            new L12nRegion
+            {
+                ID = Constant.Region.China,
+                Name = new Models.ItemName
+                {
+                    English = "China",
+                    Chinese = "国服"
+                }
+            },
+        };
 
         public string DataReport
         {
@@ -215,8 +300,29 @@ namespace Cafe.Matcha.ViewModels
         }
 
         public string Log { get; set; } = "";
+        public string World
+        {
+            get
+            {
+                if (!Data.Instance.IsLoaded)
+                {
+                    return "-";
+                }
+
+                var valid = Data.Instance.Worlds.TryGetValue(Network.State.Instance.WorldId, out var value);
+                if (valid)
+                {
+                    return value.LocalName;
+                }
+                else
+                {
+                    return "-";
+                }
+            }
+        }
+        public ListBindingTarget<Models.Template> Templates { get; set; } = Data.Instance.Templates != null ? new ListBindingTarget<Models.Template>(Data.Instance.Templates) : null;
         public Models.Template SelectedTemplate { get; set; } = null;
-        public ObservableCollection<FateTreeNodeWithChildren> Fates { get; set; } = FateTreeNodeWithChildren.Create(null);
+        public ListBindingTarget<FateTreeNodeWithChildren> Fates { get; set; } = FateTreeNodeWithChildren.Create(null);
         public Models.ConfigWebhook SelectedWebhook { get; set; } = null;
         public bool EnableWebhook
         {

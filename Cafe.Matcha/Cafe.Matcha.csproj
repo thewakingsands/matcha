@@ -50,17 +50,6 @@
   <PropertyGroup>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-Global|AnyCPU'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>..\bin\Release-Global\</OutputPath>
-    <Optimize>true</Optimize>
-    <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <DefineConstants>GLOBAL</DefineConstants>
-  </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Reference Include="Advanced Combat Tracker">
@@ -106,21 +95,19 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyCopyright.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AssemblyCopyright.tt</DependentUpon>
-    </Compile>
+    <Compile Include="AssemblyCopyright.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Constant\ActorControlType.cs" />
     <Compile Include="Constant\EventType.cs" />
     <Compile Include="Constant\FishEventBiteType.cs" />
     <Compile Include="Constant\FishEventType.cs" />
     <Compile Include="Constant\MatchaOpcode.cs" />
+    <Compile Include="Constant\Region.cs" />
     <Compile Include="Constant\RequestType.cs" />
     <Compile Include="Constant\Secret.cs" />
     <Compile Include="Constant\Secret.Local.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Network\State.cs" />
     <Compile Include="Network\Universalis\Structures\UniversalisQueryResponse.cs" />
     <Compile Include="Telemetry\Opcode.cs" />
     <Compile Include="Utils\BindingTarget.cs" />
@@ -228,11 +215,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AssemblyCopyright.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>AssemblyCopyright.cs</LastGenOutput>
-    </Content>
     <Content Include="FodyWeavers.xml" />
+    <Resource Include="GitHub-Mark-32px.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -267,13 +251,14 @@
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>
-    <PreBuildEvent>cd $(ProjectDir)Constant\
+    <PreBuildEvent>$(TargetDir)..\Cafe.Matcha.Packer Assembly
+cd $(ProjectDir)Constant\
 
 if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
 )</PreBuildEvent>
     <PostBuildEvent>del $(TargetPath) /F
-xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
+  xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
 $(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
 </Project>

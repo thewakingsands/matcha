@@ -4,9 +4,10 @@
 namespace Cafe.Matcha.Models
 {
     using System.Collections.Generic;
+    using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 
-    public class Template
+    public class Template : BindingTarget
     {
         public string LocalName
         {
@@ -17,7 +18,7 @@ namespace Cafe.Matcha.Models
         }
 
         [JsonProperty("name")]
-        public ItemName Name;
+        public ItemName Name { get; set; }
 
         [JsonProperty("fate")]
         public List<int> Fates = new List<int>();

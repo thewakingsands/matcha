@@ -30,5 +30,24 @@ namespace Cafe.Matcha
         {
             File.WriteAllText(configPath, JsonConvert.SerializeObject(Instance, Formatting.Indented));
         }
+
+        public static string GetLanguageString()
+        {
+            switch (Instance.Language)
+            {
+                case FFXIV_ACT_Plugin.Common.Language.Chinese:
+                    return "chs";
+                case FFXIV_ACT_Plugin.Common.Language.English:
+                    return "en";
+                case FFXIV_ACT_Plugin.Common.Language.French:
+                    return "fr";
+                case FFXIV_ACT_Plugin.Common.Language.German:
+                    return "de";
+                case FFXIV_ACT_Plugin.Common.Language.Japanese:
+                    return "ja";
+                default:
+                    return "en";
+            }
+        }
     }
 }

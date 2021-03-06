@@ -1,2309 +1,5385 @@
 {
   "128": {
-    "chs": "利姆萨·罗敏萨上层甲板"
+    "chs": "利姆萨·罗敏萨上层甲板",
+    "en": "Limsa Lominsa Upper Decks",
+    "ja": "リムサ・ロミンサ：上甲板層",
+    "de": "Obere Decks",
+    "fr": "Limsa Lominsa - Le Tillac"
   },
   "129": {
-    "chs": "利姆萨·罗敏萨下层甲板"
+    "chs": "利姆萨·罗敏萨下层甲板",
+    "en": "Limsa Lominsa Lower Decks",
+    "ja": "リムサ・ロミンサ：下甲板層",
+    "de": "Untere Decks",
+    "fr": "Limsa Lominsa - L'Entrepont"
   },
   "130": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "131": {
-    "chs": "乌尔达哈来生回廊"
+    "chs": "乌尔达哈来生回廊",
+    "en": "Ul'dah - Steps of Thal",
+    "ja": "ウルダハ：ザル回廊",
+    "de": "Thal-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Thal"
   },
   "132": {
-    "chs": "格里达尼亚新街"
+    "chs": "格里达尼亚新街",
+    "en": "New Gridania",
+    "ja": "グリダニア：新市街",
+    "de": "Neu-Gridania",
+    "fr": "Nouvelle Gridania"
   },
   "133": {
-    "chs": "格里达尼亚旧街"
+    "chs": "格里达尼亚旧街",
+    "en": "Old Gridania",
+    "ja": "グリダニア：旧市街",
+    "de": "Alt-Gridania",
+    "fr": "Vieille Gridania"
   },
   "134": {
-    "chs": "中拉诺西亚"
+    "chs": "中拉诺西亚",
+    "en": "Middle La Noscea",
+    "ja": "中央ラノシア",
+    "de": "Zentrales La Noscea",
+    "fr": "Noscea centrale"
   },
   "135": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "136": {
-    "chs": "海雾村"
+    "chs": "海雾村",
+    "en": "Mist",
+    "ja": "ミスト・ヴィレッジ",
+    "de": "Dorf des Nebels",
+    "fr": "Brumée"
   },
   "137": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "138": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "139": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "140": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "141": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "142": {
-    "chs": "日影地修炼所"
+    "chs": "日影地修炼所",
+    "en": "Halatali",
+    "ja": "ハラタリ修練所",
+    "de": "Halatali",
+    "fr": "Halatali"
   },
   "143": {
-    "chs": "云廊"
+    "chs": "云廊",
+    "en": "Steps of Faith",
+    "ja": "雲廊",
+    "de": "Schicksalsweg",
+    "fr": "Avancée de la Foi"
   },
   "144": {
-    "chs": "金碟游乐场"
+    "chs": "金碟游乐场",
+    "en": "The Gold Saucer",
+    "ja": "ゴールドソーサー",
+    "de": "Gold Saucer",
+    "fr": "Gold Saucer"
   },
   "145": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "146": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "147": {
-    "chs": "北萨纳兰"
+    "chs": "北萨纳兰",
+    "en": "Northern Thanalan",
+    "ja": "北ザナラーン",
+    "de": "Nördliches Thanalan",
+    "fr": "Thanalan septentrional"
   },
   "148": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "149": {
-    "chs": "狼狱演习场"
+    "chs": "狼狱演习场",
+    "en": "The Feasting Grounds",
+    "ja": "ウルヴズジェイル演習場",
+    "de": "Kampfplatz",
+    "fr": "Festin des loups"
   },
   "150": {
-    "chs": "密约之塔"
+    "chs": "密约之塔",
+    "en": "The Keeper of the Lake",
+    "ja": "黙約の塔",
+    "de": "Der Hüter des Sees",
+    "fr": "Gardien du lac"
   },
   "151": {
-    "chs": "暗之世界"
+    "chs": "暗之世界",
+    "en": "The World of Darkness",
+    "ja": "闇の世界",
+    "de": "Welt der Dunkelheit",
+    "fr": "Monde des Ténèbres"
   },
   "152": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "153": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "154": {
-    "chs": "黑衣森林北部林区"
+    "chs": "黑衣森林北部林区",
+    "en": "North Shroud",
+    "ja": "黒衣森：北部森林",
+    "de": "Nordwald",
+    "fr": "Forêt du nord"
   },
   "155": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "156": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "157": {
-    "chs": "沙斯塔夏溶洞"
+    "chs": "沙斯塔夏溶洞",
+    "en": "Sastasha",
+    "ja": "サスタシャ浸食洞",
+    "de": "Sastasha-Höhle",
+    "fr": "Sastasha"
   },
   "158": {
-    "chs": "布雷福洛克斯野营地"
+    "chs": "布雷福洛克斯野营地",
+    "en": "Brayflox's Longstop",
+    "ja": "ブレイフロクスの野営地",
+    "de": "Brüllvolx' Langrast",
+    "fr": "Bivouac de Brayflox"
   },
   "159": {
-    "chs": "放浪神古神殿"
+    "chs": "放浪神古神殿",
+    "en": "The Wanderer's Palace",
+    "ja": "ワンダラーパレス",
+    "de": "Palast des Wanderers",
+    "fr": "Palais du Vagabond"
   },
   "160": {
-    "chs": "天狼星灯塔"
+    "chs": "天狼星灯塔",
+    "en": "Pharos Sirius",
+    "ja": "シリウス大灯台",
+    "de": "Pharos Sirius",
+    "fr": "Phare de Sirius"
   },
   "161": {
-    "chs": "铜铃铜山"
+    "chs": "铜铃铜山",
+    "en": "Copperbell Mines",
+    "ja": "カッパーベル銅山",
+    "de": "Kupferglocken-Mine",
+    "fr": "Mines de Clochecuivre"
   },
   "162": {
-    "chs": "日影地修炼所"
+    "chs": "日影地修炼所",
+    "en": "Halatali",
+    "ja": "ハラタリ修練所",
+    "de": "Halatali",
+    "fr": "Halatali"
   },
   "163": {
-    "chs": "喀恩埋没圣堂"
+    "chs": "喀恩埋没圣堂",
+    "en": "The Sunken Temple of Qarn",
+    "ja": "カルン埋没寺院",
+    "de": "Versunkener Tempel von Qarn",
+    "fr": "Temple enseveli de Qarn"
   },
   "164": {
-    "chs": "塔姆·塔拉墓园"
+    "chs": "塔姆·塔拉墓园",
+    "en": "The Tam-Tara Deepcroft",
+    "ja": "タムタラの墓所",
+    "de": "Totenacker Tam-Tara",
+    "fr": "Hypogée de Tam-Tara"
   },
   "166": {
-    "chs": "静语庄园"
+    "chs": "静语庄园",
+    "en": "Haukke Manor",
+    "ja": "ハウケタ御用邸",
+    "de": "Haukke-Herrenhaus",
+    "fr": "Manoir des Haukke"
   },
   "167": {
-    "chs": "无限城古堡"
+    "chs": "无限城古堡",
+    "en": "Amdapor Keep",
+    "ja": "古城アムダプール",
+    "de": "Ruinen von Amdapor",
+    "fr": "Château d'Amdapor"
   },
   "168": {
-    "chs": "石卫塔"
+    "chs": "石卫塔",
+    "en": "Stone Vigil",
+    "ja": "ストーンヴィジル",
+    "de": "Steinerne Wacht",
+    "fr": "Vigile de Pierre"
   },
   "169": {
-    "chs": "托托·拉克千狱"
+    "chs": "托托·拉克千狱",
+    "en": "The Thousand Maws of Toto-Rak",
+    "ja": "トトラクの千獄",
+    "de": "Tausend Löcher von Toto-Rak",
+    "fr": "Mille Gueules de Toto-Rak"
   },
   "170": {
-    "chs": "樵鸣洞"
+    "chs": "樵鸣洞",
+    "en": "Cutter's Cry",
+    "ja": "カッターズクライ",
+    "de": "Sägerschrei",
+    "fr": "Gouffre hurlant"
   },
   "171": {
-    "chs": "泽梅尔要塞"
+    "chs": "泽梅尔要塞",
+    "en": "Dzemael Darkhold",
+    "ja": "ゼーメル要塞",
+    "de": "Feste Dzemael",
+    "fr": "Forteresse de Dzemael"
   },
   "172": {
-    "chs": "黄金谷"
+    "chs": "黄金谷",
+    "en": "Aurum Vale",
+    "ja": "オーラムヴェイル",
+    "de": "Goldklamm",
+    "fr": "Val d'Aurum"
   },
   "174": {
-    "chs": "古代人迷宫"
+    "chs": "古代人迷宫",
+    "en": "Labyrinth of the Ancients",
+    "ja": "古代の民の迷宮",
+    "de": "Labyrinth der Alten",
+    "fr": "Dédale antique"
   },
   "176": {
-    "chs": "陌迪翁牢狱"
+    "chs": "陌迪翁牢狱",
+    "en": "Mordion Gaol",
+    "ja": "モルディオン監獄",
+    "de": "Mordion-Kerker",
+    "fr": "Geôle de Mordion"
   },
   "177": {
-    "chs": "后桅旅店"
+    "chs": "后桅旅店",
+    "en": "Mizzenmast Inn",
+    "ja": "宿屋「ミズンマスト」",
+    "de": "Gasthaus Gaffelschoner",
+    "fr": "Auberge de L'Artimon"
   },
   "178": {
-    "chs": "沙钟旅亭"
+    "chs": "沙钟旅亭",
+    "en": "The Hourglass",
+    "ja": "宿屋「砂時計亭」",
+    "de": "Die Sanduhr",
+    "fr": "Le Sablier"
   },
   "179": {
-    "chs": "栖木旅馆"
+    "chs": "栖木旅馆",
+    "en": "The Roost",
+    "ja": "旅館「とまり木」",
+    "de": "Der Traumbaum",
+    "fr": "Le Perchoir"
   },
   "180": {
-    "chs": "拉诺西亚外地"
+    "chs": "拉诺西亚外地",
+    "en": "Outer La Noscea",
+    "ja": "外地ラノシア",
+    "de": "Äußeres La Noscea",
+    "fr": "Noscea extérieure"
   },
   "181": {
-    "chs": "利姆萨·罗敏萨"
+    "chs": "利姆萨·罗敏萨",
+    "en": "Limsa Lominsa",
+    "ja": "リムサ・ロミンサ",
+    "de": "Limsa Lominsa",
+    "fr": "Limsa Lominsa"
   },
   "182": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "183": {
-    "chs": "格里达尼亚新街"
+    "chs": "格里达尼亚新街",
+    "en": "New Gridania",
+    "ja": "グリダニア：新市街",
+    "de": "Neu-Gridania",
+    "fr": "Nouvelle Gridania"
   },
   "188": {
-    "chs": "放浪神古神殿"
+    "chs": "放浪神古神殿",
+    "en": "The Wanderer's Palace",
+    "ja": "ワンダラーパレス",
+    "de": "Palast des Wanderers",
+    "fr": "Palais du Vagabond"
   },
   "189": {
-    "chs": "无限城古堡"
+    "chs": "无限城古堡",
+    "en": "Amdapor Keep",
+    "ja": "古城アムダプール",
+    "de": "Ruinen von Amdapor",
+    "fr": "Château d'Amdapor"
   },
   "190": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "191": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "192": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "193": {
-    "chs": "诸神黄昏级六号舰舰体中央"
+    "chs": "诸神黄昏级六号舰舰体中央",
+    "en": "IC-06 Central Decks",
+    "ja": "ラグナロク級六番艦：艦体中央部",
+    "de": "Zentrale Decks RVH-06",
+    "fr": "Secteur central RCI-06"
   },
   "194": {
-    "chs": "诸神黄昏级六号舰再生控制区"
+    "chs": "诸神黄昏级六号舰再生控制区",
+    "en": "IC-06 Regeneration Grid",
+    "ja": "ラグナロク級六番艦：再生制御区",
+    "de": "Regenerationssektor RVH-06",
+    "fr": "Réseau de régénération RCI-06"
   },
   "195": {
-    "chs": "诸神黄昏级六号舰第一舰桥"
+    "chs": "诸神黄昏级六号舰第一舰桥",
+    "en": "IC-06 Main Bridge",
+    "ja": "ラグナロク級六番艦：第一艦橋",
+    "de": "Kommandobrücke RVH-06",
+    "fr": "Pont principal RCI-06"
   },
   "196": {
-    "chs": "龙炎核心"
+    "chs": "龙炎核心",
+    "en": "The Burning Heart",
+    "ja": "バハムートコア",
+    "de": "Bahamuts Herz",
+    "fr": "Cœur de Bahamut"
   },
   "198": {
-    "chs": "提督室"
+    "chs": "提督室",
+    "en": "Command Room",
+    "ja": "アドミラルブリッジ：提督室",
+    "de": "Admiralsbrücke",
+    "fr": "Salon de l'Amiral"
   },
   "202": {
-    "chs": "炎帝陵"
+    "chs": "炎帝陵",
+    "en": "Bowl of Embers",
+    "ja": "炎帝祭跡",
+    "de": "Das Grab der Lohe",
+    "fr": "Cratère des tisons"
   },
   "204": {
-    "chs": "神勇队司令室"
+    "chs": "神勇队司令室",
+    "en": "Seat of the First Bow",
+    "ja": "神勇隊司令室",
+    "de": "Kommandozimmer von Nophicas Schar ",
+    "fr": "Salle de commandement du Carquois"
   },
   "205": {
-    "chs": "芙蓉圆桌"
+    "chs": "芙蓉圆桌",
+    "en": "Lotus Stand",
+    "ja": "不語仙の座卓",
+    "de": "Wasserrosentisch",
+    "fr": "Chaire du Lotus"
   },
   "206": {
-    "chs": "奥·哥摩罗火口神殿"
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
   },
   "207": {
-    "chs": "荆棘之园"
+    "chs": "荆棘之园",
+    "en": "Thornmarch",
+    "ja": "茨の園",
+    "de": "Dornmarsch",
+    "fr": "Lisière de ronces"
   },
   "208": {
-    "chs": "呼啸眼石塔群"
+    "chs": "呼啸眼石塔群",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ石塔群",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil"
   },
   "210": {
-    "chs": "银胄团总长室"
+    "chs": "银胄团总长室",
+    "en": "Heart of the Sworn",
+    "ja": "銀冑団総長室",
+    "de": "Hauptquartier der Palastwache",
+    "fr": "Hall d'argent"
   },
   "212": {
-    "chs": "沙之家"
+    "chs": "沙之家",
+    "en": "The Waking Sands",
+    "ja": "砂の家",
+    "de": "Sonnenwind",
+    "fr": "Refuge des sables"
   },
   "214": {
-    "chs": "中拉诺西亚"
+    "chs": "中拉诺西亚",
+    "en": "Middle La Noscea",
+    "ja": "中央ラノシア",
+    "de": "Zentrales La Noscea",
+    "fr": "Noscea centrale"
   },
   "215": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "216": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "217": {
-    "chs": "帝国南方堡"
+    "chs": "帝国南方堡",
+    "en": "Castrum Meridianum",
+    "ja": "カストルム・メリディアヌム",
+    "de": "Castrum Meridianum",
+    "fr": "Castrum Meridianum"
   },
   "219": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "220": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "221": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "222": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "223": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "224": {
-    "chs": "天幕魔导城"
+    "chs": "天幕魔导城",
+    "en": "The Praetorium",
+    "ja": "魔導城プラエトリウム",
+    "de": "Praetorium",
+    "fr": "Praetorium"
   },
   "225": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "226": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "227": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "228": {
-    "chs": "黑衣森林北部林区"
+    "chs": "黑衣森林北部林区",
+    "en": "North Shroud",
+    "ja": "黒衣森：北部森林",
+    "de": "Nordwald",
+    "fr": "Forêt du nord"
   },
   "229": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "230": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "231": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "232": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "233": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "234": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "235": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "236": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "237": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "238": {
-    "chs": "格里达尼亚旧街"
+    "chs": "格里达尼亚旧街",
+    "en": "Old Gridania",
+    "ja": "グリダニア：旧市街",
+    "de": "Alt-Gridania",
+    "fr": "Vieille Gridania"
   },
   "239": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "240": {
-    "chs": "黑衣森林北部林区"
+    "chs": "黑衣森林北部林区",
+    "en": "North Shroud",
+    "ja": "黒衣森：北部森林",
+    "de": "Nordwald",
+    "fr": "Forêt du nord"
   },
   "241": {
-    "chs": "陨石勘查坑表层"
+    "chs": "陨石勘查坑表层",
+    "en": "Upper Aetheroacoustic Exploratory Site",
+    "ja": "メテオ探査坑浅部",
+    "de": "Obere ätheroakustische Grabung",
+    "fr": "Site impérial d'exploration supérieur"
   },
   "242": {
-    "chs": "陨石勘查坑深层"
+    "chs": "陨石勘查坑深层",
+    "en": "Lower Aetheroacoustic Exploratory Site",
+    "ja": "メテオ探査坑深部",
+    "de": "Untere ätheroakustische Grabung",
+    "fr": "Site impérial d'exploration inférieur"
   },
   "243": {
-    "chs": "诸神黄昏级拘束舰"
+    "chs": "诸神黄昏级拘束舰",
+    "en": "The Ragnarok",
+    "ja": "ラグナロク級拘束艦",
+    "de": "Die Ragnarök",
+    "fr": "Le Ragnarok"
   },
   "244": {
-    "chs": "隔离壁"
+    "chs": "隔离壁",
+    "en": "Ragnarok Drive Cylinder",
+    "ja": "稼働隔壁",
+    "de": "Antriebszylinder der Ragnarök",
+    "fr": "Cylindre propulseur du Ragnarok"
   },
   "245": {
-    "chs": "中枢区"
+    "chs": "中枢区",
+    "en": "Ragnarok Central Core",
+    "ja": "中枢区画",
+    "de": "Kernsektor der Ragnarök",
+    "fr": "Noyau central du Ragnarok"
   },
   "246": {
-    "chs": "诸神黄昏级四号舰第一舰桥"
+    "chs": "诸神黄昏级四号舰第一舰桥",
+    "en": "IC-04 Main Bridge",
+    "ja": "ラグナロク級四番艦：第一艦橋",
+    "de": "Kommandobrücke RVH-04",
+    "fr": "Pont principal RCI-04"
   },
   "247": {
-    "chs": "第一舰桥"
+    "chs": "第一舰桥",
+    "en": "Ragnarok Main Bridge",
+    "ja": "第一艦橋",
+    "de": "Kommandobrücke der Ragnarök",
+    "fr": "Pont principal du Ragnarok"
   },
   "248": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "249": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "250": {
-    "chs": "狼狱停船场"
+    "chs": "狼狱停船场",
+    "en": "Wolves' Den Pier",
+    "ja": "ウルヴズジェイル係船場",
+    "de": "Wolfshöhlen-Pier",
+    "fr": "Jetée de l'Antre des loups"
   },
   "251": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "252": {
-    "chs": "中拉诺西亚"
+    "chs": "中拉诺西亚",
+    "en": "Middle La Noscea",
+    "ja": "中央ラノシア",
+    "de": "Zentrales La Noscea",
+    "fr": "Noscea centrale"
   },
   "253": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "254": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "255": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "256": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "257": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "258": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "259": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "260": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "261": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "262": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "263": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "264": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "265": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "266": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "267": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "268": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "269": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "270": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "271": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "272": {
-    "chs": "中拉诺西亚"
+    "chs": "中拉诺西亚",
+    "en": "Middle La Noscea",
+    "ja": "中央ラノシア",
+    "de": "Zentrales La Noscea",
+    "fr": "Noscea centrale"
   },
   "273": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "274": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "275": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "276": {
-    "chs": "次元缝隙迎宾室"
+    "chs": "次元缝隙迎宾室",
+    "en": "Hall of Summoning",
+    "ja": "次元の狭間：迎賓室",
+    "de": "Halle der Beschwörung",
+    "fr": "Salle des convocations"
   },
   "277": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "278": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "279": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "280": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "281": {
-    "chs": "对利维亚桑双体船"
+    "chs": "对利维亚桑双体船",
+    "en": "The Whorleater",
+    "ja": "対リヴァイアサン双胴船",
+    "de": "Der Wogenbrecher",
+    "fr": "Briseur de marées"
   },
   "282": {
-    "chs": "海雾村私人小屋"
+    "chs": "海雾村私人小屋",
+    "en": "Private Cottage - Mist",
+    "ja": "ミスト・ヴィレッジ：コテージ",
+    "de": "Privathütte (Dorf des Nebels)",
+    "fr": "Maisonnette - Brumée"
   },
   "283": {
-    "chs": "海雾村私人公馆"
+    "chs": "海雾村私人公馆",
+    "en": "Private House - Mist",
+    "ja": "ミスト・ヴィレッジ：ハウス",
+    "de": "Privathaus (Dorf des Nebels)",
+    "fr": "Pavillon - Brumée"
   },
   "284": {
-    "chs": "海雾村私人别墅"
+    "chs": "海雾村私人别墅",
+    "en": "Private Mansion - Mist",
+    "ja": "ミスト・ヴィレッジ：レジデンス",
+    "de": "Privatresidenz (Dorf des Nebels)",
+    "fr": "Villa - Brumée"
   },
   "285": {
-    "chs": "中拉诺西亚"
+    "chs": "中拉诺西亚",
+    "en": "Middle La Noscea",
+    "ja": "中央ラノシア",
+    "de": "Zentrales La Noscea",
+    "fr": "Noscea centrale"
   },
   "286": {
-    "chs": "罗塔诺海"
+    "chs": "罗塔诺海",
+    "en": "Rhotano Sea",
+    "ja": "ロータノ海",
+    "de": "Rhotano-See",
+    "fr": "Mer de Rhotano"
   },
   "287": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "288": {
-    "chs": "罗塔诺海"
+    "chs": "罗塔诺海",
+    "en": "Rhotano Sea",
+    "ja": "ロータノ海",
+    "de": "Rhotano-See",
+    "fr": "Mer de Rhotano"
   },
   "289": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "290": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "291": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "292": {
-    "chs": "炎帝陵"
+    "chs": "炎帝陵",
+    "en": "Bowl of Embers",
+    "ja": "炎帝祭跡",
+    "de": "Das Grab der Lohe",
+    "fr": "Cratère des tisons"
   },
   "293": {
-    "chs": "奥·哥摩罗火口神殿"
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
   },
   "294": {
-    "chs": "呼啸眼石塔群"
+    "chs": "呼啸眼石塔群",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ石塔群",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil"
   },
   "295": {
-    "chs": "炎帝陵"
+    "chs": "炎帝陵",
+    "en": "Bowl of Embers",
+    "ja": "炎帝祭跡",
+    "de": "Das Grab der Lohe",
+    "fr": "Cratère des tisons"
   },
   "296": {
-    "chs": "奥·哥摩罗火口神殿"
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
   },
   "297": {
-    "chs": "呼啸眼石塔群"
+    "chs": "呼啸眼石塔群",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ石塔群",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil"
   },
   "298": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "299": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "300": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "301": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "302": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "303": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "304": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "305": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "306": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "307": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "308": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "309": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "310": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "311": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "312": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "313": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "314": {
-    "chs": "中萨纳兰"
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
   },
   "315": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "316": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "317": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "318": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "319": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "320": {
-    "chs": "黑衣森林中央林区"
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
   },
   "321": {
-    "chs": "黑衣森林北部林区"
+    "chs": "黑衣森林北部林区",
+    "en": "North Shroud",
+    "ja": "黒衣森：北部森林",
+    "de": "Nordwald",
+    "fr": "Forêt du nord"
   },
   "322": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "323": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "324": {
-    "chs": "黑衣森林北部林区"
+    "chs": "黑衣森林北部林区",
+    "en": "North Shroud",
+    "ja": "黒衣森：北部森林",
+    "de": "Nordwald",
+    "fr": "Forêt du nord"
   },
   "325": {
-    "chs": "拉诺西亚外地"
+    "chs": "拉诺西亚外地",
+    "en": "Outer La Noscea",
+    "ja": "外地ラノシア",
+    "de": "Äußeres La Noscea",
+    "fr": "Noscea extérieure"
   },
   "326": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "327": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "328": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "329": {
-    "chs": "放浪神古神殿"
+    "chs": "放浪神古神殿",
+    "en": "The Wanderer's Palace",
+    "ja": "ワンダラーパレス",
+    "de": "Palast des Wanderers",
+    "fr": "Palais du Vagabond"
   },
   "330": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "331": {
-    "chs": "呼啸眼外围"
+    "chs": "呼啸眼外围",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ外縁",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil (abord)"
   },
   "332": {
-    "chs": "西萨纳兰"
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
   },
   "335": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "338": {
-    "chs": "艾欧泽亚地下空间"
+    "chs": "艾欧泽亚地下空间",
+    "en": "Eorzean Subterrane",
+    "ja": "エオルゼア地下空間",
+    "de": "Tiefstes Inneres",
+    "fr": "Sous-sol éorzéen"
   },
   "339": {
-    "chs": "海雾村"
+    "chs": "海雾村",
+    "en": "Mist",
+    "ja": "ミスト・ヴィレッジ",
+    "de": "Dorf des Nebels",
+    "fr": "Brumée"
   },
   "340": {
-    "chs": "薰衣草苗圃"
+    "chs": "薰衣草苗圃",
+    "en": "The Lavender Beds",
+    "ja": "ラベンダーベッド",
+    "de": "Lavendelbeete",
+    "fr": "Lavandière"
   },
   "341": {
-    "chs": "高脚孤丘"
+    "chs": "高脚孤丘",
+    "en": "The Goblet",
+    "ja": "ゴブレットビュート",
+    "de": "Kelchkuppe",
+    "fr": "La Coupe"
   },
   "342": {
-    "chs": "薰衣草苗圃私人小屋"
+    "chs": "薰衣草苗圃私人小屋",
+    "en": "Private Cottage - The Lavender Beds",
+    "ja": "ラベンダーベッド：コテージ",
+    "de": "Privathütte (Lavendelbeete)",
+    "fr": "Maisonnette - Lavandière"
   },
   "343": {
-    "chs": "薰衣草苗圃私人公馆"
+    "chs": "薰衣草苗圃私人公馆",
+    "en": "Private House - The Lavender Beds",
+    "ja": "ラベンダーベッド：ハウス",
+    "de": "Privathaus (Lavendelbeete)",
+    "fr": "Pavillon - Lavandière"
   },
   "344": {
-    "chs": "薰衣草苗圃私人别墅"
+    "chs": "薰衣草苗圃私人别墅",
+    "en": "Private Mansion - The Lavender Beds",
+    "ja": "ラベンダーベッド：レジデンス",
+    "de": "Privatresidenz (Lavendelbeete)",
+    "fr": "Villa - Lavandière"
   },
   "345": {
-    "chs": "高脚孤丘私人小屋"
+    "chs": "高脚孤丘私人小屋",
+    "en": "Private Cottage - The Goblet",
+    "ja": "ゴブレットビュート：コテージ",
+    "de": "Privathütte (Kelchkuppe)",
+    "fr": "Maisonnette - La Coupe"
   },
   "346": {
-    "chs": "高脚孤丘私人公馆"
+    "chs": "高脚孤丘私人公馆",
+    "en": "Private House - The Goblet",
+    "ja": "ゴブレットビュート：ハウス",
+    "de": "Privathaus (Kelchkuppe)",
+    "fr": "Pavillon - La Coupe"
   },
   "347": {
-    "chs": "高脚孤丘私人别墅"
+    "chs": "高脚孤丘私人别墅",
+    "en": "Private Mansion - The Goblet",
+    "ja": "ゴブレットビュート：レジデンス",
+    "de": "Privatresidenz (Kelchkuppe)",
+    "fr": "Villa - La Coupe"
   },
   "348": {
-    "chs": "后营门"
+    "chs": "后营门",
+    "en": "Porta Decumana",
+    "ja": "ポルタ・デクマーナ",
+    "de": "Porta Decumana",
+    "fr": "Porta decumana"
   },
   "349": {
-    "chs": "铜铃铜山"
+    "chs": "铜铃铜山",
+    "en": "Copperbell Mines",
+    "ja": "カッパーベル銅山",
+    "de": "Kupferglocken-Mine",
+    "fr": "Mines de Clochecuivre"
   },
   "350": {
-    "chs": "静语庄园"
+    "chs": "静语庄园",
+    "en": "Haukke Manor",
+    "ja": "ハウケタ御用邸",
+    "de": "Haukke-Herrenhaus",
+    "fr": "Manoir des Haukke"
   },
   "351": {
-    "chs": "石之家"
+    "chs": "石之家",
+    "en": "The Rising Stones",
+    "ja": "石の家",
+    "de": "Sonnenstein",
+    "fr": "Refuge des roches"
   },
   "353": {
-    "chs": "黄金大桥"
+    "chs": "黄金大桥",
+    "en": "Kugane Ohashi",
+    "ja": "クガネ大橋",
+    "de": "Kugane-Brücke",
+    "fr": "Pont Ohashi"
   },
   "354": {
-    "chs": "妖灵王舞场"
+    "chs": "妖灵王舞场",
+    "en": "The Dancing Plague",
+    "ja": "妖精王の舞踏場",
+    "de": "Königlicher Tanzgarten",
+    "fr": "Salle de bal de Titania"
   },
   "355": {
-    "chs": "陨石背阴地"
+    "chs": "陨石背阴地",
+    "en": "Dalamud's Shadow",
+    "ja": "メテオの陰地",
+    "de": "Meteoritenkrater",
+    "fr": "Ombrage du Météore"
   },
   "356": {
-    "chs": "拘束舰外围"
+    "chs": "拘束舰外围",
+    "en": "The Outer Coil",
+    "ja": "バインディングコイル",
+    "de": "Äußere Schächte",
+    "fr": "L'Écheveau"
   },
   "357": {
-    "chs": "诸神黄昏级三号舰舰体中央"
+    "chs": "诸神黄昏级三号舰舰体中央",
+    "en": "Central Decks",
+    "ja": "ラグナロク級三番艦：艦体中央部",
+    "de": "Zentrale Decks",
+    "fr": "Secteur central RCI-03"
   },
   "358": {
-    "chs": "诸神黄昏级三号舰作战室"
+    "chs": "诸神黄昏级三号舰作战室",
+    "en": "The Holocharts",
+    "ja": "ラグナロク級三番艦：作戦室",
+    "de": "Holosphäre",
+    "fr": "Salle de contrôle RCI-03"
   },
   "359": {
-    "chs": "对利维亚桑双体船"
+    "chs": "对利维亚桑双体船",
+    "en": "The Whorleater",
+    "ja": "対リヴァイアサン双胴船",
+    "de": "Der Wogenbrecher",
+    "fr": "Briseur de marées"
   },
   "360": {
-    "chs": "日影地修炼所"
+    "chs": "日影地修炼所",
+    "en": "Halatali",
+    "ja": "ハラタリ修練所",
+    "de": "Halatali",
+    "fr": "Halatali"
   },
   "361": {
-    "chs": "破舰岛"
+    "chs": "破舰岛",
+    "en": "Hullbreaker Isle",
+    "ja": "ハルブレーカー・アイル",
+    "de": "Schiffbrecher-Insel",
+    "fr": "Île de Crèvecarène"
   },
   "362": {
-    "chs": "布雷福洛克斯野营地"
+    "chs": "布雷福洛克斯野营地",
+    "en": "Brayflox's Longstop",
+    "ja": "ブレイフロクスの野営地",
+    "de": "Brüllvolx' Langrast",
+    "fr": "Bivouac de Brayflox"
   },
   "363": {
-    "chs": "无限城市街古迹"
+    "chs": "无限城市街古迹",
+    "en": "The Lost City of Amdapor",
+    "ja": "古アムダプール市街",
+    "de": "Historisches Amdapor",
+    "fr": "Vestiges de la cité d'Amdapor"
   },
   "364": {
-    "chs": "荆棘之园"
+    "chs": "荆棘之园",
+    "en": "Thornmarch",
+    "ja": "茨の園",
+    "de": "Dornmarsch",
+    "fr": "Lisière de ronces"
   },
   "365": {
-    "chs": "石卫塔"
+    "chs": "石卫塔",
+    "en": "Stone Vigil",
+    "ja": "ストーンヴィジル",
+    "de": "Steinerne Wacht",
+    "fr": "Vigile de Pierre"
   },
   "366": {
-    "chs": "狮鹫大桥"
+    "chs": "狮鹫大桥",
+    "en": "Griffin Crossing",
+    "ja": "グリフィン大橋",
+    "de": "Greifenbrücke",
+    "fr": "Traversée du Griffon"
   },
   "367": {
-    "chs": "喀恩埋没圣堂"
+    "chs": "喀恩埋没圣堂",
+    "en": "The Sunken Temple of Qarn",
+    "ja": "カルン埋没寺院",
+    "de": "Versunkener Tempel von Qarn",
+    "fr": "Temple enseveli de Qarn"
   },
   "368": {
-    "chs": "圣人泪"
+    "chs": "圣人泪",
+    "en": "The Weeping Saint",
+    "ja": "聖ダナフェンの落涙",
+    "de": "Der Trauernde Heilige ",
+    "fr": "Le Saint affligé"
   },
   "369": {
-    "chs": "兽斗间"
+    "chs": "兽斗间",
+    "en": "Hall of the Bestiarii",
+    "ja": "獣闘の間",
+    "de": "Halle der Bestie",
+    "fr": "Hall des Bestiarii"
   },
   "370": {
-    "chs": "诸神黄昏级三号舰第一舰桥"
+    "chs": "诸神黄昏级三号舰第一舰桥",
+    "en": "Main Bridge",
+    "ja": "ラグナロク級三番艦：第一艦橋",
+    "de": "Kommandobrücke RVH-03",
+    "fr": "Premier pont RCI-03"
   },
   "371": {
-    "chs": "披雪大冰壁"
+    "chs": "披雪大冰壁",
+    "en": "Snowcloak",
+    "ja": "スノークローク大氷壁",
+    "de": "Schneekleid",
+    "fr": "Manteneige"
   },
   "372": {
-    "chs": "希尔科斯塔"
+    "chs": "希尔科斯塔",
+    "en": "Syrcus Tower",
+    "ja": "シルクスの塔",
+    "de": "Syrcus-Turm",
+    "fr": "Tour de Syrcus"
   },
   "373": {
-    "chs": "塔姆·塔拉墓园"
+    "chs": "塔姆·塔拉墓园",
+    "en": "The Tam-Tara Deepcroft",
+    "ja": "タムタラの墓所",
+    "de": "Totenacker Tam-Tara",
+    "fr": "Hypogée de Tam-Tara"
   },
   "374": {
-    "chs": "神判古树"
+    "chs": "神判古树",
+    "en": "The Striking Tree",
+    "ja": "古木の神判地",
+    "de": "Baum des Urteils",
+    "fr": "Arbre du jugement"
   },
   "375": {
-    "chs": "神判古树"
+    "chs": "神判古树",
+    "en": "The Striking Tree",
+    "ja": "古木の神判地",
+    "de": "Baum des Urteils",
+    "fr": "Arbre du jugement"
   },
   "376": {
-    "chs": "加尔提诺平原周边遗迹群"
+    "chs": "加尔提诺平原周边遗迹群",
+    "en": "Carteneau Flats: Borderland Ruins",
+    "ja": "カルテノー平原：外縁遺跡群",
+    "de": "Äußere Ruinen",
+    "fr": "Ruines frontalières"
   },
   "377": {
-    "chs": "无尽轮回剧场"
+    "chs": "无尽轮回剧场",
+    "en": "Akh Afah Amphitheatre",
+    "ja": "アク・アファー円形劇場",
+    "de": "Akh Afah",
+    "fr": "Amphithéâtre d'Akh Afah"
   },
   "378": {
-    "chs": "无尽轮回剧场"
+    "chs": "无尽轮回剧场",
+    "en": "Akh Afah Amphitheatre",
+    "ja": "アク・アファー円形劇場",
+    "de": "Akh Afah",
+    "fr": "Amphithéâtre d'Akh Afah"
   },
   "379": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "380": {
-    "chs": "陨石背阴地"
+    "chs": "陨石背阴地",
+    "en": "Dalamud's Shadow",
+    "ja": "メテオの陰地",
+    "de": "Meteoritenkrater",
+    "fr": "Ombrage du Météore"
   },
   "381": {
-    "chs": "拘束舰外围"
+    "chs": "拘束舰外围",
+    "en": "The Outer Coil",
+    "ja": "バインディングコイル",
+    "de": "Äußere Schächte",
+    "fr": "L'Écheveau"
   },
   "382": {
-    "chs": "诸神黄昏级三号舰舰体中央"
+    "chs": "诸神黄昏级三号舰舰体中央",
+    "en": "Central Decks",
+    "ja": "ラグナロク級三番艦：艦体中央部",
+    "de": "Zentrale Decks",
+    "fr": "Secteur central RCI-03"
   },
   "383": {
-    "chs": "诸神黄昏级三号舰作战室"
+    "chs": "诸神黄昏级三号舰作战室",
+    "en": "The Holocharts",
+    "ja": "ラグナロク級三番艦：作戦室",
+    "de": "Holosphäre",
+    "fr": "Salle de contrôle RCI-03"
   },
   "384": {
-    "chs": "海雾村个人房间"
+    "chs": "海雾村个人房间",
+    "en": "Private Chambers - Mist",
+    "ja": "ミスト・ヴィレッジ：プライベートルーム",
+    "de": "Nebeldorf - Zimmer",
+    "fr": "Chambre individuelle - Brumée"
   },
   "385": {
-    "chs": "薰衣草苗圃个人房间"
+    "chs": "薰衣草苗圃个人房间",
+    "en": "Private Chambers - The Lavender Beds",
+    "ja": "ラベンダーベッド：プライベートルーム",
+    "de": "Lavendelbeete - Zimmer",
+    "fr": "Chambre individuelle - Lavandière"
   },
   "386": {
-    "chs": "高脚孤丘个人房间"
+    "chs": "高脚孤丘个人房间",
+    "en": "Private Chambers - The Goblet",
+    "ja": "ゴブレットビュート：プライベートルーム",
+    "de": "Kelchkuppe - Zimmer",
+    "fr": "Chambre individuelle - La Coupe"
   },
   "387": {
-    "chs": "沙斯塔夏溶洞"
+    "chs": "沙斯塔夏溶洞",
+    "en": "Sastasha",
+    "ja": "サスタシャ浸食洞",
+    "de": "Sastasha-Höhle",
+    "fr": "Sastasha"
   },
   "388": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "389": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "390": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "391": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "392": {
-    "chs": "十二神大圣堂"
+    "chs": "十二神大圣堂",
+    "en": "Sanctum of the Twelve",
+    "ja": "十二神大聖堂",
+    "de": "Dom der Einkehr",
+    "fr": "Sanctuaire des Douze"
   },
   "393": {
-    "chs": "十二神大圣堂"
+    "chs": "十二神大圣堂",
+    "en": "Sanctum of the Twelve",
+    "ja": "十二神大聖堂",
+    "de": "Dom der Einkehr",
+    "fr": "Sanctuaire des Douze"
   },
   "394": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "395": {
-    "chs": "接待室"
+    "chs": "接待室",
+    "en": "Intercessory",
+    "ja": "応接室",
+    "de": "Empfangszimmer",
+    "fr": "Salle de réception"
   },
   "396": {
-    "chs": "无限城古堡"
+    "chs": "无限城古堡",
+    "en": "Amdapor Keep",
+    "ja": "古城アムダプール",
+    "de": "Ruinen von Amdapor",
+    "fr": "Château d'Amdapor"
   },
   "397": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "398": {
-    "chs": "龙堡参天高地"
+    "chs": "龙堡参天高地",
+    "en": "The Dravanian Forelands",
+    "ja": "高地ドラヴァニア",
+    "de": "Dravanisches Vorland",
+    "fr": "Avant-pays dravanien"
   },
   "399": {
-    "chs": "龙堡内陆低地"
+    "chs": "龙堡内陆低地",
+    "en": "The Dravanian Hinterlands",
+    "ja": "低地ドラヴァニア",
+    "de": "Dravanisches Hinterland",
+    "fr": "Arrière-pays dravanien"
   },
   "400": {
-    "chs": "翻云雾海"
+    "chs": "翻云雾海",
+    "en": "The Churning Mists",
+    "ja": "ドラヴァニア雲海",
+    "de": "Wallende Nebel",
+    "fr": "L'Écume des cieux de Dravania"
   },
   "401": {
-    "chs": "阿巴拉提亚云海"
+    "chs": "阿巴拉提亚云海",
+    "en": "The Sea of Clouds",
+    "ja": "アバラシア雲海",
+    "de": "Abalathisches Wolkenmeer",
+    "fr": "L'Écume des cieux d'Abalathia"
   },
   "402": {
-    "chs": "魔大陆阿济兹拉"
+    "chs": "魔大陆阿济兹拉",
+    "en": "Azys Lla",
+    "ja": "アジス・ラー",
+    "de": "Azys Lla",
+    "fr": "Azys Lla"
   },
   "403": {
-    "chs": "阿拉米格"
+    "chs": "阿拉米格",
+    "en": "Ala Mhigo",
+    "ja": "アラミゴ",
+    "de": "Ala Mhigo",
+    "fr": "Ala Mhigo"
   },
   "404": {
-    "chs": "利姆萨·罗敏萨下层甲板"
+    "chs": "利姆萨·罗敏萨下层甲板",
+    "en": "Limsa Lominsa Lower Decks",
+    "ja": "リムサ・ロミンサ：下甲板層",
+    "de": "Untere Decks",
+    "fr": "Limsa Lominsa - L'Entrepont"
   },
   "405": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "406": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "407": {
-    "chs": "罗塔诺海"
+    "chs": "罗塔诺海",
+    "en": "Rhotano Sea",
+    "ja": "ロータノ海",
+    "de": "Rhotano-See",
+    "fr": "Mer de Rhotano"
   },
   "408": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "409": {
-    "chs": "利姆萨·罗敏萨上层甲板"
+    "chs": "利姆萨·罗敏萨上层甲板",
+    "en": "Limsa Lominsa Upper Decks",
+    "ja": "リムサ・ロミンサ：上甲板層",
+    "de": "Obere Decks",
+    "fr": "Limsa Lominsa - Le Tillac"
   },
   "410": {
-    "chs": "北萨纳兰"
+    "chs": "北萨纳兰",
+    "en": "Northern Thanalan",
+    "ja": "北ザナラーン",
+    "de": "Nördliches Thanalan",
+    "fr": "Thanalan septentrional"
   },
   "411": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "412": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "413": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "414": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "415": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "416": {
-    "chs": "迦巴勒幻想图书馆"
+    "chs": "迦巴勒幻想图书馆",
+    "en": "The Great Gubal Library",
+    "ja": "グブラ幻想図書館",
+    "de": "Große Gubal-Bibliothek",
+    "fr": "Grande bibliothèque de Gubal"
   },
   "417": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "418": {
-    "chs": "伊修加德基础层"
+    "chs": "伊修加德基础层",
+    "en": "Foundation",
+    "ja": "イシュガルド：下層",
+    "de": "Fundamente",
+    "fr": "Ishgard - L'Assise"
   },
   "419": {
-    "chs": "伊修加德砥柱层"
+    "chs": "伊修加德砥柱层",
+    "en": "The Pillars",
+    "ja": "イシュガルド：上層",
+    "de": "Strebewerk",
+    "fr": "Ishgard - Les Contreforts"
   },
   "420": {
-    "chs": "不获岛"
+    "chs": "不获岛",
+    "en": "Neverreap",
+    "ja": "ネバーリープ",
+    "de": "Nimmerreich",
+    "fr": "Nalloncques"
   },
   "421": {
-    "chs": "伊修加德教皇厅"
+    "chs": "伊修加德教皇厅",
+    "en": "The Vault",
+    "ja": "イシュガルド教皇庁",
+    "de": "Erzbasilika",
+    "fr": "La Voûte"
   },
   "423": {
-    "chs": "海雾村部队工房"
+    "chs": "海雾村部队工房",
+    "en": "Company Workshop - Mist",
+    "ja": "ミスト・ヴィレッジ：地下工房",
+    "de": "Gesellschaftswerkstätte: Dorf des Nebels",
+    "fr": "Atelier de compagnie - Brumée"
   },
   "424": {
-    "chs": "高脚孤丘部队工房"
+    "chs": "高脚孤丘部队工房",
+    "en": "Company Workshop - The Goblet",
+    "ja": "ゴブレットビュート：地下工房",
+    "de": "Gesellschaftswerkstätte: Kelchkuppe",
+    "fr": "Atelier de compagnie - La Coupe"
   },
   "425": {
-    "chs": "薰衣草苗圃部队工房"
+    "chs": "薰衣草苗圃部队工房",
+    "en": "Company Workshop - The Lavender Beds",
+    "ja": "ラベンダーベッド：地下工房",
+    "de": "Gesellschaftswerkstätte: Lavendelbeete",
+    "fr": "Atelier de compagnie - Lavandière"
   },
   "426": {
-    "chs": "戒律之茧"
+    "chs": "戒律之茧",
+    "en": "The Chrysalis",
+    "ja": "戒律の殻",
+    "de": "Chrysalis",
+    "fr": "La Chrysalide"
   },
   "427": {
-    "chs": "圣恩达利姆神学院"
+    "chs": "圣恩达利姆神学院",
+    "en": "Saint Endalim's Scholasticate",
+    "ja": "聖アンダリム神学院",
+    "de": "Sankt Endalim-Theologikum",
+    "fr": "Scolasticat Saint-Endalim"
   },
   "428": {
-    "chs": "神殿骑士团总骑士长室"
+    "chs": "神殿骑士团总骑士长室",
+    "en": "Seat of the Lord Commander",
+    "ja": "神殿騎士団総長室",
+    "de": "Kommandantur des Großmeisters",
+    "fr": "Siège du capitaine général"
   },
   "429": {
-    "chs": "九霄云舍"
+    "chs": "九霄云舍",
+    "en": "Cloud Nine",
+    "ja": "旅籠「九つの雲」",
+    "de": "Zum Wolkenschäfchen",
+    "fr": "Les Neuf-Nuages"
   },
   "430": {
-    "chs": "无限回廊"
+    "chs": "无限回廊",
+    "en": "The Fractal Continuum",
+    "ja": "フラクタル・コンティニアム",
+    "de": "Die Fraktal-Kontinuum",
+    "fr": "Le Continuum fractal"
   },
   "431": {
-    "chs": "尘封秘岩"
+    "chs": "尘封秘岩",
+    "en": "Seal Rock",
+    "ja": "シールロック",
+    "de": "Robbenholm",
+    "fr": "Rocher des tréfonds"
   },
   "432": {
-    "chs": "武神斗技场"
+    "chs": "武神斗技场",
+    "en": "Thok ast Thok",
+    "ja": "武神の闘技場",
+    "de": "Thok ast Thok",
+    "fr": "Thok ast Thok"
   },
   "433": {
-    "chs": "福尔唐伯爵府"
+    "chs": "福尔唐伯爵府",
+    "en": "Fortemps Manor",
+    "ja": "フォルタン伯爵邸",
+    "de": "Anwesen der Fortemps",
+    "fr": "Manoir des Fortemps"
   },
   "434": {
-    "chs": "暮卫塔"
+    "chs": "暮卫塔",
+    "en": "Dusk Vigil",
+    "ja": "ダスクヴィジル",
+    "de": "Abendrot-Wacht",
+    "fr": "Vigile du Crépuscule"
   },
   "435": {
-    "chs": "龙巢神殿"
+    "chs": "龙巢神殿",
+    "en": "The Aery",
+    "ja": "ドラゴンズエアリー",
+    "de": "Nest des Drachen",
+    "fr": "L'Aire"
   },
   "436": {
-    "chs": "无尽苍空"
+    "chs": "无尽苍空",
+    "en": "The Limitless Blue",
+    "ja": "群青空域",
+    "de": "Grenzenloses Blau",
+    "fr": "L'Immensité bleue"
   },
   "437": {
-    "chs": "奇点反应堆"
+    "chs": "奇点反应堆",
+    "en": "Singularity Reactor",
+    "ja": "シンギュラリティ・リアクター",
+    "de": "Singularitäts-Reaktor",
+    "fr": "Réacteur de singularité"
   },
   "438": {
-    "chs": "魔科学研究所"
+    "chs": "魔科学研究所",
+    "en": "Aetherochemical Research Facility",
+    "ja": "魔科学研究所",
+    "de": "Ätherochemisches Forschungslabor",
+    "fr": "Laboratoire de magismologie"
   },
   "439": {
-    "chs": "轻羽斗场"
+    "chs": "轻羽斗场",
+    "en": "The Lightfeather Proving Grounds",
+    "ja": "ライトフェザー闘技場",
+    "de": "Leichtfeder-Arena",
+    "fr": "Carrière de Lesteplume"
   },
   "440": {
-    "chs": "决斗裁判场"
+    "chs": "决斗裁判场",
+    "en": "Ruling Chamber",
+    "ja": "決闘裁判場",
+    "de": "Gerichtssaal",
+    "fr": "Salle des sentences"
   },
   "441": {
-    "chs": "索姆阿尔灵峰"
+    "chs": "索姆阿尔灵峰",
+    "en": "Sohm Al",
+    "ja": "ソーム・アル",
+    "de": "Sohm Al",
+    "fr": "Sohm Al"
   },
   "442": {
-    "chs": "戈耳狄俄斯之拳"
+    "chs": "戈耳狄俄斯之拳",
+    "en": "The Fist of the Father",
+    "ja": "フィスト・オブ・ゴルディオス",
+    "de": "Faust des Vaters",
+    "fr": "Le Poing du Père"
   },
   "443": {
-    "chs": "戈耳狄俄斯之袖"
+    "chs": "戈耳狄俄斯之袖",
+    "en": "The Cuff of the Father",
+    "ja": "カフ・オブ・ゴルディオス",
+    "de": "Elle des Vaters",
+    "fr": "Le Poignet du Père"
   },
   "444": {
-    "chs": "戈耳狄俄斯之臂"
+    "chs": "戈耳狄俄斯之臂",
+    "en": "The Arm of the Father",
+    "ja": "アーム・オブ・ゴルディオス",
+    "de": "Arm des Vaters",
+    "fr": "Le Bras du Père"
   },
   "445": {
-    "chs": "戈耳狄俄斯之担"
+    "chs": "戈耳狄俄斯之担",
+    "en": "The Burden of the Father",
+    "ja": "バーデン・オブ・ゴルディオス",
+    "de": "Last des Vaters",
+    "fr": "Le Fardeau du Père"
   },
   "446": {
-    "chs": "武神斗技场"
+    "chs": "武神斗技场",
+    "en": "Thok ast Thok",
+    "ja": "武神の闘技場",
+    "de": "Thok ast Thok",
+    "fr": "Thok ast Thok"
   },
   "447": {
-    "chs": "无尽苍空"
+    "chs": "无尽苍空",
+    "en": "The Limitless Blue",
+    "ja": "群青空域",
+    "de": "Grenzenloses Blau",
+    "fr": "L'Immensité bleue"
   },
   "448": {
-    "chs": "奇点反应堆"
+    "chs": "奇点反应堆",
+    "en": "Singularity Reactor",
+    "ja": "シンギュラリティ・リアクター",
+    "de": "Singularitäts-Reaktor",
+    "fr": "Réacteur de singularité"
   },
   "449": {
-    "chs": "戈耳狄俄斯之拳"
+    "chs": "戈耳狄俄斯之拳",
+    "en": "The Fist of the Father",
+    "ja": "フィスト・オブ・ゴルディオス",
+    "de": "Faust des Vaters",
+    "fr": "Le Poing du Père"
   },
   "450": {
-    "chs": "戈耳狄俄斯之袖"
+    "chs": "戈耳狄俄斯之袖",
+    "en": "The Cuff of the Father",
+    "ja": "カフ・オブ・ゴルディオス",
+    "de": "Elle des Vaters",
+    "fr": "Le Poignet du Père"
   },
   "451": {
-    "chs": "戈耳狄俄斯之臂"
+    "chs": "戈耳狄俄斯之臂",
+    "en": "The Arm of the Father",
+    "ja": "アーム・オブ・ゴルディオス",
+    "de": "Arm des Vaters",
+    "fr": "Le Bras du Père"
   },
   "452": {
-    "chs": "戈耳狄俄斯之担"
+    "chs": "戈耳狄俄斯之担",
+    "en": "The Burden of the Father",
+    "ja": "バーデン・オブ・ゴルディオス",
+    "de": "Last des Vaters",
+    "fr": "Le Fardeau du Père"
   },
   "453": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "454": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "455": {
-    "chs": "阿巴拉提亚云海"
+    "chs": "阿巴拉提亚云海",
+    "en": "The Sea of Clouds",
+    "ja": "アバラシア雲海",
+    "de": "Abalathisches Wolkenmeer",
+    "fr": "L'Écume des cieux d'Abalathia"
   },
   "456": {
-    "chs": "决斗裁判场"
+    "chs": "决斗裁判场",
+    "en": "Ruling Chamber",
+    "ja": "決闘裁判場",
+    "de": "Gerichtssaal",
+    "fr": "Salle des sentences"
   },
   "457": {
-    "chs": "无尽轮回剧场"
+    "chs": "无尽轮回剧场",
+    "en": "Akh Afah Amphitheatre",
+    "ja": "アク・アファー円形劇場",
+    "de": "Akh Afah",
+    "fr": "Amphithéâtre d'Akh Afah"
   },
   "458": {
-    "chs": "伊修加德基础层"
+    "chs": "伊修加德基础层",
+    "en": "Foundation",
+    "ja": "イシュガルド：下層",
+    "de": "Fundamente",
+    "fr": "Ishgard - L'Assise"
   },
   "459": {
-    "chs": "魔大陆阿济兹拉"
+    "chs": "魔大陆阿济兹拉",
+    "en": "Azys Lla",
+    "ja": "アジス・ラー",
+    "de": "Azys Lla",
+    "fr": "Azys Lla"
   },
   "460": {
-    "chs": "日影地修炼所"
+    "chs": "日影地修炼所",
+    "en": "Halatali",
+    "ja": "ハラタリ修練所",
+    "de": "Halatali",
+    "fr": "Halatali"
   },
   "461": {
-    "chs": "阿巴拉提亚云海"
+    "chs": "阿巴拉提亚云海",
+    "en": "The Sea of Clouds",
+    "ja": "アバラシア雲海",
+    "de": "Abalathisches Wolkenmeer",
+    "fr": "L'Écume des cieux d'Abalathia"
   },
   "462": {
-    "chs": "供奉洞"
+    "chs": "供奉洞",
+    "en": "Sacrificial Chamber",
+    "ja": "供物穴",
+    "de": "Opferkammer",
+    "fr": "Salle des offrandes"
   },
   "463": {
-    "chs": "玛托雅的洞穴"
+    "chs": "玛托雅的洞穴",
+    "en": "Matoya's Cave",
+    "ja": "マトーヤの洞窟",
+    "de": "Matoyas Höhle",
+    "fr": "Caverne de Matoya"
   },
   "464": {
-    "chs": "龙堡参天高地"
+    "chs": "龙堡参天高地",
+    "en": "The Dravanian Forelands",
+    "ja": "高地ドラヴァニア",
+    "de": "Dravanisches Vorland",
+    "fr": "Avant-pays dravanien"
   },
   "465": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "466": {
-    "chs": "拉诺西亚高地"
+    "chs": "拉诺西亚高地",
+    "en": "Upper La Noscea",
+    "ja": "高地ラノシア",
+    "de": "Oberes La Noscea",
+    "fr": "Haute-Noscea"
   },
   "467": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "468": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "469": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "470": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "471": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "472": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "473": {
-    "chs": "黑衣森林南部林区"
+    "chs": "黑衣森林南部林区",
+    "en": "South Shroud",
+    "ja": "黒衣森：南部森林",
+    "de": "Südwald",
+    "fr": "Forêt du sud"
   },
   "474": {
-    "chs": "利姆萨·罗敏萨上层甲板"
+    "chs": "利姆萨·罗敏萨上层甲板",
+    "en": "Limsa Lominsa Upper Decks",
+    "ja": "リムサ・ロミンサ：上甲板層",
+    "de": "Obere Decks",
+    "fr": "Limsa Lominsa - Le Tillac"
   },
   "475": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "476": {
-    "chs": "龙堡内陆低地"
+    "chs": "龙堡内陆低地",
+    "en": "The Dravanian Hinterlands",
+    "ja": "低地ドラヴァニア",
+    "de": "Dravanisches Hinterland",
+    "fr": "Arrière-pays dravanien"
   },
   "477": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "478": {
-    "chs": "田园郡"
+    "chs": "田园郡",
+    "en": "Idyllshire",
+    "ja": "イディルシャイア",
+    "de": "Frohehalde",
+    "fr": "Idyllée"
   },
   "479": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "480": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "481": {
-    "chs": "龙堡参天高地"
+    "chs": "龙堡参天高地",
+    "en": "The Dravanian Forelands",
+    "ja": "高地ドラヴァニア",
+    "de": "Dravanisches Vorland",
+    "fr": "Avant-pays dravanien"
   },
   "482": {
-    "chs": "龙堡参天高地"
+    "chs": "龙堡参天高地",
+    "en": "The Dravanian Forelands",
+    "ja": "高地ドラヴァニア",
+    "de": "Dravanisches Vorland",
+    "fr": "Avant-pays dravanien"
   },
   "483": {
-    "chs": "北萨纳兰"
+    "chs": "北萨纳兰",
+    "en": "Northern Thanalan",
+    "ja": "北ザナラーン",
+    "de": "Nördliches Thanalan",
+    "fr": "Thanalan septentrional"
   },
   "484": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "485": {
-    "chs": "龙堡内陆低地"
+    "chs": "龙堡内陆低地",
+    "en": "The Dravanian Hinterlands",
+    "ja": "低地ドラヴァニア",
+    "de": "Dravanisches Hinterland",
+    "fr": "Arrière-pays dravanien"
   },
   "486": {
-    "chs": "拉诺西亚外地"
+    "chs": "拉诺西亚外地",
+    "en": "Outer La Noscea",
+    "ja": "外地ラノシア",
+    "de": "Äußeres La Noscea",
+    "fr": "Noscea extérieure"
   },
   "487": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "488": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "489": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "490": {
-    "chs": "破舰岛"
+    "chs": "破舰岛",
+    "en": "Hullbreaker Isle",
+    "ja": "ハルブレーカー・アイル",
+    "de": "Schiffbrecher-Insel",
+    "fr": "Île de Crèvecarène"
   },
   "491": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "492": {
-    "chs": "阿巴拉提亚云海"
+    "chs": "阿巴拉提亚云海",
+    "en": "The Sea of Clouds",
+    "ja": "アバラシア雲海",
+    "de": "Abalathisches Wolkenmeer",
+    "fr": "L'Écume des cieux d'Abalathia"
   },
   "493": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "494": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "495": {
-    "chs": "拉诺西亚低地"
+    "chs": "拉诺西亚低地",
+    "en": "Lower La Noscea",
+    "ja": "低地ラノシア",
+    "de": "Unteres La Noscea",
+    "fr": "Basse-Noscea"
   },
   "496": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "497": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "498": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "499": {
-    "chs": "伊修加德砥柱层"
+    "chs": "伊修加德砥柱层",
+    "en": "The Pillars",
+    "ja": "イシュガルド：上層",
+    "de": "Strebewerk",
+    "fr": "Ishgard - Les Contreforts"
   },
   "500": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "501": {
-    "chs": "翻云雾海"
+    "chs": "翻云雾海",
+    "en": "The Churning Mists",
+    "ja": "ドラヴァニア雲海",
+    "de": "Wallende Nebel",
+    "fr": "L'Écume des cieux de Dravania"
   },
   "502": {
-    "chs": "加尔提诺平原周边遗迹群"
+    "chs": "加尔提诺平原周边遗迹群",
+    "en": "Carteneau Flats: Borderland Ruins",
+    "ja": "カルテノー平原：外縁遺跡群",
+    "de": "Äußere Ruinen",
+    "fr": "Ruines frontalières"
   },
   "503": {
-    "chs": "龙堡内陆低地"
+    "chs": "龙堡内陆低地",
+    "en": "The Dravanian Hinterlands",
+    "ja": "低地ドラヴァニア",
+    "de": "Dravanisches Hinterland",
+    "fr": "Arrière-pays dravanien"
   },
   "504": {
-    "chs": "开发室"
+    "chs": "开发室",
+    "en": "The Eighteenth Floor",
+    "ja": "かいはつしつ",
+    "de": "Achtzehnter Stock",
+    "fr": "Salle des développeurs"
   },
   "505": {
-    "chs": "亚历山大机神城"
+    "chs": "亚历山大机神城",
+    "en": "Alexander",
+    "ja": "機工城アレキサンダー",
+    "de": "Alexander",
+    "fr": "Alexander"
   },
   "506": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "507": {
-    "chs": "魔大陆中枢"
+    "chs": "魔大陆中枢",
+    "en": "Central Azys Lla",
+    "ja": "魔大陸中枢",
+    "de": "Zentral-Azys Lla",
+    "fr": "Cœur d'Azys Lla"
   },
   "508": {
-    "chs": "魔航船虚无方舟"
+    "chs": "魔航船虚无方舟",
+    "en": "Void Ark",
+    "ja": "魔航船ヴォイドアーク",
+    "de": "Nichts-Arche",
+    "fr": "Arche du néant"
   },
   "509": {
-    "chs": "奥·哥摩罗火口神殿"
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
   },
   "510": {
-    "chs": "天狼星灯塔"
+    "chs": "天狼星灯塔",
+    "en": "Pharos Sirius",
+    "ja": "シリウス大灯台",
+    "de": "Pharos Sirius",
+    "fr": "Phare de Sirius"
   },
   "511": {
-    "chs": "圣茉夏娜植物园"
+    "chs": "圣茉夏娜植物园",
+    "en": "Saint Mocianne's Arboretum",
+    "ja": "聖モシャーヌ植物園",
+    "de": "Sankt Mocianne-Arboretum",
+    "fr": "Arboretum Sainte-Mocianne"
   },
   "512": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "513": {
-    "chs": "伊修加德教皇厅"
+    "chs": "伊修加德教皇厅",
+    "en": "The Vault",
+    "ja": "イシュガルド教皇庁",
+    "de": "Erzbasilika",
+    "fr": "La Voûte"
   },
   "514": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "515": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "516": {
-    "chs": "颠倒塔"
+    "chs": "颠倒塔",
+    "en": "The Antitower",
+    "ja": "逆さの塔",
+    "de": "Antiturm",
+    "fr": "L'Antitour"
   },
   "517": {
-    "chs": "抑制绝境S1T7"
+    "chs": "抑制绝境S1T7",
+    "en": "Containment Bay S1T7",
+    "ja": "コンテイメントベイS1T7",
+    "de": "Arretur S1T7",
+    "fr": "Unité de contention S1P7"
   },
   "519": {
-    "chs": "无限城市街古迹"
+    "chs": "无限城市街古迹",
+    "en": "The Lost City of Amdapor",
+    "ja": "古アムダプール市街",
+    "de": "Historisches Amdapor",
+    "fr": "Vestiges de la cité d'Amdapor"
   },
   "520": {
-    "chs": "弥达斯之拳"
+    "chs": "弥达斯之拳",
+    "en": "The Fist of the Son",
+    "ja": "フィスト・オブ・ミダース",
+    "de": "Faust des Sohnes",
+    "fr": "Le Poing du Fils"
   },
   "521": {
-    "chs": "弥达斯之袖"
+    "chs": "弥达斯之袖",
+    "en": "The Cuff of the Son",
+    "ja": "カフ・オブ・ミダース",
+    "de": "Elle des Sohnes",
+    "fr": "Le Poignet du Fils"
   },
   "522": {
-    "chs": "弥达斯之臂"
+    "chs": "弥达斯之臂",
+    "en": "The Arm of the Son",
+    "ja": "アーム・オブ・ミダース",
+    "de": "Arm des Sohnes",
+    "fr": "Le Bras du Fils"
   },
   "523": {
-    "chs": "弥达斯之担"
+    "chs": "弥达斯之担",
+    "en": "The Burden of the Son",
+    "ja": "バーデン・オブ・ミダース",
+    "de": "Last des Sohnes",
+    "fr": "Le Fardeau du Fils"
   },
   "524": {
-    "chs": "抑制绝境S1T7"
+    "chs": "抑制绝境S1T7",
+    "en": "Containment Bay S1T7",
+    "ja": "コンテイメントベイS1T7",
+    "de": "Arretur S1T7",
+    "fr": "Unité de contention S1P7"
   },
   "525": {
-    "chs": "狼狱演习场"
+    "chs": "狼狱演习场",
+    "en": "The Feasting Grounds",
+    "ja": "ウルヴズジェイル演習場",
+    "de": "Kampfplatz",
+    "fr": "Festin des loups"
   },
   "527": {
-    "chs": "狼狱演习场"
+    "chs": "狼狱演习场",
+    "en": "The Feasting Grounds",
+    "ja": "ウルヴズジェイル演習場",
+    "de": "Kampfplatz",
+    "fr": "Festin des loups"
   },
   "529": {
-    "chs": "弥达斯之拳"
+    "chs": "弥达斯之拳",
+    "en": "The Fist of the Son",
+    "ja": "フィスト・オブ・ミダース",
+    "de": "Faust des Sohnes",
+    "fr": "Le Poing du Fils"
   },
   "530": {
-    "chs": "弥达斯之袖"
+    "chs": "弥达斯之袖",
+    "en": "The Cuff of the Son",
+    "ja": "カフ・オブ・ミダース",
+    "de": "Elle des Sohnes",
+    "fr": "Le Poignet du Fils"
   },
   "531": {
-    "chs": "弥达斯之臂"
+    "chs": "弥达斯之臂",
+    "en": "The Arm of the Son",
+    "ja": "アーム・オブ・ミダース",
+    "de": "Arm des Sohnes",
+    "fr": "Le Bras du Fils"
   },
   "532": {
-    "chs": "弥达斯之担"
+    "chs": "弥达斯之担",
+    "en": "The Burden of the Son",
+    "ja": "バーデン・オブ・ミダース",
+    "de": "Last des Sohnes",
+    "fr": "Le Fardeau du Fils"
   },
   "533": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "534": {
-    "chs": "双蛇党军营"
+    "chs": "双蛇党军营",
+    "en": "Twin Adder Barracks",
+    "ja": "双蛇党兵舎",
+    "de": "Wachstube der Bruderschaft",
+    "fr": "Caserne de l'ordre des Deux Vipères"
   },
   "535": {
-    "chs": "恒辉队军营"
+    "chs": "恒辉队军营",
+    "en": "Flame Barracks",
+    "ja": "不滅隊兵舎",
+    "de": "Wachstube der Legion",
+    "fr": "Caserne des Immortels"
   },
   "536": {
-    "chs": "黑涡团军营"
+    "chs": "黑涡团军营",
+    "en": "Maelstrom Barracks",
+    "ja": "黒渦団兵舎",
+    "de": "Wachstube des Mahlstroms",
+    "fr": "Caserne du Maelstrom"
   },
   "537": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "538": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "539": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "540": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "541": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "542": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "543": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "544": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "545": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "546": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "547": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "548": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "549": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "550": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "551": {
-    "chs": "群狼困斗"
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "552": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "553": {
-    "chs": "亚历山大机神城"
+    "chs": "亚历山大机神城",
+    "en": "Alexander",
+    "ja": "機工城アレキサンダー",
+    "de": "Alexander",
+    "fr": "Alexander"
   },
   "554": {
-    "chs": "荣誉野"
+    "chs": "荣誉野",
+    "en": "The Fields of Glory",
+    "ja": "フィールド・オブ・グローリー",
+    "de": "Feld der Ehre",
+    "fr": "Champs de la Gloire"
   },
   "555": {
-    "chs": "忆罪宫"
+    "chs": "忆罪宫",
+    "en": "Sohr Khai",
+    "ja": "ソール・カイ",
+    "de": "Sohr Khai",
+    "fr": "Sohr Khai"
   },
   "556": {
-    "chs": "禁忌城邦玛哈"
+    "chs": "禁忌城邦玛哈",
+    "en": "The Weeping City of Mhach",
+    "ja": "禁忌都市マハ",
+    "de": "Die Stadt der Tränen",
+    "fr": "Cité défendue de Mhach"
   },
   "557": {
-    "chs": "破舰岛"
+    "chs": "破舰岛",
+    "en": "Hullbreaker Isle",
+    "ja": "ハルブレーカー・アイル",
+    "de": "Schiffbrecher-Insel",
+    "fr": "Île de Crèvecarène"
   },
   "558": {
-    "chs": "水城宝物库"
+    "chs": "水城宝物库",
+    "en": "The Aquapolis",
+    "ja": "アクアポリス",
+    "de": "Aquapolis",
+    "fr": "Aquapole"
   },
   "559": {
-    "chs": "云廊"
+    "chs": "云廊",
+    "en": "Steps of Faith",
+    "ja": "雲廊",
+    "de": "Schicksalsweg",
+    "fr": "Avancée de la Foi"
   },
   "560": {
-    "chs": "魔科学研究所"
+    "chs": "魔科学研究所",
+    "en": "Aetherochemical Research Facility",
+    "ja": "魔科学研究所",
+    "de": "Ätherochemisches Forschungslabor",
+    "fr": "Laboratoire de magismologie"
   },
   "561": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "562": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "563": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "564": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "565": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "566": {
-    "chs": "云廊"
+    "chs": "云廊",
+    "en": "Steps of Faith",
+    "ja": "雲廊",
+    "de": "Schicksalsweg",
+    "fr": "Avancée de la Foi"
   },
   "567": {
-    "chs": "帕洛克系留基地"
+    "chs": "帕洛克系留基地",
+    "en": "The Parrock",
+    "ja": "パロック繋留基地",
+    "de": "Krähennest",
+    "fr": "Le Paddock"
   },
   "568": {
-    "chs": "利奥法德的房间"
+    "chs": "利奥法德的房间",
+    "en": "Leofard's Chambers",
+    "ja": "レオファードの私室",
+    "de": "Leofards Zimmer",
+    "fr": "Cabine de Leofard"
   },
   "569": {
-    "chs": "云廊"
+    "chs": "云廊",
+    "en": "Steps of Faith",
+    "ja": "雲廊",
+    "de": "Schicksalsweg",
+    "fr": "Avancée de la Foi"
   },
   "570": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "571": {
-    "chs": "亡灵府邸闹鬼庄园"
+    "chs": "亡灵府邸闹鬼庄园",
+    "en": "Haunted Manor",
+    "ja": "亡霊屋敷 ホーンテッドマナー",
+    "de": "Geisterschloss",
+    "fr": "Manoir hanté"
   },
   "572": {
-    "chs": "塞尔法特尔溪谷"
+    "chs": "塞尔法特尔溪谷",
+    "en": "Xelphatol",
+    "ja": "ゼルファトル",
+    "de": "Xelphatol",
+    "fr": "Xelphatol"
   },
   "573": {
-    "chs": "中桅塔大厅"
+    "chs": "中桅塔大厅",
+    "en": "Topmast Apartment Lobby",
+    "ja": "トップマスト：ロビー",
+    "de": "Fockmast (Eingangshalle)",
+    "fr": "Le Mât de hune (hall)"
   },
   "574": {
-    "chs": "百合岭大厅"
+    "chs": "百合岭大厅",
+    "en": "Lily Hills Apartment Lobby",
+    "ja": "リリーヒルズ：ロビー",
+    "de": "Lilienhügel (Eingangshalle)",
+    "fr": "Plaine-aux-Lys (hall)"
   },
   "575": {
-    "chs": "娜娜莫大风车大厅"
+    "chs": "娜娜莫大风车大厅",
+    "en": "Sultana's Breath Apartment Lobby",
+    "ja": "ナナモ大風車：ロビー",
+    "de": "Nanamo-Windrad (Eingangshalle)",
+    "fr": "Le Souffle de la Sultane (hall)"
   },
   "576": {
-    "chs": "抑制绝境P1T6"
+    "chs": "抑制绝境P1T6",
+    "en": "Containment Bay P1T6",
+    "ja": "コンテイメントベイP1T6",
+    "de": "Arretur P1T6",
+    "fr": "Unité de contention P1P6"
   },
   "577": {
-    "chs": "抑制绝境P1T6"
+    "chs": "抑制绝境P1T6",
+    "en": "Containment Bay P1T6",
+    "ja": "コンテイメントベイP1T6",
+    "de": "Arretur P1T6",
+    "fr": "Unité de contention P1P6"
   },
   "578": {
-    "chs": "迦巴勒幻想图书馆"
+    "chs": "迦巴勒幻想图书馆",
+    "en": "The Great Gubal Library",
+    "ja": "グブラ幻想図書館",
+    "de": "Große Gubal-Bibliothek",
+    "fr": "Grande bibliothèque de Gubal"
   },
   "579": {
-    "chs": "幻卡对局室"
+    "chs": "幻卡对局室",
+    "en": "The Battlehall",
+    "ja": "カードバトルルーム",
+    "de": "Weltensalon",
+    "fr": "Arène Triple Triade"
   },
   "580": {
-    "chs": "亚历山大之眼"
+    "chs": "亚历山大之眼",
+    "en": "Eyes of the Creator",
+    "ja": "アイズ・オブ・アレキサンダー",
+    "de": "Augen des Schöpfers",
+    "fr": "Les Yeux du Créateur"
   },
   "581": {
-    "chs": "亚历山大之息"
+    "chs": "亚历山大之息",
+    "en": "Breath of the Creator",
+    "ja": "ブレス・オブ・アレキサンダー",
+    "de": "Atem des Schöpfers",
+    "fr": "Le Souffle du Créateur"
   },
   "582": {
-    "chs": "亚历山大之心"
+    "chs": "亚历山大之心",
+    "en": "Heart of the Creator",
+    "ja": "ハート・オブ・アレキサンダー",
+    "de": "Herz des Schöpfers",
+    "fr": "Le Cœur du Créateur"
   },
   "583": {
-    "chs": "亚历山大之魂"
+    "chs": "亚历山大之魂",
+    "en": "Soul of the Creator",
+    "ja": "ソウル・オブ・アレキサンダー",
+    "de": "Seele des Schöpfers",
+    "fr": "L'Âme du Créateur"
   },
   "584": {
-    "chs": "亚历山大之眼"
+    "chs": "亚历山大之眼",
+    "en": "Eyes of the Creator",
+    "ja": "アイズ・オブ・アレキサンダー",
+    "de": "Augen des Schöpfers",
+    "fr": "Les Yeux du Créateur"
   },
   "585": {
-    "chs": "亚历山大之息"
+    "chs": "亚历山大之息",
+    "en": "Breath of the Creator",
+    "ja": "ブレス・オブ・アレキサンダー",
+    "de": "Atem des Schöpfers",
+    "fr": "Le Souffle du Créateur"
   },
   "586": {
-    "chs": "亚历山大之心"
+    "chs": "亚历山大之心",
+    "en": "Heart of the Creator",
+    "ja": "ハート・オブ・アレキサンダー",
+    "de": "Herz des Schöpfers",
+    "fr": "Le Cœur du Créateur"
   },
   "587": {
-    "chs": "亚历山大之魂"
+    "chs": "亚历山大之魂",
+    "en": "Soul of the Creator",
+    "ja": "ソウル・オブ・アレキサンダー",
+    "de": "Seele des Schöpfers",
+    "fr": "L'Âme du Créateur"
   },
   "588": {
-    "chs": "亚历山大之心"
+    "chs": "亚历山大之心",
+    "en": "Heart of the Creator",
+    "ja": "ハート・オブ・アレキサンダー",
+    "de": "Herz des Schöpfers",
+    "fr": "Le Cœur du Créateur"
   },
   "589": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "590": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "591": {
-    "chs": "陆行鸟广场"
+    "chs": "陆行鸟广场",
+    "en": "Chocobo Square",
+    "ja": "チョコボスクウェア",
+    "de": "Chocobo-Platz",
+    "fr": "Square des chocobos"
   },
   "592": {
-    "chs": "炎帝陵"
+    "chs": "炎帝陵",
+    "en": "Bowl of Embers",
+    "ja": "炎帝祭跡",
+    "de": "Das Grab der Lohe",
+    "fr": "Cratère des tisons"
   },
   "593": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "594": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "595": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "596": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "597": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "598": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "599": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "600": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "601": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "602": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "603": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "604": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "605": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "606": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "607": {
-    "chs": "死者宫殿"
+    "chs": "死者宫殿",
+    "en": "The Palace of the Dead",
+    "ja": "死者の宮殿",
+    "de": "Palast der Toten",
+    "fr": "Palais des morts"
   },
   "608": {
-    "chs": "中桅塔房间"
+    "chs": "中桅塔房间",
+    "en": "Topmast Apartment",
+    "ja": "トップマスト：部屋",
+    "de": "Fockmast (Wohnung)",
+    "fr": "Le Mât de hune (appartement)"
   },
   "609": {
-    "chs": "百合岭房间"
+    "chs": "百合岭房间",
+    "en": "Lily Hills Apartment",
+    "ja": "リリーヒルズ：部屋",
+    "de": "Lilienhügel (Wohnung)",
+    "fr": "Plaine-aux-Lys (appartement)"
   },
   "610": {
-    "chs": "娜娜莫大风车房间"
+    "chs": "娜娜莫大风车房间",
+    "en": "Sultana's Breath Apartment",
+    "ja": "ナナモ大風車：部屋",
+    "de": "Nanamo-Windrad (Wohnung)",
+    "fr": "Le Souffle de la Sultane (appartement)"
   },
   "611": {
-    "chs": "福隆戴尔药学院儿科病房"
+    "chs": "福隆戴尔药学院儿科病房",
+    "en": "Frondale's Home for Friendless Foundlings",
+    "ja": "フロンデール薬学院小児病棟",
+    "de": "Frondales Physiatrische Akademie",
+    "fr": "Clinique pédiatrique de l'Académie médicale de Frondale"
   },
   "612": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "613": {
-    "chs": "红玉海"
+    "chs": "红玉海",
+    "en": "The Ruby Sea",
+    "ja": "紅玉海",
+    "de": "Rubinsee",
+    "fr": "Mer de Rubis"
   },
   "614": {
-    "chs": "延夏"
+    "chs": "延夏",
+    "en": "Yanxia",
+    "ja": "ヤンサ",
+    "de": "Yanxia",
+    "fr": "Yanxia"
   },
   "615": {
-    "chs": "巴埃萨长城"
+    "chs": "巴埃萨长城",
+    "en": "Baelsar's Wall",
+    "ja": "バエサルの長城",
+    "de": "Baelsar-Wall",
+    "fr": "Muraille de Baelsar"
   },
   "616": {
-    "chs": "紫水宫"
+    "chs": "紫水宫",
+    "en": "Shisui of the Violet Tides",
+    "ja": "紫水宮",
+    "de": "Shisui-Palast",
+    "fr": "Palais aux Marées violettes"
   },
   "617": {
-    "chs": "索姆阿尔灵峰"
+    "chs": "索姆阿尔灵峰",
+    "en": "Sohm Al",
+    "ja": "ソーム・アル",
+    "de": "Sohm Al",
+    "fr": "Sohm Al"
   },
   "619": {
-    "chs": "狼狱演习场"
+    "chs": "狼狱演习场",
+    "en": "The Feasting Grounds",
+    "ja": "ウルヴズジェイル演習場",
+    "de": "Kampfplatz",
+    "fr": "Festin des loups"
   },
   "620": {
-    "chs": "基拉巴尼亚山区"
+    "chs": "基拉巴尼亚山区",
+    "en": "The Peaks",
+    "ja": "ギラバニア山岳地帯",
+    "de": "Die Zinnen",
+    "fr": "Les Pics"
   },
   "621": {
-    "chs": "基拉巴尼亚湖区"
+    "chs": "基拉巴尼亚湖区",
+    "en": "The Lochs",
+    "ja": "ギラバニア湖畔地帯",
+    "de": "Das Fenn",
+    "fr": "Les Lacs"
   },
   "622": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "623": {
-    "chs": "巴儿达木霸道"
+    "chs": "巴儿达木霸道",
+    "en": "Bardam's Mettle",
+    "ja": "バルダム覇道",
+    "de": "Bardams Probe",
+    "fr": "Force de Bardam"
   },
   "624": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "625": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "626": {
-    "chs": "妖歌海"
+    "chs": "妖歌海",
+    "en": "The Sirensong Sea",
+    "ja": "セイレーン海",
+    "de": "Sirenen-See",
+    "fr": "Mer du Chant des sirènes"
   },
   "627": {
-    "chs": "影之国"
+    "chs": "影之国",
+    "en": "Dun Scaith",
+    "ja": "影の国ダン・スカー",
+    "de": "Dun Scaith",
+    "fr": "Dun Scaith"
   },
   "628": {
-    "chs": "黄金港"
+    "chs": "黄金港",
+    "en": "Kugane",
+    "ja": "クガネ",
+    "de": "Kugane",
+    "fr": "Kugane"
   },
   "629": {
-    "chs": "望海楼"
+    "chs": "望海楼",
+    "en": "Bokairo Inn",
+    "ja": "望海楼",
+    "de": "Badehaus Bokairo",
+    "fr": "Auberge du Bokairo"
   },
   "630": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "632": {
-    "chs": "地衣宫演习场"
+    "chs": "地衣宫演习场",
+    "en": "Lichenweed",
+    "ja": "ライケンウィード演習場",
+    "de": "Flechtenhain",
+    "fr": "Pré-de-lichen"
   },
   "633": {
-    "chs": "加尔提诺平原周边遗迹群"
+    "chs": "加尔提诺平原周边遗迹群",
+    "en": "Carteneau Flats: Borderland Ruins",
+    "ja": "カルテノー平原：外縁遺跡群",
+    "de": "Äußere Ruinen",
+    "fr": "Ruines frontalières"
   },
   "634": {
-    "chs": "延夏"
+    "chs": "延夏",
+    "en": "Yanxia",
+    "ja": "ヤンサ",
+    "de": "Yanxia",
+    "fr": "Yanxia"
   },
   "635": {
-    "chs": "神拳痕"
+    "chs": "神拳痕",
+    "en": "Rhalgr's Reach",
+    "ja": "ラールガーズリーチ",
+    "de": "Rhalgrs Wacht",
+    "fr": "L'Étendue de Rhalgr"
   },
   "636": {
-    "chs": "欧米茄控制室"
+    "chs": "欧米茄控制室",
+    "en": "Omega Control",
+    "ja": "オメガ管制室",
+    "de": "Omega-Kontrollraum",
+    "fr": "Salle de contrôle d'Oméga"
   },
   "637": {
-    "chs": "抑制绝境Z1T9"
+    "chs": "抑制绝境Z1T9",
+    "en": "Containment Bay Z1T9",
+    "ja": "コンテイメントベイZ1T9",
+    "de": "Arretur Z1T9",
+    "fr": "Unité de contention Z1P9"
   },
   "638": {
-    "chs": "抑制绝境Z1T9"
+    "chs": "抑制绝境Z1T9",
+    "en": "Containment Bay Z1T9",
+    "ja": "コンテイメントベイZ1T9",
+    "de": "Arretur Z1T9",
+    "fr": "Unité de contention Z1P9"
   },
   "639": {
-    "chs": "乌尔达哈商会馆接待室"
+    "chs": "乌尔达哈商会馆接待室",
+    "en": "Ruby Bazaar Offices",
+    "ja": "ウルダハ商館応接室",
+    "de": "Handelshaus-Sitzungsraum",
+    "fr": "Salle d'accueil du Bazar de Rubis"
   },
   "640": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "641": {
-    "chs": "白银乡"
+    "chs": "白银乡",
+    "en": "Shirogane",
+    "ja": "シロガネ",
+    "de": "Shirogane",
+    "fr": "Shirogane"
   },
   "644": {
-    "chs": "地衣宫演习场"
+    "chs": "地衣宫演习场",
+    "en": "Lichenweed",
+    "ja": "ライケンウィード演習場",
+    "de": "Flechtenhain",
+    "fr": "Pré-de-lichen"
   },
   "646": {
-    "chs": "地衣宫演习场"
+    "chs": "地衣宫演习场",
+    "en": "Lichenweed",
+    "ja": "ライケンウィード演習場",
+    "de": "Flechtenhain",
+    "fr": "Pré-de-lichen"
   },
   "647": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "648": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "649": {
-    "chs": "白银乡私人小屋"
+    "chs": "白银乡私人小屋",
+    "en": "Private Cottage - Shirogane",
+    "ja": "シロガネ：コテージ",
+    "de": "Privathütte (Shirogane)",
+    "fr": "Maisonnette - Shirogane"
   },
   "650": {
-    "chs": "白银乡私人公馆"
+    "chs": "白银乡私人公馆",
+    "en": "Private House - Shirogane",
+    "ja": "シロガネ：ハウス",
+    "de": "Privathaus (Shirogane)",
+    "fr": "Pavillon - Shirogane"
   },
   "651": {
-    "chs": "白银乡私人别墅"
+    "chs": "白银乡私人别墅",
+    "en": "Private Mansion - Shirogane",
+    "ja": "シロガネ：レジデンス",
+    "de": "Privatresidenz (Shirogane)",
+    "fr": "Villa - Shirogane"
   },
   "652": {
-    "chs": "白银乡个人房间"
+    "chs": "白银乡个人房间",
+    "en": "Private Chambers - Shirogane",
+    "ja": "シロガネ：プライベートルーム",
+    "de": "Shirogane - Zimmer",
+    "fr": "Chambre individuelle - Shirogane"
   },
   "653": {
-    "chs": "白银乡部队工房"
+    "chs": "白银乡部队工房",
+    "en": "Company Workshop - Shirogane",
+    "ja": "シロガネ：地下工房",
+    "de": "Gesellschaftswerkstätte: Shirogane",
+    "fr": "Atelier de compagnie - Shirogane"
   },
   "654": {
-    "chs": "红梅御殿大厅"
+    "chs": "红梅御殿大厅",
+    "en": "Kobai Goten Apartment Lobby",
+    "ja": "紅梅御殿：ロビー",
+    "de": "Kobai Goten (Eingangshalle)",
+    "fr": "Kobai Goten (hall)"
   },
   "655": {
-    "chs": "红梅御殿房间"
+    "chs": "红梅御殿房间",
+    "en": "Kobai Goten Apartment",
+    "ja": "紅梅御殿：部屋",
+    "de": "Kobai Goten (Wohnung)",
+    "fr": "Kobai Goten (appartement)"
   },
   "656": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "657": {
-    "chs": "红玉海"
+    "chs": "红玉海",
+    "en": "The Ruby Sea",
+    "ja": "紅玉海",
+    "de": "Rubinsee",
+    "fr": "Mer de Rubis"
   },
   "658": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "659": {
-    "chs": "神拳痕"
+    "chs": "神拳痕",
+    "en": "Rhalgr's Reach",
+    "ja": "ラールガーズリーチ",
+    "de": "Rhalgrs Wacht",
+    "fr": "L'Étendue de Rhalgr"
   },
   "660": {
-    "chs": "多玛王城"
+    "chs": "多玛王城",
+    "en": "Doma Castle",
+    "ja": "ドマ城",
+    "de": "Burg Doma",
+    "fr": "Château de Doma"
   },
   "661": {
-    "chs": "帝国白山堡"
+    "chs": "帝国白山堡",
+    "en": "Castrum Abania",
+    "ja": "カストルム・アバニア",
+    "de": "Castrum Abania",
+    "fr": "Castrum Abania"
   },
   "662": {
-    "chs": "黄金阁"
+    "chs": "黄金阁",
+    "en": "Kugane Castle",
+    "ja": "クガネ城",
+    "de": "Schloss Kugane",
+    "fr": "Château de Kugane"
   },
   "663": {
-    "chs": "星导寺"
+    "chs": "星导寺",
+    "en": "The Temple of the Fist",
+    "ja": "星導山寺院",
+    "de": "Tempel der Faust",
+    "fr": "Temple du Poing"
   },
   "664": {
-    "chs": "黄金港"
+    "chs": "黄金港",
+    "en": "Kugane",
+    "ja": "クガネ",
+    "de": "Kugane",
+    "fr": "Kugane"
   },
   "665": {
-    "chs": "黄金港"
+    "chs": "黄金港",
+    "en": "Kugane",
+    "ja": "クガネ",
+    "de": "Kugane",
+    "fr": "Kugane"
   },
   "666": {
-    "chs": "乌尔达哈来生回廊"
+    "chs": "乌尔达哈来生回廊",
+    "en": "Ul'dah - Steps of Thal",
+    "ja": "ウルダハ：ザル回廊",
+    "de": "Thal-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Thal"
   },
   "667": {
-    "chs": "黄金港"
+    "chs": "黄金港",
+    "en": "Kugane",
+    "ja": "クガネ",
+    "de": "Kugane",
+    "fr": "Kugane"
   },
   "668": {
-    "chs": "东萨纳兰"
+    "chs": "东萨纳兰",
+    "en": "Eastern Thanalan",
+    "ja": "東ザナラーン",
+    "de": "Östliches Thanalan",
+    "fr": "Thanalan oriental"
   },
   "669": {
-    "chs": "南萨纳兰"
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   },
   "670": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "671": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "672": {
-    "chs": "摩杜纳"
+    "chs": "摩杜纳",
+    "en": "Mor Dhona",
+    "ja": "モードゥナ",
+    "de": "Mor Dhona",
+    "fr": "Mor Dhona"
   },
   "673": {
-    "chs": "索姆阿尔灵峰"
+    "chs": "索姆阿尔灵峰",
+    "en": "Sohm Al",
+    "ja": "ソーム・アル",
+    "de": "Sohm Al",
+    "fr": "Sohm Al"
   },
   "674": {
-    "chs": "宝物殿"
+    "chs": "宝物殿",
+    "en": "The Blessed Treasury",
+    "ja": "宝物殿",
+    "de": "Schatzkammer",
+    "fr": "Crique aux tributs"
   },
   "675": {
-    "chs": "西拉诺西亚"
+    "chs": "西拉诺西亚",
+    "en": "Western La Noscea",
+    "ja": "西ラノシア",
+    "de": "Westliches La Noscea",
+    "fr": "Noscea occidentale"
   },
   "676": {
-    "chs": "迦巴勒幻想图书馆"
+    "chs": "迦巴勒幻想图书馆",
+    "en": "The Great Gubal Library",
+    "ja": "グブラ幻想図書館",
+    "de": "Große Gubal-Bibliothek",
+    "fr": "Grande bibliothèque de Gubal"
   },
   "677": {
-    "chs": "宝物殿"
+    "chs": "宝物殿",
+    "en": "The Blessed Treasury",
+    "ja": "宝物殿",
+    "de": "Schatzkammer",
+    "fr": "Crique aux tributs"
   },
   "678": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "679": {
-    "chs": "阿拉米格王立飞空艇着陆场"
+    "chs": "阿拉米格王立飞空艇着陆场",
+    "en": "The Royal Airship Landing",
+    "ja": "アラミゴ王立飛空艇発着場",
+    "de": "Königlicher Luftschiff-Landeplatz",
+    "fr": "Aérodrome royal"
   },
   "680": {
-    "chs": "惨境号"
+    "chs": "惨境号",
+    "en": "The Misery",
+    "ja": "ミゼリー号",
+    "de": "Die Misery",
+    "fr": "Le Misère"
   },
   "681": {
-    "chs": "烈士庵"
+    "chs": "烈士庵",
+    "en": "The House of the Fierce",
+    "ja": "烈士庵",
+    "de": "Klause der Grimmigen",
+    "fr": "Cercle des Intrépides"
   },
   "682": {
-    "chs": "多玛飞地"
+    "chs": "多玛飞地",
+    "en": "The Doman Enclave",
+    "ja": "ドマ町人地",
+    "de": "Domanische Enklave",
+    "fr": "Quartier enclavé de Doma"
   },
   "683": {
-    "chs": "天母寝宫地下祭坛"
+    "chs": "天母寝宫地下祭坛",
+    "en": "The First Altar of Djanan Qhat",
+    "ja": "ジャナン・カット地下祭壇",
+    "de": "Altar von Djanan Qhat",
+    "fr": "Grand autel de Djanan Qhat"
   },
   "684": {
-    "chs": "基拉巴尼亚湖区"
+    "chs": "基拉巴尼亚湖区",
+    "en": "The Lochs",
+    "ja": "ギラバニア湖畔地帯",
+    "de": "Das Fenn",
+    "fr": "Les Lacs"
   },
   "685": {
-    "chs": "延夏"
+    "chs": "延夏",
+    "en": "Yanxia",
+    "ja": "ヤンサ",
+    "de": "Yanxia",
+    "fr": "Yanxia"
   },
   "686": {
-    "chs": "基拉巴尼亚湖区"
+    "chs": "基拉巴尼亚湖区",
+    "en": "The Lochs",
+    "ja": "ギラバニア湖畔地帯",
+    "de": "Das Fenn",
+    "fr": "Les Lacs"
   },
   "687": {
-    "chs": "基拉巴尼亚湖区"
+    "chs": "基拉巴尼亚湖区",
+    "en": "The Lochs",
+    "ja": "ギラバニア湖畔地帯",
+    "de": "Das Fenn",
+    "fr": "Les Lacs"
   },
   "688": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "689": {
-    "chs": "阿拉米格"
+    "chs": "阿拉米格",
+    "en": "Ala Mhigo",
+    "ja": "アラミゴ",
+    "de": "Ala Mhigo",
+    "fr": "Ala Mhigo"
   },
   "690": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "691": {
-    "chs": "德尔塔幻境1"
+    "chs": "德尔塔幻境1",
+    "en": "Deltascape V1.0",
+    "ja": "被検世界「デルタ」V1.0",
+    "de": "Deltametrie 1.0",
+    "fr": "Deltastice v1.0"
   },
   "692": {
-    "chs": "德尔塔幻境2"
+    "chs": "德尔塔幻境2",
+    "en": "Deltascape V2.0",
+    "ja": "被検世界「デルタ」V2.0",
+    "de": "Deltametrie 2.0",
+    "fr": "Deltastice v2.0"
   },
   "693": {
-    "chs": "德尔塔幻境3"
+    "chs": "德尔塔幻境3",
+    "en": "Deltascape V3.0",
+    "ja": "被検世界「デルタ」V3.0",
+    "de": "Deltametrie 3.0",
+    "fr": "Deltastice v3.0"
   },
   "694": {
-    "chs": "德尔塔幻境4"
+    "chs": "德尔塔幻境4",
+    "en": "Deltascape V4.0",
+    "ja": "被検世界「デルタ」V4.0",
+    "de": "Deltametrie 4.0",
+    "fr": "Deltastice v4.0"
   },
   "695": {
-    "chs": "德尔塔幻境1"
+    "chs": "德尔塔幻境1",
+    "en": "Deltascape V1.0",
+    "ja": "被検世界「デルタ」V1.0",
+    "de": "Deltametrie 1.0",
+    "fr": "Deltastice v1.0"
   },
   "696": {
-    "chs": "德尔塔幻境2"
+    "chs": "德尔塔幻境2",
+    "en": "Deltascape V2.0",
+    "ja": "被検世界「デルタ」V2.0",
+    "de": "Deltametrie 2.0",
+    "fr": "Deltastice v2.0"
   },
   "697": {
-    "chs": "德尔塔幻境3"
+    "chs": "德尔塔幻境3",
+    "en": "Deltascape V3.0",
+    "ja": "被検世界「デルタ」V3.0",
+    "de": "Deltametrie 3.0",
+    "fr": "Deltastice v3.0"
   },
   "698": {
-    "chs": "德尔塔幻境4"
+    "chs": "德尔塔幻境4",
+    "en": "Deltascape V4.0",
+    "ja": "被検世界「デルタ」V4.0",
+    "de": "Deltametrie 4.0",
+    "fr": "Deltastice v4.0"
   },
   "699": {
-    "chs": "库尔札斯中央高地"
+    "chs": "库尔札斯中央高地",
+    "en": "Coerthas Central Highlands",
+    "ja": "クルザス中央高地",
+    "de": "Zentrales Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas central"
   },
   "700": {
-    "chs": "伊修加德基础层"
+    "chs": "伊修加德基础层",
+    "en": "Foundation",
+    "ja": "イシュガルド：下層",
+    "de": "Fundamente",
+    "fr": "Ishgard - L'Assise"
   },
   "701": {
-    "chs": "尘封秘岩"
+    "chs": "尘封秘岩",
+    "en": "Seal Rock",
+    "ja": "シールロック",
+    "de": "Robbenholm",
+    "fr": "Rocher des tréfonds"
   },
   "702": {
-    "chs": "魔科学研究所"
+    "chs": "魔科学研究所",
+    "en": "Aetherochemical Research Facility",
+    "ja": "魔科学研究所",
+    "de": "Ätherochemisches Forschungslabor",
+    "fr": "Laboratoire de magismologie"
   },
   "703": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "704": {
-    "chs": "陨石背阴地"
+    "chs": "陨石背阴地",
+    "en": "Dalamud's Shadow",
+    "ja": "メテオの陰地",
+    "de": "Meteoritenkrater",
+    "fr": "Ombrage du Météore"
   },
   "705": {
-    "chs": "乌尔达哈来生回廊"
+    "chs": "乌尔达哈来生回廊",
+    "en": "Ul'dah - Steps of Thal",
+    "ja": "ウルダハ：ザル回廊",
+    "de": "Thal-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Thal"
   },
   "706": {
-    "chs": "乌尔达哈来生回廊"
+    "chs": "乌尔达哈来生回廊",
+    "en": "Ul'dah - Steps of Thal",
+    "ja": "ウルダハ：ザル回廊",
+    "de": "Thal-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Thal"
   },
   "707": {
-    "chs": "禁忌城邦玛哈"
+    "chs": "禁忌城邦玛哈",
+    "en": "The Weeping City of Mhach",
+    "ja": "禁忌都市マハ",
+    "de": "Die Stadt der Tränen",
+    "fr": "Cité défendue de Mhach"
   },
   "708": {
-    "chs": "罗塔诺海"
+    "chs": "罗塔诺海",
+    "en": "Rhotano Sea",
+    "ja": "ロータノ海",
+    "de": "Rhotano-See",
+    "fr": "Mer de Rhotano"
   },
   "709": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "710": {
-    "chs": "黄金港"
+    "chs": "黄金港",
+    "en": "Kugane",
+    "ja": "クガネ",
+    "de": "Kugane",
+    "fr": "Kugane"
   },
   "711": {
-    "chs": "红玉海"
+    "chs": "红玉海",
+    "en": "The Ruby Sea",
+    "ja": "紅玉海",
+    "de": "Rubinsee",
+    "fr": "Mer de Rubis"
   },
   "712": {
-    "chs": "乌兹奈藏宝运河"
+    "chs": "乌兹奈藏宝运河",
+    "en": "The Lost Canals of Uznair",
+    "ja": "ウズネアカナル",
+    "de": "Kanäle von Uznair",
+    "fr": "Canaux perdus d'Uznair"
   },
   "713": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "714": {
-    "chs": "巴儿达木霸道"
+    "chs": "巴儿达木霸道",
+    "en": "Bardam's Mettle",
+    "ja": "バルダム覇道",
+    "de": "Bardams Probe",
+    "fr": "Force de Bardam"
   },
   "715": {
-    "chs": "翻云雾海"
+    "chs": "翻云雾海",
+    "en": "The Churning Mists",
+    "ja": "ドラヴァニア雲海",
+    "de": "Wallende Nebel",
+    "fr": "L'Écume des cieux de Dravania"
   },
   "716": {
-    "chs": "基拉巴尼亚山区"
+    "chs": "基拉巴尼亚山区",
+    "en": "The Peaks",
+    "ja": "ギラバニア山岳地帯",
+    "de": "Die Zinnen",
+    "fr": "Les Pics"
   },
   "717": {
-    "chs": "狼狱停船场"
+    "chs": "狼狱停船场",
+    "en": "Wolves' Den Pier",
+    "ja": "ウルヴズジェイル係船場",
+    "de": "Wolfshöhlen-Pier",
+    "fr": "Jetée de l'Antre des loups"
   },
   "718": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "719": {
-    "chs": "美神地下神殿"
+    "chs": "美神地下神殿",
+    "en": "Emanation",
+    "ja": "美神の地下神殿",
+    "de": "Heiligtum der Qalyana",
+    "fr": "Émanation"
   },
   "720": {
-    "chs": "美神地下神殿"
+    "chs": "美神地下神殿",
+    "en": "Emanation",
+    "ja": "美神の地下神殿",
+    "de": "Heiligtum der Qalyana",
+    "fr": "Émanation"
   },
   "721": {
-    "chs": "无限城古堡"
+    "chs": "无限城古堡",
+    "en": "Amdapor Keep",
+    "ja": "古城アムダプール",
+    "de": "Ruinen von Amdapor",
+    "fr": "Château d'Amdapor"
   },
   "722": {
-    "chs": "无限城市街古迹"
+    "chs": "无限城市街古迹",
+    "en": "The Lost City of Amdapor",
+    "ja": "古アムダプール市街",
+    "de": "Historisches Amdapor",
+    "fr": "Vestiges de la cité d'Amdapor"
   },
   "723": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "724": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "725": {
-    "chs": "乌兹奈藏宝运河"
+    "chs": "乌兹奈藏宝运河",
+    "en": "The Lost Canals of Uznair",
+    "ja": "ウズネアカナル",
+    "de": "Kanäle von Uznair",
+    "fr": "Canaux perdus d'Uznair"
   },
   "726": {
-    "chs": "红玉海"
+    "chs": "红玉海",
+    "en": "The Ruby Sea",
+    "ja": "紅玉海",
+    "de": "Rubinsee",
+    "fr": "Mer de Rubis"
   },
   "727": {
-    "chs": "阿拉米格王宫屋顶庭园"
+    "chs": "阿拉米格王宫屋顶庭园",
+    "en": "The Royal Menagerie",
+    "ja": "アラミゴ王宮屋上庭園",
+    "de": "Königliche Menagerie",
+    "fr": "Ménagerie royale"
   },
   "728": {
-    "chs": "陌迪翁牢狱"
+    "chs": "陌迪翁牢狱",
+    "en": "Mordion Gaol",
+    "ja": "モルディオン監獄",
+    "de": "Mordion-Kerker",
+    "fr": "Geôle de Mordion"
   },
   "729": {
-    "chs": "距骨研究所"
+    "chs": "距骨研究所",
+    "en": "Astragalos",
+    "ja": "アストラガロス",
+    "de": "Astragalos",
+    "fr": "Astragalos"
   },
   "730": {
-    "chs": "结晶化空间"
+    "chs": "结晶化空间",
+    "en": "Transparency",
+    "ja": "結晶化空間",
+    "de": "Raum der Transparenz",
+    "fr": "Transparence"
   },
   "731": {
-    "chs": "沉没神殿斯卡拉遗迹"
+    "chs": "沉没神殿斯卡拉遗迹",
+    "en": "The Drowned City of Skalla",
+    "ja": "スカラ",
+    "de": "Die versunkene Stadt Skalla",
+    "fr": "Cité engloutie de Skalla"
   },
   "732": {
-    "chs": "优雷卡常风之地"
+    "chs": "优雷卡常风之地",
+    "en": "Eureka Anemos",
+    "ja": "エウレカ：アネモス帯",
+    "de": "Eureka Anemos",
+    "fr": "Eurêka Anemos"
   },
   "733": {
-    "chs": "巴哈姆特大迷宫"
+    "chs": "巴哈姆特大迷宫",
+    "en": "The Binding Coil of Bahamut",
+    "ja": "大迷宮バハムート",
+    "de": "Die Verschlungenen Schatten von Bahamut",
+    "fr": "Abîme infini de Bahamut"
   },
   "734": {
-    "chs": "失落之都拉巴纳斯塔"
+    "chs": "失落之都拉巴纳斯塔",
+    "en": "The Royal City of Rabanastre",
+    "ja": "失われた都 ラバナスタ",
+    "de": "Die königliche Stadt Rabanastre",
+    "fr": "Cité royale de Rabanastre"
   },
   "735": {
-    "chs": "剧场艇初见号道具间"
+    "chs": "剧场艇初见号道具间",
+    "en": "The Prima Vista Tiring Room",
+    "ja": "劇場艇プリマビスタ・大道具部屋",
+    "de": "Theaterwerkstatt",
+    "fr": "Salle de répétition du Prima Vista"
   },
   "736": {
-    "chs": "剧场艇初见号舰桥"
+    "chs": "剧场艇初见号舰桥",
+    "en": "The Prima Vista Bridge",
+    "ja": "劇場艇プリマビスタ・ブリッジ",
+    "de": "Brücke",
+    "fr": "Pont du Prima Vista"
   },
   "737": {
-    "chs": "阿拉米格王宫"
+    "chs": "阿拉米格王宫",
+    "en": "Royal Palace",
+    "ja": "アラミゴ王宮",
+    "de": "Königlicher Palast",
+    "fr": "Palais royal d'Ala Mhigo"
   },
   "738": {
-    "chs": "超越技术研究所"
+    "chs": "超越技术研究所",
+    "en": "The Resonatorium",
+    "ja": "超越技術研究所",
+    "de": "Transzendenz-Laboratorium",
+    "fr": "Laboratoire impérial d'étude sur les Résonnants"
   },
   "739": {
-    "chs": "多玛飞地"
+    "chs": "多玛飞地",
+    "en": "The Doman Enclave",
+    "ja": "ドマ町人地",
+    "de": "Domanische Enklave",
+    "fr": "Quartier enclavé de Doma"
   },
   "740": {
-    "chs": "阿拉米格王宫屋顶庭园"
+    "chs": "阿拉米格王宫屋顶庭园",
+    "en": "The Royal Menagerie",
+    "ja": "アラミゴ王宮屋上庭園",
+    "de": "Königliche Menagerie",
+    "fr": "Ménagerie royale"
   },
   "741": {
-    "chs": "十二神大圣堂"
+    "chs": "十二神大圣堂",
+    "en": "Sanctum of the Twelve",
+    "ja": "十二神大聖堂",
+    "de": "Dom der Einkehr",
+    "fr": "Sanctuaire des Douze"
   },
   "742": {
-    "chs": "狱之盖"
+    "chs": "狱之盖",
+    "en": "Hells' Lid",
+    "ja": "獄之蓋",
+    "de": "Höllenspund",
+    "fr": "Couvercle des enfers"
   },
   "743": {
-    "chs": "无限回廊"
+    "chs": "无限回廊",
+    "en": "The Fractal Continuum",
+    "ja": "フラクタル・コンティニアム",
+    "de": "Die Fraktal-Kontinuum",
+    "fr": "Le Continuum fractal"
   },
   "744": {
-    "chs": "归燕馆"
+    "chs": "归燕馆",
+    "en": "Kienkan",
+    "ja": "帰燕館",
+    "de": "Kienkan",
+    "fr": "Kienkan"
   },
   "745": {
-    "chs": "水晶塔演习场"
+    "chs": "水晶塔演习场",
+    "en": "Crystal Tower Training Grounds",
+    "ja": "クリスタルタワー演習場",
+    "de": "Kristallturm-Arena",
+    "fr": "Arène de la Tour de Cristal"
   },
   "746": {
-    "chs": "白帝竹林"
+    "chs": "白帝竹林",
+    "en": "The Jade Stoa",
+    "ja": "白帝の竹林",
+    "de": "Jadelichtung",
+    "fr": "Clairière de Jade"
   },
   "748": {
-    "chs": "西格玛幻境1"
+    "chs": "西格玛幻境1",
+    "en": "Sigmascape V1.0",
+    "ja": "被検世界「シグマ」V1.0",
+    "de": "Sigmametrie 1.0",
+    "fr": "Sigmastice v1.0"
   },
   "749": {
-    "chs": "西格玛幻境2"
+    "chs": "西格玛幻境2",
+    "en": "Sigmascape V2.0",
+    "ja": "被検世界「シグマ」V2.0",
+    "de": "Sigmametrie 2.0",
+    "fr": "Sigmastice v2.0"
   },
   "750": {
-    "chs": "西格玛幻境3"
+    "chs": "西格玛幻境3",
+    "en": "Sigmascape V3.0",
+    "ja": "被検世界「シグマ」V3.0",
+    "de": "Sigmametrie 3.0",
+    "fr": "Sigmastice v3.0"
   },
   "751": {
-    "chs": "西格玛幻境4"
+    "chs": "西格玛幻境4",
+    "en": "Sigmascape V4.0",
+    "ja": "被検世界「シグマ」V4.0",
+    "de": "Sigmametrie 4.0",
+    "fr": "Sigmastice v4.0"
   },
   "752": {
-    "chs": "西格玛幻境1"
+    "chs": "西格玛幻境1",
+    "en": "Sigmascape V1.0",
+    "ja": "被検世界「シグマ」V1.0",
+    "de": "Sigmametrie 1.0",
+    "fr": "Sigmastice v1.0"
   },
   "753": {
-    "chs": "西格玛幻境2"
+    "chs": "西格玛幻境2",
+    "en": "Sigmascape V2.0",
+    "ja": "被検世界「シグマ」V2.0",
+    "de": "Sigmametrie 2.0",
+    "fr": "Sigmastice v2.0"
   },
   "754": {
-    "chs": "西格玛幻境3"
+    "chs": "西格玛幻境3",
+    "en": "Sigmascape V3.0",
+    "ja": "被検世界「シグマ」V3.0",
+    "de": "Sigmametrie 3.0",
+    "fr": "Sigmastice v3.0"
   },
   "755": {
-    "chs": "西格玛幻境4"
+    "chs": "西格玛幻境4",
+    "en": "Sigmascape V4.0",
+    "ja": "被検世界「シグマ」V4.0",
+    "de": "Sigmametrie 4.0",
+    "fr": "Sigmastice v4.0"
   },
   "756": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "757": {
-    "chs": "红玉海"
+    "chs": "红玉海",
+    "en": "The Ruby Sea",
+    "ja": "紅玉海",
+    "de": "Rubinsee",
+    "fr": "Mer de Rubis"
   },
   "758": {
-    "chs": "白帝竹林"
+    "chs": "白帝竹林",
+    "en": "The Jade Stoa",
+    "ja": "白帝の竹林",
+    "de": "Jadelichtung",
+    "fr": "Clairière de Jade"
   },
   "759": {
-    "chs": "多玛飞地"
+    "chs": "多玛飞地",
+    "en": "The Doman Enclave",
+    "ja": "ドマ町人地",
+    "de": "Domanische Enklave",
+    "fr": "Quartier enclavé de Doma"
   },
   "760": {
-    "chs": "基拉巴尼亚边区"
+    "chs": "基拉巴尼亚边区",
+    "en": "The Fringes",
+    "ja": "ギラバニア辺境地帯",
+    "de": "Abanisches Grenzland",
+    "fr": "Les Marges"
   },
   "761": {
-    "chs": "大草原猎场"
+    "chs": "大草原猎场",
+    "en": "The Great Hunt",
+    "ja": "大草原の狩場",
+    "de": "Revier des Rathalos",
+    "fr": "Domaine du roi des cieux"
   },
   "762": {
-    "chs": "大草原猎场"
+    "chs": "大草原猎场",
+    "en": "The Great Hunt",
+    "ja": "大草原の狩場",
+    "de": "Revier des Rathalos",
+    "fr": "Domaine du roi des cieux"
   },
   "763": {
-    "chs": "优雷卡恒冰之地"
+    "chs": "优雷卡恒冰之地",
+    "en": "Eureka Pagos",
+    "ja": "エウレカ：パゴス帯",
+    "de": "Eureka Pagos",
+    "fr": "Eurêka Pagos"
   },
   "764": {
-    "chs": "醴泉神社"
+    "chs": "醴泉神社",
+    "en": "Reisen Temple",
+    "ja": "醴泉神社境内",
+    "de": "Reisen-Schrein",
+    "fr": "Sanctuaire Reisen"
   },
   "765": {
-    "chs": "水晶塔演习场"
+    "chs": "水晶塔演习场",
+    "en": "Crystal Tower Training Grounds",
+    "ja": "クリスタルタワー演習場",
+    "de": "Kristallturm-Arena",
+    "fr": "Arène de la Tour de Cristal"
   },
   "766": {
-    "chs": "水晶塔演习场"
+    "chs": "水晶塔演习场",
+    "en": "Crystal Tower Training Grounds",
+    "ja": "クリスタルタワー演習場",
+    "de": "Kristallturm-Arena",
+    "fr": "Arène de la Tour de Cristal"
   },
   "767": {
-    "chs": "水晶塔演习场"
+    "chs": "水晶塔演习场",
+    "en": "Crystal Tower Training Grounds",
+    "ja": "クリスタルタワー演習場",
+    "de": "Kristallturm-Arena",
+    "fr": "Arène de la Tour de Cristal"
   },
   "768": {
-    "chs": "岩燕庙"
+    "chs": "岩燕庙",
+    "en": "The Swallow's Compass",
+    "ja": "ガンエン廟",
+    "de": "Kompass der Schwalbe",
+    "fr": "Compas de l'Hirondelle"
   },
   "769": {
-    "chs": "终末焦土"
+    "chs": "终末焦土",
+    "en": "The Burn",
+    "ja": "ザ・バーン",
+    "de": "Kargland",
+    "fr": "L'Escarre"
   },
   "770": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "771": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "772": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "773": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "774": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "775": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "776": {
-    "chs": "封闭圣塔黎铎拉纳大灯塔"
+    "chs": "封闭圣塔黎铎拉纳大灯塔",
+    "en": "The Ridorana Lighthouse",
+    "ja": "封じられた聖塔 リドルアナ",
+    "de": "Richtfeuer von Ridorana",
+    "fr": "Le Phare de Ridorana"
   },
   "777": {
-    "chs": "禁绝幻想"
+    "chs": "禁绝幻想",
+    "en": "Ultimacy",
+    "ja": "禁絶幻想",
+    "de": "Endgültigkeit",
+    "fr": "Fantasmagorie d'Ultima"
   },
   "778": {
-    "chs": "帝国河畔堡"
+    "chs": "帝国河畔堡",
+    "en": "Castrum Fluminis",
+    "ja": "カストルム・フルーミニス",
+    "de": "Castrum Fluminis",
+    "fr": "Castrum Fluminis"
   },
   "779": {
-    "chs": "帝国河畔堡"
+    "chs": "帝国河畔堡",
+    "en": "Castrum Fluminis",
+    "ja": "カストルム・フルーミニス",
+    "de": "Castrum Fluminis",
+    "fr": "Castrum Fluminis"
   },
   "780": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "781": {
-    "chs": "醴泉神社神道"
+    "chs": "醴泉神社神道",
+    "en": "Reisen Temple Road",
+    "ja": "醴泉神社参道",
+    "de": "Reisen-Schreinweg",
+    "fr": "Chemin du sanctuaire Reisen"
   },
   "782": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "783": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "784": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "785": {
-    "chs": "天之御柱"
+    "chs": "天之御柱",
+    "en": "Heaven-on-High",
+    "ja": "アメノミハシラ",
+    "de": "Himmelssäule",
+    "fr": "Pilier des Cieux"
   },
   "786": {
-    "chs": "帝国河畔堡"
+    "chs": "帝国河畔堡",
+    "en": "Castrum Fluminis",
+    "ja": "カストルム・フルーミニス",
+    "de": "Castrum Fluminis",
+    "fr": "Castrum Fluminis"
   },
   "787": {
-    "chs": "黎铎拉纳大瀑布"
+    "chs": "黎铎拉纳大瀑布",
+    "en": "The Ridorana Cataract",
+    "ja": "リドルアナ大瀑布",
+    "de": "Ridorana-Katarakt",
+    "fr": "Cataractes de Ridorana"
   },
   "788": {
-    "chs": "圣茉夏娜植物园"
+    "chs": "圣茉夏娜植物园",
+    "en": "Saint Mocianne's Arboretum",
+    "ja": "聖モシャーヌ植物園",
+    "de": "Sankt Mocianne-Arboretum",
+    "fr": "Arboretum Sainte-Mocianne"
   },
   "789": {
-    "chs": "终末焦土"
+    "chs": "终末焦土",
+    "en": "The Burn",
+    "ja": "ザ・バーン",
+    "de": "Kargland",
+    "fr": "L'Escarre"
   },
   "790": {
-    "chs": "乌尔达哈现世回廊"
+    "chs": "乌尔达哈现世回廊",
+    "en": "Ul'dah - Steps of Nald",
+    "ja": "ウルダハ：ナル回廊",
+    "de": "Nald-Kreuzgang",
+    "fr": "Ul'dah - Faubourg de Nald"
   },
   "791": {
-    "chs": "隐塞"
+    "chs": "隐塞",
+    "en": "Hidden Gorge",
+    "ja": "ヒドゥンゴージ",
+    "de": "Verborgene Schlucht",
+    "fr": "Gorge dérobée"
   },
   "792": {
-    "chs": "贝拉哈迪亚遗迹风格运动设施"
+    "chs": "贝拉哈迪亚遗迹风格运动设施",
+    "en": "The Fall of Belah'dia",
+    "ja": "ベラフディア遺跡風特設アスレチック",
+    "de": "Belah'dias Fall",
+    "fr": "Chutes de Belah'dia"
   },
   "793": {
-    "chs": "基姆利特暗区"
+    "chs": "基姆利特暗区",
+    "en": "The Ghimlyt Dark",
+    "ja": "ギムリトダーク",
+    "de": "Ghimlyt-Finsternis",
+    "fr": "Les Ténèbres de Ghimlyt"
   },
   "794": {
-    "chs": "乌兹奈藏宝运河神殿"
+    "chs": "乌兹奈藏宝运河神殿",
+    "en": "The Shifting Altars of Uznair",
+    "ja": "ウズネアカナル祭殿",
+    "de": "Halle der Glücksaltäre",
+    "fr": "Temple sacré d'Uznair"
   },
   "795": {
-    "chs": "优雷卡涌火之地"
+    "chs": "优雷卡涌火之地",
+    "en": "Eureka Pyros",
+    "ja": "エウレカ：ピューロス帯",
+    "de": "Eureka Pyros",
+    "fr": "Eurêka Pyros"
   },
   "796": {
-    "chs": "天青斗场"
+    "chs": "天青斗场",
+    "en": "Blue Sky",
+    "ja": "ブルースカイ",
+    "de": "Himmlische Arena",
+    "fr": "Ciel azur"
   },
   "797": {
-    "chs": "太阳神草原"
+    "chs": "太阳神草原",
+    "en": "The Azim Steppe",
+    "ja": "アジムステップ",
+    "de": "Azim-Steppe",
+    "fr": "Steppe d'Azim"
   },
   "798": {
-    "chs": "普西幻境1"
+    "chs": "普西幻境1",
+    "en": "Psiscape V1.0",
+    "ja": "被検世界「プサイ」V1.0",
+    "de": "Psimetrie 1.0",
+    "fr": "Psistice v1.0"
   },
   "799": {
-    "chs": "普西幻境2"
+    "chs": "普西幻境2",
+    "en": "Psiscape V2.0",
+    "ja": "被検世界「プサイ」V2.0",
+    "de": "Psimetrie 2.0",
+    "fr": "Psistice v2.0"
   },
   "800": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "801": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "802": {
-    "chs": "普西幻境1"
+    "chs": "普西幻境1",
+    "en": "Psiscape V1.0",
+    "ja": "被検世界「プサイ」V1.0",
+    "de": "Psimetrie 1.0",
+    "fr": "Psistice v1.0"
   },
   "803": {
-    "chs": "普西幻境2"
+    "chs": "普西幻境2",
+    "en": "Psiscape V2.0",
+    "ja": "被検世界「プサイ」V2.0",
+    "de": "Psimetrie 2.0",
+    "fr": "Psistice v2.0"
   },
   "804": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "805": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "806": {
-    "chs": "黄金大桥"
+    "chs": "黄金大桥",
+    "en": "Kugane Ohashi",
+    "ja": "クガネ大橋",
+    "de": "Kugane-Brücke",
+    "fr": "Pont Ohashi"
   },
   "807": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "808": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "809": {
-    "chs": "亡灵府邸闹鬼庄园"
+    "chs": "亡灵府邸闹鬼庄园",
+    "en": "Haunted Manor",
+    "ja": "亡霊屋敷 ホーンテッドマナー",
+    "de": "Geisterschloss",
+    "fr": "Manoir hanté"
   },
   "810": {
-    "chs": "狱之底"
+    "chs": "狱之底",
+    "en": "Hells' Kier",
+    "ja": "獄之底",
+    "de": "Höllengrund",
+    "fr": "Fond des enfers"
   },
   "811": {
-    "chs": "狱之底"
+    "chs": "狱之底",
+    "en": "Hells' Kier",
+    "ja": "獄之底",
+    "de": "Höllengrund",
+    "fr": "Fond des enfers"
   },
   "812": {
-    "chs": "时空狭缝"
+    "chs": "时空狭缝",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
   },
   "813": {
-    "chs": "雷克兰德"
+    "chs": "雷克兰德",
+    "en": "Lakeland",
+    "ja": "レイクランド",
+    "de": "Seenland",
+    "fr": "Grand-Lac"
   },
   "814": {
-    "chs": "珂露西亚岛"
+    "chs": "珂露西亚岛",
+    "en": "Kholusia",
+    "ja": "コルシア島",
+    "de": "Kholusia",
+    "fr": "Kholusia"
   },
   "815": {
-    "chs": "安穆·艾兰"
+    "chs": "安穆·艾兰",
+    "en": "Amh Araeng",
+    "ja": "アム・アレーン",
+    "de": "Amh Araeng",
+    "fr": "Amh Araeng"
   },
   "816": {
-    "chs": "伊尔美格"
+    "chs": "伊尔美格",
+    "en": "Il Mheg",
+    "ja": "イル・メグ",
+    "de": "Il Mheg",
+    "fr": "Il Mheg"
   },
   "817": {
-    "chs": "拉凯提卡大森林"
+    "chs": "拉凯提卡大森林",
+    "en": "The Rak'tika Greatwood",
+    "ja": "ラケティカ大森林",
+    "de": "Der Große Wald Rak'tika",
+    "fr": "Rak'tika"
   },
   "818": {
-    "chs": "黑风海"
+    "chs": "黑风海",
+    "en": "The Tempest",
+    "ja": "テンペスト",
+    "de": "Tempest",
+    "fr": "La Tempête"
   },
   "819": {
-    "chs": "水晶都"
+    "chs": "水晶都",
+    "en": "The Crystarium",
+    "ja": "クリスタリウム",
+    "de": "Crystarium",
+    "fr": "Cristarium"
   },
   "820": {
-    "chs": "游末邦"
+    "chs": "游末邦",
+    "en": "Eulmore",
+    "ja": "ユールモア",
+    "de": "Eulmore",
+    "fr": "Eulmore"
   },
   "821": {
-    "chs": "多恩美格禁园"
+    "chs": "多恩美格禁园",
+    "en": "Dohn Mheg",
+    "ja": "ドォーヌ・メグ",
+    "de": "Dohn Mheg",
+    "fr": "Dohn Mheg"
   },
   "822": {
-    "chs": "格鲁格火山"
+    "chs": "格鲁格火山",
+    "en": "Mt. Gulg",
+    "ja": "グルグ火山",
+    "de": "Gulg",
+    "fr": "Mont Gulg"
   },
   "823": {
-    "chs": "奇坦那神影洞"
+    "chs": "奇坦那神影洞",
+    "en": "The Qitana Ravel",
+    "ja": "キタンナ神影洞",
+    "de": "Irrungen der Qitari",
+    "fr": "Enchevêtrement des Qitari"
   },
   "824": {
-    "chs": "蛇神大社"
+    "chs": "蛇神大社",
+    "en": "The Wreath of Snakes",
+    "ja": "蛇神大社",
+    "de": "Heiligtum der Schlange",
+    "fr": "Sanctuaire du Grand Serpent"
   },
   "825": {
-    "chs": "蛇神大社"
+    "chs": "蛇神大社",
+    "en": "The Wreath of Snakes",
+    "ja": "蛇神大社",
+    "de": "Heiligtum der Schlange",
+    "fr": "Sanctuaire du Grand Serpent"
   },
   "826": {
-    "chs": "乐欲之所瓯博讷修道院"
+    "chs": "乐欲之所瓯博讷修道院",
+    "en": "The Orbonne Monastery",
+    "ja": "楽欲の僧院 オーボンヌ",
+    "de": "Kloster von Orbonne",
+    "fr": "Monastère d'Orbonne"
   },
   "827": {
-    "chs": "优雷卡丰水之地"
+    "chs": "优雷卡丰水之地",
+    "en": "Eureka Hydatos",
+    "ja": "エウレカ：ヒュダトス帯",
+    "de": "Eureka Hydatos",
+    "fr": "Eurêka Hydatos"
   },
   "828": {
-    "chs": "剧场艇初见号道具间"
+    "chs": "剧场艇初见号道具间",
+    "en": "The Prima Vista Tiring Room",
+    "ja": "劇場艇プリマビスタ・大道具部屋",
+    "de": "Theaterwerkstatt",
+    "fr": "Salle de répétition du Prima Vista"
   },
   "829": {
-    "chs": "艾欧泽亚同盟军大本营"
+    "chs": "艾欧泽亚同盟军大本营",
+    "en": "Eorzean Alliance Headquarters",
+    "ja": "エオルゼア同盟軍本陣",
+    "de": "Hauptquartier der Allianz",
+    "fr": "Quartier général de l'Alliance"
   },
   "830": {
-    "chs": "基姆利特暗区"
+    "chs": "基姆利特暗区",
+    "en": "The Ghimlyt Dark",
+    "ja": "ギムリトダーク",
+    "de": "Ghimlyt-Finsternis",
+    "fr": "Les Ténèbres de Ghimlyt"
   },
   "831": {
-    "chs": "曼德维尔魔导方城"
+    "chs": "曼德维尔魔导方城",
+    "en": "The Manderville Tables",
+    "ja": "魔導雀荘「マンダヴィル」",
+    "de": "Manderville-Tische",
+    "fr": "Tables des Manderville"
   },
   "832": {
-    "chs": "金碟游乐场"
+    "chs": "金碟游乐场",
+    "en": "The Gold Saucer",
+    "ja": "ゴールドソーサー",
+    "de": "Gold Saucer",
+    "fr": "Gold Saucer"
   },
   "833": {
-    "chs": "呼啸眼外围"
+    "chs": "呼啸眼外围",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ外縁",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil (abord)"
   },
   "834": {
-    "chs": "呼啸眼石塔群"
+    "chs": "呼啸眼石塔群",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ石塔群",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil"
   },
   "836": {
-    "chs": "马利卡大井"
+    "chs": "马利卡大井",
+    "en": "Malikah's Well",
+    "ja": "マリカの大井戸",
+    "de": "Malikahs Brunnen",
+    "fr": "Puits de Malikah"
   },
   "837": {
-    "chs": "水滩村"
+    "chs": "水滩村",
+    "en": "Holminster Switch",
+    "ja": "ホルミンスター",
+    "de": "Holminster",
+    "fr": "Holminster"
   },
   "838": {
-    "chs": "亚马乌罗提"
+    "chs": "亚马乌罗提",
+    "en": "Amaurot",
+    "ja": "アーモロート",
+    "de": "Amaurot",
+    "fr": "Amaurote"
   },
   "839": {
-    "chs": "黑衣森林东部林区"
+    "chs": "黑衣森林东部林区",
+    "en": "East Shroud",
+    "ja": "黒衣森：東部森林",
+    "de": "Ostwald",
+    "fr": "Forêt de l'est"
   },
   "840": {
-    "chs": "希尔科斯孪晶塔"
+    "chs": "希尔科斯孪晶塔",
+    "en": "The Twinning",
+    "ja": "シルクス・ツイニング",
+    "de": "Kristallzwilling",
+    "fr": "Macle de Syrcus"
   },
   "841": {
-    "chs": "阿尼德罗学院"
+    "chs": "阿尼德罗学院",
+    "en": "Akadaemia Anyder",
+    "ja": "アナイダアカデミア",
+    "de": "Akadaemia Anyder",
+    "fr": "Akadaemia Anydre"
   },
   "842": {
-    "chs": "希尔科斯峡谷"
+    "chs": "希尔科斯峡谷",
+    "en": "The Syrcus Trench",
+    "ja": "シルクスの峡間",
+    "de": "Syrcus-Schlucht",
+    "fr": "Gorge de Syrcus"
   },
   "843": {
-    "chs": "悬挂公馆起居室"
+    "chs": "悬挂公馆起居室",
+    "en": "The Pendants Personal Suite",
+    "ja": "ペンダント居住館：居室",
+    "de": "Isomorph-Quartiere",
+    "fr": "Les Pendants"
   },
   "844": {
-    "chs": "观星室"
+    "chs": "观星室",
+    "en": "The Ocular",
+    "ja": "星見の間 ",
+    "de": "Okular",
+    "fr": "L'Observatoire"
   },
   "845": {
-    "chs": "妖灵王舞场"
+    "chs": "妖灵王舞场",
+    "en": "The Dancing Plague",
+    "ja": "妖精王の舞踏場",
+    "de": "Königlicher Tanzgarten",
+    "fr": "Salle de bal de Titania"
   },
   "846": {
-    "chs": "完璧王座"
+    "chs": "完璧王座",
+    "en": "The Crown of the Immaculate",
+    "ja": "イマキュレートクラウン",
+    "de": "Strahlenkranz der Makellosigkeit",
+    "fr": "Couronne de l'Immaculé"
   },
   "847": {
-    "chs": "末日亚马乌罗提"
+    "chs": "末日亚马乌罗提",
+    "en": "The Dying Gasp",
+    "ja": "終末のアーモロート",
+    "de": "Die Letzten Tage von Amaurot",
+    "fr": "Râle de l'Agonie"
   },
   "848": {
-    "chs": "完璧王座"
+    "chs": "完璧王座",
+    "en": "The Crown of the Immaculate",
+    "ja": "イマキュレートクラウン",
+    "de": "Strahlenkranz der Makellosigkeit",
+    "fr": "Couronne de l'Immaculé"
   },
   "849": {
-    "chs": "伊甸内核"
+    "chs": "伊甸内核",
+    "en": "The Core",
+    "ja": "エデンコア",
+    "de": "Das Herz",
+    "fr": "Cœur d'Éden"
   },
   "850": {
-    "chs": "伊甸甲板"
+    "chs": "伊甸甲板",
+    "en": "The Halo",
+    "ja": "エデン甲板",
+    "de": "Das Deck",
+    "fr": "Halo pinaculaire"
   },
   "851": {
-    "chs": "涅柔斯海渊"
+    "chs": "涅柔斯海渊",
+    "en": "The Nereus Trench",
+    "ja": "ネレウス海淵",
+    "de": "Nereus-Graben",
+    "fr": "Fosse de Nérée"
   },
   "852": {
-    "chs": "阿特拉斯山顶"
+    "chs": "阿特拉斯山顶",
+    "en": "Atlas Peak",
+    "ja": "アトラス山頂",
+    "de": "Atlas-Gipfel",
+    "fr": "Mont Atlas"
   },
   "853": {
-    "chs": "伊甸内核"
+    "chs": "伊甸内核",
+    "en": "The Core",
+    "ja": "エデンコア",
+    "de": "Das Herz",
+    "fr": "Cœur d'Éden"
   },
   "854": {
-    "chs": "伊甸甲板"
+    "chs": "伊甸甲板",
+    "en": "The Halo",
+    "ja": "エデン甲板",
+    "de": "Das Deck",
+    "fr": "Halo pinaculaire"
   },
   "855": {
-    "chs": "涅柔斯海渊"
+    "chs": "涅柔斯海渊",
+    "en": "The Nereus Trench",
+    "ja": "ネレウス海淵",
+    "de": "Nereus-Graben",
+    "fr": "Fosse de Nérée"
   },
   "856": {
-    "chs": "阿特拉斯山顶"
+    "chs": "阿特拉斯山顶",
+    "en": "Atlas Peak",
+    "ja": "アトラス山頂",
+    "de": "Atlas-Gipfel",
+    "fr": "Mont Atlas"
   },
   "857": {
-    "chs": "伊甸内核"
+    "chs": "伊甸内核",
+    "en": "The Core",
+    "ja": "エデンコア",
+    "de": "Das Herz",
+    "fr": "Cœur d'Éden"
   },
   "858": {
-    "chs": "妖灵王舞场"
+    "chs": "妖灵王舞场",
+    "en": "The Dancing Plague",
+    "ja": "妖精王の舞踏場",
+    "de": "Königlicher Tanzgarten",
+    "fr": "Salle de bal de Titania"
   },
   "859": {
-    "chs": "大图帕萨礼拜堂"
+    "chs": "大图帕萨礼拜堂",
+    "en": "The Confessional of Toupasa the Elder",
+    "ja": "大トゥパサの崇神所",
+    "de": "Beichtstuhl von Toupasa dem Älteren",
+    "fr": "Confessionnal de Toupasa l'ancien"
   },
   "860": {
-    "chs": "安穆·艾兰"
+    "chs": "安穆·艾兰",
+    "en": "Amh Araeng",
+    "ja": "アム・アレーン",
+    "de": "Amh Araeng",
+    "fr": "Amh Araeng"
   },
   "861": {
-    "chs": "雷克兰德"
+    "chs": "雷克兰德",
+    "en": "Lakeland",
+    "ja": "レイクランド",
+    "de": "Seenland",
+    "fr": "Grand-Lac"
   },
   "862": {
-    "chs": "雷克兰德"
+    "chs": "雷克兰德",
+    "en": "Lakeland",
+    "ja": "レイクランド",
+    "de": "Seenland",
+    "fr": "Grand-Lac"
   },
   "863": {
-    "chs": "游末邦"
+    "chs": "游末邦",
+    "en": "Eulmore",
+    "ja": "ユールモア",
+    "de": "Eulmore",
+    "fr": "Eulmore"
   },
   "864": {
-    "chs": "珂露西亚岛"
+    "chs": "珂露西亚岛",
+    "en": "Kholusia",
+    "ja": "コルシア島",
+    "de": "Kholusia",
+    "fr": "Kholusia"
   },
   "865": {
-    "chs": "格里达尼亚旧街"
+    "chs": "格里达尼亚旧街",
+    "en": "Old Gridania",
+    "ja": "グリダニア：旧市街",
+    "de": "Alt-Gridania",
+    "fr": "Vieille Gridania"
   },
   "866": {
-    "chs": "库尔札斯西部高地"
+    "chs": "库尔札斯西部高地",
+    "en": "Coerthas Western Highlands",
+    "ja": "クルザス西部高地",
+    "de": "Westliches Hochland von Coerthas",
+    "fr": "Hautes terres du Coerthas occidental"
   },
   "867": {
-    "chs": "东拉诺西亚"
+    "chs": "东拉诺西亚",
+    "en": "Eastern La Noscea",
+    "ja": "東ラノシア",
+    "de": "Östliches La Noscea",
+    "fr": "Noscea orientale"
   },
   "868": {
-    "chs": "基拉巴尼亚山区"
+    "chs": "基拉巴尼亚山区",
+    "en": "The Peaks",
+    "ja": "ギラバニア山岳地帯",
+    "de": "Die Zinnen",
+    "fr": "Les Pics"
   },
   "869": {
-    "chs": "伊尔美格"
+    "chs": "伊尔美格",
+    "en": "Il Mheg",
+    "ja": "イル・メグ",
+    "de": "Il Mheg",
+    "fr": "Il Mheg"
   },
   "870": {
-    "chs": "珂露西亚岛"
+    "chs": "珂露西亚岛",
+    "en": "Kholusia",
+    "ja": "コルシア島",
+    "de": "Kholusia",
+    "fr": "Kholusia"
   },
   "871": {
-    "chs": "拉凯提卡大森林"
+    "chs": "拉凯提卡大森林",
+    "en": "The Rak'tika Greatwood",
+    "ja": "ラケティカ大森林",
+    "de": "Der Große Wald Rak'tika",
+    "fr": "Rak'tika"
   },
   "872": {
-    "chs": "安穆·艾兰"
+    "chs": "安穆·艾兰",
+    "en": "Amh Araeng",
+    "ja": "アム・アレーン",
+    "de": "Amh Araeng",
+    "fr": "Amh Araeng"
   },
   "873": {
-    "chs": "妖灵王舞场"
+    "chs": "妖灵王舞场",
+    "en": "The Dancing Plague",
+    "ja": "妖精王の舞踏場",
+    "de": "Königlicher Tanzgarten",
+    "fr": "Salle de bal de Titania"
   },
   "874": {
-    "chs": "拉凯提卡大森林"
+    "chs": "拉凯提卡大森林",
+    "en": "The Rak'tika Greatwood",
+    "ja": "ラケティカ大森林",
+    "de": "Der Große Wald Rak'tika",
+    "fr": "Rak'tika"
   },
   "875": {
-    "chs": "拉凯提卡大森林"
+    "chs": "拉凯提卡大森林",
+    "en": "The Rak'tika Greatwood",
+    "ja": "ラケティカ大森林",
+    "de": "Der Große Wald Rak'tika",
+    "fr": "Rak'tika"
   },
   "876": {
-    "chs": "拿巴示矿山"
+    "chs": "拿巴示矿山",
+    "en": "The Nabaath Mines",
+    "ja": "ナバース家の鉱山",
+    "de": "Nabaath-Mine",
+    "fr": "Mines des Nabaath"
   },
   "877": {
-    "chs": "雷克兰德"
+    "chs": "雷克兰德",
+    "en": "Lakeland",
+    "ja": "レイクランド",
+    "de": "Seenland",
+    "fr": "Grand-Lac"
   },
   "878": {
-    "chs": "空无大地"
+    "chs": "空无大地",
+    "en": "The Empty",
+    "ja": "無の大地",
+    "de": "Die Große Leere",
+    "fr": "Le Grand Vide"
   },
   "879": {
-    "chs": "梦羽宝境"
+    "chs": "梦羽宝境",
+    "en": "The Dungeons of Lyhe Ghiah",
+    "ja": "リェー・ギア・ダンジョン",
+    "de": "Verliese von Lyhe Ghiah",
+    "fr": "Donjon hypogéen du Lyhe Ghiah"
   },
   "880": {
-    "chs": "完璧王座"
+    "chs": "完璧王座",
+    "en": "The Crown of the Immaculate",
+    "ja": "イマキュレートクラウン",
+    "de": "Strahlenkranz der Makellosigkeit",
+    "fr": "Couronne de l'Immaculé"
   },
   "881": {
-    "chs": "末日亚马乌罗提"
+    "chs": "末日亚马乌罗提",
+    "en": "The Dying Gasp",
+    "ja": "終末のアーモロート",
+    "de": "Die Letzten Tage von Amaurot",
+    "fr": "Râle de l'Agonie"
   },
   "882": {
-    "chs": "复制工厂废墟"
+    "chs": "复制工厂废墟",
+    "en": "The Copied Factory",
+    "ja": "複製サレタ工場廃墟",
+    "de": "Die kopierte Fabrik",
+    "fr": "Réplique de l'usine désaffectée"
   },
   "884": {
-    "chs": "宇宙宫"
+    "chs": "宇宙宫",
+    "en": "The Grand Cosmos",
+    "ja": "グラン・コスモス",
+    "de": "Chateau Cosmea",
+    "fr": "Cosmos coruscant"
   },
   "885": {
-    "chs": "末日亚马乌罗提"
+    "chs": "末日亚马乌罗提",
+    "en": "The Dying Gasp",
+    "ja": "終末のアーモロート",
+    "de": "Die Letzten Tage von Amaurot",
+    "fr": "Râle de l'Agonie"
   },
   "886": {
-    "chs": "天穹街"
+    "chs": "天穹街",
+    "en": "The Firmament",
+    "ja": "蒼天街",
+    "de": "Himmelsstadt",
+    "fr": "Azurée"
   },
   "887": {
-    "chs": "差分闭合宇宙"
+    "chs": "差分闭合宇宙",
+    "en": "Liminal Space",
+    "ja": "階差閉宇宙",
+    "de": "Geschlossene Raumzeit",
+    "fr": "Univers différentiel"
   },
   "888": {
-    "chs": "昂萨哈凯尔"
+    "chs": "昂萨哈凯尔",
+    "en": "Onsal Hakair",
+    "ja": "オンサル・ハカイル",
+    "de": "Onsal Hakair",
+    "fr": "Onsal Hakair"
   },
   "889": {
-    "chs": "丽耶美格梦园"
+    "chs": "丽耶美格梦园",
+    "en": "Lyhe Mheg",
+    "ja": "リェー・メグ",
+    "de": "Lyhe Mheg",
+    "fr": "Lyhe Mheg"
   },
   "890": {
-    "chs": "丽耶美格梦园"
+    "chs": "丽耶美格梦园",
+    "en": "Lyhe Mheg",
+    "ja": "リェー・メグ",
+    "de": "Lyhe Mheg",
+    "fr": "Lyhe Mheg"
   },
   "891": {
-    "chs": "丽耶美格梦园"
+    "chs": "丽耶美格梦园",
+    "en": "Lyhe Mheg",
+    "ja": "リェー・メグ",
+    "de": "Lyhe Mheg",
+    "fr": "Lyhe Mheg"
   },
   "892": {
-    "chs": "丽耶美格梦园"
+    "chs": "丽耶美格梦园",
+    "en": "Lyhe Mheg",
+    "ja": "リェー・メグ",
+    "de": "Lyhe Mheg",
+    "fr": "Lyhe Mheg"
   },
   "893": {
-    "chs": "帝都魔导城"
+    "chs": "帝都魔导城",
+    "en": "The Imperial Palace",
+    "ja": "帝都魔導城",
+    "de": "Kaiserpalast",
+    "fr": "Palais impérial"
   },
   "894": {
-    "chs": "丽耶美格梦园"
+    "chs": "丽耶美格梦园",
+    "en": "Lyhe Mheg",
+    "ja": "リェー・メグ",
+    "de": "Lyhe Mheg",
+    "fr": "Lyhe Mheg"
   },
   "895": {
-    "chs": "机械遗迹坑道"
+    "chs": "机械遗迹坑道",
+    "en": "Excavation Tunnels",
+    "ja": "機械遺跡の坑道",
+    "de": "Alter Stollen",
+    "fr": "Entrée des ruines mécaniques"
   },
   "896": {
-    "chs": "复制工厂废墟"
+    "chs": "复制工厂废墟",
+    "en": "The Copied Factory",
+    "ja": "複製サレタ工場廃墟",
+    "de": "Die kopierte Fabrik",
+    "fr": "Réplique de l'usine désaffectée"
   },
   "897": {
-    "chs": "基姆利特防线"
+    "chs": "基姆利特防线",
+    "en": "Cinder Drift",
+    "ja": "ギムリト防衛ライン",
+    "de": "Verteidigungslinie Ghimlyt",
+    "fr": "Les Nuées de Brandons"
   },
   "898": {
-    "chs": "阿尼德罗追忆馆"
+    "chs": "阿尼德罗追忆馆",
+    "en": "Anamnesis Anyder",
+    "ja": "アニドラス・アナムネーシス",
+    "de": "Anamnesis Anyder",
+    "fr": "Anamnesis Anydre"
   },
   "899": {
-    "chs": "尼姆浮游遗迹风格运动设施"
+    "chs": "尼姆浮游遗迹风格运动设施",
+    "en": "The Falling City of Nym",
+    "ja": "ニーム浮遊遺跡風特設アスレチック",
+    "de": "Schwebende Stadt Nym",
+    "fr": "Cité croulante de Nym"
   },
   "900": {
-    "chs": "努力号"
+    "chs": "努力号",
+    "en": "The Endeavor",
+    "ja": "エンデバー号",
+    "de": "Die Endeavor",
+    "fr": "L'Ambition"
   },
   "901": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "902": {
-    "chs": "甘多夫雷平原"
+    "chs": "甘多夫雷平原",
+    "en": "The Gandof Thunder Plains",
+    "ja": "ガンドフ雷平原",
+    "de": "Gandoph-Donnersteppe",
+    "fr": "Plaine foudroyée de Gandof"
   },
   "903": {
-    "chs": "灰扬旅路"
+    "chs": "灰扬旅路",
+    "en": "Ashfall",
+    "ja": "灰の旅程",
+    "de": "Aschenfall",
+    "fr": "Bassin cendreux"
   },
   "904": {
-    "chs": "伊甸甲板"
+    "chs": "伊甸甲板",
+    "en": "The Halo",
+    "ja": "エデン甲板",
+    "de": "Das Deck",
+    "fr": "Pont supérieur d'Éden"
   },
   "905": {
-    "chs": "大冰河"
+    "chs": "大冰河",
+    "en": "Great Glacier",
+    "ja": "大氷河",
+    "de": "Gletscher",
+    "fr": "Grand Glacier"
   },
   "906": {
-    "chs": "甘多夫雷平原"
+    "chs": "甘多夫雷平原",
+    "en": "The Gandof Thunder Plains",
+    "ja": "ガンドフ雷平原",
+    "de": "Gandoph-Donnersteppe",
+    "fr": "Plaine foudroyée de Gandof"
   },
   "907": {
-    "chs": "灰扬旅路"
+    "chs": "灰扬旅路",
+    "en": "Ashfall",
+    "ja": "灰の旅程",
+    "de": "Aschenfall",
+    "fr": "Bassin cendreux"
   },
   "908": {
-    "chs": "伊甸甲板"
+    "chs": "伊甸甲板",
+    "en": "The Halo",
+    "ja": "エデン甲板",
+    "de": "Das Deck",
+    "fr": "Pont supérieur d'Éden"
   },
   "909": {
-    "chs": "大冰河"
+    "chs": "大冰河",
+    "en": "Great Glacier",
+    "ja": "大氷河",
+    "de": "Gletscher",
+    "fr": "Grand Glacier"
   },
   "911": {
-    "chs": "西德的记忆空间"
+    "chs": "西德的记忆空间",
+    "en": "Cid's Memory",
+    "ja": "シドの記憶空間",
+    "de": "Cids Gedächtnis",
+    "fr": "Mémoire de Cid"
   },
   "912": {
-    "chs": "基姆利特防线"
+    "chs": "基姆利特防线",
+    "en": "Cinder Drift",
+    "ja": "ギムリト防衛ライン",
+    "de": "Verteidigungslinie Ghimlyt",
+    "fr": "Les Nuées de Brandons"
   },
   "913": {
-    "chs": "通信雷波塔控制室"
+    "chs": "通信雷波塔控制室",
+    "en": "Transmission Control",
+    "ja": "交信雷波塔管制室",
+    "de": "Signalkontrollstation",
+    "fr": "Salle de contrôle"
   },
   "914": {
-    "chs": "试炼前室"
+    "chs": "试炼前室",
+    "en": "Trial's Threshold",
+    "ja": "徳測りし前室",
+    "de": "Halle der Prüfung",
+    "fr": "Antichambre de l'épreuve"
   },
   "915": {
-    "chs": "甘戈斯"
+    "chs": "甘戈斯",
+    "en": "Gangos",
+    "ja": "ガンゴッシュ",
+    "de": "Gangos",
+    "fr": "Gangos"
   },
   "916": {
-    "chs": "暗影决战诺弗兰特"
+    "chs": "暗影决战诺弗兰特",
+    "en": "The Heroes' Gauntlet",
+    "ja": "漆黒決戦 ノルヴラント",
+    "de": "Schlacht um Norvrandt",
+    "fr": "Traversée de Norvrandt"
   },
   "917": {
-    "chs": "人偶军事基地"
+    "chs": "人偶军事基地",
+    "en": "The Puppets' Bunker",
+    "ja": "人形タチノ軍事基地",
+    "de": "Die Puppenfestung",
+    "fr": "Base militaire des Pantins"
   },
   "918": {
-    "chs": "阿尼德罗追忆馆"
+    "chs": "阿尼德罗追忆馆",
+    "en": "Anamnesis Anyder",
+    "ja": "アニドラス・アナムネーシス",
+    "de": "Anamnesis Anyder",
+    "fr": "Anamnesis Anydre"
   },
   "919": {
-    "chs": "燕鸥崖"
+    "chs": "燕鸥崖",
+    "en": "Terncliff",
+    "ja": "ターンクリフ",
+    "de": "Wendeklipp",
+    "fr": "Rocasternes"
   },
   "920": {
-    "chs": "南方博兹雅战线"
+    "chs": "南方博兹雅战线",
+    "en": "Bozjan Southern Front",
+    "ja": "南方ボズヤ戦線",
+    "de": "Bozja-Südfront",
+    "fr": "Front sud de Bozja"
   },
   "921": {
-    "chs": "福隆戴尔药学院儿科病房"
+    "chs": "福隆戴尔药学院儿科病房",
+    "en": "Frondale's Home for Friendless Foundlings",
+    "ja": "フロンデール薬学院小児病棟",
+    "de": "Frondales Physiatrische Akademie",
+    "fr": "Clinique pédiatrique de l'Académie médicale de Frondale"
   },
   "922": {
-    "chs": "始皇宝座"
+    "chs": "始皇宝座",
+    "en": "The Seat of Sacrifice",
+    "ja": "始皇帝の玉座",
+    "de": "Der Kaiserliche Thron",
+    "fr": "Le Trône du Sacrifice"
   },
   "923": {
-    "chs": "始皇宝座"
+    "chs": "始皇宝座",
+    "en": "The Seat of Sacrifice",
+    "ja": "始皇帝の玉座",
+    "de": "Der Kaiserliche Thron",
+    "fr": "Le Trône du Sacrifice"
   },
   "925": {
-    "chs": "燕鸥崖海湾"
+    "chs": "燕鸥崖海湾",
+    "en": "Terncliff Bay",
+    "ja": "ターンクリフ沖",
+    "de": "Wendeklipp-Küste",
+    "fr": "Large de Rocasternes"
   },
   "926": {
-    "chs": "燕鸥崖海湾"
+    "chs": "燕鸥崖海湾",
+    "en": "Terncliff Bay",
+    "ja": "ターンクリフ沖",
+    "de": "Wendeklipp-Küste",
+    "fr": "Large de Rocasternes"
   },
   "928": {
-    "chs": "人偶军事基地"
+    "chs": "人偶军事基地",
+    "en": "The Puppets' Bunker",
+    "ja": "人形タチノ軍事基地",
+    "de": "Die Puppenfestung",
+    "fr": "Base militaire des Pantins"
   },
   "929": {
-    "chs": "云冠群岛"
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
   },
   "930": {
-    "chs": "无尽轮回剧场"
+    "chs": "无尽轮回剧场",
+    "en": "Akh Afah Amphitheatre",
+    "ja": "アク・アファー円形劇場",
+    "de": "Akh Afah",
+    "fr": "Amphithéâtre d'Akh Afah"
   },
   "931": {
-    "chs": "始皇宝座"
+    "chs": "始皇宝座",
+    "en": "The Seat of Sacrifice",
+    "ja": "始皇帝の玉座",
+    "de": "Der Kaiserliche Thron",
+    "fr": "Le Trône du Sacrifice"
   },
   "932": {
-    "chs": "黑风海"
+    "chs": "黑风海",
+    "en": "The Tempest",
+    "ja": "テンペスト",
+    "de": "Tempest",
+    "fr": "La Tempête"
   }
 }

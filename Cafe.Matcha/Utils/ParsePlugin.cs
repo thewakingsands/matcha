@@ -4,6 +4,7 @@
 namespace Cafe.Matcha.Utils
 {
     using Advanced_Combat_Tracker;
+    using FFXIV_ACT_Plugin.Common;
 
     internal class ParsePlugin
     {
@@ -36,20 +37,21 @@ namespace Cafe.Matcha.Utils
             _parsePlugin.DataSubscription.NetworkSent -= HandleMessageSent;
         }
 
-        public uint GetZone()
+        public Language GetLanguage()
         {
-            return _parsePlugin.DataRepository.GetCurrentTerritoryID();
+            return _parsePlugin.DataRepository.GetSelectedLanguageID();
         }
 
-        public uint GetServer()
+        public Constant.Region GetRegion()
         {
-            var combatantList = _parsePlugin.DataRepository.GetCombatantList();
-            if (combatantList == null || combatantList.Count == 0)
+            var language = GetLanguage();
+            switch (language)
             {
-                return 0;
+                case Language.Chinese:
+                    return Constant.Region.China;
+                default:
+                    return Constant.Region.Global;
             }
-
-            return combatantList[0].CurrentWorldID;
         }
 
         private void HandleMessageSent(string connection, long epoch, byte[] message)

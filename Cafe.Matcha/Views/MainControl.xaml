@@ -6,13 +6,12 @@
              xmlns:matcha="clr-namespace:Cafe.Matcha"
              xmlns:System="clr-namespace:System;assembly=mscorlib"
              xmlns:constant="clr-namespace:Cafe.Matcha.Constant"
-             xmlns:network="clr-namespace:Cafe.Matcha.Network"
              xmlns:ViewModels="clr-namespace:Cafe.Matcha.ViewModels"
              x:Name="_this" x:Class="Cafe.Matcha.Views.MainControl"
              mc:Ignorable="d" d:DesignWidth="800" Height="492.287">
 
     <UserControl.DataContext>
-        <ViewModels:MainViewModel/>
+        <ViewModels:MainViewModel />
     </UserControl.DataContext>
 
     <UserControl.Resources>
@@ -28,239 +27,265 @@
         </ObjectDataProvider>
     </UserControl.Resources>
 
-    <TabControl FontFamily="Microsoft YaHei UI">
-        <TabItem Header="播报设置">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="1*"/>
-                </Grid.ColumnDefinitions>
+    <Grid>
+        <TabControl FontFamily="Microsoft YaHei UI">
+            <TabItem Header="设置">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
 
-                <DockPanel Grid.Column="1" LastChildFill="True" Margin="6">
-                    <GroupBox Header="Fate 播报内容" Height="52" VerticalAlignment="Top" Margin="0,0,0,0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
+                    <DockPanel Grid.Column="1" LastChildFill="True" Margin="6">
+                        <GroupBox Header="F.A.T.E. 播报内容" Height="52" VerticalAlignment="Top" Margin="0,0,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
 
-                            <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fate.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                            <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fate.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                            <Button x:Name="bSettingFateTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFateTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="Fate 模板" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="3*"/>
-                            </Grid.ColumnDefinitions>
-                            <Button x:Name="bSettingLoadTemplate" Content="载入" Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.ColumnSpan="2" Grid.Row="1" Height="24" Click="BSettingLoadTemplate_Click"/>
-                            <Button x:Name="bSettingSaveTemplate" Content="储存" Grid.Column="1" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.Row="1" Height="24" Click="BSettingSaveTemplate_Click"/>
-                            <Button x:Name="bSettingClearFate" Content="清空" Grid.Column="1" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.Row="1" Height="24" Click="BSettingClearFate_Click"/>
-                            <Label Content="预置模板" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
-                            <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Width="213" Grid.Column="1" 
-                                      ItemsSource="{Binding Source={x:Static matcha:Data.Instance}, Path=Templates}"
-                                      DisplayMemberPath="LocalName" SelectedValue="{Binding SelectedTemplate}"
-                                      IsEditable="True" IsReadOnly="True" Focusable="False" Text="-- 请选择 --"
-                            />
-                            <Label Content="自定义模板" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0" Grid.Row="1"/>
-                            <Button x:Name="bSettingSetTemplate" Content="载入" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,6.333,3" VerticalAlignment="Bottom" Width="50" RenderTransformOrigin="0.092,1.016" Height="24" Click="BSettingSetTemplate_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox x:Name="gSettngFateTree" Header="Fate 选择" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <TreeView Margin="6,6,6,6" ItemsSource="{Binding Fates, Mode=TwoWay}">
-                            <TreeView.Resources>
-                                <HierarchicalDataTemplate DataType="{x:Type ViewModels:FateTreeNodeWithChildren}" ItemsSource="{Binding Children}">
-                                    <CheckBox Content="{Binding LocalName}" IsChecked="{Binding IsChecked}" />
-                                </HierarchicalDataTemplate>
-                                <DataTemplate DataType="{x:Type ViewModels:FateNode}" >
-                                    <CheckBox Content="{Binding LocalName}" IsChecked="{Binding IsChecked}" />
-                                </DataTemplate>
-                            </TreeView.Resources>
-                            <TreeView.ItemContainerStyle>
-                                <Style TargetType="{x:Type TreeViewItem}">
-                                    <Setter Property="IsExpanded" Value="False"/>
-                                </Style>
-                            </TreeView.ItemContainerStyle>
-                        </TreeView>
-                    </GroupBox>
-                </DockPanel>
-                <DockPanel LastChildFill="False" Margin="6">
-                    <GroupBox x:Name="gSettingOutput" Header="播报方式" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="16*"/>
-                                <ColumnDefinition Width="78*"/>
-                                <ColumnDefinition Width="93*"/>
-                                <ColumnDefinition Width="93*"/>
-                                <ColumnDefinition Width="93*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="通知" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.Toast, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.ColumnSpan="2" />
-                            <CheckBox Content="语音 (TTS)" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.TTS, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.Column="2"/>
-                            <Button x:Name="bSettingOutputTest" Content="测试" Grid.Column="4" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingOutputTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="钓鱼播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="咬钩" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.Bite, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                            <CheckBox Content="咬钩力度" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.BiteType, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                            <Button x:Name="bSettingFishTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFishTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="副本播报内容" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                            <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                            <CheckBox Content="类型" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Type, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="2"/>
-                            <CheckBox Content="装等" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Item, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="3"/>
-
-                            <Button x:Name="bSettingInstTest" Content="测试" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingInstTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="地图切换播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="地区名" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Zone.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                            <CheckBox Content="副本名" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Zone.Instance, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                            <Button x:Name="bSettingZoneTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingZoneTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="遭遇战（博兹雅）播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                            <Button x:Name="bSettingCriticalEngagementTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingCriticalEngagementTest_Click"/>
-                        </Grid>
-                    </GroupBox>
-                    <GroupBox Header="日志及数据共享" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="1*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <CheckBox Content="启用" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Logger.Enabled, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
-                            <CheckBox Content="记录所有事件" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Debug, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
-                            <Label Content="公共数据汇报" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Grid.Row="1" />
-                            <Label HorizontalAlignment="Right" Margin="0,0,66,0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding DataReport}" />
-                            <Button x:Name="bSettingDataReport" Content="修改" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingDataReport_Click"/>
-                        </Grid>
-                    </GroupBox>
-                </DockPanel>
-            </Grid>
-        </TabItem>
-        <TabItem Header="悬浮窗">
-            <DockPanel Margin="6">
-                <GroupBox Header="使用说明" Height="80" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                    <DockPanel>
-                        <TextBlock Margin="6" DockPanel.Dock="Top">请安装 ngld 悬浮窗插件，新建悬浮窗并将悬浮窗路径填写为下方地址</TextBlock>
-                        <TextBox Margin="6,0,6,6" IsReadOnly="True" Text="https://ffcafe.org/matcha/overlay/" VerticalContentAlignment="Center" Padding="6,0"></TextBox>
+                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                <CheckBox Content="地图加载时静默" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.MuteWhileLoading, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="2"/>
+                                <Button x:Name="bSettingFateTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,3,5.667,3" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFateTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="F.A.T.E. 模板" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Button x:Name="bSettingLoadTemplate" Content="载入" Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.ColumnSpan="2" Grid.Row="1" Height="24" Click="BSettingLoadTemplate_Click"/>
+                                <Button x:Name="bSettingSaveTemplate" Content="储存" Grid.Column="1" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.Row="1" Height="24" Click="BSettingSaveTemplate_Click"/>
+                                <Button x:Name="bSettingClearFate" Content="清空" Grid.Column="1" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center" Width="50" RenderTransformOrigin="0.092,1.016" Grid.Row="1" Height="24" Click="BSettingClearFate_Click"/>
+                                <Label Content="预置模板" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
+                                <ComboBox HorizontalAlignment="Left" Margin="6,0" VerticalAlignment="Center" Width="213" Grid.Column="1" 
+                                          ItemsSource="{Binding Templates}"
+                                          DisplayMemberPath="LocalName" SelectedValue="{Binding SelectedTemplate}"
+                                          IsEditable="True" IsReadOnly="True" Focusable="False" Text="-- 请选择 --"
+                                />
+                                <Label Content="自定义模板" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0" Grid.Row="1"/>
+                                <Button x:Name="bSettingSetTemplate" Content="载入" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,6.333,3" VerticalAlignment="Bottom" Width="50" RenderTransformOrigin="0.092,1.016" Height="24" Click="BSettingSetTemplate_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox x:Name="gSettngFateTree" Header="F.A.T.E. 选择" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <TreeView Margin="6,6,6,6" ItemsSource="{Binding Fates, Mode=TwoWay}">
+                                <TreeView.Resources>
+                                    <HierarchicalDataTemplate DataType="{x:Type ViewModels:FateTreeNodeWithChildren}" ItemsSource="{Binding Children}">
+                                        <CheckBox Content="{Binding LocalName}" IsChecked="{Binding IsChecked}" />
+                                    </HierarchicalDataTemplate>
+                                    <DataTemplate DataType="{x:Type ViewModels:FateNode}" >
+                                        <CheckBox Content="{Binding LocalName}" IsChecked="{Binding IsChecked}" />
+                                    </DataTemplate>
+                                </TreeView.Resources>
+                                <TreeView.ItemContainerStyle>
+                                    <Style TargetType="{x:Type TreeViewItem}">
+                                        <Setter Property="IsExpanded" Value="False"/>
+                                    </Style>
+                                </TreeView.ItemContainerStyle>
+                            </TreeView>
+                        </GroupBox>
                     </DockPanel>
-                </GroupBox>
-                <GroupBox Header="在线物价查询 (Universalis)" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
-                    <Grid Height="30">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="1*"/>
-                            <ColumnDefinition Width="80"/>
-                        </Grid.ColumnDefinitions>
-                        <CheckBox Content="启用 Universalis 集成（勾选可在悬浮窗内查看玩家上报的跨服物价信息，同时也会上报当地的物价信息）" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Overlay.Universalis, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"  />
-                        <Button x:Name="BtnViewDetails" Content="查看详情" Grid.Column="1" Margin="5" Click="BtnViewDetails_Click"/>
-                    </Grid>
-                </GroupBox>
-            </DockPanel>
-        </TabItem>
-        <TabItem Header="Webhook">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="1*"/>
-                </Grid.ColumnDefinitions>
-                <ListView Margin="6" ItemsSource="{Binding Webhook, Source={x:Static matcha:Config.Instance}}" SelectedItem="{Binding SelectedWebhook}">
-                    <ListView.View>
-                        <GridView>
-                            <GridViewColumn Header="类型" Width="80" DisplayMemberBinding="{Binding Type}"/>
-                            <GridViewColumn Header="事件" Width="80" DisplayMemberBinding="{Binding Event}"/>
-                            <GridViewColumn Header="名称" Width="100" DisplayMemberBinding="{Binding Name}"/>
-                            <GridViewColumn Header="地址" Width="150" DisplayMemberBinding="{Binding Endpoint}"/>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
-                <DockPanel Grid.Column="1" Margin="0,6,6,6">
-                    <Grid DockPanel.Dock="Top" Margin="6,0,6,0">
-                        <Button x:Name="bNewWebhook" VerticalAlignment="Top" Width="80" 
-                            HorizontalAlignment="Left" Click="BNewWebhook_Click">新建</Button>
-                        <Button x:Name="bRemoveWebhook" VerticalAlignment="Top" Width="80" IsEnabled="{Binding EnableWebhook}"
-                            HorizontalAlignment="Left" Click="BRemoveWebhook_Click" Margin="85,0,0,0">删除</Button>
-                        <Button x:Name="bTestWebhook" VerticalAlignment="Top" Width="80" IsEnabled="{Binding EnableWebhook}"
-                            HorizontalAlignment="Right" Click="BTestWebhook_Click" Margin="0,0,0,0">测试</Button>
-                    </Grid>
-                    <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">类型</Label>
-                    <ComboBox Margin="6,0" VerticalAlignment="Top" DockPanel.Dock="Top"
-                        IsEnabled="{Binding EnableWebhook}" ItemsSource="{Binding Source={StaticResource webhookTypeEnum}}"
-                        SelectedValue="{Binding SelectedWebhook.Type}"
-                    />
-                    <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">事件</Label>
-                    <ComboBox Margin="6,0" VerticalAlignment="Top" DockPanel.Dock="Top"
-                        IsEnabled="{Binding EnableWebhook}" ItemsSource="{Binding Source={StaticResource webhookEventEnum}}"
-                        SelectedValue="{Binding SelectedWebhook.Event}"
-                    />
-                    <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">名称</Label>
-                    <TextBox Height="23" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
-                        IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Name}"/>
-                    <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">地址</Label>
-                    <TextBox Height="23" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
-                        IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Endpoint}"/>
-                    <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">自定义 Header</Label>
-                    <TextBox Height="100" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
-                        IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Header}"/>
+                    <DockPanel LastChildFill="False" Margin="6">
+                        <GroupBox x:Name="gSettingL12n" Header="区服设置" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="区域" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="6,0,0,0"/>
+                                <ComboBox HorizontalAlignment="Stretch" Margin="6,0" VerticalAlignment="Center" Grid.Column="1" 
+                                          ItemsSource="{Binding Regions}"
+                                          DisplayMemberPath="Name" SelectedValue="{Binding Region, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
+                                          IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
+                                />
+                                <Label Content="语言" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="2" Margin="6,0,0,0"/>
+                                <ComboBox HorizontalAlignment="Stretch" Margin="6,0" VerticalAlignment="Center" Grid.Column="3" 
+                                          ItemsSource="{Binding Languages}"
+                                          DisplayMemberPath="Name" SelectedValue="{Binding Language, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"
+                                          IsEditable="True" IsReadOnly="True" Focusable="False" SelectedValuePath="ID"
+                                />
+                                <Label Content="世界" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="4" Margin="6,0,0,0"/>
+                                <Label Content="{Binding World}"  Margin="6,0" VerticalAlignment="Center" Grid.Column="5" />
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox x:Name="gSettingOutput" Header="播报方式" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="通知" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.Toast, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
+                                <CheckBox Content="语音 (TTS)" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Output.TTS, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.Column="1"/>
+                                <Button x:Name="bSettingOutputTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingOutputTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="钓鱼播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="咬钩" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.Bite, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <CheckBox Content="咬钩力度" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.BiteType, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                <Button x:Name="bSettingFishTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFishTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="副本播报内容" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                <CheckBox Content="类型" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Instance.Type, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="2"/>
+
+                                <Button x:Name="bSettingInstTest" Content="测试" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingInstTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="地图切换播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="地区名" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Zone.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <CheckBox Content="副本名" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Zone.Instance, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                <Button x:Name="bSettingZoneTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingZoneTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="遭遇战（博兹雅）播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <Button x:Name="bSettingCriticalEngagementTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingCriticalEngagementTest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="日志及数据共享" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="记录日志" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Logger.Enabled, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
+                                <CheckBox Content="记录所有事件" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Debug, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
+                                <Label Content="公共数据汇报" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Grid.Row="1" />
+                                <Label HorizontalAlignment="Right" Margin="0,0,66,0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding DataReport}" />
+                                <Button x:Name="bSettingDataReport" Content="修改" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingDataReport_Click"/>
+                            </Grid>
+                        </GroupBox>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="悬浮窗">
+                <DockPanel Margin="6">
+                    <GroupBox Header="使用说明" Height="80" VerticalAlignment="Top" DockPanel.Dock="Top">
+                        <DockPanel>
+                            <TextBlock Margin="6" DockPanel.Dock="Top">请安装 ngld 悬浮窗插件，新建悬浮窗并将悬浮窗路径填写为下方地址</TextBlock>
+                            <TextBox Margin="6,0,6,6" IsReadOnly="True" Text="https://ffcafe.org/matcha/overlay/" VerticalContentAlignment="Center" Padding="6,0"></TextBox>
+                        </DockPanel>
+                    </GroupBox>
+                    <GroupBox Header="在线物价查询 (Universalis)" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
+                        <Grid Height="30">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="80"/>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Content="启用 Universalis 集成（勾选可在悬浮窗内查看玩家上报的跨服物价信息，同时也会上报当地的物价信息）" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Overlay.Universalis, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"  />
+                            <Button x:Name="BtnViewDetails" Content="查看详情" Grid.Column="1" Margin="5" Click="BtnViewDetails_Click"/>
+                        </Grid>
+                    </GroupBox>
                 </DockPanel>
-            </Grid>
-        </TabItem>
-        <TabItem Header="日志">
-            <Grid Background="#FFE5E5E5">
-                <TextBox x:Name="tLogBox" Margin="0" TextWrapping="Wrap" IsReadOnly="True" IsUndoEnabled="False" Text="{Binding Log}"
-                          ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-            </Grid>
-        </TabItem>
-    </TabControl>
+            </TabItem>
+            <TabItem Header="Webhook">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView Margin="6" ItemsSource="{Binding Webhook, Source={x:Static matcha:Config.Instance}}" SelectedItem="{Binding SelectedWebhook}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="类型" Width="80" DisplayMemberBinding="{Binding Type}"/>
+                                <GridViewColumn Header="事件" Width="80" DisplayMemberBinding="{Binding Event}"/>
+                                <GridViewColumn Header="名称" Width="100" DisplayMemberBinding="{Binding Name}"/>
+                                <GridViewColumn Header="地址" Width="150" DisplayMemberBinding="{Binding Endpoint}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <DockPanel Grid.Column="1" Margin="0,6,6,6">
+                        <Grid DockPanel.Dock="Top" Margin="6,0,6,0">
+                            <Button x:Name="bNewWebhook" VerticalAlignment="Top" Width="80" 
+                                HorizontalAlignment="Left" Click="BNewWebhook_Click">新建</Button>
+                            <Button x:Name="bRemoveWebhook" VerticalAlignment="Top" Width="80" IsEnabled="{Binding EnableWebhook}"
+                                HorizontalAlignment="Left" Click="BRemoveWebhook_Click" Margin="85,0,0,0">删除</Button>
+                            <Button x:Name="bTestWebhook" VerticalAlignment="Top" Width="80" IsEnabled="{Binding EnableWebhook}"
+                                HorizontalAlignment="Right" Click="BTestWebhook_Click" Margin="0,0,0,0">测试</Button>
+                        </Grid>
+                        <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">类型</Label>
+                        <ComboBox Margin="6,0" VerticalAlignment="Top" DockPanel.Dock="Top"
+                            IsEnabled="{Binding EnableWebhook}" ItemsSource="{Binding Source={StaticResource webhookTypeEnum}}"
+                            SelectedValue="{Binding SelectedWebhook.Type}"
+                        />
+                        <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">事件</Label>
+                        <ComboBox Margin="6,0" VerticalAlignment="Top" DockPanel.Dock="Top"
+                            IsEnabled="{Binding EnableWebhook}" ItemsSource="{Binding Source={StaticResource webhookEventEnum}}"
+                            SelectedValue="{Binding SelectedWebhook.Event}"
+                        />
+                        <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">名称</Label>
+                        <TextBox Height="23" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
+                            IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Name}"/>
+                        <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">地址</Label>
+                        <TextBox Height="23" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
+                            IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Endpoint}"/>
+                        <Label VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,12,0,0">自定义 Header</Label>
+                        <TextBox Height="100" TextWrapping="Wrap" Margin="6,0" DockPanel.Dock="Top" VerticalAlignment="Top"
+                            IsEnabled="{Binding EnableWebhook}" Text="{Binding SelectedWebhook.Header}"/>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="日志">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="tLogBox" Margin="0" TextWrapping="Wrap" IsReadOnly="True" IsUndoEnabled="False" Text="{Binding Log}"
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Image Source="/Cafe.Matcha;component/GitHub-Mark-32px.png" Stretch="Fill" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,6,0" Cursor="Hand" MouseDown="Image_MouseDown" />
+    </Grid>
 </UserControl>

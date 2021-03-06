@@ -7,18 +7,18 @@ namespace Cafe.Matcha.Models
 
     public class WorldData
     {
-        [JsonProperty("chs")]
-        public string Chinese;
-        [JsonProperty("en")]
-        public string English;
-        [JsonProperty("dc_chs")]
-        public string DataCenterChinese;
+        [JsonProperty("name")]
+        public string LocalName;
+        [JsonProperty("name_en")]
+        public string EnglishName;
+        [JsonProperty("dc")]
+        public string LocalDataCenter;
         [JsonProperty("dc_en")]
-        public string DataCenterEnglish;
+        public string EnglishDataCenter;
 
         public override string ToString()
         {
-            return Chinese;
+            return LocalName;
         }
     }
 }

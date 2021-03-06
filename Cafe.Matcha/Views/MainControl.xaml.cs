@@ -89,6 +89,16 @@ namespace Cafe.Matcha.Views
 
             ParsePlugin.Init(ffxivPlugin, network);
 
+            if (Config.Instance.Language == null)
+            {
+                Config.Instance.Language = ParsePlugin.Instance.GetLanguage();
+            }
+
+            if (Config.Instance.Region == null)
+            {
+                Config.Instance.Region = ParsePlugin.Instance.GetRegion();
+            }
+
             ParsePlugin.Instance.Network = network;
             ParsePlugin.Instance.Start();
         }
@@ -159,6 +169,15 @@ namespace Cafe.Matcha.Views
 
         private List<int> notifiedFate = new List<int>();
         private List<int> notifiedDynamicEvent = new List<int>();
+        private long lastZoneChange = 0;
+        private long Now
+        {
+            get
+            {
+                return DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            }
+        }
+
         private bool ShouldSendNotice(BaseDTO dto)
         {
             switch (dto.EventType)
@@ -167,6 +186,7 @@ namespace Cafe.Matcha.Views
                     return true;
                 case EventType.InitZone:
                     notifiedFate.Clear();
+                    lastZoneChange = Now;
                     return true;
                 case EventType.Fate:
                     var fateDto = (FateDTO)dto;
@@ -180,6 +200,11 @@ namespace Cafe.Matcha.Views
                             }
 
                             notifiedFate.Add(fateDto.Fate);
+                            if (Config.Instance.Formatter.Fate.MuteWhileLoading)
+                            {
+                                return Now - lastZoneChange > 5000;
+                            }
+
                             return true;
                         case "end":
                             notifiedFate.Remove(fateDto.Fate);
@@ -497,6 +522,12 @@ namespace Cafe.Matcha.Views
 
             Config.Instance.Webhook.Remove(ViewModel.SelectedWebhook);
             ViewModel.SelectedWebhook = null;
+        }
+
+        private void Image_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://github.com/thewakingsands/matcha"));
+            e.Handled = true;
         }
     }
 }
