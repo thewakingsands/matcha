@@ -181,7 +181,9 @@ namespace Cafe.Matcha.Models
         [JsonProperty("name")]
         public bool Name { get; set; } = true;
         [JsonProperty("level")]
-        public bool Level { get; set; }
+        public bool Level { get; set; } = false;
+        [JsonProperty("mute-while-loading")]
+        public bool MuteWhileLoading { get; set; } = false;
     }
 
     public class ConfigFormatterCriticalEngagement : BindingTarget

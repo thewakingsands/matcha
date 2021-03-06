@@ -37,20 +37,22 @@
                     </Grid.ColumnDefinitions>
 
                     <DockPanel Grid.Column="1" LastChildFill="True" Margin="6">
-                        <GroupBox Header="Fate 播报内容" Height="52" VerticalAlignment="Top" Margin="0,0,0,0" DockPanel.Dock="Top">
+                        <GroupBox Header="F.A.T.E. 播报内容" Height="52" VerticalAlignment="Top" Margin="0,0,0,0" DockPanel.Dock="Top">
                             <Grid Height="30">
                                 <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="1*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fate.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                                <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fate.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                                <Button x:Name="bSettingFateTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFateTest_Click"/>
+                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <CheckBox Content="等级" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.Level, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                <CheckBox Content="地图加载时静默" HorizontalAlignment="Left" Margin="6,7,0,7" IsChecked="{Binding Formatter.Fate.MuteWhileLoading, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="2"/>
+                                <Button x:Name="bSettingFateTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,3,5.667,3" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFateTest_Click"/>
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="Fate 模板" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                        <GroupBox Header="F.A.T.E. 模板" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="1*"/>
@@ -73,7 +75,7 @@
                                 <Button x:Name="bSettingSetTemplate" Content="载入" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,6.333,3" VerticalAlignment="Bottom" Width="50" RenderTransformOrigin="0.092,1.016" Height="24" Click="BSettingSetTemplate_Click"/>
                             </Grid>
                         </GroupBox>
-                        <GroupBox x:Name="gSettngFateTree" Header="Fate 选择" Margin="0,6,0,0" DockPanel.Dock="Top">
+                        <GroupBox x:Name="gSettngFateTree" Header="F.A.T.E. 选择" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <TreeView Margin="6,6,6,6" ItemsSource="{Binding Fates, Mode=TwoWay}">
                                 <TreeView.Resources>
                                     <HierarchicalDataTemplate DataType="{x:Type ViewModels:FateTreeNodeWithChildren}" ItemsSource="{Binding Children}">
@@ -200,7 +202,7 @@
                                     <ColumnDefinition Width="1*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <CheckBox Content="启用" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Logger.Enabled, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
+                                <CheckBox Content="记录日志" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Logger.Enabled, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
                                 <CheckBox Content="记录所有事件" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Debug, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
                                 <Label Content="公共数据汇报" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Grid.Row="1" />
                                 <Label HorizontalAlignment="Right" Margin="0,0,66,0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding DataReport}" />

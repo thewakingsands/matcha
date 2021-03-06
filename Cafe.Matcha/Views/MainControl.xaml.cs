@@ -200,7 +200,12 @@ namespace Cafe.Matcha.Views
                             }
 
                             notifiedFate.Add(fateDto.Fate);
-                            return Now - lastZoneChange > 5000;
+                            if (Config.Instance.Formatter.Fate.MuteWhileLoading)
+                            {
+                                return Now - lastZoneChange > 5000;
+                            }
+
+                            return true;
                         case "end":
                             notifiedFate.Remove(fateDto.Fate);
                             return false;
@@ -221,7 +226,7 @@ namespace Cafe.Matcha.Views
                             }
 
                             notifiedDynamicEvent.Add(deDto.Event);
-                            return Now - lastZoneChange > 5000;
+                            return true;
                         default:
                             notifiedDynamicEvent.Remove(deDto.Event);
                             return false;
