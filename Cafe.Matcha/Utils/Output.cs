@@ -5,13 +5,14 @@ namespace Cafe.Matcha.Utils
 {
     using System;
     using System.Collections.Generic;
-    using System.IO;
     using System.Windows;
     using Advanced_Combat_Tracker;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
     using Cafe.Matcha.Models;
     using Newtonsoft.Json.Linq;
+    using Windows.Data.Xml.Dom;
+    using Windows.UI.Notifications;
 
     internal class Output
     {
@@ -23,15 +24,15 @@ namespace Cafe.Matcha.Utils
             Version compareToVersion = new Version("6.2");
             if (currentVersion.CompareTo(compareToVersion) >= 0)
             {
-                Windows.Data.Xml.Dom.XmlDocument toastXml = Windows.UI.Notifications.ToastNotificationManager.GetTemplateContent(Windows.UI.Notifications.ToastTemplateType.ToastImageAndText03);
-                Windows.Data.Xml.Dom.XmlNodeList stringElements = toastXml.GetElementsByTagName("text");
+                XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastText02);
+                XmlNodeList stringElements = toastXml.GetElementsByTagName("text");
                 for (int i = 0; i < stringElements.Length; i++)
                 {
                     stringElements[i].AppendChild(toastXml.CreateTextNode(message));
                 }
 
-                Windows.UI.Notifications.ToastNotification toast = new Windows.UI.Notifications.ToastNotification(toastXml);
-                Windows.UI.Notifications.ToastNotificationManager.CreateToastNotifier("Advanced Combat Tracker").Show(toast);
+                ToastNotification toast = new ToastNotification(toastXml);
+                ToastNotificationManager.CreateToastNotifier("Advanced Combat Tracker").Show(toast);
             }
             else
             {
