@@ -1,10 +1,28 @@
-﻿using Cafe.Matcha.Utils;
-
-namespace Cafe.Matcha.Network
+﻿namespace Cafe.Matcha.Network
 {
-    class State : StaticBindingTarget<State>
+    using Cafe.Matcha.Utils;
+
+    internal class State : StaticBindingTarget<State>
     {
-        public ushort WorldId { get; set; } = 0;
+        private ushort worldId = 0;
+        public ushort WorldId
+        {
+            get
+            {
+                if (worldId == 0 && ParsePlugin.Instance != null)
+                {
+                    return (ushort)ParsePlugin.Instance.GetServer();
+                }
+
+                return worldId;
+            }
+
+            set
+            {
+                worldId = value;
+            }
+        }
+
         public ushort ZoneId { get; set; } = 0;
     }
 }

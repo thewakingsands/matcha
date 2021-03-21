@@ -54,6 +54,17 @@ namespace Cafe.Matcha.Utils
             }
         }
 
+        public uint GetServer()
+        {
+            var combatantList = _parsePlugin.DataRepository.GetCombatantList();
+            if (combatantList == null || combatantList.Count == 0)
+            {
+                return 0;
+            }
+
+            return combatantList[0].CurrentWorldID;
+        }
+
         private void HandleMessageSent(string connection, long epoch, byte[] message)
         {
             Network?.HandleMessageSent(connection, epoch, message);
