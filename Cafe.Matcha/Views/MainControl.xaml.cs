@@ -485,7 +485,7 @@ namespace Cafe.Matcha.Views
                     Output.SendWebhook(new MarketBoardItemListingCountDTO { }, webhook);
                     break;
                 case EventType.MatchAlert:
-                    Output.SendWebhook(new FishBiteDTO { }, webhook);
+                    Output.SendWebhook(new MatchAlertDTO { }, webhook);
                     break;
                 case EventType.MiniCactpot:
                     Output.SendWebhook(new MiniCactpotDTO { }, webhook);
