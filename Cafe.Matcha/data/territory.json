@@ -5333,6 +5333,13 @@
     "de": "Der Kaiserliche Thron",
     "fr": "Le Trône du Sacrifice"
   },
+  "924": {
+    "chs": "梦羽宝殿",
+    "en": "The Shifting Oubliettes of Lyhe Ghiah",
+    "ja": "リェー・ギア・ダンジョン祭殿",
+    "de": "Das Karussell von Lyhe Ghiah",
+    "fr": "Jardin secret du Lyhe Ghiah"
+  },
   "925": {
     "chs": "燕鸥崖海湾",
     "en": "Terncliff Bay",
@@ -5381,5 +5388,159 @@
     "ja": "テンペスト",
     "de": "Tempest",
     "fr": "La Tempête"
+  },
+  "933": {
+    "chs": "玛托雅工作室",
+    "en": "Matoya's Relict",
+    "ja": "マトーヤのアトリエ",
+    "de": "Matoyas Atelier",
+    "fr": "Atelier abandonné de Matoya"
+  },
+  "934": {
+    "chs": "帝国海上基地干船坞",
+    "en": "Castrum Marinum Drydocks",
+    "ja": "カステッルム・マリヌム・ドライドック",
+    "de": "Trockendock von Castrum Marinum",
+    "fr": "Cale sèche de Castrum Marinum"
+  },
+  "935": {
+    "chs": "帝国海上基地干船坞",
+    "en": "Castrum Marinum Drydocks",
+    "ja": "カステッルム・マリヌム・ドライドック",
+    "de": "Trockendock von Castrum Marinum",
+    "fr": "Cale sèche de Castrum Marinum"
+  },
+  "936": {
+    "chs": "",
+    "en": "Delubrum Reginae",
+    "ja": "グンヒルド・ディルーブラム",
+    "de": "Delubrum Reginae",
+    "fr": "Delubrum Reginae"
+  },
+  "937": {
+    "chs": "",
+    "en": "Delubrum Reginae",
+    "ja": "グンヒルド・ディルーブラム",
+    "de": "Delubrum Reginae",
+    "fr": "Delubrum Reginae"
+  },
+  "939": {
+    "chs": "云冠群岛",
+    "en": "The Diadem",
+    "ja": "ディアデム諸島",
+    "de": "Das Diadem",
+    "fr": "Le Diadème"
+  },
+  "940": {
+    "chs": "幻卡对局室",
+    "en": "The Battlehall",
+    "ja": "カードバトルルーム",
+    "de": "Weltensalon",
+    "fr": "Arène Triple Triade"
+  },
+  "941": {
+    "chs": "幻卡对局室",
+    "en": "The Battlehall",
+    "ja": "カードバトルルーム",
+    "de": "Weltensalon",
+    "fr": "Arène Triple Triade"
+  },
+  "942": {
+    "chs": "暗黑领域",
+    "en": "Sphere of Naught",
+    "ja": "暗闇の領域",
+    "de": "Nichtssphäre",
+    "fr": "Sphère de l'absence"
+  },
+  "943": {
+    "chs": "拉克汕城",
+    "en": "Laxan Loft",
+    "ja": "ラクサン城",
+    "de": "Burg Selard",
+    "fr": "Château de Ganlag"
+  },
+  "944": {
+    "chs": "游末邦监狱",
+    "en": "Bygone Gaol",
+    "ja": "ユールモア監獄棟",
+    "de": "Verlies von Eulmore",
+    "fr": "Prison d'Eulmore"
+  },
+  "945": {
+    "chs": "绝望庭园",
+    "en": "The Garden of Nowhere",
+    "ja": "絶望の園",
+    "de": "Nimmerwo-Garten",
+    "fr": "Jardin du désespoir"
+  },
+  "946": {
+    "chs": "暗黑领域",
+    "en": "Sphere of Naught",
+    "ja": "暗闇の領域",
+    "de": "Nichtssphäre",
+    "fr": "Sphère de l'absence"
+  },
+  "947": {
+    "chs": "拉克汕城",
+    "en": "Laxan Loft",
+    "ja": "ラクサン城",
+    "de": "Burg Selard",
+    "fr": "Château de Ganlag"
+  },
+  "948": {
+    "chs": "游末邦监狱",
+    "en": "Bygone Gaol",
+    "ja": "ユールモア監獄棟",
+    "de": "Verlies von Eulmore",
+    "fr": "Prison d'Eulmore"
+  },
+  "949": {
+    "chs": "绝望庭园",
+    "en": "The Garden of Nowhere",
+    "ja": "絶望の園",
+    "de": "Nimmerwo-Garten",
+    "fr": "Jardin du désespoir"
+  },
+  "953": {
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
+  },
+  "954": {
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
+  },
+  "955": {
+    "chs": "失落的遗迹",
+    "en": "The Last Trace",
+    "ja": "失われた遺跡",
+    "de": "Verlorene Ruinen",
+    "fr": "Vestiges oubliés"
+  },
+  "964": {
+    "chs": "失落的遗迹",
+    "en": "The Last Trace",
+    "ja": "失われた遺跡",
+    "de": "Verlorene Ruinen",
+    "fr": "Vestiges oubliés"
+  },
+  "965": {
+    "chs": "空无大地",
+    "en": "The Empty",
+    "ja": "無の大地",
+    "de": "Die Große Leere",
+    "fr": "Le Grand Vide"
+  },
+  "967": {
+    "chs": "帝国海上基地干船坞",
+    "en": "Castrum Marinum Drydocks",
+    "ja": "カステッルム・マリヌム・ドライドック",
+    "de": "Trockendock von Castrum Marinum",
+    "fr": "Cale sèche de Castrum Marinum"
   }
 }

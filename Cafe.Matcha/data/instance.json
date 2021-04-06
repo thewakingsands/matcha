@@ -1172,7 +1172,7 @@
   "79": {
     "name": {
       "chs": "希瓦歼灭战",
-      "en": "Akh Afah Amphitheatre (Hard)",
+      "en": "the Akh Afah Amphitheatre (Hard)",
       "ja": "真シヴァ討滅戦",
       "de": "Götterdämmerung - Shiva",
       "fr": "l'Amphithéâtre d'Akh Afah (brutal)"
@@ -1187,7 +1187,7 @@
   "80": {
     "name": {
       "chs": "希瓦歼殛战",
-      "en": "Akh Afah Amphitheatre (Extreme)",
+      "en": "the Akh Afah Amphitheatre (Extreme)",
       "ja": "極シヴァ討滅戦",
       "de": "Zenit der Götter - Shiva",
       "fr": "l'Amphithéâtre d'Akh Afah (extrême)"
@@ -6676,11 +6676,11 @@
   },
   "643": {
     "name": {
-      "chs": "多玛方城战：一般桌（段位战）",
-      "en": "Novice Mahjong (Ranked)",
-      "ja": "ドマ式麻雀：一般卓 (段位変動有り)",
-      "de": "Anfänger-Mahjong (gewertet)",
-      "fr": "Mahjong domien: tous rangs (classé)"
+      "chs": "多玛方城战：半庄战一般桌（段位战）",
+      "en": "Novice Mahjong (Full Ranked Match)",
+      "ja": "ドマ式麻雀：半荘戦一般卓（段位変動有り）",
+      "de": "Anfänger-Mahjong (komplette Partie, gewertet)",
+      "fr": "Mahjong domien: tous rangs (partie classée)"
     },
     "type": 19,
     "level": 1,
@@ -6691,11 +6691,11 @@
   },
   "644": {
     "name": {
-      "chs": "多玛方城战：有段桌（段位战）",
-      "en": "Advanced Mahjong (Ranked)",
-      "ja": "ドマ式麻雀：有段卓 (段位変動有り)",
-      "de": "Fortgeschrittenen-Mahjong (gewertet)",
-      "fr": "Mahjong domien: dan seulement (classé)"
+      "chs": "多玛方城战：半庄战有段桌（段位战）",
+      "en": "Advanced Mahjong (Full Ranked Match)",
+      "ja": "ドマ式麻雀：半荘戦有段卓（段位変動有り）",
+      "de": "Fortgeschrittenen-Mahjong (komplette Partie, gewertet)",
+      "fr": "Mahjong domien: dan seulement (partie classée)"
     },
     "type": 19,
     "level": 1,
@@ -6706,11 +6706,11 @@
   },
   "645": {
     "name": {
-      "chs": "多玛方城战：4人亲友桌（带食断）",
-      "en": "Four-player Mahjong (Kuitan Enabled)",
-      "ja": "ドマ式麻雀：4人セット卓 (クイタン有り)",
-      "de": "4-Spieler-Mahjong (Kuitan aktiviert)",
-      "fr": "Mahjong domien: 4 joueurs (avec kuitan)"
+      "chs": "多玛方城战：半庄战4人亲友桌（带食断）",
+      "en": "Four-player Mahjong (Full Match, Kuitan Enabled)",
+      "ja": "ドマ式麻雀：半荘戦4人セット卓（クイタン有り）",
+      "de": "4-Spieler-Mahjong (komplette Partie, Kuitan aktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (partie avec kuitan)"
     },
     "type": 19,
     "level": 1,
@@ -6766,11 +6766,11 @@
   },
   "650": {
     "name": {
-      "chs": "多玛方城战：4人亲友桌（不带食断）",
-      "en": "Four-player Mahjong (Kuitan Disabled)",
-      "ja": "ドマ式麻雀：4人セット卓 (クイタン無し)",
-      "de": "4-Spieler-Mahjong (Kuitan deaktiviert)",
-      "fr": "Mahjong domien: 4 joueurs (sans kuitan)"
+      "chs": "多玛方城战：半庄战4人亲友桌（不带食断）",
+      "en": "Four-player Mahjong (Full Match, Kuitan Disabled)",
+      "ja": "ドマ式麻雀：半荘戦4人セット卓（クイタン無し）",
+      "de": "4-Spieler-Mahjong (komplette Partie, Kuitan deaktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (partie sans kuitan)"
     },
     "type": 19,
     "level": 1,
@@ -7511,7 +7511,7 @@
     "level": 80,
     "levelSync": 80,
     "item": 440,
-    "itemSync": 0,
+    "itemSync": 500,
     "memberType": 2
   },
   "715": {
@@ -7856,7 +7856,7 @@
     "level": 80,
     "levelSync": 80,
     "item": 460,
-    "itemSync": 0,
+    "itemSync": 500,
     "memberType": 2
   },
   "738": {
@@ -7949,13 +7949,163 @@
     "itemSync": 490,
     "memberType": 1
   },
-  "744": {
+  "745": {
     "name": {
-      "chs": "希瓦幻巧战",
-      "en": "the Akh Afah Amphitheatre (Unreal)",
-      "ja": "幻シヴァ討滅戦",
-      "de": "Traumprüfung - Shiva",
-      "fr": "l'Amphithéâtre d'Akh Afah (irréel)"
+      "chs": "梦羽宝殿",
+      "en": "the Shifting Oubliettes of Lyhe Ghiah",
+      "ja": "宝物庫 リェー・ギア・ダンジョン祭殿",
+      "de": "Das Karussell von Lyhe Ghiah",
+      "fr": "le Jardin secret du Lyhe Ghiah"
+    },
+    "type": 9,
+    "level": 1,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 505,
+    "memberType": 3
+  },
+  "746": {
+    "name": {
+      "chs": "魔术工房玛托雅工作室",
+      "en": "Matoya's Relict",
+      "ja": "魔術工房 マトーヤのアトリエ",
+      "de": "Matoyas Atelier",
+      "fr": "l'Atelier abandonné de Matoya"
+    },
+    "type": 2,
+    "level": 80,
+    "levelSync": 80,
+    "item": 470,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "747": {
+    "name": {
+      "chs": "伊甸希望乐园 再生之章2",
+      "en": "Eden's Promise: Litany",
+      "ja": "希望の園エデン：再生編2",
+      "de": "Edens Verheißung - Litanei",
+      "fr": "La Promesse d'Éden - Litanie"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 485,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "748": {
+    "name": {
+      "chs": "伊甸零式希望乐园 再生之章2",
+      "en": "Eden's Promise: Litany (Savage)",
+      "ja": "希望の園エデン零式：再生編2",
+      "de": "Edens Verheißung - Litanei (episch)",
+      "fr": "La Promesse d'Éden - Litanie (sadique)"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 505,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "749": {
+    "name": {
+      "chs": "伊甸希望乐园 再生之章1",
+      "en": "Eden's Promise: Umbra",
+      "ja": "希望の園エデン：再生編1",
+      "de": "Edens Verheißung - Umbra",
+      "fr": "La Promesse d'Éden - Nuée"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 485,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "750": {
+    "name": {
+      "chs": "伊甸零式希望乐园 再生之章1",
+      "en": "Eden's Promise: Umbra (Savage)",
+      "ja": "希望の園エデン零式：再生編1",
+      "de": "Edens Verheißung - Umbra (episch)",
+      "fr": "La Promesse d'Éden - Nuée (sadique)"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 500,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "751": {
+    "name": {
+      "chs": "伊甸希望乐园 再生之章3",
+      "en": "Eden's Promise: Anamorphosis",
+      "ja": "希望の園エデン：再生編3",
+      "de": "Edens Verheißung - Anamorphose",
+      "fr": "La Promesse d'Éden - Anamorphose"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 485,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "752": {
+    "name": {
+      "chs": "伊甸零式希望乐园 再生之章3",
+      "en": "Eden's Promise: Anamorphosis (Savage)",
+      "ja": "希望の園エデン零式：再生編3",
+      "de": "Edens Verheißung - Anamorphose (episch)",
+      "fr": "La Promesse d'Éden - Anamorphose (sadique)"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 510,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "755": {
+    "name": {
+      "chs": "九宫幻卡：官方锦标赛",
+      "en": "Triple Triad Open Tournament",
+      "ja": "トリプルトライアド：オフィシャルトーナメント",
+      "de": "Triple Triad: Manderville-Turnier",
+      "fr": "Tournoi officiel de Triple Triade"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 13
+  },
+  "756": {
+    "name": {
+      "chs": "九宫幻卡：锦标赛对局室",
+      "en": "Triple Triad Invitational Parlor",
+      "ja": "トリプルトライアド：カスタムトーナメントルーム",
+      "de": "Triple Triad: Privatturnier",
+      "fr": "Salle de tournoi libre de Triple Triade"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 13
+  },
+  "757": {
+    "name": {
+      "chs": "泰坦幻巧战",
+      "en": "the Navel (Unreal)",
+      "ja": "幻タイタン討滅戦",
+      "de": "Traumprüfung - Titan",
+      "fr": "Le Nombril (irréel)"
     },
     "type": 4,
     "level": 80,
@@ -7963,5 +8113,230 @@
     "item": 430,
     "itemSync": 435,
     "memberType": 3
+  },
+  "758": {
+    "name": {
+      "chs": "伊甸希望乐园 再生之章4",
+      "en": "Eden's Promise: Eternity",
+      "ja": "希望の園エデン：再生編4",
+      "de": "Edens Verheißung - Ewigkeit",
+      "fr": "La Promesse d'Éden - Éternité"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 485,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "759": {
+    "name": {
+      "chs": "伊甸零式希望乐园 再生之章4",
+      "en": "Eden's Promise: Eternity (Savage)",
+      "ja": "希望の園エデン零式：再生編4",
+      "de": "Edens Verheißung - Ewigkeit (episch)",
+      "fr": "La Promesse d'Éden - Éternité (sadique)"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 510,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "762": {
+    "name": {
+      "chs": "绿宝石神兵破坏作战",
+      "en": "Castrum Marinum",
+      "ja": "エメラルドウェポン破壊作戦",
+      "de": "Smaragdsturm - Entfesselung",
+      "fr": "Castrum Marinum"
+    },
+    "type": 4,
+    "level": 80,
+    "levelSync": 80,
+    "item": 485,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "763": {
+    "name": {
+      "chs": "绿宝石神兵狂想作战",
+      "en": "Castrum Marinum (Extreme)",
+      "ja": "極エメラルドウェポン破壊作戦",
+      "de": "Smaragdsturm - Trauma",
+      "fr": "Castrum Marinum (extrême)"
+    },
+    "type": 4,
+    "level": 80,
+    "levelSync": 80,
+    "item": 500,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "764": {
+    "name": {
+      "chs": "威尔布兰德扬帆起航",
+      "en": "The Great Ship Vylbrand",
+      "ja": "バイルブランドの船出",
+      "de": "Gute Winde für Vylbrand",
+      "fr": "Un navire nommé Vylbrand"
+    },
+    "type": 7,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "766": {
+    "name": {
+      "chs": "多玛方城战：东风战一般桌（段位战）",
+      "en": "Novice Mahjong (Quick Ranked Match)",
+      "ja": "ドマ式麻雀：東風戦一般卓（段位変動有り）",
+      "de": "Anfänger-Mahjong (schnelle Partie, gewertet)",
+      "fr": "Mahjong domien: tous rangs (partie rapide classée)"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "767": {
+    "name": {
+      "chs": "多玛方城战：东风战有段桌（段位战）",
+      "en": "Advanced Mahjong (Quick Ranked Match)",
+      "ja": "ドマ式麻雀：東風戦有段卓（段位変動有り）",
+      "de": "Fortgeschrittenen-Mahjong (schnelle Partie, gewertet)",
+      "fr": "Mahjong domien: dan seulement (partie rapide classée)"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "768": {
+    "name": {
+      "chs": "多玛方城战：东风战4人亲友桌（带食断）",
+      "en": "Four-player Mahjong (Quick Match, Kuitan Enabled)",
+      "ja": "ドマ式麻雀：東風戦4人セット卓（クイタン有り）",
+      "de": "4-Spieler-Mahjong (schnelle Partie, Kuitan aktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (partie rapide avec kuitan)"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "769": {
+    "name": {
+      "chs": "多玛方城战：东风战4人亲友桌（不带食断）",
+      "en": "Four-player Mahjong (Quick Match, Kuitan Disabled)",
+      "ja": "ドマ式麻雀：東風戦4人セット卓（クイタン無し）",
+      "de": "4-Spieler-Mahjong (schnelle Partie, Kuitan deaktiviert)",
+      "fr": "Mahjong domien: 4 joueurs (partie rapide sans kuitan)"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "770": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "771": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "772": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "773": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "774": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "775": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
   }
 }
