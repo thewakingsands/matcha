@@ -18,7 +18,7 @@ const opcodes = [
   },
   {
     key: 'DirectorStart',
-    global: parseInt('0x01d8', 16)
+    global: parseInt('0x0258', 16)
   },
   'EventPlay',
   'Examine',
