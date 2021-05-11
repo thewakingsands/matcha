@@ -2,7 +2,7 @@ const opcodes = [
   'ActorControlSelf',
   {
     key: 'CEDirector',
-    global: parseInt('0x01f5', 16)
+    global: parseInt('0x160', 16)
   },
   {
     key: 'CompanyAirshipStatus',
