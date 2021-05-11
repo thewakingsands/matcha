@@ -217,7 +217,7 @@
                     <GroupBox Header="使用说明" Height="80" VerticalAlignment="Top" DockPanel.Dock="Top">
                         <DockPanel>
                             <TextBlock Margin="6" DockPanel.Dock="Top">请安装 ngld 悬浮窗插件，新建悬浮窗并将悬浮窗路径填写为下方地址</TextBlock>
-                            <TextBox Margin="6,0,6,6" IsReadOnly="True" Text="https://ffcafe.org/matcha/overlay/" VerticalContentAlignment="Center" Padding="6,0"></TextBox>
+                            <TextBox Margin="6,0,6,6" IsReadOnly="True" Text="https://matcha-overlay.ffcafe.cn/" VerticalContentAlignment="Center" Padding="6,0"></TextBox>
                         </DockPanel>
                     </GroupBox>
                     <GroupBox Header="在线物价查询 (Universalis)" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
