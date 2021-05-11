@@ -8069,6 +8069,21 @@
     "itemSync": 0,
     "memberType": 3
   },
+  "753": {
+    "name": {
+      "chs": "天上福地云冠群岛",
+      "en": "the Diadem",
+      "ja": "雲海採集 ディアデム諸島",
+      "de": "Das Diadem - Erschließung",
+      "fr": "Le Diadème"
+    },
+    "type": 16,
+    "level": 10,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
   "755": {
     "name": {
       "chs": "九宫幻卡：官方锦标赛",
