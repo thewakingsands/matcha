@@ -22,7 +22,7 @@
             </TextBlock>
             <TextBlock Margin="0,9,0,0">
                 <AccessText TextWrapping="WrapWithOverflow">
-                    本工具免费发布，不功能提供任何担保，且未通过任何渠道出售。如果您在获取本工具时支付了任何费用，您可能已经上当受骗。
+                    本工具免费发布，不对功能提供任何担保，且未通过任何渠道出售。如果您在获取本工具时支付了任何费用，您可能已经上当受骗。
                 </AccessText>
             </TextBlock>
         </StackPanel>
