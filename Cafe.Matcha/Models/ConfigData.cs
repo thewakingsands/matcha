@@ -12,7 +12,7 @@ namespace Cafe.Matcha.Models
 
     public class ConfigData : BindingTarget
     {
-        public ConfigData() : this(null, null, null, null, null, null, null, null, null)
+        public ConfigData() : this(null, null, null, null, null, null, null, null, null, null)
         {
         }
 
@@ -21,6 +21,7 @@ namespace Cafe.Matcha.Models
             Region? region,
             Language? language,
             string uuid,
+            string hash,
             ConfigOutput output,
             ConfigFormatter formatter,
             ConfigLogger logger,
@@ -31,6 +32,7 @@ namespace Cafe.Matcha.Models
             Region = region;
             Language = language;
             UUID = uuid ?? null;
+            Hash = hash ?? null;
             Output = output ?? new ConfigOutput();
             Formatter = formatter ?? new ConfigFormatter();
             Logger = logger ?? new ConfigLogger();
@@ -46,6 +48,8 @@ namespace Cafe.Matcha.Models
         public Language? Language { get; set; }
 
         public string UUID { get; set; }
+
+        public string Hash { get; set; }
 
         [JsonIgnore]
         public uint UUIDHash

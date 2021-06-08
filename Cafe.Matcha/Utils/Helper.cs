@@ -8,6 +8,7 @@ namespace Cafe.Matcha.Utils
     using System.Linq;
     using System.Reflection;
     using System.Runtime.InteropServices;
+    using System.Security.Cryptography;
     using System.Text;
     using System.Threading.Tasks;
     using System.Windows;
@@ -67,6 +68,22 @@ namespace Cafe.Matcha.Utils
             }
 
             return Path.GetDirectoryName(libPath);
+        }
+
+        public static void CheckLicenseNotice()
+        {
+            MD5 md5 = MD5.Create();
+            var pathHash = md5.ComputeHash(Encoding.UTF8.GetBytes(GetPluginDir()));
+            var hash = BitConverter.ToString(pathHash).Replace("-", "");
+
+            if (hash != Config.Instance.Hash)
+            {
+                Config.Instance.Hash = hash;
+                var dialog = new Views.License();
+                dialog.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+                dialog.Topmost = true;
+                dialog.ShowDialog();
+            }
         }
 
 #pragma warning disable SA1310 // Field names should not contain underscore

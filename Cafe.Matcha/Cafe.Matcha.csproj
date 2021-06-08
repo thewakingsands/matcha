@@ -159,6 +159,9 @@
     <Compile Include="Views\MainControl.xaml.cs">
       <DependentUpon>MainControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\License.xaml.cs">
+      <DependentUpon>License.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\TelemetrySetting.xaml.cs">
       <DependentUpon>TelemetrySetting.xaml</DependentUpon>
     </Compile>
@@ -204,6 +207,10 @@
     <Page Include="Views\MainControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\License.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\TelemetrySetting.xaml">
       <Generator>MSBuild:Compile</Generator>

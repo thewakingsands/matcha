@@ -78,6 +78,7 @@ namespace Cafe.Matcha.Views
             ffxivPlugin = await Helper.GetFFXIVPlugin();
 
             Telemetry.Init();
+            Helper.CheckLicenseNotice();
 
             var network = new NetworkMonitor();
             network.OnException += LogException;
