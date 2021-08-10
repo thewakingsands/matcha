@@ -5410,6 +5410,27 @@
     "de": "Trockendock von Castrum Marinum",
     "fr": "Cale sèche de Castrum Marinum"
   },
+  "936": {
+    "chs": "女王古殿",
+    "en": "Delubrum Reginae",
+    "ja": "グンヒルド・ディルーブラム",
+    "de": "Delubrum Reginae",
+    "fr": "Delubrum Reginae"
+  },
+  "937": {
+    "chs": "女王古殿",
+    "en": "Delubrum Reginae",
+    "ja": "グンヒルド・ディルーブラム",
+    "de": "Delubrum Reginae",
+    "fr": "Delubrum Reginae"
+  },
+  "938": {
+    "chs": "帕戈尔赞",
+    "en": "Paglth'an",
+    "ja": "パガルザン",
+    "de": "Paglth'an",
+    "fr": "Paglth'an"
+  },
   "939": {
     "chs": "云冠群岛",
     "en": "The Diadem",
@@ -5487,6 +5508,20 @@
     "de": "Nimmerwo-Garten",
     "fr": "Jardin du désespoir"
   },
+  "950": {
+    "chs": "究极救世者G型战斗甲板",
+    "en": "G-Savior Deck",
+    "ja": "Gセイヴァー戦闘甲板",
+    "de": "Gefechtsplattform des G-Retters",
+    "fr": "Ponton du Gardien-G"
+  },
+  "951": {
+    "chs": "究极救世者G型战斗甲板",
+    "en": "G-Savior Deck",
+    "ja": "Gセイヴァー戦闘甲板",
+    "de": "Gefechtsplattform des G-Retters",
+    "fr": "Ponton du Gardien-G"
+  },
   "953": {
     "chs": "奥·哥摩罗火口神殿",
     "en": "The Navel",
@@ -5501,6 +5536,20 @@
     "de": "Der Nabel",
     "fr": "Le Nombril"
   },
+  "955": {
+    "chs": "失落的遗迹",
+    "en": "The Last Trace",
+    "ja": "失われた遺跡",
+    "de": "Verlorene Ruinen",
+    "fr": "Vestiges oubliés"
+  },
+  "964": {
+    "chs": "失落的遗迹",
+    "en": "The Last Trace",
+    "ja": "失われた遺跡",
+    "de": "Verlorene Ruinen",
+    "fr": "Vestiges oubliés"
+  },
   "965": {
     "chs": "空无大地",
     "en": "The Empty",
@@ -5508,11 +5557,46 @@
     "de": "Die Große Leere",
     "fr": "Le Grand Vide"
   },
+  "966": {
+    "chs": "希望之炮台：“塔”",
+    "en": "The Tower at Paradigm's Breach",
+    "ja": "希望ノ砲台：「塔」",
+    "de": "Der Turm, Paradigmenbrecher",
+    "fr": "Tour de la Contingence"
+  },
   "967": {
     "chs": "帝国海上基地干船坞",
     "en": "Castrum Marinum Drydocks",
     "ja": "カステッルム・マリヌム・ドライドック",
     "de": "Trockendock von Castrum Marinum",
     "fr": "Cale sèche de Castrum Marinum"
+  },
+  "972": {
+    "chs": "对利维亚桑双体船",
+    "en": "The Whorleater",
+    "ja": "対リヴァイアサン双胴船",
+    "de": "Der Wogenbrecher",
+    "fr": "Briseur de marées"
+  },
+  "975": {
+    "chs": "",
+    "en": "Zadnor",
+    "ja": "ザトゥノル高原",
+    "de": "Zadnor-Hochebene",
+    "fr": "Hauts plateaux de Zadnor"
+  },
+  "977": {
+    "chs": "加尔提诺平原周边遗迹群",
+    "en": "Carteneau Flats: Borderland Ruins",
+    "ja": "カルテノー平原：外縁遺跡群",
+    "de": "Äußere Ruinen",
+    "fr": "Ruines frontalières"
+  },
+  "991": {
+    "chs": "究极救世者G型战斗甲板",
+    "en": "G-Savior Deck",
+    "ja": "Gセイヴァー戦闘甲板",
+    "de": "Gefechtsplattform des G-Retters",
+    "fr": "Ponton du Gardien-G"
   }
 }

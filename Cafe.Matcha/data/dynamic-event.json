@@ -142,5 +142,149 @@
       "de": "Sturm auf Castrum Lacus Litore",
       "fr": "Assaut sur Castrum Lacus Litore"
     }
+  },
+  "17": {
+    "name": {
+      "chs": "",
+      "en": "On Serpents' Wings",
+      "ja": "妖霊使い「妖戦百人隊」",
+      "de": "Der Geistertrupp",
+      "fr": "Zirnitrop"
+    }
+  },
+  "18": {
+    "name": {
+      "chs": "",
+      "en": "Feeling the Burn",
+      "ja": "試作飛行型魔導アーマー「ブラックバーン」",
+      "de": "Schwarzbrands Testflug",
+      "fr": "On arrête le progrès"
+    }
+  },
+  "19": {
+    "name": {
+      "chs": "",
+      "en": "The Broken Blade",
+      "ja": "非業の強化兵「ハイパーチューンド・ダボグ」",
+      "de": "Hyper-Dabog, Stärkster unter Stärksten",
+      "fr": "Dabog l'hyper-renforcé"
+    }
+  },
+  "20": {
+    "name": {
+      "chs": "",
+      "en": "From Beyond the Grave",
+      "ja": "模造密告者「IVレギオン・シュミハザ」",
+      "de": "Shemhazai der Verräter",
+      "fr": "Le Sycophante"
+    }
+  },
+  "21": {
+    "name": {
+      "chs": "",
+      "en": "With Diremite and Main",
+      "ja": "焦土の魔蠍「ヘデテト」",
+      "de": "Hedetet, Stachel des Karglands",
+      "fr": "C'est dans ma nature"
+    }
+  },
+  "22": {
+    "name": {
+      "chs": "",
+      "en": "Here Comes the Cavalry",
+      "ja": "鋼鉄の人馬「魔導騎兵大隊」",
+      "de": "Halb Pferd, halb Garlear",
+      "fr": "Un cavalier qui surgit hors de la nuit"
+    }
+  },
+  "23": {
+    "name": {
+      "chs": "",
+      "en": "Head of the Snake",
+      "ja": "第IV軍団分遣隊長「メネニウス」",
+      "de": "Menenius, Tribunus der IV. Legion",
+      "fr": "Mener par l'exemple"
+    }
+  },
+  "24": {
+    "name": {
+      "chs": "",
+      "en": "There Would Be Blood",
+      "ja": "異界の廃王「ハンビ」",
+      "de": "Hanbi, König im Exil",
+      "fr": "Le Roi des cendres"
+    }
+  },
+  "25": {
+    "name": {
+      "chs": "",
+      "en": "Never Cry Wolf",
+      "ja": "邪悪なる氷狼「フローズヴィトニル」",
+      "de": "Eiswolf Hrodvitnir",
+      "fr": "Et n'y Hród'viens plus !"
+    }
+  },
+  "26": {
+    "name": {
+      "chs": "",
+      "en": "Time to Burn",
+      "ja": "模造魔人「IVレギオン・ベリアス」",
+      "de": "Dämonid Belias",
+      "fr": "Le Titan"
+    }
+  },
+  "27": {
+    "name": {
+      "chs": "",
+      "en": "Lean, Mean, Magitek Machines",
+      "ja": "新兵器投入「機甲百人隊」",
+      "de": "Die Gepanzerte Zenturie",
+      "fr": "Réusinage de code"
+    }
+  },
+  "28": {
+    "name": {
+      "chs": "",
+      "en": "Worn to a Shadow",
+      "ja": "有角の凶鳥「アルコノスト」",
+      "de": "Alkonost, schrecklich und gefiedert",
+      "fr": "Oiseau d'enfer"
+    }
+  },
+  "29": {
+    "name": {
+      "chs": "",
+      "en": "A Familiar Face",
+      "ja": "模造統制者「IVレギオン・ハシュマリム」",
+      "de": "Hashmallim der Einiger",
+      "fr": "Le Grand Ordonnateur"
+    }
+  },
+  "30": {
+    "name": {
+      "chs": "",
+      "en": "Looks to Die For",
+      "ja": "輝ける虹蛇「アイダ」",
+      "de": "Regenbogenschlange Ayda",
+      "fr": "Écaillage en règle"
+    }
+  },
+  "31": {
+    "name": {
+      "chs": "",
+      "en": "Taking the Lyon's Share",
+      "ja": "戦慄の百獣使い「獣王ライアン」",
+      "de": "Revanche: Lyon der Bestienkönig",
+      "fr": "La revanche de Lyon"
+    }
+  },
+  "32": {
+    "name": {
+      "chs": "",
+      "en": "The Dalriada",
+      "ja": "旗艦ダル･リアータ攻略戦",
+      "de": "Sturm auf die Dalriada",
+      "fr": "Assaut sur le Dalriada"
+    }
   }
 }

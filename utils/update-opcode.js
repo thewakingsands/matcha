@@ -1,8 +1,9 @@
 const opcodes = [
   'ActorControlSelf',
   {
+    // https://github.com/quisquous/cactbot/blob/main/plugin/CactbotEventSource/FateWatcher.cs#L45
     key: 'CEDirector',
-    global: parseInt('0x160', 16)
+    global: parseInt('0x10D', 16)
   },
   {
     key: 'CompanyAirshipStatus',
@@ -18,7 +19,7 @@ const opcodes = [
   },
   {
     key: 'DirectorStart',
-    global: parseInt('0x0258', 16)
+    karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
   'Examine',

@@ -6226,7 +6226,7 @@
   },
   "613": {
     "name": {
-      "chs": "最初的岩壁——辛巴克那",
+      "chs": "最初的岩壁——希帕克纳",
       "en": "Waiting for Golem",
       "ja": "最初の岩壁「シパクナー」",
       "de": "Zipacna - Aller Anfang ist schwer",
@@ -8084,6 +8084,21 @@
     "itemSync": 0,
     "memberType": 19
   },
+  "754": {
+    "name": {
+      "chs": "黄金头巾——模仿师格格",
+      "en": "Anything Gogo's",
+      "ja": "黄金頭巾「ものまね士ゴゴ」",
+      "de": "Gogo der Mime",
+      "fr": "Gogo le mime"
+    },
+    "type": 27,
+    "level": 70,
+    "levelSync": 70,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
   "755": {
     "name": {
       "chs": "九宫幻卡：官方锦标赛",
@@ -8114,21 +8129,6 @@
     "itemSync": 0,
     "memberType": 13
   },
-  "757": {
-    "name": {
-      "chs": "泰坦幻巧战",
-      "en": "the Navel (Unreal)",
-      "ja": "幻タイタン討滅戦",
-      "de": "Traumprüfung - Titan",
-      "fr": "Le Nombril (irréel)"
-    },
-    "type": 4,
-    "level": 80,
-    "levelSync": 80,
-    "item": 430,
-    "itemSync": 435,
-    "memberType": 3
-  },
   "758": {
     "name": {
       "chs": "伊甸希望乐园 再生之章4",
@@ -8158,6 +8158,36 @@
     "item": 510,
     "itemSync": 0,
     "memberType": 3
+  },
+  "760": {
+    "name": {
+      "chs": "女王古殿",
+      "en": "Delubrum Reginae",
+      "ja": "グンヒルド・ディルーブラム",
+      "de": "Delubrum Reginae",
+      "fr": "Delubrum Reginae"
+    },
+    "type": 29,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 430,
+    "memberType": 26
+  },
+  "761": {
+    "name": {
+      "chs": "零式女王古殿",
+      "en": "Delubrum Reginae (Savage)",
+      "ja": "グンヒルド・ディルーブラム零式",
+      "de": "Delubrum Reginae (episch)",
+      "fr": "Delubrum Reginae (sadique)"
+    },
+    "type": 29,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 430,
+    "memberType": 28
   },
   "762": {
     "name": {
@@ -8202,6 +8232,21 @@
     "levelSync": 80,
     "item": 0,
     "itemSync": 0,
+    "memberType": 1
+  },
+  "765": {
+    "name": {
+      "chs": "神佑女王",
+      "en": "Fit for a Queen",
+      "ja": "ゴッド・セイブ・ザ・クイーン",
+      "de": "Hinab in die Ruinen",
+      "fr": "Que les Dieux gardent la Reine"
+    },
+    "type": 7,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 430,
     "memberType": 1
   },
   "766": {
@@ -8353,5 +8398,80 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 25
+  },
+  "776": {
+    "name": {
+      "chs": "利维亚桑幻巧战",
+      "en": "the Whorleater (Unreal)",
+      "ja": "幻リヴァイアサン討滅戦",
+      "de": "Traumprüfung - Leviathan",
+      "fr": "le Briseur de marées (irréel)"
+    },
+    "type": 4,
+    "level": 80,
+    "levelSync": 80,
+    "item": 430,
+    "itemSync": 435,
+    "memberType": 3
+  },
+  "777": {
+    "name": {
+      "chs": "黄金平原帕戈尔赞草原",
+      "en": "Paglth'an",
+      "ja": "黄金平原 パガルザン",
+      "de": "Die Goldene Ebene von Paglth'an",
+      "fr": "La grande prairie de Paglth'an"
+    },
+    "type": 2,
+    "level": 80,
+    "levelSync": 80,
+    "item": 490,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "779": {
+    "name": {
+      "chs": "希望之炮台：“塔”",
+      "en": "The Tower at Paradigm's Breach",
+      "ja": "希望ノ砲台：「塔」",
+      "de": "Der Turm, Paradigmenbrecher",
+      "fr": "La tour de la Contingence"
+    },
+    "type": 5,
+    "level": 80,
+    "levelSync": 80,
+    "item": 495,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "781": {
+    "name": {
+      "chs": "钻石神兵捕获作战",
+      "en": "The Cloud Deck",
+      "ja": "ダイヤウェポン捕獲作戦",
+      "de": "Diamantblitz - Entfesselung",
+      "fr": "Le Tillac des Cirrus"
+    },
+    "type": 4,
+    "level": 80,
+    "levelSync": 80,
+    "item": 495,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "782": {
+    "name": {
+      "chs": "钻石神兵狂想作战",
+      "en": "The Cloud Deck (Extreme)",
+      "ja": "極ダイヤウェポン捕獲作戦",
+      "de": "Diamantblitz - Trauma",
+      "fr": "Le Tillac des Cirrus (extrême)"
+    },
+    "type": 4,
+    "level": 80,
+    "levelSync": 80,
+    "item": 510,
+    "itemSync": 0,
+    "memberType": 3
   }
 }

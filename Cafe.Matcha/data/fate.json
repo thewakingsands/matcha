@@ -1838,7 +1838,7 @@
   "354": {
     "name": {
       "chs": "护送负伤者",
-      "en": "Tripped up by the Fruit of Another",
+      "en": "Tripped Up by the Fruit of Another",
       "ja": "負傷者を護送せよ",
       "de": "Krankentransport",
       "fr": "Attention, sol glissant"
@@ -5942,7 +5942,7 @@
   "894": {
     "name": {
       "chs": "毫无理性的暴风",
-      "en": "Yak it Up",
+      "en": "Yak It Up",
       "ja": "無知性化の嵐",
       "de": "Tödliche Unzurechnungsfähigkeit",
       "fr": "Yak à le faire"
@@ -9125,7 +9125,7 @@
       "en": "Cairn Blight 451",
       "ja": "腐れる読書家「タキシム」",
       "de": "Die Leserotte",
-      "fr": "Défi<Indent/>: zombie-bliophile"
+      "fr": "Défi<Indent/>: zombi-bliophile"
     },
     "level": 21,
     "patch": 4,
@@ -9854,7 +9854,7 @@
   "1453": {
     "name": {
       "chs": "粉红鹳",
-      "en": "Picking up the Pieces",
+      "en": "Picking Up the Pieces",
       "ja": "ピンク・フラミンゴ",
       "de": "Flamingos füttern verboten!",
       "fr": "Flamants empoisonnés"
@@ -12838,5 +12838,401 @@
     "level": 1,
     "patch": 0,
     "location": 0
+  },
+  "1710": {
+    "name": {
+      "chs": "红莲节：寒冰轰击怪来袭！",
+      "en": "A Blizzard of Bombards",
+      "ja": "紅蓮祭「襲来 アイスボンバード！」",
+      "de": "Angriff der Eis-Knallomaten",
+      "fr": "Des bombardos com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment givrés"
+    },
+    "level": 30,
+    "patch": 0,
+    "location": 0
+  },
+  "1711": {
+    "name": {
+      "chs": "彩蛋狩猎“取蛋时刻”",
+      "en": "An Eggsistential Threat",
+      "ja": "エッグハント「ニワトリの卵は誰のもの」",
+      "de": "Im Hühnerstall der Albträume",
+      "fr": "Marcher sur des œufs"
+    },
+    "level": 10,
+    "patch": 0,
+    "location": 0
+  },
+  "1712": {
+    "name": {
+      "chs": "天穹同庆“一起享受庆典吧”",
+      "en": "A Twist of Fête",
+      "ja": "蒼天街復興祝祭「Fêteへようこそ！」",
+      "de": "Feste, Fêtes und Feierlaune",
+      "fr": "Les poseurs à la feste"
+    },
+    "level": 1,
+    "patch": 0,
+    "location": 0
+  },
+  "1713": {
+    "name": {
+      "chs": "天穹同庆“组装玩偶”",
+      "en": "Made of Softer Stuff",
+      "ja": "蒼天街復興祝祭「ぬいぐるみ組立競争」",
+      "de": "Der Stoff der Träume",
+      "fr": "La fabrique à peluches"
+    },
+    "level": 1,
+    "patch": 0,
+    "location": 0
+  },
+  "1714": {
+    "name": {
+      "chs": "天穹同庆“剃牦牛毛”",
+      "en": "Shear-a-Yak",
+      "ja": "蒼天街復興祝祭「ヤクの毛刈り競争」",
+      "de": "Yak-o-matik",
+      "fr": "Y a qu'à tondre<Indent/>!"
+    },
+    "level": 1,
+    "patch": 0,
+    "location": 0
+  },
+  "1715": {
+    "name": {
+      "chs": "天穹同庆“收集玩偶”",
+      "en": "Toy Hunter",
+      "ja": "蒼天街復興祝祭「ぬいぐるみ集め競争」",
+      "de": "Jäger des versteckten Mogrys",
+      "fr": "La chasse au jouet"
+    },
+    "level": 1,
+    "patch": 0,
+    "location": 0
+  },
+  "1716": {
+    "name": {
+      "chs": "天穹同庆“分发礼物”",
+      "en": "Presents of Mind",
+      "ja": "蒼天街復興祝祭「プレゼント配り競争」",
+      "de": "Bote der Glückseligkeit",
+      "fr": "À chacun son cadeau"
+    },
+    "level": 1,
+    "patch": 0,
+    "location": 0
+  },
+  "1717": {
+    "name": {
+      "chs": "",
+      "en": "Of Beasts and Braggadocio",
+      "ja": "我執の魔獣使い",
+      "de": "Die allergrößte Bestienbändigerin aller Zeiten",
+      "fr": "Un jour, je serai la meilleure dresseuse"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1718": {
+    "name": {
+      "chs": "",
+      "en": "Parts and Parcel",
+      "ja": "忍者オボロの出陣",
+      "de": "Oboro auf der Jagd",
+      "fr": "Les astres du jour et de la nuit"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1719": {
+    "name": {
+      "chs": "",
+      "en": "An Immoral Dilemma",
+      "ja": "傍白の外道術士",
+      "de": "Ketzer Fabineau gibt sich die Ehre",
+      "fr": "Malheureuses retrouvailles"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1720": {
+    "name": {
+      "chs": "",
+      "en": "Deadly Divination",
+      "ja": "歳殺の陰陽士",
+      "de": "Mörderischer Onmyoji",
+      "fr": "Le prêtre pernicieux"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1721": {
+    "name": {
+      "chs": "",
+      "en": "A Wrench in the Reconnaissance Effort",
+      "ja": "偵察魔導兵器の排除",
+      "de": "Beobachten verboten",
+      "fr": "Ni vu ni connu"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1722": {
+    "name": {
+      "chs": "",
+      "en": "Another Pilot Episode",
+      "ja": "再来の強化兵",
+      "de": "Rückkehr des Magitek-Soldaten",
+      "fr": "Dabog, soldat augmenté"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1723": {
+    "name": {
+      "chs": "",
+      "en": "Breaking the Ice",
+      "ja": "術士大隊の迎撃",
+      "de": "Eiskalte Begegnung",
+      "fr": "Qui s'y frotte s'y pique"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1724": {
+    "name": {
+      "chs": "",
+      "en": "Meet the Puppetmaster",
+      "ja": "人形使いとの邂逅",
+      "de": "Lass die Puppen tanzen",
+      "fr": "Celui qui tire les ficelles"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1725": {
+    "name": {
+      "chs": "",
+      "en": "Challenge Accepted",
+      "ja": "立ちはだかる我執",
+      "de": "Größtmöglicher anzunehmender Unfall",
+      "fr": "Un problème de taille"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1726": {
+    "name": {
+      "chs": "",
+      "en": "Th'uban the Terrible",
+      "ja": "巨大古代獣との遭遇",
+      "de": "Bestien aus der Vorzeit",
+      "fr": "Le dernier des dinosaures"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1727": {
+    "name": {
+      "chs": "",
+      "en": "An End to Atrocities",
+      "ja": "外道術士との決着",
+      "de": "Endkampf mit dem Ketzer",
+      "fr": "L'immaculée contre le malsain"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1728": {
+    "name": {
+      "chs": "",
+      "en": "A Just Pursuit",
+      "ja": "歳殺の手配犯",
+      "de": "Gesucht: Der mörderische Meister",
+      "fr": "Recherché dans deux pays"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1729": {
+    "name": {
+      "chs": "",
+      "en": "Tanking Up",
+      "ja": "疑似青龍壁の生命線",
+      "de": "Energie für Seiryu Zwo",
+      "fr": "Y a qu'à se baisser"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1730": {
+    "name": {
+      "chs": "",
+      "en": "Supersoldier Rising",
+      "ja": "覚醒の強化兵",
+      "de": "Der Magitek-Soldat schlägt zurück",
+      "fr": "Guet-apens magitek"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1731": {
+    "name": {
+      "chs": "",
+      "en": "Demented Mentor",
+      "ja": "師弟の戦い",
+      "de": "Rettende Hiebe",
+      "fr": "Magie couleur sang"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1732": {
+    "name": {
+      "chs": "",
+      "en": "Sever the Strings",
+      "ja": "人形使いとの死闘",
+      "de": "Endkampf mit dem Puppenspieler",
+      "fr": "Ainsi font les petites marionnettes"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1733": {
+    "name": {
+      "chs": "",
+      "en": "The Beasts Are Back",
+      "ja": "折れない我執",
+      "de": "Die Allergrößte gibt nicht auf",
+      "fr": "Des bêtes en pagagaille"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1734": {
+    "name": {
+      "chs": "",
+      "en": "Still Only Counts as One",
+      "ja": "華麗なるお披露目会",
+      "de": "Die Schillernde und ihr Schoßhund",
+      "fr": "Clarricie, sans défense ou presque"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1735": {
+    "name": {
+      "chs": "",
+      "en": "Seeq and You Will Find",
+      "ja": "豚面との再会",
+      "de": "Die Farbe des Blutes",
+      "fr": "Non, c'est non<Indent/>!"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1736": {
+    "name": {
+      "chs": "",
+      "en": "Mean-spirited",
+      "ja": "歳殺の大捕物",
+      "de": "Haltet den Onmyoji!",
+      "fr": "Le trésor du clan Urabe"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1737": {
+    "name": {
+      "chs": "",
+      "en": "A Relic Unleashed",
+      "ja": "聖石片の脅威",
+      "de": "Dunkelfürst Famfrit",
+      "fr": "Sans issue"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1738": {
+    "name": {
+      "chs": "",
+      "en": "When Mages Rage",
+      "ja": "術士大隊の反撃",
+      "de": "Was du heute kannst besorgen",
+      "fr": "Des cailloux, des cailloux, des cailloux<Indent/>!"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1739": {
+    "name": {
+      "chs": "",
+      "en": "Hypertuned Havoc",
+      "ja": "黄金の強化兵",
+      "de": "Eine goldene Gelegenheit",
+      "fr": "Une opportunité en or"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1740": {
+    "name": {
+      "chs": "",
+      "en": "Attack of the Supersoldiers",
+      "ja": "強化兵部隊の強襲",
+      "de": "Verstärkung für die Mech-Einheit",
+      "fr": "Il est plus d'un"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1741": {
+    "name": {
+      "chs": "",
+      "en": "The Student Becalms the Master",
+      "ja": "師弟の絆",
+      "de": "Rettende Hiebe Teil 2",
+      "fr": "L'élève dépasse le maître"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
+  },
+  "1742": {
+    "name": {
+      "chs": "",
+      "en": "Attack of the Machines",
+      "ja": "シシニアスの量産計画",
+      "de": "Magitek-Maschinen en masse",
+      "fr": "Fabrication en série"
+    },
+    "level": 80,
+    "patch": 5,
+    "location": 920
   }
 }
