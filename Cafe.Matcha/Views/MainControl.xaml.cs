@@ -215,6 +215,8 @@ namespace Cafe.Matcha.Views
                     return false;
                 case EventType.FishBite:
                     return true;
+                case EventType.TreasureResult:
+                    return true;
                 case EventType.DynamicEvent:
                     var deDto = (DynamicEventDTO)dto;
                     switch (deDto.Stage)
@@ -232,7 +234,6 @@ namespace Cafe.Matcha.Views
                             notifiedDynamicEvent.Remove(deDto.Event);
                             return false;
                     }
-
                 default:
                     return false;
             }
@@ -315,6 +316,18 @@ namespace Cafe.Matcha.Views
             try
             {
                 Output.Send(Formatter.GetEventText(new DynamicEventDTO { Event = 1 }));
+            }
+            catch (Exception err)
+            {
+                LogException(err);
+            }
+        }
+
+        private void BSettingTreasureTest_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Output.Send(Formatter.GetEventText(new TreasureResultDTO { Value = "wheel-special" }));
             }
             catch (Exception err)
             {

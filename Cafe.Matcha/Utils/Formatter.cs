@@ -148,6 +148,36 @@ namespace Cafe.Matcha.Utils
             return sb.ToString();
         }
 
+        private static string GetTreasureResultText(TreasureResultDTO dto)
+        {
+            if (!FormatterConfig.Treasure.Result)
+            {
+                return null;
+            }
+
+            switch (dto.Value)
+            {
+                case "wheel-low":
+                    return "下级召唤";
+                case "wheel-medium":
+                    return "中级召唤";
+                case "wheel-high":
+                    return "上级召唤";
+                case "wheel-shift":
+                    return "召唤式变动";
+                case "wheel-special":
+                    return "下级召唤";
+                case "wheel-end":
+                    return "召唤失败";
+                case "gate-open":
+                    return "开门";
+                case "gate-fail":
+                    return "失败";
+            }
+
+            return null;
+        }
+
         public static string GetEventText(BaseDTO dto)
         {
             switch (dto.EventType)
@@ -191,6 +221,8 @@ namespace Cafe.Matcha.Utils
                     return zoneText;
                 case EventType.DynamicEvent:
                     return GetDynamicEventText((DynamicEventDTO)dto);
+                case EventType.TreasureResult:
+                    return GetTreasureResultText((TreasureResultDTO)dto);
                 default:
                     return string.Format("{0} {1}", Enum.GetName(typeof(EventType), dto.EventType), dto.ToJSON());
             }

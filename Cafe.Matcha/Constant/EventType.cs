@@ -18,6 +18,7 @@ namespace Cafe.Matcha.Constant
         MiniCactpot,
         Gearset,
         TreasureSpot,
+        TreasureResult,
         CompanyVoyageStatus,
 
         DynamicEvent

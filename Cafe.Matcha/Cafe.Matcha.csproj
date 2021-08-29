@@ -106,6 +106,8 @@
     <Compile Include="Constant\RequestType.cs" />
     <Compile Include="Constant\Secret.cs" />
     <Compile Include="Constant\Secret.Local.cs" />
+    <Compile Include="Constant\TreasureShiftingWheelResultType.cs" />
+    <Compile Include="DTO\TreasureResultDTO.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Network\State.cs" />
     <Compile Include="Network\Universalis\Structures\UniversalisQueryResponse.cs" />

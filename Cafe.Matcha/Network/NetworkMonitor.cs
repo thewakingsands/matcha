@@ -62,9 +62,86 @@ namespace Cafe.Matcha.Network
                 return;
             }
 
+            var processed = HandleMessageByOpcode(message);
+            if (!processed)
+            {
+                TryHandleMessage(message);
+            }
+        }
+
+        private void TryHandleMessage(byte[] message)
+        {
+            var data = message.Skip(32).ToArray();
+            // Treasure Shifting Wheel Result
+            if (message.Length == 88)
+            {
+                var level = BitConverter.ToUInt32(data, 24);
+                if (
+                    level == 7636061 || // G10 运河宝物库神殿
+                    level == 8508181 // G12 梦羽宝殿
+                )
+                {
+                    var result = (TreasureShiftingWheelResultType)data[40];
+                    switch (result)
+                    {
+                        case TreasureShiftingWheelResultType.Low:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-low"
+                            });
+                            break;
+                        case TreasureShiftingWheelResultType.Medium:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-medium"
+                            });
+                            break;
+                        case TreasureShiftingWheelResultType.High:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-high"
+                            });
+                            break;
+                        case TreasureShiftingWheelResultType.Shift:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-shift"
+                            });
+                            break;
+                        case TreasureShiftingWheelResultType.Special:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-special"
+                            });
+                            break;
+                        case TreasureShiftingWheelResultType.End:
+                            FireEvent(new TreasureResultDTO()
+                            {
+                                Value = "wheel-end"
+                            });
+                            break;
+                    }
+                }
+            }
+            else if (message.Length == 96)
+            {
+                var flag = BitConverter.ToUInt32(data, 16);
+                if (flag == 0x04482c03)
+                {
+                    FireEvent(new TreasureResultDTO()
+                    {
+                        Round = data[32] + 1,
+                        Value = data[40] == 1 ? "gate-open" : "gate-fail"
+                    });
+                }
+            }
+        }
+
+        private bool HandleMessageByOpcode(byte[] message)
+        {
             if (!ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
             {
-                return;
+                return false;
             }
 
             Universalis.Client.HandlePacket(opcode, message);
@@ -75,7 +152,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 168)
                 {
-                    return;
+                    return false;
                 }
 
                 var category = BitConverter.ToUInt32(data, 0);
@@ -94,7 +171,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 64)
                 {
-                    return;
+                    return false;
                 }
 
                 var type = (ActorControlType)BitConverter.ToUInt16(data, 0);
@@ -170,7 +247,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 64)
                 {
-                    return;
+                    return false;
                 }
 
                 var roulette = BitConverter.ToUInt16(data, 2);
@@ -186,7 +263,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 176)
                 {
-                    return;
+                    return false;
                 }
 
                 var list = new List<CompanyVoyageStatusItem>();
@@ -218,7 +295,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 176)
                 {
-                    return;
+                    return false;
                 }
 
                 var list = new List<CompanyVoyageStatusItem>();
@@ -250,7 +327,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 128)
                 {
-                    return;
+                    return false;
                 }
 
                 State.Instance.ZoneId = BitConverter.ToUInt16(data, 2);
@@ -264,7 +341,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 72)
                 {
-                    return;
+                    return false;
                 }
 
                 var targetActorId = BitConverter.ToUInt32(message, 8);
@@ -272,7 +349,7 @@ namespace Cafe.Matcha.Network
 
                 if (targetActorId != fishActorId)
                 {
-                    return;
+                    return true;
                 }
 
                 var type = (FishEventType)BitConverter.ToUInt16(data, 12);
@@ -280,7 +357,7 @@ namespace Cafe.Matcha.Network
 
                 if (type != FishEventType.Bite)
                 {
-                    return;
+                    return true;
                 }
 
                 switch ((FishEventBiteType)biteType)
@@ -309,7 +386,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 48)
                 {
-                    return;
+                    return false;
                 }
 
                 var itemId = BitConverter.ToUInt32(data, 0);
@@ -327,7 +404,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 1560)
                 {
-                    return;
+                    return false;
                 }
 
                 var detail = new List<int>();
@@ -365,14 +442,14 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 96)
                 {
-                    return;
+                    return false;
                 }
 
                 // Filter out non-equipped items
                 var container = BitConverter.ToUInt16(data, 0x08);
                 if (container != 1000)
                 {
-                    return;
+                    return true;
                 }
 
                 var materias = new List<Materia>();
@@ -399,14 +476,14 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 80)
                 {
-                    return;
+                    return false;
                 }
 
                 // Filter out non-equipped items
                 var container = BitConverter.ToUInt16(data, 0x0c);
                 if (container != 1000)
                 {
-                    return;
+                    return true;
                 }
 
                 FireEvent(new GearsetDTO()
@@ -423,7 +500,7 @@ namespace Cafe.Matcha.Network
             {
                 if (message.Length != 1016)
                 {
-                    return;
+                    return false;
                 }
 
                 const int offset = 0x40;
@@ -469,6 +546,12 @@ namespace Cafe.Matcha.Network
             {
                 State.Instance.WorldId = BitConverter.ToUInt16(data, 4);
             }
+            else
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public delegate void ExceptionHandler(Exception e);

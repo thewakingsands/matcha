@@ -177,6 +177,17 @@
                                 <Button x:Name="bSettingZoneTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingZoneTest_Click"/>
                             </Grid>
                         </GroupBox>
+                        <GroupBox Header="挖宝播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <Grid Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Content="结果预报" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Treasure.Result, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                <Button x:Name="bSettingTreasureTest" Content="测试" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingTreasureTest_Click"/>
+                            </Grid>
+                        </GroupBox>
                         <GroupBox Header="遭遇战（博兹雅）播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid Height="30">
                                 <Grid.ColumnDefinitions>

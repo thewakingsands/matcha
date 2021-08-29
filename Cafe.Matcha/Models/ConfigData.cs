@@ -145,18 +145,26 @@ namespace Cafe.Matcha.Models
 
     public class ConfigFormatter : BindingTarget
     {
-        public ConfigFormatter() : this(null, null, null, null, null)
+        public ConfigFormatter() : this(null, null, null, null, null, null)
         {
         }
 
         [JsonConstructor]
-        private ConfigFormatter(ConfigFormatterFate fate, ConfigFormatterFish fish, ConfigFormatterInstance instance, ConfigFormatterZone zone, ConfigFormatterCriticalEngagement criticalEngagement)
+        private ConfigFormatter(
+            ConfigFormatterFate fate,
+            ConfigFormatterFish fish,
+            ConfigFormatterInstance instance,
+            ConfigFormatterZone zone,
+            ConfigFormatterCriticalEngagement criticalEngagement,
+            ConfigFormatterTreasure treasure
+        )
         {
             Fate = fate ?? new ConfigFormatterFate();
             Fish = fish ?? new ConfigFormatterFish();
             Instance = instance ?? new ConfigFormatterInstance();
             Zone = zone ?? new ConfigFormatterZone();
             CriticalEngagement = criticalEngagement ?? new ConfigFormatterCriticalEngagement();
+            Treasure = treasure ?? new ConfigFormatterTreasure();
         }
 
         [JsonProperty("fate")]
@@ -169,6 +177,8 @@ namespace Cafe.Matcha.Models
         public ConfigFormatterZone Zone { get; set; }
         [JsonProperty("critical-engagement")]
         public ConfigFormatterCriticalEngagement CriticalEngagement { get; set; }
+        [JsonProperty("treasure")]
+        public ConfigFormatterTreasure Treasure { get; set; }
     }
 
     public class ConfigFormatterFish : BindingTarget
@@ -194,6 +204,12 @@ namespace Cafe.Matcha.Models
     {
         [JsonProperty("name")]
         public bool Name { get; set; } = true;
+    }
+
+    public class ConfigFormatterTreasure : BindingTarget
+    {
+        [JsonProperty("result")]
+        public bool Result { get; set; } = true;
     }
 
     public class ConfigFormatterInstance : BindingTarget
