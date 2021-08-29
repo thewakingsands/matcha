@@ -29,22 +29,22 @@ namespace Cafe.Matcha.Constant
     {
         public static Dictionary<ushort, MatchaOpcode> Global = new Dictionary<ushort, MatchaOpcode>
         {
-            { 0x0314, MatchaOpcode.ActorControlSelf },
-            { 0x010d, MatchaOpcode.CEDirector },
-            { 0x0250, MatchaOpcode.CompanyAirshipStatus },
-            { 0x0292, MatchaOpcode.CompanySubmersibleStatus },
-            { 0x01ac, MatchaOpcode.ContentFinderNotifyPop },
-            { 0xf005, MatchaOpcode.DirectorStart },
-            { 0x01ef, MatchaOpcode.EventPlay },
-            { 0x00d3, MatchaOpcode.Examine },
-            { 0x0100, MatchaOpcode.InitZone },
-            { 0x03ac, MatchaOpcode.InventoryTransaction },
-            { 0x00a7, MatchaOpcode.ItemInfo },
-            { 0x00f5, MatchaOpcode.MarketBoardItemListing },
-            { 0x0275, MatchaOpcode.MarketBoardItemListingCount },
-            { 0x0112, MatchaOpcode.MarketBoardItemListingHistory },
-            { 0x0296, MatchaOpcode.PlayerSetup },
-            { 0x0249, MatchaOpcode.PlayerSpawn },
+            { 0x02b6, MatchaOpcode.ActorControlSelf },
+            { 0x0104, MatchaOpcode.CEDirector },
+            { 0x0166, MatchaOpcode.CompanyAirshipStatus },
+            { 0x0247, MatchaOpcode.CompanySubmersibleStatus },
+            { 0x0327, MatchaOpcode.ContentFinderNotifyPop },
+            { 0x01dd, MatchaOpcode.DirectorStart },
+            { 0x016b, MatchaOpcode.EventPlay },
+            { 0x0365, MatchaOpcode.Examine },
+            { 0x0320, MatchaOpcode.InitZone },
+            { 0x027f, MatchaOpcode.InventoryTransaction },
+            { 0x01cc, MatchaOpcode.ItemInfo },
+            { 0x0076, MatchaOpcode.MarketBoardItemListing },
+            { 0x0068, MatchaOpcode.MarketBoardItemListingCount },
+            { 0x01ba, MatchaOpcode.MarketBoardItemListingHistory },
+            { 0x01d5, MatchaOpcode.PlayerSetup },
+            { 0x01d8, MatchaOpcode.PlayerSpawn },
         };
         public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
         {

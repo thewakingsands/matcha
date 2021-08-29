@@ -3,7 +3,8 @@ const opcodes = [
   {
     // https://github.com/quisquous/cactbot/blob/main/plugin/CactbotEventSource/FateWatcher.cs#L45
     key: 'CEDirector',
-    global: parseInt('0x10D', 16)
+    // this is not the actual key, just a hack
+    karashiiro: '_GH_CEDirector'
   },
   {
     key: 'CompanyAirshipStatus',
@@ -19,7 +20,8 @@ const opcodes = [
   },
   {
     key: 'DirectorStart',
-    karashiiro: 'MiniCactpotInit'
+    global: 0x1dd
+    // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
   'Examine',
@@ -90,6 +92,16 @@ const outputFromWorker = (list) => opcodes.map((item, index) => {
   const parsedData = JSON.parse(karashiiroData.toString())
 
   const globalOpcodes = parsedData.find(item => item.region === 'Global')
+
+  const cactbotFate = await request('https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs')
+  const ceDirector = /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(cactbotFate.toString())
+
+  if (ceDirector) {
+    globalOpcodes.lists.ServerZoneIpcType.push({
+      name: '_GH_CEDirector',
+      opcode: parseInt(ceDirector[1], 16)
+    })
+  }
 
   const workerData = await request('https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv')
   const cnOpcodes = workerData.toString().split('\n').map(line => {
