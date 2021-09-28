@@ -8429,6 +8429,21 @@
     "itemSync": 0,
     "memberType": 2
   },
+  "778": {
+    "name": {
+      "chs": "扎杜诺尔高原",
+      "en": "Zadnor",
+      "ja": "ザトゥノル高原",
+      "de": "Zadnor-Hochebene",
+      "fr": "Hauts plateaux de Zadnor"
+    },
+    "type": 29,
+    "level": 71,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 430,
+    "memberType": 12
+  },
   "779": {
     "name": {
       "chs": "希望之炮台：“塔”",
@@ -8443,6 +8458,21 @@
     "item": 495,
     "itemSync": 0,
     "memberType": 4
+  },
+  "780": {
+    "name": {
+      "chs": "死斗至黎明",
+      "en": "Death Unto Dawn",
+      "ja": "黎明の死闘",
+      "de": "Kampf im Morgengrauen",
+      "fr": "Aube meurtrière"
+    },
+    "type": 7,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
   },
   "781": {
     "name": {

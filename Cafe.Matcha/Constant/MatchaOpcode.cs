@@ -30,7 +30,7 @@ namespace Cafe.Matcha.Constant
         public static Dictionary<ushort, MatchaOpcode> Global = new Dictionary<ushort, MatchaOpcode>
         {
             { 0x02b6, MatchaOpcode.ActorControlSelf },
-            { 0x0104, MatchaOpcode.CEDirector },
+            { 0x0223, MatchaOpcode.CEDirector },
             { 0x0166, MatchaOpcode.CompanyAirshipStatus },
             { 0x0247, MatchaOpcode.CompanySubmersibleStatus },
             { 0x0327, MatchaOpcode.ContentFinderNotifyPop },
@@ -48,22 +48,22 @@ namespace Cafe.Matcha.Constant
         };
         public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
         {
-            { 0x0190, MatchaOpcode.ActorControlSelf },
-            { 0x0308, MatchaOpcode.CEDirector },
-            { 0x0171, MatchaOpcode.CompanyAirshipStatus },
-            { 0x02ba, MatchaOpcode.CompanySubmersibleStatus },
-            { 0x00ee, MatchaOpcode.ContentFinderNotifyPop },
-            { 0x02da, MatchaOpcode.DirectorStart },
-            { 0x014d, MatchaOpcode.EventPlay },
-            { 0x0334, MatchaOpcode.Examine },
-            { 0x036e, MatchaOpcode.InitZone },
-            { 0x0376, MatchaOpcode.InventoryTransaction },
-            { 0x0322, MatchaOpcode.ItemInfo },
-            { 0x0315, MatchaOpcode.MarketBoardItemListing },
-            { 0x00d8, MatchaOpcode.MarketBoardItemListingCount },
-            { 0x03e0, MatchaOpcode.MarketBoardItemListingHistory },
-            { 0x01bf, MatchaOpcode.PlayerSetup },
-            { 0x0323, MatchaOpcode.PlayerSpawn },
+            { 0x0354, MatchaOpcode.ActorControlSelf },
+            { 0x00c0, MatchaOpcode.CEDirector },
+            { 0x010d, MatchaOpcode.CompanyAirshipStatus },
+            { 0x0284, MatchaOpcode.CompanySubmersibleStatus },
+            { 0x01dd, MatchaOpcode.ContentFinderNotifyPop },
+            { 0x02e0, MatchaOpcode.DirectorStart },
+            { 0x030d, MatchaOpcode.EventPlay },
+            { 0x02f1, MatchaOpcode.Examine },
+            { 0x0343, MatchaOpcode.InitZone },
+            { 0x0167, MatchaOpcode.InventoryTransaction },
+            { 0x0103, MatchaOpcode.ItemInfo },
+            { 0x03b5, MatchaOpcode.MarketBoardItemListing },
+            { 0x01a3, MatchaOpcode.MarketBoardItemListingCount },
+            { 0x0218, MatchaOpcode.MarketBoardItemListingHistory },
+            { 0x01e2, MatchaOpcode.PlayerSetup },
+            { 0x01eb, MatchaOpcode.PlayerSpawn },
         };
     }
 }
