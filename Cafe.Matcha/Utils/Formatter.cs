@@ -36,7 +36,8 @@ namespace Cafe.Matcha.Utils
         {
             if (FormatterConfig.CriticalEngagement.Name)
             {
-                if (Data.Instance.DynamicEvents.TryGetValue(dto.Event, out var dynamicEvent))
+                var id = dto.Zone * 1000 + dto.Event;
+                if (Data.Instance.DynamicEvents.TryGetValue(id, out var dynamicEvent))
                 {
                     return dynamicEvent.Name.ToString();
                 }

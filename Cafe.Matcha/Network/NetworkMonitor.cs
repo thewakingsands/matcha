@@ -536,6 +536,7 @@ namespace Cafe.Matcha.Network
                 {
                     NextStage = BitConverter.ToUInt32(data, 0),
                     Countdown = (int)BitConverter.ToUInt32(data, 4),
+                    Zone = State.Instance.ZoneId,
                     Event = data[8],
                     Participants = data[9],
                     Stage = data[10],

@@ -5,6 +5,7 @@
     internal class State : StaticBindingTarget<State>
     {
         private ushort worldId = 0;
+        private ushort zoneId = 0;
         public ushort WorldId
         {
             get
@@ -23,6 +24,21 @@
             }
         }
 
-        public ushort ZoneId { get; set; } = 0;
+        public ushort ZoneId
+        {
+            get
+            {
+                if (zoneId == 0 && ParsePlugin.Instance != null)
+                {
+                    return (ushort)ParsePlugin.Instance.GetCurrentTerritoryID();
+                }
+
+                return zoneId;
+            }
+            set
+            {
+                zoneId = value;
+            }
+        }
     }
 }

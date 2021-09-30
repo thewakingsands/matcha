@@ -16,6 +16,9 @@ namespace Cafe.Matcha.DTO
             }
         }
 
+        [JsonProperty("zone")]
+        public int Zone = 0;
+
         [JsonProperty("event")]
         public int Event;
 

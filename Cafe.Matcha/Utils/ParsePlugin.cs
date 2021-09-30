@@ -65,6 +65,11 @@ namespace Cafe.Matcha.Utils
             return combatantList[0].CurrentWorldID;
         }
 
+        public uint GetCurrentTerritoryID()
+        {
+            return _parsePlugin.DataRepository.GetCurrentTerritoryID();
+        }
+
         private void HandleMessageSent(string connection, long epoch, byte[] message)
         {
             Network?.HandleMessageSent(connection, epoch, message);

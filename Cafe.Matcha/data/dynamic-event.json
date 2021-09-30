@@ -1,140 +1,5 @@
 {
-  "1": {
-    "name": {
-      "chs": "腐烂蔬菜——皮里福尔",
-      "en": "Kill It with Fire",
-      "ja": "腐乱野菜「ピーリフール」",
-      "de": "Peeriefool, das faule Gemüse",
-      "fr": "Grandeur et pestilence"
-    }
-  },
-  "2": {
-    "name": {
-      "chs": "战争妖犬——恐惧妖犬",
-      "en": "The Baying of the Hound(s)",
-      "ja": "戦争の妖犬「カニスディルス」",
-      "de": "Die drei Mäuler des Canis dirus",
-      "fr": "Le chien des enfers"
-    }
-  },
-  "3": {
-    "name": {
-      "chs": "高火力陆战魔导兵器——守夜",
-      "en": "Vigil for the Lost",
-      "ja": "高火力陸戦魔導兵器「ヴィジル」",
-      "de": "Vigil, Feuerkraft hoch zehn",
-      "fr": "Vigile de feu"
-    }
-  },
-  "4": {
-    "name": {
-      "chs": "新型飞行型魔导装甲——加百列",
-      "en": "Aces High",
-      "ja": "新型飛行型魔導アーマー「ガブリエル」",
-      "de": "Gabriel, die stählerne Schwinge",
-      "fr": "Force divine"
-    }
-  },
-  "5": {
-    "name": {
-      "chs": "黑死鸟——阿克巴巴",
-      "en": "The Shadow of Death's Hand",
-      "ja": "黒き死鳥「アクババ」",
-      "de": "Akbaba, Tod von oben",
-      "fr": "Les ailes noires de la mort"
-    }
-  },
-  "6": {
-    "name": {
-      "chs": "怨念死灵——地生人",
-      "en": "The Final Furlong",
-      "ja": "怨念の死霊「スパルトイ」",
-      "de": "Spartoi der Gefürchtete",
-      "fr": "Menace spectrale"
-    }
-  },
-  "7": {
-    "name": {
-      "chs": "红陆行鸟之王——红色彗星",
-      "en": "The Hunt for Red Choctober",
-      "ja": "赤チョコボのヌシ「レッドコメット」",
-      "de": "Der Rote Meteor und seine Meute",
-      "fr": "Une ruée en rouge"
-    }
-  },
-  "8": {
-    "name": {
-      "chs": "百兽之王——兽王莱昂",
-      "en": "Beast of Man",
-      "ja": "百獣使い「獣王ライアン」",
-      "de": "Lyon der Bestienkönig",
-      "fr": "Le Roi bestial"
-    }
-  },
-  "9": {
-    "name": {
-      "chs": "炎兽训练师——火焰百夫队",
-      "en": "The Fires of War",
-      "ja": "炎獣使い「火焔百人隊」",
-      "de": "Die Flammenden Hundert",
-      "fr": "Brasier de guerre"
-    }
-  },
-  "10": {
-    "name": {
-      "chs": "据点防卫魔导兵器——爱国者",
-      "en": "Patriot Games",
-      "ja": "拠点防衛魔導兵器「パトリオット」",
-      "de": "Verteidigungsmaschine Patriot",
-      "fr": "Les fusils du patriote"
-    }
-  },
-  "11": {
-    "name": {
-      "chs": "邪眼妖兽——耶鲁",
-      "en": "Trampled under Hoof",
-      "ja": "邪眼の妖獣「エアレー」",
-      "de": "Die bösen Blicke der Eale",
-      "fr": "L'œil du malin"
-    }
-  },
-  "12": {
-    "name": {
-      "chs": "老练魔法师——铁胆狱火萨托瓦尔",
-      "en": "And the Flames Went Higher",
-      "ja": "老練の魔道士「鉄火のサルトヴォアール」",
-      "de": "Sartauvoir Eisenfeuer",
-      "fr": "L'envol du phénix"
-    }
-  },
-  "13": {
-    "name": {
-      "chs": "钢铁魔兽——达因斯莱瓦",
-      "en": "Metal Fox Chaos",
-      "ja": "鋼鉄の魔獣「ダーインスレイヴ」",
-      "de": "Dáinsleif, Bestie aus Eisen",
-      "fr": "Le guerrier de métal"
-    }
-  },
-  "14": {
-    "name": {
-      "chs": "新型铁巨人——魔导劳工X式",
-      "en": "Rise of the Robots",
-      "ja": "新たなる鉄巨人「魔導レイバーX型」",
-      "de": "Im Schatten von Modell X",
-      "fr": "Le soulèvement des machines"
-    }
-  },
-  "15": {
-    "name": {
-      "chs": "战栗之角——奇尔维尼克",
-      "en": "Where Strode the Behemoth",
-      "ja": "戦慄の角「チルヴニク」",
-      "de": "Der untote Chlevnik",
-      "fr": "Le mastodonte enragé"
-    }
-  },
-  "16": {
+  "920000": {
     "name": {
       "chs": "帝国湖岸堡攻城战",
       "en": "The Battle of Castrum Lacus Litore",
@@ -143,7 +8,151 @@
       "fr": "Assaut sur Castrum Lacus Litore"
     }
   },
-  "17": {
+  "920001": {
+    "name": {
+      "chs": "腐烂蔬菜——皮里福尔",
+      "en": "Kill It with Fire",
+      "ja": "腐乱野菜「ピーリフール」",
+      "de": "Peeriefool, das faule Gemüse",
+      "fr": "Grandeur et pestilence"
+    }
+  },
+  "920002": {
+    "name": {
+      "chs": "战争妖犬——恐惧妖犬",
+      "en": "The Baying of the Hound(s)",
+      "ja": "戦争の妖犬「カニスディルス」",
+      "de": "Die drei Mäuler des Canis dirus",
+      "fr": "Le chien des enfers"
+    }
+  },
+  "920003": {
+    "name": {
+      "chs": "高火力陆战魔导兵器——守夜",
+      "en": "Vigil for the Lost",
+      "ja": "高火力陸戦魔導兵器「ヴィジル」",
+      "de": "Vigil, Feuerkraft hoch zehn",
+      "fr": "Vigile de feu"
+    }
+  },
+  "920004": {
+    "name": {
+      "chs": "新型飞行型魔导装甲——加百列",
+      "en": "Aces High",
+      "ja": "新型飛行型魔導アーマー「ガブリエル」",
+      "de": "Gabriel, die stählerne Schwinge",
+      "fr": "Force divine"
+    }
+  },
+  "920005": {
+    "name": {
+      "chs": "黑死鸟——阿克巴巴",
+      "en": "The Shadow of Death's Hand",
+      "ja": "黒き死鳥「アクババ」",
+      "de": "Akbaba, Tod von oben",
+      "fr": "Les ailes noires de la mort"
+    }
+  },
+  "920006": {
+    "name": {
+      "chs": "怨念死灵——地生人",
+      "en": "The Final Furlong",
+      "ja": "怨念の死霊「スパルトイ」",
+      "de": "Spartoi der Gefürchtete",
+      "fr": "Menace spectrale"
+    }
+  },
+  "920007": {
+    "name": {
+      "chs": "红陆行鸟之王——红色彗星",
+      "en": "The Hunt for Red Choctober",
+      "ja": "赤チョコボのヌシ「レッドコメット」",
+      "de": "Der Rote Meteor und seine Meute",
+      "fr": "Une ruée en rouge"
+    }
+  },
+  "920008": {
+    "name": {
+      "chs": "百兽之王——兽王莱昂",
+      "en": "Beast of Man",
+      "ja": "百獣使い「獣王ライアン」",
+      "de": "Lyon der Bestienkönig",
+      "fr": "Le Roi bestial"
+    }
+  },
+  "920009": {
+    "name": {
+      "chs": "炎兽训练师——火焰百夫队",
+      "en": "The Fires of War",
+      "ja": "炎獣使い「火焔百人隊」",
+      "de": "Die Flammenden Hundert",
+      "fr": "Brasier de guerre"
+    }
+  },
+  "920010": {
+    "name": {
+      "chs": "据点防卫魔导兵器——爱国者",
+      "en": "Patriot Games",
+      "ja": "拠点防衛魔導兵器「パトリオット」",
+      "de": "Verteidigungsmaschine Patriot",
+      "fr": "Les fusils du patriote"
+    }
+  },
+  "920011": {
+    "name": {
+      "chs": "邪眼妖兽——耶鲁",
+      "en": "Trampled under Hoof",
+      "ja": "邪眼の妖獣「エアレー」",
+      "de": "Die bösen Blicke der Eale",
+      "fr": "L'œil du malin"
+    }
+  },
+  "920012": {
+    "name": {
+      "chs": "老练魔法师——铁胆狱火萨托瓦尔",
+      "en": "And the Flames Went Higher",
+      "ja": "老練の魔道士「鉄火のサルトヴォアール」",
+      "de": "Sartauvoir Eisenfeuer",
+      "fr": "L'envol du phénix"
+    }
+  },
+  "920013": {
+    "name": {
+      "chs": "钢铁魔兽——达因斯莱瓦",
+      "en": "Metal Fox Chaos",
+      "ja": "鋼鉄の魔獣「ダーインスレイヴ」",
+      "de": "Dáinsleif, Bestie aus Eisen",
+      "fr": "Le guerrier de métal"
+    }
+  },
+  "920014": {
+    "name": {
+      "chs": "新型铁巨人——魔导劳工X式",
+      "en": "Rise of the Robots",
+      "ja": "新たなる鉄巨人「魔導レイバーX型」",
+      "de": "Im Schatten von Modell X",
+      "fr": "Le soulèvement des machines"
+    }
+  },
+  "920015": {
+    "name": {
+      "chs": "战栗之角——奇尔维尼克",
+      "en": "Where Strode the Behemoth",
+      "ja": "戦慄の角「チルヴニク」",
+      "de": "Der untote Chlevnik",
+      "fr": "Le mastodonte enragé"
+    }
+  },
+  "975000": {
+    "name": {
+      "chs": "旗舰达尔里阿达号攻略战",
+      "en": "The Dalriada",
+      "ja": "旗艦ダル･リアータ攻略戦",
+      "de": "Sturm auf die Dalriada",
+      "fr": "Assaut sur le Dalriada"
+    }
+  },
+  "975001": {
     "name": {
       "chs": "群蛇狂舞——妖战百人队",
       "en": "On Serpents' Wings",
@@ -152,7 +161,7 @@
       "fr": "Zirnitrop"
     }
   },
-  "18": {
+  "975002": {
     "name": {
       "chs": "试制性飞行魔导装甲——黑色燃焰",
       "en": "Feeling the Burn",
@@ -161,7 +170,7 @@
       "fr": "On arrête le progrès"
     }
   },
-  "19": {
+  "975003": {
     "name": {
       "chs": "惨无人道的强化兵——超级调整兵达波格",
       "en": "The Broken Blade",
@@ -170,7 +179,7 @@
       "fr": "Dabog l'hyper-renforcé"
     }
   },
-  "20": {
+  "975004": {
     "name": {
       "chs": "复制告密者——第四军团谢米哈扎",
       "en": "From Beyond the Grave",
@@ -179,7 +188,7 @@
       "fr": "Le Sycophante"
     }
   },
-  "21": {
+  "975005": {
     "name": {
       "chs": "焦土魔蝎——赫德提特",
       "en": "With Diremite and Main",
@@ -188,7 +197,7 @@
       "fr": "C'est dans ma nature"
     }
   },
-  "22": {
+  "975006": {
     "name": {
       "chs": "钢铁人马——魔导骑兵大队",
       "en": "Here Comes the Cavalry",
@@ -197,7 +206,7 @@
       "fr": "Un cavalier qui surgit hors de la nuit"
     }
   },
-  "23": {
+  "975007": {
     "name": {
       "chs": "第四军团军政官——梅内纽斯",
       "en": "Head of the Snake",
@@ -206,7 +215,7 @@
       "fr": "Mener par l'exemple"
     }
   },
-  "24": {
+  "975008": {
     "name": {
       "chs": "异界魔王——汉比",
       "en": "There Would Be Blood",
@@ -215,7 +224,7 @@
       "fr": "Le Roi des cendres"
     }
   },
-  "25": {
+  "975009": {
     "name": {
       "chs": "邪恶冰狼——恶名苍狼",
       "en": "Never Cry Wolf",
@@ -224,7 +233,7 @@
       "fr": "Et n'y Hród'viens plus !"
     }
   },
-  "26": {
+  "975010": {
     "name": {
       "chs": "复制魔人——第四军团贝利亚斯",
       "en": "Time to Burn",
@@ -233,7 +242,7 @@
       "fr": "Le Titan"
     }
   },
-  "27": {
+  "975011": {
     "name": {
       "chs": "新兵器投入——机甲百人队",
       "en": "Lean, Mean, Magitek Machines",
@@ -242,7 +251,7 @@
       "fr": "Réusinage de code"
     }
   },
-  "28": {
+  "975012": {
     "name": {
       "chs": "有角凶鸟——阿尔科诺斯特",
       "en": "Worn to a Shadow",
@@ -251,7 +260,7 @@
       "fr": "Oiseau d'enfer"
     }
   },
-  "29": {
+  "975013": {
     "name": {
       "chs": "复制统治者——第四军团哈修马利姆",
       "en": "A Familiar Face",
@@ -260,7 +269,7 @@
       "fr": "Le Grand Ordonnateur"
     }
   },
-  "30": {
+  "975014": {
     "name": {
       "chs": "光辉虹蛇——阿依达",
       "en": "Looks to Die For",
@@ -269,22 +278,13 @@
       "fr": "Écaillage en règle"
     }
   },
-  "31": {
+  "975015": {
     "name": {
       "chs": "战栗的百兽之王——兽王莱昂",
       "en": "Taking the Lyon's Share",
       "ja": "戦慄の百獣使い「獣王ライアン」",
       "de": "Revanche: Lyon der Bestienkönig",
       "fr": "La revanche de Lyon"
-    }
-  },
-  "32": {
-    "name": {
-      "chs": "旗舰达尔里阿达号攻略战",
-      "en": "The Dalriada",
-      "ja": "旗艦ダル･リアータ攻略戦",
-      "de": "Sturm auf die Dalriada",
-      "fr": "Assaut sur le Dalriada"
     }
   }
 }
