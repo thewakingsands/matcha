@@ -425,7 +425,7 @@ namespace Cafe.Matcha.Network
                     var hq = data[0x8c + (LISTING_LENGTH * i)];
                     items.Add(new MarketBoardItemListingItem()
                     {
-                        Price = (int)pricePerUnit,
+                        Price = (int)(pricePerUnit * 1.05),
                         Quantity = (int)quantity,
                         HQ = hq != 0
                     });
