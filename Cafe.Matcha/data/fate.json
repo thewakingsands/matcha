@@ -12839,30 +12839,6 @@
     "patch": 5,
     "location": 886
   },
-  "1710": {
-    "name": {
-      "chs": "红莲节：寒冰轰击怪来袭！",
-      "en": "A Blizzard of Bombards",
-      "ja": "紅蓮祭「襲来 アイスボンバード！」",
-      "de": "Angriff der Eis-Knallomaten",
-      "fr": "Des bombardos com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment givrés"
-    },
-    "level": 30,
-    "patch": 0,
-    "location": 0
-  },
-  "1711": {
-    "name": {
-      "chs": "彩蛋狩猎“取蛋时刻”",
-      "en": "An Eggsistential Threat",
-      "ja": "エッグハント「ニワトリの卵は誰のもの」",
-      "de": "Im Hühnerstall der Albträume",
-      "fr": "Marcher sur des œufs"
-    },
-    "level": 10,
-    "patch": 0,
-    "location": 0
-  },
   "1712": {
     "name": {
       "chs": "天穹同庆“一起享受庆典吧”",
@@ -13293,7 +13269,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1748": {
     "name": {
@@ -13341,7 +13317,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1752": {
     "name": {
@@ -13353,7 +13329,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1753": {
     "name": {
@@ -13365,7 +13341,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1754": {
     "name": {
@@ -13377,7 +13353,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1755": {
     "name": {
@@ -13389,7 +13365,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1756": {
     "name": {
@@ -13401,7 +13377,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1757": {
     "name": {
@@ -13413,7 +13389,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1758": {
     "name": {
@@ -13425,7 +13401,7 @@
     },
     "level": 88,
     "patch": 6,
-    "location": 0
+    "location": 956
   },
   "1763": {
     "name": {
@@ -13437,7 +13413,7 @@
     },
     "level": 90,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1764": {
     "name": {
@@ -13449,7 +13425,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1765": {
     "name": {
@@ -13461,7 +13437,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1766": {
     "name": {
@@ -13473,7 +13449,7 @@
     },
     "level": 81,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1767": {
     "name": {
@@ -13485,7 +13461,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1768": {
     "name": {
@@ -13497,7 +13473,7 @@
     },
     "level": 81,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1769": {
     "name": {
@@ -13509,7 +13485,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1770": {
     "name": {
@@ -13521,7 +13497,7 @@
     },
     "level": 81,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1771": {
     "name": {
@@ -13533,7 +13509,7 @@
     },
     "level": 80,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1772": {
     "name": {
@@ -13545,7 +13521,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1773": {
     "name": {
@@ -13557,7 +13533,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1774": {
     "name": {
@@ -13569,7 +13545,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1775": {
     "name": {
@@ -13581,7 +13557,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1776": {
     "name": {
@@ -13593,7 +13569,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1777": {
     "name": {
@@ -13605,7 +13581,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1778": {
     "name": {
@@ -13617,7 +13593,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1779": {
     "name": {
@@ -13629,7 +13605,7 @@
     },
     "level": 85,
     "patch": 6,
-    "location": 0
+    "location": 957
   },
   "1783": {
     "name": {
@@ -13641,7 +13617,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1784": {
     "name": {
@@ -13653,7 +13629,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1785": {
     "name": {
@@ -13665,7 +13641,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1786": {
     "name": {
@@ -13677,7 +13653,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1787": {
     "name": {
@@ -13689,7 +13665,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1788": {
     "name": {
@@ -13701,7 +13677,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1789": {
     "name": {
@@ -13713,7 +13689,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1790": {
     "name": {
@@ -13725,7 +13701,7 @@
     },
     "level": 82,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1791": {
     "name": {
@@ -13737,7 +13713,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1792": {
     "name": {
@@ -13749,7 +13725,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1793": {
     "name": {
@@ -13761,7 +13737,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1794": {
     "name": {
@@ -13773,7 +13749,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1795": {
     "name": {
@@ -13785,7 +13761,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1796": {
     "name": {
@@ -13797,7 +13773,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1797": {
     "name": {
@@ -13809,7 +13785,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1798": {
     "name": {
@@ -13821,7 +13797,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 958
   },
   "1803": {
     "name": {
@@ -13833,7 +13809,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1804": {
     "name": {
@@ -13845,7 +13821,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1805": {
     "name": {
@@ -13857,7 +13833,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1806": {
     "name": {
@@ -13869,7 +13845,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1807": {
     "name": {
@@ -13881,7 +13857,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1808": {
     "name": {
@@ -13893,7 +13869,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1809": {
     "name": {
@@ -13905,7 +13881,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1810": {
     "name": {
@@ -13917,7 +13893,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1811": {
     "name": {
@@ -13929,7 +13905,7 @@
     },
     "level": 83,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1812": {
     "name": {
@@ -13941,7 +13917,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1813": {
     "name": {
@@ -13953,7 +13929,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1814": {
     "name": {
@@ -13965,7 +13941,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1815": {
     "name": {
@@ -13977,7 +13953,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1816": {
     "name": {
@@ -13989,7 +13965,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1817": {
     "name": {
@@ -14001,7 +13977,7 @@
     },
     "level": 84,
     "patch": 6,
-    "location": 0
+    "location": 959
   },
   "1823": {
     "name": {
@@ -14013,7 +13989,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1824": {
     "name": {
@@ -14025,7 +14001,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1825": {
     "name": {
@@ -14037,7 +14013,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1826": {
     "name": {
@@ -14049,7 +14025,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1827": {
     "name": {
@@ -14073,7 +14049,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1829": {
     "name": {
@@ -14085,7 +14061,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1830": {
     "name": {
@@ -14097,7 +14073,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1831": {
     "name": {
@@ -14109,7 +14085,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1832": {
     "name": {
@@ -14121,7 +14097,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1833": {
     "name": {
@@ -14133,7 +14109,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1834": {
     "name": {
@@ -14145,7 +14121,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1835": {
     "name": {
@@ -14157,7 +14133,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1836": {
     "name": {
@@ -14169,7 +14145,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1837": {
     "name": {
@@ -14181,7 +14157,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1838": {
     "name": {
@@ -14193,7 +14169,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1843": {
     "name": {
@@ -14205,7 +14181,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1844": {
     "name": {
@@ -14217,7 +14193,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1845": {
     "name": {
@@ -14229,7 +14205,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1846": {
     "name": {
@@ -14241,7 +14217,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1847": {
     "name": {
@@ -14253,7 +14229,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1848": {
     "name": {
@@ -14265,7 +14241,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1849": {
     "name": {
@@ -14277,7 +14253,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1850": {
     "name": {
@@ -14289,7 +14265,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1851": {
     "name": {
@@ -14301,7 +14277,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1852": {
     "name": {
@@ -14313,7 +14289,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1853": {
     "name": {
@@ -14325,7 +14301,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1854": {
     "name": {
@@ -14337,7 +14313,7 @@
     },
     "level": 89,
     "patch": 6,
-    "location": 0
+    "location": 960
   },
   "1855": {
     "name": {
@@ -14349,6 +14325,6 @@
     },
     "level": 90,
     "patch": 6,
-    "location": 0
+    "location": 960
   }
 }
