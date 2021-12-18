@@ -87,7 +87,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Windows.Foundation.UniversalApiContract">
-      <HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+		<HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+		<HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
       <HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
       <Private>False</Private>
     </Reference>
@@ -266,8 +267,14 @@ cd $(ProjectDir)Constant\
 if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
 )</PreBuildEvent>
-    <PostBuildEvent>del $(TargetPath) /F
+    <PostBuildEvent>if $(ConfigurationName) == Release (
   xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
+)
+
+xcopy "$(TargetDir)*.*" "D:\ACT\ACT\Plugins\Cafe.Matcha.$(ConfigurationName)\" /E /Y /C
+xcopy "$(TargetDir)confused\*.*" "D:\ACT\ACT\Plugins\Cafe.Matcha.$(ConfigurationName)\" /E /Y /C
+
+rmdir /s /q "$(TargetDir)confused"
 $(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
 </Project>
