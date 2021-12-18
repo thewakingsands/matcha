@@ -41,7 +41,7 @@
       "en": "Something in the Water",
       "ja": "淀みの奔流「スタグナントスプライト」",
       "de": "Wasseranomalie",
-      "fr": "Défi<Indent/>: histoire d'eau"
+      "fr": "Défi: histoire d'eau"
     },
     "level": 8,
     "patch": 2,
@@ -65,7 +65,7 @@
       "en": "Asipatra Attacks",
       "ja": "人喰いの怪鳥「アシパトラ」",
       "de": "Fliegendes Verderben",
-      "fr": "Défi<Indent/>: légende urbaine"
+      "fr": "Défi: légende urbaine"
     },
     "level": 34,
     "patch": 2,
@@ -77,7 +77,7 @@
       "en": "Leader of the Pack",
       "ja": "健脚の暴君「アルファ・アノール」",
       "de": "Alphatier",
-      "fr": "Défi<Indent/>: le chef de la horde"
+      "fr": "Défi: le chef de la horde"
     },
     "level": 9,
     "patch": 2,
@@ -101,7 +101,7 @@
       "en": "Alux of the Draw",
       "ja": "強大なる小鬼「アルシュ」",
       "de": "Alux eingekerkert",
-      "fr": "Défi<Indent/>: danger dans les geôles"
+      "fr": "Défi: danger dans les geôles"
     },
     "level": 9,
     "patch": 2,
@@ -137,7 +137,7 @@
       "en": "Bleeding Green",
       "ja": "病毒の妖花「マタガイガイ」",
       "de": "Blattblutbefall",
-      "fr": "Défi<Indent/>: purification florale"
+      "fr": "Défi: purification florale"
     },
     "level": 13,
     "patch": 2,
@@ -197,7 +197,7 @@
       "en": "There's Something about Lou",
       "ja": "軟体の大食漢「ル・カルコル」",
       "de": "Nicht zum Verzehr bestimmt",
-      "fr": "Défi<Indent/>: Lou y es-tu<Indent/>?"
+      "fr": "Défi: Lou y es-tu?"
     },
     "level": 14,
     "patch": 2,
@@ -221,7 +221,7 @@
       "en": "Royal Rumble",
       "ja": "悪疫散布器「プリンス・オブ・ペスト」",
       "de": "Nase zu und durch",
-      "fr": "Défi<Indent/>: match au sommet"
+      "fr": "Défi: match au sommet"
     },
     "level": 16,
     "patch": 2,
@@ -269,7 +269,7 @@
       "en": "Jack of All Trades",
       "ja": "若き魔猿「ジャッカネイプス」",
       "de": "Affenbande",
-      "fr": "Défi<Indent/>: les fauteurs de trouble"
+      "fr": "Défi: les fauteurs de trouble"
     },
     "level": 19,
     "patch": 2,
@@ -305,7 +305,7 @@
       "en": "The Hunted",
       "ja": "神速の羚羊「シロッコ」",
       "de": "Großwildjagd",
-      "fr": "Défi<Indent/>: la chasse"
+      "fr": "Défi: la chasse"
     },
     "level": 23,
     "patch": 2,
@@ -341,7 +341,7 @@
       "en": "Breaching the Hive",
       "ja": "レッドベリー砦の戦い：攻略戦",
       "de": "Das Nest sprengen",
-      "fr": "Nid de guêpes<Indent/>: les infiltrés"
+      "fr": "Nid de guêpes: les infiltrés"
     },
     "level": 32,
     "patch": 2,
@@ -353,7 +353,7 @@
       "en": "Clearing the Hive",
       "ja": "レッドベリー砦の戦い：占領戦",
       "de": "Das Nest säubern",
-      "fr": "Nid de guêpes<Indent/>: colonisation"
+      "fr": "Nid de guêpes: colonisation"
     },
     "level": 32,
     "patch": 2,
@@ -365,7 +365,7 @@
       "en": "Defending the Hive",
       "ja": "レッドベリー砦の戦い：防衛戦",
       "de": "Das Nest verteidigen",
-      "fr": "Nid de guêpes<Indent/>: alliance défensive"
+      "fr": "Nid de guêpes: alliance défensive"
     },
     "level": 32,
     "patch": 2,
@@ -377,7 +377,7 @@
       "en": "Keeping the Hive",
       "ja": "レッドベリー砦の戦い：迎撃戦",
       "de": "Das Nest halten",
-      "fr": "Nid de guêpes<Indent/>: défense du nid"
+      "fr": "Nid de guêpes: défense du nid"
     },
     "level": 32,
     "patch": 2,
@@ -401,7 +401,7 @@
       "en": "The Coeurl King",
       "ja": "秀麗なる無法者「密猟王クァールクロウ」",
       "de": "Königsklauen stutzen",
-      "fr": "Défi<Indent/>: imposture royale"
+      "fr": "Défi: imposture royale"
     },
     "level": 29,
     "patch": 2,
@@ -449,7 +449,7 @@
       "en": "A Tale of Two-tails",
       "ja": "闇市の元締「双尾のヤビ・カータポ」",
       "de": "Schwarzer Freitag",
-      "fr": "Défi<Indent/>: marché noir"
+      "fr": "Défi: marché noir"
     },
     "level": 32,
     "patch": 2,
@@ -509,7 +509,7 @@
       "en": "Dschubba Snacks",
       "ja": "赤王の幼生「ジュバ」",
       "de": "In jedem siebten Ei",
-      "fr": "Défi<Indent/>: l'élu des acari"
+      "fr": "Défi: l'élu des acari"
     },
     "level": 3,
     "patch": 2,
@@ -581,7 +581,7 @@
       "en": "Micromanaging",
       "ja": "幻惑の芳香「クルピラ」",
       "de": "Kleiner Stinker",
-      "fr": "Défi<Indent/>: un parfum de catastrophe"
+      "fr": "Défi: un parfum de catastrophe"
     },
     "level": 8,
     "patch": 2,
@@ -629,7 +629,7 @@
       "en": "Where the Stone Rolls",
       "ja": "孤独なる石兵「ヌニュヌウィ」",
       "de": "Kehr zurück in deinen Staub",
-      "fr": "Défi<Indent/>: un grand fracas"
+      "fr": "Défi: un grand fracas"
     },
     "level": 33,
     "patch": 2,
@@ -640,8 +640,8 @@
       "chs": "跨天桥上的死斗 前哨战",
       "en": "Attack on Highbridge: Prelude",
       "ja": "ハイブリッジの死闘：前哨戦",
-      "de": "Schlacht um Hohenbrück:\nDer Ansturm",
-      "fr": "Assaut sur Le Viaduc<Indent/>: prélude"
+      "de": "Schlacht um Hohenbrück: Der Ansturm",
+      "fr": "Assaut sur Le Viaduc: prélude"
     },
     "level": 26,
     "patch": 2,
@@ -652,8 +652,8 @@
       "chs": "跨天桥上的死斗 守卫战",
       "en": "Attack on Highbridge: Act I",
       "ja": "ハイブリッジの死闘：防衛戦",
-      "de": "Schlacht um Hohenbrück:\nDie Verteidigung",
-      "fr": "Assaut sur Le Viaduc<Indent/>: acte I"
+      "de": "Schlacht um Hohenbrück: Die Verteidigung",
+      "fr": "Assaut sur Le Viaduc: acte I"
     },
     "level": 26,
     "patch": 2,
@@ -664,8 +664,8 @@
       "chs": "跨天桥上的死斗 迎击兹兹卢恩",
       "en": "Attack on Highbridge: Act II",
       "ja": "ハイブリッジの死闘：ズズルン排撃",
-      "de": "Schlacht um Hohenbrück:\nDuell mit Zuzuroon",
-      "fr": "Assaut sur Le Viaduc<Indent/>: acte II"
+      "de": "Schlacht um Hohenbrück: Duell mit Zuzuroon",
+      "fr": "Assaut sur Le Viaduc: acte II"
     },
     "level": 26,
     "patch": 2,
@@ -676,8 +676,8 @@
       "chs": "跨天桥上的死斗 迎击纳约克·秋",
       "en": "Attack on Highbridge: Act III",
       "ja": "ハイブリッジの死闘：ナヨク・ロー排撃",
-      "de": "Schlacht um Hohenbrück:\nDuell mit Nayokk Roh",
-      "fr": "Assaut sur Le Viaduc<Indent/>: acte III"
+      "de": "Schlacht um Hohenbrück: Duell mit Nayokk Roh",
+      "fr": "Assaut sur Le Viaduc: acte III"
     },
     "level": 26,
     "patch": 2,
@@ -688,8 +688,8 @@
       "chs": "跨天桥上的死斗 市民营救战",
       "en": "Attack on Highbridge: Denouement",
       "ja": "ハイブリッジの死闘：市民奪還作戦",
-      "de": "Schlacht um Hohenbrück:\nDie Entscheidung",
-      "fr": "Assaut sur Le Viaduc<Indent/>: dénouement"
+      "de": "Schlacht um Hohenbrück: Die Entscheidung",
+      "fr": "Assaut sur Le Viaduc: dénouement"
     },
     "level": 26,
     "patch": 2,
@@ -701,7 +701,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -713,7 +713,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -725,7 +725,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -737,7 +737,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -749,7 +749,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -761,7 +761,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -773,7 +773,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -785,7 +785,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -797,7 +797,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -809,7 +809,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -821,7 +821,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -833,7 +833,7 @@
       "en": "Steel Reign",
       "ja": "古の闘神「オーディン」",
       "de": "Der dunkle Reiter",
-      "fr": "Défi<Indent/>: le Chevalier des ombres"
+      "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
     "patch": 2,
@@ -857,7 +857,7 @@
       "en": "My Baby Green",
       "ja": "水源の破壊者「ジェイデッド・ジョディ」",
       "de": "Essen macht durstig",
-      "fr": "Défi<Indent/>: le géant vert"
+      "fr": "Défi: le géant vert"
     },
     "level": 31,
     "patch": 2,
@@ -941,7 +941,7 @@
       "en": "Lazy for You",
       "ja": "非情な収穫者「レジー・ローレンス」",
       "de": "Undank des Faulen",
-      "fr": "Défi<Indent/>: Laurence pas ravie"
+      "fr": "Défi: Laurence pas ravie"
     },
     "level": 20,
     "patch": 2,
@@ -953,7 +953,7 @@
       "en": "Menuis at Work",
       "ja": "巨躯の猛牛「メヌイス」",
       "de": "Aus dir mach ich Suppe",
-      "fr": "Défi<Indent/>: Menuis le terrible"
+      "fr": "Défi: Menuis le terrible"
     },
     "level": 8,
     "patch": 2,
@@ -1049,7 +1049,7 @@
       "en": "Shearing Is Caring",
       "ja": "切断狂「シアリング・シェリダン」",
       "de": "Das große Krabbenpulen",
-      "fr": "Défi<Indent/>: qui s'y frotte s'y pique"
+      "fr": "Défi: qui s'y frotte s'y pique"
     },
     "level": 10,
     "patch": 2,
@@ -1097,7 +1097,7 @@
       "en": "The Truth Is out There",
       "ja": "血濡れの猛犬「チュパカブラ」",
       "de": "Blut geleckt",
-      "fr": "Défi<Indent/>: la vérité est ailleurs"
+      "fr": "Défi: la vérité est ailleurs"
     },
     "level": 14,
     "patch": 2,
@@ -1133,7 +1133,7 @@
       "en": "One Prince",
       "ja": "不吉なる王子「マンドラプリンス」",
       "de": "Der Albtraumprinz",
-      "fr": "Défi<Indent/>: le prince"
+      "fr": "Défi: le prince"
     },
     "level": 13,
     "patch": 2,
@@ -1193,7 +1193,7 @@
       "en": "I Melt with You",
       "ja": "浮かぶ胃袋「クアハック」",
       "de": "Zum Dahinschmelzen",
-      "fr": "Défi<Indent/>: une bonne digestion"
+      "fr": "Défi: une bonne digestion"
     },
     "level": 3,
     "patch": 2,
@@ -1217,7 +1217,7 @@
       "en": "In the Name of Love",
       "ja": "俺たちゃ海賊",
       "de": "Liebe reimt sich auf Hiebe",
-      "fr": "Défi<Indent/>: au nom de l'amour"
+      "fr": "Défi: au nom de l'amour"
     },
     "level": 10,
     "patch": 2,
@@ -1349,7 +1349,7 @@
       "en": "Jewels of the Isle",
       "ja": "彷徨の業師「弾指のココルン」",
       "de": "Was auf die Finger",
-      "fr": "Défi<Indent/>: voler aux riches"
+      "fr": "Défi: voler aux riches"
     },
     "level": 32,
     "patch": 2,
@@ -1409,7 +1409,7 @@
       "en": "Tender Buttons",
       "ja": "暴食の怪鳥「グルタナスガーティ」",
       "de": "Der kleine Nimmersatt",
-      "fr": "Défi<Indent/>: volatile carnivore"
+      "fr": "Défi: volatile carnivore"
     },
     "level": 12,
     "patch": 2,
@@ -1433,7 +1433,7 @@
       "en": "(I Just) Died in Six Arms Tonight",
       "ja": "古強者「オールドシックスアームズ」",
       "de": "Sechs richtige ... Arme",
-      "fr": "Défi<Indent/>: le crabe de légende"
+      "fr": "Défi: le crabe de légende"
     },
     "level": 13,
     "patch": 2,
@@ -1493,7 +1493,7 @@
       "en": "Barometz Soup",
       "ja": "死活の罠「バロメッツ」",
       "de": "Ausgewogene Ernährung",
-      "fr": "Défi<Indent/>: soupe de Barometz"
+      "fr": "Défi: soupe de Barometz"
     },
     "level": 10,
     "patch": 2,
@@ -1517,7 +1517,7 @@
       "en": "Tryp Fantastic",
       "ja": "愚鈍な用心棒「間抜のトリップティックス」",
       "de": "Der Typ rafft's nicht",
-      "fr": "Défi<Indent/>: l'adieu au mercenaire"
+      "fr": "Défi: l'adieu au mercenaire"
     },
     "level": 18,
     "patch": 2,
@@ -1553,7 +1553,7 @@
       "en": "Simurgh Is the Word",
       "ja": "豹喰いの妖鳥「シームルグ」",
       "de": "Schrecken der Coeurl",
-      "fr": "Défi<Indent/>: Simurgh le redoutable"
+      "fr": "Défi: Simurgh le redoutable"
     },
     "level": 23,
     "patch": 2,
@@ -1601,7 +1601,7 @@
       "en": "Truth in Faerie Tales",
       "ja": "石緑湖の主「オアンネス」",
       "de": "Oannes aus dem Grünenden Weiher",
-      "fr": "Défi<Indent/>: attention, ça mord"
+      "fr": "Défi: attention, ça mord"
     },
     "level": 30,
     "patch": 2,
@@ -1613,7 +1613,7 @@
       "en": "Giant Enemy Crab",
       "ja": "脅威の元食材「カルキノス」",
       "de": "Wehrhafte Delikatesse",
-      "fr": "Défi<Indent/>: crabe qui ne pond pas..."
+      "fr": "Défi: crabe qui ne pond pas..."
     },
     "level": 21,
     "patch": 2,
@@ -1625,7 +1625,7 @@
       "en": "Shell Shocked",
       "ja": "温泉の申し子「ゾレドナイト」",
       "de": "Kind der heißen Quellen",
-      "fr": "Défi<Indent/>: prudence avec l'eau chaude..."
+      "fr": "Défi: prudence avec l'eau chaude..."
     },
     "level": 31,
     "patch": 2,
@@ -1637,7 +1637,7 @@
       "en": "Peeping Ja",
       "ja": "悲運の傭兵「美男のブガージャ」",
       "de": "Tänzer müssen draußen bleiben",
-      "fr": "Défi<Indent/>: un baigneur gênant"
+      "fr": "Défi: un baigneur gênant"
     },
     "level": 33,
     "patch": 2,
@@ -1661,7 +1661,7 @@
       "en": "Under the Bridge",
       "ja": "豪然たる魔犬「パッドフット」",
       "de": "Da bist du platt",
-      "fr": "Défi<Indent/>: lien brisé"
+      "fr": "Défi: lien brisé"
     },
     "level": 10,
     "patch": 2,
@@ -1685,7 +1685,7 @@
       "en": "It's Not Lupus",
       "ja": "死顔の簒奪者「キャンサー」",
       "de": "Krabbe XXL",
-      "fr": "Défi<Indent/>: cancer, le casque de mort"
+      "fr": "Défi: cancer, le casque de mort"
     },
     "level": 32,
     "patch": 2,
@@ -1769,7 +1769,7 @@
       "en": "Doomed",
       "ja": "謎の巨大生物「ドゥーム・ギガントード」",
       "de": "Verdammt und verdorben",
-      "fr": "Défi<Indent/>: maudit crapaud maudit"
+      "fr": "Défi: maudit crapaud maudit"
     },
     "level": 9,
     "patch": 2,
@@ -1781,7 +1781,7 @@
       "en": "The Villain",
       "ja": "砂漠の覇王「カクター・ジャック」",
       "de": "Kaktor Jack",
-      "fr": "Défi<Indent/>: le hors-la-loi"
+      "fr": "Défi: le hors-la-loi"
     },
     "level": 9,
     "patch": 2,
@@ -1829,7 +1829,7 @@
       "en": "Bubble Trouble",
       "ja": "飽食の大蟹「バブリーバーニー」",
       "de": "Bernie gegen den Rest der Welt",
-      "fr": "Défi<Indent/>: douceur locale"
+      "fr": "Défi: douceur locale"
     },
     "level": 13,
     "patch": 2,
@@ -1877,7 +1877,7 @@
       "en": "There Might Be Giants",
       "ja": "黄金兜の大巨人「悲嘆のブリアレオス」",
       "de": "Die Riesen sind los",
-      "fr": "Défi<Indent/>: un gênant géant"
+      "fr": "Défi: un gênant géant"
     },
     "level": 21,
     "patch": 2,
@@ -1901,7 +1901,7 @@
       "en": "He's Got Legs",
       "ja": "足長おやじ「ダディーロングレッグ」",
       "de": "Opa lässt das Meucheln nicht",
-      "fr": "Défi<Indent/>: le monstre aux grandes pattes"
+      "fr": "Défi: le monstre aux grandes pattes"
     },
     "level": 22,
     "patch": 2,
@@ -1925,7 +1925,7 @@
       "en": "Something to Prove",
       "ja": "粗野な勝負師「無頼のグリスヒルド」",
       "de": "Kräftemessen",
-      "fr": "Défi<Indent/>: quelque chose à prouver"
+      "fr": "Défi: quelque chose à prouver"
     },
     "level": 5,
     "patch": 2,
@@ -1973,7 +1973,7 @@
       "en": "Cracked",
       "ja": "半熟英雄「半熟のババルン」",
       "de": "Windelweich gekocht",
-      "fr": "Défi<Indent/>: fêlure"
+      "fr": "Défi: fêlure"
     },
     "level": 9,
     "patch": 2,
@@ -2045,7 +2045,7 @@
       "en": "Cold-blooded",
       "ja": "不浄なる大蝦蟇「ヴォジャノーイ」",
       "de": "Sadistisches Vergnügen",
-      "fr": "Défi<Indent/>: cruelle créature"
+      "fr": "Défi: cruelle créature"
     },
     "level": 14,
     "patch": 2,
@@ -2057,7 +2057,7 @@
       "en": "A Warm Welcome",
       "ja": "怒れる宝主「スピットファイア」",
       "de": "Einen kühlen Kopf bewahren",
-      "fr": "Défi<Indent/>: un accueil brûlant"
+      "fr": "Défi: un accueil brûlant"
     },
     "level": 7,
     "patch": 2,
@@ -2069,7 +2069,7 @@
       "en": "Leaving the Nest",
       "ja": "砂城の猛将「ネストコマンダー」",
       "de": "Sein letztes Kommando",
-      "fr": "Défi<Indent/>: sortie du nid"
+      "fr": "Défi: sortie du nid"
     },
     "level": 12,
     "patch": 2,
@@ -2117,7 +2117,7 @@
       "en": "Bad Camp",
       "ja": "侵攻作戦を阻止せよ",
       "de": "Ein paar aufs Maul",
-      "fr": "Défi<Indent/>: destruction de camp"
+      "fr": "Défi: destruction de camp"
     },
     "level": 18,
     "patch": 2,
@@ -2141,7 +2141,7 @@
       "en": "Grim Undertakings",
       "ja": "煉獄の墓掘人「アンダーテイカー」",
       "de": "Rendez<SoftHyphen/>vous mit dem Tod",
-      "fr": "Défi<Indent/>: deux yalms sous terre"
+      "fr": "Défi: deux yalms sous terre"
     },
     "level": 17,
     "patch": 2,
@@ -2177,7 +2177,7 @@
       "en": "Spare the Hair",
       "ja": "毛髪の簒奪者「ゴッサマー」",
       "de": "Zum Haare raufen",
-      "fr": "Défi<Indent/>: comme un œuf"
+      "fr": "Défi: comme un œuf"
     },
     "level": 29,
     "patch": 2,
@@ -2225,7 +2225,7 @@
       "en": "Adventures in Throat Slitting",
       "ja": "骸の頭目「流転のミルウーダ」",
       "de": "Miluda die Schlitzerin",
-      "fr": "Défi<Indent/>: mise à mort"
+      "fr": "Défi: mise à mort"
     },
     "level": 28,
     "patch": 2,
@@ -2273,7 +2273,7 @@
       "en": "Bigger than Life",
       "ja": "大らかな圧殺者「アスピドケロン」",
       "de": "Kröte mit eisernem Schild ",
-      "fr": "Défi<Indent/>: attention, Aspidochélon méchant"
+      "fr": "Défi: attention, Aspidochélon méchant"
     },
     "level": 46,
     "patch": 2,
@@ -2297,7 +2297,7 @@
       "en": "Diamond in the Rough",
       "ja": "怒濤の怪力「金剛のネゼド・ガー」",
       "de": "Auf der Abschussliste",
-      "fr": "Défi<Indent/>: la meilleure défense..."
+      "fr": "Défi: la meilleure défense..."
     },
     "level": 48,
     "patch": 2,
@@ -2321,7 +2321,7 @@
       "en": "Return to Cinder",
       "ja": "運命の代弁者「黒煙のペグジ・チャー」",
       "de": "Schwarze Zukunft",
-      "fr": "Défi<Indent/>: sombre futur pour le voyant"
+      "fr": "Défi: sombre futur pour le voyant"
     },
     "level": 49,
     "patch": 2,
@@ -2369,7 +2369,7 @@
       "en": "Blood, Augur, Hex, Magicks",
       "ja": "無道の暗殺者「呪言のマラド・チャー」",
       "de": "Der Gift und Galle spuckt",
-      "fr": "Défi<Indent/>: une magie maléfique"
+      "fr": "Défi: une magie maléfique"
     },
     "level": 32,
     "patch": 2,
@@ -2405,7 +2405,7 @@
       "en": "With One Eye Open",
       "ja": "虚像の眼「アリマスピ」",
       "de": "Arimaspi-Alarm",
-      "fr": "Défi<Indent/>: le borgne ravisseur"
+      "fr": "Défi: le borgne ravisseur"
     },
     "level": 49,
     "patch": 2,
@@ -2441,7 +2441,7 @@
       "en": "Knock on Steel",
       "ja": "新装甲採用機「魔導ヴァンガード試験型」",
       "de": "Der Erste wird der Letzte sein",
-      "fr": "Défi<Indent/>: le drone de fer"
+      "fr": "Défi: le drone de fer"
     },
     "level": 49,
     "patch": 2,
@@ -2453,7 +2453,7 @@
       "en": "Poor Maid's Mess",
       "ja": "プアメイドミル復興：食料防衛",
       "de": "Köter gegen Ratten",
-      "fr": "Pauvre hameau<Indent/>: des rats qui grignotent"
+      "fr": "Pauvre hameau: des rats qui grignotent"
     },
     "level": 20,
     "patch": 2,
@@ -2465,7 +2465,7 @@
       "en": "Poor Maid's Mishap",
       "ja": "プアメイドミル復興：ゲ・ブ排撃",
       "de": "Ungebetene Gäste",
-      "fr": "Pauvre hameau<Indent/>: des Kobolds qui saccagent"
+      "fr": "Pauvre hameau: des Kobolds qui saccagent"
     },
     "level": 20,
     "patch": 2,
@@ -2477,7 +2477,7 @@
       "en": "Poor Maid's Misfortune",
       "ja": "プアメイドミル復興：クァール討伐",
       "de": "Vorsicht bissig",
-      "fr": "Pauvre hameau<Indent/>: des coeurls qui battent"
+      "fr": "Pauvre hameau: des coeurls qui battent"
     },
     "level": 20,
     "patch": 2,
@@ -2489,7 +2489,7 @@
       "en": "Poor Maid's Misadventure",
       "ja": "プアメイドミル復興：野牛討伐",
       "de": "Büffeln statt Büffel",
-      "fr": "Pauvre hameau<Indent/>: des buffles qui piétinent"
+      "fr": "Pauvre hameau: des buffles qui piétinent"
     },
     "level": 20,
     "patch": 2,
@@ -2513,7 +2513,7 @@
       "en": "Bump and Grind",
       "ja": "持たざる者「破戒のギスフリッド」",
       "de": "Buße sollst du tun",
-      "fr": "Défi<Indent/>: exécution sommaire"
+      "fr": "Défi: exécution sommaire"
     },
     "level": 28,
     "patch": 2,
@@ -2549,7 +2549,7 @@
       "en": "Baa Baa Black Sheep",
       "ja": "黒き弾丸「ダウニーダンスタン」",
       "de": "Pech für schwarze Schafe",
-      "fr": "Défi<Indent/>: tondre le mouton noir"
+      "fr": "Défi: tondre le mouton noir"
     },
     "level": 36,
     "patch": 2,
@@ -2561,7 +2561,7 @@
       "en": "Gavial",
       "ja": "川辺の復讐者「ガビアル」",
       "de": "Gaviator - Tag der Abrechnung",
-      "fr": "Défi<Indent/>: cric, crac, croc<Indent/>!"
+      "fr": "Défi: cric, crac, croc!"
     },
     "level": 35,
     "patch": 2,
@@ -2669,7 +2669,7 @@
       "en": "Bellyful",
       "ja": "大口の悪鬼「ガルガメル」",
       "de": "Schluss mit Gargamelle",
-      "fr": "Défi<Indent/>: dans la gamelle de Gargamelle"
+      "fr": "Défi: dans la gamelle de Gargamelle"
     },
     "level": 39,
     "patch": 2,
@@ -2681,7 +2681,7 @@
       "en": "A Freeze Is Coming",
       "ja": "凍てつく波動「リュタン」",
       "de": "Exergoninduzierte Eiszeit",
-      "fr": "Défi<Indent/>: glacial et mortel"
+      "fr": "Défi: glacial et mortel"
     },
     "level": 39,
     "patch": 2,
@@ -2693,7 +2693,7 @@
       "en": "Giant Seps",
       "ja": "騎兵の天敵「セプス」",
       "de": "Schuppe um Schuppe",
-      "fr": "Défi<Indent/>: le dernier jour de Seps"
+      "fr": "Défi: le dernier jour de Seps"
     },
     "level": 40,
     "patch": 2,
@@ -2729,7 +2729,7 @@
       "en": "In the Saint's Wake",
       "ja": "骨貪る者「ロンジュール」",
       "de": "Pilger in Gefahr",
-      "fr": "Défi<Indent/>: périlleuse pérégrination"
+      "fr": "Défi: périlleuse pérégrination"
     },
     "level": 45,
     "patch": 2,
@@ -2777,7 +2777,7 @@
       "en": "The Bigger They Are",
       "ja": "愚鈍なる勇者「クリュティオス」",
       "de": "Kein Sieg für Klythios",
-      "fr": "Défi<Indent/>: que ferait un géant sans son chef<Indent/>?"
+      "fr": "Défi: que ferait un géant sans son chef?"
     },
     "level": 46,
     "patch": 2,
@@ -2801,7 +2801,7 @@
       "en": "The Taste of Fear",
       "ja": "雪山の襲撃者「セベク」",
       "de": "Späte Vergeltung",
-      "fr": "Défi<Indent/>: se battre Sobek et ongles"
+      "fr": "Défi: se battre Sobek et ongles"
     },
     "level": 40,
     "patch": 2,
@@ -2813,7 +2813,7 @@
       "en": "Roc of Ages",
       "ja": "赤い翼「ロック」",
       "de": "Rotgeflügelter Roc",
-      "fr": "Défi<Indent/>: volatile pêcheur"
+      "fr": "Défi: volatile pêcheur"
     },
     "level": 39,
     "patch": 2,
@@ -2861,7 +2861,7 @@
       "en": "The Four Winds",
       "ja": "烈風の勇士「フェロック四姉妹」",
       "de": "Wilde Schwestern",
-      "fr": "Défi<Indent/>: les quatre sœurs du malheur"
+      "fr": "Défi: les quatre sœurs du malheur"
     },
     "level": 49,
     "patch": 2,
@@ -2873,7 +2873,7 @@
       "en": "Inspector Hatchet",
       "ja": "匠の技「工匠のゴゾル・イツカン」",
       "de": "Kein Holz für Natalan",
-      "fr": "Défi<Indent/>: le tronçonneur"
+      "fr": "Défi: le tronçonneur"
     },
     "level": 49,
     "patch": 2,
@@ -2885,7 +2885,7 @@
       "en": "Svara's Flight",
       "ja": "スヴァラ迎撃作戦：工兵護送",
       "de": "Wettlauf gegen Svara",
-      "fr": "Svara s'en est venu<Indent/>: dragon en vue"
+      "fr": "Svara s'en est venu: dragon en vue"
     },
     "level": 38,
     "patch": 2,
@@ -2897,7 +2897,7 @@
       "en": "Svara's Fear",
       "ja": "スヴァラ迎撃作戦：砲撃準備",
       "de": "Kanone gegen Svara",
-      "fr": "Svara s'en est venu<Indent/>: le siège"
+      "fr": "Svara s'en est venu: le siège"
     },
     "level": 38,
     "patch": 2,
@@ -2909,7 +2909,7 @@
       "en": "Svara's Fall",
       "ja": "スヴァラ迎撃作戦：砲撃応戦",
       "de": "Feuer frei auf Svara",
-      "fr": "Svara s'en est venu<Indent/>: les canons anti-dragon"
+      "fr": "Svara s'en est venu: les canons anti-dragon"
     },
     "level": 38,
     "patch": 2,
@@ -2921,7 +2921,7 @@
       "en": "Svara's Fury",
       "ja": "スヴァラ迎撃作戦：人海戦術",
       "de": "Wehrlos vor Svara",
-      "fr": "Svara s'en est venu<Indent/>: la colère du dragon"
+      "fr": "Svara s'en est venu: la colère du dragon"
     },
     "level": 38,
     "patch": 2,
@@ -2933,7 +2933,7 @@
       "en": "Behold Now Behemoth",
       "ja": "伝説の魔獣「ベヒーモス」",
       "de": "Der legendäre Behemoth",
-      "fr": "Défi<Indent/>: l'ire du béhémoth"
+      "fr": "Défi: l'ire du béhémoth"
     },
     "level": 50,
     "patch": 2,
@@ -2945,7 +2945,7 @@
       "en": "He Taketh It with His Eyes",
       "ja": "手負いの魔獣「ベヒーモス」",
       "de": "Kein Weg zurück",
-      "fr": "Défi<Indent/>: contre-traque"
+      "fr": "Défi: contre-traque"
     },
     "level": 50,
     "patch": 2,
@@ -2957,7 +2957,7 @@
       "en": "The Eyes Have It",
       "ja": "帰ってきた男「ステロペス」",
       "de": "Mehr Augen, mehr Ärger",
-      "fr": "Défi<Indent/>: l'œil de la tête"
+      "fr": "Défi: l'œil de la tête"
     },
     "level": 39,
     "patch": 2,
@@ -2969,7 +2969,7 @@
       "en": "The Storm Caller",
       "ja": "嵐神呼びし者「風標のコゾル・ノモトル」",
       "de": "Beschwörer der Herrin der Winde",
-      "fr": "Défi<Indent/>: le prophète du vent"
+      "fr": "Défi: le prophète du vent"
     },
     "level": 49,
     "patch": 2,
@@ -3005,7 +3005,7 @@
       "en": "Black and Nburu",
       "ja": "湿林の怨念「ンブル」",
       "de": "Nburus Bitterkeit",
-      "fr": "Défi<Indent/>: sonner le Glas pour Nburu"
+      "fr": "Défi: sonner le Glas pour Nburu"
     },
     "level": 45,
     "patch": 2,
@@ -3041,7 +3041,7 @@
       "en": "Another Notch on the Torch",
       "ja": "残忍なる悪鬼「ポリュス」",
       "de": "Nichts geht mehr",
-      "fr": "Défi<Indent/>: Porus et les 1000 chasseurs"
+      "fr": "Défi: Porus et les 1000 chasseurs"
     },
     "level": 48,
     "patch": 2,
@@ -3089,7 +3089,7 @@
       "en": "That's What Adventurers Are For",
       "ja": "乱れ髪「銀髪のディオネ」",
       "de": "Dione muss schweigen",
-      "fr": "Défi<Indent/>: Dioné-nous la force"
+      "fr": "Défi: Dioné-nous la force"
     },
     "level": 46,
     "patch": 2,
@@ -3113,7 +3113,7 @@
       "en": "Gone with the Shadow",
       "ja": "夜襲の魔獣「グウィルギ」",
       "de": "Recht gilt auch des Nachts",
-      "fr": "Défi<Indent/>: en proie aux ombres"
+      "fr": "Défi: en proie aux ombres"
     },
     "level": 46,
     "patch": 2,
@@ -3137,7 +3137,7 @@
       "en": "V for Vinedetta",
       "ja": "甘い誘惑「ボラプチュア・ビビアン」",
       "de": "Hab Vivian satt",
-      "fr": "Défi<Indent/>: parfum trompeur"
+      "fr": "Défi: parfum trompeur"
     },
     "level": 44,
     "patch": 2,
@@ -3173,7 +3173,7 @@
       "en": "Bad Hair Day",
       "ja": "金髪の貴公子「アイエテス」",
       "de": "Holder Knabe in lockigem Haar",
-      "fr": "Défi<Indent/>: pelote en colère"
+      "fr": "Défi: pelote en colère"
     },
     "level": 42,
     "patch": 2,
@@ -3185,7 +3185,7 @@
       "en": "The Big Bagoly Theory",
       "ja": "醜悪なる合成獣「バドゥ」",
       "de": "Großer Badu, große Gefahr",
-      "fr": "Défi<Indent/>: se forger des chimères"
+      "fr": "Défi: se forger des chimères"
     },
     "level": 42,
     "patch": 2,
@@ -3209,7 +3209,7 @@
       "en": "Book of Pride",
       "ja": "哀しき闘士「純鉄のビビレゼ」",
       "de": "Ifrit nahm sein Leben",
-      "fr": "Défi<Indent/>: Bibireze le maudit"
+      "fr": "Défi: Bibireze le maudit"
     },
     "level": 46,
     "patch": 2,
@@ -3293,7 +3293,7 @@
       "en": "Spark off the Bench",
       "ja": "速射の名手「火打のハプグ・ロー」",
       "de": "Schneller Schütze",
-      "fr": "Défi<Indent/>: un Hepugg à épurer"
+      "fr": "Défi: un Hepugg à épurer"
     },
     "level": 49,
     "patch": 2,
@@ -3341,7 +3341,7 @@
       "en": "He's a Firestarter",
       "ja": "焔神呼びし者「火印のアファジ・コー」",
       "de": "Beschwörer des Herrn des Infernos",
-      "fr": "Défi<Indent/>: l'attiseur des flammes infernales"
+      "fr": "Défi: l'attiseur des flammes infernales"
     },
     "level": 48,
     "patch": 2,
@@ -3365,7 +3365,7 @@
       "en": "Closing Time",
       "ja": "酒飲み魔獣「セクメト」",
       "de": "Geschmack an Wein und Unrecht",
-      "fr": "Défi<Indent/>: alcool triste"
+      "fr": "Défi: alcool triste"
     },
     "level": 34,
     "patch": 2,
@@ -3389,7 +3389,7 @@
       "en": "Ho Ho Ho",
       "ja": "深緑の巨獣「ジョリーグリーン」",
       "de": "Glüxi Grün",
-      "fr": "Défi<Indent/>: ho, ho, ho<Indent/>!"
+      "fr": "Défi: ho, ho, ho!"
     },
     "level": 33,
     "patch": 2,
@@ -3401,7 +3401,7 @@
       "en": "Say My Name",
       "ja": "不吉な球根「メツハルジャス」",
       "de": "Metshaldjas von rechts",
-      "fr": "Défi<Indent/>: celui dont on ne doit pas prononcer le nom"
+      "fr": "Défi: celui dont on ne doit pas prononcer le nom"
     },
     "level": 32,
     "patch": 2,
@@ -3485,7 +3485,7 @@
       "en": "Sharknado",
       "ja": "冷徹なる戦略家「鮫肌のヴォル」",
       "de": "Voll unter Kontrolle",
-      "fr": "Défi<Indent/>: qui veut la peau du requin ?"
+      "fr": "Défi: qui veut la peau du requin ?"
     },
     "level": 44,
     "patch": 2,
@@ -3533,7 +3533,7 @@
       "en": "The King's Justice",
       "ja": "異国の魔蟲「マンティスキング」",
       "de": "Verhängnisvolle Fracht",
-      "fr": "Défi<Indent/>: mante à l'eau"
+      "fr": "Défi: mante à l'eau"
     },
     "level": 40,
     "patch": 2,
@@ -3545,7 +3545,7 @@
       "en": "Making Waves",
       "ja": "水神呼びし者「水鬼のヤァル」",
       "de": "Beschwörer des Herrn der Wogen",
-      "fr": "Défi<Indent/>: le messager des vagues"
+      "fr": "Défi: le messager des vagues"
     },
     "level": 49,
     "patch": 2,
@@ -3569,7 +3569,7 @@
       "en": "By a Whisker",
       "ja": "黒渦団の仇敵「オセ」",
       "de": "Für unsere Pioniere ",
-      "fr": "Défi<Indent/>: un coeurl à prendre"
+      "fr": "Défi: un coeurl à prendre"
     },
     "level": 34,
     "patch": 2,
@@ -3593,7 +3593,7 @@
       "en": "The Miner in the Mirror",
       "ja": "土竜の山師「ピックマン59 ベ・ゼ」",
       "de": "Riecher für Erz",
-      "fr": "Défi<Indent/>: pas de concession sur les concessions"
+      "fr": "Défi: pas de concession sur les concessions"
     },
     "level": 44,
     "patch": 2,
@@ -3605,7 +3605,7 @@
       "en": "Schism",
       "ja": "試掘地強襲作戦",
       "de": "Gras grüner, Gestein größer",
-      "fr": "Défi<Indent/>: un Kobold sachant forer..."
+      "fr": "Défi: un Kobold sachant forer..."
     },
     "level": 41,
     "patch": 2,
@@ -3629,7 +3629,7 @@
       "en": "Make It Rain",
       "ja": "雷雨呼ぶ者「ブラウンガー」",
       "de": "Auf Wolkenbruch raus",
-      "fr": "Défi<Indent/>: peur de l'orage<Indent/>?"
+      "fr": "Défi: peur de l'orage?"
     },
     "level": 41,
     "patch": 2,
@@ -3641,7 +3641,7 @@
       "en": "Peryton, Perhaps",
       "ja": "伝説の巨竜「ペリュトン」",
       "de": "Ende eines Gerüchts",
-      "fr": "Défi<Indent/>: qui a vu mon dragon ?"
+      "fr": "Défi: qui a vu mon dragon ?"
     },
     "level": 30,
     "patch": 2,
@@ -3665,7 +3665,7 @@
       "en": "I'm a Rock, Not a Number",
       "ja": "廃棄された実験体「ナンバー128」",
       "de": "Fehlschöpfung",
-      "fr": "Défi<Indent/>: je ne suis pas un numéro"
+      "fr": "Défi: je ne suis pas un numéro"
     },
     "level": 34,
     "patch": 2,
@@ -3689,7 +3689,7 @@
       "en": "Full Metal Alchemist",
       "ja": "鋼虫の養殖者「ビーズマン59 ビ・ゴ」",
       "de": "Asbest? Nein Danke!",
-      "fr": "Défi<Indent/>: révolution industrielle"
+      "fr": "Défi: révolution industrielle"
     },
     "level": 48,
     "patch": 2,
@@ -3701,7 +3701,7 @@
       "en": "Spandy Balidet",
       "ja": "目覚めし石像「バリデト」",
       "de": "Schlafende Monster",
-      "fr": "Défi<Indent/>: ne pas réveiller la statue qui dort..."
+      "fr": "Défi: ne pas réveiller la statue qui dort..."
     },
     "level": 47,
     "patch": 2,
@@ -3713,7 +3713,7 @@
       "en": "Stopping the Shakes",
       "ja": "岩神呼びし者「ペイトリアーク05 ゼ・ブ」",
       "de": "Beschwörer des Herrn der Felsen",
-      "fr": "Défi<Indent/>: l'allocutaire de la roche"
+      "fr": "Défi: l'allocutaire de la roche"
     },
     "level": 47,
     "patch": 2,
@@ -3773,7 +3773,7 @@
       "en": "In Spite of It All",
       "ja": "陰険なる魔物「スパイトフル」",
       "de": "Schadenfröhlich",
-      "fr": "Défi<Indent/>: le plus Revanchard des deux"
+      "fr": "Défi: le plus Revanchard des deux"
     },
     "level": 43,
     "patch": 2,
@@ -3809,7 +3809,7 @@
       "en": "The Squirrel Trapper's Wife",
       "ja": "気まぐれ婦人「カプリシャス・キャシー」",
       "de": "Ein Happen für Cassie",
-      "fr": "Défi<Indent/>: Cassienova"
+      "fr": "Défi: Cassienova"
     },
     "level": 43,
     "patch": 2,
@@ -3845,7 +3845,7 @@
       "en": "Below His Station",
       "ja": "千人隊長「アウルス・レム・ヴルソ」",
       "de": "Jetzt oder nie",
-      "fr": "Défi<Indent/>: une option sur l'optio"
+      "fr": "Défi: une option sur l'optio"
     },
     "level": 44,
     "patch": 2,
@@ -3869,7 +3869,7 @@
       "en": "Breaking Dawn",
       "ja": "幽谷の薬師「覚醒のダキシオ」",
       "de": "Gar nicht so harmlos",
-      "fr": "Défi<Indent/>: Daxio le chimiste"
+      "fr": "Défi: Daxio le chimiste"
     },
     "level": 47,
     "patch": 2,
@@ -3893,7 +3893,7 @@
       "en": "Bush Blade",
       "ja": "幽谷の衛士「葉刃のヴォルキシア」",
       "de": "Sylphenkommandantin",
-      "fr": "Défi<Indent/>: vilain Volxia"
+      "fr": "Défi: vilain Volxia"
     },
     "level": 47,
     "patch": 2,
@@ -3917,7 +3917,7 @@
       "en": "The Gale that Rocks the Cradle",
       "ja": "敬虔なる養育者「風狂のプルシオ」",
       "de": "Ramuh-Früherziehung",
-      "fr": "Défi<Indent/>: une pulsion contre Pulxio"
+      "fr": "Défi: une pulsion contre Pulxio"
     },
     "level": 49,
     "patch": 2,
@@ -3965,7 +3965,7 @@
       "en": "What Gored Before",
       "ja": "最後の闘猪王「パイア」",
       "de": "Grimmiges Beißendes",
-      "fr": "Défi<Indent/>: Phaïa pas l'inviter"
+      "fr": "Défi: Phaïa pas l'inviter"
     },
     "level": 46,
     "patch": 2,
@@ -3989,7 +3989,7 @@
       "en": "Rude Awakening",
       "ja": "遺跡の亡霊騎士「ダイダロス」",
       "de": "Skandal im Sperrgebiet",
-      "fr": "Défi<Indent/>: les morts en marche"
+      "fr": "Défi: les morts en marche"
     },
     "level": 48,
     "patch": 2,
@@ -4013,7 +4013,7 @@
       "en": "Smells Like Tree Spirit",
       "ja": "怒れる守護者「グレートオーク」",
       "de": "Wie man in den Wald ruft",
-      "fr": "Défi<Indent/>: chêne déchaîné"
+      "fr": "Défi: chêne déchaîné"
     },
     "level": 37,
     "patch": 2,
@@ -4025,7 +4025,7 @@
       "en": "The Red Baron",
       "ja": "灼熱の男爵「ボムバロン」",
       "de": "Spritfresser",
-      "fr": "Défi<Indent/>: le baron rouge"
+      "fr": "Défi: le baron rouge"
     },
     "level": 49,
     "patch": 2,
@@ -4085,7 +4085,7 @@
       "en": "Dark Devices - The Plea",
       "ja": "救世神の生贄：誘拐編",
       "de": "Von Kultisten entführt",
-      "fr": "Culte maudit<Indent/>: l'enlèvement"
+      "fr": "Culte maudit: l'enlèvement"
     },
     "level": 49,
     "patch": 2,
@@ -4097,7 +4097,7 @@
       "en": "Dark Devices - The Bait",
       "ja": "救世神の生贄：待伏編",
       "de": "Unkluge Kultisten",
-      "fr": "Culte maudit<Indent/>: l'embuscade"
+      "fr": "Culte maudit: l'embuscade"
     },
     "level": 49,
     "patch": 2,
@@ -4109,7 +4109,7 @@
       "en": "Dark Devices - The Switch",
       "ja": "救世神の生贄：誅殺編",
       "de": "Die Sektenführer",
-      "fr": "Culte maudit<Indent/>: l'aveu"
+      "fr": "Culte maudit: l'aveu"
     },
     "level": 49,
     "patch": 2,
@@ -4121,7 +4121,7 @@
       "en": "Dark Devices - The End",
       "ja": "救世神の生贄：妖異編",
       "de": "Ergreifendes Opfer",
-      "fr": "Culte maudit<Indent/>: l'affront"
+      "fr": "Culte maudit: l'affront"
     },
     "level": 49,
     "patch": 2,
@@ -4133,7 +4133,7 @@
       "en": "Go, Go, Gorgimera",
       "ja": "荒れ狂う巨獣「ゴーキマイラ」",
       "de": "Etwas von allem",
-      "fr": "Défi<Indent/>: gorgimère indigne"
+      "fr": "Défi: gorgimère indigne"
     },
     "level": 49,
     "patch": 2,
@@ -4157,7 +4157,7 @@
       "en": "Tender Buttons",
       "ja": "暴食の怪鳥「グルタナスガーティ」",
       "de": "Der kleine Nimmersatt",
-      "fr": "Défi<Indent/>: volatile carnivore"
+      "fr": "Défi: volatile carnivore"
     },
     "level": 12,
     "patch": 2,
@@ -4169,7 +4169,7 @@
       "en": "A Wrench in the Works",
       "ja": "高機動試作機「プロトアーマー」",
       "de": "Prototyp des Grauens",
-      "fr": "Défi<Indent/>: bon pour la ferraille"
+      "fr": "Défi: bon pour la ferraille"
     },
     "level": 42,
     "patch": 2,
@@ -4181,7 +4181,7 @@
       "en": "What a Boar",
       "ja": "狂乱の闘猪「カフレ」",
       "de": "Jetzt gibt's Keile",
-      "fr": "Défi<Indent/>: ben mon cochon<Indent/>!"
+      "fr": "Défi: ben mon cochon!"
     },
     "level": 49,
     "patch": 2,
@@ -4193,7 +4193,7 @@
       "en": "Making the Rounds",
       "ja": "妖異殺し「ラウンズマン59 ゲ・ガ」",
       "de": "Bezwinger des Bezwingers",
-      "fr": "Défi<Indent/>: le plus barjot des hommes-taupes"
+      "fr": "Défi: le plus barjot des hommes-taupes"
     },
     "level": 47,
     "patch": 2,
@@ -4229,7 +4229,7 @@
       "en": "Glycon Air",
       "ja": "黒竜の使徒「グリコン」",
       "de": "Von schwarzem Blut",
-      "fr": "Défi<Indent/>: c'est com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment Glycon"
+      "fr": "Défi: c'est com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment Glycon"
     },
     "level": 54,
     "patch": 3,
@@ -4277,7 +4277,7 @@
       "en": "Whole Food",
       "ja": "飽食の恐竜「アベリスク」",
       "de": "Schlecht gekaut ist halb unverdaut",
-      "fr": "Défi<Indent/>: Mog en un seul morceau"
+      "fr": "Défi: Mog en un seul morceau"
     },
     "level": 54,
     "patch": 3,
@@ -4313,7 +4313,7 @@
       "en": "Waugyl Waugyl Waugyl",
       "ja": "遺跡の番人「ウォーギル」",
       "de": "Ich bin der Waugyl",
-      "fr": "Défi<Indent/>: Waugyl le belliqueux"
+      "fr": "Défi: Waugyl le belliqueux"
     },
     "level": 54,
     "patch": 3,
@@ -4349,7 +4349,7 @@
       "en": "Asah, I Came, I Conquered",
       "ja": "甲鱗の猛竜「クエレブレ」",
       "de": "Hindernis auf der Fahrbahn",
-      "fr": "Défi<Indent/>: Asah commence à bien faire"
+      "fr": "Défi: Asah commence à bien faire"
     },
     "level": 54,
     "patch": 3,
@@ -4361,7 +4361,7 @@
       "en": "Waiting for Fjalar to Stall",
       "ja": "夜と霧",
       "de": "Fjalar gegen den Rest der Welt",
-      "fr": "Défi<Indent/>: marre de Fjalar"
+      "fr": "Défi: marre de Fjalar"
     },
     "level": 55,
     "patch": 3,
@@ -4385,7 +4385,7 @@
       "en": "From Dusk till Gone",
       "ja": "薄暮の飛竜「ミナルジャ」",
       "de": "Tag der Abrechnung",
-      "fr": "Défi<Indent/>: la vengeance du Vigile"
+      "fr": "Défi: la vengeance du Vigile"
     },
     "level": 55,
     "patch": 3,
@@ -4397,7 +4397,7 @@
       "en": "Treehouse of the Spirits",
       "ja": "来たのは誰だ",
       "de": "Meliaden-Marmelade",
-      "fr": "De quoi je me mélias<Indent/>?"
+      "fr": "De quoi je me mélias?"
     },
     "level": 55,
     "patch": 3,
@@ -4409,7 +4409,7 @@
       "en": "As the World Burns",
       "ja": "猛炎の焔竜「クシェドレ」",
       "de": "Der Angeschwärzte",
-      "fr": "Défi<Indent/>: Kucedre le maudit"
+      "fr": "Défi: Kucedre le maudit"
     },
     "level": 56,
     "patch": 3,
@@ -4433,7 +4433,7 @@
       "en": "Corporal Pomishment",
       "ja": "雲海の問題児「悪童のモグーシ」",
       "de": "Ein großes Kupowetter",
-      "fr": "Défi<Indent/>: châtiment kupporel"
+      "fr": "Défi: châtiment kupporel"
     },
     "level": 54,
     "patch": 3,
@@ -4457,7 +4457,7 @@
       "en": "Ain't Misbehaving",
       "ja": "愚行の問題児「悪童のモグーシ」",
       "de": "Immer auf die Kleinen",
-      "fr": "Défi<Indent/>: mogvais garçon"
+      "fr": "Défi: mogvais garçon"
     },
     "level": 54,
     "patch": 3,
@@ -4493,7 +4493,7 @@
       "en": "Metal Gears Revengeance 2",
       "ja": "全面改修機「III号ゴブリガードJ型」",
       "de": "Vollmetallalchemisten",
-      "fr": "Défi<Indent/>: vengeurs de ferraille II"
+      "fr": "Défi: vengeurs de ferraille II"
     },
     "level": 58,
     "patch": 3,
@@ -4529,7 +4529,7 @@
       "en": "Gets the Red Out",
       "ja": "巨眼の魔牛「エパポス」",
       "de": "Das ging ins Auge",
-      "fr": "Défi<Indent/>: une épitaphe pour Épaphos"
+      "fr": "Défi: une épitaphe pour Épaphos"
     },
     "level": 58,
     "patch": 3,
@@ -4565,7 +4565,7 @@
       "en": "Feed Me, See More",
       "ja": "吸血の浮遊草「ルギニス」",
       "de": "Sie kam aus der Luft",
-      "fr": "Défi<Indent/>: Ruginis à éliminer"
+      "fr": "Défi: Ruginis à éliminer"
     },
     "level": 58,
     "patch": 3,
@@ -4589,7 +4589,7 @@
       "en": "Revenge of the Vengeful Revengeance",
       "ja": "熟練の戦闘指揮官「八丁のマウンドリンクス」",
       "de": "Satz mit X: Hubbelknix",
-      "fr": "Défi<Indent/>: Moundrinix le virtuose"
+      "fr": "Défi: Moundrinix le virtuose"
     },
     "level": 58,
     "patch": 3,
@@ -4613,7 +4613,7 @@
       "en": "Dobharch Did It for the Best",
       "ja": "野獣の家長「ダルウフー」",
       "de": "Der Zorn einer Mutter",
-      "fr": "Défi<Indent/>: Dobharch la matriarche"
+      "fr": "Défi: Dobharch la matriarche"
     },
     "level": 58,
     "patch": 3,
@@ -4649,7 +4649,7 @@
       "en": "On Melancholic Hill",
       "ja": "憂鬱なる令嬢「メランコリック・モイラ」",
       "de": "Melancholie und die unendliche Unersättlichkeit",
-      "fr": "Défi<Indent/>: broyer du Moira"
+      "fr": "Défi: broyer du Moira"
     },
     "level": 58,
     "patch": 3,
@@ -4673,7 +4673,7 @@
       "en": "The Bear Up There",
       "ja": "血濡れの暴君「ドゥーベ」",
       "de": "Krieger, grüß mir die Sonne",
-      "fr": "Défi<Indent/>: Dubhe ration"
+      "fr": "Défi: Dubhe ration"
     },
     "level": 58,
     "patch": 3,
@@ -4769,7 +4769,7 @@
       "en": "Toad Alone",
       "ja": "主を待つ者「孤独のベロ・ロッゴ」",
       "de": "Die Einsamkeit des Poroggo-Familiars",
-      "fr": "Défi<Indent/>: triste Bero Roggo"
+      "fr": "Défi: triste Bero Roggo"
     },
     "level": 59,
     "patch": 3,
@@ -4781,7 +4781,7 @@
       "en": "How Do You Feed a Hungry Manlike Monster",
       "ja": "魚喰いの魚人「オプロケプロン」",
       "de": "Er kam von Weitem übers Meer",
-      "fr": "Défi<Indent/>: un poisson bipède et vorace"
+      "fr": "Défi: un poisson bipède et vorace"
     },
     "level": 59,
     "patch": 3,
@@ -4805,7 +4805,7 @@
       "en": "Silkworm",
       "ja": "糸紡ぎ巧者「ハベロット」",
       "de": "Ein ganz großer Spinner",
-      "fr": "Défi<Indent/>: défiler Habetrot"
+      "fr": "Défi: défiler Habetrot"
     },
     "level": 58,
     "patch": 3,
@@ -4865,7 +4865,7 @@
       "en": "Don of the Mylodons",
       "ja": "剛毛の白獣「ペルダ」",
       "de": "Peluda tobt",
-      "fr": "Défi<Indent/>: les veules et la Velue"
+      "fr": "Défi: les veules et la Velue"
     },
     "level": 50,
     "patch": 3,
@@ -4877,7 +4877,7 @@
       "en": "We Fought a Dzu",
       "ja": "ヤク喰い巨人「ズウティ」",
       "de": "Die Rückkehr des Yeti-Ritters",
-      "fr": "Défi<Indent/>: ne pas douter face à Dzu Teh"
+      "fr": "Défi: ne pas douter face à Dzu Teh"
     },
     "level": 51,
     "patch": 3,
@@ -4913,7 +4913,7 @@
       "en": "Apparent Trap",
       "ja": "雪男の天敵「イエティトラップ」",
       "de": "Den Mund zu voll genommen",
-      "fr": "Défi<Indent/>: gare aux piège-yétis"
+      "fr": "Défi: gare aux piège-yétis"
     },
     "level": 50,
     "patch": 3,
@@ -4961,7 +4961,7 @@
       "en": "Sick Pack",
       "ja": "ダスクの銀狼",
       "de": "Die Stärke des Rudels",
-      "fr": "Qui a peur de la meute géante<Indent/>?"
+      "fr": "Qui a peur de la meute géante?"
     },
     "level": 51,
     "patch": 3,
@@ -4985,7 +4985,7 @@
       "en": "What You See Is What You Get",
       "ja": "幻惑の視線「ビホルダー」",
       "de": "Im Auge des Betrachters",
-      "fr": "Défi<Indent/>: taper dans l'œil"
+      "fr": "Défi: taper dans l'œil"
     },
     "level": 50,
     "patch": 3,
@@ -5009,7 +5009,7 @@
       "en": "Sugar, Sugar",
       "ja": "人喰い氷菓「タルトゥフォ＆ホワイトトリュフ」",
       "de": "Die Hungerspiele",
-      "fr": "Défi<Indent/>: tartufo et truffe blanche"
+      "fr": "Défi: tartufo et truffe blanche"
     },
     "level": 50,
     "patch": 3,
@@ -5033,7 +5033,7 @@
       "en": "Pico de Gallows",
       "ja": "鳥竜の大王「ピコラトン」",
       "de": "Kampf gegen die Hauptstreitmacht",
-      "fr": "Défi<Indent/>: arrête de Picolaton"
+      "fr": "Défi: arrête de Picolaton"
     },
     "level": 51,
     "patch": 3,
@@ -5057,7 +5057,7 @@
       "en": "One Whiskey, One Goat, One Spear",
       "ja": "酒浸り野獣「ヘイズルーン」",
       "de": "Auf den Geschmack gekommen",
-      "fr": "Défi<Indent/>: Heidrun l'insatiable"
+      "fr": "Défi: Heidrun l'insatiable"
     },
     "level": 50,
     "patch": 3,
@@ -5069,7 +5069,7 @@
       "en": "No Ifs, Ands, or Butts",
       "ja": "若き竜騎士「鋭槍のアランベール」",
       "de": "Herzallerwertest",
-      "fr": "Défi<Indent/>: Alaimbert le risible"
+      "fr": "Défi: Alaimbert le risible"
     },
     "level": 50,
     "patch": 3,
@@ -5093,7 +5093,7 @@
       "en": "Dishonored",
       "ja": "功績泥棒「卑怯者のウェルナー」",
       "de": "Heuchlerische Helden",
-      "fr": "Défi<Indent/>: avec ça, on est Werner"
+      "fr": "Défi: avec ça, on est Werner"
     },
     "level": 51,
     "patch": 3,
@@ -5105,7 +5105,7 @@
       "en": "By the Horns",
       "ja": "伝説の馬鳥「ブルチョコボ」",
       "de": "Erfüllung eines Traums",
-      "fr": "Défi<Indent/>: un mâle de chocobo"
+      "fr": "Défi: un mâle de chocobo"
     },
     "level": 52,
     "patch": 3,
@@ -5129,7 +5129,7 @@
       "en": "Run, Run Away",
       "ja": "巧妙なる狩人「ヨーウィ」",
       "de": "Ein Kopf zu groß",
-      "fr": "Défi<Indent/>: Yowie ne vit qu'une fois"
+      "fr": "Défi: Yowie ne vit qu'une fois"
     },
     "level": 52,
     "patch": 3,
@@ -5153,7 +5153,7 @@
       "en": "Glawackus On, Glawackus Off",
       "ja": "孤高の猛獣「グラワッカス」",
       "de": "Der Schrecken der Chocobos",
-      "fr": "Défi<Indent/>: Glawackus le gourmand"
+      "fr": "Défi: Glawackus le gourmand"
     },
     "level": 52,
     "patch": 3,
@@ -5189,7 +5189,7 @@
       "en": "The Rite Stuff",
       "ja": "異形の巡礼者",
       "de": "Das Urteil der Furie",
-      "fr": "Sus aux hérétiques<Indent/>!"
+      "fr": "Sus aux hérétiques!"
     },
     "level": 52,
     "patch": 3,
@@ -5213,7 +5213,7 @@
       "en": "The Whole Truth",
       "ja": "敵の敵も敵",
       "de": "Fanatisch, didaktisch, ungut",
-      "fr": "Gare à toi, hérétique<Indent/>!"
+      "fr": "Gare à toi, hérétique!"
     },
     "level": 52,
     "patch": 3,
@@ -5225,7 +5225,7 @@
       "en": "Nothing but the Truth",
       "ja": "異端の扇動者「熱狂のウベルティアン」",
       "de": "Vorsicht, Bluthochdruck!",
-      "fr": "Défi<Indent/>: la pacification d'Hubairtien"
+      "fr": "Défi: la pacification d'Hubairtien"
     },
     "level": 52,
     "patch": 3,
@@ -5273,7 +5273,7 @@
       "en": "Elephant in the Brume",
       "ja": "雲霧街の虐殺者「スヴァローグ」",
       "de": "Svarog der Schreckliche",
-      "fr": "Défi<Indent/>: l'exécution de Svarog"
+      "fr": "Défi: l'exécution de Svarog"
     },
     "level": 53,
     "patch": 3,
@@ -5285,7 +5285,7 @@
       "en": "The Migas Touch",
       "ja": "怒れる母「ミガス」",
       "de": "Der Zorn einer Mutter",
-      "fr": "Défi<Indent/>: la folie de Migas"
+      "fr": "Défi: la folie de Migas"
     },
     "level": 52,
     "patch": 3,
@@ -5309,7 +5309,7 @@
       "en": "The Mourning After",
       "ja": "下克上の眷属「竜人のロベルラン」",
       "de": "Das Mourn-Massaker",
-      "fr": "Défi<Indent/>: Robairlain l'écailleux"
+      "fr": "Défi: Robairlain l'écailleux"
     },
     "level": 53,
     "patch": 3,
@@ -5345,7 +5345,7 @@
       "en": "Special Tarasque Force",
       "ja": "爆着の甲竜「タラスク」",
       "de": "Die Hasspredigerin",
-      "fr": "Défi<Indent/>: terrasser la Tarasque"
+      "fr": "Défi: terrasser la Tarasque"
     },
     "level": 53,
     "patch": 3,
@@ -5381,7 +5381,7 @@
       "en": "One Turned Over the Cloudkin's Nest",
       "ja": "鮮やかなる丸鳥「ディアトリマ」",
       "de": "Wir müssen mal reden",
-      "fr": "Défi<Indent/>: la diatribe de Diatryma"
+      "fr": "Défi: la diatribe de Diatryma"
     },
     "level": 50,
     "patch": 3,
@@ -5441,7 +5441,7 @@
       "en": "A Long Way Down",
       "ja": "不法投棄者「アポタムキン」",
       "de": "Ein langer Fall",
-      "fr": "Défi<Indent/>: de haut en bas"
+      "fr": "Défi: de haut en bas"
     },
     "level": 50,
     "patch": 3,
@@ -5513,7 +5513,7 @@
       "en": "On Dangerous Ground",
       "ja": "暴食の岩人形「グランズイーター」",
       "de": "Wider die eigene Natur",
-      "fr": "Défi<Indent/>: mangeur de terre gardée"
+      "fr": "Défi: mangeur de terre gardée"
     },
     "level": 57,
     "patch": 3,
@@ -5549,7 +5549,7 @@
       "en": "Bones",
       "ja": "恐怖の対象「積乱のオヌバリ」",
       "de": "Die Knochenjägerin",
-      "fr": "Défi<Indent/>: il y a un os à plume"
+      "fr": "Défi: il y a un os à plume"
     },
     "level": 57,
     "patch": 3,
@@ -5561,7 +5561,7 @@
       "en": "Bismarcking Time",
       "ja": "雲神の司祭「入道のケナバヌ」",
       "de": "Primae müssen draußen bleiben",
-      "fr": "Défi<Indent/>: l'incantateur des brumes"
+      "fr": "Défi: l'incantateur des brumes"
     },
     "level": 59,
     "patch": 3,
@@ -5585,7 +5585,7 @@
       "en": "A Disturbing Lack of Faith",
       "ja": "復讐の司祭「入道のケナバヌ」",
       "de": "Der Priester mit dem Vogel",
-      "fr": "Défi<Indent/>: l'incantateur des brumes revient"
+      "fr": "Défi: l'incantateur des brumes revient"
     },
     "level": 59,
     "patch": 3,
@@ -5609,7 +5609,7 @@
       "en": "The Sound of Madness",
       "ja": "狂気の歌声「ポダルゲー」",
       "de": "Wahnsinn vorprogrammiert",
-      "fr": "Défi<Indent/>: Podarge au pot"
+      "fr": "Défi: Podarge au pot"
     },
     "level": 59,
     "patch": 3,
@@ -5621,7 +5621,7 @@
       "en": "You Eat What You Aren't",
       "ja": "雲海の狂風「アケク」",
       "de": "Vanu mit Soße",
-      "fr": "Défi<Indent/>: dans les griffes d'Akhekhu"
+      "fr": "Défi: dans les griffes d'Akhekhu"
     },
     "level": 59,
     "patch": 3,
@@ -5645,7 +5645,7 @@
       "en": "Darkscale Descendeth",
       "ja": "ダークスケール征討戦：白竜支援",
       "de": "Dunkelschuppe I: Ein Drache dreht auf",
-      "fr": "Défi<Indent/>: sus à Sombrécaille"
+      "fr": "Défi: sus à Sombrécaille"
     },
     "level": 55,
     "patch": 3,
@@ -5657,7 +5657,7 @@
       "en": "Darkscale Disappeareth",
       "ja": "ダークスケール征討戦：追撃作戦",
       "de": "Dunkelschuppe II: Ein Drache dreht ab",
-      "fr": "Défi<Indent/>: Sombrécaille se soigne"
+      "fr": "Défi: Sombrécaille se soigne"
     },
     "level": 55,
     "patch": 3,
@@ -5669,7 +5669,7 @@
       "en": "Darkscale Devoureth",
       "ja": "ダークスケール征討戦：総力決戦",
       "de": "Dunkelschuppe III: Ein Drache gibt den Löffel ab",
-      "fr": "Défi<Indent/>: quand sombre Sombrécaille"
+      "fr": "Défi: quand sombre Sombrécaille"
     },
     "level": 55,
     "patch": 3,
@@ -5681,7 +5681,7 @@
       "en": "Vedrfolnir Devoteth",
       "ja": "蒼天の白竜「ヴェズルフェルニル」",
       "de": "Ehrenduell mit dem Weißen",
-      "fr": "Défi<Indent/>: duel amical contre Vedrfolnir"
+      "fr": "Défi: duel amical contre Vedrfolnir"
     },
     "level": 56,
     "patch": 3,
@@ -5705,7 +5705,7 @@
       "en": "Rastaban Vibration",
       "ja": "白亜の宮殿防衛戦：猛竜討伐",
       "de": "Rastabans Rage",
-      "fr": "Sus aux sous-fifres<Indent/>!"
+      "fr": "Sus aux sous-fifres!"
     },
     "level": 55,
     "patch": 3,
@@ -5717,7 +5717,7 @@
       "en": "Mogicide",
       "ja": "白亜の宮殿防衛戦：モーグリ救援",
       "de": "Sadistische Spiele",
-      "fr": "Défi<Indent/>: touche pas mes Mogs"
+      "fr": "Défi: touche pas mes Mogs"
     },
     "level": 54,
     "patch": 3,
@@ -5729,7 +5729,7 @@
       "en": "Rebel Yehl",
       "ja": "大嘴の怪鳥「イェル」",
       "de": "Der Schrecken der Lüfte",
-      "fr": "Défi<Indent/>: clouer le bec à Yehl"
+      "fr": "Défi: clouer le bec à Yehl"
     },
     "level": 59,
     "patch": 3,
@@ -5741,7 +5741,7 @@
       "en": "Prey Online",
       "ja": "太古の脅威：ノクチルカ撃滅戦",
       "de": "Ultima: Ein Prototyp tankt auf",
-      "fr": "Proto-Ultima<Indent/>: la menace surgie du passé"
+      "fr": "Proto-Ultima: la menace surgie du passé"
     },
     "level": 59,
     "patch": 3,
@@ -5753,7 +5753,7 @@
       "en": "Prey Online",
       "ja": "太古の脅威：ノクチルカ撃滅戦",
       "de": "Ultima: Ein Prototyp tankt auf",
-      "fr": "Proto-Ultima<Indent/>: la menace surgie du passé"
+      "fr": "Proto-Ultima: la menace surgie du passé"
     },
     "level": 59,
     "patch": 3,
@@ -5765,7 +5765,7 @@
       "en": "Prey Online",
       "ja": "太古の脅威：ノクチルカ撃滅戦",
       "de": "Ultima: Ein Prototyp tankt auf",
-      "fr": "Proto-Ultima<Indent/>: la menace surgie du passé"
+      "fr": "Proto-Ultima: la menace surgie du passé"
     },
     "level": 59,
     "patch": 3,
@@ -5801,7 +5801,7 @@
       "en": "Still Ticking",
       "ja": "アラグ脅威のメカニズム",
       "de": "Der Fürst und der Richter",
-      "fr": "Défi<Indent/>: des frasques à la défrag'"
+      "fr": "Défi: des frasques à la défrag'"
     },
     "level": 59,
     "patch": 3,
@@ -5813,7 +5813,7 @@
       "en": "Life of Brain",
       "ja": "狡知の魔獣「キマイラブレイン」",
       "de": "Hungriges Hirn",
-      "fr": "Défi<Indent/>: euthanasie cérébrale"
+      "fr": "Défi: euthanasie cérébrale"
     },
     "level": 59,
     "patch": 3,
@@ -5837,7 +5837,7 @@
       "en": "Pet, Smart",
       "ja": "忠義の妖王「ムチャリンダ」",
       "de": "Blinde Wut",
-      "fr": "Défi<Indent/>: couchée, sale bête !"
+      "fr": "Défi: couchée, sale bête !"
     },
     "level": 59,
     "patch": 3,
@@ -5897,7 +5897,7 @@
       "en": "Scared Sylla",
       "ja": "魔導技師長「シラ・マル・アルビヌス」",
       "de": "Der Chef ist sauer",
-      "fr": "Défi<Indent/>: mettre Sylla à mal"
+      "fr": "Défi: mettre Sylla à mal"
     },
     "level": 59,
     "patch": 3,
@@ -5957,7 +5957,7 @@
       "en": "No Greater Goryshche",
       "ja": "人造多頭竜「ゴリシュチェ」",
       "de": "Feuer mit Feuer bekämpfen",
-      "fr": "Défi<Indent/>: décapitation de Goryschche"
+      "fr": "Défi: décapitation de Goryschche"
     },
     "level": 59,
     "patch": 3,
@@ -5981,7 +5981,7 @@
       "en": "Out of Sight, Out of Mind",
       "ja": "不吉なる実験体「ステンノー」",
       "de": "Stheno abschreiben",
-      "fr": "Défi<Indent/>: Sthéno en quarantaine"
+      "fr": "Défi: Sthéno en quarantaine"
     },
     "level": 59,
     "patch": 3,
@@ -6017,7 +6017,7 @@
       "en": "Do Spinners Dream of Electric Rooks",
       "ja": "夢見る無人機「リックスピナー」",
       "de": "Der rotierende Turm von Azys Lla",
-      "fr": "Défi<Indent/>: les drilles rêvent-ils de meules électriques ?"
+      "fr": "Défi: les drilles rêvent-ils de meules électriques ?"
     },
     "level": 59,
     "patch": 3,
@@ -6029,7 +6029,7 @@
       "en": "Long Live the Coeurl",
       "ja": "雷獣の女王「クァールレギナ」",
       "de": "Angriff der Königin",
-      "fr": "Défi<Indent/>: mort à la reine des coeurls"
+      "fr": "Défi: mort à la reine des coeurls"
     },
     "level": 52,
     "patch": 3,
@@ -6041,7 +6041,7 @@
       "en": "Coeurls Chase Boys",
       "ja": "逆襲の女王「クァールレギナ」",
       "de": "Rückkehr der Königin",
-      "fr": "Défi<Indent/>: du coeurl à l'ouvrage"
+      "fr": "Défi: du coeurl à l'ouvrage"
     },
     "level": 57,
     "patch": 3,
@@ -6053,7 +6053,7 @@
       "en": "Coeurls Chase Boys",
       "ja": "逆襲の女王「クァールレギナ」",
       "de": "Rückkehr der Königin",
-      "fr": "Défi<Indent/>: du coeurl à l'ouvrage"
+      "fr": "Défi: du coeurl à l'ouvrage"
     },
     "level": 57,
     "patch": 3,
@@ -6065,7 +6065,7 @@
       "en": "Coeurls Chase Boys Chase Coeurls",
       "ja": "幻影の女王「クァールレギナ」",
       "de": "Entmachtung der Königin",
-      "fr": "Défi<Indent/>: coeurls brisés"
+      "fr": "Défi: coeurls brisés"
     },
     "level": 60,
     "patch": 3,
@@ -6077,7 +6077,7 @@
       "en": "Coeurls Chase Boys Chase Coeurls",
       "ja": "幻影の女王「クァールレギナ」",
       "de": "Entmachtung der Königin",
-      "fr": "Défi<Indent/>: coeurls brisés"
+      "fr": "Défi: coeurls brisés"
     },
     "level": 60,
     "patch": 3,
@@ -6089,7 +6089,7 @@
       "en": "Coeurls Chase Boys Chase Coeurls",
       "ja": "幻影の女王「クァールレギナ」",
       "de": "Entmachtung der Königin",
-      "fr": "Défi<Indent/>: coeurls brisés"
+      "fr": "Défi: coeurls brisés"
     },
     "level": 60,
     "patch": 3,
@@ -6101,7 +6101,7 @@
       "en": "Sphenopalatine Ganglioneuralgia",
       "ja": "アイスクリーム頭痛",
       "de": "Eiskalte Killer",
-      "fr": "De la glace à piler<Indent/>!"
+      "fr": "De la glace à piler!"
     },
     "level": 56,
     "patch": 3,
@@ -6113,7 +6113,7 @@
       "en": "A Stihi Situation",
       "ja": "冷酷なる氷竜「スティヒ」",
       "de": "Der Erzfeind der Vollstrecker",
-      "fr": "Défi<Indent/>: Stihi, c'est fini<Indent/>!"
+      "fr": "Défi: Stihi, c'est fini!"
     },
     "level": 56,
     "patch": 3,
@@ -6125,7 +6125,7 @@
       "en": "Ware the Maiden Fair",
       "ja": "変貌せし乙女「ドラゴンメイデン」",
       "de": "Drachenmaid, hast du heut für mich Zeit",
-      "fr": "Défi<Indent/>: la vierge marrie"
+      "fr": "Défi: la vierge marrie"
     },
     "level": 57,
     "patch": 3,
@@ -6137,7 +6137,7 @@
       "en": "A Horse Outside",
       "ja": "伝説の雷馬「イクシオン」",
       "de": "Höllenross",
-      "fr": "Défi<Indent/>: l'étalon survolté"
+      "fr": "Défi: l'étalon survolté"
     },
     "level": 70,
     "patch": 4,
@@ -6149,7 +6149,7 @@
       "en": "A Horse Outside",
       "ja": "伝説の雷馬「イクシオン」",
       "de": "Höllenross",
-      "fr": "Défi<Indent/>: l'étalon survolté"
+      "fr": "Défi: l'étalon survolté"
     },
     "level": 70,
     "patch": 4,
@@ -6161,7 +6161,7 @@
       "en": "A Horse Outside",
       "ja": "伝説の雷馬「イクシオン」",
       "de": "Höllenross",
-      "fr": "Défi<Indent/>: l'étalon survolté"
+      "fr": "Défi: l'étalon survolté"
     },
     "level": 70,
     "patch": 4,
@@ -6173,7 +6173,7 @@
       "en": "Foxy Lady",
       "ja": "九尾の妖狐「玉藻御前」",
       "de": "Fuchsige Dame",
-      "fr": "Défi<Indent/>: la renarde fait surface"
+      "fr": "Défi: la renarde fait surface"
     },
     "level": 70,
     "patch": 4,
@@ -6185,7 +6185,7 @@
       "en": "Foxy Lady",
       "ja": "九尾の妖狐「玉藻御前」",
       "de": "Fuchsige Dame",
-      "fr": "Défi<Indent/>: la renarde fait surface"
+      "fr": "Défi: la renarde fait surface"
     },
     "level": 70,
     "patch": 4,
@@ -6197,7 +6197,7 @@
       "en": "Foxy Lady",
       "ja": "九尾の妖狐「玉藻御前」",
       "de": "Fuchsige Dame",
-      "fr": "Défi<Indent/>: la renarde fait surface"
+      "fr": "Défi: la renarde fait surface"
     },
     "level": 70,
     "patch": 4,
@@ -6317,7 +6317,7 @@
       "en": "Dizzy Miss Grizzly",
       "ja": "混交林の大熊「シャープアイ・グリズリー」",
       "de": "Wiedergänger, Wiederkäuer",
-      "fr": "Défi<Indent/>: bon ours, bon œil"
+      "fr": "Défi: bon ours, bon œil"
     },
     "level": 60,
     "patch": 4,
@@ -6329,7 +6329,7 @@
       "en": "Roid Rage",
       "ja": "悲劇の変異体「ギガゲイター」",
       "de": "Angriff der Killerkrokos",
-      "fr": "Défi<Indent/>: dopage alchimique"
+      "fr": "Défi: dopage alchimique"
     },
     "level": 60,
     "patch": 4,
@@ -6425,7 +6425,7 @@
       "en": "Diakka Round",
       "ja": "グゥレイト！",
       "de": "Dickes Ding",
-      "fr": "Au diable les diakkas<Indent/>!"
+      "fr": "Au diable les diakkas!"
     },
     "level": 61,
     "patch": 4,
@@ -6437,7 +6437,7 @@
       "en": "The Evil Seed",
       "ja": "樹人の長老「キルニス」",
       "de": "Die Saat des Bösen",
-      "fr": "Défi<Indent/>: mauvaise graine"
+      "fr": "Défi: mauvaise graine"
     },
     "level": 61,
     "patch": 4,
@@ -6449,7 +6449,7 @@
       "en": "The Spiderweb Chronicles",
       "ja": "人喰い大蜘蛛「アンカブート」",
       "de": "Ich glaub, ich spinne!",
-      "fr": "Défi<Indent/>: la colline a huit yeux"
+      "fr": "Défi: la colline a huit yeux"
     },
     "level": 61,
     "patch": 4,
@@ -6473,7 +6473,7 @@
       "en": "Really Don't Keratyrannos",
       "ja": "大角の脱走兵「ケラチラノス」",
       "de": "Der Unnahbare",
-      "fr": "Défi<Indent/>: un tyran au ban"
+      "fr": "Défi: un tyran au ban"
     },
     "level": 67,
     "patch": 4,
@@ -6509,7 +6509,7 @@
       "en": "Pop the Trunk",
       "ja": "暴走の巨象「ランページング・マーリド」",
       "de": "Hiebe aus Liebe",
-      "fr": "Défi<Indent/>: martyriser les marids"
+      "fr": "Défi: martyriser les marids"
     },
     "level": 67,
     "patch": 4,
@@ -6533,7 +6533,7 @@
       "en": "Flappy Berda",
       "ja": "白銀の人拐い「ベルダ」",
       "de": "Die dicke Berda",
-      "fr": "Défi<Indent/>: ça va barder pour Berda"
+      "fr": "Défi: ça va barder pour Berda"
     },
     "level": 67,
     "patch": 4,
@@ -6545,7 +6545,7 @@
       "en": "Ananta and Her Sisters",
       "ja": "鱗斬りの鉤爪「ジャターユ」",
       "de": "Klauen des Grauens",
-      "fr": "Défi<Indent/>: sœurs vengeresses"
+      "fr": "Défi: sœurs vengeresses"
     },
     "level": 67,
     "patch": 4,
@@ -6557,7 +6557,7 @@
       "en": "Raisin' Hell",
       "ja": "太陽の娘「ドリサナ」",
       "de": "Sonne des Schreckens",
-      "fr": "Défi<Indent/>: la fille du soleil"
+      "fr": "Défi: la fille du soleil"
     },
     "level": 67,
     "patch": 4,
@@ -6593,7 +6593,7 @@
       "en": "Wet",
       "ja": "牛鬼の使い「ヌレオンナ」",
       "de": "Das Mädchen mit dem nassen Haar",
-      "fr": "Défi<Indent/>: l'eau, elle aime ça"
+      "fr": "Défi: l'eau, elle aime ça"
     },
     "level": 62,
     "patch": 4,
@@ -6617,7 +6617,7 @@
       "en": "Quoth the Raven",
       "ja": "不吉な怪鳥「イツマデ」",
       "de": "Für immer und immer",
-      "fr": "Défi<Indent/>: à tout jamais"
+      "fr": "Défi: à tout jamais"
     },
     "level": 63,
     "patch": 4,
@@ -6629,7 +6629,7 @@
       "en": "Lay of the Lang",
       "ja": "漁村の脅威「ケイボクロウ」",
       "de": "Langfinger Lang",
-      "fr": "Défi<Indent/>: on craint gedan"
+      "fr": "Défi: on craint gedan"
     },
     "level": 63,
     "patch": 4,
@@ -6653,7 +6653,7 @@
       "en": "Soak Up the Sun",
       "ja": "敗戦の大兜「ミシルシ」",
       "de": "Schnipp-schnapp, Kopf ab!",
-      "fr": "Défi<Indent/>: le crabe marche sous la tête"
+      "fr": "Défi: le crabe marche sous la tête"
     },
     "level": 62,
     "patch": 4,
@@ -6665,7 +6665,7 @@
       "en": "Agni's Philosophy",
       "ja": "炎纏う者「アグニ」",
       "de": "Agnis Philosophie",
-      "fr": "Défi<Indent/>: la philosophie d'Agni"
+      "fr": "Défi: la philosophie d'Agni"
     },
     "level": 62,
     "patch": 4,
@@ -6725,7 +6725,7 @@
       "en": "Princess, Princess",
       "ja": "飛鮫の姫君「ヤヒロノワニ」",
       "de": "Prinzessin Yahiro",
-      "fr": "Défi<Indent/>: la princesse aux longues dents"
+      "fr": "Défi: la princesse aux longues dents"
     },
     "level": 62,
     "patch": 4,
@@ -6797,7 +6797,7 @@
       "en": "Bilge-hold Jin",
       "ja": "無礼なる牛鬼「ジンリンキ」",
       "de": "Ein Berg von einem Gyuki",
-      "fr": "Défi<Indent/>: prendre le clandestin par les cornes"
+      "fr": "Défi: prendre le clandestin par les cornes"
     },
     "level": 62,
     "patch": 4,
@@ -6821,7 +6821,7 @@
       "en": "Forever Younglier",
       "ja": "激流の亀忍者「十代のカタビラ」",
       "de": "Junge, Junge, diese Rotpanzer",
-      "fr": "Défi<Indent/>: le chevalier d'écailles"
+      "fr": "Défi: le chevalier d'écailles"
     },
     "level": 62,
     "patch": 4,
@@ -6869,7 +6869,7 @@
       "en": "Red Cliff",
       "ja": "不徳の僧侶「ソウゲンビ」",
       "de": "Sogenbis Sühne",
-      "fr": "Défi<Indent/>: fais tes prières, Sogenbi"
+      "fr": "Défi: fais tes prières, Sogenbi"
     },
     "level": 63,
     "patch": 4,
@@ -6893,7 +6893,7 @@
       "en": "Another One Bites the Dust",
       "ja": "兵法修行人「一刀のセンバン」",
       "de": "Der Samurai aus den Bergen",
-      "fr": "Défi<Indent/>: le samouraï vagabond"
+      "fr": "Défi: le samouraï vagabond"
     },
     "level": 62,
     "patch": 4,
@@ -6941,7 +6941,7 @@
       "en": "Never Say Daimyo",
       "ja": "夢見る大名「ダイミョウユメミ」",
       "de": "Fürstlicher Appetit",
-      "fr": "Défi<Indent/>: amocher les daimyo"
+      "fr": "Défi: amocher les daimyo"
     },
     "level": 62,
     "patch": 4,
@@ -6977,7 +6977,7 @@
       "en": "A Bone to Pick",
       "ja": "空腹の詐欺師「肉食のミミルン」",
       "de": "Genug genagt!",
-      "fr": "Défi<Indent/>: le Qiqirn sournois au ventre vide"
+      "fr": "Défi: le Qiqirn sournois au ventre vide"
     },
     "level": 60,
     "patch": 4,
@@ -7013,7 +7013,7 @@
       "en": "Churlish Chapuli",
       "ja": "農民の悪夢「スパーナル・チャプリ」",
       "de": "Gefräßiges Chapuli",
-      "fr": "Défi<Indent/>: le cauchemar des paysans"
+      "fr": "Défi: le cauchemar des paysans"
     },
     "level": 60,
     "patch": 4,
@@ -7049,7 +7049,7 @@
       "en": "You Don't Know Jack",
       "ja": "沈黙の木樵「ランバージャック」",
       "de": "Mit dem Kopf durch den Wald",
-      "fr": "Défi<Indent/>: le bûcheron silencieux"
+      "fr": "Défi: le bûcheron silencieux"
     },
     "level": 61,
     "patch": 4,
@@ -7061,7 +7061,7 @@
       "en": "Winging It",
       "ja": "魔蝶の王妃「エーディン」",
       "de": "Lila Lethargie",
-      "fr": "Défi<Indent/>: Etain, la reine des fluturinis "
+      "fr": "Défi: Etain, la reine des fluturinis "
     },
     "level": 60,
     "patch": 4,
@@ -7085,7 +7085,7 @@
       "en": "Barbershoppe",
       "ja": "伝説の藪医者「ブルータルバーバー」",
       "de": "Ein flotter Schnitt",
-      "fr": "Défi<Indent/>: le Barbier diabolique"
+      "fr": "Défi: le Barbier diabolique"
     },
     "level": 61,
     "patch": 4,
@@ -7121,7 +7121,7 @@
       "en": "Diceman Cometh",
       "ja": "凶悪なる骰子「クラッブス」",
       "de": "Der Klotz, der aus der Hölle kam",
-      "fr": "Défi<Indent/>: quitte ou double"
+      "fr": "Défi: quitte ou double"
     },
     "level": 61,
     "patch": 4,
@@ -7157,7 +7157,7 @@
       "en": "Love Me, Tindalos",
       "ja": "不浄なる獣「ティンダロス」",
       "de": "Zum Fressen gern",
-      "fr": "Défi<Indent/>: l'immonde chien féroce"
+      "fr": "Défi: l'immonde chien féroce"
     },
     "level": 68,
     "patch": 4,
@@ -7181,7 +7181,7 @@
       "en": "Rattle and Humbaba",
       "ja": "豪腕の襲撃者「フンババ」",
       "de": "Hunba, hunba, hunba, tätärä!",
-      "fr": "Défi<Indent/>: l'affreux Humbaba"
+      "fr": "Défi: l'affreux Humbaba"
     },
     "level": 68,
     "patch": 4,
@@ -7217,7 +7217,7 @@
       "en": "Venting",
       "ja": "暴風の元凶「ウェントゥス」",
       "de": "Hyperventilation",
-      "fr": "Défi<Indent/>: autant en emporte le Ventus"
+      "fr": "Défi: autant en emporte le Ventus"
     },
     "level": 60,
     "patch": 4,
@@ -7229,7 +7229,7 @@
       "en": "Breakneck",
       "ja": "執行人の家系「ネックブリーカー」",
       "de": "Hals- und Genickbruch",
-      "fr": "Défi<Indent/>: casse-cou s'abstenir"
+      "fr": "Défi: casse-cou s'abstenir"
     },
     "level": 68,
     "patch": 4,
@@ -7253,7 +7253,7 @@
       "en": "Moth to a Flame",
       "ja": "優雅なる放火魔「イグナモス」",
       "de": "Feuer ist für Motten nichts",
-      "fr": "Défi<Indent/>: le pyromane des Pics"
+      "fr": "Défi: le pyromane des Pics"
     },
     "level": 60,
     "patch": 4,
@@ -7277,7 +7277,7 @@
       "en": "Slaughterwife-five",
       "ja": "復讐の寡男「ネナウニル」",
       "de": "Fünf ist Trümpf",
-      "fr": "Défi<Indent/>: le veuf vengeur"
+      "fr": "Défi: le veuf vengeur"
     },
     "level": 68,
     "patch": 4,
@@ -7301,7 +7301,7 @@
       "en": "5-year Energy",
       "ja": "幸運なる大食漢「エナジェティック・エルカ」",
       "de": "Fünf nahrhafte Jahre",
-      "fr": "Défi<Indent/>: métamorphose en suspens"
+      "fr": "Défi: métamorphose en suspens"
     },
     "level": 68,
     "patch": 4,
@@ -7325,7 +7325,7 @@
       "en": "The Magitek Is Back",
       "ja": "暴走最終兵器「リーサルウェポン」",
       "de": "Brennpunkt Reifstein",
-      "fr": "Défi<Indent/>: alarme fatale"
+      "fr": "Défi: alarme fatale"
     },
     "level": 68,
     "patch": 4,
@@ -7361,7 +7361,7 @@
       "en": "Falling Drown",
       "ja": "痺れる激情「豊漁のギョグン」",
       "de": "Gyogun dreht durch",
-      "fr": "Défi<Indent/>: Gyogun le garde-pêche"
+      "fr": "Défi: Gyogun le garde-pêche"
     },
     "level": 64,
     "patch": 4,
@@ -7397,7 +7397,7 @@
       "en": "Goodwill Hunterling",
       "ja": "紅い甲羅「刀狩のワキザシ」",
       "de": "Die Wolfskriege: Letzte Jagd",
-      "fr": "Défi<Indent/>: Wakizashi le chasseur de lames"
+      "fr": "Défi: Wakizashi le chasseur de lames"
     },
     "level": 67,
     "patch": 4,
@@ -7421,7 +7421,7 @@
       "en": "Get Ready for a Nu Wave",
       "ja": "鯰狙いの大蛇「ニュ・ワー」",
       "de": "Nesträuber",
-      "fr": "Défi<Indent/>: ovipare ovivore"
+      "fr": "Défi: ovipare ovivore"
     },
     "level": 64,
     "patch": 4,
@@ -7445,7 +7445,7 @@
       "en": "To Catch a Weasel",
       "ja": "扶持の狩手「フチカリ」",
       "de": "Das blutdurstige Wiesel",
-      "fr": "Défi<Indent/>: il court, il court, le furet"
+      "fr": "Défi: il court, il court, le furet"
     },
     "level": 64,
     "patch": 4,
@@ -7553,7 +7553,7 @@
       "en": "Tsurubebi Snugly",
       "ja": "田園の怪火「ツルベビ」",
       "de": "Heiß, heiß, Baby",
-      "fr": "Défi<Indent/>: la lueur des champs"
+      "fr": "Défi: la lueur des champs"
     },
     "level": 64,
     "patch": 4,
@@ -7565,7 +7565,7 @@
       "en": "Motherly Love",
       "ja": "紅色の役者「ショウシ」",
       "de": "Fürsorgliche Mutter",
-      "fr": "Défi<Indent/>: le comédien pourpre"
+      "fr": "Défi: le comédien pourpre"
     },
     "level": 64,
     "patch": 4,
@@ -7577,7 +7577,7 @@
       "en": "Killer Apsaras",
       "ja": "汚水の精「アプサラス」",
       "de": "Umweltsünden",
-      "fr": "Défi<Indent/>: pollution environnementale"
+      "fr": "Défi: pollution environnementale"
     },
     "level": 64,
     "patch": 4,
@@ -7589,7 +7589,7 @@
       "en": "Linquan Continental",
       "ja": "青黒の妖犬「リンチュアン」",
       "de": "Hundsgemein",
-      "fr": "Défi<Indent/>: le chien noir de Yanxia"
+      "fr": "Défi: le chien noir de Yanxia"
     },
     "level": 64,
     "patch": 4,
@@ -7601,7 +7601,7 @@
       "en": "This Is a Da, This Is a Peng",
       "ja": "日食の巨鳥「タイホウ」",
       "de": "Der Schrecken der Sonnenanbeter",
-      "fr": "Défi<Indent/>: l'éclipse à plumes"
+      "fr": "Défi: l'éclipse à plumes"
     },
     "level": 64,
     "patch": 4,
@@ -7613,7 +7613,7 @@
       "en": "Oneblade Wonder",
       "ja": "狂える案山子「クエビコ」",
       "de": "Albtraumhafte Scheuche",
-      "fr": "Défi<Indent/>: qui épouvante l'épouvantail<Indent/>?"
+      "fr": "Défi: qui épouvante l'épouvantail?"
     },
     "level": 64,
     "patch": 4,
@@ -7661,7 +7661,7 @@
       "en": "Tora Tora Tora",
       "ja": "トラ、トラ、トラ！",
       "de": "Getrübter Badespaß",
-      "fr": "Tora<Indent/>! Tora<Indent/>! Tora<Indent/>! "
+      "fr": "Tora! Tora! Tora! "
     },
     "level": 67,
     "patch": 4,
@@ -7673,7 +7673,7 @@
       "en": "Ragoh to Extremes",
       "ja": "巨頭の暴君「ラゴウ」",
       "de": "Von allen guten Geistern verlassen",
-      "fr": "Défi<Indent/>: Ragoh perd la tête"
+      "fr": "Défi: Ragoh perd la tête"
     },
     "level": 67,
     "patch": 4,
@@ -7685,7 +7685,7 @@
       "en": "Très Bian",
       "ja": "精強なる老虎「ヘイカン」",
       "de": "Tiger troll dich",
-      "fr": "Défi<Indent/>: avis d'éviction"
+      "fr": "Défi: avis d'éviction"
     },
     "level": 67,
     "patch": 4,
@@ -7697,7 +7697,7 @@
       "en": "Curiosity Killed the Catfish",
       "ja": "逆心の巨兵「キドウ丸」",
       "de": "Naseweise Namazuo",
-      "fr": "Défi<Indent/>: le géant de fer"
+      "fr": "Défi: le géant de fer"
     },
     "level": 67,
     "patch": 4,
@@ -7721,7 +7721,7 @@
       "en": "Dead to Rites: Kiyofusa",
       "ja": "陰陽師：清房ノ巻",
       "de": "Die Geister, die sie riefen",
-      "fr": "Cosmologie hingashienne<Indent/>: le shikigami kiyofusa"
+      "fr": "Cosmologie hingashienne: le shikigami kiyofusa"
     },
     "level": 64,
     "patch": 4,
@@ -7733,7 +7733,7 @@
       "en": "Dead to Rites: Koja",
       "ja": "陰陽師：鼓子ノ巻",
       "de": "Die Geister, die er rief",
-      "fr": "Cosmologie hingashienne<Indent/>: le shikigami koja"
+      "fr": "Cosmologie hingashienne: le shikigami koja"
     },
     "level": 64,
     "patch": 4,
@@ -7745,7 +7745,7 @@
       "en": "Don't You Mean Kirata",
       "ja": "狩人を狩る者「キラタ」",
       "de": "Gejagte Jäger",
-      "fr": "Défi<Indent/>: la proie vengeresse"
+      "fr": "Défi: la proie vengeresse"
     },
     "level": 66,
     "patch": 4,
@@ -7757,7 +7757,7 @@
       "en": "The State of Reunion",
       "ja": "再会を阻む者「ナランツェツェグ」",
       "de": "Blutrünstiger Narantsetseg ",
-      "fr": "Défi<Indent/>: silence, ça pousse<Indent/>!"
+      "fr": "Défi: silence, ça pousse!"
     },
     "level": 65,
     "patch": 4,
@@ -7769,7 +7769,7 @@
       "en": "Cold Comes the Wind",
       "ja": "北部の女傑「寒風のクァトゥン」",
       "de": "Kalter Nordwind",
-      "fr": "Défi<Indent/>: refroidir le vent glaçant"
+      "fr": "Défi: refroidir le vent glaçant"
     },
     "level": 66,
     "patch": 4,
@@ -7793,7 +7793,7 @@
       "en": "Duck and Cover",
       "ja": "大空の誘拐者「サムパティ」",
       "de": "Wüstenvogel",
-      "fr": "Défi<Indent/>: buffet à volonté"
+      "fr": "Défi: buffet à volonté"
     },
     "level": 65,
     "patch": 4,
@@ -7805,7 +7805,7 @@
       "en": "Feel the Noise",
       "ja": "叫声の野人「ルドラ」",
       "de": "Lautes Heulen in der Steppe",
-      "fr": "Défi<Indent/>: taratata"
+      "fr": "Défi: taratata"
     },
     "level": 66,
     "patch": 4,
@@ -7817,7 +7817,7 @@
       "en": "Get Out the Vochu",
       "ja": "除草の達人「ブオチュー」",
       "de": "Grasverderber",
-      "fr": "Défi<Indent/>: tondeuse sur pattes"
+      "fr": "Défi: tondeuse sur pattes"
     },
     "level": 66,
     "patch": 4,
@@ -7889,7 +7889,7 @@
       "en": "Hat's Off",
       "ja": "多産の王妃「ステップ・ハタン」",
       "de": "Königin der Brummer",
-      "fr": "Défi<Indent/>: contrôle des naissances"
+      "fr": "Défi: contrôle des naissances"
     },
     "level": 66,
     "patch": 4,
@@ -7925,7 +7925,7 @@
       "en": "Eat You Better",
       "ja": "飢えたる根人「フン・ウンデス」",
       "de": "Der Keimling Undsiig",
-      "fr": "Défi<Indent/>: cinq troncs et feuillages par jour"
+      "fr": "Défi: cinq troncs et feuillages par jour"
     },
     "level": 65,
     "patch": 4,
@@ -7937,7 +7937,7 @@
       "en": "Man to Mangas",
       "ja": "大草原の怪物「マンガス」",
       "de": "Eine Ausgeburt der Steppe",
-      "fr": "Défi<Indent/>: l'indomptable"
+      "fr": "Défi: l'indomptable"
     },
     "level": 65,
     "patch": 4,
@@ -7949,7 +7949,7 @@
       "en": "Not Just a Tribute",
       "ja": "石人の英雄「ゲルゲイ・チョロー」",
       "de": "In Stein gemeißelt",
-      "fr": "Défi<Indent/>: Gergei a la bougeotte"
+      "fr": "Défi: Gergei a la bougeotte"
     },
     "level": 65,
     "patch": 4,
@@ -7973,7 +7973,7 @@
       "en": "Killing Dzo",
       "ja": "家路につく牛飼いの少女",
       "de": "Lebensgrundlage der Olkund",
-      "fr": "Qui veut la peau de mon hainag<Indent/>?"
+      "fr": "Qui veut la peau de mon hainag?"
     },
     "level": 65,
     "patch": 4,
@@ -7997,7 +7997,7 @@
       "en": "Hey, Manzasiri",
       "ja": "野獣狩り",
       "de": "Fressen und gefressen werden",
-      "fr": "Manzasiri, y es-tu<Indent/>?"
+      "fr": "Manzasiri, y es-tu?"
     },
     "level": 66,
     "patch": 4,
@@ -8009,7 +8009,7 @@
       "en": "Khan Artist",
       "ja": "残虐な覇者「グログロハーン」",
       "de": "Der Khan der Gulo Gulo",
-      "fr": "Défi<Indent/>: repousser du gulo"
+      "fr": "Défi: repousser du gulo"
     },
     "level": 66,
     "patch": 4,
@@ -8021,7 +8021,7 @@
       "en": "Hook, Line, and Stinker",
       "ja": "這い寄る悪臭「スティンクスキン」",
       "de": "Stinker Stinkhaut",
-      "fr": "Défi<Indent/>: l'odeur de la tortue verte"
+      "fr": "Défi: l'odeur de la tortue verte"
     },
     "level": 65,
     "patch": 4,
@@ -8045,7 +8045,7 @@
       "en": "Wham, Bam, Thank You, Mammoth",
       "ja": "長牙の圧殺者「マヒシャスラ」",
       "de": "Tödliche Hauer",
-      "fr": "Défi<Indent/>: attention, passage de mammouths"
+      "fr": "Défi: attention, passage de mammouths"
     },
     "level": 65,
     "patch": 4,
@@ -8093,7 +8093,7 @@
       "en": "Live for the Mettle",
       "ja": "覇道の帰還者「マニカンタ」",
       "de": "Auf Bardams Probe gestellt",
-      "fr": "Défi<Indent/>: où es-tu, Mani Manikantha<Indent/>?"
+      "fr": "Défi: où es-tu, Mani Manikantha?"
     },
     "level": 65,
     "patch": 4,
@@ -8117,7 +8117,7 @@
       "en": "Foul Bachelor Frogamander",
       "ja": "不動の大蝦蟇「フロガマンダー」",
       "de": "Der forsche Frosch",
-      "fr": "Défi<Indent/>: ce pataud de crapaud"
+      "fr": "Défi: ce pataud de crapaud"
     },
     "level": 69,
     "patch": 4,
@@ -8129,7 +8129,7 @@
       "en": "Old Bucket of Boruta",
       "ja": "悲恋の乙女「ボルータ」",
       "de": "Die tragische Jungfrau",
-      "fr": "Défi<Indent/>: la belle est la bête"
+      "fr": "Défi: la belle est la bête"
     },
     "level": 69,
     "patch": 4,
@@ -8153,7 +8153,7 @@
       "en": "The Smell That Leeched Her Heart",
       "ja": "死の芳香「アロマ・リーチ」",
       "de": "Der Duft des Todes",
-      "fr": "Défi<Indent/>: le sent-bon de la sangsue"
+      "fr": "Défi: le sent-bon de la sangsue"
     },
     "level": 69,
     "patch": 4,
@@ -8165,7 +8165,7 @@
       "en": "Tall Tale",
       "ja": "白色大顔面「トール・マウンテン」",
       "de": "Zwei Hohe Berge",
-      "fr": "Défi<Indent/>: ciel, mon sosie"
+      "fr": "Défi: ciel, mon sosie"
     },
     "level": 69,
     "patch": 4,
@@ -8177,7 +8177,7 @@
       "en": "Taking Kurrea Business",
       "ja": "不人気の怪物「クレア」",
       "de": "Kurrea, der abgrundtief Hässliche",
-      "fr": "Défi<Indent/>: célibataire enforci"
+      "fr": "Défi: célibataire enforci"
     },
     "level": 69,
     "patch": 4,
@@ -8189,7 +8189,7 @@
       "en": "Dude, Where's My Karya",
       "ja": "虚ろなる老木「カリュアー」",
       "de": "Wurzelbehandlung mit Blutverlust",
-      "fr": "Défi<Indent/>: l'arbre carnivore"
+      "fr": "Défi: l'arbre carnivore"
     },
     "level": 69,
     "patch": 4,
@@ -8201,7 +8201,7 @@
       "en": "Sisyphus Cooling",
       "ja": "剥落せし岩獣「シーシュポス」",
       "de": "Der Lehmmann-Schock",
-      "fr": "Défi<Indent/>: il faut l'imaginer heureux"
+      "fr": "Défi: il faut l'imaginer heureux"
     },
     "level": 69,
     "patch": 4,
@@ -8213,7 +8213,7 @@
       "en": "Minotaurs on My Mind",
       "ja": "雷光の魔牛「アステリオス」",
       "de": "Brust oder Keule",
-      "fr": "Défi<Indent/>: les minots ont tort"
+      "fr": "Défi: les minots ont tort"
     },
     "level": 69,
     "patch": 4,
@@ -8249,7 +8249,7 @@
       "en": "Lalla Land",
       "ja": "死病の運び手「ラッラミラ」",
       "de": "Hauch des Todes",
-      "fr": "Défi<Indent/>: l'ami asthme"
+      "fr": "Défi: l'ami asthme"
     },
     "level": 69,
     "patch": 4,
@@ -8273,7 +8273,7 @@
       "en": "Sob Story",
       "ja": "狂気の鉱虫「クレイジーソブラン」",
       "de": "Verrückt vor Schmerz",
-      "fr": "Défi<Indent/>: soblyn-minal"
+      "fr": "Défi: soblyn-minal"
     },
     "level": 69,
     "patch": 4,
@@ -8321,7 +8321,7 @@
       "en": "Yabby Hunters",
       "ja": "純白の鉄鋏「ロッホロッホ」",
       "de": "Das Seldmonster",
-      "fr": "Défi<Indent/>: thalassina thérapie"
+      "fr": "Défi: thalassina thérapie"
     },
     "level": 69,
     "patch": 4,
@@ -8345,7 +8345,7 @@
       "en": "One Bad Mother Chukwa",
       "ja": "白き侵略者「チュクワ」",
       "de": "Chukwas Rache",
-      "fr": "Défi<Indent/>: c'est toujours pas ma guerre"
+      "fr": "Défi: c'est toujours pas ma guerre"
     },
     "level": 69,
     "patch": 4,
@@ -8381,7 +8381,7 @@
       "en": "No Time Is a Good Time",
       "ja": "塩湖の金鋸「セラ」",
       "de": "Vorsicht, bissig",
-      "fr": "Défi<Indent/>: que serra Serra<Indent/>?"
+      "fr": "Défi: que serra Serra?"
     },
     "level": 69,
     "patch": 4,
@@ -8453,7 +8453,7 @@
       "en": "Tellus a Tale",
       "ja": "動く震源地「テルース」",
       "de": "Das wandelnde Erdbeben",
-      "fr": "Défi<Indent/>: un petit pas pour le colosse"
+      "fr": "Défi: un petit pas pour le colosse"
     },
     "level": 69,
     "patch": 4,
@@ -8513,7 +8513,7 @@
       "en": "The Dataqi Chronicles: Departures",
       "ja": "ダタクの旅：バズフライ遭遇",
       "de": "Das Leben der Dataq: Nomaden",
-      "fr": "Le périple des Dataq<Indent/>: Sur la route des Dataq"
+      "fr": "Le périple des Dataq: Sur la route des Dataq"
     },
     "level": 65,
     "patch": 4,
@@ -8525,7 +8525,7 @@
       "en": "The Dataqi Chronicles: Distractions",
       "ja": "ダタクの旅：ガーダン襲撃",
       "de": "Das Leben der Dataq: Raubtiere",
-      "fr": "Le périple des Dataq<Indent/>: Toujours Dataq"
+      "fr": "Le périple des Dataq: Toujours Dataq"
     },
     "level": 65,
     "patch": 4,
@@ -8537,7 +8537,7 @@
       "en": "The Dataqi Chronicles: Duty",
       "ja": "ダタクの旅：羊乳搾り",
       "de": "Das Leben der Dataq: Schafsmilch",
-      "fr": "Le périple des Dataq<Indent/>: La première traite n'attend pas"
+      "fr": "Le périple des Dataq: La première traite n'attend pas"
     },
     "level": 65,
     "patch": 4,
@@ -8549,7 +8549,7 @@
       "en": "The Dataqi Chronicles: Deprivation",
       "ja": "ダタクの旅：ケナガウシ狩り",
       "de": "Das Leben der Dataq: Dzo-Jagd",
-      "fr": "Le périple des Dataq<Indent/>: Une faim de berger"
+      "fr": "Le périple des Dataq: Une faim de berger"
     },
     "level": 65,
     "patch": 4,
@@ -8561,7 +8561,7 @@
       "en": "The Dataqi Chronicles: Deterrence",
       "ja": "ダタクの旅：ガーダン再襲撃",
       "de": "Das Leben der Dataq: Ausgehungert",
-      "fr": "Le périple des Dataq<Indent/>: Le retour du gedan"
+      "fr": "Le périple des Dataq: Le retour du gedan"
     },
     "level": 65,
     "patch": 4,
@@ -8573,7 +8573,7 @@
       "en": "The Dataqi Chronicles: Desperation",
       "ja": "ダタクの旅：ウグンド強襲",
       "de": "Das Leben der Dataq: Ugund-Räuber",
-      "fr": "Le périple des Dataq<Indent/>: Je veux tes vêtements, tes bottes et ton outre d'aïrag<Indent/>!"
+      "fr": "Le périple des Dataq: Je veux tes vêtements, tes bottes et ton outre d'aïrag!"
     },
     "level": 65,
     "patch": 4,
@@ -8585,7 +8585,7 @@
       "en": "The Dataqi Chronicles: Distress",
       "ja": "ダタクの旅：狩人救出",
       "de": "Das Leben der Dataq: Mammuts",
-      "fr": "Le périple des Dataq<Indent/>: Compagnons d'infortune"
+      "fr": "Le périple des Dataq: Compagnons d'infortune"
     },
     "level": 65,
     "patch": 4,
@@ -8597,7 +8597,7 @@
       "en": "The Dataqi Chronicles: Displacement",
       "ja": "ダタクの旅：グログロ討伐",
       "de": "Das Leben der Dataq: Herdenschutz",
-      "fr": "Le périple des Dataq<Indent/>: Chasse préventive"
+      "fr": "Le périple des Dataq: Chasse préventive"
     },
     "level": 65,
     "patch": 4,
@@ -8609,7 +8609,7 @@
       "en": "The Dataqi Chronicles: Diplomacy",
       "ja": "ダタクの旅：マタンガ強襲",
       "de": "Das Leben der Dataq: Matanga",
-      "fr": "Le périple des Dataq<Indent/>: Un voisin qui trompe énormément"
+      "fr": "Le périple des Dataq: Un voisin qui trompe énormément"
     },
     "level": 65,
     "patch": 4,
@@ -8621,7 +8621,7 @@
       "en": "The Dataqi Chronicles: Decimation",
       "ja": "ダタクの旅：マタンガ遭遇",
       "de": "Das Leben der Dataq: Blutrache",
-      "fr": "Le périple des Dataq<Indent/>: Rancune d'éléphant"
+      "fr": "Le périple des Dataq: Rancune d'éléphant"
     },
     "level": 65,
     "patch": 4,
@@ -8633,7 +8633,7 @@
       "en": "The Dataqi Chronicles: Divergence",
       "ja": "ダタクの旅：ゴロ族救出",
       "de": "Das Leben der Dataq: Verbündete",
-      "fr": "Le périple des Dataq<Indent/>: Dataq, Goro, même combat"
+      "fr": "Le périple des Dataq: Dataq, Goro, même combat"
     },
     "level": 65,
     "patch": 4,
@@ -8645,7 +8645,7 @@
       "en": "The Dataqi Chronicles: Declarations",
       "ja": "ダタクの旅：マタンガ逆襲",
       "de": "Das Leben der Dataq: Unerbittlich",
-      "fr": "Le périple des Dataq<Indent/>: On prend les matangas et on recommence"
+      "fr": "Le périple des Dataq: On prend les matangas et on recommence"
     },
     "level": 65,
     "patch": 4,
@@ -8657,7 +8657,7 @@
       "en": "The Dataqi Chronicles: Dominion",
       "ja": "ダタクの旅：大王出陣",
       "de": "Das Leben der Dataq: Anjana",
-      "fr": "Le périple des Dataq<Indent/>: Le roi des matangas"
+      "fr": "Le périple des Dataq: Le roi des matangas"
     },
     "level": 65,
     "patch": 4,
@@ -8669,7 +8669,7 @@
       "en": "The Swarm Never Sets",
       "ja": "疾風の帝王「アネモス・エンペラー」",
       "de": "Herr Kaiser",
-      "fr": "Défi<Indent/>: l'empereur des bourrasques"
+      "fr": "Défi: l'empereur des bourrasques"
     },
     "level": 4,
     "patch": 4,
@@ -8681,7 +8681,7 @@
       "en": "Wail in the Willows",
       "ja": "暴風の魔王「パズズ」",
       "de": "Ein windiger Kerl",
-      "fr": "Défi<Indent/>: le démon des tempêtes"
+      "fr": "Défi: le démon des tempêtes"
     },
     "level": 20,
     "patch": 4,
@@ -8693,7 +8693,7 @@
       "en": "Wine and Honey",
       "ja": "狂乱の暗竜「ファヴニル」",
       "de": "Schlafende Drachen soll man nicht wecken",
-      "fr": "Défi<Indent/>: le dragon démentiel"
+      "fr": "Défi: le dragon démentiel"
     },
     "level": 17,
     "patch": 4,
@@ -8705,7 +8705,7 @@
       "en": "Unsafety Dance",
       "ja": "舞踏の大花「サボテンダー・コリード」",
       "de": "Schmerzvoller Hüftschwung",
-      "fr": "Défi<Indent/>: la fleur d'Eurêka"
+      "fr": "Défi: la fleur d'Eurêka"
     },
     "level": 1,
     "patch": 4,
@@ -8717,7 +8717,7 @@
       "en": "Teles House",
       "ja": "最後の美声「テレス」",
       "de": "Zurück zu den Toten",
-      "fr": "Défi<Indent/>: l'ultime soupir de la beauté"
+      "fr": "Défi: l'ultime soupir de la beauté"
     },
     "level": 3,
     "patch": 4,
@@ -8729,7 +8729,7 @@
       "en": "Prove Your Amemettle",
       "ja": "貪り喰らう者「アメミット」",
       "de": "Ich will so bleiben wie ich bin",
-      "fr": "Défi<Indent/>: le dévoreur"
+      "fr": "Défi: le dévoreur"
     },
     "level": 8,
     "patch": 4,
@@ -8741,7 +8741,7 @@
       "en": "Caym What May",
       "ja": "獣脚の怪人「カイム」",
       "de": "Gerippeimpfung empfohlen",
-      "fr": "Défi<Indent/>: la bête humaine"
+      "fr": "Défi: la bête humaine"
     },
     "level": 9,
     "patch": 4,
@@ -8753,7 +8753,7 @@
       "en": "The Killing of a Sacred Bombardier",
       "ja": "腐臭の賢者「ボンバディール」",
       "de": "Den Ball halte flach, den Witz lieber nicht",
-      "fr": "Défi<Indent/>: le sage putréfié"
+      "fr": "Défi: le sage putréfié"
     },
     "level": 10,
     "patch": 4,
@@ -8765,7 +8765,7 @@
       "en": "Sing, Muse",
       "ja": "高名なる巨人「ポリュペモス」",
       "de": "Große Probleme auf kleiner Insel",
-      "fr": "Défi<Indent/>: le géant légendaire"
+      "fr": "Défi: le géant légendaire"
     },
     "level": 14,
     "patch": 4,
@@ -8777,7 +8777,7 @@
       "en": " Drama Lamashtu",
       "ja": "魔の王妃「ラマシュトゥ」",
       "de": "Ein Königreich für kein Lama",
-      "fr": "Défi<Indent/>: la reine infernale"
+      "fr": "Défi: la reine infernale"
     },
     "level": 19,
     "patch": 4,
@@ -8789,7 +8789,7 @@
       "en": "Short Serket 2",
       "ja": "幻の魔蠍「セルケト」",
       "de": "Wütend wie ein Hurrikan",
-      "fr": "Défi<Indent/>: le scorpion mythique"
+      "fr": "Défi: le scorpion mythique"
     },
     "level": 11,
     "patch": 4,
@@ -8801,7 +8801,7 @@
       "en": "I Amarok",
       "ja": "異界の魔犬「アマロック」",
       "de": "Widerlegte Weisheit",
-      "fr": "Défi<Indent/>: l'insatiable cerbère"
+      "fr": "Défi: l'insatiable cerbère"
     },
     "level": 18,
     "patch": 4,
@@ -8813,7 +8813,7 @@
       "en": "To the Mat",
       "ja": "燃える大王「キング・ハズマット」",
       "de": "Heizkostenreduzierung",
-      "fr": "Défi<Indent/>: douche froide pour le hazmat roi"
+      "fr": "Défi: douche froide pour le hazmat roi"
     },
     "level": 16,
     "patch": 4,
@@ -8825,7 +8825,7 @@
       "en": "Simurghasbord",
       "ja": "憤怒の怪鳥「シームルグ・ストライダー」",
       "de": "Futterneid",
-      "fr": "Défi<Indent/>: colère aviaire"
+      "fr": "Défi: colère aviaire"
     },
     "level": 15,
     "patch": 4,
@@ -8837,7 +8837,7 @@
       "en": "When You Ride Alone",
       "ja": "勝利の騎士「ホワイトライダー」",
       "de": "Kopflos",
-      "fr": "Défi<Indent/>: on m'appelle le cavalier blanc"
+      "fr": "Défi: on m'appelle le cavalier blanc"
     },
     "level": 13,
     "patch": 4,
@@ -8849,7 +8849,7 @@
       "en": "One Missed Callisto",
       "ja": "蠢く死体「カリスト」",
       "de": "Ränkeschmiede",
-      "fr": "Défi<Indent/>: un cadavre tout sauf exquis"
+      "fr": "Défi: un cadavre tout sauf exquis"
     },
     "level": 5,
     "patch": 4,
@@ -8861,7 +8861,7 @@
       "en": "Disinherit the Wind",
       "ja": "強風の妖精「ジャハンナム」",
       "de": "Raus aus meinem Revier",
-      "fr": "Défi<Indent/>: tempête sur Eurêka"
+      "fr": "Défi: tempête sur Eurêka"
     },
     "level": 7,
     "patch": 4,
@@ -8873,7 +8873,7 @@
       "en": "Don't Judge Me, Morbol",
       "ja": "種まき「ジャッジメンタル・ジュリカ」",
       "de": "Vernichtendes Unkraut",
-      "fr": "Défi<Indent/>: le jugement de Julika"
+      "fr": "Défi: le jugement de Julika"
     },
     "level": 12,
     "patch": 4,
@@ -8885,7 +8885,7 @@
       "en": "By Numbers",
       "ja": "主なき人形「ナンバーズ」",
       "de": "Zahlenmäßige Überlegenheit",
-      "fr": "Défi<Indent/>: régler son compte à Number"
+      "fr": "Défi: régler son compte à Number"
     },
     "level": 6,
     "patch": 4,
@@ -8897,7 +8897,7 @@
       "en": "The Shadow over Anemos",
       "ja": "大蛸の王者「ロード・オブ・アネモス」",
       "de": "Küssen verboten",
-      "fr": "Défi<Indent/>: le Seigneur de la terre interdite"
+      "fr": "Défi: le Seigneur de la terre interdite"
     },
     "level": 2,
     "patch": 4,
@@ -8909,7 +8909,7 @@
       "en": "Eternity",
       "ja": "白き支配者「雪の女王」",
       "de": "Eiskalte Königin",
-      "fr": "Défi<Indent/>: neige écarlate"
+      "fr": "Défi: neige écarlate"
     },
     "level": 20,
     "patch": 4,
@@ -8921,7 +8921,7 @@
       "en": "Cows for Concern",
       "ja": "家畜の慈母「スラビー」",
       "de": "Mächtig unter Dampf",
-      "fr": "Défi<Indent/>: les chèvres à lait"
+      "fr": "Défi: les chèvres à lait"
     },
     "level": 28,
     "patch": 4,
@@ -8933,7 +8933,7 @@
       "en": "Ash the Magic Dragon",
       "ja": "灰殻の鱗王「アッシュドラゴン」",
       "de": "Asche zu Asche",
-      "fr": "Défi<Indent/>: des cendres aux cendres"
+      "fr": "Défi: des cendres aux cendres"
     },
     "level": 22,
     "patch": 4,
@@ -8945,7 +8945,7 @@
       "en": "Conqueror Worm",
       "ja": "地殻変動の謎「グラヴォイド」",
       "de": "Mächtig gewurmt",
-      "fr": "Défi<Indent/>: la mort vient d'en bas"
+      "fr": "Défi: la mort vient d'en bas"
     },
     "level": 23,
     "patch": 4,
@@ -8957,7 +8957,7 @@
       "en": "Melting Point",
       "ja": "雪解けの化身「アナポ」",
       "de": "Verheerende Schmelze",
-      "fr": "Défi<Indent/>: cycle thermodynamique"
+      "fr": "Défi: cycle thermodynamique"
     },
     "level": 24,
     "patch": 4,
@@ -8969,7 +8969,7 @@
       "en": "Disorder in the Court",
       "ja": "硬質の病魔「アサグ」",
       "de": "Stumme Schreie",
-      "fr": "Défi<Indent/>: ni chair ni poisson"
+      "fr": "Défi: ni chair ni poisson"
     },
     "level": 27,
     "patch": 4,
@@ -8981,7 +8981,7 @@
       "en": "Does It Have to Be a Snowman",
       "ja": "動く雪洞「キングイグルー」",
       "de": "Das wahre Schneekleid trag ich",
-      "fr": "Défi<Indent/>: malhomme de neige"
+      "fr": "Défi: malhomme de neige"
     },
     "level": 26,
     "patch": 4,
@@ -8993,7 +8993,7 @@
       "en": "Brothers",
       "ja": "唇亡びて歯寒し",
       "de": "Die Unzertrennlichen",
-      "fr": "Défi<Indent/>: les deux frères"
+      "fr": "Défi: les deux frères"
     },
     "level": 30,
     "patch": 4,
@@ -9005,7 +9005,7 @@
       "en": "Eye of Horus",
       "ja": "太陽の使者「ホルス」",
       "de": "Wem die Stunde schlägt",
-      "fr": "Défi<Indent/>: du jour à la nuit"
+      "fr": "Défi: du jour à la nuit"
     },
     "level": 33,
     "patch": 4,
@@ -9017,7 +9017,7 @@
       "en": "Morte Arthro",
       "ja": "円卓の霧王「キングアースロ」",
       "de": "Jetzt geht's rund",
-      "fr": "Défi<Indent/>: le retour du roi"
+      "fr": "Défi: le retour du roi"
     },
     "level": 29,
     "patch": 4,
@@ -9029,7 +9029,7 @@
       "en": "Apocalypse Cow",
       "ja": "野牛の救い主「エウレカの聖牛」",
       "de": "Den Tiger rauslassen",
-      "fr": "Défi<Indent/>: oh, la vache<Indent/>!"
+      "fr": "Défi: oh, la vache!"
     },
     "level": 31,
     "patch": 4,
@@ -9041,7 +9041,7 @@
       "en": "Third Impact",
       "ja": "雷雲の魔獣「ハダヨッシュ」",
       "de": "Eindeutiges Omen",
-      "fr": "Défi<Indent/>: un cri dans la tempête"
+      "fr": "Défi: un cri dans la tempête"
     },
     "level": 32,
     "patch": 4,
@@ -9053,7 +9053,7 @@
       "en": "Eye Scream for Ice Cream",
       "ja": "闇眼王「アーチ・アンラ・マンユ」",
       "de": "Tränen voll Hass",
-      "fr": "Défi<Indent/>: mon œil<Indent/>!"
+      "fr": "Défi: mon œil!"
     },
     "level": 34,
     "patch": 4,
@@ -9065,7 +9065,7 @@
       "en": "Louhi on Ice",
       "ja": "蒼き氷刃「ロウヒ」",
       "de": "Eisige Klingen",
-      "fr": "Défi<Indent/>: lames glacées"
+      "fr": "Défi: lames glacées"
     },
     "level": 35,
     "patch": 4,
@@ -9077,7 +9077,7 @@
       "en": "Cassie and the Copycats",
       "ja": "模倣犯「コピーキャット・キャシー」",
       "de": "Es kann nur eine geben",
-      "fr": "Défi<Indent/>: morbole de neige"
+      "fr": "Défi: morbole de neige"
     },
     "level": 35,
     "patch": 4,
@@ -9089,7 +9089,7 @@
       "en": "The Wobbler in Darkness",
       "ja": "五行眼の主「ハクタク」",
       "de": "Schau mir in die Augen",
-      "fr": "Défi<Indent/>: les yeux dans les yeux dans les yeux"
+      "fr": "Défi: les yeux dans les yeux dans les yeux"
     },
     "level": 25,
     "patch": 4,
@@ -9101,7 +9101,7 @@
       "en": "Down the Rabbit Hole",
       "ja": "雪上のしあわせうさぎ",
       "de": "Bibbernde Glückshasen",
-      "fr": "Défi<Indent/>: petits bonds dans la neige"
+      "fr": "Défi: petits bonds dans la neige"
     },
     "level": 20,
     "patch": 4,
@@ -9113,7 +9113,7 @@
       "en": "Curiouser and Curiouser",
       "ja": "宝石狙いのしあわせうさぎ",
       "de": "Gierige Glückshasen",
-      "fr": "Défi<Indent/>: lapereaux apeurés"
+      "fr": "Défi: lapereaux apeurés"
     },
     "level": 31,
     "patch": 4,
@@ -9125,7 +9125,7 @@
       "en": "Cairn Blight 451",
       "ja": "腐れる読書家「タキシム」",
       "de": "Die Leserotte",
-      "fr": "Défi<Indent/>: zombi-bliophile"
+      "fr": "Défi: zombi-bliophile"
     },
     "level": 21,
     "patch": 4,
@@ -9137,7 +9137,7 @@
       "en": "Medias Res",
       "ja": "白き叫声「レウコシアー」",
       "de": "Leukosia, das eisige Wehklagen",
-      "fr": "Défi<Indent/>: la blanche créature"
+      "fr": "Défi: la blanche créature"
     },
     "level": 35,
     "patch": 4,
@@ -9149,7 +9149,7 @@
       "en": "High Voltage",
       "ja": "獰猛なる雷獣「フラウロス」",
       "de": "Flauros, die grausame Sturmbestie",
-      "fr": "Défi<Indent/>: les foudres de Flauros"
+      "fr": "Défi: les foudres de Flauros"
     },
     "level": 36,
     "patch": 4,
@@ -9161,7 +9161,7 @@
       "en": "On the Non-existent",
       "ja": "妖異の弁論家「ソフィスト」",
       "de": "Der Sophist und seine Meute",
-      "fr": "Défi<Indent/>: monstres sophistiqués"
+      "fr": "Défi: monstres sophistiqués"
     },
     "level": 37,
     "patch": 4,
@@ -9173,7 +9173,7 @@
       "en": "Creepy Doll",
       "ja": "恐怖の人形「グラッフアカーネ」",
       "de": "Mörderische Marionetten",
-      "fr": "Défi<Indent/>: une méchante griffe"
+      "fr": "Défi: une méchante griffe"
     },
     "level": 38,
     "patch": 4,
@@ -9185,7 +9185,7 @@
       "en": "Quiet, Please",
       "ja": "書の守護者「アスカラポス」",
       "de": "Askalaphos, tödliche Wissbegier",
-      "fr": "Défi<Indent/>: livrez les irrévérents<Indent/>!"
+      "fr": "Défi: livrez les irrévérents!"
     },
     "level": 39,
     "patch": 4,
@@ -9197,7 +9197,7 @@
       "en": "Up and Batym",
       "ja": "深淵の大公「グランドデューク・バティム」",
       "de": "Aus den Tiefen des Abyssus",
-      "fr": "Défi<Indent/>: les cousins de Machin"
+      "fr": "Défi: les cousins de Machin"
     },
     "level": 40,
     "patch": 4,
@@ -9209,7 +9209,7 @@
       "en": "Rondo Aetolus",
       "ja": "稲妻の指揮者「アイトロス」",
       "de": "Aetolus, Herr der Blitze",
-      "fr": "Défi<Indent/>: les éclairs de génie d'Aetolos"
+      "fr": "Défi: les éclairs de génie d'Aetolos"
     },
     "level": 41,
     "patch": 4,
@@ -9221,7 +9221,7 @@
       "en": "Scorchpion King",
       "ja": "灼熱の突剣「レサト」",
       "de": "Lesath, der Lavaskorpion",
-      "fr": "Défi<Indent/>: chaud comme la braise"
+      "fr": "Défi: chaud comme la braise"
     },
     "level": 42,
     "patch": 4,
@@ -9233,7 +9233,7 @@
       "en": "Burning Hunger",
       "ja": "炎熱の巨人「エルドスルス」",
       "de": "Eldthurs, der feurige Gigant",
-      "fr": "Défi<Indent/>: un peu gluantes, mais ap<SoftHyphen/>pé<SoftHyphen/>tis<SoftHyphen/>san<SoftHyphen/>tes<Indent/>!"
+      "fr": "Défi: un peu gluantes, mais ap<SoftHyphen/>pé<SoftHyphen/>tis<SoftHyphen/>san<SoftHyphen/>tes!"
     },
     "level": 43,
     "patch": 4,
@@ -9245,7 +9245,7 @@
       "en": "Dry Iris",
       "ja": "落涙の海燕「イリス」",
       "de": "Die trauernde Sturmschwalbe",
-      "fr": "Défi<Indent/>: ses larmes n'y pourront rien changer"
+      "fr": "Défi: ses larmes n'y pourront rien changer"
     },
     "level": 44,
     "patch": 4,
@@ -9257,7 +9257,7 @@
       "en": "Thirty Whacks",
       "ja": "奇跡の生還者「傭兵のレイムプリクス」",
       "de": "Wüterix, der Söldner",
-      "fr": "Défi<Indent/>: la détresse des mots qu'ils envoient"
+      "fr": "Défi: la détresse des mots qu'ils envoient"
     },
     "level": 45,
     "patch": 4,
@@ -9269,7 +9269,7 @@
       "en": "Put Up Your Dux",
       "ja": "電影将軍「ライトニング・ドゥクス」",
       "de": "Donnernder Dux",
-      "fr": "Défi<Indent/>: coup de foudre à Eurêka Pyros"
+      "fr": "Défi: coup de foudre à Eurêka Pyros"
     },
     "level": 46,
     "patch": 4,
@@ -9281,7 +9281,7 @@
       "en": "You Do Know Jack",
       "ja": "ランバージャック・デスマッチ",
       "de": "Die Axt im Walde",
-      "fr": "Défi<Indent/>: rencontre de deux sales types"
+      "fr": "Défi: rencontre de deux sales types"
     },
     "level": 47,
     "patch": 4,
@@ -9293,7 +9293,7 @@
       "en": "Mister Bright-eyes",
       "ja": "知恵と戦の母「グラウコピス」",
       "de": "Glaukopis und ihre geflügelten Töchter",
-      "fr": "Défi<Indent/>: les yeux qui brillent"
+      "fr": "Défi: les yeux qui brillent"
     },
     "level": 48,
     "patch": 4,
@@ -9305,7 +9305,7 @@
       "en": "Haunter of the Dark",
       "ja": "相反する双子「イン・ヤン」",
       "de": "Zwillinge wider Willen",
-      "fr": "Défi<Indent/>: frères ennemis"
+      "fr": "Défi: frères ennemis"
     },
     "level": 49,
     "patch": 4,
@@ -9317,7 +9317,7 @@
       "en": "Heavens' Warg",
       "ja": "嘲りの月狼「スコル」",
       "de": "Eisiges Wolfsgeheul",
-      "fr": "Défi<Indent/>: Sköll, offenses-tu<Indent/>?"
+      "fr": "Défi: Sköll, offenses-tu?"
     },
     "level": 50,
     "patch": 4,
@@ -9329,7 +9329,7 @@
       "en": "Lost Epic",
       "ja": "炎蝶の女王「ペンテシレイア」",
       "de": "Penthesilea, Königin der Flammenfeen",
-      "fr": "Défi<Indent/>: papillons de la reine"
+      "fr": "Défi: papillons de la reine"
     },
     "level": 50,
     "patch": 4,
@@ -9341,7 +9341,7 @@
       "en": "We're All Mad Here",
       "ja": "珊瑚狙いのしあわせうさぎ",
       "de": "Glückliche Glückshasen",
-      "fr": "Défi<Indent/>: les coraux de la colère"
+      "fr": "Défi: les coraux de la colère"
     },
     "level": 35,
     "patch": 4,
@@ -9353,7 +9353,7 @@
       "en": "Uncommon Nonsense",
       "ja": "岩封じのしあわせうさぎ",
       "de": "Versteinerte Glückshasen",
-      "fr": "Défi<Indent/>: roches porte-bonheur"
+      "fr": "Défi: roches porte-bonheur"
     },
     "level": 46,
     "patch": 4,
@@ -9377,7 +9377,7 @@
       "en": "From Tusk till Dawn",
       "ja": "暴虐の魔獣「ステゴドン」",
       "de": "Knochenschädel Stegodon",
-      "fr": "Défi<Indent/>: Gros comme un Stegodon"
+      "fr": "Défi: Gros comme un Stegodon"
     },
     "level": 51,
     "patch": 4,
@@ -9389,7 +9389,7 @@
       "en": "Bullheaded Berserker",
       "ja": "落涙の君主「モレク」",
       "de": "Tränenkönig Molek",
-      "fr": "Défi<Indent/>: Va te faire cuire un œuf, Molech<Indent/>!"
+      "fr": "Défi: Va te faire cuire un œuf, Molech!"
     },
     "level": 52,
     "patch": 4,
@@ -9401,7 +9401,7 @@
       "en": "Mad, Bad, and Fabulous to Know",
       "ja": "極彩色の怪鳥「ピアサ」",
       "de": "Piasa, der Paradiesvogel",
-      "fr": "Défi<Indent/>: Petits oiseaux, si vous n'avez pas d'ailes"
+      "fr": "Défi: Petits oiseaux, si vous n'avez pas d'ailes"
     },
     "level": 53,
     "patch": 4,
@@ -9413,7 +9413,7 @@
       "en": "Fearful Symmetry",
       "ja": "孤高の狩人「フロストメーン」",
       "de": "Frosticore, die Klauenbestie",
-      "fr": "Défi<Indent/>: Tigre et Crinière-de-givre"
+      "fr": "Défi: Tigre et Crinière-de-givre"
     },
     "level": 54,
     "patch": 4,
@@ -9425,7 +9425,7 @@
       "en": "Crawling Chaos",
       "ja": "血濡れの妖妃「ダフネ」",
       "de": "Blutdurst",
-      "fr": "Défi<Indent/>: Les lauriers de la colère"
+      "fr": "Défi: Les lauriers de la colère"
     },
     "level": 55,
     "patch": 4,
@@ -9437,7 +9437,7 @@
       "en": "Duty-free",
       "ja": "異界の鍛冶王「キング・ゴルデマール」",
       "de": "Der Schmiedemeister des Äthers, König Goldemar",
-      "fr": "Défi<Indent/>: Retourne d'où tu viens"
+      "fr": "Défi: Retourne d'où tu viens"
     },
     "level": 56,
     "patch": 4,
@@ -9449,7 +9449,7 @@
       "en": "Leukewarm Reception",
       "ja": "食妖植物「レウケー」",
       "de": "Vegetarischer Karnivor",
-      "fr": "Défi<Indent/>: Une plante d'enfer"
+      "fr": "Défi: Une plante d'enfer"
     },
     "level": 57,
     "patch": 4,
@@ -9461,7 +9461,7 @@
       "en": "Robber Barong",
       "ja": "業炎の獅子王「バロン」",
       "de": "Baron Feuermähne",
-      "fr": "Défi<Indent/>: Rugir de déplaisir"
+      "fr": "Défi: Rugir de déplaisir"
     },
     "level": 58,
     "patch": 4,
@@ -9473,7 +9473,7 @@
       "en": "Stone-cold Killer",
       "ja": "魔蛇の女王「ケートー」",
       "de": "Ceto, die Gorgonenkönigin",
-      "fr": "Défi<Indent/>: La reine des langues de vipère"
+      "fr": "Défi: La reine des langues de vipère"
     },
     "level": 59,
     "patch": 4,
@@ -9497,7 +9497,7 @@
       "en": "Crystalline Provenance",
       "ja": "水晶の龍「プロヴェナンス・ウォッチャー」",
       "de": "Der Kristallwächter",
-      "fr": "Défi<Indent/>: Provenance indéfinie"
+      "fr": "Défi: Provenance indéfinie"
     },
     "level": 60,
     "patch": 4,
@@ -9509,7 +9509,7 @@
       "en": "I Don't Want to Believe",
       "ja": "未知なる脅威「オヴニ」",
       "de": "Ovni, die unerkannte Bedrohung",
-      "fr": "Défi<Indent/>: La vérité est à Hydatos"
+      "fr": "Défi: La vérité est à Hydatos"
     },
     "level": 60,
     "patch": 4,
@@ -9533,7 +9533,7 @@
       "en": "Where Has the Dagon",
       "ja": "厄災のアルケオタニア：追跡開始",
       "de": "Schrecken der Tiefsee Archaeotania: Die Jagd beginnt",
-      "fr": "L'annonciatrice du chaos<Indent/>: l'ouverture de la chasse"
+      "fr": "L'annonciatrice du chaos: l'ouverture de la chasse"
     },
     "level": 79,
     "patch": 5,
@@ -9545,7 +9545,7 @@
       "en": "Ondo of Blood",
       "ja": "厄災のアルケオタニア：ズムスィー登場",
       "de": "Schrecken der Tiefsee Archaeotania: Zumshs Ritual",
-      "fr": "L'annonciatrice du chaos<Indent/>: Zumshs la terreur des abysses"
+      "fr": "L'annonciatrice du chaos: Zumshs la terreur des abysses"
     },
     "level": 79,
     "patch": 5,
@@ -9557,7 +9557,7 @@
       "en": "Lookin' Back on the Track",
       "ja": "厄災のアルケオタニア：テウスィー防衛",
       "de": "Schrecken der Tiefsee Archaeotania: Luntenschwarm",
-      "fr": "L'annonciatrice du chaos<Indent/>: oléofurors furax"
+      "fr": "L'annonciatrice du chaos: oléofurors furax"
     },
     "level": 79,
     "patch": 5,
@@ -9569,7 +9569,7 @@
       "en": "Coral Support",
       "ja": "厄災のアルケオタニア：テウスィー護衛",
       "de": "Schrecken der Tiefsee Archaeotania: Dunkle Grotten",
-      "fr": "L'annonciatrice du chaos<Indent/>: expédition spéléologique"
+      "fr": "L'annonciatrice du chaos: expédition spéléologique"
     },
     "level": 79,
     "patch": 5,
@@ -9581,7 +9581,7 @@
       "en": "Low Coral Fiber",
       "ja": "厄災のアルケオタニア：紅血珊瑚の収集",
       "de": "Schrecken der Tiefsee Archaeotania: Blutkorallen",
-      "fr": "L'annonciatrice du chaos<Indent/>: pêche aux coraux"
+      "fr": "L'annonciatrice du chaos: pêche aux coraux"
     },
     "level": 79,
     "patch": 5,
@@ -9593,7 +9593,7 @@
       "en": "Nothing Like a Trappin' Life",
       "ja": "厄災のアルケオタニア：決戦の下準備",
       "de": "Schrecken der Tiefsee Archaeotania: Köder",
-      "fr": "L'annonciatrice du chaos<Indent/>: les rets de Zumshs"
+      "fr": "L'annonciatrice du chaos: les rets de Zumshs"
     },
     "level": 79,
     "patch": 5,
@@ -9605,7 +9605,7 @@
       "en": "The Head, the Tail, the Whole Damned Thing",
       "ja": "厄災のアルケオタニア：深海の討伐戦",
       "de": "Schrecken der Tiefsee Archaeotania: Die Bestie",
-      "fr": "L'annonciatrice du chaos<Indent/>: bataille au sommet des fonds"
+      "fr": "L'annonciatrice du chaos: bataille au sommet des fonds"
     },
     "level": 80,
     "patch": 5,
@@ -9617,7 +9617,7 @@
       "en": "The Devil in the Deep Blue Sea",
       "ja": "深海の美女「ハリメデ」",
       "de": "Halimede, lumineszente Schönheit",
-      "fr": "Défi<Indent/>: La belle des abysses"
+      "fr": "Défi: La belle des abysses"
     },
     "level": 79,
     "patch": 5,
@@ -9713,7 +9713,7 @@
       "en": "Barking Mad",
       "ja": "ミャルナの巡察：病毒のエコー",
       "de": "Waldpatrouille: Mysteriöse Echos",
-      "fr": "Patrouille de Myalna<Indent/>: la maladie de l'écho"
+      "fr": "Patrouille de Myalna: la maladie de l'écho"
     },
     "level": 75,
     "patch": 5,
@@ -9725,7 +9725,7 @@
       "en": "Creepy Crawlers",
       "ja": "ミャルナの巡察：病原のクロウラー",
       "de": "Waldpatrouille: Abscheuliche Kriecher",
-      "fr": "Patrouille de Myalna<Indent/>: les chenilles infectées"
+      "fr": "Patrouille de Myalna: les chenilles infectées"
     },
     "level": 75,
     "patch": 5,
@@ -9737,7 +9737,7 @@
       "en": "Pluck of the Draw",
       "ja": "ミャルナの巡察：矢の補充",
       "de": "Waldpatrouille: Federn rupfen ",
-      "fr": "Patrouille de Myalna<Indent/>: en manque de plumes"
+      "fr": "Patrouille de Myalna: en manque de plumes"
     },
     "level": 75,
     "patch": 5,
@@ -9749,7 +9749,7 @@
       "en": "The End of the Sentry",
       "ja": "ミャルナの巡察：古き護人の護衛",
       "de": "Waldpatrouille: Ende einer langen Wacht",
-      "fr": "Patrouille de Myalna<Indent/>: l'escorte du gardien ancien"
+      "fr": "Patrouille de Myalna: l'escorte du gardien ancien"
     },
     "level": 75,
     "patch": 5,
@@ -9761,7 +9761,7 @@
       "en": "Tojil War",
       "ja": "ミャルナの狩猟：トヒル発見",
       "de": "Waldpatrouille: 1. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: Opération Tojil"
+      "fr": "Chasse de Myalna: Opération Tojil"
     },
     "level": 75,
     "patch": 5,
@@ -9773,7 +9773,7 @@
       "en": "Tojil Annihilation",
       "ja": "ミャルナの狩猟：トヒル追撃",
       "de": "Waldpatrouille: 2. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: à la poursuite du Tojil"
+      "fr": "Chasse de Myalna: à la poursuite du Tojil"
     },
     "level": 75,
     "patch": 5,
@@ -9785,7 +9785,7 @@
       "en": "Tojil Annihilation",
       "ja": "ミャルナの狩猟：トヒル追撃",
       "de": "Waldpatrouille: 2. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: à la poursuite du Tojil"
+      "fr": "Chasse de Myalna: à la poursuite du Tojil"
     },
     "level": 75,
     "patch": 5,
@@ -9797,7 +9797,7 @@
       "en": "Tojil Carnage",
       "ja": "ミャルナの狩猟：トヒル猛追撃",
       "de": "Waldpatrouille: 3. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: un Tojil courroucé"
+      "fr": "Chasse de Myalna: un Tojil courroucé"
     },
     "level": 75,
     "patch": 5,
@@ -9809,7 +9809,7 @@
       "en": "Tojil Carnage",
       "ja": "ミャルナの狩猟：トヒル猛追撃",
       "de": "Waldpatrouille: 3. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: un Tojil courroucé"
+      "fr": "Chasse de Myalna: un Tojil courroucé"
     },
     "level": 75,
     "patch": 5,
@@ -9821,7 +9821,7 @@
       "en": "Tojil Eclipse",
       "ja": "ミャルナの狩猟：トヒル討伐",
       "de": "Waldpatrouille: Der Fall Tojils",
-      "fr": "Chasse de Myalna<Indent/>: l'élimination du Tojil"
+      "fr": "Chasse de Myalna: l'élimination du Tojil"
     },
     "level": 75,
     "patch": 5,
@@ -9833,7 +9833,7 @@
       "en": "I'll Be Bark",
       "ja": "不燃の怪樹「チャンティコ」",
       "de": "Zweite Chance für Chantico",
-      "fr": "Défi<Indent/>: le tréant apyre"
+      "fr": "Défi: le tréant apyre"
     },
     "level": 74,
     "patch": 5,
@@ -9905,7 +9905,7 @@
       "en": "Queen of the Harpies",
       "ja": "死相の陸鳥「ケライノー」",
       "de": "Celeno der Zwei Gesichter",
-      "fr": "Défi<Indent/>: l'oiseau de l'ombre de la mort"
+      "fr": "Défi: l'oiseau de l'ombre de la mort"
     },
     "level": 75,
     "patch": 5,
@@ -9953,7 +9953,7 @@
       "en": "Attack the Block",
       "ja": "火神の眼「ガトルアイ」",
       "de": "Auge auf Abwegen",
-      "fr": "Défi<Indent/>: L'œil du dieu de feu"
+      "fr": "Défi: L'œil du dieu de feu"
     },
     "level": 75,
     "patch": 5,
@@ -9965,7 +9965,7 @@
       "en": "Foes Most Formidable",
       "ja": "激闘フォーミダブル：迫る脅威",
       "de": "Ein formidabler Kampf: Die Bedrohung",
-      "fr": "Formidable<Indent/>: la menace"
+      "fr": "Formidable: la menace"
     },
     "level": 78,
     "patch": 5,
@@ -9977,7 +9977,7 @@
       "en": "A Family Most Formidable",
       "ja": "激闘動フォーミダブル：新たな情報",
       "de": "Ein formidabler Kampf: Ein finsterer Plan",
-      "fr": "Formidable<Indent/>: la filature"
+      "fr": "Formidable: la filature"
     },
     "level": 78,
     "patch": 5,
@@ -9989,7 +9989,7 @@
       "en": "A Finale Most Formidable",
       "ja": "激闘フォーミダブル：切り札起動",
       "de": "Ein formidabler Kampf: Der Gigant",
-      "fr": "Formidable<Indent/>: l'arme secrète"
+      "fr": "Formidable: l'arme secrète"
     },
     "level": 80,
     "patch": 5,
@@ -10133,7 +10133,7 @@
       "en": "Not Today",
       "ja": "激震の巨虫「クローリングデス」",
       "de": "Im Land der Donnerwürmer",
-      "fr": "Défi<Indent/>: Mort à Mort rampante<Indent/>!"
+      "fr": "Défi: Mort à Mort rampante!"
     },
     "level": 78,
     "patch": 5,
@@ -10145,7 +10145,7 @@
       "en": "Ironbeard Builders - Rebuilt",
       "ja": "ビルドウォリアーズ：オートマトン製作",
       "de": "Krieg der Baumeister: Konstruktionsphase",
-      "fr": "Bataille d'ingénieurs<Indent/>: automate en con<SoftHyphen/>struc<SoftHyphen/>tion"
+      "fr": "Bataille d'ingénieurs: automate en con<SoftHyphen/>struc<SoftHyphen/>tion"
     },
     "level": 78,
     "patch": 5,
@@ -10157,7 +10157,7 @@
       "en": "Ironbeard Builders - Resist",
       "ja": "ビルドウォリアーズ：試作品実戦テスト",
       "de": "Krieg der Baumeister: Testphase",
-      "fr": "Bataille d'ingénieurs<Indent/>: dernière mise au point"
+      "fr": "Bataille d'ingénieurs: dernière mise au point"
     },
     "level": 78,
     "patch": 5,
@@ -10169,7 +10169,7 @@
       "en": "Ironbeard Builders - Revolt",
       "ja": "ビルドウォリアーズ：没収試合",
       "de": "Krieg der Baumeister: Duell der Giganten",
-      "fr": "Bataille d'ingénieurs<Indent/>: la lutte finale"
+      "fr": "Bataille d'ingénieurs: la lutte finale"
     },
     "level": 78,
     "patch": 5,
@@ -10181,7 +10181,7 @@
       "en": "Frog Standard",
       "ja": "悪童ダエン兄弟：ピクシーが標的！",
       "de": "Lausbubengeschichten: Pixies",
-      "fr": "Les frères Daen<Indent/>: Pixie en vue<Indent/>!"
+      "fr": "Les frères Daen: Pixie en vue!"
     },
     "level": 73,
     "patch": 5,
@@ -10193,7 +10193,7 @@
       "en": "Great Daens",
       "ja": "悪童ダエン兄弟：アマロが標的！",
       "de": "Lausbubengeschichten: Amaros",
-      "fr": "Les frères Daen<Indent/>: amaro en vue<Indent/>!"
+      "fr": "Les frères Daen: amaro en vue!"
     },
     "level": 73,
     "patch": 5,
@@ -10205,7 +10205,7 @@
       "en": "Fuath of Habit",
       "ja": "悪童ダエン兄弟：ン・モゥが標的！",
       "de": "Lausbubengeschichten: Nu Mou",
-      "fr": "Les frères Daen<Indent/>: Nu Mou en vue<Indent/>!"
+      "fr": "Les frères Daen: Nu Mou en vue!"
     },
     "level": 73,
     "patch": 5,
@@ -10217,7 +10217,7 @@
       "en": "Back and Fuath",
       "ja": "悪童ダエン兄弟：幻惑のローワン",
       "de": "Lausbubengeschichten: Rowan",
-      "fr": "Les frères Daen<Indent/>: riposte arborescente"
+      "fr": "Les frères Daen: riposte arborescente"
     },
     "level": 73,
     "patch": 5,
@@ -10229,7 +10229,7 @@
       "en": "Brute Fuath",
       "ja": "悪童ダエン兄弟：決闘の時",
       "de": "Lausbubengeschichten: Strafe muss sein I",
-      "fr": "Les frères Daen<Indent/>: rétribution"
+      "fr": "Les frères Daen: rétribution"
     },
     "level": 73,
     "patch": 5,
@@ -10241,7 +10241,7 @@
       "en": "Breaking the Fuath Wall",
       "ja": "悪童ダエン兄弟：再戦の時",
       "de": "Lausbubengeschichten: Strafe muss sein II",
-      "fr": "Les frères Daen<Indent/>: partie remise"
+      "fr": "Les frères Daen: partie remise"
     },
     "level": 73,
     "patch": 5,
@@ -10253,7 +10253,7 @@
       "en": "Go Fuath a Conqueror",
       "ja": "悪童ダエン兄弟：双子の切り札",
       "de": "Lausbubengeschichten: Zwillingstrumpf",
-      "fr": "Les frères Daen<Indent/>: Fusion<Indent/>!"
+      "fr": "Les frères Daen: Fusion!"
     },
     "level": 73,
     "patch": 5,
@@ -10265,7 +10265,7 @@
       "en": "Fuath to Be Reckoned With",
       "ja": "悪童ダエン兄弟：最後の戦い",
       "de": "Lausbubengeschichten: Letzter Streich",
-      "fr": "Les frères Daen<Indent/>: la bataille finale"
+      "fr": "Les frères Daen: la bataille finale"
     },
     "level": 73,
     "patch": 5,
@@ -10277,7 +10277,7 @@
       "en": "Mad Magic",
       "ja": "根を断つ者「シェムハザ」",
       "de": "Wurzelschinderin Jem-Hazar",
-      "fr": "Défi<Indent/>: Samyaza"
+      "fr": "Défi: Samyaza"
     },
     "level": 72,
     "patch": 5,
@@ -10313,7 +10313,7 @@
       "en": "Locus Terribilis",
       "ja": "蜜吸の死蝶「ネクロプシュケ」",
       "de": "Alter Falter!",
-      "fr": "Défi<Indent/>: Nécropsychée"
+      "fr": "Défi: Nécropsychée"
     },
     "level": 72,
     "patch": 5,
@@ -10373,7 +10373,7 @@
       "en": "Looming Nightshade",
       "ja": "紫葉団との戦い：アジト設営",
       "de": "Lauernde Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: un repaire convoité"
+      "fr": "La menace des Fanes pourpres: un repaire convoité"
     },
     "level": 71,
     "patch": 5,
@@ -10385,7 +10385,7 @@
       "en": "Creeping Nightshade",
       "ja": "紫葉団との戦い：アジト構築",
       "de": "Schleichende Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: un repaire investi"
+      "fr": "La menace des Fanes pourpres: un repaire investi"
     },
     "level": 71,
     "patch": 5,
@@ -10397,7 +10397,7 @@
       "en": "Draconian Measures",
       "ja": "鮮血の偽竜「オピオン」",
       "de": "Drakonische Maßnahmen",
-      "fr": "Défi<Indent/>: Ophion, le reptile sanguinaire"
+      "fr": "Défi: Ophion, le reptile sanguinaire"
     },
     "level": 71,
     "patch": 5,
@@ -10433,7 +10433,7 @@
       "en": "Flowering Nightshade",
       "ja": "紫葉団との戦い：木こり襲撃",
       "de": "Rücksichtslose Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: le bûcheron attaqué"
+      "fr": "La menace des Fanes pourpres: le bûcheron attaqué"
     },
     "level": 71,
     "patch": 5,
@@ -10445,7 +10445,7 @@
       "en": "Subtle Nightshade",
       "ja": "紫葉団との戦い：卑劣な罠",
       "de": "Arglistige Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: un vil piège"
+      "fr": "La menace des Fanes pourpres: un vil piège"
     },
     "level": 71,
     "patch": 5,
@@ -10457,7 +10457,7 @@
       "en": "Toxic Nightshade",
       "ja": "紫葉団との戦い：一斉蜂起",
       "de": "Gefährliche Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: l'insurrection"
+      "fr": "La menace des Fanes pourpres: l'insurrection"
     },
     "level": 71,
     "patch": 5,
@@ -10469,7 +10469,7 @@
       "en": "Deadly Nightshade",
       "ja": "紫葉団との戦い：ワーグ参戦",
       "de": "Tödliche Nachtschatten",
-      "fr": "La menace des Fanes pourpres<Indent/>: les wargs s'en mêlent"
+      "fr": "La menace des Fanes pourpres: les wargs s'en mêlent"
     },
     "level": 71,
     "patch": 5,
@@ -10505,7 +10505,7 @@
       "en": "A Beast among Men",
       "ja": "高貴なる狼男「ルガルー」",
       "de": "Bestie in Wolfsgestalt",
-      "fr": "Défi<Indent/>: le noble Lugarhoo"
+      "fr": "Défi: le noble Lugarhoo"
     },
     "level": 71,
     "patch": 5,
@@ -10541,7 +10541,7 @@
       "en": "Calm a Chameleon",
       "ja": "激憤の大物「ヌスクナッカー」",
       "de": "Knackiges Chamäleon",
-      "fr": "Défi<Indent/>: le Casse-noisette excédé"
+      "fr": "Défi: le Casse-noisette excédé"
     },
     "level": 71,
     "patch": 5,
@@ -10553,7 +10553,7 @@
       "en": "Scavengers Hunted",
       "ja": "拾う者たち：シザージョウの罠",
       "de": "Glücksritter auf Abwegen",
-      "fr": "Course au trésor<Indent/>: mandibules sécatrices"
+      "fr": "Course au trésor: mandibules sécatrices"
     },
     "level": 70,
     "patch": 5,
@@ -10565,7 +10565,7 @@
       "en": "Reptilian Roadblock",
       "ja": "拾う者たち：シムーンの背骨",
       "de": "Echsenblockade",
-      "fr": "Course au trésor<Indent/>: y a trop de lézards"
+      "fr": "Course au trésor: y a trop de lézards"
     },
     "level": 70,
     "patch": 5,
@@ -10577,7 +10577,7 @@
       "en": "Cactus Makes Perfect",
       "ja": "拾う者たち：クイジャテンダー",
       "de": "Ein gigantisches Problem",
-      "fr": "Course au trésor<Indent/>: une très grosse épine"
+      "fr": "Course au trésor: une très grosse épine"
     },
     "level": 70,
     "patch": 5,
@@ -10589,7 +10589,7 @@
       "en": "Theft from Above",
       "ja": "拾う者たち：ウェイストピッカー",
       "de": "Luftnummer",
-      "fr": "Course au trésor<Indent/>: au volatile voleur<Indent/>!"
+      "fr": "Course au trésor: au volatile voleur!"
     },
     "level": 70,
     "patch": 5,
@@ -10601,7 +10601,7 @@
       "en": "Sand and Deliver",
       "ja": "求める者たち：強盗遭遇",
       "de": "Schurkenehre",
-      "fr": "Appel à l'aide<Indent/>: bandits en bande"
+      "fr": "Appel à l'aide: bandits en bande"
     },
     "level": 76,
     "patch": 5,
@@ -10613,7 +10613,7 @@
       "en": "This Time, It's Personal",
       "ja": "求める者たち：強盗逆襲",
       "de": "Übermut ist selten gut",
-      "fr": "Appel à l'aide<Indent/>: débander les bandits"
+      "fr": "Appel à l'aide: débander les bandits"
     },
     "level": 76,
     "patch": 5,
@@ -10625,7 +10625,7 @@
       "en": "Armadillo Peccadillo",
       "ja": "求める者たち：遺跡探索",
       "de": "Schatz<SoftHyphen/>sucher und Kammerjäger",
-      "fr": "Appel à l'aide<Indent/>: fouilles aux ruines"
+      "fr": "Appel à l'aide: fouilles aux ruines"
     },
     "level": 76,
     "patch": 5,
@@ -10637,7 +10637,7 @@
       "en": "The Elderblade",
       "ja": "求める者たち：大老の剣",
       "de": "Klinge der Ahnen",
-      "fr": "Appel à l'aide<Indent/>: l'épée de l'ancien"
+      "fr": "Appel à l'aide: l'épée de l'ancien"
     },
     "level": 76,
     "patch": 5,
@@ -10661,7 +10661,7 @@
       "en": "Pray Destroy the Waking Sands",
       "ja": "流砂の砂漠",
       "de": "Gefährliches Treiben in der Wüstenei",
-      "fr": "Gare aux sables mouvants<Indent/>!"
+      "fr": "Gare aux sables mouvants!"
     },
     "level": 70,
     "patch": 5,
@@ -10673,7 +10673,7 @@
       "en": "Tolba No. 1",
       "ja": "トルバNo. 1",
       "de": "Tolba Nr. 1",
-      "fr": "Touchez pas à ma truffe<Indent/>!"
+      "fr": "Touchez pas à ma truffe!"
     },
     "level": 70,
     "patch": 5,
@@ -10697,7 +10697,7 @@
       "en": "Bloody Simple",
       "ja": "イグアナの夜",
       "de": "Nacht der Leguane",
-      "fr": "Des iguanes assoiffés de sang<Indent/>!"
+      "fr": "Des iguanes assoiffés de sang!"
     },
     "level": 76,
     "patch": 5,
@@ -10757,7 +10757,7 @@
       "en": "Tojil Carnage",
       "ja": "ミャルナの狩猟：トヒル猛追撃",
       "de": "Waldpatrouille: 3. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: un Tojil courroucé"
+      "fr": "Chasse de Myalna: un Tojil courroucé"
     },
     "level": 75,
     "patch": 5,
@@ -10769,7 +10769,7 @@
       "en": "Tojil Carnage",
       "ja": "ミャルナの狩猟：トヒル猛追撃",
       "de": "Waldpatrouille: 3. Tojilianischer Krieg",
-      "fr": "Chasse de Myalna<Indent/>: un Tojil courroucé"
+      "fr": "Chasse de Myalna: un Tojil courroucé"
     },
     "level": 75,
     "patch": 5,
@@ -10781,7 +10781,7 @@
       "en": "Tojil Eclipse",
       "ja": "ミャルナの狩猟：トヒル討伐",
       "de": "Waldpatrouille: Der Fall Tojils",
-      "fr": "Chasse de Myalna<Indent/>: l'élimination du Tojil"
+      "fr": "Chasse de Myalna: l'élimination du Tojil"
     },
     "level": 75,
     "patch": 5,
@@ -10793,7 +10793,7 @@
       "en": "Great Daens",
       "ja": "悪童ダエン兄弟：アマロが標的！",
       "de": "Lausbubengeschichten: Amaros",
-      "fr": "Les frères Daen<Indent/>: amaro en vue<Indent/>!"
+      "fr": "Les frères Daen: amaro en vue!"
     },
     "level": 73,
     "patch": 5,
@@ -10805,7 +10805,7 @@
       "en": "Fuath of Habit",
       "ja": "悪童ダエン兄弟：ン・モゥが標的！",
       "de": "Lausbubengeschichten: Nu Mou",
-      "fr": "Les frères Daen<Indent/>: Nu Mou en vue<Indent/>!"
+      "fr": "Les frères Daen: Nu Mou en vue!"
     },
     "level": 73,
     "patch": 5,
@@ -10817,7 +10817,7 @@
       "en": "Back and Fuath",
       "ja": "悪童ダエン兄弟：幻惑のローワン",
       "de": "Lausbubengeschichten: Rowan",
-      "fr": "Les frères Daen<Indent/>: riposte arborescente"
+      "fr": "Les frères Daen: riposte arborescente"
     },
     "level": 73,
     "patch": 5,
@@ -10829,7 +10829,7 @@
       "en": "The Mendicant's Court, 1st Stage: First Shift",
       "ja": "名も無き者たちの広場：第一期整備計画着工",
       "de": "Platz der Habenichtse: Erste Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 1<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 1: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10841,7 +10841,7 @@
       "en": "The Mendicant's Court, 1st Stage: Last Shift",
       "ja": "名も無き者たちの広場：第一期整備計画完工",
       "de": "Platz der Habenichtse: Erste Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 1<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 1: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10853,7 +10853,7 @@
       "en": "The Mendicant's Court, 2nd Stage: First Shift",
       "ja": "名も無き者たちの広場：第二期整備計画着工",
       "de": "Platz der Habenichtse: Zweite Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 2<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10865,7 +10865,7 @@
       "en": "The Mendicant's Court, 2nd Stage: Last Shift",
       "ja": "名も無き者たちの広場：第二期整備計画完工",
       "de": "Platz der Habenichtse: Zweite Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 2<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10877,7 +10877,7 @@
       "en": "The Mendicant's Court, 3rd Stage: First Shift",
       "ja": "名も無き者たちの広場：第三期整備計画着工",
       "de": "Platz der Habenichtse: Dritte Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 3<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10889,7 +10889,7 @@
       "en": "The Mendicant's Court, 3rd Stage: Last Shift",
       "ja": "名も無き者たちの広場：第三期整備計画完工",
       "de": "Platz der Habenichtse: Dritte Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 3<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10901,7 +10901,7 @@
       "en": "The Mendicant's Court, 1st Stage: First Shift",
       "ja": "名も無き者たちの広場：第一期整備計画着工",
       "de": "Platz der Habenichtse: Erste Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 1<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 1: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10913,7 +10913,7 @@
       "en": "The Mendicant's Court, 1st Stage: Last Shift",
       "ja": "名も無き者たちの広場：第一期整備計画完工",
       "de": "Platz der Habenichtse: Erste Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 1<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 1: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10925,7 +10925,7 @@
       "en": "The Mendicant's Court, 2nd Stage: First Shift",
       "ja": "名も無き者たちの広場：第二期整備計画着工",
       "de": "Platz der Habenichtse: Zweite Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 2<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10937,7 +10937,7 @@
       "en": "The Mendicant's Court, 2nd Stage: Last Shift",
       "ja": "名も無き者たちの広場：第二期整備計画完工",
       "de": "Platz der Habenichtse: Zweite Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 2<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10949,7 +10949,7 @@
       "en": "The Mendicant's Court, 3rd Stage: First Shift",
       "ja": "名も無き者たちの広場：第三期整備計画着工",
       "de": "Platz der Habenichtse: Dritte Phase - Beginn",
-      "fr": "Esplanade des démunis, phase 3<Indent/>: début des travaux"
+      "fr": "Esplanade des démunis, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10961,7 +10961,7 @@
       "en": "The Mendicant's Court, 3rd Stage: Last Shift",
       "ja": "名も無き者たちの広場：第三期整備計画完工",
       "de": "Platz der Habenichtse: Dritte Phase - Abschluss",
-      "fr": "Esplanade des démunis, phase 3<Indent/>: fin des travaux"
+      "fr": "Esplanade des démunis, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -10997,7 +10997,7 @@
       "en": "The Mattock, 3rd Stage: First Shift",
       "ja": "十字鍬通り：第三期整備計画着工",
       "de": "Kreuzkarst-Spalier: Dritte Phase - Beginn",
-      "fr": "Le Hoyau, phase 3<Indent/>: début des travaux"
+      "fr": "Le Hoyau, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11009,7 +11009,7 @@
       "en": "The Mattock, 3rd Stage: Last Shift",
       "ja": "十字鍬通り：第三期整備計画完工",
       "de": "Kreuzkarst-Spalier: Dritte Phase - Abschluss",
-      "fr": "Le Hoyau, phase 3<Indent/>: fin des travaux"
+      "fr": "Le Hoyau, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11021,7 +11021,7 @@
       "en": "The Mattock, 4th Stage: First Shift",
       "ja": "十字鍬通り：第四期整備計画着工",
       "de": "Kreuzkarst-Spalier: Vierte Phase - Beginn",
-      "fr": "Le Hoyau, phase 4<Indent/>: début des travaux"
+      "fr": "Le Hoyau, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11033,7 +11033,7 @@
       "en": "The Mattock, 4th Stage: Last Shift",
       "ja": "十字鍬通り：第四期整備計画完工",
       "de": "Kreuzkarst-Spalier: Vierte Phase - Abschluss",
-      "fr": "Le Hoyau, phase 4<Indent/>: fin des travaux"
+      "fr": "Le Hoyau, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11069,7 +11069,7 @@
       "en": "Saint Roelle's Dais, 3rd Stage: First Shift",
       "ja": "聖ロエル広場：第三期整備計画着工",
       "de": "Estrade der Sankt Roelle: Dritte Phase - Beginn",
-      "fr": "L'estrade de Sainte Roelle, phase 3<Indent/>: début des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11081,7 +11081,7 @@
       "en": "Saint Roelle's Dais, 3rd Stage: Last Shift",
       "ja": "聖ロエル広場：第三期整備計画完工",
       "de": "Estrade der Sankt Roelle: Dritte Phase - Abschluss",
-      "fr": "L'estrade de Sainte Roelle, phase 3<Indent/>: fin des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11093,7 +11093,7 @@
       "en": "Saint Roelle's Dais, 4th Stage",
       "ja": "聖ロエル広場：第四期整備計画完工",
       "de": "Estrade der Sankt Roelle: Vierte Phase",
-      "fr": "L'estrade de Sainte Roelle, phase 4<Indent/>: fin des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11141,7 +11141,7 @@
       "en": "The New Nest, 4th Stage: First Shift",
       "ja": "ニューネスト居住区：第四期整備計画着工",
       "de": "Das Genist: Vierte Phase - Beginn",
-      "fr": "Le Nichoir, phase 4<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11153,7 +11153,7 @@
       "en": "The New Nest, 4th Stage: Last Shift",
       "ja": "ニューネスト居住区：第四期整備計画完工",
       "de": "Das Genist: Vierte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11165,7 +11165,7 @@
       "en": "The New Nest, 5th Stage: First Shift",
       "ja": "ニューネスト居住区：第五期整備計画着工",
       "de": "Das Genist: Fünfte Phase - Beginn",
-      "fr": "Le Nichoir, phase 5<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11177,7 +11177,7 @@
       "en": "The New Nest, 5th Stage: Last Shift",
       "ja": "ニューネスト居住区：第五期整備計画完工",
       "de": "Das Genist: Fünfte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 5<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11189,7 +11189,7 @@
       "en": "The New Nest, 6th Stage: First Shift",
       "ja": "ニューネスト居住区：第六期整備計画着工",
       "de": "Das Genist: Sechste Phase - Beginn",
-      "fr": "Le Nichoir, phase 6<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 6: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11201,7 +11201,7 @@
       "en": "The New Nest, 6th Stage: Last Shift",
       "ja": "ニューネスト居住区：第六期整備計画完工",
       "de": "Das Genist: Sechste Phase - Abschluss",
-      "fr": "Le Nichoir, phase 6<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 6: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11213,7 +11213,7 @@
       "en": "The New Nest, 7th Stage: First Shift",
       "ja": "ニューネスト居住区：第七期整備計画着工",
       "de": "Das Genist: Siebte Phase - Beginn",
-      "fr": "Le Nichoir, phase 7<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 7: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11225,7 +11225,7 @@
       "en": "The New Nest, 7th Stage: Last Shift",
       "ja": "ニューネスト居住区：第七期整備計画完工",
       "de": "Das Genist: Siebte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 7<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 7: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11261,7 +11261,7 @@
       "en": "The Mattock, 3rd Stage: First Shift",
       "ja": "十字鍬通り：第三期整備計画着工",
       "de": "Kreuzkarst-Spalier: Dritte Phase - Beginn",
-      "fr": "Le Hoyau, phase 3<Indent/>: début des travaux"
+      "fr": "Le Hoyau, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11273,7 +11273,7 @@
       "en": "The Mattock, 3rd Stage: Last Shift",
       "ja": "十字鍬通り：第三期整備計画完工",
       "de": "Kreuzkarst-Spalier: Dritte Phase - Abschluss",
-      "fr": "Le Hoyau, phase 3<Indent/>: fin des travaux"
+      "fr": "Le Hoyau, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11285,7 +11285,7 @@
       "en": "The Mattock, 4th Stage: First Shift",
       "ja": "十字鍬通り：第四期整備計画着工",
       "de": "Kreuzkarst-Spalier: Vierte Phase - Beginn",
-      "fr": "Le Hoyau, phase 4<Indent/>: début des travaux"
+      "fr": "Le Hoyau, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11297,7 +11297,7 @@
       "en": "The Mattock, 4th Stage: Last Shift",
       "ja": "十字鍬通り：第四期整備計画完工",
       "de": "Kreuzkarst-Spalier: Vierte Phase - Abschluss",
-      "fr": "Le Hoyau, phase 4<Indent/>: fin des travaux"
+      "fr": "Le Hoyau, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11333,7 +11333,7 @@
       "en": "Saint Roelle's Dais, 3rd Stage: First Shift",
       "ja": "聖ロエル広場：第三期整備計画着工",
       "de": "Estrade der Sankt Roelle: Dritte Phase - Beginn",
-      "fr": "L'estrade de Sainte Roelle, phase 3<Indent/>: début des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11345,7 +11345,7 @@
       "en": "Saint Roelle's Dais, 3rd Stage: Last Shift",
       "ja": "聖ロエル広場：第三期整備計画完工",
       "de": "Estrade der Sankt Roelle: Dritte Phase - Abschluss",
-      "fr": "L'estrade de Sainte Roelle, phase 3<Indent/>: fin des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11357,7 +11357,7 @@
       "en": "Saint Roelle's Dais, 4th Stage",
       "ja": "聖ロエル広場：第四期整備計画完工",
       "de": "Estrade der Sankt Roelle: Vierte Phase",
-      "fr": "L'estrade de Sainte Roelle, phase 4<Indent/>: fin des travaux"
+      "fr": "L'estrade de Sainte Roelle, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11405,7 +11405,7 @@
       "en": "The New Nest, 4th Stage: First Shift",
       "ja": "ニューネスト居住区：第四期整備計画着工",
       "de": "Das Genist: Vierte Phase - Beginn",
-      "fr": "Le Nichoir, phase 4<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11417,7 +11417,7 @@
       "en": "The New Nest, 4th Stage: Last Shift",
       "ja": "ニューネスト居住区：第四期整備計画完工",
       "de": "Das Genist: Vierte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11429,7 +11429,7 @@
       "en": "The New Nest, 5th Stage: First Shift",
       "ja": "ニューネスト居住区：第五期整備計画着工",
       "de": "Das Genist: Fünfte Phase - Beginn",
-      "fr": "Le Nichoir, phase 5<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11441,7 +11441,7 @@
       "en": "The New Nest, 5th Stage: Last Shift",
       "ja": "ニューネスト居住区：第五期整備計画完工",
       "de": "Das Genist: Fünfte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 5<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11453,7 +11453,7 @@
       "en": "The New Nest, 6th Stage: First Shift",
       "ja": "ニューネスト居住区：第六期整備計画着工",
       "de": "Das Genist: Sechste Phase - Beginn",
-      "fr": "Le Nichoir, phase 6<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 6: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11465,7 +11465,7 @@
       "en": "The New Nest, 6th Stage: Last Shift",
       "ja": "ニューネスト居住区：第六期整備計画完工",
       "de": "Das Genist: Sechste Phase - Abschluss",
-      "fr": "Le Nichoir, phase 6<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 6: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11477,7 +11477,7 @@
       "en": "The New Nest, 7th Stage: First Shift",
       "ja": "ニューネスト居住区：第七期整備計画着工",
       "de": "Das Genist: Siebte Phase - Beginn",
-      "fr": "Le Nichoir, phase 7<Indent/>: début des travaux"
+      "fr": "Le Nichoir, phase 7: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11489,7 +11489,7 @@
       "en": "The New Nest, 7th Stage: Last Shift",
       "ja": "ニューネスト居住区：第七期整備計画完工",
       "de": "Das Genist: Siebte Phase - Abschluss",
-      "fr": "Le Nichoir, phase 7<Indent/>: fin des travaux"
+      "fr": "Le Nichoir, phase 7: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11921,7 +11921,7 @@
       "en": "Featherfall, 4th Stage: First Shift",
       "ja": "フェザーフォール商業区：第四期整備計画着工",
       "de": "Federfall-Quartier: 4. Phase - Beginn",
-      "fr": "Tombeplume, phase 4<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11933,7 +11933,7 @@
       "en": "Featherfall, 4th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第四期整備計画完工",
       "de": "Federfall-Quartier: 4. Phase - Abschluss",
-      "fr": "Tombeplume, phase 4<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11945,7 +11945,7 @@
       "en": "Featherfall, 5th Stage: First Shift",
       "ja": "フェザーフォール商業区：第五期整備計画着工",
       "de": "Federfall-Quartier: 5. Phase - Beginn",
-      "fr": "Tombeplume, phase 5<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11957,7 +11957,7 @@
       "en": "Featherfall, 5th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第五期整備計画完工",
       "de": "Federfall-Quartier: 5. Phase - Abschluss",
-      "fr": "Tombeplume, phase 5<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11969,7 +11969,7 @@
       "en": "Featherfall, 6th Stage: First Shift",
       "ja": "フェザーフォール商業区：第六期整備計画着工",
       "de": "Federfall-Quartier: 6. Phase - Beginn",
-      "fr": "Tombeplume, phase 6<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 6: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11981,7 +11981,7 @@
       "en": "Featherfall, 6th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第六期整備計画完工",
       "de": "Federfall-Quartier: 6. Phase - Abschluss",
-      "fr": "Tombeplume, phase 6<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 6: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -11993,7 +11993,7 @@
       "en": "Featherfall, 7th Stage: First Shift",
       "ja": "フェザーフォール商業区：第七期整備計画着工",
       "de": "Federfall-Quartier: 7. Phase - Beginn",
-      "fr": "Tombeplume, phase 7<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 7: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12005,7 +12005,7 @@
       "en": "Featherfall, 7th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第七期整備計画完工",
       "de": "Federfall-Quartier: 7. Phase - Abschluss",
-      "fr": "Tombeplume, phase 7<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 7: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12029,7 +12029,7 @@
       "en": "The Abacus, 2nd Stage: First Shift",
       "ja": "アバカス通り：第二期整備計画着工",
       "de": "Allee des Abakus: 2. Phase - Beginn",
-      "fr": "L'Abaque, phase 2<Indent/>: début des travaux"
+      "fr": "L'Abaque, phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12041,7 +12041,7 @@
       "en": "The Abacus, 2nd Stage: Last Shift",
       "ja": "アバカス通り：第二期整備計画完工",
       "de": "Allee des Abakus: 2. Phase - Abschluss",
-      "fr": "L'Abaque, phase 2<Indent/>: fin des travaux"
+      "fr": "L'Abaque, phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12149,7 +12149,7 @@
       "en": "Featherfall, 4th Stage: First Shift",
       "ja": "フェザーフォール商業区：第四期整備計画着工",
       "de": "Federfall-Quartier: 4. Phase - Beginn",
-      "fr": "Tombeplume, phase 4<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12161,7 +12161,7 @@
       "en": "Featherfall, 4th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第四期整備計画完工",
       "de": "Federfall-Quartier: 4. Phase - Abschluss",
-      "fr": "Tombeplume, phase 4<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12173,7 +12173,7 @@
       "en": "Featherfall, 5th Stage: First Shift",
       "ja": "フェザーフォール商業区：第五期整備計画着工",
       "de": "Federfall-Quartier: 5. Phase - Beginn",
-      "fr": "Tombeplume, phase 5<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12185,7 +12185,7 @@
       "en": "Featherfall, 5th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第五期整備計画完工",
       "de": "Federfall-Quartier: 5. Phase - Abschluss",
-      "fr": "Tombeplume, phase 5<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12197,7 +12197,7 @@
       "en": "Featherfall, 6th Stage: First Shift",
       "ja": "フェザーフォール商業区：第六期整備計画着工",
       "de": "Federfall-Quartier: 6. Phase - Beginn",
-      "fr": "Tombeplume, phase 6<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 6: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12209,7 +12209,7 @@
       "en": "Featherfall, 6th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第六期整備計画完工",
       "de": "Federfall-Quartier: 6. Phase - Abschluss",
-      "fr": "Tombeplume, phase 6<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 6: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12221,7 +12221,7 @@
       "en": "Featherfall, 7th Stage: First Shift",
       "ja": "フェザーフォール商業区：第七期整備計画着工",
       "de": "Federfall-Quartier: 7. Phase - Beginn",
-      "fr": "Tombeplume, phase 7<Indent/>: début des travaux"
+      "fr": "Tombeplume, phase 7: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12233,7 +12233,7 @@
       "en": "Featherfall, 7th Stage: Last Shift",
       "ja": "フェザーフォール商業区：第七期整備計画完工",
       "de": "Federfall-Quartier: 7. Phase - Abschluss",
-      "fr": "Tombeplume, phase 7<Indent/>: fin des travaux"
+      "fr": "Tombeplume, phase 7: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12257,7 +12257,7 @@
       "en": "The Abacus, 2nd Stage: First Shift",
       "ja": "アバカス通り：第二期整備計画着工",
       "de": "Allee des Abakus: 2. Phase - Beginn",
-      "fr": "L'Abaque, phase 2<Indent/>: début des travaux"
+      "fr": "L'Abaque, phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12269,7 +12269,7 @@
       "en": "The Abacus, 2nd Stage: Last Shift",
       "ja": "アバカス通り：第二期整備計画完工",
       "de": "Allee des Abakus: 2. Phase - Abschluss",
-      "fr": "L'Abaque, phase 2<Indent/>: fin des travaux"
+      "fr": "L'Abaque, phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12353,7 +12353,7 @@
       "en": "Western Risensong Quarter, 2nd Stage: First Shift",
       "ja": "リズンソング文化区西：第二期整備計画着工",
       "de": "Westliches Himmelsang: 2. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 2<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12365,7 +12365,7 @@
       "en": "Western Risensong Quarter, 2nd Stage: Last Shift",
       "ja": "リズンソング文化区西：第二期整備計画完工",
       "de": "Westliches Himmelsang: 2. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 2<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12377,7 +12377,7 @@
       "en": "Western Risensong Quarter, 3rd Stage: First Shift",
       "ja": "リズンソング文化区西：第三期整備計画着工",
       "de": "Westliches Himmelsang: 3. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 3<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12389,7 +12389,7 @@
       "en": "Western Risensong Quarter, 3rd Stage: Last Shift",
       "ja": "リズンソング文化区西：第三期整備計画完工",
       "de": "Westliches Himmelsang: 3. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 3<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12401,7 +12401,7 @@
       "en": "Western Risensong Quarter, 4th Stage: First Shift",
       "ja": "リズンソング文化区西：第四期整備計画着工",
       "de": "Westliches Himmelsang: 4. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 4<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12413,7 +12413,7 @@
       "en": "Western Risensong Quarter, 4th Stage: Last Shift",
       "ja": "リズンソング文化区西：第四期整備計画完工",
       "de": "Westliches Himmelsang: 4. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12425,7 +12425,7 @@
       "en": "Western Risensong Quarter, 5th Stage: First Shift",
       "ja": "リズンソング文化区西：第五期整備計画着工",
       "de": "Westliches Himmelsang: 5. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 5<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12437,7 +12437,7 @@
       "en": "Western Risensong Quarter, 5th Stage: Last Shift",
       "ja": "リズンソング文化区西：第五期整備計画完工",
       "de": "Westliches Himmelsang: 5. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 5<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12485,7 +12485,7 @@
       "en": "Eastern Risensong Quarter, 2nd Stage: First Shift",
       "ja": "リズンソング文化区東：第二期整備計画着工",
       "de": "Östliches Himmelsang: 2. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 2<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12497,7 +12497,7 @@
       "en": "Eastern Risensong Quarter, 2nd Stage: Last Shift",
       "ja": "リズンソング文化区東：第二期整備計画完工",
       "de": "Östliches Himmelsang: 2. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 2<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12509,7 +12509,7 @@
       "en": "Eastern Risensong Quarter, 3rd Stage: First Shift",
       "ja": "リズンソング文化区東：第三期整備計画着工",
       "de": "Östliches Himmelsang: 3. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 3<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12521,7 +12521,7 @@
       "en": "Eastern Risensong Quarter, 3rd Stage: Last Shift",
       "ja": "リズンソング文化区東：第三期整備計画完工",
       "de": "Östliches Himmelsang: 3. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 3<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12533,7 +12533,7 @@
       "en": "Eastern Risensong Quarter, 4th Stage: First Shift",
       "ja": "リズンソング文化区東：第四期整備計画着工",
       "de": "Östliches Himmelsang: 4. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 4<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12545,7 +12545,7 @@
       "en": "Eastern Risensong Quarter, 4th Stage: Last Shift",
       "ja": "リズンソング文化区東：第四期整備計画完工",
       "de": "Östliches Himmelsang: 4. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12581,11 +12581,11 @@
       "en": "Skybuilders' Monument",
       "ja": "名高き職人の記念碑：建造計画完工",
       "de": "Monument der Arbeit: 1. Phase",
-      "fr": "Monument dédié aux ouvriers<Indent/>: fin des travaux"
+      "fr": "Monument dédié aux ouvriers: fin des travaux"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1689": {
     "name": {
@@ -12605,7 +12605,7 @@
       "en": "Western Risensong Quarter, 2nd Stage: First Shift",
       "ja": "リズンソング文化区西：第二期整備計画着工",
       "de": "Westliches Himmelsang: 2. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 2<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12617,7 +12617,7 @@
       "en": "Western Risensong Quarter, 2nd Stage: Last Shift",
       "ja": "リズンソング文化区西：第二期整備計画完工",
       "de": "Westliches Himmelsang: 2. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 2<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12629,7 +12629,7 @@
       "en": "Western Risensong Quarter, 3rd Stage: First Shift",
       "ja": "リズンソング文化区西：第三期整備計画着工",
       "de": "Westliches Himmelsang: 3. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 3<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12641,7 +12641,7 @@
       "en": "Western Risensong Quarter, 3rd Stage: Last Shift",
       "ja": "リズンソング文化区西：第三期整備計画完工",
       "de": "Westliches Himmelsang: 3. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 3<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12653,7 +12653,7 @@
       "en": "Western Risensong Quarter, 4th Stage: First Shift",
       "ja": "リズンソング文化区西：第四期整備計画着工",
       "de": "Westliches Himmelsang: 4. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 4<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12665,7 +12665,7 @@
       "en": "Western Risensong Quarter, 4th Stage: Last Shift",
       "ja": "リズンソング文化区西：第四期整備計画完工",
       "de": "Westliches Himmelsang: 4. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12677,7 +12677,7 @@
       "en": "Western Risensong Quarter, 5th Stage: First Shift",
       "ja": "リズンソング文化区西：第五期整備計画着工",
       "de": "Westliches Himmelsang: 5. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Ouest), phase 5<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 5: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12689,7 +12689,7 @@
       "en": "Western Risensong Quarter, 5th Stage: Last Shift",
       "ja": "リズンソング文化区西：第五期整備計画完工",
       "de": "Westliches Himmelsang: 5. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Ouest), phase 5<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Ouest), phase 5: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12737,7 +12737,7 @@
       "en": "Eastern Risensong Quarter, 2nd Stage: First Shift",
       "ja": "リズンソング文化区東：第二期整備計画着工",
       "de": "Östliches Himmelsang: 2. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 2<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 2: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12749,7 +12749,7 @@
       "en": "Eastern Risensong Quarter, 2nd Stage: Last Shift",
       "ja": "リズンソング文化区東：第二期整備計画完工",
       "de": "Östliches Himmelsang: 2. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 2<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 2: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12761,7 +12761,7 @@
       "en": "Eastern Risensong Quarter, 3rd Stage: First Shift",
       "ja": "リズンソング文化区東：第三期整備計画着工",
       "de": "Östliches Himmelsang: 3. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 3<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 3: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12773,7 +12773,7 @@
       "en": "Eastern Risensong Quarter, 3rd Stage: Last Shift",
       "ja": "リズンソング文化区東：第三期整備計画完工",
       "de": "Östliches Himmelsang: 3. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 3<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 3: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12785,7 +12785,7 @@
       "en": "Eastern Risensong Quarter, 4th Stage: First Shift",
       "ja": "リズンソング文化区東：第四期整備計画着工",
       "de": "Östliches Himmelsang: 4. Phase - Beginn",
-      "fr": "Le Nouveau Refrain (Est), phase 4<Indent/>: début des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 4: début des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12797,7 +12797,7 @@
       "en": "Eastern Risensong Quarter, 4th Stage: Last Shift",
       "ja": "リズンソング文化区東：第四期整備計画完工",
       "de": "Östliches Himmelsang: 4. Phase - Abschluss",
-      "fr": "Le Nouveau Refrain (Est), phase 4<Indent/>: fin des travaux"
+      "fr": "Le Nouveau Refrain (Est), phase 4: fin des travaux"
     },
     "level": 1,
     "patch": 5,
@@ -12833,11 +12833,11 @@
       "en": "Skybuilders' Monument",
       "ja": "名高き職人の記念碑：建造計画完工",
       "de": "Monument der Arbeit: 1. Phase",
-      "fr": "Monument dédié aux ouvriers<Indent/>: fin des travaux"
+      "fr": "Monument dédié aux ouvriers: fin des travaux"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1710": {
     "name": {
@@ -12872,8 +12872,8 @@
       "fr": "Les poseurs à la feste"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1713": {
     "name": {
@@ -12884,8 +12884,8 @@
       "fr": "La fabrique à peluches"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1714": {
     "name": {
@@ -12893,11 +12893,11 @@
       "en": "Shear-a-Yak",
       "ja": "蒼天街復興祝祭「ヤクの毛刈り競争」",
       "de": "Yak-o-matik",
-      "fr": "Y a qu'à tondre<Indent/>!"
+      "fr": "Y a qu'à tondre!"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1715": {
     "name": {
@@ -12908,8 +12908,8 @@
       "fr": "La chasse au jouet"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1716": {
     "name": {
@@ -12920,8 +12920,8 @@
       "fr": "À chacun son cadeau"
     },
     "level": 1,
-    "patch": 0,
-    "location": 0
+    "patch": 5,
+    "location": 886
   },
   "1717": {
     "name": {
@@ -13145,7 +13145,7 @@
       "en": "Seeq and You Will Find",
       "ja": "豚面との再会",
       "de": "Die Farbe des Blutes",
-      "fr": "Non, c'est non<Indent/>!"
+      "fr": "Non, c'est non!"
     },
     "level": 80,
     "patch": 5,
@@ -13181,7 +13181,7 @@
       "en": "When Mages Rage",
       "ja": "術士大隊の反撃",
       "de": "Was du heute kannst besorgen",
-      "fr": "Des cailloux, des cailloux, des cailloux<Indent/>!"
+      "fr": "Des cailloux, des cailloux, des cailloux!"
     },
     "level": 80,
     "patch": 5,
@@ -13234,5 +13234,1121 @@
     "level": 80,
     "patch": 5,
     "location": 920
+  },
+  "1743": {
+    "name": {
+      "chs": "处置文件：幼芽逃生",
+      "en": "Incident Files: Seeds of Chaos",
+      "ja": "始末書ファイル：若芽たちの脱走",
+      "de": "Lagebericht: Keimlinge auf der Flucht",
+      "fr": "Rapport de dégâts: végétaux létaux"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1744": {
+    "name": {
+      "chs": "清理文件：潮湿的父树",
+      "en": "Incident Files: Steamed Vegetable",
+      "ja": "始末書ファイル：多湿なる親木",
+      "de": "Lagebericht: Der Keimling wächst nicht weit vom Stamm",
+      "fr": "Rapport de dégâts: la fleur du mal"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1745": {
+    "name": {
+      "chs": "归乡",
+      "en": "Homecrawling",
+      "ja": "ホームカミング",
+      "de": "Die Heimkehr der Spinnen",
+      "fr": "Le mal du pays"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1746": {
+    "name": {
+      "chs": "地下绿山",
+      "en": "The Hills Are Alive",
+      "ja": "地底の緑の丘",
+      "de": "Knuddeliges Grünzeug",
+      "fr": "Drôles de frimousses"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1747": {
+    "name": {
+      "chs": "现在住",
+      "en": "Bite the Pellet",
+      "ja": "今を生きる",
+      "de": "Fressen statt gefressen werden",
+      "fr": "La révolution de la chaîne alimentaire"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1748": {
+    "name": {
+      "chs": "山鸡跑",
+      "en": "Breakfast, Lunch, and Dinner",
+      "ja": "マウンテンチキンラン",
+      "de": "Bergkröten auf der Flucht",
+      "fr": "22, v'là les poulets!"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1749": {
+    "name": {
+      "chs": "来自雪国“尼瓦利斯”的刺客",
+      "en": "Let It Grow",
+      "ja": "雪国からの刺客「ニウァーリス」",
+      "de": "Eiskalte Attentäterin",
+      "fr": "Défi: l'abominable blob des neiges"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1750": {
+    "name": {
+      "chs": "牧羊人的生活",
+      "en": "Acid in Flight, Shepherd's Fright",
+      "ja": "羊飼いの暮らし",
+      "de": "Schaumkraut bleibt Schaumkraut",
+      "fr": "Toxique dans les prés"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1751": {
+    "name": {
+      "en": "Incident Files: Elemental Attraction",
+      "ja": "始末書ファイル：誘引された結晶獣",
+      "de": "Lagebericht: Kristalline Gefahr",
+      "fr": "Rapport de dégâts: cristal recherche élément dé<SoftHyphen/>ses<SoftHyphen/>pé<SoftHyphen/>ré<SoftHyphen/>ment",
+      "chs": "处置文件：被吸引的水晶兽"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1752": {
+    "name": {
+      "en": "Incident Files: Ice of the Tiger",
+      "ja": "始末書ファイル：変異した結晶獣",
+      "de": "Lagebericht: Mutierter Kristall",
+      "fr": "Rapport de dégâts: cryomutation",
+      "chs": "处置档案：变异水晶兽"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1753": {
+    "name": {
+      "en": "Residual Complications",
+      "ja": "なんとなく、クラスター",
+      "de": "Gestalt gewordener Äther",
+      "fr": "Danger radiation!",
+      "chs": "不知何故，集群"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1754": {
+    "name": {
+      "en": "Moisture Farming",
+      "ja": "天然由来保湿成分",
+      "de": "Natürliches Feuchtigkeitsmittel",
+      "fr": "Il faut souffrir pour avoir une belle peau",
+      "chs": "天然来源的保湿成分"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1755": {
+    "name": {
+      "en": "Wasted XIV",
+      "ja": "ウェイステッドXIV",
+      "de": "Gallertartige Umweltverschmutzer",
+      "fr": "Pollution gélatineuse",
+      "chs": "浪费十四"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1756": {
+    "name": {
+      "en": "Empty the Nest",
+      "ja": "ザ・ネスト",
+      "de": "Äther-Nesthocker",
+      "fr": "L'attaque des doblyns irradiés",
+      "chs": "鸟巢"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1757": {
+    "name": {
+      "en": "The Frailty of Life",
+      "ja": "欲深き白木「フラエリッサ」",
+      "de": "Nimmersatte Fraelissa",
+      "fr": "Défi: Fraelissa l'insatiable",
+      "chs": "贪婪的白木“弗拉瑞莎”"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1758": {
+    "name": {
+      "en": "Sheaves on the Wind",
+      "ja": "風の十四方位",
+      "de": "Vom Sturm verweht",
+      "fr": "Aux quatre vents",
+      "chs": "14个风向"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 0
+  },
+  "1763": {
+    "name": {
+      "en": "Devout Pilgrims vs. Daivadipa",
+      "ja": "ムリガ信仰：偽りの神",
+      "de": "Im Dienste der Mrga: Blasphemie",
+      "fr": "Le culte des Mrga: le faux dieu",
+      "chs": "穆里加信仰：假神"
+    },
+    "level": 90,
+    "patch": 6,
+    "location": 0
+  },
+  "1764": {
+    "name": {
+      "en": "Full Petal Alchemist: Perilous Pickings",
+      "ja": "香りの錬金術師：危険な花摘み",
+      "de": "Der Duft der Alchemie: Gefahr im Blumenbeet",
+      "fr": "L'alchimiste des senteurs: une cueillette dangereuse",
+      "chs": "芳香炼金术士：危险的采花"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1765": {
+    "name": {
+      "en": "When Gaja Go Gaga",
+      "ja": "象は静かに座っていない",
+      "de": "Die Gaja sind Gaga!",
+      "fr": "Obstacles éléphantesques",
+      "chs": "大象不是安静地坐着"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1766": {
+    "name": {
+      "en": "I Am the Valras",
+      "ja": "アイ・アム・ザ・ヴァルラス",
+      "de": "Ich bin ein Vaalaras!",
+      "fr": "Code morse",
+      "chs": "我是瓦拉斯"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1767": {
+    "name": {
+      "en": "Shiver and Shock",
+      "ja": "悪寒と痺れ",
+      "de": "Zitterpartie",
+      "fr": "Frissons et tremblements",
+      "chs": "发冷和麻木"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1768": {
+    "name": {
+      "en": "Of Claws and Gall",
+      "ja": "ギガントガル防衛戦線",
+      "de": "Gift und Galle",
+      "fr": "Bataillon de défense fiel-de-géant",
+      "chs": "巨人防御阵线"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1769": {
+    "name": {
+      "en": "The Accursed Kanabhuti",
+      "ja": "呪われし悪鬼「カーナブーティ」",
+      "de": "Kanabhuti, der Fluch des Dschungels",
+      "fr": "Défi: Kanabhuti la malédiction de la jungle",
+      "chs": "被诅咒的恶灵“Carna Bootee”"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1770": {
+    "name": {
+      "en": "The Little Nanka That Could",
+      "ja": "少年と海",
+      "de": "Der kleine Junge und das Meer",
+      "fr": "Le jeune homme et la mer",
+      "chs": "男孩与海"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 0
+  },
+  "1771": {
+    "name": {
+      "en": "Full Petal Alchemist: Risky Return",
+      "ja": "香りの錬金術師：危険な帰路",
+      "de": "Der Duft der Alchemie: Gefahrvoller Heimweg",
+      "fr": "L'alchimiste des senteurs: un retour dangereux",
+      "chs": "香味炼金术师：危险归来"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 0
+  },
+  "1772": {
+    "name": {
+      "en": "Devout Pilgrims vs. the Jungle Lizards",
+      "ja": "ムリガ信仰：迷える巡礼者",
+      "de": "Im Dienste der Mrga: Pilger in Not",
+      "fr": "Le culte des Mrga: pélerin perdu",
+      "chs": "穆里加信仰：迷失的朝圣者"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1773": {
+    "name": {
+      "en": "Peek-a-Bhujamga",
+      "ja": "毒蛇を踏む",
+      "de": "Giftiges Spiel",
+      "fr": "Jeu empoisonné",
+      "chs": "踩到毒蛇"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1774": {
+    "name": {
+      "en": "Stalkers in the Shroud",
+      "ja": "衆園の人食いトラ",
+      "de": "Hinter dem Schleier lauert der Tod",
+      "fr": "Tigres mangeurs d'hommes",
+      "chs": "众议院的食人虎"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1775": {
+    "name": {
+      "en": "Swipe Eft",
+      "ja": "クシールローダ川の奇跡",
+      "de": "Das Wunder vom Ksiroda",
+      "fr": "Miracle dans la Ksiroda",
+      "chs": "Ksir Rhoda 河的奇迹"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1776": {
+    "name": {
+      "en": "Mesmerizing Moths",
+      "ja": "彷徨える蒼い蝶",
+      "de": "Wenn das Abendessen davonfliegt",
+      "fr": "Papillons vagabonds",
+      "chs": "一只流浪的蓝蝴蝶"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1777": {
+    "name": {
+      "en": "Return of the Tyrant",
+      "ja": "暴虐の猿王「ヴァーリン」",
+      "de": "Valin der Tyrann",
+      "fr": "Défi: Valyn le tyran",
+      "chs": "暴虐孙悟空“华林”"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1778": {
+    "name": {
+      "en": "Monkeys on Your Back",
+      "ja": "猿の軍団",
+      "de": "Geifernde Affenbande",
+      "fr": "L'armée des singes",
+      "chs": "猴子军团"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1779": {
+    "name": {
+      "en": "Devout Pilgrims vs. the Apalala",
+      "ja": "ムリガ信仰：祈りの時",
+      "de": "Im Dienste der Mrga: Stoßgebet",
+      "fr": "Le culte des Mrga: l'heure de la prière",
+      "chs": "穆里加信仰：祈祷时间"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 0
+  },
+  "1783": {
+    "name": {
+      "en": "Artificial Malevolence: 15 Minutes to Comply",
+      "ja": "魔導技師の帰郷：ファースト・ステップ",
+      "de": "Reinwaschung eines Ingenieurs: Gefangen in der Todesmaschine",
+      "fr": "Retour au pays: premier faux pas",
+      "chs": "魔术师的归来：第一步"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1784": {
+    "name": {
+      "en": "Artificial Malevolence: The Drone Army",
+      "ja": "魔導技師の帰郷：フォール・イン・トラップ",
+      "de": "Reinwaschung eines Ingenieurs: Nieder mit den Maschinen",
+      "fr": "Retour au pays: chausse-trappe",
+      "chs": "魔术师的归来：陷入陷阱"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1785": {
+    "name": {
+      "en": "Trespassers Will Be Eaten",
+      "ja": "エブラーナ戦記",
+      "de": "Gleich vergess ich mich",
+      "fr": "Les envahisseurs",
+      "chs": "埃布拉娜战记"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1786": {
+    "name": {
+      "en": "A Snowball's Chance",
+      "ja": "寒冷前線異常あり",
+      "de": "Brennstoffsicherung",
+      "fr": "Chaud et froid",
+      "chs": "有冷锋异常"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1787": {
+    "name": {
+      "en": "Not Yeti",
+      "ja": "類猿人アルマスティ",
+      "de": "Die Alma-Affenmänner",
+      "fr": "Un faux air de yéti",
+      "chs": "南方古猿阿尔马斯蒂"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1788": {
+    "name": {
+      "en": "Nettle Gear Solid",
+      "ja": "氷の罠",
+      "de": "Eine eisige Falle",
+      "fr": "Piège de glace",
+      "chs": "冰陷阱"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1789": {
+    "name": {
+      "en": "Roses Are Red, Violence Is Due",
+      "ja": "圧殺の薔薇「ヘリオガバルス」",
+      "de": "Der rosige Tod Heliogabalus",
+      "fr": "Défi:  Héliogabale, rose de sang",
+      "chs": "粉碎玫瑰“Heliogabalus”"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1790": {
+    "name": {
+      "en": "Amazing Crates",
+      "ja": "霜の巨人たち",
+      "de": "Riesen im Nebel",
+      "fr": "Ils en font des caisses",
+      "chs": "冰霜巨人"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 0
+  },
+  "1791": {
+    "name": {
+      "en": "Artificial Malevolence: Unmanned Aerial Villains",
+      "ja": "魔導技師の帰郷：ビフォー・コンタクト",
+      "de": "Reinwaschung eines Ingenieurs: Auto-Gabriels",
+      "fr": "Retour au pays: l'ange malveillant",
+      "chs": "魔术师的归来：接触前"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1792": {
+    "name": {
+      "en": "Artificial Malevolence: Mighty Metatron",
+      "ja": "魔導技師の帰郷：メタトロン・ベース",
+      "de": "Reinwaschung eines Ingenieurs: Metatron",
+      "fr": "Retour au pays: Metatron ",
+      "chs": "魔术师的归来：梅塔特隆基地"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1793": {
+    "name": {
+      "en": "Rocker, Roller, Out-of-controller",
+      "ja": "メタモルポーセース",
+      "de": "Rotulas auf Abwegen",
+      "fr": "Mauvaise conversion",
+      "chs": "变态"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1794": {
+    "name": {
+      "en": "Stray Dog Strut",
+      "ja": "カニス、吠えないのか？",
+      "de": "Hunde, die bellen, beißen auch",
+      "fr": "Pour qui aboies-tu?",
+      "chs": "犬，你不能吠叫吗？"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1795": {
+    "name": {
+      "en": "Exterminate, Exterminate",
+      "ja": "彷徨える軍隊",
+      "de": "Das Morden ist des Wand'rers Lust",
+      "fr": "Machines folles",
+      "chs": "流浪军"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1796": {
+    "name": {
+      "en": "A Bit of a Problem",
+      "ja": "内乱記",
+      "de": "Folgen des Krieges",
+      "fr": "Rémanence guerrière",
+      "chs": "内部干扰"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1797": {
+    "name": {
+      "en": "The Man with the Golden Son",
+      "ja": "黄金の鉄巨人「セネカ」",
+      "de": "Der goldene Riese Seneca",
+      "fr": "Défi: Seneca le géant doré",
+      "chs": "金铁巨人“塞内卡”"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1798": {
+    "name": {
+      "en": "Parts Unknown",
+      "ja": "回収は一刻を争う！",
+      "de": "Hilfe bei der Reparatur",
+      "fr": "La récup', ça occupe ",
+      "chs": "恢复竞争的时刻！"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1803": {
+    "name": {
+      "en": "Lepus Lamentorum: Dynamite Disaster",
+      "ja": "嘆きの白兎：ばくばく大爆発",
+      "de": "Langohren des Mondes: Explosive Eindringlinge",
+      "fr": "Panique lapinesque: explosifs invasifs",
+      "chs": "哀叹白兔：爆炸"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1804": {
+    "name": {
+      "en": "Lepus Lamentorum: Cleaner Catastrophe",
+      "ja": "嘆きの白兎：だめだめ大暴走",
+      "de": "Langohren des Mondes: Reiniger-Rabatz",
+      "fr": "Panique lapinesque: nettoyeurs tueurs",
+      "chs": "哀叹白兔：不好逃跑"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1805": {
+    "name": {
+      "en": "Lepus Lamentorum: Crazy Contraption",
+      "ja": "嘆きの白兎：むきむき大処分",
+      "de": "Langohren des Mondes: Reif für die Tonne",
+      "fr": "Panique lapinesque: apiacée cuirassée",
+      "chs": "哀叹白兔：脱皮大处理"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1806": {
+    "name": {
+      "en": "Mantids on the Moon",
+      "ja": "極地からの怪物",
+      "de": "Sicheln aus dem Zwielicht",
+      "fr": "La chose surgit des ténèbres",
+      "chs": "来自极地的怪物"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1807": {
+    "name": {
+      "en": "One Giant Weep",
+      "ja": "お涙ちょうだい",
+      "de": "Keine Freude für die Fungi",
+      "fr": "Pas de compassion pour les champignons",
+      "chs": "给我眼泪"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1808": {
+    "name": {
+      "en": "Cactus What You Preach",
+      "ja": "星は出ているか？",
+      "de": "Lunatender-Liebe",
+      "fr": "Il y a trop de pampas qui s'aiment",
+      "chs": "有星星吗？"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1809": {
+    "name": {
+      "en": "Droids Gone Wild",
+      "ja": "ドロイドの大暴走",
+      "de": "Angriff der Droiden",
+      "fr": "L'attaque des droïdes",
+      "chs": "机器人失控"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1810": {
+    "name": {
+      "en": "The Stones of Silence",
+      "ja": "静かなる巨岩「トランキリティアイト」",
+      "de": "Weißer Gigant",
+      "fr": "Défi: le géant de la lune",
+      "chs": "静谧巨石“Tranquillityite”"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1811": {
+    "name": {
+      "en": "The Strolling Stones",
+      "ja": "月の裏側",
+      "de": "Besuch von der dunklen Seite",
+      "fr": "La face cachée de la lune",
+      "chs": "月亮的另一边"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 0
+  },
+  "1812": {
+    "name": {
+      "en": "Tech Support Cull",
+      "ja": "フーリガン",
+      "de": "Unverlässlicher Support",
+      "fr": "Un accident chez les assistants",
+      "chs": "流氓"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1813": {
+    "name": {
+      "en": "Hunger Strikes",
+      "ja": "大海を隔てるがごとく",
+      "de": "Harsches Mondhabitat",
+      "fr": "Sur les deux rives d'un océan",
+      "chs": "就像隔开海洋"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1814": {
+    "name": {
+      "en": "Scrapping the Scrapers",
+      "ja": "保証対象外",
+      "de": "Garantiezeitraum abgelaufen",
+      "fr": "Produits plus sous garantie",
+      "chs": "不在保修范围内"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1815": {
+    "name": {
+      "en": "Taking Care of the Caretakers",
+      "ja": "クラッシュ",
+      "de": "Wertlose Wärter",
+      "fr": "Des infirmiers infernaux",
+      "chs": "碰撞"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1816": {
+    "name": {
+      "en": "Head Empty, Only Thoughts",
+      "ja": "虚ろなる思考者「セレブレイター」",
+      "de": "Der Plan des Schmarotzers",
+      "fr": "Défi: le penseur parasite",
+      "chs": "空心思想家“庆祝者”"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1817": {
+    "name": {
+      "en": "What a Thrill",
+      "ja": "スリリングな人生を",
+      "de": "Sauer macht süchtig",
+      "fr": "Addiction aux frissons",
+      "chs": "过着惊心动魄的生活"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 0
+  },
+  "1823": {
+    "name": {
+      "en": "Grand Designs: Aigokeros",
+      "ja": "創造計画：エゴーケロス観察",
+      "de": "Beobachtung: Aigokeros",
+      "fr": "Observation: aigokeros",
+      "chs": "创作计划：观察Ego Keros"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1824": {
+    "name": {
+      "en": "Grand Designs: Io",
+      "ja": "創造計画：イーオー観察",
+      "de": "Beobachtung: Io",
+      "fr": "Observation: io",
+      "chs": "创作计划：Eo观察"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1825": {
+    "name": {
+      "en": "Ophion-mania",
+      "ja": "人蛇大戦",
+      "de": "Gefährdetes Gleichgewicht",
+      "fr": "Serpents en<SoftHyphen/>va<SoftHyphen/>his<SoftHyphen/>sants",
+      "chs": "人蛇大战"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1826": {
+    "name": {
+      "en": "The Rustling of Murderous Leaves",
+      "ja": "三本の浮遊樹「アルセイス」",
+      "de": "Die schwebenden Bäume",
+      "fr": "Défi: arbres trompeurs",
+      "chs": "三棵漂浮的树“Alseid”"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1827": {
+    "name": {
+      "en": "Butterfly Kisses of Death ",
+      "ja": "人間の血にまだ触れない",
+      "de": "Schmetterlinge schmettern",
+      "fr": "Succion interdite",
+      "chs": "我还没接触过人血"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1828": {
+    "name": {
+      "en": "You Hurt My Researcher, Prepare to Die",
+      "ja": "リトリビューション",
+      "de": "Eine Lektion fürs Leben",
+      "fr": "Punition sévère",
+      "chs": "报应"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1829": {
+    "name": {
+      "en": "Drawing the Thunderstroke",
+      "ja": "嘶こう、感電するほどの喜びを！",
+      "de": "Himmeldonnerwetter!",
+      "fr": "Excitation électrisante",
+      "chs": "让我们触电！"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1830": {
+    "name": {
+      "en": "Nature's Staunch Protector",
+      "ja": "死の鳥",
+      "de": "Fliegende Fressfeinde",
+      "fr": "Impitoyables serres",
+      "chs": "死亡之鸟"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 0
+  },
+  "1831": {
+    "name": {
+      "en": "Grand Designs: Unknown Execution",
+      "ja": "創造計画：斬新すぎたイデア",
+      "de": "Entsorgung: Das bekannte Unbekannte",
+      "fr": "Expérimentation: concept inconnu",
+      "chs": "创作计划：太新颖的想法"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1832": {
+    "name": {
+      "en": "Grand Designs: The Newest of New",
+      "ja": "創造計画：真なる新作、クリュプス",
+      "de": "Entsorgung: Ur-Kyklops",
+      "fr": "Expérimentation: le bon concept",
+      "chs": "创作计划：真正的新作，Crypse"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1833": {
+    "name": {
+      "en": "Bad Breath in Paradise",
+      "ja": "楽園の泉",
+      "de": "Adel verpflichtet - eigentlich",
+      "fr": "Source paradisiaque",
+      "chs": "天堂喷泉"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1834": {
+    "name": {
+      "en": "King of the Hill",
+      "ja": "敗れざる者たち",
+      "de": "Ruhet in Frieden",
+      "fr": "Cornus têtus",
+      "chs": "输不起的人"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1835": {
+    "name": {
+      "en": "Why Did It Have to Be Medusae?",
+      "ja": "何かが空をやってくる",
+      "de": "Alles hat seinen Platz",
+      "fr": "Visiteuses dangereuses",
+      "chs": "天上有什么东西来了"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1836": {
+    "name": {
+      "en": "There's a Snake in My Water Supply!",
+      "ja": "名のある毒",
+      "de": "Bitte nicht trinken",
+      "fr": "Serpents pollueurs",
+      "chs": "命名毒药"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1837": {
+    "name": {
+      "en": "Eurydike: All Bark, No Bite",
+      "ja": "食言の大樹「エウリュディケ」",
+      "de": "Schlechten Appetit!",
+      "fr": "Défi: transgression fatale",
+      "chs": "Eurydice，一棵大食物树"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1838": {
+    "name": {
+      "en": "So Sorry, Sokles",
+      "ja": "ソクレスへの弁明",
+      "de": "Sokles' Zorn",
+      "fr": "Copies trouées",
+      "chs": "索克勒斯的借口"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 0
+  },
+  "1843": {
+    "name": {
+      "en": "Omicron Recall: Comms Expansion",
+      "ja": "カイのメモリーより：通信機拡張",
+      "de": "Aus dem Speicher von Chi: Aufrüstung des Kommunikators",
+      "fr": "Mémoire vive: mise à niveau",
+      "chs": "来自 Kai 的记忆：通信设备扩展"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1844": {
+    "name": {
+      "en": "Omicron Recall: Secure Connection",
+      "ja": "カイのメモリーより：N-6205防衛",
+      "de": "Aus dem Speicher von Chi: Gefahrenabwehr",
+      "fr": "Mémoire vive: pare-feu",
+      "chs": "来自 Kai 的记忆：N-6205 防御"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1845": {
+    "name": {
+      "en": "Sound and Fury",
+      "ja": "竜星の挽歌",
+      "de": "Eine Spirale der Gewalt",
+      "fr": "Élégie à l'étoile du dragon",
+      "chs": "龙星歌"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1846": {
+    "name": {
+      "en": "(No) Wind beneath Our Wings",
+      "ja": "風よ、竜に届いているか",
+      "de": "Vom Winde verlassen",
+      "fr": "Ô vent, as-tu trouvé les dragons?",
+      "chs": "风，你到龙了吗？"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1847": {
+    "name": {
+      "en": "Wings of Glory",
+      "ja": "栄光の翼「アル・アイン」",
+      "de": "Ahl Eins vergangener Ruhm",
+      "fr": "Défi: les ailes de la gloire",
+      "chs": "荣耀之翼“艾因”"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1848": {
+    "name": {
+      "en": "Only Just Begun",
+      "ja": "永遠の終わり",
+      "de": "Das Ende der Ewigkeit",
+      "fr": "La fin de l'éternité",
+      "chs": "永恒的终结"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1849": {
+    "name": {
+      "en": "Far from the Madding Horde",
+      "ja": "復讐の翼「サン・オスク」",
+      "de": "Than Oskhs Rache",
+      "fr": "Défi: les ailes de la vengeance",
+      "chs": "复仇之翼“圣奥斯克”"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1850": {
+    "name": {
+      "en": "Dead Inside",
+      "ja": "メランコリーの妙薬",
+      "de": "Kinder der Traurigkeit",
+      "fr": "Le remède à la mélancolie",
+      "chs": "忧郁的神药"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1851": {
+    "name": {
+      "en": "Beacons of Lost Hope",
+      "ja": "変化の風",
+      "de": "Verlorene Existenzen",
+      "fr": "Les vents du changement",
+      "chs": "风云变幻"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1852": {
+    "name": {
+      "en": "Fallen from Grace",
+      "ja": "輝くもの天より堕ち",
+      "de": "Vom Himmel gefallene Lichter",
+      "fr": "L'éclat choit du ciel",
+      "chs": "天上掉下来的亮光"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1853": {
+    "name": {
+      "en": "Staring into the Void",
+      "ja": "虚空の眼",
+      "de": "Leere Blicke",
+      "fr": "Les yeux dans le ciel",
+      "chs": "虚空眼"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1854": {
+    "name": {
+      "en": "Nevermore",
+      "ja": "黒き絶望「ポォ」",
+      "de": "Ausgeburt finsterer Ver<SoftHyphen/>zweif<SoftHyphen/>lung",
+      "fr": "Défi: l'étoile du soir",
+      "chs": "黑色绝望“噗”"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 0
+  },
+  "1855": {
+    "name": {
+      "en": "Omicron Recall: Killing Order",
+      "ja": "カイのメモリーより：侵略兵器の破壊",
+      "de": "Aus dem Speicher von Chi: Zerstörung",
+      "fr": "Mémoire vive: arrêter le processus",
+      "chs": "来自凯的记忆：破坏入侵武器"
+    },
+    "level": 90,
+    "patch": 6,
+    "location": 0
   }
 }

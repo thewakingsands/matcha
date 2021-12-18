@@ -20,7 +20,7 @@ const opcodes = [
   },
   {
     key: 'DirectorStart',
-    global: 0x1dd
+    global: 0x256
     // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
