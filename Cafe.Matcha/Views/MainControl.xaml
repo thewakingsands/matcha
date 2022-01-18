@@ -214,7 +214,8 @@
                                 </Grid.ColumnDefinitions>
 
                                 <CheckBox Content="记录日志" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Logger.Enabled, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
-                                <CheckBox Content="记录所有事件" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Debug, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
+                                <CheckBox Content="兼容模式" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Compat, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
+                                <CheckBox Content="调试模式" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2" IsChecked="{Binding Logger.Debug, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"/>
                                 <Label Content="公共数据汇报" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Grid.Row="1" />
                                 <Label HorizontalAlignment="Right" Margin="0,0,66,0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Content="{Binding DataReport}" />
                                 <Button x:Name="bSettingDataReport" Content="修改" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingDataReport_Click"/>

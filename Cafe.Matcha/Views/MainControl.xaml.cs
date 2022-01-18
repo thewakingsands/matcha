@@ -153,7 +153,18 @@ namespace Cafe.Matcha.Views
 
         private void Network_onReceiveEvent(BaseDTO dto)
         {
-            Output.SendLog(Formatter.GetLog(dto));
+            var log = Formatter.GetLog(dto);
+            if (!string.IsNullOrEmpty(log))
+            {
+                Log('I', log);
+                Output.SendLog(log);
+
+                if (Config.Instance.Logger.Compat)
+                {
+                    Output.SendLog(Formatter.GetLog(dto, true));
+                }
+            }
+
             Output.SendWebhook(dto);
 #if DEBUG
             Utils.Log.Debug(string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));

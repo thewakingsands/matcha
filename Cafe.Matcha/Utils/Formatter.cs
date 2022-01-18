@@ -229,7 +229,7 @@ namespace Cafe.Matcha.Utils
             }
         }
 
-        private static StringBuilder InitLogLine(string category)
+        private static StringBuilder InitLogLine(string category, bool compat = false)
         {
             var sb = new StringBuilder();
             sb.Append("00|");
@@ -240,17 +240,23 @@ namespace Cafe.Matcha.Utils
             sb.Append(Config.GetLanguageString());
             sb.Append('-');
             sb.Append(category);
-            sb.Append('|');
+            sb.Append(compat ? '#' : '|');
 
             return sb;
         }
 
-        public static string GetLog(BaseDTO dto)
+        public static string GetLog(BaseDTO dto, bool compat = false)
         {
-            var sb = InitLogLine(Enum.GetName(typeof(EventType), dto.EventType));
+            var sb = InitLogLine(Enum.GetName(typeof(EventType), dto.EventType), compat);
             sb.Append(dto.ToJSON());
+
+            if (compat)
+            {
+                sb.Append('|');
+            }
 
             return sb.ToString();
         }
     }
 }
+ 

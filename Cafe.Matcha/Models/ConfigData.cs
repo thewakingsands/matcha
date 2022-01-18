@@ -234,6 +234,8 @@ namespace Cafe.Matcha.Models
     {
         [JsonProperty("enabled")]
         public bool Enabled { get; set; }
+        [JsonProperty("compat")]
+        public bool Compat { get; set; }
         [JsonProperty("debug")]
         public bool Debug { get; set; }
     }

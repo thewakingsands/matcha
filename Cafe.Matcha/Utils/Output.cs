@@ -17,6 +17,7 @@ namespace Cafe.Matcha.Utils
     internal class Output
     {
         private static Models.ConfigOutput Config => Matcha.Config.Instance.Output;
+        private static bool Compat => Matcha.Config.Instance.Logger.Compat;
 
         private static void SendNativeToast(string message)
         {
@@ -42,12 +43,6 @@ namespace Cafe.Matcha.Utils
 
         public static void SendLog(string log)
         {
-            if (string.IsNullOrEmpty(log))
-            {
-                return;
-            }
-
-            Log.Info($"[log] {log}");
             ActGlobals.oFormActMain.ParseRawLogLine(false, DateTime.Now, log);
         }
 
