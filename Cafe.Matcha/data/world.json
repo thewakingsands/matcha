@@ -407,6 +407,18 @@
     "dc": "Aether",
     "dc_en": "Aether"
   },
+  "161": {
+    "name": "Chocobo",
+    "name_en": "Chocobo",
+    "dc": "Mana",
+    "dc_en": "Mana"
+  },
+  "166": {
+    "name": "Moogle",
+    "name_en": "Moogle",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
   "1042": {
     "name": "拉诺西亚",
     "name_en": "LaNuoXiYa",
@@ -545,34 +557,16 @@
     "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
-  "2075": {
-    "name": "카벙클",
-    "name_en": "카벙클",
-    "dc": "Korea",
-    "dc_en": "Korea"
+  "1183": {
+    "name": "银泪湖",
+    "name_en": "YinLeiHu2",
+    "dc": "豆豆柴",
+    "dc_en": "DouDouChai"
   },
-  "2076": {
-    "name": "초코보",
-    "name_en": "초코보",
-    "dc": "Korea",
-    "dc_en": "Korea"
-  },
-  "2077": {
-    "name": "모그리",
-    "name_en": "모그리",
-    "dc": "Korea",
-    "dc_en": "Korea"
-  },
-  "2078": {
-    "name": "톤베리",
-    "name_en": "톤베리",
-    "dc": "Korea",
-    "dc_en": "Korea"
-  },
-  "2080": {
-    "name": "펜리르",
-    "name_en": "펜리르",
-    "dc": "Korea",
-    "dc_en": "Korea"
+  "1192": {
+    "name": "水晶塔",
+    "name_en": "ShuiJingTa2",
+    "dc": "豆豆柴",
+    "dc_en": "DouDouChai"
   }
 }
