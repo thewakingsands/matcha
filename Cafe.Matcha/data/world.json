@@ -557,9 +557,21 @@
     "dc": "猫小胖",
     "dc_en": "MaoXiaoPang"
   },
+  "1180": {
+    "name": "太阳海岸",
+    "name_en": "TaiYangHaiAn2",
+    "dc": "豆豆柴",
+    "dc_en": "DouDouChai"
+  },
   "1183": {
     "name": "银泪湖",
     "name_en": "YinLeiHu2",
+    "dc": "豆豆柴",
+    "dc_en": "DouDouChai"
+  },
+  "1186": {
+    "name": "伊修加德",
+    "name_en": "YiXiuJiaDe2",
     "dc": "豆豆柴",
     "dc_en": "DouDouChai"
   },
@@ -568,17 +580,5 @@
     "name_en": "ShuiJingTa2",
     "dc": "豆豆柴",
     "dc_en": "DouDouChai"
-  },
-  "1180":{
-    "name": "太阳海岸",
-    "name_en": "TaiYangHaiAn2",
-    "dc": "豆豆柴",
-    "dc_en": "DouDouChai"
-  },
-  "1186":{
-    "name": "伊修加德",
-    "name_en": "YiXiuJiaDe2",
-    "dc": "豆豆柴",
-    "dc_en": "DouDouChai" 
   }
 }
