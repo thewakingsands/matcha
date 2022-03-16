@@ -12335,6 +12335,18 @@
     "patch": 5,
     "location": 886
   },
+  "1667": {
+    "name": {
+      "chs": "咿咻打虎",
+      "en": "Tora Tora, Burning Bright",
+      "ja": "降神祭「荒神楽で虎退治！」",
+      "de": "Hilfe, der Tiger ist los!",
+      "fr": "La chasse du tigre chimérique!"
+    },
+    "level": 5,
+    "patch": 2,
+    "location": 134
+  },
   "1668": {
     "name": {
       "chs": "西升歌文化区：第一次整备计划完工",
@@ -13210,5 +13222,1121 @@
     "level": 80,
     "patch": 5,
     "location": 920
+  },
+  "1743": {
+    "name": {
+      "chs": "实验检讨书：被动野化放归实验",
+      "en": "Incident Files: Seeds of Chaos",
+      "ja": "始末書ファイル：若芽たちの脱走",
+      "de": "Lagebericht: Keimlinge auf der Flucht",
+      "fr": "Rapport de dégâts: végétaux létaux"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 956
+  },
+  "1744": {
+    "name": {
+      "chs": "实验检讨书：亲代抚育验证实验",
+      "en": "Incident Files: Steamed Vegetable",
+      "ja": "始末書ファイル：多湿なる親木",
+      "de": "Lagebericht: Der Keimling wächst nicht weit vom Stamm",
+      "fr": "Rapport de dégâts: la fleur du mal"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 956
+  },
+  "1745": {
+    "name": {
+      "chs": "英雄归乡",
+      "en": "Homecrawling",
+      "ja": "ホームカミング",
+      "de": "Die Heimkehr der Spinnen",
+      "fr": "Le mal du pays"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 956
+  },
+  "1746": {
+    "name": {
+      "chs": "快看！它会动！",
+      "en": "The Hills Are Alive",
+      "ja": "地底の緑の丘",
+      "de": "Knuddeliges Grünzeug",
+      "fr": "Drôles de frimousses"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 956
+  },
+  "1747": {
+    "name": {
+      "chs": "活在当下",
+      "en": "Bite the Pellet",
+      "ja": "今を生きる",
+      "de": "Fressen statt gefressen werden",
+      "fr": "La révolution de la chaîne alimentaire"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 956
+  },
+  "1748": {
+    "name": {
+      "chs": "鸡哩呱啦",
+      "en": "Breakfast, Lunch, and Dinner",
+      "ja": "マウンテンチキンラン",
+      "de": "Bergkröten auf der Flucht",
+      "fr": "22, v'là les poulets!"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 956
+  },
+  "1749": {
+    "name": {
+      "chs": "来自雪国的刺客——极地雪藻",
+      "en": "Let It Grow",
+      "ja": "雪国からの刺客「ニウァーリス」",
+      "de": "Eiskalte Attentäterin",
+      "fr": "Défi: l'abominable blob des neiges"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 956
+  },
+  "1750": {
+    "name": {
+      "chs": "牧羊人的日常",
+      "en": "Acid in Flight, Shepherd's Fright",
+      "ja": "羊飼いの暮らし",
+      "de": "Schaumkraut bleibt Schaumkraut",
+      "fr": "Toxique dans les prés"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 956
+  },
+  "1751": {
+    "name": {
+      "chs": "实验检讨书：生境选择行为",
+      "en": "Incident Files: Elemental Attraction",
+      "ja": "始末書ファイル：誘引された結晶獣",
+      "de": "Lagebericht: Kristalline Gefahr",
+      "fr": "Rapport de dégâts: cristal recherche élément dé<SoftHyphen/>ses<SoftHyphen/>pé<SoftHyphen/>ré<SoftHyphen/>ment"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 956
+  },
+  "1752": {
+    "name": {
+      "chs": "实验检讨书：红皇后假说",
+      "en": "Incident Files: Ice of the Tiger",
+      "ja": "始末書ファイル：変異した結晶獣",
+      "de": "Lagebericht: Mutierter Kristall",
+      "fr": "Rapport de dégâts: cryomutation"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 956
+  },
+  "1753": {
+    "name": {
+      "chs": "晶心冻魄",
+      "en": "Residual Complications",
+      "ja": "なんとなく、クラスター",
+      "de": "Gestalt gewordener Äther",
+      "fr": "Danger radiation!"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1754": {
+    "name": {
+      "chs": "纯天然保湿护肤品",
+      "en": "Moisture Farming",
+      "ja": "天然由来保湿成分",
+      "de": "Natürliches Feuchtigkeitsmittel",
+      "fr": "Il faut souffrir pour avoir une belle peau"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1755": {
+    "name": {
+      "chs": "最终废料14",
+      "en": "Wasted XIV",
+      "ja": "ウェイステッドXIV",
+      "de": "Gallertartige Umweltverschmutzer",
+      "fr": "Pollution gélatineuse"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1756": {
+    "name": {
+      "chs": "矿巢之战",
+      "en": "Empty the Nest",
+      "ja": "ザ・ネスト",
+      "de": "Äther-Nesthocker",
+      "fr": "L'attaque des doblyns irradiés"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1757": {
+    "name": {
+      "chs": "贪婪的白色大树——弗蕾丽莎",
+      "en": "The Frailty of Life",
+      "ja": "欲深き白木「フラエリッサ」",
+      "de": "Nimmersatte Fraelissa",
+      "fr": "Défi: Fraelissa l'insatiable"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1758": {
+    "name": {
+      "chs": "迷津风玫瑰",
+      "en": "Sheaves on the Wind",
+      "ja": "風の十四方位",
+      "de": "Vom Sturm verweht",
+      "fr": "Aux quatre vents"
+    },
+    "level": 88,
+    "patch": 6,
+    "location": 956
+  },
+  "1763": {
+    "name": {
+      "chs": "兽道诸神信仰：伪神降临",
+      "en": "Devout Pilgrims vs. Daivadipa",
+      "ja": "ムリガ信仰：偽りの神",
+      "de": "Im Dienste der Mrga: Blasphemie",
+      "fr": "Le culte des Mrga: le faux dieu"
+    },
+    "level": 90,
+    "patch": 6,
+    "location": 957
+  },
+  "1764": {
+    "name": {
+      "chs": "芳香的炼金术士：危险的芬芳",
+      "en": "Full Petal Alchemist: Perilous Pickings",
+      "ja": "香りの錬金術師：危険な花摘み",
+      "de": "Der Duft der Alchemie: Gefahr im Blumenbeet",
+      "fr": "L'alchimiste des senteurs: une cueillette dangereuse"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 957
+  },
+  "1765": {
+    "name": {
+      "chs": "险象环生",
+      "en": "When Gaja Go Gaga",
+      "ja": "象は静かに座っていない",
+      "de": "Die Gaja sind Gaga!",
+      "fr": "Obstacles éléphantesques"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 957
+  },
+  "1766": {
+    "name": {
+      "chs": "我是海象",
+      "en": "I Am the Valras",
+      "ja": "アイ・アム・ザ・ヴァルラス",
+      "de": "Ich bin ein Vaalaras!",
+      "fr": "Code morse"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 957
+  },
+  "1767": {
+    "name": {
+      "chs": "恶寒与麻痹",
+      "en": "Shiver and Shock",
+      "ja": "悪寒と痺れ",
+      "de": "Zitterpartie",
+      "fr": "Frissons et tremblements"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 957
+  },
+  "1768": {
+    "name": {
+      "chs": "巨胆石采石场防线",
+      "en": "Of Claws and Gall",
+      "ja": "ギガントガル防衛戦線",
+      "de": "Gift und Galle",
+      "fr": "Bataillon de défense fiel-de-géant"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 957
+  },
+  "1769": {
+    "name": {
+      "chs": "受诅咒的恶鬼——恰纳菩提",
+      "en": "The Accursed Kanabhuti",
+      "ja": "呪われし悪鬼「カーナブーティ」",
+      "de": "Kanabhuti, der Fluch des Dschungels",
+      "fr": "Défi: Kanabhuti la malédiction de la jungle"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 957
+  },
+  "1770": {
+    "name": {
+      "chs": "少年与海",
+      "en": "The Little Nanka That Could",
+      "ja": "少年と海",
+      "de": "Der kleine Junge und das Meer",
+      "fr": "Le jeune homme et la mer"
+    },
+    "level": 81,
+    "patch": 6,
+    "location": 957
+  },
+  "1771": {
+    "name": {
+      "chs": "芳香的炼金术士：危险的回家路",
+      "en": "Full Petal Alchemist: Risky Return",
+      "ja": "香りの錬金術師：危険な帰路",
+      "de": "Der Duft der Alchemie: Gefahrvoller Heimweg",
+      "fr": "L'alchimiste des senteurs: un retour dangereux"
+    },
+    "level": 80,
+    "patch": 6,
+    "location": 957
+  },
+  "1772": {
+    "name": {
+      "chs": "兽道诸神信仰：迷途的巡礼者",
+      "en": "Devout Pilgrims vs. the Jungle Lizards",
+      "ja": "ムリガ信仰：迷える巡礼者",
+      "de": "Im Dienste der Mrga: Pilger in Not",
+      "fr": "Le culte des Mrga: pélerin perdu"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1773": {
+    "name": {
+      "chs": "当心脚下！",
+      "en": "Peek-a-Bhujamga",
+      "ja": "毒蛇を踏む",
+      "de": "Giftiges Spiel",
+      "fr": "Jeu empoisonné"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1774": {
+    "name": {
+      "chs": "乐园与食人猛虎",
+      "en": "Stalkers in the Shroud",
+      "ja": "衆園の人食いトラ",
+      "de": "Hinter dem Schleier lauert der Tod",
+      "fr": "Tigres mangeurs d'hommes"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1775": {
+    "name": {
+      "chs": "乳河的奇迹",
+      "en": "Swipe Eft",
+      "ja": "クシールローダ川の奇跡",
+      "de": "Das Wunder vom Ksiroda",
+      "fr": "Miracle dans la Ksiroda"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1776": {
+    "name": {
+      "chs": "彷徨的苍蛾",
+      "en": "Mesmerizing Moths",
+      "ja": "彷徨える蒼い蝶",
+      "de": "Wenn das Abendessen davonfliegt",
+      "fr": "Papillons vagabonds"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1777": {
+    "name": {
+      "chs": "暴虐的猴王——婆林",
+      "en": "Return of the Tyrant",
+      "ja": "暴虐の猿王「ヴァーリン」",
+      "de": "Valin der Tyrann",
+      "fr": "Défi: Valyn le tyran"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1778": {
+    "name": {
+      "chs": "猴子军团",
+      "en": "Monkeys on Your Back",
+      "ja": "猿の軍団",
+      "de": "Geifernde Affenbande",
+      "fr": "L'armée des singes"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1779": {
+    "name": {
+      "chs": "兽道诸神信仰：祈祷之时",
+      "en": "Devout Pilgrims vs. the Apalala",
+      "ja": "ムリガ信仰：祈りの時",
+      "de": "Im Dienste der Mrga: Stoßgebet",
+      "fr": "Le culte des Mrga: l'heure de la prière"
+    },
+    "level": 85,
+    "patch": 6,
+    "location": 957
+  },
+  "1783": {
+    "name": {
+      "chs": "魔导技师的归乡之旅：启程",
+      "en": "Artificial Malevolence: 15 Minutes to Comply",
+      "ja": "魔導技師の帰郷：ファースト・ステップ",
+      "de": "Reinwaschung eines Ingenieurs: Gefangen in der Todesmaschine",
+      "fr": "Retour au pays: premier faux pas"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1784": {
+    "name": {
+      "chs": "魔导技师的归乡之旅：落入陷阱",
+      "en": "Artificial Malevolence: The Drone Army",
+      "ja": "魔導技師の帰郷：フォール・イン・トラップ",
+      "de": "Reinwaschung eines Ingenieurs: Nieder mit den Maschinen",
+      "fr": "Retour au pays: chausse-trappe"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1785": {
+    "name": {
+      "chs": "艾布拉纳冰原战役",
+      "en": "Trespassers Will Be Eaten",
+      "ja": "エブラーナ戦記",
+      "de": "Gleich vergess ich mich",
+      "fr": "Les envahisseurs"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1786": {
+    "name": {
+      "chs": "寒潮前线事故频发",
+      "en": "A Snowball's Chance",
+      "ja": "寒冷前線異常あり",
+      "de": "Brennstoffsicherung",
+      "fr": "Chaud et froid"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1787": {
+    "name": {
+      "chs": "类人猿阿尔马斯提",
+      "en": "Not Yeti",
+      "ja": "類猿人アルマスティ",
+      "de": "Die Alma-Affenmänner",
+      "fr": "Un faux air de yéti"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1788": {
+    "name": {
+      "chs": "冰原搁浅",
+      "en": "Nettle Gear Solid",
+      "ja": "氷の罠",
+      "de": "Eine eisige Falle",
+      "fr": "Piège de glace"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1789": {
+    "name": {
+      "chs": "蔷薇色的碾压者——赫利奥加巴卢斯",
+      "en": "Roses Are Red, Violence Is Due",
+      "ja": "圧殺の薔薇「ヘリオガバルス」",
+      "de": "Der rosige Tod Heliogabalus",
+      "fr": "Défi:  Héliogabale, rose de sang"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1790": {
+    "name": {
+      "chs": "雪原的巨魔",
+      "en": "Amazing Crates",
+      "ja": "霜の巨人たち",
+      "de": "Riesen im Nebel",
+      "fr": "Ils en font des caisses"
+    },
+    "level": 82,
+    "patch": 6,
+    "location": 958
+  },
+  "1791": {
+    "name": {
+      "chs": "魔导技师的归乡之旅：实弹射击",
+      "en": "Artificial Malevolence: Unmanned Aerial Villains",
+      "ja": "魔導技師の帰郷：ビフォー・コンタクト",
+      "de": "Reinwaschung eines Ingenieurs: Auto-Gabriels",
+      "fr": "Retour au pays: l'ange malveillant"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1792": {
+    "name": {
+      "chs": "魔导技师的归乡之旅：指挥机梅塔特隆",
+      "en": "Artificial Malevolence: Mighty Metatron",
+      "ja": "魔導技師の帰郷：メタトロン・ベース",
+      "de": "Reinwaschung eines Ingenieurs: Metatron",
+      "fr": "Retour au pays: Metatron "
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1793": {
+    "name": {
+      "chs": "变形记",
+      "en": "Rocker, Roller, Out-of-controller",
+      "ja": "メタモルポーセース",
+      "de": "Rotulas auf Abwegen",
+      "fr": "Mauvaise conversion"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1794": {
+    "name": {
+      "chs": "一条军犬的使命",
+      "en": "Stray Dog Strut",
+      "ja": "カニス、吠えないのか？",
+      "de": "Hunde, die bellen, beißen auch",
+      "fr": "Pour qui aboies-tu?"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1795": {
+    "name": {
+      "chs": "彷徨的军队",
+      "en": "Exterminate, Exterminate",
+      "ja": "彷徨える軍隊",
+      "de": "Das Morden ist des Wand'rers Lust",
+      "fr": "Machines folles"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1796": {
+    "name": {
+      "chs": "内战的伤痕",
+      "en": "A Bit of a Problem",
+      "ja": "内乱記",
+      "de": "Folgen des Krieges",
+      "fr": "Rémanence guerrière"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1797": {
+    "name": {
+      "chs": "黄金的铁巨人——塞内卡",
+      "en": "The Man with the Golden Son",
+      "ja": "黄金の鉄巨人「セネカ」",
+      "de": "Der goldene Riese Seneca",
+      "fr": "Défi: Seneca le géant doré"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1798": {
+    "name": {
+      "chs": "资源回收分秒必争",
+      "en": "Parts Unknown",
+      "ja": "回収は一刻を争う！",
+      "de": "Hilfe bei der Reparatur",
+      "fr": "La récup', ça occupe "
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 958
+  },
+  "1803": {
+    "name": {
+      "chs": "叹息的白兔之轰隆隆大爆炸",
+      "en": "Lepus Lamentorum: Dynamite Disaster",
+      "ja": "嘆きの白兎：ばくばく大爆発",
+      "de": "Langohren des Mondes: Explosive Eindringlinge",
+      "fr": "Panique lapinesque: explosifs invasifs"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1804": {
+    "name": {
+      "chs": "叹息的白兔之乱糟糟大失控",
+      "en": "Lepus Lamentorum: Cleaner Catastrophe",
+      "ja": "嘆きの白兎：だめだめ大暴走",
+      "de": "Langohren des Mondes: Reiniger-Rabatz",
+      "fr": "Panique lapinesque: nettoyeurs tueurs"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1805": {
+    "name": {
+      "chs": "叹息的白兔之怒冲冲大处理",
+      "en": "Lepus Lamentorum: Crazy Contraption",
+      "ja": "嘆きの白兎：むきむき大処分",
+      "de": "Langohren des Mondes: Reif für die Tonne",
+      "fr": "Panique lapinesque: apiacée cuirassée"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1806": {
+    "name": {
+      "chs": "来自极地的怪物",
+      "en": "Mantids on the Moon",
+      "ja": "極地からの怪物",
+      "de": "Sicheln aus dem Zwielicht",
+      "fr": "La chose surgit des ténèbres"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1807": {
+    "name": {
+      "chs": "后续展开催人泪下",
+      "en": "One Giant Weep",
+      "ja": "お涙ちょうだい",
+      "de": "Keine Freude für die Fungi",
+      "fr": "Pas de compassion pour les champignons"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1808": {
+    "name": {
+      "chs": "来自星空的指引",
+      "en": "Cactus What You Preach",
+      "ja": "星は出ているか？",
+      "de": "Lunatender-Liebe",
+      "fr": "Il y a trop de pampas qui s'aiment"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1809": {
+    "name": {
+      "chs": "亚拉戈失控机甲",
+      "en": "Droids Gone Wild",
+      "ja": "ドロイドの大暴走",
+      "de": "Angriff der Droiden",
+      "fr": "L'attaque des droïdes"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1810": {
+    "name": {
+      "chs": "沉默的巨石——静海石魔",
+      "en": "The Stones of Silence",
+      "ja": "静かなる巨岩「トランキリティアイト」",
+      "de": "Weißer Gigant",
+      "fr": "Défi: le géant de la lune"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1811": {
+    "name": {
+      "chs": "月球的另一面",
+      "en": "The Strolling Stones",
+      "ja": "月の裏側",
+      "de": "Besuch von der dunklen Seite",
+      "fr": "La face cachée de la lune"
+    },
+    "level": 83,
+    "patch": 6,
+    "location": 959
+  },
+  "1812": {
+    "name": {
+      "chs": "急募终结者一名",
+      "en": "Tech Support Cull",
+      "ja": "フーリガン",
+      "de": "Unverlässlicher Support",
+      "fr": "Un accident chez les assistants"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1813": {
+    "name": {
+      "chs": "跨海而来的老饕",
+      "en": "Hunger Strikes",
+      "ja": "大海を隔てるがごとく",
+      "de": "Harsches Mondhabitat",
+      "fr": "Sur les deux rives d'un océan"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1814": {
+    "name": {
+      "chs": "保修期已过",
+      "en": "Scrapping the Scrapers",
+      "ja": "保証対象外",
+      "de": "Garantiezeitraum abgelaufen",
+      "fr": "Produits plus sous garantie"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1815": {
+    "name": {
+      "chs": "生产事故现场",
+      "en": "Taking Care of the Caretakers",
+      "ja": "クラッシュ",
+      "de": "Wertlose Wärter",
+      "fr": "Des infirmiers infernaux"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1816": {
+    "name": {
+      "chs": "头脑空空的思考者——思索之物",
+      "en": "Head Empty, Only Thoughts",
+      "ja": "虚ろなる思考者「セレブレイター」",
+      "de": "Der Plan des Schmarotzers",
+      "fr": "Défi: le penseur parasite"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1817": {
+    "name": {
+      "chs": "如何追求兔生刺激",
+      "en": "What a Thrill",
+      "ja": "スリリングな人生を",
+      "de": "Sauer macht süchtig",
+      "fr": "Addiction aux frissons"
+    },
+    "level": 84,
+    "patch": 6,
+    "location": 959
+  },
+  "1823": {
+    "name": {
+      "chs": "创造计划：角山羊观察任务",
+      "en": "Grand Designs: Aigokeros",
+      "ja": "創造計画：エゴーケロス観察",
+      "de": "Beobachtung: Aigokeros",
+      "fr": "Observation: aigokeros"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1824": {
+    "name": {
+      "chs": "创造计划：伊娥观察任务",
+      "en": "Grand Designs: Io",
+      "ja": "創造計画：イーオー観察",
+      "de": "Beobachtung: Io",
+      "fr": "Observation: io"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1825": {
+    "name": {
+      "chs": "蛇人之战",
+      "en": "Ophion-mania",
+      "ja": "人蛇大戦",
+      "de": "Gefährdetes Gleichgewicht",
+      "fr": "Serpents en<SoftHyphen/>va<SoftHyphen/>his<SoftHyphen/>sants"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1826": {
+    "name": {
+      "chs": "三棵浮游树——阿尔瑟伊斯",
+      "en": "The Rustling of Murderous Leaves",
+      "ja": "三本の浮遊樹「アルセイス」",
+      "de": "Die schwebenden Bäume",
+      "fr": "Défi: arbres trompeurs"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1827": {
+    "name": {
+      "chs": "尚未染血之时",
+      "en": "Butterfly Kisses of Death ",
+      "ja": "人間の血にまだ触れない",
+      "de": "Schmetterlinge schmettern",
+      "fr": "Succion interdite"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1828": {
+    "name": {
+      "chs": "难逃法网",
+      "en": "You Hurt My Researcher, Prepare to Die",
+      "ja": "リトリビューション",
+      "de": "Eine Lektion fürs Leben",
+      "fr": "Punition sévère"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1829": {
+    "name": {
+      "chs": "嘶鸣吧！愿奔腾若万雷蹄鸣！",
+      "en": "Drawing the Thunderstroke",
+      "ja": "嘶こう、感電するほどの喜びを！",
+      "de": "Himmeldonnerwetter!",
+      "fr": "Excitation électrisante"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1830": {
+    "name": {
+      "chs": "告死鸟",
+      "en": "Nature's Staunch Protector",
+      "ja": "死の鳥",
+      "de": "Fliegende Fressfeinde",
+      "fr": "Impitoyables serres"
+    },
+    "level": 86,
+    "patch": 6,
+    "location": 961
+  },
+  "1831": {
+    "name": {
+      "chs": "创造计划：过于新颖的理念",
+      "en": "Grand Designs: Unknown Execution",
+      "ja": "創造計画：斬新すぎたイデア",
+      "de": "Entsorgung: Das bekannte Unbekannte",
+      "fr": "Expérimentation: concept inconnu"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1832": {
+    "name": {
+      "chs": "创造计划：真正的新作——克琉普斯",
+      "en": "Grand Designs: The Newest of New",
+      "ja": "創造計画：真なる新作、クリュプス",
+      "de": "Entsorgung: Ur-Kyklops",
+      "fr": "Expérimentation: le bon concept"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1833": {
+    "name": {
+      "chs": "乐园的清泉",
+      "en": "Bad Breath in Paradise",
+      "ja": "楽園の泉",
+      "de": "Adel verpflichtet - eigentlich",
+      "fr": "Source paradisiaque"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1834": {
+    "name": {
+      "chs": "立于不败之地",
+      "en": "King of the Hill",
+      "ja": "敗れざる者たち",
+      "de": "Ruhet in Frieden",
+      "fr": "Cornus têtus"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1835": {
+    "name": {
+      "chs": "从天而降的谜团",
+      "en": "Why Did It Have to Be Medusae?",
+      "ja": "何かが空をやってくる",
+      "de": "Alles hat seinen Platz",
+      "fr": "Visiteuses dangereuses"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1836": {
+    "name": {
+      "chs": "以剧毒署名",
+      "en": "There's a Snake in My Water Supply!",
+      "ja": "名のある毒",
+      "de": "Bitte nicht trinken",
+      "fr": "Serpents pollueurs"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1837": {
+    "name": {
+      "chs": "食言而肥——欧律狄克",
+      "en": "Eurydike: All Bark, No Bite",
+      "ja": "食言の大樹「エウリュディケ」",
+      "de": "Schlechten Appetit!",
+      "fr": "Défi: transgression fatale"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1838": {
+    "name": {
+      "chs": "望请索克勒斯先生谅解",
+      "en": "So Sorry, Sokles",
+      "ja": "ソクレスへの弁明",
+      "de": "Sokles' Zorn",
+      "fr": "Copies trouées"
+    },
+    "level": 87,
+    "patch": 6,
+    "location": 961
+  },
+  "1843": {
+    "name": {
+      "chs": "侵略兵器召回指令：扩建通信设备",
+      "en": "Omicron Recall: Comms Expansion",
+      "ja": "カイのメモリーより：通信機拡張",
+      "de": "Aus dem Speicher von Chi: Aufrüstung des Kommunikators",
+      "fr": "Mémoire vive: mise à niveau"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1844": {
+    "name": {
+      "chs": "侵略兵器召回指令：保护N-6205",
+      "en": "Omicron Recall: Secure Connection",
+      "ja": "カイのメモリーより：N-6205防衛",
+      "de": "Aus dem Speicher von Chi: Gefahrenabwehr",
+      "fr": "Mémoire vive: pare-feu"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1845": {
+    "name": {
+      "chs": "龙星的挽歌",
+      "en": "Sound and Fury",
+      "ja": "竜星の挽歌",
+      "de": "Eine Spirale der Gewalt",
+      "fr": "Élégie à l'étoile du dragon"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1846": {
+    "name": {
+      "chs": "翼龙啊！愿你乘风扶摇！",
+      "en": "(No) Wind beneath Our Wings",
+      "ja": "風よ、竜に届いているか",
+      "de": "Vom Winde verlassen",
+      "fr": "Ô vent, as-tu trouvé les dragons?"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1847": {
+    "name": {
+      "chs": "荣光之翼——阿尔·艾因",
+      "en": "Wings of Glory",
+      "ja": "栄光の翼「アル・アイン」",
+      "de": "Ahl Eins vergangener Ruhm",
+      "fr": "Défi: les ailes de la gloire"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1848": {
+    "name": {
+      "chs": "走向永恒的结局",
+      "en": "Only Just Begun",
+      "ja": "永遠の終わり",
+      "de": "Das Ende der Ewigkeit",
+      "fr": "La fin de l'éternité"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1849": {
+    "name": {
+      "chs": "复仇之翼——桑·欧斯克",
+      "en": "Far from the Madding Horde",
+      "ja": "復讐の翼「サン・オスク」",
+      "de": "Than Oskhs Rache",
+      "fr": "Défi: les ailes de la vengeance"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1850": {
+    "name": {
+      "chs": "治疗忧郁的灵丹妙药",
+      "en": "Dead Inside",
+      "ja": "メランコリーの妙薬",
+      "de": "Kinder der Traurigkeit",
+      "fr": "Le remède à la mélancolie"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1851": {
+    "name": {
+      "chs": "风向有变",
+      "en": "Beacons of Lost Hope",
+      "ja": "変化の風",
+      "de": "Verlorene Existenzen",
+      "fr": "Les vents du changement"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1852": {
+    "name": {
+      "chs": "落入凡尘",
+      "en": "Fallen from Grace",
+      "ja": "輝くもの天より堕ち",
+      "de": "Vom Himmel gefallene Lichter",
+      "fr": "L'éclat choit du ciel"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1853": {
+    "name": {
+      "chs": "虚空中的视线",
+      "en": "Staring into the Void",
+      "ja": "虚空の眼",
+      "de": "Leere Blicke",
+      "fr": "Les yeux dans le ciel"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1854": {
+    "name": {
+      "chs": "漆黑的绝望——啵",
+      "en": "Nevermore",
+      "ja": "黒き絶望「ポォ」",
+      "de": "Ausgeburt finsterer Ver<SoftHyphen/>zweif<SoftHyphen/>lung",
+      "fr": "Défi: l'étoile du soir"
+    },
+    "level": 89,
+    "patch": 6,
+    "location": 960
+  },
+  "1855": {
+    "name": {
+      "chs": "侵略兵器召回指令：破坏侵略兵器希",
+      "en": "Omicron Recall: Killing Order",
+      "ja": "カイのメモリーより：侵略兵器の破壊",
+      "de": "Aus dem Speicher von Chi: Zerstörung",
+      "fr": "Mémoire vive: arrêter le processus"
+    },
+    "level": 90,
+    "patch": 6,
+    "location": 960
   }
 }

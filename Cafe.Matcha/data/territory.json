@@ -5522,6 +5522,13 @@
     "de": "Gefechtsplattform des G-Retters",
     "fr": "Ponton du Gardien-G"
   },
+  "952": {
+    "chs": "佐特塔",
+    "en": "The Tower of Zot",
+    "ja": "ゾットの塔",
+    "de": "Turm von Zot",
+    "fr": "Tour de Zott"
+  },
   "953": {
     "chs": "奥·哥摩罗火口神殿",
     "en": "The Navel",
@@ -5542,6 +5549,62 @@
     "ja": "失われた遺跡",
     "de": "Verlorene Ruinen",
     "fr": "Vestiges oubliés"
+  },
+  "956": {
+    "chs": "迷津",
+    "en": "Labyrinthos",
+    "ja": "ラヴィリンソス",
+    "de": "Labyrinthos",
+    "fr": "Le Labyrinthos"
+  },
+  "957": {
+    "chs": "萨维奈岛",
+    "en": "Thavnair",
+    "ja": "サベネア島",
+    "de": "Thavnair",
+    "fr": "Thavnair"
+  },
+  "958": {
+    "chs": "加雷马",
+    "en": "Garlemald",
+    "ja": "ガレマルド",
+    "de": "Garlemald",
+    "fr": "Garlemald"
+  },
+  "959": {
+    "chs": "叹息海",
+    "en": "Mare Lamentorum",
+    "ja": "嘆きの海",
+    "de": "Mare Lamentorum",
+    "fr": "Mare Lamentorum"
+  },
+  "960": {
+    "chs": "天外天垓",
+    "en": "Ultima Thule",
+    "ja": "ウルティマ・トゥーレ",
+    "de": "Ultima Thule",
+    "fr": "Ultima Thulé"
+  },
+  "961": {
+    "chs": "厄尔庇斯",
+    "en": "Elpis",
+    "ja": "エルピス",
+    "de": "Elpis",
+    "fr": "Elpis"
+  },
+  "962": {
+    "chs": "旧萨雷安",
+    "en": "Old Sharlayan",
+    "ja": "オールド・シャーレアン",
+    "de": "Alt-Sharlayan",
+    "fr": "Vieille Sharlayan"
+  },
+  "963": {
+    "chs": "拉札罕",
+    "en": "Radz-at-Han",
+    "ja": "ラザハン",
+    "de": "Radz-at-Han",
+    "fr": "Radz-at-Han"
   },
   "964": {
     "chs": "失落的遗迹",
@@ -5571,12 +5634,47 @@
     "de": "Trockendock von Castrum Marinum",
     "fr": "Cale sèche de Castrum Marinum"
   },
+  "969": {
+    "chs": "巴别塔",
+    "en": "The Tower of Babil",
+    "ja": "バブイルの塔",
+    "de": "Turm von Babil",
+    "fr": "Tour de Babil"
+  },
+  "970": {
+    "chs": "万相森国",
+    "en": "Vanaspati",
+    "ja": "ヴァナスパティ樹海",
+    "de": "Vanaspati",
+    "fr": "Vanaspati"
+  },
+  "971": {
+    "chs": "夜游魂总部",
+    "en": "Lemures Headquarters",
+    "ja": "レムレースのオフィス",
+    "de": "Hauptquartier der Lemuren",
+    "fr": "Repaire des Lémures"
+  },
   "972": {
     "chs": "对利维亚桑双体船",
     "en": "The Whorleater",
     "ja": "対リヴァイアサン双胴船",
     "de": "Der Wogenbrecher",
     "fr": "Briseur de marées"
+  },
+  "973": {
+    "chs": "末世终迹",
+    "en": "The Dead Ends",
+    "ja": "レムナント",
+    "de": "Das Sternengrab",
+    "fr": "L'Issue aux Impasses"
+  },
+  "974": {
+    "chs": "极北造物院",
+    "en": "Ktisis Hyperboreia",
+    "ja": "ヒュペルボレア造物院",
+    "de": "Ktisis Hyperboreia",
+    "fr": "Hyperborée"
   },
   "975": {
     "chs": "扎杜诺尔高原",
@@ -5585,6 +5683,13 @@
     "de": "Zadnor-Hochebene",
     "fr": "Hauts plateaux de Zadnor"
   },
+  "976": {
+    "chs": "笑笑镇",
+    "en": "Smileton",
+    "ja": "スマイルトン",
+    "de": "Smileton",
+    "fr": "Risette-sur-lune"
+  },
   "977": {
     "chs": "加尔提诺平原周边遗迹群",
     "en": "Carteneau Flats: Borderland Ruins",
@@ -5592,11 +5697,319 @@
     "de": "Äußere Ruinen",
     "fr": "Ruines frontalières"
   },
+  "978": {
+    "chs": "寻因星晶镜",
+    "en": "The Aitiascope",
+    "ja": "アイティオン星晶鏡",
+    "de": "Aitiaskop",
+    "fr": "Prisme de l'Aitia"
+  },
+  "979": {
+    "chs": "穹顶皓天",
+    "en": "Empyreum",
+    "ja": "エンピレアム",
+    "de": "Empyreum",
+    "fr": "Empyrée"
+  },
+  "985": {
+    "chs": "皓天炉舍大厅",
+    "en": "Ingleside Apartment Lobby",
+    "ja": "イングルサイド：ロビー",
+    "de": "Adlerblick (Eingangshalle)",
+    "fr": "Le Coin de l'Âtre (hall)"
+  },
+  "986": {
+    "chs": "斯提格玛四",
+    "en": "The Stigma Dreamscape",
+    "ja": "スティグマ・フォー",
+    "de": "Stigma-4",
+    "fr": "Rêve électrique de Stigma-4"
+  },
+  "987": {
+    "chs": "正厅",
+    "en": "Main Hall",
+    "ja": "メインホール",
+    "de": "Hauptsaal",
+    "fr": "Salon principal"
+  },
+  "990": {
+    "chs": "休息室",
+    "en": "Andron",
+    "ja": "ナップルーム",
+    "de": "Ruheräume",
+    "fr": "Chambre à coucher"
+  },
   "991": {
     "chs": "究极救世者G型战斗甲板",
     "en": "G-Savior Deck",
     "ja": "Gセイヴァー戦闘甲板",
     "de": "Gefechtsplattform des G-Retters",
     "fr": "Ponton du Gardien-G"
+  },
+  "992": {
+    "chs": "月球深处",
+    "en": "The Dark Inside",
+    "ja": "月の底",
+    "de": "Grund des Mondes",
+    "fr": "Prison lunaire"
+  },
+  "993": {
+    "chs": "月球深处",
+    "en": "The Dark Inside",
+    "ja": "月の底",
+    "de": "Grund des Mondes",
+    "fr": "Prison lunaire"
+  },
+  "994": {
+    "chs": "闹鬼盛宴",
+    "en": "The Phantoms' Feast",
+    "ja": "ホーンテッドフィースト",
+    "de": "Lustiges Bankett",
+    "fr": "Banquet cauchemardesque"
+  },
+  "995": {
+    "chs": "母水晶",
+    "en": "The Mothercrystal",
+    "ja": "マザークリスタル",
+    "de": "Urkristall",
+    "fr": "Cristal-mère"
+  },
+  "996": {
+    "chs": "母水晶",
+    "en": "The Mothercrystal",
+    "ja": "マザークリスタル",
+    "de": "Urkristall",
+    "fr": "Cristal-mère"
+  },
+  "997": {
+    "chs": "尽头的终点",
+    "en": "The Final Day",
+    "ja": "果ての終焉",
+    "de": "Am Rande des Endes",
+    "fr": "Orée de la fin"
+  },
+  "1000": {
+    "chs": "",
+    "en": "The Excitatron 6000",
+    "ja": "エキサイトロン",
+    "de": "Euphoratron",
+    "fr": "Ludodrome"
+  },
+  "1001": {
+    "chs": "作战会议室",
+    "en": "Strategy Room",
+    "ja": "作戦立案室",
+    "de": "Strategieraum",
+    "fr": "Salle des opérations"
+  },
+  "1002": {
+    "chs": "万魔殿正门",
+    "en": "The Gates of Pandæmonium",
+    "ja": "パンデモニウム正門",
+    "de": "Pforten des Pandæmoniums",
+    "fr": "Limbes du Pandæmonium - Parvis"
+  },
+  "1003": {
+    "chs": "万魔殿正门",
+    "en": "The Gates of Pandæmonium",
+    "ja": "パンデモニウム正門",
+    "de": "Pforten des Pandæmoniums",
+    "fr": "Limbes du Pandæmonium - Parvis"
+  },
+  "1004": {
+    "chs": "",
+    "en": "The Stagnant Limbo",
+    "ja": "パンデモニウム辺獄水道",
+    "de": "Trister Limbus",
+    "fr": "Limbes du Pandæmonium - Cloaque"
+  },
+  "1005": {
+    "chs": "",
+    "en": "The Stagnant Limbo",
+    "ja": "パンデモニウム辺獄水道",
+    "de": "Trister Limbus",
+    "fr": "Limbes du Pandæmonium - Cloaque"
+  },
+  "1006": {
+    "chs": "万魔殿边境下层",
+    "en": "The Fervid Limbo",
+    "ja": "パンデモニウム辺獄下層",
+    "de": "Glühender Limbus",
+    "fr": "Limbes du Pandæmonium - Fournaise"
+  },
+  "1007": {
+    "chs": "万魔殿边境下层",
+    "en": "The Fervid Limbo",
+    "ja": "パンデモニウム辺獄下層",
+    "de": "Glühender Limbus",
+    "fr": "Limbes du Pandæmonium - Fournaise"
+  },
+  "1008": {
+    "chs": "",
+    "en": "The Sanguine Limbo",
+    "ja": "パンデモニウム辺獄深層",
+    "de": "Blutender Limbus",
+    "fr": "Limbes du Pandæmonium - Abîme"
+  },
+  "1009": {
+    "chs": "",
+    "en": "The Sanguine Limbo",
+    "ja": "パンデモニウム辺獄深層",
+    "de": "Blutender Limbus",
+    "fr": "Limbes du Pandæmonium - Abîme"
+  },
+  "1010": {
+    "chs": "伟大冰原",
+    "en": "Magna Glacies",
+    "ja": "マグナ・グラキエス",
+    "de": "Magna Glacies",
+    "fr": "Magna Glacies"
+  },
+  "1011": {
+    "chs": "加雷马",
+    "en": "Garlemald",
+    "ja": "ガレマルド",
+    "de": "Garlemald",
+    "fr": "Garlemald"
+  },
+  "1012": {
+    "chs": "伟大冰原",
+    "en": "Magna Glacies",
+    "ja": "マグナ・グラキエス",
+    "de": "Magna Glacies",
+    "fr": "Magna Glacies"
+  },
+  "1013": {
+    "chs": "天际",
+    "en": "Beyond the Stars",
+    "ja": "天の最果て",
+    "de": "Äußerster Rand des Universums",
+    "fr": "Confins de l'univers"
+  },
+  "1014": {
+    "chs": "厄尔庇斯",
+    "en": "Elpis",
+    "ja": "エルピス",
+    "de": "Elpis",
+    "fr": "Elpis"
+  },
+  "1015": {
+    "chs": "黑衣森林中央林区",
+    "en": "Central Shroud",
+    "ja": "黒衣森：中央森林",
+    "de": "Tiefer Wald",
+    "fr": "Forêt centrale"
+  },
+  "1016": {
+    "chs": "沙斯塔夏溶洞",
+    "en": "Sastasha",
+    "ja": "サスタシャ浸食洞",
+    "de": "Sastasha-Höhle",
+    "fr": "Sastasha"
+  },
+  "1017": {
+    "chs": "岩燕庙",
+    "en": "The Swallow's Compass",
+    "ja": "ガンエン廟",
+    "de": "Kompass der Schwalbe",
+    "fr": "Compas de l'Hirondelle"
+  },
+  "1018": {
+    "chs": "伊修加德教皇厅",
+    "en": "The Vault",
+    "ja": "イシュガルド教皇庁",
+    "de": "Erzbasilika",
+    "fr": "La Voûte"
+  },
+  "1019": {
+    "chs": "基拉巴尼亚山区",
+    "en": "The Peaks",
+    "ja": "ギラバニア山岳地帯",
+    "de": "Die Zinnen",
+    "fr": "Les Pics"
+  },
+  "1020": {
+    "chs": "樵鸣洞",
+    "en": "Cutter's Cry",
+    "ja": "カッターズクライ",
+    "de": "Sägerschrei",
+    "fr": "Gouffre hurlant"
+  },
+  "1021": {
+    "chs": "暮卫塔",
+    "en": "Dusk Vigil",
+    "ja": "ダスクヴィジル",
+    "de": "Abendrot-Wacht",
+    "fr": "Vigile du Crépuscule"
+  },
+  "1022": {
+    "chs": "圣茉夏娜植物园",
+    "en": "Saint Mocianne's Arboretum",
+    "ja": "聖モシャーヌ植物園",
+    "de": "Sankt Mocianne-Arboretum",
+    "fr": "Arboretum Sainte-Mocianne"
+  },
+  "1023": {
+    "chs": "龙堡参天高地",
+    "en": "The Dravanian Forelands",
+    "ja": "高地ドラヴァニア",
+    "de": "Dravanisches Vorland",
+    "fr": "Avant-pays dravanien"
+  },
+  "1024": {
+    "chs": "神门之间",
+    "en": "The Nethergate",
+    "ja": "神門の間",
+    "de": "Gottesportal",
+    "fr": "Porte des Dieux"
+  },
+  "1025": {
+    "chs": "万魔殿正门",
+    "en": "The Gates of Pandæmonium",
+    "ja": "パンデモニウム正門",
+    "de": "Pforten des Pandæmoniums",
+    "fr": "Limbes du Pandæmonium - Parvis"
+  },
+  "1026": {
+    "chs": "天际",
+    "en": "Beyond the Stars",
+    "ja": "天の最果て",
+    "de": "Äußerster Rand des Universums",
+    "fr": "Confins de l'univers"
+  },
+  "1027": {
+    "chs": "天外天垓",
+    "en": "Ultima Thule",
+    "ja": "ウルティマ・トゥーレ",
+    "de": "Ultima Thule",
+    "fr": "Ultima Thulé"
+  },
+  "1028": {
+    "chs": "月球深处",
+    "en": "The Dark Inside",
+    "ja": "月の底",
+    "de": "Grund des Mondes",
+    "fr": "Prison lunaire"
+  },
+  "1029": {
+    "chs": "尽头的终点",
+    "en": "The Final Day",
+    "ja": "果ての終焉",
+    "de": "Am Rande des Endes",
+    "fr": "Orée de la fin"
+  },
+  "1030": {
+    "chs": "母水晶",
+    "en": "The Mothercrystal",
+    "ja": "マザークリスタル",
+    "de": "Urkristall",
+    "fr": "Cristal-mère"
+  },
+  "1031": {
+    "chs": "前关门",
+    "en": "Propylaion",
+    "ja": "プロピュライオン",
+    "de": "Propylaion",
+    "fr": "Le Propylée"
   }
 }

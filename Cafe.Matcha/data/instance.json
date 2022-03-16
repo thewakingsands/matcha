@@ -8399,21 +8399,6 @@
     "itemSync": 0,
     "memberType": 25
   },
-  "776": {
-    "name": {
-      "chs": "利维亚桑幻巧战",
-      "en": "the Whorleater (Unreal)",
-      "ja": "幻リヴァイアサン討滅戦",
-      "de": "Traumprüfung - Leviathan",
-      "fr": "le Briseur de marées (irréel)"
-    },
-    "type": 4,
-    "level": 80,
-    "levelSync": 80,
-    "item": 430,
-    "itemSync": 435,
-    "memberType": 3
-  },
   "777": {
     "name": {
       "chs": "黄金平原帕戈尔赞草原",
@@ -8503,5 +8488,560 @@
     "item": 510,
     "itemSync": 0,
     "memberType": 3
+  },
+  "783": {
+    "name": {
+      "chs": "异形楼阁佐特塔",
+      "en": "The Tower of Zot",
+      "ja": "異形楼閣 ゾットの塔",
+      "de": "Der Turm von Zot",
+      "fr": "La tour de Zott"
+    },
+    "type": 2,
+    "level": 81,
+    "levelSync": 82,
+    "item": 500,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "784": {
+    "name": {
+      "chs": "电脑梦境斯提格玛四",
+      "en": "The Stigma Dreamscape",
+      "ja": "電脳夢想 スティグマ・フォー",
+      "de": "Stigma-Holometrie",
+      "fr": "Rêve électrique de Stigma-4"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 540,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "785": {
+    "name": {
+      "chs": "魔导神门巴别塔",
+      "en": "The Tower of Babil",
+      "ja": "魔導神門 バブイルの塔",
+      "de": "Der Turm von Babil",
+      "fr": "La tour de Babil"
+    },
+    "type": 2,
+    "level": 83,
+    "levelSync": 84,
+    "item": 505,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "786": {
+    "name": {
+      "chs": "星海深幽寻因星晶镜",
+      "en": "The Aitiascope",
+      "ja": "星海潜航 アイティオン星晶鏡",
+      "de": "Das Aitiaskop",
+      "fr": "le Prisme de l'Aitia"
+    },
+    "type": 2,
+    "level": 89,
+    "levelSync": 90,
+    "item": 520,
+    "itemSync": 550,
+    "memberType": 2
+  },
+  "787": {
+    "name": {
+      "chs": "创造环境极北造物院",
+      "en": "Ktisis Hyperboreia",
+      "ja": "創造環境 ヒュペルボレア造物院",
+      "de": "Ktisis Hyperboreia",
+      "fr": "l'Hyperborée"
+    },
+    "type": 2,
+    "level": 87,
+    "levelSync": 88,
+    "item": 515,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "789": {
+    "name": {
+      "chs": "末日树海万相森国",
+      "en": "Vanaspati",
+      "ja": "終末樹海 ヴァナスパティ",
+      "de": "Vanaspati",
+      "fr": "Vanaspati"
+    },
+    "type": 2,
+    "level": 85,
+    "levelSync": 86,
+    "item": 510,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "790": {
+    "name": {
+      "chs": "海德林歼灭战",
+      "en": "The Mothercrystal",
+      "ja": "ハイデリン討滅戦",
+      "de": "Prophetie - Hydaelyn",
+      "fr": "Le Cristal-mère"
+    },
+    "type": 4,
+    "level": 89,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 3
+  },
+  "791": {
+    "name": {
+      "chs": "海德林晖光歼灭战",
+      "en": "The Minstrel's Ballad: Hydaelyn's Call",
+      "ja": "極ハイデリン討滅戦",
+      "de": "Eschatos - Hydaelyn",
+      "fr": "Le Cristal-mère (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "792": {
+    "name": {
+      "chs": "最终幻想末世终迹",
+      "en": "The Dead Ends",
+      "ja": "最終幻想 レムナント",
+      "de": "Das Sternengrab",
+      "fr": "L'Issue aux Impasses"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 540,
+    "itemSync": 570,
+    "memberType": 2
+  },
+  "793": {
+    "name": {
+      "chs": "无尽寒夜",
+      "en": "In from the Cold",
+      "ja": "寒夜のこと",
+      "de": "In fremder Haut",
+      "fr": "Le voleur de corps"
+    },
+    "type": 7,
+    "level": 83,
+    "levelSync": 83,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "794": {
+    "name": {
+      "chs": "乐园都市笑笑镇",
+      "en": "Smileton",
+      "ja": "楽園都市 スマイルトン",
+      "de": "Smileton",
+      "fr": "Risette-sur-lune"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 540,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "795": {
+    "name": {
+      "chs": "上一任阿谢姆的教导",
+      "en": "Worthy of His Back",
+      "ja": "前代アゼムの手ほどき",
+      "de": " Es reimt sich auf Gebell",
+      "fr": "Le défi de l'ancienne Azem"
+    },
+    "type": 7,
+    "level": 87,
+    "levelSync": 88,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "796": {
+    "name": {
+      "chs": "终结之战",
+      "en": "The Final Day",
+      "ja": "終焉の戦い",
+      "de": "Prophetie - Endsängerin",
+      "fr": "le Répons final"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 540,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "797": {
+    "name": {
+      "chs": "滑稽灵殿闹鬼盛宴",
+      "en": "The Phantoms' Feast",
+      "ja": "道化饗宴 ホーンテッドフィースト",
+      "de": "Lustiges Bankett",
+      "fr": "Le banquet cauchemardesque"
+    },
+    "type": 22,
+    "level": 1,
+    "levelSync": 1,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "798": {
+    "name": {
+      "chs": "晓月之终途",
+      "en": "Endwalker",
+      "ja": "暁月のフィナーレ",
+      "de": "Endschreiter",
+      "fr": "Arpenteur des finitudes"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
+  },
+  "799": {
+    "name": {
+      "chs": "驶向融合的巨轮",
+      "en": "To Calmer Seas",
+      "ja": "融和への船出",
+      "de": "Im Hafen des Friedens",
+      "fr": "Cap sur la paix"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
+  },
+  "800": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Fourth Circle",
+      "ja": "万魔殿パンデモニウム：辺獄編4",
+      "de": "Asphodelos - Vierter Kreis",
+      "fr": "Les Limbes du Pandæmonium - Abîme"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 565,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "801": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Fourth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：辺獄編4",
+      "de": "Asphodelos - Vierter Kreis (episch)",
+      "fr": "Les Limbes du Pandæmonium - Abîme (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 580,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "802": {
+    "name": {
+      "chs": "佐迪亚克歼灭战",
+      "en": "The Dark Inside",
+      "ja": "ゾディアーク討滅戦",
+      "de": "Prophetie - Zodiark",
+      "fr": "Le Cratère des Martyrs"
+    },
+    "type": 4,
+    "level": 83,
+    "levelSync": 84,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "803": {
+    "name": {
+      "chs": "佐迪亚克暝暗歼灭战",
+      "en": "The Minstrel's Ballad: Zodiark's Fall",
+      "ja": "極ゾディアーク討滅戦",
+      "de": "Eschatos - Zodiark",
+      "fr": "Le Cratère des Martyrs (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "804": {
+    "name": {
+      "chs": "扩散的末日",
+      "en": "As the Heavens Burn",
+      "ja": "拡がる終末",
+      "de": "Rote Himmel, roter Schnee",
+      "fr": "L'arène des neiges"
+    },
+    "type": 7,
+    "level": 88,
+    "levelSync": 88,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "805": {
+    "name": {
+      "chs": "未来之路",
+      "en": "A Path Unveiled",
+      "ja": "開かれた道の先へ",
+      "de": "Offen für neue Wege",
+      "fr": "Des esprits et des hommes"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
+  },
+  "806": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Third Circle",
+      "ja": "万魔殿パンデモニウム：辺獄編3",
+      "de": "Asphodelos - Dritter Kreis",
+      "fr": "Les Limbes du Pandæmonium - Fournaise"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 565,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "807": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Third Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：辺獄編3",
+      "de": "Asphodelos - Dritter Kreis (episch)",
+      "fr": "Les Limbes du Pandæmonium - Fournaise (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 580,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "808": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The First Circle",
+      "ja": "万魔殿パンデモニウム：辺獄編1",
+      "de": "Asphodelos - Erster Kreis",
+      "fr": "Les Limbes du Pandæmonium - Parvis"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 565,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "809": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The First Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：辺獄編1",
+      "de": "Asphodelos - Erster Kreis (episch)",
+      "fr": "Les Limbes du Pandæmonium - Parvis (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 570,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "810": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Second Circle",
+      "ja": "万魔殿パンデモニウム：辺獄編2",
+      "de": "Asphodelos - Zweiter Kreis",
+      "fr": "Les Limbes du Pandæmonium - Cloaque"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 565,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "811": {
+    "name": {
+      "chs": "",
+      "en": "Asphodelos: The Second Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：辺獄編2",
+      "de": "Asphodelos - Zweiter Kreis (episch)",
+      "fr": "Les Limbes du Pandæmonium - Cloaque (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 575,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "812": {
+    "name": {
+      "chs": "踏破风雪",
+      "en": "A Frosty Reception",
+      "ja": "霜雪を踏みしめて",
+      "de": "Ein frostiger Empfang",
+      "fr": "Un accueil glacial"
+    },
+    "type": 7,
+    "level": 82,
+    "levelSync": 82,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "813": {
+    "name": {
+      "chs": "贤者的短杖",
+      "en": "Sage's Focus",
+      "ja": "賢者の短杖",
+      "de": "Des Weisen wundersames Werkzeug",
+      "fr": "Les armes du sage"
+    },
+    "type": 7,
+    "level": 70,
+    "levelSync": 70,
+    "item": 0,
+    "itemSync": 395,
+    "memberType": 1
+  },
+  "814": {
+    "name": {
+      "chs": "大镰的意义",
+      "en": "The Harvest Begins",
+      "ja": "大鎌の意味",
+      "de": "Die Bedeutung der Sense",
+      "fr": "La vraie puissance de la faux"
+    },
+    "type": 7,
+    "level": 70,
+    "levelSync": 70,
+    "item": 0,
+    "itemSync": 395,
+    "memberType": 1
+  },
+  "815": {
+    "name": {
+      "chs": "仰望苍穹，不断迈进",
+      "en": "Ever March Heavensward",
+      "ja": "蒼天を仰ぎ、歩み続ける",
+      "de": "Der Weg zur Erneuerung",
+      "fr": "La voie du renouveau"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
+  },
+  "816": {
+    "name": {
+      "chs": "暗杀道",
+      "en": "The Killing Art",
+      "ja": "暗殺道",
+      "de": "Die Kunst des Tötens",
+      "fr": "La voie du néant"
+    },
+    "type": 7,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 525,
+    "memberType": 1
+  },
+  "817": {
+    "name": {
+      "chs": "生命瞬逝，术道恒久",
+      "en": "Life Ephemeral, Path Eternal",
+      "ja": "人命は儚く、術のみちは永久に",
+      "de": "Das Leben ist kurz, die Kunst ist lang",
+      "fr": "Existences éphémères et savoir éternel"
+    },
+    "type": 7,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 525,
+    "memberType": 1
+  },
+  "818": {
+    "name": {
+      "chs": "英魂安息",
+      "en": "Laid to Rest",
+      "ja": "ドマの弔い",
+      "de": "Domanisches Begräbnis",
+      "fr": "Des adieux domiens"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
+  },
+  "819": {
+    "name": {
+      "chs": "",
+      "en": "The Excitatron 6000",
+      "ja": "宝物庫 エキサイトロン",
+      "de": "Euphoratron",
+      "fr": "Le Ludodrome"
+    },
+    "type": 9,
+    "level": 1,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "820": {
+    "name": {
+      "chs": "目送生者前行",
+      "en": "The Gift of Mercy",
+      "ja": "僕たちは還り、君を見送ろう",
+      "de": "Trauer und Hoffnung",
+      "fr": "Acceptation"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 550,
+    "memberType": 1
   }
 }
