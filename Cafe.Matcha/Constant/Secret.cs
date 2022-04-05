@@ -7,5 +7,8 @@ namespace Cafe.Matcha.Constant
     {
         public static string TelemetryRoot = "";
         public static string UniversalisKey = "";
+
+        public static string TelemetryFate = "";
+        public static string TelemetryNpc = "";
     }
 }

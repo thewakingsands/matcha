@@ -8,7 +8,7 @@
              xmlns:constant="clr-namespace:Cafe.Matcha.Constant"
              xmlns:ViewModels="clr-namespace:Cafe.Matcha.ViewModels"
              x:Name="_this" x:Class="Cafe.Matcha.Views.MainControl"
-             mc:Ignorable="d" d:DesignWidth="800" Height="492.287">
+             mc:Ignorable="d" d:DesignWidth="800" Height="531">
 
     <UserControl.DataContext>
         <ViewModels:MainViewModel />

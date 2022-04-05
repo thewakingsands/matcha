@@ -20,24 +20,24 @@ namespace Cafe.Matcha.Models
         private ConfigData(
             Region? region,
             Language? language,
-            string uuid,
             string hash,
             ConfigOutput output,
             ConfigFormatter formatter,
             ConfigLogger logger,
             ConfigWatch watch,
             ConfigOverlay overlay,
+            ConfigTelemetry telemetry,
             ObservableCollection<ConfigWebhook> webhook)
         {
             Region = region;
             Language = language;
-            UUID = uuid ?? null;
             Hash = hash ?? null;
             Output = output ?? new ConfigOutput();
             Formatter = formatter ?? new ConfigFormatter();
             Logger = logger ?? new ConfigLogger();
             Watch = watch ?? new ConfigWatch();
             Overlay = overlay ?? new ConfigOverlay();
+            Telemetry = telemetry ?? new ConfigTelemetry();
             Webhook = webhook ?? new ObservableCollection<ConfigWebhook>();
         }
 
@@ -47,34 +47,13 @@ namespace Cafe.Matcha.Models
         [JsonProperty("language")]
         public Language? Language { get; set; }
 
-        public string UUID { get; set; }
-
         public string Hash { get; set; }
-
-        [JsonIgnore]
-        public uint UUIDHash
-        {
-            get
-            {
-                if (string.IsNullOrEmpty(UUID) || UUID == "no")
-                {
-                    return 0;
-                }
-
-                if (Guid.TryParse(UUID, out var guid))
-                {
-                    var array = guid.ToByteArray();
-                    return BitConverter.ToUInt32(array, 0);
-                }
-                else
-                {
-                    return 0;
-                }
-            }
-        }
 
         [JsonProperty("overlay")]
         public ConfigOverlay Overlay { get; set; }
+
+        [JsonProperty("telemetry")]
+        public ConfigTelemetry Telemetry { get; set; }
 
         [JsonProperty("watch")]
         public ConfigWatch Watch { get; set; }
@@ -111,6 +90,18 @@ namespace Cafe.Matcha.Models
 
         [JsonProperty("header")]
         public string Header { get; set; }
+    }
+
+    public class ConfigTelemetry : BindingTarget
+    {
+        [JsonProperty("enable")]
+        public bool Enable { get; set; } = false;
+
+        [JsonProperty("uuid")]
+        public string UUID { get; set; } = null;
+
+        [JsonProperty("agreement")]
+        public string Agreement { get; set; } = null;
     }
 
     public class ConfigOverlay : BindingTarget

@@ -3,10 +3,12 @@
 
 namespace Cafe.Matcha.Utils
 {
+    using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using System.Windows;
     using Cafe.Matcha.Constant;
+    using Cafe.Matcha.Models;
     using Cafe.Matcha.Views;
 
     internal class TelemetryWorker<T> where T : Models.TelemetryData
@@ -78,40 +80,58 @@ namespace Cafe.Matcha.Utils
             Instance = new Telemetry();
         }
 
-        private bool enabled = false;
-
-        private void UpdateEnabled()
+        public bool Enabled
         {
-            enabled = Config.Instance.UUID != null && Config.Instance.UUID != "no" && !string.IsNullOrEmpty(Secret.TelemetryRoot);
+            get
+            {
+                var hasUUID = Config.UUID != null && Config.UUID != "no";
+                return Config.Enable && hasUUID && !string.IsNullOrEmpty(Secret.TelemetryRoot);
+            }
+            set
+            {
+                if (value)
+                {
+                    Config.Enable = true;
+                    Config.Agreement = CurrentAgreement;
+                    if (string.IsNullOrEmpty(Config.UUID))
+                    {
+                        Config.UUID = Guid.NewGuid().ToString();
+                    }
+                }
+                else
+                {
+                    Config.Enable = false;
+                    Config.Agreement = "no";
+                    Config.UUID = null;
+                }
+            }
         }
+
+        private const string CurrentAgreement = "20220406";
+
+        private ConfigTelemetry Config => Matcha.Config.Instance.Telemetry;
 
         public Telemetry()
         {
-            if (Config.Instance.UUID == null)
+            if (Config.Agreement == null || (Config.Enable && Config.Agreement != CurrentAgreement))
             {
-                var dialog = new TelemetrySetting();
+                var dialog = new TelemetrySetting(true);
                 dialog.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                 dialog.Topmost = true;
-                dialog.ShowDialog();
+                dialog.Show();
             }
-
-            UpdateEnabled();
-            Config.Instance.PropertyChanged += (sender, e) =>
-            {
-                if (e.PropertyName == "UUID")
-                {
-                    UpdateEnabled();
-                }
-            };
         }
 
         public void Send(string bucketId, IEnumerable<Models.TelemetryData> data)
         {
-            if (!enabled)
+            if (!Enabled)
             {
                 return;
             }
 
+#if DEBUG
+            Log.Warn($"[Telemetry] Posting to {Secret.TelemetryRoot}/{bucketId}");
+#endif
             _ = Request.SendAsJson($"{Secret.TelemetryRoot}/{bucketId}/batch", "", data);
         }
     }

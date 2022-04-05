@@ -31,6 +31,7 @@ const opcodes = [
   'MarketBoardItemListing',
   'MarketBoardItemListingCount',
   'MarketBoardItemListingHistory',
+  'NpcSpawn',
   'PlayerSetup',
   'PlayerSpawn'
 ]

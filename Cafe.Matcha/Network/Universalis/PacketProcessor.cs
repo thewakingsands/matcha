@@ -77,8 +77,9 @@
         {
             if (opcode == MatchaOpcode.PlayerSetup)
             {
-                LocalContentId = BitConverter.ToUInt64(message, 0x20);
-                LocalContentId = LocalContentId & 0xffffffff00000000 | (uint)Config.Instance.UUIDHash; // mask the lower 32 bit for privacy concern
+                // Mask lower-32bit for privacy concern
+                LocalContentId = BitConverter.ToUInt64(message, 0x20) & 0xffffffff00000000;
+                LocalContentId = LocalContentId | GetClientIdentifier();
                 Log?.Invoke(this, $"New CID: {LocalContentId.ToString("X")}");
                 LocalContentIdUpdated?.Invoke(this, LocalContentId);
                 return null;
@@ -234,6 +235,25 @@
             }
 
             return null;
+        }
+
+        private uint GetClientIdentifier()
+        {
+            var uuid = Config.Instance.Telemetry.UUID;
+            if (string.IsNullOrEmpty(uuid))
+            {
+                return 0;
+            }
+
+            if (Guid.TryParse(uuid, out var guid))
+            {
+                var array = guid.ToByteArray();
+                return BitConverter.ToUInt32(array, 0);
+            }
+            else
+            {
+                return 0;
+            }
         }
     }
 }

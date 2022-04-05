@@ -6,6 +6,11 @@
     {
         private ushort worldId = 0;
         private ushort zoneId = 0;
+
+        public ushort InstanceId { get; set; } = 0;
+
+        public ushort ServerId { get; set; } = 0;
+
         public ushort WorldId
         {
             get

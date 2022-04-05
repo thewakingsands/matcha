@@ -6,7 +6,10 @@
         xmlns:ViewModels="clr-namespace:Cafe.Matcha.ViewModels"
         mc:Ignorable="d"
         Title="TelemetrySetting" Height="192" Width="480" ResizeMode="NoResize" SourceInitialized="Window_SourceInitialized">
-    
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+
     <Window.DataContext>
         <ViewModels:TelemetrySetting />
     </Window.DataContext>
@@ -15,12 +18,16 @@
         <StackPanel x:Name="lMain" Margin="6,0,6,44">
             <TextBlock Margin="0,9,0,0">
                 <AccessText TextWrapping="WrapWithOverflow">
-                    启用公共数据汇报可以帮助我们提供更准确的数据，并更快地修复插件问题、适配新版本。
+                    启用公共数据汇报可以帮助我们提供更准确的数据，并修复插件问题、适配新版本。
                 </AccessText>
             </TextBlock>
-            <TextBlock Margin="0,6,0,0">
+            <TextBlock Margin="0,0,0,0" >
                 有关公共数据汇报的具体细节，请查看
                 <Hyperlink NavigateUri="https://ffcafe.org/matcha/privacy" RequestNavigate="Hyperlink_RequestNavigate">隐私声明</Hyperlink>
+                。
+            </TextBlock>
+            <TextBlock Margin="0,6,0,0" Visibility="{Binding IsInit, Converter={StaticResource BooleanToVisibilityConverter}}">
+                由于您是首次启用本插件或隐私声明已更新，请您确认是否启用公共数据汇报。
             </TextBlock>
             <TextBlock Margin="0,6,0,0">
                 注意：依照《通用数据保护条例》，欧盟用户请勿启用公共数据汇报

@@ -43,13 +43,13 @@ namespace Cafe.Matcha.Telemetry
 
         public override string ToString()
         {
-            return $"Fate {{ Id={FateId}, Zone={Zone} }}";
+            return $"Fate {{ Id={FateId}, Zone={Zone} }} {base.ToString()}";
         }
     }
 
     internal class Fate : TelemetryWorker<FateInitDTO>
     {
-        public Fate() : base("cc5a99c0-6296-11ea-8409-b51101308fa3") { }
+        public Fate() : base(Constant.Secret.TelemetryFate) { }
 
         public void Send(uint fateId)
         {

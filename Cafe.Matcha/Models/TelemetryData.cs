@@ -11,20 +11,28 @@ namespace Cafe.Matcha.Models
     {
         public TelemetryData()
         {
-            ClientId = Config.Instance.UUID;
+            ClientId = Config.Instance.Telemetry.UUID;
             Version = Data.Version;
             Date = DateTime.Now.ToString("yyyy-MM-dd");
             Timestamp = DateTimeOffset.Now.ToUnixTimeMilliseconds();
 
-            Server = Network.State.Instance.WorldId;
+            World = Network.State.Instance.WorldId;
+            Server = Network.State.Instance.ServerId;
             Zone = Network.State.Instance.ZoneId;
+            Instance = Network.State.Instance.InstanceId;
         }
 
+        [JsonProperty("world")]
+        public ushort World = 0;
+
         [JsonProperty("server")]
-        public uint Server = 0;
+        public ushort Server = 0;
 
         [JsonProperty("zone")]
-        public uint Zone = 0;
+        public ushort Zone = 0;
+
+        [JsonProperty("instance")]
+        public ushort Instance = 0;
 
         [JsonProperty("client_id")]
         public string ClientId;
@@ -61,6 +69,11 @@ namespace Cafe.Matcha.Models
         public override int GetHashCode()
         {
             return Server.GetHashCode() ^ Zone.GetHashCode() ^ Timestamp.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return $"TData {{ World={World}, Server={Server}, Zone={Zone}, Instance={Instance} }} {base.ToString()}";
         }
     }
 }

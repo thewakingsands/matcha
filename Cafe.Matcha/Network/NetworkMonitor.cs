@@ -21,6 +21,7 @@ namespace Cafe.Matcha.Network
     internal class NetworkMonitor : INetworkMonitor
     {
         private Fate fateTelemetry = new Fate();
+        private NpcSpawn npcTelemetry = new NpcSpawn();
 
         private bool ToMatchaOpcode(ushort opcode, out MatchaOpcode matchaOpcode)
         {
@@ -165,6 +166,32 @@ namespace Cafe.Matcha.Network
                         Y = (int)BitConverter.ToUInt32(data, 16),
                         Value = (int)BitConverter.ToUInt32(data, 20)
                     });
+                }
+            }
+            else if (opcode == MatchaOpcode.NpcSpawn)
+            {
+                if (message.Length != 672)
+                {
+                    return false;
+                }
+
+                var bNpcName = BitConverter.ToUInt32(data, 68);
+                var hpMax = BitConverter.ToUInt32(data, 92);
+                var hpCur = BitConverter.ToUInt32(data, 96);
+                var fateId = BitConverter.ToUInt16(data, 104);
+                var level = data[127];
+
+                if (fateId != 0 || IsSpecialNpcName(bNpcName))
+                {
+                    npcTelemetry.Send(
+                        bNpcName,
+                        fateId,
+                        BitConverter.ToSingle(data, 504),
+                        BitConverter.ToSingle(data, 508),
+                        BitConverter.ToSingle(data, 512),
+                        level,
+                        hpMax
+                    );
                 }
             }
             else if (opcode == MatchaOpcode.ActorControlSelf)
@@ -330,7 +357,10 @@ namespace Cafe.Matcha.Network
                     return false;
                 }
 
+                State.Instance.ServerId = BitConverter.ToUInt16(data, 0);
                 State.Instance.ZoneId = BitConverter.ToUInt16(data, 2);
+                State.Instance.InstanceId = BitConverter.ToUInt16(data, 4);
+
                 FireEvent(new InitZoneDTO()
                 {
                     Zone = State.Instance.ZoneId,
@@ -553,6 +583,17 @@ namespace Cafe.Matcha.Network
             }
 
             return true;
+        }
+
+        private bool IsSpecialNpcName(uint bNpcName)
+        {
+            return (bNpcName >= 2919 && bNpcName <= 2969) ||
+                   (bNpcName >= 4350 && bNpcName <= 4378) ||
+                    bNpcName == 4380 ||
+                   (bNpcName >= 5984 && bNpcName <= 6013) ||
+                   (bNpcName >= 8653 && bNpcName <= 8657) ||
+                   (bNpcName >= 8890 && bNpcName <= 8916) ||
+                   (bNpcName >= 10615 && bNpcName <= 10616);
         }
 
         public delegate void ExceptionHandler(Exception e);

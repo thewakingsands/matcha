@@ -24,15 +24,15 @@ namespace Cafe.Matcha.Views
             }
         }
 
-        public TelemetrySetting()
+        public TelemetrySetting(bool shouldUpdate = false)
         {
             InitializeComponent();
             Title = "公共数据汇报设置 - " + Data.Title;
 
-            ViewModel.IsInit = Config.Instance.UUID == null;
+            ViewModel.IsInit = shouldUpdate;
             if (!ViewModel.IsInit)
             {
-                ViewModel.Enabled = Config.Instance.UUID != "no";
+                ViewModel.Enabled = Telemetry.Instance.Enabled;
             }
             else
             {
@@ -42,18 +42,7 @@ namespace Cafe.Matcha.Views
 
         private void BOK_Click(object sender, RoutedEventArgs e)
         {
-            if (ViewModel.Enabled)
-            {
-                if (Config.Instance.UUID == null || Config.Instance.UUID == "no")
-                {
-                    Config.Instance.UUID = Guid.NewGuid().ToString();
-                }
-            }
-            else
-            {
-                Config.Instance.UUID = "no";
-            }
-
+            Telemetry.Instance.Enabled = ViewModel.Enabled;
             Close();
         }
 
@@ -61,7 +50,7 @@ namespace Cafe.Matcha.Views
         {
             if (ViewModel.IsInit)
             {
-                Config.Instance.UUID = "no";
+                Telemetry.Instance.Enabled = false;
             }
 
             Close();

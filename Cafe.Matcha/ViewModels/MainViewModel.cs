@@ -205,11 +205,6 @@ namespace Cafe.Matcha.ViewModels
         {
             Config.Instance.PropertyChanged += (sender, e) =>
             {
-                if (e.PropertyName == "UUID")
-                {
-                    EmitPropertyChanged("DataReport");
-                }
-
                 if (e.PropertyName == "Language")
                 {
                     var ne = new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset);
@@ -217,6 +212,11 @@ namespace Cafe.Matcha.ViewModels
                     Fates.EmitCollectionChanged(ne);
                     Templates.EmitCollectionChanged(ne);
                 }
+            };
+
+            Config.Instance.Telemetry.PropertyChanged += (sender, e) =>
+            {
+                EmitPropertyChanged("DataReport");
             };
 
             Data.Instance.DataLoaded += (sender, e) =>
@@ -289,13 +289,13 @@ namespace Cafe.Matcha.ViewModels
         {
             get
             {
-                var uuid = Config.Instance.UUID;
-                if (uuid == null)
+                if (Config.Instance.Telemetry.Enable)
                 {
-                    return "未设置";
+                    return "启用";
                 }
 
-                return uuid == "no" ? "禁用" : "启用";
+                var agreement = Config.Instance.Telemetry.Agreement;
+                return agreement == "no" ? "禁用" : "未设置";
             }
         }
 
