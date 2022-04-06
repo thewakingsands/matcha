@@ -183,12 +183,13 @@ namespace Cafe.Matcha.Network
 
                 if (fateId != 0 || IsSpecialNpcName(bNpcName))
                 {
+                    const int posOffset = 508;
                     npcTelemetry.Send(
                         bNpcName,
                         fateId,
-                        BitConverter.ToSingle(data, 504),
-                        BitConverter.ToSingle(data, 508),
-                        BitConverter.ToSingle(data, 512),
+                        BitConverter.ToSingle(data, posOffset),
+                        BitConverter.ToSingle(data, posOffset + 4),
+                        BitConverter.ToSingle(data, posOffset + 8),
                         level,
                         hpMax
                     );
