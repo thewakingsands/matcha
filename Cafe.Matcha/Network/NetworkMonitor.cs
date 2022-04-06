@@ -594,7 +594,7 @@ namespace Cafe.Matcha.Network
                    (bNpcName >= 5984 && bNpcName <= 6013) ||
                    (bNpcName >= 8653 && bNpcName <= 8657) ||
                    (bNpcName >= 8890 && bNpcName <= 8916) ||
-                   (bNpcName >= 10615 && bNpcName <= 10616);
+                   (bNpcName >= 10615 && bNpcName <= 10646);
         }
 
         public delegate void ExceptionHandler(Exception e);
