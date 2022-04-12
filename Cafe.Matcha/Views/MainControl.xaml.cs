@@ -322,30 +322,6 @@ namespace Cafe.Matcha.Views
             }
         }
 
-        private void BSettingCriticalEngagementTest_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                Output.Send(Formatter.GetEventText(new DynamicEventDTO { Event = 1 }));
-            }
-            catch (Exception err)
-            {
-                LogException(err);
-            }
-        }
-
-        private void BSettingTreasureTest_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                Output.Send(Formatter.GetEventText(new TreasureResultDTO { Value = "wheel-special" }));
-            }
-            catch (Exception err)
-            {
-                LogException(err);
-            }
-        }
-
         private void BSettingInstTest_Click(object sender, RoutedEventArgs e)
         {
             if (Data.Instance.Instances.Count == 0)
@@ -365,17 +341,6 @@ namespace Cafe.Matcha.Views
             }
         }
 
-        private void BSettingFishTest_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                Output.Send(Formatter.GetEventText(new FishBiteDTO { Type = 2 }));
-            }
-            catch (Exception err)
-            {
-                LogException(err);
-            }
-        }
 
         private void BSettingSetTemplate_Click(object sender, RoutedEventArgs e)
         {

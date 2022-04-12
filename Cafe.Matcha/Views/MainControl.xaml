@@ -135,19 +135,6 @@
                                 <Button x:Name="bSettingOutputTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingOutputTest_Click"/>
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="钓鱼播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                            <Grid Height="30">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="1*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <CheckBox Content="咬钩" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.Bite, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                                <CheckBox Content="咬钩力度" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.BiteType, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
-                                <Button x:Name="bSettingFishTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingFishTest_Click"/>
-                            </Grid>
-                        </GroupBox>
                         <GroupBox Header="副本播报内容" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -177,29 +164,30 @@
                                 <Button x:Name="bSettingZoneTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingZoneTest_Click"/>
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="挖宝播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                            <Grid Height="30">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="3*"/>
-                                    <ColumnDefinition Width="1*"/>
-                                </Grid.ColumnDefinitions>
+                        <Grid Height="52" DockPanel.Dock="Top" Margin="0,6,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <GroupBox Header="钓鱼播报" Height="52" VerticalAlignment="Top" Margin="0,0,3,0">
+                                <Grid Height="30">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
 
+                                    <CheckBox Content="咬钩" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.Bite, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                                    <CheckBox Content="咬钩力度" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Fish.BiteType, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center" Grid.Column="1"/>
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox Header="挖宝播报" Height="52" VerticalAlignment="Top" Grid.Column="1" Margin="3,0,3,0">
                                 <CheckBox Content="结果预报" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Treasure.Result, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                                <Button x:Name="bSettingTreasureTest" Content="测试" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingTreasureTest_Click"/>
-                            </Grid>
-                        </GroupBox>
-                        <GroupBox Header="遭遇战（博兹雅）播报" Height="52" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
-                            <Grid Height="30">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="1*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <CheckBox Content="名称" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
-                                <Button x:Name="bSettingCriticalEngagementTest" Content="测试" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,6,0" VerticalAlignment="Center" Width="50" Height="24" Click="BSettingCriticalEngagementTest_Click"/>
-                            </Grid>
-                        </GroupBox>
+                            </GroupBox>
+                            <GroupBox Header="博兹雅播报" Height="52" VerticalAlignment="Top" Grid.Column="2" Margin="3,0,0,0">
+                                <CheckBox Content="遭遇战" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
+                            </GroupBox>
+                        </Grid>
                         <GroupBox Header="日志及数据共享" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
                                 <Grid.RowDefinitions>
