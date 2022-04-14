@@ -1,4 +1,5 @@
 const opcodes = [
+  'ActorControl',
   'ActorControlSelf',
   {
     // https://github.com/quisquous/cactbot/blob/main/plugin/CactbotEventSource/FateWatcher.cs#L45
@@ -25,6 +26,7 @@ const opcodes = [
   },
   'EventPlay',
   'Examine',
+  'FateInfo',
   'InitZone',
   'InventoryTransaction',
   'ItemInfo',
