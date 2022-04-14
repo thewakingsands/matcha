@@ -188,6 +188,21 @@
                                 <CheckBox Content="遭遇战" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
                             </GroupBox>
                         </Grid>
+                        <GroupBox Header="悬浮窗（请在 ngld 中填写以下地址）" Height="86" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="0,6,0,0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Margin="6,6,6,3" IsReadOnly="True" Text="https://matcha-overlay.ffcafe.cn/" VerticalContentAlignment="Center" Padding="6,0" Grid.ColumnSpan="4"></TextBox>
+                                <CheckBox Content="启用在线物价查询及上报（Universalis 集成）" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Overlay.Universalis, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" Grid.Row="1"  />
+                                <Button x:Name="BtnViewDetails" Content="查看详情" Grid.Column="1" Margin="0,0,6,0" Click="BtnViewDetails_Click" Grid.Row="1" Height="24" Width="74" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </GroupBox>
                         <GroupBox Header="日志及数据共享" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -211,26 +226,6 @@
                         </GroupBox>
                     </DockPanel>
                 </Grid>
-            </TabItem>
-            <TabItem Header="悬浮窗">
-                <DockPanel Margin="6">
-                    <GroupBox Header="使用说明" Height="80" VerticalAlignment="Top" DockPanel.Dock="Top">
-                        <DockPanel>
-                            <TextBlock Margin="6" DockPanel.Dock="Top">请安装 ngld 悬浮窗插件，新建悬浮窗并将悬浮窗路径填写为下方地址</TextBlock>
-                            <TextBox Margin="6,0,6,6" IsReadOnly="True" Text="https://matcha-overlay.ffcafe.cn/" VerticalContentAlignment="Center" Padding="6,0"></TextBox>
-                        </DockPanel>
-                    </GroupBox>
-                    <GroupBox Header="在线物价查询 (Universalis)" Height="52" VerticalAlignment="Top" Margin="0" DockPanel.Dock="Top">
-                        <Grid Height="30">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="80"/>
-                            </Grid.ColumnDefinitions>
-                            <CheckBox Content="启用 Universalis 集成（勾选可在悬浮窗内查看玩家上报的跨服物价信息，同时也会上报当地的物价信息）" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" IsChecked="{Binding Overlay.Universalis, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}"  />
-                            <Button x:Name="BtnViewDetails" Content="查看详情" Grid.Column="1" Margin="5" Click="BtnViewDetails_Click"/>
-                        </Grid>
-                    </GroupBox>
-                </DockPanel>
             </TabItem>
             <TabItem Header="Webhook">
                 <Grid>
