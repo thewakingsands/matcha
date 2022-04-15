@@ -74,6 +74,15 @@ namespace Cafe.Matcha.Views
             };
             Data.Instance.PropertyChanged += Data_PropertyChanged;
             Data.Instance.Init();
+
+            State.Instance.PropertyChanged += (_, e) =>
+            {
+                if (e.PropertyName == "WorldId")
+                {
+                    NotifyFateWatchList();
+                }
+            };
+
             Utils.Log.Handler += Log;
             ffxivPlugin = await Helper.GetFFXIVPlugin();
 
@@ -138,7 +147,7 @@ namespace Cafe.Matcha.Views
                     fates.Add(fateNode.Id);
                     if (notifiedFate.Contains(fateNode.Id))
                     {
-                        Output.Send(Formatter.GetEventText(new FateDTO { Type = "start", Fate = fateNode.Id }));
+                        Output.Send(new FateDTO { Type = "start", Fate = fateNode.Id });
                     }
                 }
             }
@@ -149,28 +158,23 @@ namespace Cafe.Matcha.Views
                     fates.RemoveAt(index);
                 }
             }
+
+            NotifyFateWatchList();
+        }
+
+        private void NotifyFateWatchList()
+        {
+            var fates = Config.Instance.Watch.Fates;
+            Output.SendLog(new FateWatchListChangedDTO() { World = State.Instance.WorldId, Fates = fates.ToArray() });
         }
 
         private void Network_onReceiveEvent(BaseDTO dto)
         {
-            var log = Formatter.GetLog(dto);
             var isFateProgress = dto is FateDTO f && f.Type == "progress";
-            if (!string.IsNullOrEmpty(log))
-            {
-                if (!isFateProgress)
-                {
-                    Log('I', log);
-                }
 
-                Output.SendLog(log);
-
-                if (Config.Instance.Logger.Compat)
-                {
-                    Output.SendLog(Formatter.GetLog(dto, true));
-                }
-            }
-
+            Output.SendLog(dto, !isFateProgress);
             Output.SendWebhook(dto);
+
 #if DEBUG
             if (!isFateProgress)
             {
@@ -301,7 +305,7 @@ namespace Cafe.Matcha.Views
             try
             {
                 var fateId = Data.Instance.Fates.Keys.ElementAt(0);
-                Output.Send(Formatter.GetEventText(new FateDTO() { Fate = fateId, Type = "start" }));
+                Output.Send(new FateDTO() { Fate = fateId, Type = "start" });
             }
             catch (Exception err)
             {
@@ -313,7 +317,7 @@ namespace Cafe.Matcha.Views
         {
             try
             {
-                Output.Send(Formatter.GetEventText(new InitZoneDTO { Zone = 217, Instance = 15 }));
+                Output.Send(new InitZoneDTO { Zone = 217, Instance = 15 });
             }
             catch (Exception err)
             {

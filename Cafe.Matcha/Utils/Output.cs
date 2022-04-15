@@ -46,6 +46,22 @@ namespace Cafe.Matcha.Utils
             ActGlobals.oFormActMain.ParseRawLogLine(false, DateTime.Now, log);
         }
 
+        public static void SendLog(BaseDTO dto, bool writeLog = true)
+        {
+            var log = Formatter.GetLog(dto);
+            SendLog(log);
+
+            if (writeLog)
+            {
+                Log.Info(log);
+            }
+
+            if (Compat)
+            {
+                SendLog(Formatter.GetLog(dto, true));
+            }
+        }
+
         public static void SendTTS(string message)
         {
             if (!Config.TTS)
@@ -105,6 +121,11 @@ namespace Cafe.Matcha.Utils
                         { "data", dto.ToJSON() }
                     });
             }
+        }
+
+        public static void Send(BaseDTO dto)
+        {
+            Send(Formatter.GetEventText(dto));
         }
 
         public static void Send(string message)

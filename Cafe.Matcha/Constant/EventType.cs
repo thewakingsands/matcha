@@ -3,6 +3,7 @@
 
 namespace Cafe.Matcha.Constant
 {
+    // WARNING: The order CANNOT be changed. ONLY append to this list.
     public enum EventType
     {
         None = 0,
@@ -21,6 +22,7 @@ namespace Cafe.Matcha.Constant
         TreasureResult,
         CompanyVoyageStatus,
 
-        DynamicEvent
+        DynamicEvent,
+        FateWatchListChanged,
     }
 }

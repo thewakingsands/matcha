@@ -108,6 +108,7 @@
     <Compile Include="Constant\Secret.cs" />
     <Compile Include="Constant\Secret.Local.cs" />
     <Compile Include="Constant\TreasureShiftingWheelResultType.cs" />
+    <Compile Include="DTO\FateWatchListChangedDTO.cs" />
     <Compile Include="DTO\TreasureResultDTO.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Network\State.cs" />

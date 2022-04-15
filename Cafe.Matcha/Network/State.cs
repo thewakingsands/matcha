@@ -127,13 +127,9 @@ namespace Cafe.Matcha.Network
 
         public void HandleWorldId(ushort worldId, bool isCurrentPlayer)
         {
-            if (ContentId == 0 || isCurrentPlayer)
+            if ((ContentId == 0 || isCurrentPlayer) && this.worldId != worldId)
             {
-                if (this.worldId != worldId)
-                {
-                    Log.Info($"[State] WorldId: {worldId}");
-                }
-
+                Log.Info($"[State] WorldId: {worldId}");
                 WorldId = worldId;
             }
         }
