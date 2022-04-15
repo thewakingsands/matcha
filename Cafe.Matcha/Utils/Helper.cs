@@ -86,6 +86,14 @@ namespace Cafe.Matcha.Utils
             }
         }
 
+        public static long Now
+        {
+            get
+            {
+                return DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            }
+        }
+
 #pragma warning disable SA1310 // Field names should not contain underscore
         private const int GWL_STYLE = -16;
         private const int WS_SYSMENU = 0x80000;

@@ -4,10 +4,9 @@
 namespace Cafe.Matcha.Models
 {
     using System;
-    using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 
-    internal class TelemetryData
+    internal abstract class TelemetryData
     {
         public TelemetryData()
         {
@@ -75,5 +74,15 @@ namespace Cafe.Matcha.Models
         {
             return $"TData {{ World={World}, Server={Server}, Zone={Zone}, Instance={Instance} }} {base.ToString()}";
         }
+
+        protected void Merge(TelemetryData data)
+        {
+            World = data.World;
+            Server = data.Server;
+            Zone = data.Zone;
+            Instance = data.Instance;
+        }
+
+        public abstract bool TryMerge(TelemetryData data);
     }
 }

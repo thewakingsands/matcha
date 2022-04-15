@@ -6,10 +6,10 @@ namespace Cafe.Matcha.Network
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Numerics;
     using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
-    using Cafe.Matcha.Telemetry;
     using Cafe.Matcha.Utils;
 
     internal interface INetworkMonitor
@@ -20,9 +20,6 @@ namespace Cafe.Matcha.Network
 
     internal class NetworkMonitor : INetworkMonitor
     {
-        private Fate fateTelemetry = new Fate();
-        private NpcSpawn npcTelemetry = new NpcSpawn();
-
         private bool ToMatchaOpcode(ushort opcode, out MatchaOpcode matchaOpcode)
         {
             var region = Config.Instance.Region;
@@ -147,6 +144,8 @@ namespace Cafe.Matcha.Network
 
             Universalis.Client.HandlePacket(opcode, message);
 
+            var source = BitConverter.ToUInt32(message, 4);
+            var target = BitConverter.ToUInt32(message, 8);
             var data = message.Skip(32).ToArray();
 
             if (opcode == MatchaOpcode.DirectorStart)
@@ -176,6 +175,7 @@ namespace Cafe.Matcha.Network
                 }
 
                 var bNpcName = BitConverter.ToUInt32(data, 68);
+                var location = BitConverter.ToUInt32(data, 72);
                 var hpMax = BitConverter.ToUInt32(data, 92);
                 var hpCur = BitConverter.ToUInt32(data, 96);
                 var fateId = BitConverter.ToUInt16(data, 104);
@@ -184,15 +184,49 @@ namespace Cafe.Matcha.Network
                 if (fateId != 0 || IsSpecialNpcName(bNpcName))
                 {
                     const int posOffset = 508;
-                    npcTelemetry.Send(
-                        bNpcName,
-                        fateId,
+                    var pos = new Vector3(
                         BitConverter.ToSingle(data, posOffset),
                         BitConverter.ToSingle(data, posOffset + 4),
-                        BitConverter.ToSingle(data, posOffset + 8),
-                        level,
-                        hpMax
-                    );
+                        BitConverter.ToSingle(data, posOffset + 8));
+
+                    State.Instance.Npc.Update(source, (npc) =>
+                    {
+                        if (npc.BNpcName != bNpcName)
+                        {
+                            npc.BNpcName = bNpcName;
+                            npc.Location = location;
+                            npc.Fate = fateId;
+                            npc.Level = level;
+                            npc.CurHP = hpCur;
+                            npc.MaxHP = hpMax;
+                            npc.Position = pos;
+                            return true;
+                        }
+
+                        return false;
+                    });
+                }
+            }
+            else if (opcode == MatchaOpcode.ActorControl)
+            {
+                if (message.Length != 56)
+                {
+                    return false;
+                }
+
+                var type = (ActorControlType)BitConverter.ToUInt16(data, 0);
+                switch (type)
+                {
+                    case ActorControlType.SetStatus:
+                        {
+                            var status = BitConverter.ToUInt32(data, 4);
+                            if (status == 2)
+                            {
+                                State.Instance.Npc.Remove(source);
+                            }
+
+                            break;
+                        }
                 }
             }
             else if (opcode == MatchaOpcode.ActorControlSelf)
@@ -208,21 +242,41 @@ namespace Cafe.Matcha.Network
                 {
                     case ActorControlType.FateProgress:
                         {
+                            var fateId = BitConverter.ToUInt16(data, 4);
+                            var progress = data[8];
+
+                            State.Instance.Fate.Update(fateId, (fate) =>
+                            {
+                                if (fate.Progress != progress)
+                                {
+                                    fate.Progress = progress;
+
+                                    if (progress == 100)
+                                    {
+                                        return true;
+                                    }
+                                }
+
+                                return false;
+                            });
                             FireEvent(new FateDTO()
                             {
                                 Type = "progress",
-                                Fate = BitConverter.ToUInt16(data, 4),
-                                Progress = data[8]
+                                Fate = fateId,
+                                Progress = progress
                             });
                             break;
                         }
 
                     case ActorControlType.FateEnd:
                         {
+                            var fateId = BitConverter.ToUInt16(data, 4);
+
+                            State.Instance.Fate.Remove(fateId);
                             FireEvent(new FateDTO()
                             {
                                 Type = "end",
-                                Fate = BitConverter.ToUInt16(data, 4),
+                                Fate = fateId,
                                 Extra = BitConverter.ToUInt16(data, 28)
                             });
                             break;
@@ -230,14 +284,14 @@ namespace Cafe.Matcha.Network
 
                     case ActorControlType.FateStart:
                         {
-                            var code = BitConverter.ToUInt16(data, 4);
+                            var fateId = BitConverter.ToUInt16(data, 4);
+
+                            State.Instance.Fate.Update(fateId, (fate) => false);
                             FireEvent(new FateDTO()
                             {
                                 Type = "start",
-                                Fate = code
+                                Fate = fateId
                             });
-
-                            fateTelemetry.Send(code);
                             break;
                         }
 
@@ -358,14 +412,16 @@ namespace Cafe.Matcha.Network
                     return false;
                 }
 
-                State.Instance.ServerId = BitConverter.ToUInt16(data, 0);
-                State.Instance.ZoneId = BitConverter.ToUInt16(data, 2);
-                State.Instance.InstanceId = BitConverter.ToUInt16(data, 4);
+                var serverId = BitConverter.ToUInt16(data, 0);
+                var zoneId = BitConverter.ToUInt16(data, 2);
+                var instanceId = BitConverter.ToUInt16(data, 4);
+                var contentId = BitConverter.ToUInt16(data, 6);
 
+                State.Instance.HandleInitZone(serverId, zoneId, instanceId, contentId);
                 FireEvent(new InitZoneDTO()
                 {
-                    Zone = State.Instance.ZoneId,
-                    Instance = BitConverter.ToUInt16(data, 6)
+                    Zone = zoneId,
+                    Instance = contentId
                 });
             }
             else if (opcode == MatchaOpcode.EventPlay)
@@ -576,7 +632,10 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.PlayerSpawn)
             {
-                State.Instance.WorldId = BitConverter.ToUInt16(data, 4);
+                var isCurrentPlayer = source == target;
+                var currentWorldId = BitConverter.ToUInt16(data, 4);
+
+                State.Instance.HandleWorldId(currentWorldId, isCurrentPlayer);
             }
             else
             {

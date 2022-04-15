@@ -154,9 +154,14 @@ namespace Cafe.Matcha.Views
         private void Network_onReceiveEvent(BaseDTO dto)
         {
             var log = Formatter.GetLog(dto);
+            var isFateProgress = dto is FateDTO f && f.Type == "progress";
             if (!string.IsNullOrEmpty(log))
             {
-                Log('I', log);
+                if (!isFateProgress)
+                {
+                    Log('I', log);
+                }
+
                 Output.SendLog(log);
 
                 if (Config.Instance.Logger.Compat)
@@ -167,7 +172,10 @@ namespace Cafe.Matcha.Views
 
             Output.SendWebhook(dto);
 #if DEBUG
-            Utils.Log.Debug(string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
+            if (!isFateProgress)
+            {
+                Utils.Log.Debug(string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
+            }
 #endif
 
             if (!ShouldSendNotice(dto))
@@ -179,16 +187,8 @@ namespace Cafe.Matcha.Views
             Output.Send(output);
         }
 
-        private List<int> notifiedFate = new List<int>();
-        private List<int> notifiedDynamicEvent = new List<int>();
-        private long lastZoneChange = 0;
-        private long Now
-        {
-            get
-            {
-                return DateTimeOffset.Now.ToUnixTimeMilliseconds();
-            }
-        }
+        private HashSet<int> notifiedFate = new HashSet<int>();
+        private HashSet<int> notifiedDynamicEvent = new HashSet<int>();
 
         private bool ShouldSendNotice(BaseDTO dto)
         {
@@ -198,7 +198,6 @@ namespace Cafe.Matcha.Views
                     return true;
                 case EventType.InitZone:
                     notifiedFate.Clear();
-                    lastZoneChange = Now;
                     return true;
                 case EventType.Fate:
                     var fateDto = (FateDTO)dto;
@@ -214,7 +213,7 @@ namespace Cafe.Matcha.Views
                             notifiedFate.Add(fateDto.Fate);
                             if (Config.Instance.Formatter.Fate.MuteWhileLoading)
                             {
-                                return Now - lastZoneChange > 5000;
+                                return Helper.Now - State.Instance.LastZoneChange > 5000;
                             }
 
                             return true;

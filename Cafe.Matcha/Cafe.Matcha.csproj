@@ -112,7 +112,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Network\State.cs" />
     <Compile Include="Network\Universalis\Structures\UniversalisQueryResponse.cs" />
-    <Compile Include="Telemetry\NpcSpawn.cs" />
+    <Compile Include="Telemetry\Npc.cs" />
     <Compile Include="Utils\BindingTarget.cs" />
     <Compile Include="DTO\BaseDTO.cs" />
     <Compile Include="DTO\CompanyVoyageStatusDTO.cs" />

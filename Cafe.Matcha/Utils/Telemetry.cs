@@ -35,10 +35,10 @@ namespace Cafe.Matcha.Utils
             {
                 foreach (var oldItem in list)
                 {
-                    if (oldItem.Equals((object)item))
+                    if (oldItem.TryMerge(item))
                     {
 #if DEBUG
-                        Log.Warn($"[Telemetry] {GetType().Name} Dropping {item}, as it equals {oldItem}");
+                        Log.Warn($"[Telemetry] {GetType().Name} Merged to {oldItem}");
 #endif
                         return;
                     }

@@ -26,6 +26,7 @@ namespace Cafe.Matcha.Utils
         {
             Add('I', message);
         }
+
 #if DEBUG
         public static void Debug(string message)
         {

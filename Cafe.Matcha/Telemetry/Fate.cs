@@ -3,22 +3,36 @@
 
 namespace Cafe.Matcha.Telemetry
 {
+    using Cafe.Matcha.Models;
     using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 
-    internal class FateInitDTO : Models.TelemetryData
+    internal class FateDTO : TelemetryData
     {
-        public FateInitDTO(uint fateId)
+        public FateDTO(uint fateId, Network.FateState state)
         {
             this.FateId = fateId;
+            this.StartTime = state.StartTime;
+            this.Duration = state.Duration;
+            this.Progress = state.Progress;
         }
 
         [JsonProperty("fate")]
         public uint FateId = 0;
 
-        public bool Equals(FateInitDTO fateInit)
+        [JsonProperty("start_time")]
+        public uint StartTime = 0;
+
+        [JsonProperty("duration")]
+        public uint Duration = 0;
+
+        [JsonProperty("progress")]
+        public int Progress = 0;
+
+        public bool Equals(FateDTO fateInit)
         {
-            return base.Equals(fateInit) && FateId == fateInit.FateId;
+            return base.Equals(fateInit) && FateId == fateInit.FateId && StartTime == fateInit.StartTime
+                && Duration == fateInit.Duration && Progress == fateInit.Progress;
         }
 
         public override bool Equals(object obj)
@@ -33,27 +47,54 @@ namespace Cafe.Matcha.Telemetry
                 return true;
             }
 
-            return obj.GetType() == GetType() && Equals((FateInitDTO)obj);
+            return obj.GetType() == GetType() && Equals((FateDTO)obj);
         }
 
         public override int GetHashCode()
         {
-            return base.GetHashCode() ^ FateId.GetHashCode();
+            return base.GetHashCode() ^ FateId.GetHashCode() ^ StartTime.GetHashCode() ^ Duration.GetHashCode() ^ Progress.GetHashCode();
         }
 
         public override string ToString()
         {
-            return $"Fate {{ Id={FateId}, Zone={Zone} }} {base.ToString()}";
+            return $"Fate {{ Id={FateId}, StartTime={StartTime}, Duration={Duration}, Progress={Progress} }} {base.ToString()}";
+        }
+
+        public override bool TryMerge(TelemetryData data)
+        {
+            if (data is FateDTO fate && fate.FateId == FateId)
+            {
+                Merge(data);
+
+                if (fate.StartTime != 0)
+                {
+                    StartTime = fate.StartTime;
+                }
+
+                if (fate.Duration != 0)
+                {
+                    Duration = fate.Duration;
+                }
+
+                if (fate.Progress != 0)
+                {
+                    Progress = fate.Progress;
+                }
+
+                return true;
+            }
+
+            return false;
         }
     }
 
-    internal class Fate : TelemetryWorker<FateInitDTO>
+    internal class Fate : TelemetryWorker<FateDTO>
     {
         public Fate() : base(Constant.Secret.TelemetryFate) { }
 
-        public void Send(uint fateId)
+        public void Send(uint fateId, Network.FateState state)
         {
-            Send(new FateInitDTO(fateId));
+            Send(new FateDTO(fateId, state));
         }
     }
 }

@@ -5,18 +5,12 @@ namespace Cafe.Matcha.Constant
 {
     internal enum ActorControlType : ushort
     {
-#if GLOBAL
-        TreasureSpot = 84,
-        DirectorUpdate = 109,
-        FateStart = 116,
-        FateEnd = 121,
-        FateProgress = 155
-#else
+        SetStatus = 2,
+        DefeatMsg = 6,
         TreasureSpot = 84,
         DirectorUpdate = 109,
         FateStart = 2357,
         FateEnd = 2358,
         FateProgress = 2366
-#endif
     }
 }
