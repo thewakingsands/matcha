@@ -138,10 +138,10 @@ namespace Cafe.Matcha.Utils
                         sb.Append("轻杆");
                         break;
                     case 2:
-                        sb.Append("中杆");
+                        sb.Append("普通杆");
                         break;
                     case 3:
-                        sb.Append("重杆");
+                        sb.Append("强力杆");
                         break;
                 }
             }
