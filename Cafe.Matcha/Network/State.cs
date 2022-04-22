@@ -96,8 +96,22 @@ namespace Cafe.Matcha.Network
 
         private void Fate_OnRemoved(uint id, FateState state)
         {
-            state.Progress = -1;
-            fateTelemetry.Send(id, state);
+            // Emit only on progress=100 or expired
+            if (state.Progress == 100 || isFateNearEnd(state))
+            {
+                state.Progress = -1;
+                fateTelemetry.Send(id, state);
+            }
+        }
+
+        private bool isFateNearEnd(FateState state)
+        {
+            if (state.StartTime == 0 || state.Duration == 0)
+            {
+                return false;
+            }
+
+            return Helper.Now / 1000 + 30 > state.StartTime + state.Duration;
         }
 
         private void Npc_OnChanged(uint id, NpcState state)
