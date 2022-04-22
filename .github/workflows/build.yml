@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     
     env:
-      Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.5.0.273/ACTv3.zip
+      Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.6.0.275/ACTv3.zip
       Thirdparty_FFXIV_ACT_Plugin: https://github.com/ravahn/FFXIV_ACT_Plugin/raw/master/Releases/FFXIV_ACT_Plugin_SDK_2.0.7.0.zip
       Solution_Name: Cafe.Matcha.sln
       Secret_Path: Cafe.Matcha\Constant\Secret.Local.cs
