@@ -64,7 +64,10 @@ namespace Cafe.Matcha.Utils
                         task = null;
                     }
 
-                    Telemetry.Instance.Send(bucketId, list);
+                    if (list.Count > 0)
+                    {
+                        Telemetry.Instance.Send(bucketId, list);
+                    }
                 });
 
                 task.Start();
