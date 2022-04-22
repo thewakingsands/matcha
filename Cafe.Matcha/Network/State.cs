@@ -137,15 +137,20 @@ namespace Cafe.Matcha.Network
         internal class StateManager<T> where T : new()
         {
             private readonly Dictionary<uint, T> store = new Dictionary<uint, T>();
+            private readonly object storeLock = new object();
 
             public void Update(uint id, Func<T, bool> action)
             {
                 bool isCreate = false;
-                if (!store.TryGetValue(id, out var state))
+                T state;
+                lock (storeLock)
                 {
-                    isCreate = true;
-                    state = new T();
-                    store.Add(id, state);
+                    if (!store.TryGetValue(id, out state))
+                    {
+                        isCreate = true;
+                        state = new T();
+                        store.Add(id, state);
+                    }
                 }
 
                 if (action(state) || isCreate)
