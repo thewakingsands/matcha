@@ -25,6 +25,7 @@
         name('FateTreeNodeWithChildren') or name('FateNode') or name('MainViewModel') or name('TelemetrySetting')
         or match('Cafe\.Matcha\.Config($|\.Instance)')
         or match('Cafe\.Matcha\.Models\..+::.+\(\)$')
+        or match('Cafe\.Matcha\.Telemetry\..+::.+\(\)$')
         or match('Cafe\.Matcha\.Constant\.(EventType|RequestType)($|\..+)')
         or name('Data')">
     <protection id="rename" action="remove" />
