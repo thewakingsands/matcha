@@ -268,14 +268,8 @@ cd $(ProjectDir)Constant\
 if not exist Secret.Local.cs (
     type nul &gt; Secret.Local.cs
 )</PreBuildEvent>
-    <PostBuildEvent>if $(ConfigurationName) == Release (
+    <PostBuildEvent>del $(TargetPath) /F
   xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
-)
-
-xcopy "$(TargetDir)*.*" "D:\ACT\ACT\Plugins\Cafe.Matcha.$(ConfigurationName)\" /E /Y /C
-xcopy "$(TargetDir)confused\*.*" "D:\ACT\ACT\Plugins\Cafe.Matcha.$(ConfigurationName)\" /E /Y /C
-
-rmdir /s /q "$(TargetDir)confused"
 $(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
 </Project>
