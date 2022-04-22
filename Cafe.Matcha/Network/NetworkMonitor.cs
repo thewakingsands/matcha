@@ -229,6 +229,35 @@ namespace Cafe.Matcha.Network
                         }
                 }
             }
+            else if (opcode == MatchaOpcode.FateInfo)
+            {
+                if (message.Length != 56)
+                {
+                    return false;
+                }
+
+                var fateId = BitConverter.ToUInt16(data, 0);
+                var startTime = BitConverter.ToUInt32(data, 8);
+                var duration = BitConverter.ToUInt32(data, 16);
+
+                State.Instance.Fate.Update(fateId, (state) =>
+                {
+                    bool updated = false;
+                    if (state.StartTime != startTime)
+                    {
+                        state.StartTime = startTime;
+                        updated = true;
+                    }
+
+                    if (state.Duration != duration)
+                    {
+                        state.Duration = duration;
+                        updated = true;
+                    }
+
+                    return updated;
+                });
+            }
             else if (opcode == MatchaOpcode.ActorControlSelf)
             {
                 if (message.Length != 64)
