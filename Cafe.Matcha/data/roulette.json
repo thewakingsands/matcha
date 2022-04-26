@@ -243,5 +243,17 @@
     "ja": "チョコボレース：コースルーレット",
     "de": "Chocobo-Rennen: Zufallsstrecke",
     "fr": "Course de chocobos : aléatoire"
+  },
+  "40": {
+    "en": "Crystalline Conflict (Casual Match)",
+    "ja": "クリスタルコンフリクト(カジュアルマッチ)",
+    "de": "Crystalline Conflict: Freies Spiel",
+    "fr": "Crystalline Conflict (partie non classée)"
+  },
+  "41": {
+    "en": "Crystalline Conflict (Ranked Match)",
+    "ja": "クリスタルコンフリクト(ランクマッチ)",
+    "de": "Crystalline Conflict: Gewertetes Spiel",
+    "fr": "Crystalline Conflict (partie classée)"
   }
 }

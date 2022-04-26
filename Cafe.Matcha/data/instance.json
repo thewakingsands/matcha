@@ -1983,7 +1983,7 @@
     "name": {
       "chs": "星海空间颠倒塔",
       "en": "the Antitower",
-      "ja": "星海観測 逆さの塔 ",
+      "ja": "星海観測 逆さの塔",
       "de": "Antiturm",
       "fr": "L'Antitour"
     },
@@ -8564,6 +8564,21 @@
     "itemSync": 0,
     "memberType": 2
   },
+  "788": {
+    "name": {
+      "chs": "",
+      "en": "Dragonsong's Reprise (Ultimate)",
+      "ja": "絶竜詩戦争",
+      "de": "Drachenkrieg (fatal)",
+      "fr": "la Guerre du chant des dragons (fatal)"
+    },
+    "type": 28,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 605,
+    "memberType": 3
+  },
   "789": {
     "name": {
       "chs": "末日树海万相森国",
@@ -9042,6 +9057,510 @@
     "levelSync": 90,
     "item": 0,
     "itemSync": 550,
+    "memberType": 1
+  },
+  "821": {
+    "name": {
+      "chs": "",
+      "en": "Ultima's Bane (Unreal)",
+      "ja": "幻アルテマウェポン破壊作戦",
+      "de": "Traumprüfung - Ultima",
+      "fr": "Le fléau d'Ultima (irréel)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 565,
+    "memberType": 3
+  },
+  "830": {
+    "name": {
+      "chs": "",
+      "en": "The Porta Decumana",
+      "ja": "アルテマウェポン破壊作戦",
+      "de": "Porta Decumana",
+      "fr": "Porta Decumana"
+    },
+    "type": 4,
+    "level": 50,
+    "levelSync": 50,
+    "item": 0,
+    "itemSync": 60,
+    "memberType": 2
+  },
+  "835": {
+    "name": {
+      "chs": "",
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "836": {
+    "name": {
+      "chs": "",
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "837": {
+    "name": {
+      "chs": "",
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "838": {
+    "name": {
+      "chs": "",
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "839": {
+    "name": {
+      "chs": "",
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "840": {
+    "name": {
+      "chs": "",
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "841": {
+    "name": {
+      "chs": "",
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "842": {
+    "name": {
+      "chs": "",
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "843": {
+    "name": {
+      "chs": "",
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "844": {
+    "name": {
+      "chs": "",
+      "en": "Alzadaal's Legacy",
+      "ja": "近東秘宝 アルザダール海底遺跡群",
+      "de": "Alzadaals Vermächtnis",
+      "fr": "Le legs d'Alzadaal"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "845": {
+    "name": {
+      "chs": "",
+      "en": "Forlorn Glory",
+      "ja": "ネルウァの帝国",
+      "de": "Nervas Reich",
+      "fr": "Nerva, le patriote"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "846": {
+    "name": {
+      "chs": "",
+      "en": "The Minstrel's Ballad: Endsinger's Aria",
+      "ja": "終極の戦い",
+      "de": "Eschatos - Endsängerin",
+      "fr": "le Répons final (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 580,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "847": {
+    "name": {
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "848": {
+    "name": {
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "849": {
+    "name": {
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "850": {
+    "name": {
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "851": {
+    "name": {
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "852": {
+    "name": {
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "853": {
+    "name": {
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "854": {
+    "name": {
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "855": {
+    "name": {
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "856": {
+    "name": {
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "857": {
+    "name": {
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "858": {
+    "name": {
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "859": {
+    "name": {
+      "en": "The Palaistra",
+      "ja": "パライストラ",
+      "de": "Die Palästra",
+      "fr": "Le Palestre"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "860": {
+    "name": {
+      "en": "The Volcanic Heart",
+      "ja": "ヴォルカニック・ハート",
+      "de": "Das Herz des Vulkans",
+      "fr": "Le Cœur volcanique"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "861": {
+    "name": {
+      "en": "Cloud Nine",
+      "ja": "クラウドナイン",
+      "de": "Wolke Sieben",
+      "fr": "Le Petit Nuage"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "862": {
+    "name": {
+      "en": "Crystalline Conflict (Custom Match - The Palaistra)",
+      "ja": "クリスタルコンフリクト(パライストラ：カスタムマッチ)",
+      "de": "Crystalline Conflict: Die Palästra (Schaukampf)",
+      "fr": "Crystalline Conflict (partie personnalisée - Le Palestre)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "863": {
+    "name": {
+      "en": "Crystalline Conflict (Custom Match - The Volcanic Heart)",
+      "ja": "クリスタルコンフリクト(ヴォルカニック・ハート：カスタムマッチ)",
+      "de": "Crystalline Conflict: Das Herz des Vulkans (Schaukampf)",
+      "fr": "Crystalline Conflict (partie personnalisée - Le Cœur volcanique)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "864": {
+    "name": {
+      "en": "Crystalline Conflict (Custom Match - Cloud Nine)",
+      "ja": "クリスタルコンフリクト(クラウドナイン：カスタムマッチ)",
+      "de": "Crystalline Conflict: Wolke Sieben (Schaukampf)",
+      "fr": "Crystalline Conflict (partie personnalisée - Le Petit Nuage)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "865": {
+    "name": {
+      "en": "Cape Westwind",
+      "ja": "リットアティン強襲戦",
+      "de": "Kap Westwind",
+      "fr": "le Cap Vendouest"
+    },
+    "type": 7,
+    "level": 49,
+    "levelSync": 50,
+    "item": 0,
+    "itemSync": 50,
+    "memberType": 1
+  },
+  "866": {
+    "name": {
+      "en": "Aglaia",
+      "ja": "輝ける神域 アグライア",
+      "de": "Aglaia",
+      "fr": "Domaine divin - Aglaé"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 565,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "867": {
+    "name": {
+      "en": "Devastation",
+      "ja": "アシエン・ラハブレア討伐戦",
+      "de": "Das Antlitz der Kaltblütigkeit",
+      "fr": "le Praetorium en flammes"
+    },
+    "type": 7,
+    "level": 50,
+    "levelSync": 50,
+    "item": 0,
+    "itemSync": 60,
     "memberType": 1
   }
 }

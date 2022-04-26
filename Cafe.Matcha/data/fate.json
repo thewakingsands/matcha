@@ -9158,7 +9158,7 @@
   "1390": {
     "name": {
       "chs": "妖异中的辩论家——诡辩者",
-      "en": "On the Non-existent",
+      "en": "On the Nonexistent",
       "ja": "妖異の弁論家「ソフィスト」",
       "de": "Der Sophist und seine Meute",
       "fr": "Défi: monstres sophistiqués"
@@ -13697,7 +13697,7 @@
       "en": "Roses Are Red, Violence Is Due",
       "ja": "圧殺の薔薇「ヘリオガバルス」",
       "de": "Der rosige Tod Heliogabalus",
-      "fr": "Défi:  Héliogabale, rose de sang"
+      "fr": "Défi: Héliogabale, rose de sang"
     },
     "level": 82,
     "patch": 6,
@@ -14338,5 +14338,17 @@
     "level": 90,
     "patch": 6,
     "location": 960
+  },
+  "1856": {
+    "name": {
+      "chs": "",
+      "en": "Happiness Is a Warm Bunny",
+      "ja": "エッグハント「しあわせはここにいる」",
+      "de": "Gluckenschreck des Glücks",
+      "fr": "À la poursuite du bonheur"
+    },
+    "level": 15,
+    "patch": 6,
+    "location": 0
   }
 }

@@ -1404,7 +1404,7 @@
     "en": "Porta Decumana",
     "ja": "ポルタ・デクマーナ",
     "de": "Porta Decumana",
-    "fr": "Porta decumana"
+    "fr": "Porta Decumana"
   },
   "349": {
     "chs": "铜铃铜山",
@@ -5634,6 +5634,13 @@
     "de": "Trockendock von Castrum Marinum",
     "fr": "Cale sèche de Castrum Marinum"
   },
+  "968": {
+    "chs": "",
+    "en": "Medias Res",
+    "ja": "詩想空間",
+    "de": "Medias Res",
+    "fr": "Interstice du chant onirique"
+  },
   "969": {
     "chs": "巴别塔",
     "en": "The Tower of Babil",
@@ -5711,6 +5718,41 @@
     "de": "Empyreum",
     "fr": "Empyrée"
   },
+  "980": {
+    "chs": "穹顶皓天私人小屋",
+    "en": "Private Cottage - Empyreum",
+    "ja": "エンピレアム：コテージ",
+    "de": "Privathütte (Empyreum)",
+    "fr": "Maisonnette - Empyrée"
+  },
+  "981": {
+    "chs": "穹顶皓天私人公馆",
+    "en": "Private House - Empyreum",
+    "ja": "エンピレアム：ハウス",
+    "de": "Privathaus (Empyreum)",
+    "fr": "Pavillon - Empyrée"
+  },
+  "982": {
+    "chs": "穹顶皓天私人别墅",
+    "en": "Private Mansion - Empyreum",
+    "ja": "エンピレアム：レジデンス",
+    "de": "Privatresidenz (Empyreum)",
+    "fr": "Villa - Empyrée"
+  },
+  "983": {
+    "chs": "穹顶皓天个人房间",
+    "en": "Private Chambers - Empyreum",
+    "ja": "エンピレアム：プライベートルーム",
+    "de": "Empyreum - Zimmer",
+    "fr": "Chambre individuelle - Empyrée"
+  },
+  "984": {
+    "chs": "穹顶皓天部队工房",
+    "en": "Company Workshop - Empyreum",
+    "ja": "エンピレアム：地下工房",
+    "de": "Gesellschaftswerkstätte: Empyreum",
+    "fr": "Atelier de compagnie - Empyrée"
+  },
   "985": {
     "chs": "皓天炉舍大厅",
     "en": "Ingleside Apartment Lobby",
@@ -5787,6 +5829,20 @@
     "ja": "果ての終焉",
     "de": "Am Rande des Endes",
     "fr": "Orée de la fin"
+  },
+  "998": {
+    "chs": "尽头的终点",
+    "en": "The Final Day",
+    "ja": "果ての終焉",
+    "de": "Am Rande des Endes",
+    "fr": "Orée de la fin"
+  },
+  "999": {
+    "chs": "皓天炉舍房间",
+    "en": "Ingleside Apartment",
+    "ja": "イングルサイド：部屋",
+    "de": "Adlerblick (Wohnung)",
+    "fr": "Le Coin de l'Âtre (appartement)"
   },
   "1000": {
     "chs": "惊奇百宝城",
@@ -6011,5 +6067,208 @@
     "ja": "プロピュライオン",
     "de": "Propylaion",
     "fr": "Le Propylée"
+  },
+  "1032": {
+    "chs": "",
+    "en": "The Palaistra",
+    "ja": "パライストラ",
+    "de": "Die Palästra",
+    "fr": "Le Palestre"
+  },
+  "1033": {
+    "chs": "",
+    "en": "The Volcanic Heart",
+    "ja": "ヴォルカニック・ハート",
+    "de": "Das Herz des Vulkans",
+    "fr": "Le Cœur volcanique"
+  },
+  "1034": {
+    "chs": "",
+    "en": "Cloud Nine",
+    "ja": "クラウドナイン",
+    "de": "Wolke Sieben",
+    "fr": "Le Petit Nuage"
+  },
+  "1035": {
+    "chs": "后营门",
+    "en": "Porta Decumana",
+    "ja": "ポルタ・デクマーナ",
+    "de": "Porta Decumana",
+    "fr": "Porta Decumana"
+  },
+  "1036": {
+    "chs": "沙斯塔夏溶洞",
+    "en": "Sastasha",
+    "ja": "サスタシャ浸食洞",
+    "de": "Sastasha-Höhle",
+    "fr": "Sastasha"
+  },
+  "1037": {
+    "chs": "塔姆·塔拉墓园",
+    "en": "The Tam-Tara Deepcroft",
+    "ja": "タムタラの墓所",
+    "de": "Totenacker Tam-Tara",
+    "fr": "Hypogée de Tam-Tara"
+  },
+  "1038": {
+    "chs": "铜铃铜山",
+    "en": "Copperbell Mines",
+    "ja": "カッパーベル銅山",
+    "de": "Kupferglocken-Mine",
+    "fr": "Mines de Clochecuivre"
+  },
+  "1039": {
+    "chs": "托托·拉克千狱",
+    "en": "The Thousand Maws of Toto-Rak",
+    "ja": "トトラクの千獄",
+    "de": "Tausend Löcher von Toto-Rak",
+    "fr": "Mille Gueules de Toto-Rak"
+  },
+  "1040": {
+    "chs": "静语庄园",
+    "en": "Haukke Manor",
+    "ja": "ハウケタ御用邸",
+    "de": "Haukke-Herrenhaus",
+    "fr": "Manoir des Haukke"
+  },
+  "1041": {
+    "chs": "布雷福洛克斯野营地",
+    "en": "Brayflox's Longstop",
+    "ja": "ブレイフロクスの野営地",
+    "de": "Brüllvolx' Langrast",
+    "fr": "Bivouac de Brayflox"
+  },
+  "1042": {
+    "chs": "石卫塔",
+    "en": "Stone Vigil",
+    "ja": "ストーンヴィジル",
+    "de": "Steinerne Wacht",
+    "fr": "Vigile de Pierre"
+  },
+  "1043": {
+    "chs": "帝国南方堡",
+    "en": "Castrum Meridianum",
+    "ja": "カストルム・メリディアヌム",
+    "de": "Castrum Meridianum",
+    "fr": "Castrum Meridianum"
+  },
+  "1044": {
+    "chs": "天幕魔导城",
+    "en": "The Praetorium",
+    "ja": "魔導城プラエトリウム",
+    "de": "Praetorium",
+    "fr": "Praetorium"
+  },
+  "1045": {
+    "chs": "炎帝陵",
+    "en": "Bowl of Embers",
+    "ja": "炎帝祭跡",
+    "de": "Das Grab der Lohe",
+    "fr": "Cratère des tisons"
+  },
+  "1046": {
+    "chs": "奥·哥摩罗火口神殿",
+    "en": "The Navel",
+    "ja": "オ・ゴモロ火口神殿",
+    "de": "Der Nabel",
+    "fr": "Le Nombril"
+  },
+  "1047": {
+    "chs": "呼啸眼石塔群",
+    "en": "The Howling Eye",
+    "ja": "ハウリングアイ石塔群",
+    "de": "Das Tosende Auge",
+    "fr": "Hurlœil"
+  },
+  "1048": {
+    "chs": "后营门",
+    "en": "Porta Decumana",
+    "ja": "ポルタ・デクマーナ",
+    "de": "Porta Decumana",
+    "fr": "Porta Decumana"
+  },
+  "1049": {
+    "chs": "西萨纳兰",
+    "en": "Western Thanalan",
+    "ja": "西ザナラーン",
+    "de": "Westliches Thanalan",
+    "fr": "Thanalan occidental"
+  },
+  "1050": {
+    "chs": "",
+    "en": "Alzadaal's Legacy",
+    "ja": "アルザダール海底遺跡群",
+    "de": "Alzadaals Vermächtnis",
+    "fr": "Legs d'Alzadaal"
+  },
+  "1051": {
+    "chs": "巴别塔",
+    "en": "The Tower of Babil",
+    "ja": "バブイルの塔",
+    "de": "Turm von Babil",
+    "fr": "Tour de Babil"
+  },
+  "1052": {
+    "chs": "",
+    "en": "The Porta Decumana",
+    "ja": "ポルタ・デクマーナ",
+    "de": "Porta Decumana",
+    "fr": "Porta Decumana"
+  },
+  "1053": {
+    "chs": "",
+    "en": "The Porta Decumana",
+    "ja": "ポルタ・デクマーナ",
+    "de": "Porta Decumana",
+    "fr": "Porta Decumana"
+  },
+  "1054": {
+    "chs": "",
+    "en": "Aglaia",
+    "ja": "輝ける神域 アグライア",
+    "de": "Aglaia",
+    "fr": "Domaine divin - Aglaé"
+  },
+  "1056": {
+    "chs": "",
+    "en": "Alzadaal's Legacy",
+    "ja": "アルザダール海底遺跡群",
+    "de": "Alzadaals Vermächtnis",
+    "fr": "Legs d'Alzadaal"
+  },
+  "1057": {
+    "chs": "",
+    "en": "Restricted Archives",
+    "ja": "ヌーメノン大書院：禁書庫",
+    "de": "Verbotener Flügel",
+    "fr": "Archives interdites du Noumène"
+  },
+  "1058": {
+    "chs": "",
+    "en": "The Palaistra",
+    "ja": "パライストラ",
+    "de": "Die Palästra",
+    "fr": "Le Palestre"
+  },
+  "1059": {
+    "chs": "",
+    "en": "The Volcanic Heart",
+    "ja": "ヴォルカニック・ハート",
+    "de": "Das Herz des Vulkans",
+    "fr": "Le Cœur volcanique"
+  },
+  "1060": {
+    "chs": "",
+    "en": "Cloud Nine",
+    "ja": "クラウドナイン",
+    "de": "Wolke Sieben",
+    "fr": "Le Petit Nuage"
+  },
+  "1061": {
+    "chs": "",
+    "en": "The Omphalos",
+    "ja": "オムファロス",
+    "de": "Omphalos",
+    "fr": "Omphalos"
   }
 }
