@@ -134,6 +134,9 @@ namespace Cafe.Matcha.Network.Universalis
             catch (Exception e)
             {
                 Log.Error($"[Universalis] 获取物价信息失败 {e.Message}");
+#if DEBUG
+                Log.Debug(e.StackTrace);
+#endif
             }
 
             return null;
