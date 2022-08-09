@@ -211,7 +211,7 @@
   },
   "15": {
     "name": {
-      "chs": "帝国南方堡外围激战",
+      "chs": "神兵要塞帝国南方堡",
       "en": "Castrum Meridianum",
       "ja": "外郭攻略 カストルム・メリディアヌム",
       "de": "Castrum Meridianum - Außenbereich",
@@ -221,12 +221,12 @@
     "level": 50,
     "levelSync": 50,
     "item": 42,
-    "itemSync": 0,
-    "memberType": 3
+    "itemSync": 60,
+    "memberType": 2
   },
   "16": {
     "name": {
-      "chs": "天幕魔导城最终决战",
+      "chs": "最终决战天幕魔导城",
       "en": "the Praetorium",
       "ja": "最終決戦 魔導城プラエトリウム",
       "de": "Castrum Meridianum - Praetorium",
@@ -236,8 +236,8 @@
     "level": 50,
     "levelSync": 50,
     "item": 42,
-    "itemSync": 0,
-    "memberType": 3
+    "itemSync": 60,
+    "memberType": 2
   },
   "17": {
     "name": {
@@ -914,21 +914,6 @@
     "itemSync": 0,
     "memberType": 3
   },
-  "62": {
-    "name": {
-      "chs": "里塔提恩强攻战",
-      "en": "Cape Westwind",
-      "ja": "リットアティン強襲戦",
-      "de": "Kap Westwind",
-      "fr": "le Cap Vendouest"
-    },
-    "type": 4,
-    "level": 49,
-    "levelSync": 50,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 3
-  },
   "63": {
     "name": {
       "chs": "伊弗利特歼殛战",
@@ -1006,7 +991,7 @@
   },
   "68": {
     "name": {
-      "chs": "究极神兵破坏作战",
+      "chs": "究极神兵假想作战",
       "en": "the Minstrel's Ballad: Ultima's Bane",
       "ja": "究極幻想 アルテマウェポン破壊作戦",
       "de": "Heldenlied von Ultima",
@@ -1801,7 +1786,7 @@
   },
   "127": {
     "name": {
-      "chs": "周边遗迹群 (阵地战)",
+      "chs": "周边遗迹群（阵地战）",
       "en": "the Borderland Ruins (Secure)",
       "ja": "外縁遺跡群 (制圧戦)",
       "de": "Äußere Ruinen (Sicherung)",
@@ -1816,7 +1801,7 @@
   },
   "130": {
     "name": {
-      "chs": "尘封秘岩 (争夺战)",
+      "chs": "尘封秘岩（争夺战）",
       "en": "Seal Rock (Seize)",
       "ja": "シールロック (争奪戦)",
       "de": "Robbenholm (Eroberung)",
@@ -1993,36 +1978,6 @@
     "item": 180,
     "itemSync": 0,
     "memberType": 2
-  },
-  "143": {
-    "name": {
-      "chs": "群狼盛宴 (4对4 / 练习赛)",
-      "en": "the Feast (4 on 4 - Training)",
-      "ja": "ザ・フィースト (4対4 / カジュアルマッチ)",
-      "de": "The Feast (4 gegen 4, Übungskampf)",
-      "fr": "The Feast (4x4/entraînement)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
-  },
-  "145": {
-    "name": {
-      "chs": "群狼盛宴 (4对4 / 段位赛)",
-      "en": "the Feast (4 on 4 - Ranked)",
-      "ja": "ザ・フィースト (4対4 / ランクマッチ)",
-      "de": "The Feast (4 gegen 4, gewertet)",
-      "fr": "The Feast (4x4/classé)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
   },
   "147": {
     "name": {
@@ -2521,7 +2476,7 @@
   },
   "180": {
     "name": {
-      "chs": "荣誉野 (碎冰战)",
+      "chs": "荣誉野（碎冰战）",
       "en": "the Fields of Glory (Shatter)",
       "ja": "フィールド・オブ・グローリー (砕氷戦)",
       "de": "Feld der Ehre (Zersplitterung)",
@@ -2803,21 +2758,6 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 10
-  },
-  "201": {
-    "name": {
-      "chs": "群狼盛宴 (狼狱演习场：自定赛)",
-      "en": "the Feast (Custom Match - Feasting Grounds)",
-      "ja": "ザ・フィースト (ウルヴズジェイル演習場：カスタムマッチ）",
-      "de": "The Feast (Wolfshöhle: Schaukampf)",
-      "fr": "The Feast (personnalisé/Festin des loups)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 14
   },
   "202": {
     "name": {
@@ -3178,51 +3118,6 @@
     "item": 220,
     "itemSync": 0,
     "memberType": 8
-  },
-  "228": {
-    "name": {
-      "chs": "群狼盛宴 (4对4 / 练习赛)",
-      "en": "the Feast (4 on 4 - Training)",
-      "ja": "ザ・フィースト (4対4 / カジュアルマッチ)",
-      "de": "The Feast (4 gegen 4, Übungskampf)",
-      "fr": "The Feast (4x4/entraînement)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
-  },
-  "230": {
-    "name": {
-      "chs": "群狼盛宴 (4对4 / 段位赛)",
-      "en": "the Feast (4 on 4 - Ranked)",
-      "ja": "ザ・フィースト (4対4 / ランクマッチ)",
-      "de": "The Feast (4 gegen 4, gewertet)",
-      "fr": "The Feast (4x4/classé)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
-  },
-  "233": {
-    "name": {
-      "chs": "群狼盛宴 (地衣宫演习场：自定赛)",
-      "en": "the Feast (Custom Match - Lichenweed)",
-      "ja": "ザ・フィースト (ライケンウィード演習場：カスタムマッチ）",
-      "de": "The Feast (Flechtenhain: Schaukampf)",
-      "fr": "The Feast (personnalisé/Pré-de-lichen)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 14
   },
   "234": {
     "name": {
@@ -3871,7 +3766,7 @@
   },
   "277": {
     "name": {
-      "chs": "距骨研究所 (机动战)",
+      "chs": "距骨研究所（机动战）",
       "en": "Astragalos",
       "ja": "アストラガロス (機工戦)",
       "de": "Astragalos",
@@ -4198,66 +4093,6 @@
     "item": 350,
     "itemSync": 0,
     "memberType": 2
-  },
-  "476": {
-    "name": {
-      "chs": "群狼盛宴 (战队段位赛)",
-      "en": "the Feast (Team Ranked)",
-      "ja": "ザ・フィースト (チーム用ランクマッチ)",
-      "de": "The Feast (Team, gewertet)",
-      "fr": "The Feast (classé/équipe JcJ)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 21
-  },
-  "478": {
-    "name": {
-      "chs": "群狼盛宴 (段位赛)",
-      "en": "the Feast (Ranked)",
-      "ja": "ザ・フィースト (ランクマッチ)",
-      "de": "The Feast (gewertet)",
-      "fr": "The Feast (classé)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
-  },
-  "479": {
-    "name": {
-      "chs": "群狼盛宴 (练习赛)",
-      "en": "the Feast (Training)",
-      "ja": "ザ・フィースト (カジュアルマッチ)",
-      "de": "The Feast (Übungskampf)",
-      "fr": "The Feast (entraînement)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 6
-  },
-  "480": {
-    "name": {
-      "chs": "群狼盛宴 (水晶塔演习场：自定赛)",
-      "en": "the Feast (Custom Match - Crystal Tower)",
-      "ja": "ザ・フィースト (クリスタルタワー演習場：カスタムマッチ）",
-      "de": "The Feast (Kristallturm-Arena: Schaukampf)",
-      "fr": "The Feast (personnalisé/Tour de Cristal)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 14
   },
   "481": {
     "name": {
@@ -5729,21 +5564,6 @@
     "itemSync": 0,
     "memberType": 1
   },
-  "580": {
-    "name": {
-      "chs": "群狼盛宴 (水晶塔演习场：战队自定赛)",
-      "en": "the Feast (Team Custom Match - Crystal Tower)",
-      "ja": "ザ・フィースト (クリスタルタワー演習場：チーム用カスタムマッチ)",
-      "de": "The Feast (Kristallturm-Arena: Team-Schaukampf) ",
-      "fr": "The Feast (personnalisé/équipe JcJ/Tour de Cristal)"
-    },
-    "type": 6,
-    "level": 30,
-    "levelSync": 0,
-    "item": 0,
-    "itemSync": 0,
-    "memberType": 22
-  },
   "581": {
     "name": {
       "chs": "禁地优雷卡 恒冰之地",
@@ -6016,7 +5836,7 @@
   },
   "599": {
     "name": {
-      "chs": "隐塞 (机动战)",
+      "chs": "隐塞（机动战）",
       "en": "Hidden Gorge",
       "ja": "ヒドゥンゴージ (機工戦)",
       "de": "Verborgene Schlucht",
@@ -9061,7 +8881,7 @@
   },
   "821": {
     "name": {
-      "chs": "",
+      "chs": "究极神兵幻巧战",
       "en": "Ultima's Bane (Unreal)",
       "ja": "幻アルテマウェポン破壊作戦",
       "de": "Traumprüfung - Ultima",
@@ -9076,7 +8896,7 @@
   },
   "830": {
     "name": {
-      "chs": "",
+      "chs": "究极神兵破坏作战",
       "en": "The Porta Decumana",
       "ja": "アルテマウェポン破壊作戦",
       "de": "Porta Decumana",
@@ -9091,7 +8911,7 @@
   },
   "835": {
     "name": {
-      "chs": "",
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9106,7 +8926,7 @@
   },
   "836": {
     "name": {
-      "chs": "",
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9121,7 +8941,7 @@
   },
   "837": {
     "name": {
-      "chs": "",
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9136,7 +8956,7 @@
   },
   "838": {
     "name": {
-      "chs": "",
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9151,7 +8971,7 @@
   },
   "839": {
     "name": {
-      "chs": "",
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9166,7 +8986,7 @@
   },
   "840": {
     "name": {
-      "chs": "",
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9181,7 +9001,7 @@
   },
   "841": {
     "name": {
-      "chs": "",
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9196,7 +9016,7 @@
   },
   "842": {
     "name": {
-      "chs": "",
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9211,7 +9031,7 @@
   },
   "843": {
     "name": {
-      "chs": "",
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9226,7 +9046,7 @@
   },
   "844": {
     "name": {
-      "chs": "",
+      "chs": "近东秘宝阿尔扎达尔海底遗迹群",
       "en": "Alzadaal's Legacy",
       "ja": "近東秘宝 アルザダール海底遺跡群",
       "de": "Alzadaals Vermächtnis",
@@ -9241,7 +9061,7 @@
   },
   "845": {
     "name": {
-      "chs": "",
+      "chs": "涅尔瓦的帝国",
       "en": "Forlorn Glory",
       "ja": "ネルウァの帝国",
       "de": "Nervas Reich",
@@ -9256,7 +9076,7 @@
   },
   "846": {
     "name": {
-      "chs": "",
+      "chs": "终极之战",
       "en": "The Minstrel's Ballad: Endsinger's Aria",
       "ja": "終極の戦い",
       "de": "Eschatos - Endsängerin",
@@ -9271,6 +9091,7 @@
   },
   "847": {
     "name": {
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9285,6 +9106,7 @@
   },
   "848": {
     "name": {
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9299,6 +9121,7 @@
   },
   "849": {
     "name": {
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9313,6 +9136,7 @@
   },
   "850": {
     "name": {
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9327,6 +9151,7 @@
   },
   "851": {
     "name": {
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9341,6 +9166,7 @@
   },
   "852": {
     "name": {
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9355,6 +9181,7 @@
   },
   "853": {
     "name": {
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9369,6 +9196,7 @@
   },
   "854": {
     "name": {
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9383,6 +9211,7 @@
   },
   "855": {
     "name": {
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9397,6 +9226,7 @@
   },
   "856": {
     "name": {
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9411,6 +9241,7 @@
   },
   "857": {
     "name": {
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9425,6 +9256,7 @@
   },
   "858": {
     "name": {
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9439,6 +9271,7 @@
   },
   "859": {
     "name": {
+      "chs": "角力学校",
       "en": "The Palaistra",
       "ja": "パライストラ",
       "de": "Die Palästra",
@@ -9453,6 +9286,7 @@
   },
   "860": {
     "name": {
+      "chs": "火山之心",
       "en": "The Volcanic Heart",
       "ja": "ヴォルカニック・ハート",
       "de": "Das Herz des Vulkans",
@@ -9467,6 +9301,7 @@
   },
   "861": {
     "name": {
+      "chs": "九霄云上",
       "en": "Cloud Nine",
       "ja": "クラウドナイン",
       "de": "Wolke Sieben",
@@ -9481,6 +9316,7 @@
   },
   "862": {
     "name": {
+      "chs": "水晶冲突（角力学校：自定赛）",
       "en": "Crystalline Conflict (Custom Match - The Palaistra)",
       "ja": "クリスタルコンフリクト(パライストラ：カスタムマッチ)",
       "de": "Crystalline Conflict: Die Palästra (Schaukampf)",
@@ -9495,6 +9331,7 @@
   },
   "863": {
     "name": {
+      "chs": "水晶冲突（火山之心：自定赛）",
       "en": "Crystalline Conflict (Custom Match - The Volcanic Heart)",
       "ja": "クリスタルコンフリクト(ヴォルカニック・ハート：カスタムマッチ)",
       "de": "Crystalline Conflict: Das Herz des Vulkans (Schaukampf)",
@@ -9509,6 +9346,7 @@
   },
   "864": {
     "name": {
+      "chs": "水晶冲突（九霄云上：自定赛）",
       "en": "Crystalline Conflict (Custom Match - Cloud Nine)",
       "ja": "クリスタルコンフリクト(クラウドナイン：カスタムマッチ)",
       "de": "Crystalline Conflict: Wolke Sieben (Schaukampf)",
@@ -9523,6 +9361,7 @@
   },
   "865": {
     "name": {
+      "chs": "里塔提恩强攻战",
       "en": "Cape Westwind",
       "ja": "リットアティン強襲戦",
       "de": "Kap Westwind",
@@ -9537,6 +9376,7 @@
   },
   "866": {
     "name": {
+      "chs": "灿烂神域阿格莱亚",
       "en": "Aglaia",
       "ja": "輝ける神域 アグライア",
       "de": "Aglaia",
@@ -9551,6 +9391,7 @@
   },
   "867": {
     "name": {
+      "chs": "拉哈布雷亚讨伐战",
       "en": "Devastation",
       "ja": "アシエン・ラハブレア討伐戦",
       "de": "Das Antlitz der Kaltblütigkeit",

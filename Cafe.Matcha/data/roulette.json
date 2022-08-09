@@ -62,33 +62,12 @@
     "de": "Zufallsinhalt: Mentor",
     "fr": "Mission aléatoire : mentor"
   },
-  "11": {
-    "chs": "群狼盛宴 (练习赛)",
-    "en": "The Feast (Training Match)",
-    "ja": "ザ・フィースト (カジュアルマッチ)",
-    "de": "The Feast (Übungskampf)",
-    "fr": "The Feast (entraînement)"
-  },
-  "13": {
-    "chs": "群狼盛宴 (段位赛)",
-    "en": "The Feast (Ranked Match)",
-    "ja": "ザ・フィースト (ランクマッチ)",
-    "de": "The Feast (gewertet)",
-    "fr": "The Feast (classé)"
-  },
   "15": {
     "chs": "随机任务：团队任务",
     "en": "Duty Roulette: Alliance Raids",
     "ja": "コンテンツルーレット：アライアンスレイド",
     "de": "Zufallsinhalt: Allianz-Raid",
     "fr": "Mission aléatoire : raids en alliance"
-  },
-  "16": {
-    "chs": "群狼盛宴 (战队段位赛)",
-    "en": "The Feast (Team Ranked Match)",
-    "ja": "ザ・フィースト (チーム用ランクマッチ)",
-    "de": "The Feast (Team, gewertet)",
-    "fr": "The Feast (classé/équipe JcJ)"
   },
   "17": {
     "chs": "随机任务：大型任务",
@@ -245,12 +224,14 @@
     "fr": "Course de chocobos : aléatoire"
   },
   "40": {
+    "chs": "水晶冲突（练习赛）",
     "en": "Crystalline Conflict (Casual Match)",
     "ja": "クリスタルコンフリクト(カジュアルマッチ)",
     "de": "Crystalline Conflict: Freies Spiel",
     "fr": "Crystalline Conflict (partie non classée)"
   },
   "41": {
+    "chs": "水晶冲突（段位赛）",
     "en": "Crystalline Conflict (Ranked Match)",
     "ja": "クリスタルコンフリクト(ランクマッチ)",
     "de": "Crystalline Conflict: Gewertetes Spiel",

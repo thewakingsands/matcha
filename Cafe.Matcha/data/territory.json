@@ -202,20 +202,6 @@
     "de": "Mor Dhona",
     "fr": "Mor Dhona"
   },
-  "157": {
-    "chs": "沙斯塔夏溶洞",
-    "en": "Sastasha",
-    "ja": "サスタシャ浸食洞",
-    "de": "Sastasha-Höhle",
-    "fr": "Sastasha"
-  },
-  "158": {
-    "chs": "布雷福洛克斯野营地",
-    "en": "Brayflox's Longstop",
-    "ja": "ブレイフロクスの野営地",
-    "de": "Brüllvolx' Langrast",
-    "fr": "Bivouac de Brayflox"
-  },
   "159": {
     "chs": "放浪神古神殿",
     "en": "The Wanderer's Palace",
@@ -229,13 +215,6 @@
     "ja": "シリウス大灯台",
     "de": "Pharos Sirius",
     "fr": "Phare de Sirius"
-  },
-  "161": {
-    "chs": "铜铃铜山",
-    "en": "Copperbell Mines",
-    "ja": "カッパーベル銅山",
-    "de": "Kupferglocken-Mine",
-    "fr": "Mines de Clochecuivre"
   },
   "162": {
     "chs": "日影地修炼所",
@@ -251,40 +230,12 @@
     "de": "Versunkener Tempel von Qarn",
     "fr": "Temple enseveli de Qarn"
   },
-  "164": {
-    "chs": "塔姆·塔拉墓园",
-    "en": "The Tam-Tara Deepcroft",
-    "ja": "タムタラの墓所",
-    "de": "Totenacker Tam-Tara",
-    "fr": "Hypogée de Tam-Tara"
-  },
-  "166": {
-    "chs": "静语庄园",
-    "en": "Haukke Manor",
-    "ja": "ハウケタ御用邸",
-    "de": "Haukke-Herrenhaus",
-    "fr": "Manoir des Haukke"
-  },
   "167": {
     "chs": "无限城古堡",
     "en": "Amdapor Keep",
     "ja": "古城アムダプール",
     "de": "Ruinen von Amdapor",
     "fr": "Château d'Amdapor"
-  },
-  "168": {
-    "chs": "石卫塔",
-    "en": "Stone Vigil",
-    "ja": "ストーンヴィジル",
-    "de": "Steinerne Wacht",
-    "fr": "Vigile de Pierre"
-  },
-  "169": {
-    "chs": "托托·拉克千狱",
-    "en": "The Thousand Maws of Toto-Rak",
-    "ja": "トトラクの千獄",
-    "de": "Tausend Löcher von Toto-Rak",
-    "fr": "Mille Gueules de Toto-Rak"
   },
   "170": {
     "chs": "樵鸣洞",
@@ -440,13 +391,6 @@
     "de": "Admiralsbrücke",
     "fr": "Salon de l'Amiral"
   },
-  "202": {
-    "chs": "炎帝陵",
-    "en": "Bowl of Embers",
-    "ja": "炎帝祭跡",
-    "de": "Das Grab der Lohe",
-    "fr": "Cratère des tisons"
-  },
   "204": {
     "chs": "神勇队司令室",
     "en": "Seat of the First Bow",
@@ -461,26 +405,12 @@
     "de": "Wasserrosentisch",
     "fr": "Chaire du Lotus"
   },
-  "206": {
-    "chs": "奥·哥摩罗火口神殿",
-    "en": "The Navel",
-    "ja": "オ・ゴモロ火口神殿",
-    "de": "Der Nabel",
-    "fr": "Le Nombril"
-  },
   "207": {
     "chs": "荆棘之园",
     "en": "Thornmarch",
     "ja": "茨の園",
     "de": "Dornmarsch",
     "fr": "Lisière de ronces"
-  },
-  "208": {
-    "chs": "呼啸眼石塔群",
-    "en": "The Howling Eye",
-    "ja": "ハウリングアイ石塔群",
-    "de": "Das Tosende Auge",
-    "fr": "Hurlœil"
   },
   "210": {
     "chs": "银胄团总长室",
@@ -517,13 +447,6 @@
     "de": "Zentrales Thanalan",
     "fr": "Thanalan central"
   },
-  "217": {
-    "chs": "帝国南方堡",
-    "en": "Castrum Meridianum",
-    "ja": "カストルム・メリディアヌム",
-    "de": "Castrum Meridianum",
-    "fr": "Castrum Meridianum"
-  },
   "219": {
     "chs": "黑衣森林中央林区",
     "en": "Central Shroud",
@@ -558,13 +481,6 @@
     "ja": "クルザス中央高地",
     "de": "Zentrales Hochland von Coerthas",
     "fr": "Hautes terres du Coerthas central"
-  },
-  "224": {
-    "chs": "天幕魔导城",
-    "en": "The Praetorium",
-    "ja": "魔導城プラエトリウム",
-    "de": "Praetorium",
-    "fr": "Praetorium"
   },
   "225": {
     "chs": "黑衣森林中央林区",
@@ -1314,13 +1230,6 @@
     "ja": "ハウリングアイ外縁",
     "de": "Das Tosende Auge",
     "fr": "Hurlœil (abord)"
-  },
-  "332": {
-    "chs": "西萨纳兰",
-    "en": "Western Thanalan",
-    "ja": "西ザナラーン",
-    "de": "Westliches Thanalan",
-    "fr": "Thanalan occidental"
   },
   "335": {
     "chs": "摩杜纳",
@@ -2617,20 +2526,6 @@
     "de": "Arretur S1T7",
     "fr": "Unité de contention S1P7"
   },
-  "525": {
-    "chs": "狼狱演习场",
-    "en": "The Feasting Grounds",
-    "ja": "ウルヴズジェイル演習場",
-    "de": "Kampfplatz",
-    "fr": "Festin des loups"
-  },
-  "527": {
-    "chs": "狼狱演习场",
-    "en": "The Feasting Grounds",
-    "ja": "ウルヴズジェイル演習場",
-    "de": "Kampfplatz",
-    "fr": "Festin des loups"
-  },
   "529": {
     "chs": "弥达斯之拳",
     "en": "The Fist of the Son",
@@ -3254,13 +3149,6 @@
     "de": "Sohm Al",
     "fr": "Sohm Al"
   },
-  "619": {
-    "chs": "狼狱演习场",
-    "en": "The Feasting Grounds",
-    "ja": "ウルヴズジェイル演習場",
-    "de": "Kampfplatz",
-    "fr": "Festin des loups"
-  },
   "620": {
     "chs": "基拉巴尼亚山区",
     "en": "The Peaks",
@@ -3338,13 +3226,6 @@
     "de": "Das Diadem",
     "fr": "Le Diadème"
   },
-  "632": {
-    "chs": "地衣宫演习场",
-    "en": "Lichenweed",
-    "ja": "ライケンウィード演習場",
-    "de": "Flechtenhain",
-    "fr": "Pré-de-lichen"
-  },
   "633": {
     "chs": "加尔提诺平原周边遗迹群",
     "en": "Carteneau Flats: Borderland Ruins",
@@ -3407,20 +3288,6 @@
     "ja": "シロガネ",
     "de": "Shirogane",
     "fr": "Shirogane"
-  },
-  "644": {
-    "chs": "地衣宫演习场",
-    "en": "Lichenweed",
-    "ja": "ライケンウィード演習場",
-    "de": "Flechtenhain",
-    "fr": "Pré-de-lichen"
-  },
-  "646": {
-    "chs": "地衣宫演习场",
-    "en": "Lichenweed",
-    "ja": "ライケンウィード演習場",
-    "de": "Flechtenhain",
-    "fr": "Pré-de-lichen"
   },
   "647": {
     "chs": "基拉巴尼亚边区",
@@ -4011,7 +3878,7 @@
     "fr": "Transparence"
   },
   "731": {
-    "chs": "沉没神殿斯卡拉遗迹",
+    "chs": "斯卡拉遗迹",
     "en": "The Drowned City of Skalla",
     "ja": "スカラ",
     "de": "Die versunkene Stadt Skalla",
@@ -4107,13 +3974,6 @@
     "ja": "帰燕館",
     "de": "Kienkan",
     "fr": "Kienkan"
-  },
-  "745": {
-    "chs": "水晶塔演习场",
-    "en": "Crystal Tower Training Grounds",
-    "ja": "クリスタルタワー演習場",
-    "de": "Kristallturm-Arena",
-    "fr": "Arène de la Tour de Cristal"
   },
   "746": {
     "chs": "白帝竹林",
@@ -4240,27 +4100,6 @@
     "ja": "醴泉神社境内",
     "de": "Reisen-Schrein",
     "fr": "Sanctuaire Reisen"
-  },
-  "765": {
-    "chs": "水晶塔演习场",
-    "en": "Crystal Tower Training Grounds",
-    "ja": "クリスタルタワー演習場",
-    "de": "Kristallturm-Arena",
-    "fr": "Arène de la Tour de Cristal"
-  },
-  "766": {
-    "chs": "水晶塔演习场",
-    "en": "Crystal Tower Training Grounds",
-    "ja": "クリスタルタワー演習場",
-    "de": "Kristallturm-Arena",
-    "fr": "Arène de la Tour de Cristal"
-  },
-  "767": {
-    "chs": "水晶塔演习场",
-    "en": "Crystal Tower Training Grounds",
-    "ja": "クリスタルタワー演習場",
-    "de": "Kristallturm-Arena",
-    "fr": "Arène de la Tour de Cristal"
   },
   "768": {
     "chs": "岩燕庙",
@@ -6069,21 +5908,21 @@
     "fr": "Le Propylée"
   },
   "1032": {
-    "chs": "",
+    "chs": "角力学校",
     "en": "The Palaistra",
     "ja": "パライストラ",
     "de": "Die Palästra",
     "fr": "Le Palestre"
   },
   "1033": {
-    "chs": "",
+    "chs": "火山之心",
     "en": "The Volcanic Heart",
     "ja": "ヴォルカニック・ハート",
     "de": "Das Herz des Vulkans",
     "fr": "Le Cœur volcanique"
   },
   "1034": {
-    "chs": "",
+    "chs": "九霄云上",
     "en": "Cloud Nine",
     "ja": "クラウドナイン",
     "de": "Wolke Sieben",
@@ -6195,7 +6034,7 @@
     "fr": "Thanalan occidental"
   },
   "1050": {
-    "chs": "",
+    "chs": "阿尔扎达尔海底遗迹群",
     "en": "Alzadaal's Legacy",
     "ja": "アルザダール海底遺跡群",
     "de": "Alzadaals Vermächtnis",
@@ -6209,63 +6048,63 @@
     "fr": "Tour de Babil"
   },
   "1052": {
-    "chs": "",
+    "chs": "后营门",
     "en": "The Porta Decumana",
     "ja": "ポルタ・デクマーナ",
     "de": "Porta Decumana",
     "fr": "Porta Decumana"
   },
   "1053": {
-    "chs": "",
+    "chs": "后营门",
     "en": "The Porta Decumana",
     "ja": "ポルタ・デクマーナ",
     "de": "Porta Decumana",
     "fr": "Porta Decumana"
   },
   "1054": {
-    "chs": "",
+    "chs": "灿烂神域阿格莱亚",
     "en": "Aglaia",
     "ja": "輝ける神域 アグライア",
     "de": "Aglaia",
     "fr": "Domaine divin - Aglaé"
   },
   "1056": {
-    "chs": "",
+    "chs": "阿尔扎达尔海底遗迹群",
     "en": "Alzadaal's Legacy",
     "ja": "アルザダール海底遺跡群",
     "de": "Alzadaals Vermächtnis",
     "fr": "Legs d'Alzadaal"
   },
   "1057": {
-    "chs": "",
+    "chs": "所思大书院禁书库",
     "en": "Restricted Archives",
     "ja": "ヌーメノン大書院：禁書庫",
     "de": "Verbotener Flügel",
     "fr": "Archives interdites du Noumène"
   },
   "1058": {
-    "chs": "",
+    "chs": "角力学校",
     "en": "The Palaistra",
     "ja": "パライストラ",
     "de": "Die Palästra",
     "fr": "Le Palestre"
   },
   "1059": {
-    "chs": "",
+    "chs": "火山之心",
     "en": "The Volcanic Heart",
     "ja": "ヴォルカニック・ハート",
     "de": "Das Herz des Vulkans",
     "fr": "Le Cœur volcanique"
   },
   "1060": {
-    "chs": "",
+    "chs": "九霄云上",
     "en": "Cloud Nine",
     "ja": "クラウドナイン",
     "de": "Wolke Sieben",
     "fr": "Le Petit Nuage"
   },
   "1061": {
-    "chs": "",
+    "chs": "翁法洛斯",
     "en": "The Omphalos",
     "ja": "オムファロス",
     "de": "Omphalos",

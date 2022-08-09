@@ -1,4 +1,16 @@
 {
+  "21": {
+    "name": "Ravana",
+    "name_en": "Ravana",
+    "dc": "Materia",
+    "dc_en": "Materia"
+  },
+  "22": {
+    "name": "Bismarck",
+    "name_en": "Bismarck",
+    "dc": "Materia",
+    "dc_en": "Materia"
+  },
   "23": {
     "name": "Asura",
     "name_en": "Asura",
@@ -8,8 +20,8 @@
   "24": {
     "name": "Belias",
     "name_en": "Belias",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "28": {
     "name": "Pandaemonium",
@@ -20,26 +32,26 @@
   "29": {
     "name": "Shinryu",
     "name_en": "Shinryu",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "30": {
     "name": "Unicorn",
     "name_en": "Unicorn",
-    "dc": "Elemental",
-    "dc_en": "Elemental"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "31": {
     "name": "Yojimbo",
     "name_en": "Yojimbo",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "32": {
     "name": "Zeromus",
     "name_en": "Zeromus",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "33": {
     "name": "Twintania",
@@ -152,8 +164,8 @@
   "52": {
     "name": "Valefor",
     "name_en": "Valefor",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "53": {
     "name": "Exodus",
@@ -200,8 +212,8 @@
   "60": {
     "name": "Ramuh",
     "name_en": "Ramuh",
-    "dc": "Elemental",
-    "dc_en": "Elemental"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "61": {
     "name": "Titan",
@@ -332,8 +344,8 @@
   "82": {
     "name": "Mandragora",
     "name_en": "Mandragora",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Meteor",
+    "dc_en": "Meteor"
   },
   "83": {
     "name": "Louisoix",
@@ -346,6 +358,24 @@
     "name_en": "Spriggan",
     "dc": "Chaos",
     "dc_en": "Chaos"
+  },
+  "86": {
+    "name": "Sephirot",
+    "name_en": "Sephirot",
+    "dc": "Materia",
+    "dc_en": "Materia"
+  },
+  "87": {
+    "name": "Sophia",
+    "name_en": "Sophia",
+    "dc": "Materia",
+    "dc_en": "Materia"
+  },
+  "88": {
+    "name": "Zurvan",
+    "name_en": "Zurvan",
+    "dc": "Materia",
+    "dc_en": "Materia"
   },
   "90": {
     "name": "Aegis",
@@ -406,18 +436,6 @@
     "name_en": "Sargatanas",
     "dc": "Aether",
     "dc_en": "Aether"
-  },
-  "161": {
-    "name": "Chocobo",
-    "name_en": "Chocobo",
-    "dc": "Mana",
-    "dc_en": "Mana"
-  },
-  "166": {
-    "name": "Moogle",
-    "name_en": "Moogle",
-    "dc": "Chaos",
-    "dc_en": "Chaos"
   },
   "1042": {
     "name": "拉诺西亚",
@@ -586,5 +604,35 @@
     "name_en": "HongChaChuan2",
     "dc": "豆豆柴",
     "dc_en": "DouDouChai"
+  },
+  "2075": {
+    "name": "카벙클",
+    "name_en": "카벙클",
+    "dc": "Korea",
+    "dc_en": "Korea"
+  },
+  "2076": {
+    "name": "초코보",
+    "name_en": "초코보",
+    "dc": "Korea",
+    "dc_en": "Korea"
+  },
+  "2077": {
+    "name": "모그리",
+    "name_en": "모그리",
+    "dc": "Korea",
+    "dc_en": "Korea"
+  },
+  "2078": {
+    "name": "톤베리",
+    "name_en": "톤베리",
+    "dc": "Korea",
+    "dc_en": "Korea"
+  },
+  "2080": {
+    "name": "펜리르",
+    "name_en": "펜리르",
+    "dc": "Korea",
+    "dc_en": "Korea"
   }
 }
