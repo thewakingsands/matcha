@@ -1,3 +1,12 @@
+import { readCsv } from './csv.mjs'
+import { formatOpcode, parseOpcode } from './opcode.mjs'
+import fetch from 'node-fetch'
+import { join } from 'path'
+import { fileURLToPath } from 'url'
+import { writeFileSync } from 'fs'
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
+
 const opcodes = [
   'ActorControl',
   'ActorControlSelf',
@@ -38,21 +47,7 @@ const opcodes = [
   'PlayerSpawn'
 ]
 
-const https = require('https')
-const fs = require('fs')
-const { join } = require('path')
-
-const request = (url) => new Promise((resolve, reject) => {
-  const req = https.request(url, (res) => {
-    const chunks = []
-    res.on('data', (chunk) => chunks.push(chunk))
-    res.on('end', () => resolve(Buffer.concat(chunks)))
-  })
-  req.on('error', reject)
-  req.end()
-})
-
-const outputOpcode = (key, value) => `${' '.repeat(12)}{ 0x${value.toString(16).padStart(4, '0')}, MatchaOpcode.${key} },`
+const outputOpcode = (key, value) => `${' '.repeat(12)}{ 0x${formatOpcode(value)}, MatchaOpcode.${key} },`
 
 const outputKeys = () => opcodes.map((item, index) => {
   if (typeof item === 'string') {
@@ -91,32 +86,32 @@ const outputFromWorker = (list) => opcodes.map((item, index) => {
 }).join('\n')
 
 ;(async () => {
-  const karashiiroData = await request('https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json')
-  const parsedData = JSON.parse(karashiiroData.toString())
+  const karashiiroData = await fetch('https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json')
+  const parsedData = await karashiiroData.json()
 
   const globalOpcodes = parsedData.find(item => item.region === 'Global')
 
-  const cactbotFate = await request('https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs')
-  const ceDirector = /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(cactbotFate.toString())
+  const cactbotFate = await fetch('https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs')
+  const ceDirector = /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(await cactbotFate.text())
 
   if (ceDirector) {
     globalOpcodes.lists.ServerZoneIpcType.push({
       name: '_GH_CEDirector',
-      opcode: parseInt(ceDirector[1], 16)
+      opcode: parseOpcode(ceDirector[1])
     })
   }
 
-  const workerData = await request('https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv')
-  const cnOpcodes = workerData.toString().split('\n').map(line => {
-    const [key, ...args] = line.trim().split(',')
-    const valueColumn = args.reduce((val, content, index) => {
+  const workerData = await fetch('https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv')
+  const workerLines = readCsv(await workerData.text(), null, { header: 0, skip: 0 })
+  const cnOpcodes = workerLines.map(({ Name: name, _ }) => {
+    const valueColumn = _.reduce((val, content, index) => {
       return content ? index : val
     }, 0)
 
-    return [key, parseInt(args[valueColumn], 16)]
+    return [name, parseOpcode(_[valueColumn])]
   })
 
-  fs.writeFileSync(join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'), `// Copyright (c) FFCafe. All rights reserved.
+  writeFileSync(join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'), `// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Constant
