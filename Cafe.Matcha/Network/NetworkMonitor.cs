@@ -614,7 +614,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.Examine)
             {
-                if (message.Length != 1016)
+                if (message.Length != 0x428)
                 {
                     return false;
                 }
