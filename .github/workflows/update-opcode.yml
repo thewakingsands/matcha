@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Install node-fetch
-        run: npm i node-fetch@3
+      - name: Install node-fetch and csv-parse
+        run: npm i node-fetch@3 csv-parse@5
 
       - name: Download opcode file
         run: node utils/update-opcode.mjs
