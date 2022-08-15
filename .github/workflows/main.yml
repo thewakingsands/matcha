@@ -1,0 +1,22 @@
+name: Update opcodes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install node-fetch
+        run: npm i node-fetch@3
+
+      - name: Download opcode file
+        run: node utils/update-opcode.mjs
+
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v9.0.1
+        with:
+          add: Cafe.Matcha
