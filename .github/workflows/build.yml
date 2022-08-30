@@ -84,5 +84,6 @@ jobs:
     - name: Telegram Notify
       shell: bash
       run: |
-        curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F 'document=@"bin\*.zip"' https://api.telegram.org/${{ secrets.TELEGRAM_TOKEN }}/sendDocument
+        export FILENAME=`cd bin && ls *.zip`
+        curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F 'document=@"bin/${FILENAME}"' https://api.telegram.org/${{ secrets.TELEGRAM_TOKEN }}/sendDocument
 
