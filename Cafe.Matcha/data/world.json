@@ -437,6 +437,30 @@
     "dc": "Aether",
     "dc_en": "Aether"
   },
+  "400": {
+    "name": "Sagittarius",
+    "name_en": "Sagittarius",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "401": {
+    "name": "Phantom",
+    "name_en": "Phantom",
+    "dc": "Chaos",
+    "dc_en": "Chaos"
+  },
+  "402": {
+    "name": "Alpha",
+    "name_en": "Alpha",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
+  "403": {
+    "name": "Raiden",
+    "name_en": "Raiden",
+    "dc": "Light",
+    "dc_en": "Light"
+  },
   "1042": {
     "name": "拉诺西亚",
     "name_en": "LaNuoXiYa",
