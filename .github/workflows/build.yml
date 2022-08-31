@@ -85,4 +85,4 @@ jobs:
       shell: bash
       run: |
         export FILENAME=`cd bin && ls *.zip`
-        curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F "document=@\"bin/${FILENAME}\"" https://api.telegram.org/${{ secrets.TELEGRAM_TOKEN }}/sendDocument
+        curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F "document=@\"bin/${FILENAME}\"" https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendDocument
