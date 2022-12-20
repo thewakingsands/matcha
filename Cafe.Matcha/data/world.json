@@ -461,6 +461,30 @@
     "dc": "Light",
     "dc_en": "Light"
   },
+  "404": {
+    "name": "Marilith",
+    "name_en": "Marilith",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "405": {
+    "name": "Seraph",
+    "name_en": "Seraph",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "406": {
+    "name": "Halicarnassus",
+    "name_en": "Halicarnassus",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "407": {
+    "name": "Maduin",
+    "name_en": "Maduin",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
   "1042": {
     "name": "拉诺西亚",
     "name_en": "LaNuoXiYa",

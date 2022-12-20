@@ -1214,21 +1214,6 @@
     "itemSync": 0,
     "memberType": 3
   },
-  "83": {
-    "name": {
-      "chs": "皇都伊修加德保卫战",
-      "en": "the Steps of Faith",
-      "ja": "皇都イシュガルド防衛戦",
-      "de": "Der Schicksalsweg",
-      "fr": "le Siège de la sainte Cité d'Ishgard"
-    },
-    "type": 4,
-    "level": 50,
-    "levelSync": 50,
-    "item": 90,
-    "itemSync": 0,
-    "memberType": 3
-  },
   "84": {
     "name": {
       "chs": "那布里亚勒斯讨伐战",
@@ -8336,7 +8321,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 540,
-    "itemSync": 0,
+    "itemSync": 600,
     "memberType": 2
   },
   "785": {
@@ -8486,7 +8471,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 540,
-    "itemSync": 0,
+    "itemSync": 600,
     "memberType": 2
   },
   "795": {
@@ -8861,7 +8846,7 @@
     "level": 1,
     "levelSync": 90,
     "item": 0,
-    "itemSync": 0,
+    "itemSync": 630,
     "memberType": 3
   },
   "820": {
@@ -8879,25 +8864,10 @@
     "itemSync": 550,
     "memberType": 1
   },
-  "821": {
-    "name": {
-      "chs": "究极神兵幻巧战",
-      "en": "Ultima's Bane (Unreal)",
-      "ja": "幻アルテマウェポン破壊作戦",
-      "de": "Traumprüfung - Ultima",
-      "fr": "Le fléau d'Ultima (irréel)"
-    },
-    "type": 4,
-    "level": 90,
-    "levelSync": 90,
-    "item": 560,
-    "itemSync": 565,
-    "memberType": 3
-  },
   "830": {
     "name": {
       "chs": "究极神兵破坏作战",
-      "en": "The Porta Decumana",
+      "en": "the Porta Decumana",
       "ja": "アルテマウェポン破壊作戦",
       "de": "Porta Decumana",
       "fr": "Porta Decumana"
@@ -8905,7 +8875,7 @@
     "type": 4,
     "level": 50,
     "levelSync": 50,
-    "item": 0,
+    "item": 42,
     "itemSync": 60,
     "memberType": 2
   },
@@ -9056,7 +9026,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 560,
-    "itemSync": 0,
+    "itemSync": 600,
     "memberType": 2
   },
   "845": {
@@ -9402,6 +9372,261 @@
     "levelSync": 50,
     "item": 0,
     "itemSync": 60,
+    "memberType": 1
+  },
+  "868": {
+    "name": {
+      "chs": "",
+      "en": "The Sil'dihn Subterrane",
+      "ja": "ヴァリアントダンジョン シラディハ水道",
+      "de": "Die Unterstadt von Sil'dih",
+      "fr": "Les canalisations sildiennes - Donjon à embranchements"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 575,
+    "itemSync": 635,
+    "memberType": 11
+  },
+  "869": {
+    "name": {
+      "chs": "异界孤城特罗亚宫廷",
+      "en": "the Fell Court of Troia",
+      "ja": "異界孤城 トロイアコート",
+      "de": "Der Schwarze Hof von Troia",
+      "fr": "Le Château de Troïa"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 575,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "870": {
+    "name": {
+      "chs": "巴尔巴莉希娅歼灭战",
+      "en": "Storm's Crown",
+      "ja": "バルバリシア討滅戦",
+      "de": "Prophetie - Barbarizia",
+      "fr": "La Toison des tempêtes"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 585,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "871": {
+    "name": {
+      "chs": "巴尔巴莉希娅歼殛战",
+      "en": "Storm's Crown (Extreme)",
+      "ja": "極バルバリシア討滅戦",
+      "de": "Eschatos - Barbarizia",
+      "fr": "La Toison des tempêtes (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 600,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "872": {
+    "name": {
+      "chs": "万魔殿 炼净之狱1",
+      "en": "Abyssos: The Fifth Circle",
+      "ja": "万魔殿パンデモニウム：煉獄編1",
+      "de": "Abyssos - Fünfter Kreis",
+      "fr": "Le Purgatoire du Pandæmonium - Cages"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 585,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "873": {
+    "name": {
+      "chs": "零式万魔殿 炼净之狱1",
+      "en": "Abyssos: The Fifth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：煉獄編1",
+      "de": "Abyssos - Fünfter Kreis (episch)",
+      "fr": "Le Purgatoire du Pandæmonium - Cages (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 600,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "874": {
+    "name": {
+      "chs": "失传的力量",
+      "en": "Where Everything Begins",
+      "ja": "失われた力",
+      "de": "Wo alles seinen Anfang nimmt",
+      "fr": "Au commencement était Zero"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 620,
+    "memberType": 1
+  },
+  "875": {
+    "name": {
+      "chs": "萨菲洛特幻巧战",
+      "en": "Containment Bay S1T7 (Unreal)",
+      "ja": "幻魔神セフィロト討滅戦",
+      "de": "Traumprüfung - Sephirot",
+      "fr": "Unité de contention S1P7 (irréel)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 565,
+    "memberType": 3
+  },
+  "876": {
+    "name": {
+      "chs": "万魔殿 炼净之狱3",
+      "en": "Abyssos: The Seventh Circle",
+      "ja": "万魔殿パンデモニウム：煉獄編3",
+      "de": "Abyssos - Siebter Kreis",
+      "fr": "Le Purgatoire du Pandæmonium - Racines"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 585,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "877": {
+    "name": {
+      "chs": "零式万魔殿 炼净之狱3",
+      "en": "Abyssos: The Seventh Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：煉獄編3",
+      "de": "Abyssos - Siebter Kreis (episch)",
+      "fr": "Le Purgatoire du Pandæmonium - Racines (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 610,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "878": {
+    "name": {
+      "chs": "",
+      "en": "Another Sil'dihn Subterrane",
+      "ja": "アナザーダンジョン 異聞シラディハ水道",
+      "de": "Die kuriose Unterstadt von Sil'dih",
+      "fr": "Les canalisations sildiennes annexes - Donjon alternatif"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 610,
+    "itemSync": 635,
+    "memberType": 31
+  },
+  "879": {
+    "name": {
+      "chs": "",
+      "en": "Another Sil'dihn Subterrane (Savage)",
+      "ja": "アナザーダンジョン 異聞シラディハ水道 零式",
+      "de": "Die kuriose Unterstadt von Sil'dih (episch)",
+      "fr": "Les canalisations sildiennes annexes - Donjon alternatif (sadique)"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 635,
+    "memberType": 2
+  },
+  "880": {
+    "name": {
+      "chs": "万魔殿 炼净之狱2",
+      "en": "Abyssos: The Sixth Circle",
+      "ja": "万魔殿パンデモニウム：煉獄編2",
+      "de": "Abyssos - Sechster Kreis",
+      "fr": "Le Purgatoire du Pandæmonium - Croisements"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 585,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "881": {
+    "name": {
+      "chs": "零式万魔殿 炼净之狱2",
+      "en": "Abyssos: The Sixth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：煉獄編2",
+      "de": "Abyssos - Sechster Kreis (episch)",
+      "fr": "Le Purgatoire du Pandæmonium - Croisements (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 605,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "883": {
+    "name": {
+      "chs": "万魔殿 炼净之狱4",
+      "en": "Abyssos: The Eighth Circle",
+      "ja": "万魔殿パンデモニウム：煉獄編4",
+      "de": "Abyssos - Achter Kreis",
+      "fr": "Le Purgatoire du Pandæmonium - Hérédité"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 585,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "884": {
+    "name": {
+      "chs": "零式万魔殿 炼净之狱4",
+      "en": "Abyssos: The Eighth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：煉獄編4",
+      "de": "Abyssos - Achter Kreis (episch)",
+      "fr": "Le Purgatoire du Pandæmonium - Hérédité (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 610,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "885": {
+    "name": {
+      "chs": "皇都伊修加德保卫战",
+      "en": "the Steps of Faith",
+      "ja": "皇都イシュガルド防衛戦",
+      "de": "Der Schicksalsweg",
+      "fr": "Le Siège de la sainte Cité d'Ishgard"
+    },
+    "type": 7,
+    "level": 50,
+    "levelSync": 50,
+    "item": 0,
+    "itemSync": 110,
     "memberType": 1
   }
 }

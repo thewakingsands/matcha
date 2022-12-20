@@ -84,10 +84,10 @@
     "fr": "Compagnon"
   },
   "13": {
-    "chs": "蛮族任务",
-    "en": "Beast Tribe Quests",
-    "ja": "蛮族クエスト",
-    "de": "Wilde Stämme",
+    "chs": "友好部族任务",
+    "en": "Tribal Quests",
+    "ja": "友好部族クエスト",
+    "de": "Stammesvölker",
     "fr": "Quêtes tribales"
   },
   "14": {
@@ -166,5 +166,12 @@
     "ja": "絶レイド",
     "de": "Fatale Raids",
     "fr": "Raids fatals"
+  },
+  "30": {
+    "chs": "特殊迷宫探索",
+    "en": "V&C Dungeon Finder",
+    "ja": "特殊ダンジョン探索",
+    "de": "Gewölbesuche",
+    "fr": "Donjons spéciaux"
   }
 }

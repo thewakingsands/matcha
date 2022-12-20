@@ -104,13 +104,6 @@
     "de": "Halatali",
     "fr": "Halatali"
   },
-  "143": {
-    "chs": "云廊",
-    "en": "Steps of Faith",
-    "ja": "雲廊",
-    "de": "Schicksalsweg",
-    "fr": "Avancée de la Foi"
-  },
   "144": {
     "chs": "金碟游乐场",
     "en": "The Gold Saucer",
@@ -152,13 +145,6 @@
     "ja": "ウルヴズジェイル演習場",
     "de": "Kampfplatz",
     "fr": "Festin des loups"
-  },
-  "150": {
-    "chs": "密约之塔",
-    "en": "The Keeper of the Lake",
-    "ja": "黙約の塔",
-    "de": "Der Hüter des Sees",
-    "fr": "Gardien du lac"
   },
   "151": {
     "chs": "暗之世界",
@@ -404,13 +390,6 @@
     "ja": "不語仙の座卓",
     "de": "Wasserrosentisch",
     "fr": "Chaire du Lotus"
-  },
-  "207": {
-    "chs": "荆棘之园",
-    "en": "Thornmarch",
-    "ja": "茨の園",
-    "de": "Dornmarsch",
-    "fr": "Lisière de ronces"
   },
   "210": {
     "chs": "银胄团总长室",
@@ -1462,13 +1441,6 @@
     "de": "Kommandobrücke RVH-03",
     "fr": "Premier pont RCI-03"
   },
-  "371": {
-    "chs": "披雪大冰壁",
-    "en": "Snowcloak",
-    "ja": "スノークローク大氷壁",
-    "de": "Schneekleid",
-    "fr": "Manteneige"
-  },
   "372": {
     "chs": "希尔科斯塔",
     "en": "Syrcus Tower",
@@ -1812,13 +1784,6 @@
     "de": "Nimmerreich",
     "fr": "Nalloncques"
   },
-  "421": {
-    "chs": "伊修加德教皇厅",
-    "en": "The Vault",
-    "ja": "イシュガルド教皇庁",
-    "de": "Erzbasilika",
-    "fr": "La Voûte"
-  },
   "423": {
     "chs": "海雾村部队工房",
     "en": "Company Workshop - Mist",
@@ -1903,13 +1868,6 @@
     "de": "Abendrot-Wacht",
     "fr": "Vigile du Crépuscule"
   },
-  "435": {
-    "chs": "龙巢神殿",
-    "en": "The Aery",
-    "ja": "ドラゴンズエアリー",
-    "de": "Nest des Drachen",
-    "fr": "L'Aire"
-  },
   "436": {
     "chs": "无尽苍空",
     "en": "The Limitless Blue",
@@ -1944,13 +1902,6 @@
     "ja": "決闘裁判場",
     "de": "Gerichtssaal",
     "fr": "Salle des sentences"
-  },
-  "441": {
-    "chs": "索姆阿尔灵峰",
-    "en": "Sohm Al",
-    "ja": "ソーム・アル",
-    "de": "Sohm Al",
-    "fr": "Sohm Al"
   },
   "442": {
     "chs": "戈耳狄俄斯之拳",
@@ -5207,13 +5158,6 @@
     "de": "Das Diadem",
     "fr": "Le Diadème"
   },
-  "930": {
-    "chs": "无尽轮回剧场",
-    "en": "Akh Afah Amphitheatre",
-    "ja": "アク・アファー円形劇場",
-    "de": "Akh Afah",
-    "fr": "Amphithéâtre d'Akh Afah"
-  },
   "931": {
     "chs": "始皇宝座",
     "en": "The Seat of Sacrifice",
@@ -5368,13 +5312,6 @@
     "de": "Turm von Zot",
     "fr": "Tour de Zott"
   },
-  "953": {
-    "chs": "奥·哥摩罗火口神殿",
-    "en": "The Navel",
-    "ja": "オ・ゴモロ火口神殿",
-    "de": "Der Nabel",
-    "fr": "Le Nombril"
-  },
   "954": {
     "chs": "奥·哥摩罗火口神殿",
     "en": "The Navel",
@@ -5500,13 +5437,6 @@
     "ja": "レムレースのオフィス",
     "de": "Hauptquartier der Lemuren",
     "fr": "Repaire des Lémures"
-  },
-  "972": {
-    "chs": "对利维亚桑双体船",
-    "en": "The Whorleater",
-    "ja": "対リヴァイアサン双胴船",
-    "de": "Der Wogenbrecher",
-    "fr": "Briseur de marées"
   },
   "973": {
     "chs": "末世终迹",
@@ -5928,13 +5858,6 @@
     "de": "Wolke Sieben",
     "fr": "Le Petit Nuage"
   },
-  "1035": {
-    "chs": "后营门",
-    "en": "Porta Decumana",
-    "ja": "ポルタ・デクマーナ",
-    "de": "Porta Decumana",
-    "fr": "Porta Decumana"
-  },
   "1036": {
     "chs": "沙斯塔夏溶洞",
     "en": "Sastasha",
@@ -6068,6 +5991,13 @@
     "de": "Aglaia",
     "fr": "Domaine divin - Aglaé"
   },
+  "1055": {
+    "chs": "无名岛",
+    "en": "Unnamed Island",
+    "ja": "名もなき島",
+    "de": "Einsame Insel",
+    "fr": "Île sans nom"
+  },
   "1056": {
     "chs": "阿尔扎达尔海底遗迹群",
     "en": "Alzadaal's Legacy",
@@ -6109,5 +6039,222 @@
     "ja": "オムファロス",
     "de": "Omphalos",
     "fr": "Omphalos"
+  },
+  "1062": {
+    "chs": "披雪大冰壁",
+    "en": "Snowcloak",
+    "ja": "スノークローク大氷壁",
+    "de": "Schneekleid",
+    "fr": "Manteneige"
+  },
+  "1063": {
+    "chs": "密约之塔",
+    "en": "The Keeper of the Lake",
+    "ja": "黙約の塔",
+    "de": "Der Hüter des Sees",
+    "fr": "Gardien du lac"
+  },
+  "1064": {
+    "chs": "索姆阿尔灵峰",
+    "en": "Sohm Al",
+    "ja": "ソーム・アル",
+    "de": "Sohm Al",
+    "fr": "Sohm Al"
+  },
+  "1065": {
+    "chs": "龙巢神殿",
+    "en": "The Aery",
+    "ja": "ドラゴンズエアリー",
+    "de": "Nest des Drachen",
+    "fr": "L'Aire"
+  },
+  "1066": {
+    "chs": "伊修加德教皇厅",
+    "en": "The Vault",
+    "ja": "イシュガルド教皇庁",
+    "de": "Erzbasilika",
+    "fr": "La Voûte"
+  },
+  "1067": {
+    "chs": "荆棘之园",
+    "en": "Thornmarch",
+    "ja": "茨の園",
+    "de": "Dornmarsch",
+    "fr": "Lisière de ronces"
+  },
+  "1068": {
+    "chs": "云廊",
+    "en": "Steps of Faith",
+    "ja": "雲廊",
+    "de": "Schicksalsweg",
+    "fr": "Avancée de la Foi"
+  },
+  "1069": {
+    "chs": "",
+    "en": "The Sil'dihn Subterrane",
+    "ja": "シラディハ水道",
+    "de": "Unterstadt von Sil'dih",
+    "fr": "Canalisations sildiennes"
+  },
+  "1070": {
+    "chs": "特罗亚宫廷",
+    "en": "The Fell Court of Troia",
+    "ja": "トロイアコート",
+    "de": "Schwarzer Hof von Troia",
+    "fr": "Château de Troïa"
+  },
+  "1071": {
+    "chs": "咒发风塔",
+    "en": "Storm's Crown",
+    "ja": "呪髪の風塔",
+    "de": "Sturmes Krone",
+    "fr": "Toison des tempêtes"
+  },
+  "1072": {
+    "chs": "咒发风塔",
+    "en": "Storm's Crown",
+    "ja": "呪髪の風塔",
+    "de": "Sturmes Krone",
+    "fr": "Toison des tempêtes"
+  },
+  "1073": {
+    "chs": "",
+    "en": "Elysion",
+    "ja": "エリュシオン",
+    "de": "Elysium",
+    "fr": "Élysée"
+  },
+  "1075": {
+    "chs": "",
+    "en": "Another Sil'dihn Subterrane",
+    "ja": "異聞シラディハ水道",
+    "de": "Kuriose Unterstadt von Sil'dih",
+    "fr": "Canalisations sildiennes annexes"
+  },
+  "1076": {
+    "chs": "",
+    "en": "Another Sil'dihn Subterrane",
+    "ja": "異聞シラディハ水道",
+    "de": "Kuriose Unterstadt von Sil'dih",
+    "fr": "Canalisations sildiennes annexes"
+  },
+  "1077": {
+    "chs": "零的领域",
+    "en": "Zero's Domain",
+    "ja": "ゼロの領域",
+    "de": "Zeros Unterschlupf",
+    "fr": "Territoire de Zero"
+  },
+  "1078": {
+    "chs": "云使宫客房",
+    "en": "Meghaduta Guest Chambers",
+    "ja": "メーガドゥータ宮の客間",
+    "de": "Gästezimmer des Meghaduta-Tempels",
+    "fr": "Appartements du palais du Meghaduta"
+  },
+  "1079": {
+    "chs": "寻因星晶镜",
+    "en": "The Aitiascope",
+    "ja": "アイティオン星晶鏡",
+    "de": "Aitiaskop",
+    "fr": "Prisme de l'Aitia"
+  },
+  "1081": {
+    "chs": "猛毒生物隔离层",
+    "en": "The Caustic Purgatory",
+    "ja": "猛毒生物隔離棟",
+    "de": "Sicherheitstrakt für toxische Lebenformen",
+    "fr": "Bloc des créatures extrêmement nocives"
+  },
+  "1082": {
+    "chs": "猛毒生物隔离层",
+    "en": "The Caustic Purgatory",
+    "ja": "猛毒生物隔離棟",
+    "de": "Sicherheitstrakt für toxische Lebenformen",
+    "fr": "Bloc des créatures extrêmement nocives"
+  },
+  "1083": {
+    "chs": "寄生生物隔离层",
+    "en": "The Pestilent Purgatory",
+    "ja": "寄生生物隔離棟",
+    "de": "Isolationstrakt für parasitäre Lebensformen",
+    "fr": "Bloc des organismes parasites"
+  },
+  "1084": {
+    "chs": "寄生生物隔离层",
+    "en": "The Pestilent Purgatory",
+    "ja": "寄生生物隔離棟",
+    "de": "Isolationstrakt für parasitäre Lebensformen",
+    "fr": "Bloc des organismes parasites"
+  },
+  "1085": {
+    "chs": "创生树隔离层",
+    "en": "The Hollow Purgatory",
+    "ja": "創生樹隔離棟",
+    "de": "Separationstrakt für pflanzliche Lebensformen",
+    "fr": "Bloc des créations arborescentes"
+  },
+  "1086": {
+    "chs": "创生树隔离层",
+    "en": "The Hollow Purgatory",
+    "ja": "創生樹隔離棟",
+    "de": "Separationstrakt für pflanzliche Lebensformen",
+    "fr": "Bloc des créations arborescentes"
+  },
+  "1087": {
+    "chs": "生命奥秘研究层",
+    "en": "Stygian Insenescence Cells",
+    "ja": "生命神秘研究棟",
+    "de": "Forschungstrakt für die Geheimnisse des Lebens",
+    "fr": "Laboratoire d'études des secrets du vivant"
+  },
+  "1088": {
+    "chs": "生命奥秘研究层",
+    "en": "Stygian Insenescence Cells",
+    "ja": "生命神秘研究棟",
+    "de": "Forschungstrakt für die Geheimnisse des Lebens",
+    "fr": "Laboratoire d'études des secrets du vivant"
+  },
+  "1089": {
+    "chs": "特罗亚宫廷",
+    "en": "The Fell Court of Troia",
+    "ja": "トロイアコート",
+    "de": "Schwarzer Hof von Troia",
+    "fr": "Château de Troïa"
+  },
+  "1090": {
+    "chs": "抑制绝境S1T7",
+    "en": "Containment Bay S1T7",
+    "ja": "コンテイメントベイS1T7",
+    "de": "Arretur S1T7",
+    "fr": "Unité de contention S1P7"
+  },
+  "1091": {
+    "chs": "首席神官之间",
+    "en": "Seat of the Foremost",
+    "ja": "筆頭神官の間",
+    "de": "Sitz der Hohepriesterin",
+    "fr": "Salle des primiciers"
+  },
+  "1092": {
+    "chs": "咒发风塔",
+    "en": "Storm's Crown",
+    "ja": "呪髪の風塔",
+    "de": "Sturmes Krone",
+    "fr": "Toison des tempêtes"
+  },
+  "1093": {
+    "chs": "生命奥秘研究层",
+    "en": "Stygian Insenescence Cells",
+    "ja": "生命神秘研究棟",
+    "de": "Forschungstrakt für die Geheimnisse des Lebens",
+    "fr": "Laboratoire d'études des secrets du vivant"
+  },
+  "1094": {
+    "chs": "魔人的藏身之处",
+    "en": "Sneaky Hollow",
+    "ja": "魔人の隠れ家",
+    "de": "Versteck der Kürbishexe",
+    "fr": "Demeure de la femme à tête de citrouille"
   }
 }
