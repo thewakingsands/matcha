@@ -63,6 +63,13 @@ namespace Cafe.Matcha.Network
             var processed = HandleMessageByOpcode(message);
             if (!processed)
             {
+#if DEBUG
+                if (ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
+                {
+                    logIncorrectPacketSize(opcode, message.Length);
+                }
+#endif
+
                 TryHandleMessage(message);
             }
         }
@@ -356,13 +363,13 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.ContentFinderNotifyPop)
             {
-                if (message.Length != 64)
+                if (message.Length != 72)
                 {
                     return false;
                 }
 
                 var roulette = BitConverter.ToUInt16(data, 2);
-                var instance = roulette == 0 ? BitConverter.ToUInt16(data, 20) : 0;
+                var instance = roulette == 0 ? BitConverter.ToUInt16(data, 0x1c) : 0;
 
                 FireEvent(new MatchAlertDTO()
                 {
@@ -436,7 +443,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.InitZone)
             {
-                if (message.Length != 128)
+                if (message.Length != 136)
                 {
                     return false;
                 }
@@ -614,7 +621,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.Examine)
             {
-                if (message.Length != 0x428)
+                if (message.Length != 1016)
                 {
                     return false;
                 }
@@ -702,5 +709,12 @@ namespace Cafe.Matcha.Network
         public void HandleMessageSent(string connection, long epoch, byte[] message)
         {
         }
+
+#if DEBUG
+        private void logIncorrectPacketSize(MatchaOpcode opcode, int size)
+        {
+            Log.Debug($"[network] {Enum.GetName(typeof(MatchaOpcode), opcode)} length {size}");
+        }
+#endif
     }
 }
