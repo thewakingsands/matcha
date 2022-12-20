@@ -5,6 +5,7 @@ namespace Cafe.Matcha.Views
 {
     using System;
     using System.Collections.Generic;
+    using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.Diagnostics;
     using System.Linq;
@@ -17,6 +18,7 @@ namespace Cafe.Matcha.Views
     using Cafe.Matcha.Network.Universalis;
     using Cafe.Matcha.Utils;
     using Microsoft.Win32;
+    using RateLimiting;
 
     /// <summary>
     /// MainControl.xaml 的交互逻辑.
@@ -164,8 +166,10 @@ namespace Cafe.Matcha.Views
 
         private void NotifyFateWatchList()
         {
-            var fates = Config.Instance.Watch.Fates;
-            Output.SendLog(new FateWatchListChangedDTO() { World = State.Instance.WorldId, Fates = fates.ToArray() });
+            Config.Instance.Watch.Fates.Debounce(500, (fates) =>
+            {
+                Output.SendLog(new FateWatchListChangedDTO() { World = State.Instance.WorldId, Fates = ((ObservableCollection<int>)fates).ToArray() });
+            });
         }
 
         private void Network_onReceiveEvent(BaseDTO dto)
