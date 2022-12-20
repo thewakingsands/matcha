@@ -5,6 +5,9 @@ namespace Cafe.Matcha.Utils
 {
     using System;
     using System.Collections.Generic;
+    using System.Threading;
+    using System.Threading.Channels;
+    using System.Threading.Tasks;
     using System.Windows;
     using Advanced_Combat_Tracker;
     using Cafe.Matcha.Constant;
@@ -16,8 +19,46 @@ namespace Cafe.Matcha.Utils
 
     internal class Output
     {
+        private class ActLogger : IDisposable
+        {
+            private Channel<(DateTime, string)> channel;
+            private Thread thread;
+            public ActLogger()
+            {
+                channel = Channel.CreateUnbounded<(DateTime, string)>();
+
+                thread = new Thread(async () =>
+                {
+                    while (await channel.Reader.WaitToReadAsync())
+                    {
+                        while (channel.Reader.TryRead(out var item))
+                        {
+                            var (time, log) = item;
+                            ActGlobals.oFormActMain.ParseRawLogLine(false, time, log);
+                        }
+                    }
+                });
+
+                thread.IsBackground = true;
+                thread.Start();
+            }
+
+            public void Dispose()
+            {
+                channel.Writer.Complete();
+                thread.Abort();
+            }
+
+            public void Push(string log)
+            {
+                channel.Writer.TryWrite((DateTime.Now, log));
+            }
+        }
+
         private static Models.ConfigOutput Config => Matcha.Config.Instance.Output;
         private static bool Compat => Matcha.Config.Instance.Logger.Compat;
+
+        private static ActLogger logger = new ActLogger();
 
         private static void SendNativeToast(string message)
         {
@@ -43,7 +84,7 @@ namespace Cafe.Matcha.Utils
 
         public static void SendLog(string log)
         {
-            ActGlobals.oFormActMain.ParseRawLogLine(false, DateTime.Now, log);
+            logger.Push(log);
         }
 
         public static void SendLog(BaseDTO dto, bool writeLog = true)
