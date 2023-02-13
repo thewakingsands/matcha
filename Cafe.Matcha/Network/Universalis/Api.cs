@@ -64,12 +64,6 @@ namespace Cafe.Matcha.Network.Universalis
                     listingsRequestObject.Listings.Add(universalisListing);
                 }
 
-                // Temporary fix for empty listings
-                if (listingsRequestObject.Listings.Count == 0)
-                {
-                    listingsRequestObject.Listings = null;
-                }
-
                 await Request.SendAsJson($"{ApiBase}/upload/{_apiKey}", "", listingsRequestObject);
 
                 var historyRequestObject = new UniversalisHistoryUploadRequest();
