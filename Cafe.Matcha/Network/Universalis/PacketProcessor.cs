@@ -23,8 +23,6 @@
         public ulong LocalContentId { get; set; }
 
         public EventHandler<string> Log;
-        public EventHandler<ulong> LocalContentIdUpdated;
-        public EventHandler RequestContentIdUpdate;
 
         public PacketProcessor(string apiKey)
         {
@@ -81,7 +79,6 @@
                 LocalContentId = BitConverter.ToUInt64(message, 0x20) & 0xffffffff00000000;
                 LocalContentId = LocalContentId | GetClientIdentifier();
                 Log?.Invoke(this, $"New CID: {LocalContentId.ToString("X")}");
-                LocalContentIdUpdated?.Invoke(this, LocalContentId);
                 return null;
             }
 
@@ -170,14 +167,10 @@
                         return null;
                     }
 
-                    RequestContentIdUpdate?.Invoke(this, null);
-
                     if (LocalContentId == 0)
                     {
                         Log?.Invoke(this, "Not sure about your character information. Please log in once with your character while having the program open to verify it.");
                     }
-
-                    LocalContentIdUpdated?.Invoke(this, LocalContentId);
 
                     Log?.Invoke(this,
                         $"Market Board request finished, starting upload: request#{request.ListingsRequestId} item#{request.CatalogId} amount#{request.AmountToArrive}");
@@ -216,14 +209,10 @@
                         return null;
                     }
 
-                    RequestContentIdUpdate?.Invoke(this, null);
-
                     if (LocalContentId == 0)
                     {
                         Log?.Invoke(this, "Not sure about your character information. Please log in once with your character while having the program open to verify it.");
                     }
-
-                    LocalContentIdUpdated?.Invoke(this, LocalContentId);
 
                     Log?.Invoke(this,
                         $"Market Board request finished, starting upload: request#{request.ListingsRequestId} item#{request.CatalogId} amount#{request.AmountToArrive}");
