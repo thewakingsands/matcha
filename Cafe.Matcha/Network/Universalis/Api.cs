@@ -38,6 +38,7 @@ namespace Cafe.Matcha.Network.Universalis
                 {
                     var universalisListing = new UniversalisItemListingsEntry
                     {
+                        ListingId = marketBoardItemListing.ListingId,
                         Hq = marketBoardItemListing.IsHq,
                         SellerId = marketBoardItemListing.RetainerOwnerId,
                         RetainerName = marketBoardItemListing.RetainerName,
