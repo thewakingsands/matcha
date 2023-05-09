@@ -11702,7 +11702,7 @@
   "1614": {
     "name": {
       "chs": "噬魂的妖异",
-      "en": "Scavengers of Human Sorrow",
+      "en": "Scavengers of Man's Sorrow",
       "ja": "魂喰いの妖異たち",
       "de": "Zurück ins Nichts",
       "fr": "Les dévoreurs d'âmes"
@@ -14346,6 +14346,18 @@
       "ja": "エッグハント「しあわせはここにいる」",
       "de": "Gluckenschreck des Glücks",
       "fr": "À la poursuite du bonheur"
+    },
+    "level": 15,
+    "patch": 6,
+    "location": 0
+  },
+  "1857": {
+    "name": {
+      "chs": "彩蛋狩猎“妖精族大战冬贝利！”",
+      "en": "Don't Be Sylphish",
+      "ja": "エッグハント「シルフ対トンベリ人間」",
+      "de": "Sylphen-Schreck",
+      "fr": "Sylphes contre tomberrys humains"
     },
     "level": 15,
     "patch": 6,

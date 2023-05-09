@@ -1749,13 +1749,6 @@
     "de": "Unteres La Noscea",
     "fr": "Basse-Noscea"
   },
-  "416": {
-    "chs": "迦巴勒幻想图书馆",
-    "en": "The Great Gubal Library",
-    "ja": "グブラ幻想図書館",
-    "de": "Große Gubal-Bibliothek",
-    "fr": "Grande bibliothèque de Gubal"
-  },
   "417": {
     "chs": "陆行鸟广场",
     "en": "Chocobo Square",
@@ -1881,13 +1874,6 @@
     "ja": "シンギュラリティ・リアクター",
     "de": "Singularitäts-Reaktor",
     "fr": "Réacteur de singularité"
-  },
-  "438": {
-    "chs": "魔科学研究所",
-    "en": "Aetherochemical Research Facility",
-    "ja": "魔科学研究所",
-    "de": "Ätherochemisches Forschungslabor",
-    "fr": "Laboratoire de magismologie"
   },
   "439": {
     "chs": "轻羽斗场",
@@ -2421,13 +2407,6 @@
     "de": "Das Diadem",
     "fr": "Le Diadème"
   },
-  "516": {
-    "chs": "颠倒塔",
-    "en": "The Antitower",
-    "ja": "逆さの塔",
-    "de": "Antiturm",
-    "fr": "L'Antitour"
-  },
   "517": {
     "chs": "抑制绝境S1T7",
     "en": "Containment Bay S1T7",
@@ -2659,13 +2638,6 @@
     "de": "Feld der Ehre",
     "fr": "Champs de la Gloire"
   },
-  "555": {
-    "chs": "忆罪宫",
-    "en": "Sohr Khai",
-    "ja": "ソール・カイ",
-    "de": "Sohr Khai",
-    "fr": "Sohr Khai"
-  },
   "556": {
     "chs": "禁忌城邦玛哈",
     "en": "The Weeping City of Mhach",
@@ -2777,13 +2749,6 @@
     "ja": "亡霊屋敷 ホーンテッドマナー",
     "de": "Geisterschloss",
     "fr": "Manoir hanté"
-  },
-  "572": {
-    "chs": "塞尔法特尔溪谷",
-    "en": "Xelphatol",
-    "ja": "ゼルファトル",
-    "de": "Xelphatol",
-    "fr": "Xelphatol"
   },
   "573": {
     "chs": "中桅塔大厅",
@@ -3079,13 +3044,6 @@
     "de": "Yanxia",
     "fr": "Yanxia"
   },
-  "615": {
-    "chs": "巴埃萨长城",
-    "en": "Baelsar's Wall",
-    "ja": "バエサルの長城",
-    "de": "Baelsar-Wall",
-    "fr": "Muraille de Baelsar"
-  },
   "616": {
     "chs": "紫水宫",
     "en": "Shisui of the Violet Tides",
@@ -3169,13 +3127,6 @@
     "ja": "望海楼",
     "de": "Badehaus Bokairo",
     "fr": "Auberge du Bokairo"
-  },
-  "630": {
-    "chs": "云冠群岛",
-    "en": "The Diadem",
-    "ja": "ディアデム諸島",
-    "de": "Das Diadem",
-    "fr": "Le Diadème"
   },
   "633": {
     "chs": "加尔提诺平原周边遗迹群",
@@ -6222,19 +6173,12 @@
     "de": "Schwarzer Hof von Troia",
     "fr": "Château de Troïa"
   },
-  "1090": {
-    "chs": "抑制绝境S1T7",
-    "en": "Containment Bay S1T7",
-    "ja": "コンテイメントベイS1T7",
-    "de": "Arretur S1T7",
-    "fr": "Unité de contention S1P7"
-  },
   "1091": {
-    "chs": "首席神官之间",
-    "en": "Seat of the Foremost",
-    "ja": "筆頭神官の間",
-    "de": "Sitz der Hohepriesterin",
-    "fr": "Salle des primiciers"
+    "chs": "特罗亚宫廷",
+    "en": "The Fell Court of Troia",
+    "ja": "トロイアコート",
+    "de": "Schwarzer Hof von Troia",
+    "fr": "Château de Troïa"
   },
   "1092": {
     "chs": "咒发风塔",
@@ -6256,5 +6200,222 @@
     "ja": "魔人の隠れ家",
     "de": "Versteck der Kürbishexe",
     "fr": "Demeure de la femme à tête de citrouille"
+  },
+  "1095": {
+    "chs": "试炼之山",
+    "en": "Mount Ordeals",
+    "ja": "試練の山",
+    "de": "Berg der Tortur",
+    "fr": "Mont du Supplice"
+  },
+  "1096": {
+    "chs": "试炼之山",
+    "en": "Mount Ordeals",
+    "ja": "試練の山",
+    "de": "Berg der Tortur",
+    "fr": "Mont du Supplice"
+  },
+  "1097": {
+    "chs": "冥魂石洞",
+    "en": "Lapis Manalis",
+    "ja": "ラピス・マナリス",
+    "de": "Lapis Manalis",
+    "fr": "Lapis Manalis"
+  },
+  "1098": {
+    "chs": "妖精领风格运动设施",
+    "en": "Sylphstep",
+    "ja": "シルフ領風特設アスレチック",
+    "de": "Sylphenland",
+    "fr": "Sylve sylphe sibylline"
+  },
+  "1099": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1100": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1101": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1102": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1103": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1104": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1105": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1106": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1107": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1108": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1109": {
+    "chs": "迦巴勒幻想图书馆",
+    "en": "The Great Gubal Library",
+    "ja": "グブラ幻想図書館",
+    "de": "Große Gubal-Bibliothek",
+    "fr": "Grande bibliothèque de Gubal"
+  },
+  "1110": {
+    "chs": "魔科学研究所",
+    "en": "Aetherochemical Research Facility",
+    "ja": "魔科学研究所",
+    "de": "Ätherochemisches Forschungslabor",
+    "fr": "Laboratoire de magismologie"
+  },
+  "1111": {
+    "chs": "颠倒塔",
+    "en": "The Antitower",
+    "ja": "逆さの塔",
+    "de": "Antiturm",
+    "fr": "L'Antitour"
+  },
+  "1112": {
+    "chs": "忆罪宫",
+    "en": "Sohr Khai",
+    "ja": "ソール・カイ",
+    "de": "Sohr Khai",
+    "fr": "Sohr Khai"
+  },
+  "1113": {
+    "chs": "塞尔法特尔溪谷",
+    "en": "Xelphatol",
+    "ja": "ゼルファトル",
+    "de": "Xelphatol",
+    "fr": "Xelphatol"
+  },
+  "1114": {
+    "chs": "巴埃萨长城",
+    "en": "Baelsar's Wall",
+    "ja": "バエサルの長城",
+    "de": "Baelsar-Wall",
+    "fr": "Muraille de Baelsar"
+  },
+  "1115": {
+    "chs": "巴别塔",
+    "en": "The Tower of Babil",
+    "ja": "バブイルの塔",
+    "de": "Turm von Babil",
+    "fr": "Tour de Babil"
+  },
+  "1116": {
+    "chs": "机关大殿",
+    "en": "The Clockwork Castletown",
+    "ja": "東方絡繰御殿",
+    "de": "Die Mechanische Menagerie",
+    "fr": "Le Traquenard oriental"
+  },
+  "1117": {
+    "chs": "机关大殿",
+    "en": "The Clockwork Castletown",
+    "ja": "東方絡繰御殿",
+    "de": "Die Mechanische Menagerie",
+    "fr": "Le Traquenard oriental"
+  },
+  "1118": {
+    "chs": "喜悦神域欧芙洛绪涅",
+    "en": "Euphrosyne",
+    "ja": "喜びの神域 エウプロシュネ",
+    "de": "Euphrosyne",
+    "fr": "Domaine divin - Euphrosyne"
+  },
+  "1119": {
+    "chs": "冥魂石洞",
+    "en": "Lapis Manalis",
+    "ja": "ラピス・マナリス",
+    "de": "Lapis Manalis",
+    "fr": "Lapis Manalis"
+  },
+  "1120": {
+    "chs": "加雷马",
+    "en": "Garlemald",
+    "ja": "ガレマルド",
+    "de": "Garlemald",
+    "fr": "Garlemald"
+  },
+  "1121": {
+    "chs": "抑制绝境P1T6",
+    "en": "Containment Bay P1T6",
+    "ja": "コンテイメントベイP1T6",
+    "de": "Arretur P1T6",
+    "fr": "Unité de contention P1P6"
+  },
+  "1122": {
+    "chs": "",
+    "en": "The Interdimensional Rift",
+    "ja": "次元の狭間",
+    "de": "Interdimensionaler Riss",
+    "fr": "Fissure interdimensionnelle"
+  },
+  "1123": {
+    "chs": "厄尔庇斯育体宝殿",
+    "en": "The Shifting Gymnasion Agonon",
+    "ja": "エルピス・ギュムナシオン祭殿",
+    "de": "Gymnasion Agonon",
+    "fr": "Elpis Gymnasion"
+  },
+  "1124": {
+    "chs": "",
+    "en": "Eureka Orthos",
+    "ja": "オルト・エウレカ",
+    "de": "Eureka Orthos",
+    "fr": "Eurêka Orthos"
+  },
+  "1125": {
+    "chs": "剑岩",
+    "en": "Khadga",
+    "ja": "カドガの大岩",
+    "de": "Khadga-Felsen",
+    "fr": "Khadga"
   }
 }

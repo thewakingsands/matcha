@@ -3167,7 +3167,7 @@
   "238": {
     "name": {
       "chs": "漂流海域妖歌海",
-      "en": "The Sirensong Sea",
+      "en": "the Sirensong Sea",
       "ja": "漂流海域 セイレーン海",
       "de": "Sirenen-See",
       "fr": "la Mer du Chant des sirènes"
@@ -9479,21 +9479,6 @@
     "itemSync": 620,
     "memberType": 1
   },
-  "875": {
-    "name": {
-      "chs": "萨菲洛特幻巧战",
-      "en": "Containment Bay S1T7 (Unreal)",
-      "ja": "幻魔神セフィロト討滅戦",
-      "de": "Traumprüfung - Sephirot",
-      "fr": "Unité de contention S1P7 (irréel)"
-    },
-    "type": 4,
-    "level": 90,
-    "levelSync": 90,
-    "item": 560,
-    "itemSync": 565,
-    "memberType": 3
-  },
   "876": {
     "name": {
       "chs": "万魔殿 炼净之狱3",
@@ -9628,5 +9613,605 @@
     "item": 0,
     "itemSync": 110,
     "memberType": 1
+  },
+  "886": {
+    "name": {
+      "chs": "卢比坎特歼灭战",
+      "en": "Mount Ordeals",
+      "ja": "ルビカンテ討滅戦",
+      "de": "Prophetie - Rubicante",
+      "fr": "Le Mont du Supplice"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 595,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "896": {
+    "name": {
+      "chs": "雪山奥窟冥魂石洞",
+      "en": "Lapis Manalis",
+      "ja": "雪山冥洞 ラピス・マナリス",
+      "de": "Lapis Manalis",
+      "fr": "Lapis Manalis"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 590,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "897": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 1-10)",
+      "ja": "オルト・エウレカ B1～B10",
+      "de": "Eureka Orthos (Ebenen 1-10)",
+      "fr": "Eurêka Orthos (sous-sols 1-10)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "898": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 11-20)",
+      "ja": "オルト・エウレカ B11～B20",
+      "de": "Eureka Orthos (Ebenen 11-20)",
+      "fr": "Eurêka Orthos (sous-sols 11-20)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "899": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 21-30)",
+      "ja": "オルト・エウレカ B21～B30",
+      "de": "Eureka Orthos (Ebenen 21-30)",
+      "fr": "Eurêka Orthos (sous-sols 21-30)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "900": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 31-40)",
+      "ja": "オルト・エウレカ B31～B40",
+      "de": "Eureka Orthos (Ebenen 31-40)",
+      "fr": "Eurêka Orthos (sous-sols 31-40)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "901": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 41-50)",
+      "ja": "オルト・エウレカ B41～B50",
+      "de": "Eureka Orthos (Ebenen 41-50)",
+      "fr": "Eurêka Orthos (sous-sols 41-50)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "902": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 51-60)",
+      "ja": "オルト・エウレカ B51～B60",
+      "de": "Eureka Orthos (Ebenen 51-60)",
+      "fr": "Eurêka Orthos (sous-sols 51-60)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "903": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 61-70)",
+      "ja": "オルト・エウレカ B61～B70",
+      "de": "Eureka Orthos (Ebenen 61-70)",
+      "fr": "Eurêka Orthos (sous-sols 61-70)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "904": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 71-80)",
+      "ja": "オルト・エウレカ B71～B80",
+      "de": "Eureka Orthos (Ebenen 71-80)",
+      "fr": "Eurêka Orthos (sous-sols 71-80)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "905": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 81-90)",
+      "ja": "オルト・エウレカ B81～B90",
+      "de": "Eureka Orthos (Ebenen 81-90)",
+      "fr": "Eurêka Orthos (sous-sols 81-90)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "906": {
+    "name": {
+      "chs": "",
+      "en": "Eureka Orthos (Floors 91-100)",
+      "ja": "オルト・エウレカ B91～B100",
+      "de": "Eureka Orthos (Ebenen 91-100)",
+      "fr": "Eurêka Orthos (sous-sols 91-100)"
+    },
+    "type": 21,
+    "level": 81,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "907": {
+    "name": {
+      "chs": "",
+      "en": "Generational Bonding",
+      "ja": "はつらつとした親子",
+      "de": "Väterliche Liebe",
+      "fr": "Tel gentilhomme, tel gentilhomme"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "908": {
+    "name": {
+      "chs": "",
+      "en": "The Omega Protocol (Ultimate)",
+      "ja": "絶オメガ検証戦",
+      "de": "Omega (fatal)",
+      "fr": "le Protocole Oméga (fatal)"
+    },
+    "type": 28,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "909": {
+    "name": {
+      "chs": "厄尔庇斯育体宝殿",
+      "en": "The Shifting Gymnasion Agonon",
+      "ja": "宝物庫 エルピス・ギュムナシオン祭殿",
+      "de": "Gymnasion Agonon",
+      "fr": "Elpis Gymnasion"
+    },
+    "type": 9,
+    "level": 1,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "910": {
+    "name": {
+      "chs": "未料想过的交易",
+      "en": "An Unforeseen Bargain",
+      "ja": "パンひとつと引き換えに",
+      "de": "Der Wert einer Buuds",
+      "fr": "Pour une bouchée de pain"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 630,
+    "memberType": 1
+  },
+  "911": {
+    "name": {
+      "chs": "喜悦神域欧芙洛绪涅",
+      "en": "Euphrosyne",
+      "ja": "喜びの神域 エウプロシュネ",
+      "de": "Euphrosyne",
+      "fr": "Domaine divin - Euphrosyne"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 595,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "912": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "913": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "914": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "915": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "916": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "917": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "918": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "919": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "920": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "921": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "922": {
+    "name": {
+      "chs": "机关大殿",
+      "en": "The Clockwork Castletown",
+      "ja": "東方絡繰御殿",
+      "de": "Die Mechanische Menagerie",
+      "fr": "Le Traquenard oriental"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "923": {
+    "name": {
+      "chs": "水晶冲突（机关大殿：自定赛）",
+      "en": "Crystalline Conflict (Custom Match - The Clockwork Castletown)",
+      "ja": "クリスタルコンフリクト(東方絡繰御殿：カスタムマッチ)",
+      "de": "Crystalline Conflict: Die Mechanische Menagerie (Schaukampf)",
+      "fr": "Crystalline Conflict (partie personnalisée - Le Traquenard oriental)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "924": {
+    "name": {
+      "chs": "卢比坎特歼殛战",
+      "en": "Mount Ordeals (Extreme)",
+      "ja": "極ルビカンテ討滅戦",
+      "de": "Eschatos - Rubicante",
+      "fr": "Le Mont du Supplice (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 610,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "926": {
+    "name": {
+      "chs": "索菲娅幻巧战",
+      "en": "Containment Bay P1T6 (Unreal)",
+      "ja": "幻女神ソフィア討滅戦",
+      "de": "Traumprüfung - Sophia",
+      "fr": "Unité de contention P1P6 (irréel)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 565,
+    "memberType": 3
+  },
+  "927": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "928": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "929": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "930": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "931": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "932": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "933": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "934": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
+  },
+  "935": {
+    "name": {
+      "chs": "虚景跳跳乐大挑战",
+      "en": "Leap of Faith",
+      "ja": "挑戦！ ジャンピングアスレチック",
+      "de": "Kaktor-Kletterwand",
+      "fr": "Haute voltige"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 19
   }
 }
