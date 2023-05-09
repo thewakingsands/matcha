@@ -29,8 +29,7 @@ const opcodes = [
     karashiiro: 'CFNotify'
   },
   {
-    key: 'DirectorStart',
-    global: 0x256
+    key: 'DirectorStart'
     // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
@@ -47,52 +46,71 @@ const opcodes = [
   'PlayerSpawn'
 ]
 
-const outputOpcode = (key, value) => `${' '.repeat(12)}{ 0x${formatOpcode(value)}, MatchaOpcode.${key} },`
+const outputOpcode = (key, value) =>
+  `${' '.repeat(12)}{ 0x${formatOpcode(value)}, MatchaOpcode.${key} },`
 
-const outputKeys = () => opcodes.map((item, index) => {
-  if (typeof item === 'string') {
-    item = { key: item }
-  }
+const outputKeys = () =>
+  opcodes
+    .map((item, index) => {
+      if (typeof item === 'string') {
+        item = { key: item }
+      }
 
-  return `${' '.repeat(8)}${item.key},`
-}).join('\n')
+      return `${' '.repeat(8)}${item.key},`
+    })
+    .join('\n')
 
-const outputFromKarashiiro = (list, region) => opcodes.map((item, index) => {
-  if (typeof item === 'string') {
-    item = { key: item }
-  }
+const outputFromKarashiiro = (list, region) =>
+  opcodes
+    .map((item, index) => {
+      if (typeof item === 'string') {
+        item = { key: item }
+      }
 
-  const { key } = item
-  if (item[region]) {
-    return outputOpcode(key, item[region])
-  }
+      const { key } = item
+      if (item[region]) {
+        return outputOpcode(key, item[region])
+      }
 
-  const fromKey = item.karashiiro || item.key
-  const row = list.lists.ServerZoneIpcType.find((row) => row.name === fromKey)
-  const value = row ? row.opcode : (0xF000 + index)
+      const fromKey = item.karashiiro || item.key
+      const row = list.lists.ServerZoneIpcType.find(
+        (row) => row.name === fromKey
+      )
+      const value = row ? row.opcode : 0xf000 + index
 
-  return outputOpcode(key, value)
-}).join('\n')
+      return outputOpcode(key, value)
+    })
+    .join('\n')
 
-const outputFromWorker = (list) => opcodes.map((item, index) => {
-  if (typeof item === 'string') {
-    item = { key: item }
-  }
-  const { key } = item
-  const row = list.find(([rowKey]) => rowKey === key)
-  const value = row ? row[1] : (0xF000 + index)
+const outputFromWorker = (list) =>
+  opcodes
+    .map((item, index) => {
+      if (typeof item === 'string') {
+        item = { key: item }
+      }
+      const { key } = item
+      const row = list.find(([rowKey]) => rowKey === key)
+      const value = row ? row[1] : 0xf000 + index
 
-  return outputOpcode(key, value)
-}).join('\n')
+      return outputOpcode(key, value)
+    })
+    .join('\n')
 
 ;(async () => {
-  const karashiiroData = await fetch('https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json')
+  const karashiiroData = await fetch(
+    'https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json'
+  )
   const parsedData = await karashiiroData.json()
 
-  const globalOpcodes = parsedData.find(item => item.region === 'Global')
+  const globalOpcodes = parsedData.find((item) => item.region === 'Global')
 
-  const cactbotFate = await fetch('https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs')
-  const ceDirector = /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(await cactbotFate.text())
+  const cactbotFate = await fetch(
+    'https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs'
+  )
+  const ceDirector =
+    /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(
+      await cactbotFate.text()
+    )
 
   if (ceDirector) {
     globalOpcodes.lists.ServerZoneIpcType.push({
@@ -101,8 +119,13 @@ const outputFromWorker = (list) => opcodes.map((item, index) => {
     })
   }
 
-  const workerData = await fetch('https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv')
-  const workerLines = readCsv(await workerData.text(), null, { header: 0, skip: 0 })
+  const workerData = await fetch(
+    'https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv'
+  )
+  const workerLines = readCsv(await workerData.text(), null, {
+    header: 0,
+    skip: 0
+  })
   const cnOpcodes = workerLines.map(({ Name: name, _ }) => {
     const valueColumn = _.reduce((val, content, index) => {
       return content ? index : val
@@ -111,7 +134,9 @@ const outputFromWorker = (list) => opcodes.map((item, index) => {
     return [name, parseOpcode(_[valueColumn])]
   })
 
-  writeFileSync(join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'), `// Copyright (c) FFCafe. All rights reserved.
+  writeFileSync(
+    join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'),
+    `// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Constant
@@ -135,5 +160,6 @@ ${outputFromWorker(cnOpcodes, 'cn')}
         };
     }
 }
-`)
+`
+  )
 })()
