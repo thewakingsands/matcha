@@ -13,6 +13,8 @@
         Telemetry,
         ActorControlSelf,
         InvalidPacket,
+
+        Debug1,
 #endif
     }
 }

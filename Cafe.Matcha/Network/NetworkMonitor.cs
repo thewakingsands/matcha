@@ -56,7 +56,9 @@ namespace Cafe.Matcha.Network
 
         private void HandleMessage(byte[] message)
         {
-            if (message.Length < 32 || message[12] != 3)
+            var segmentType = message[12];
+            // Deucalion gives wrong type (0)
+            if (message.Length < 32 || (segmentType != 0 && segmentType != 3))
             {
                 return;
             }
