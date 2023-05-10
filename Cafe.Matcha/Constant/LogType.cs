@@ -6,9 +6,9 @@
         Universalis,
         LogLine,
         State,
+        Event,
 
 #if DEBUG
-        Event,
         Request,
         Telemetry,
         ActorControlSelf,

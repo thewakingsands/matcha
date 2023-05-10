@@ -179,12 +179,10 @@ namespace Cafe.Matcha.Views
             Output.SendLog(dto, !isFateProgress);
             Output.SendWebhook(dto);
 
-#if DEBUG
             if (!isFateProgress)
             {
-                Utils.Log.Debug(LogType.Event, string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
+                Utils.Log.Info(LogType.Event, string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
             }
-#endif
 
             if (!ShouldSendNotice(dto))
             {
