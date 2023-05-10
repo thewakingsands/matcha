@@ -38,14 +38,14 @@ namespace Cafe.Matcha.Utils
                     if (oldItem.TryMerge(item))
                     {
 #if DEBUG
-                        Log.Warn($"[Telemetry] {GetType().Name} Merged to {oldItem}");
+                        Log.Warn(LogType.Telemetry, $"{GetType().Name} Merged to {oldItem}");
 #endif
                         return;
                     }
                 }
 
 #if DEBUG
-                Log.Warn($"[Telemetry] {GetType().Name} Adding {item}");
+                Log.Warn(LogType.Telemetry, $"{GetType().Name} Adding {item}");
 #endif
                 list.Add(item);
             }
@@ -133,7 +133,7 @@ namespace Cafe.Matcha.Utils
             }
 
 #if DEBUG
-            Log.Warn($"[Telemetry] Posting to {Secret.TelemetryRoot}/{bucketId}");
+            Log.Warn(LogType.Telemetry, $"Posting to {Secret.TelemetryRoot}/{bucketId}");
 #endif
             _ = Request.SendAsJson($"{Secret.TelemetryRoot}/{bucketId}/batch", "", data);
         }

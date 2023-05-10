@@ -136,14 +136,14 @@ namespace Cafe.Matcha.Network
             Fate.Clear();
             Npc.Clear();
 
-            Log.Info($"[State] InitZone: server={serverId}, zone={zoneId}, instance={instanceId}, time={LastZoneChange}");
+            Log.Info(Constant.LogType.State, $"InitZone: server={serverId}, zone={zoneId}, instance={instanceId}, time={LastZoneChange}");
         }
 
         public void HandleWorldId(ushort worldId, bool isCurrentPlayer)
         {
             if ((ContentId == 0 || isCurrentPlayer) && this.worldId != worldId)
             {
-                Log.Info($"[State] WorldId: {worldId}");
+                Log.Info(Constant.LogType.State, $"WorldId: {worldId}");
                 WorldId = worldId;
             }
         }
@@ -170,7 +170,7 @@ namespace Cafe.Matcha.Network
                 if (action(state) || isCreate)
                 {
 #if DEBUG
-                    Log.Debug($"[State<{typeof(T).Name}>] Emitting OnChanged for Id={id}, isCreate={isCreate}, {state}");
+                    Log.Debug(Constant.LogType.State, $"<{typeof(T).Name}> Emitting OnChanged for Id={id}, isCreate={isCreate}, {state}");
 #endif
                     OnChanged?.Invoke(id, state);
                 }

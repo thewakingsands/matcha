@@ -53,7 +53,7 @@ namespace Cafe.Matcha.Utils
 
             if (writeLog)
             {
-                Log.Info(log);
+                Log.Info(LogType.LogLine, log);
             }
 
             if (Compat)

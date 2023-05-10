@@ -7,6 +7,7 @@ namespace Cafe.Matcha.Network
     using System.Collections.Generic;
     using System.Linq;
     using System.Numerics;
+    using System.Text;
     using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
@@ -66,7 +67,7 @@ namespace Cafe.Matcha.Network
 #if DEBUG
                 if (ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
                 {
-                    logIncorrectPacketSize(opcode, message.Length);
+                    LogIncorrectPacketSize(opcode, message.Length);
                 }
 #endif
 
@@ -273,7 +274,16 @@ namespace Cafe.Matcha.Network
                 }
 
                 var type = (ActorControlType)BitConverter.ToUInt16(data, 0);
+#if DEBUG
+                var sb = new StringBuilder();
+                for (int i = 4; i < 32; i += 4)
+                {
+                    sb.Append(BitConverter.ToUInt32(data, 4));
+                    sb.Append(' ');
+                }
 
+                Log.Debug(LogType.ActorControlSelf, $"type {type}, {sb}");
+#endif
                 switch (type)
                 {
                     case ActorControlType.FateProgress:
@@ -711,9 +721,9 @@ namespace Cafe.Matcha.Network
         }
 
 #if DEBUG
-        private void logIncorrectPacketSize(MatchaOpcode opcode, int size)
+        private void LogIncorrectPacketSize(MatchaOpcode opcode, int size)
         {
-            Log.Debug($"[network] {Enum.GetName(typeof(MatchaOpcode), opcode)} length {size}");
+            Log.Warn(LogType.InvalidPacket, $"{Enum.GetName(typeof(MatchaOpcode), opcode)} length {size}");
         }
 #endif
     }

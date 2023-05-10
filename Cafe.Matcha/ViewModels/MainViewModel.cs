@@ -8,6 +8,7 @@ namespace Cafe.Matcha.ViewModels
     using System.Collections.ObjectModel;
     using System.Collections.Specialized;
     using System.Linq;
+    using Cafe.Matcha.Constant;
     using Cafe.Matcha.Utils;
     using FFXIV_ACT_Plugin.Common;
 
@@ -299,7 +300,6 @@ namespace Cafe.Matcha.ViewModels
             }
         }
 
-        public string Log { get; set; } = "";
         public string World
         {
             get
@@ -329,6 +329,31 @@ namespace Cafe.Matcha.ViewModels
             get
             {
                 return SelectedWebhook != null;
+            }
+        }
+
+        // 日志 Tab
+        public string Log { get; set; } = "";
+        public bool LogPause { get; set; } = false;
+        public bool LogTypeFilter { get; set; } = false;
+        public LogType LogTypeFilterValue { get; set; }
+
+        public uint LogShowCount { get; set; } = 0;
+        public uint LogAllCount { get; set; } = 0;
+
+        public string LogStatus
+        {
+            get
+            {
+                return $"({LogShowCount}/{LogAllCount})";
+            }
+        }
+
+        public string PauseText
+        {
+            get
+            {
+                return LogPause ? "恢复" : "暂停";
             }
         }
     }

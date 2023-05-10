@@ -25,6 +25,11 @@
                 <x:Type TypeName="constant:EventType"/>
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
+        <ObjectDataProvider x:Key="logTypeEnum" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="constant:LogType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
     </UserControl.Resources>
 
     <Grid>
@@ -275,10 +280,23 @@
                 </Grid>
             </TabItem>
             <TabItem Header="日志">
-                <Grid Background="#FFE5E5E5">
+                <DockPanel>
+                    <DockPanel DockPanel.Dock="Top" Margin="6,6,6,6" Height="24">
+                        <Button x:Name="bLogClear" Width="80" 
+                                HorizontalAlignment="Left" Click="BLogClear_Click">清空</Button>
+                        <Button x:Name="bLogPause" Width="80" Content="{Binding PauseText}"
+                                HorizontalAlignment="Left" Click="BLogPause_Click" Margin="6,0,0,0" />
+                        <CheckBox VerticalAlignment="Center" Margin="6,0,0,0" Content="过滤" IsChecked="{Binding LogTypeFilter}" />
+                        <Label Margin="6,0,0,0" Content="{Binding LogStatus}" Width="100" DockPanel.Dock="Right" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                        <ComboBox Margin="6,0,6,0"
+                            IsEnabled="{Binding LogTypeFilter}"
+                            ItemsSource="{Binding Source={StaticResource logTypeEnum}}"
+                            SelectedValue="{Binding LogTypeFilterValue}"
+                        />
+                    </DockPanel>
                     <TextBox x:Name="tLogBox" Margin="0" TextWrapping="Wrap" IsReadOnly="True" IsUndoEnabled="False" Text="{Binding Log}"
-                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-                </Grid>
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" RenderTransformOrigin="0.5,0.5" />
+                </DockPanel>
             </TabItem>
         </TabControl>
         <Image Source="/Cafe.Matcha;component/GitHub-Mark-32px.png" Stretch="Fill" Height="16" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,6,0" Cursor="Hand" MouseDown="Image_MouseDown" />

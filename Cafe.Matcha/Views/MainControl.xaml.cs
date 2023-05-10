@@ -118,7 +118,7 @@ namespace Cafe.Matcha.Views
 #if DEBUG
         private void OnUniversalisLog(object sender, string e)
         {
-            Utils.Log.Debug("[universalis] " + e);
+            Utils.Log.Info(LogType.Universalis, e);
         }
 #endif
 
@@ -182,7 +182,7 @@ namespace Cafe.Matcha.Views
 #if DEBUG
             if (!isFateProgress)
             {
-                Utils.Log.Debug(string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
+                Utils.Log.Debug(LogType.Event, string.Format("[{0}] {1}", dto.EventType, dto.ToJSON()));
             }
 #endif
 
@@ -261,20 +261,25 @@ namespace Cafe.Matcha.Views
         {
             try
             {
-                Log('E', string.Format("[{0}]{1}\r\n{2}", e.GetType(), e.Message, e.StackTrace));
+                Log(LogType.None, 'E', string.Format("[{0}]{1}\r\n{2}", e.GetType(), e.Message, e.StackTrace));
             }
             catch { }
         }
 
         private Models.ConfigLogger ConfigLogger => Config.Instance.Logger;
-        private void Log(char type, string message)
+        private void Log(LogType type, char level, string message)
         {
+            var vm = ViewModel;
+            ++vm.LogAllCount;
+
             if (
                 !ConfigLogger.Enabled
+                || vm.LogPause
+                || (vm.LogTypeFilter && type != vm.LogTypeFilterValue)
 #if DEBUG
-                || (type == 'D' && !ConfigLogger.Debug)
+                || (level == 'D' && !ConfigLogger.Debug)
 #else
-                || (type == 'I' && !ConfigLogger.Debug)
+                || (level == 'I' && !ConfigLogger.Debug)
 #endif
 #pragma warning disable SA1009 // Closing parenthesis should be spaced correctly
             )
@@ -283,7 +288,9 @@ namespace Cafe.Matcha.Views
                 return;
             }
 
-            ViewModel.Log = string.Format("[{0}][{1}]{2}\r\n", DateTime.Now, type, message) + ViewModel.Log;
+            string typeString = Enum.GetName(typeof(LogType), type);
+            vm.Log = string.Format("[{0}][{1}][{2}] {3}\r\n", DateTime.Now, level, typeString, message) + vm.Log;
+            ++vm.LogShowCount;
         }
 
         private void BSettingOutputTest_Click(object sender, RoutedEventArgs e)
@@ -526,5 +533,17 @@ namespace Cafe.Matcha.Views
             Process.Start(new ProcessStartInfo("https://github.com/thewakingsands/matcha"));
             e.Handled = true;
         }
+
+        private void BLogClear_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.Log = "";
+        }
+
+        private void BLogPause_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.LogPause = !ViewModel.LogPause;
+        }
+
+        
     }
 }

@@ -121,7 +121,7 @@ namespace Cafe.Matcha.Utils
         public static async Task<HttpResponseMessage> Send(string endpoint, HttpMethod method, RequestHeaders header, HttpContent data)
         {
 #if DEBUG
-            Log.Debug($"[Request] {method} {endpoint}");
+            Log.Debug(LogType.Request, $"{method} {endpoint}");
 #endif
             try
             {
@@ -148,14 +148,14 @@ namespace Cafe.Matcha.Utils
                         request.Content = data;
 #if DEBUG
                         var body = await data.ReadAsStringAsync();
-                        Log.Debug($"[Request-Content] {body}");
+                        Log.Debug(LogType.Request, $"[Content] {body}");
 #endif
                     }
 
                     var res = await client.SendAsync(request);
 #if DEBUG
                     var content = await res.Content.ReadAsStringAsync();
-                    Log.Debug($"[Request-Response] {res.StatusCode} {content}");
+                    Log.Debug(LogType.Request, $"[Response] {res.StatusCode} {content}");
 #endif
 
                     return res;
@@ -164,7 +164,7 @@ namespace Cafe.Matcha.Utils
             catch (Exception e)
             {
 #if DEBUG
-                Log.Debug($"[Request] {e.Message}");
+                Log.Error(LogType.Request, $"{e.Message}");
 #endif
                 return null;
             }
