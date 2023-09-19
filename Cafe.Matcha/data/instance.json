@@ -1006,18 +1006,18 @@
   },
   "69": {
     "name": {
-      "chs": "活动挑战1",
-      "en": "Special Event III",
-      "ja": "イベント用コンテンツ：3",
-      "de": "Event-Inhalt 3",
-      "fr": "Défi spécial III"
+      "chs": "",
+      "en": "The Gilded Araya",
+      "ja": "アスラ討滅戦",
+      "de": "Arayas Palast",
+      "fr": "Le temple doré d'Araya"
     },
     "type": 4,
-    "level": 50,
-    "levelSync": 50,
+    "level": 90,
+    "levelSync": 90,
     "item": 0,
     "itemSync": 0,
-    "memberType": 2
+    "memberType": 3
   },
   "70": {
     "name": {
@@ -8312,7 +8312,7 @@
   "784": {
     "name": {
       "chs": "电脑梦境斯提格玛四",
-      "en": "The Stigma Dreamscape",
+      "en": "the Stigma Dreamscape",
       "ja": "電脳夢想 スティグマ・フォー",
       "de": "Stigma-Holometrie",
       "fr": "Rêve électrique de Stigma-4"
@@ -8846,7 +8846,7 @@
     "level": 1,
     "levelSync": 90,
     "item": 0,
-    "itemSync": 630,
+    "itemSync": 635,
     "memberType": 3
   },
   "820": {
@@ -8863,6 +8863,21 @@
     "item": 0,
     "itemSync": 550,
     "memberType": 1
+  },
+  "822": {
+    "name": {
+      "chs": "间歇灵泉哈姆岛",
+      "en": "the Aetherfont",
+      "ja": "星霊間欠 ハーム島",
+      "de": "Ätherborn",
+      "fr": "L'île de Haam"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 605,
+    "itemSync": 0,
+    "memberType": 2
   },
   "830": {
     "name": {
@@ -9401,7 +9416,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 575,
-    "itemSync": 0,
+    "itemSync": 630,
     "memberType": 2
   },
   "870": {
@@ -9641,7 +9656,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 590,
-    "itemSync": 0,
+    "itemSync": 630,
     "memberType": 2
   },
   "897": {
@@ -9821,7 +9836,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 0,
-    "itemSync": 0,
+    "itemSync": 635,
     "memberType": 3
   },
   "909": {
@@ -9836,7 +9851,7 @@
     "level": 1,
     "levelSync": 90,
     "item": 0,
-    "itemSync": 0,
+    "itemSync": 635,
     "memberType": 3
   },
   "910": {
@@ -10064,21 +10079,6 @@
     "itemSync": 0,
     "memberType": 3
   },
-  "926": {
-    "name": {
-      "chs": "索菲娅幻巧战",
-      "en": "Containment Bay P1T6 (Unreal)",
-      "ja": "幻女神ソフィア討滅戦",
-      "de": "Traumprüfung - Sophia",
-      "fr": "Unité de contention P1P6 (irréel)"
-    },
-    "type": 4,
-    "level": 90,
-    "levelSync": 90,
-    "item": 560,
-    "itemSync": 565,
-    "memberType": 3
-  },
   "927": {
     "name": {
       "chs": "虚景跳跳乐大挑战",
@@ -10213,5 +10213,320 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 19
+  },
+  "936": {
+    "name": {
+      "chs": "万魔殿 荒天之狱1",
+      "en": "Anabaseios: The Ninth Circle",
+      "ja": "万魔殿パンデモニウム：天獄編1",
+      "de": "Anabaseios - Neunter Kreis",
+      "fr": "Le Paradis du Pandæmonium - Métempsycose"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 615,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "937": {
+    "name": {
+      "chs": "零式万魔殿 荒天之狱1",
+      "en": "Anabaseios: The Ninth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：天獄編1",
+      "de": "Anabaseios - Neunter Kreis (episch)",
+      "fr": "Le Paradis du Pandæmonium - Métempsycose (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 630,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "938": {
+    "name": {
+      "chs": "万魔殿 荒天之狱2",
+      "en": "Anabaseios: The Tenth Circle",
+      "ja": "万魔殿パンデモニウム：天獄編2",
+      "de": "Anabaseios - Zehnter Kreis",
+      "fr": "Le Paradis du Pandæmonium - Monochrome"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 615,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "939": {
+    "name": {
+      "chs": "零式万魔殿 荒天之狱2",
+      "en": "Anabaseios: The Tenth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：天獄編2",
+      "de": "Anabaseios - Zehnter Kreis (episch)",
+      "fr": "Le Paradis du Pandæmonium - Monochrome (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 635,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "940": {
+    "name": {
+      "chs": "万魔殿 荒天之狱3",
+      "en": "Anabaseios: The Eleventh Circle",
+      "ja": "万魔殿パンデモニウム：天獄編3",
+      "de": "Anabaseios - Elfter Kreis",
+      "fr": "Le Paradis du Pandæmonium - Tribunal"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 615,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "941": {
+    "name": {
+      "chs": "零式万魔殿 荒天之狱3",
+      "en": "Anabaseios: The Eleventh Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：天獄編3",
+      "de": "Anabaseios - Elfter Kreis (episch)",
+      "fr": "Le Paradis du Pandæmonium - Tribunal (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 640,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "942": {
+    "name": {
+      "chs": "万魔殿 荒天之狱4",
+      "en": "Anabaseios: The Twelfth Circle",
+      "ja": "万魔殿パンデモニウム：天獄編4",
+      "de": "Anabaseios - Zwölfter Kreis",
+      "fr": "Le Paradis du Pandæmonium - Apothéose"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 615,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "943": {
+    "name": {
+      "chs": "零式万魔殿 荒天之狱4",
+      "en": "Anabaseios: The Twelfth Circle (Savage)",
+      "ja": "万魔殿パンデモニウム零式：天獄編4",
+      "de": "Anabaseios - Zwölfter Kreis (episch)",
+      "fr": "Le Paradis du Pandæmonium - Apothéose (sadique)"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 640,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "945": {
+    "name": {
+      "chs": "",
+      "en": "Mount Rokkon",
+      "ja": "ヴァリアントダンジョン 六根山",
+      "de": "Der Rokkon",
+      "fr": "Le mont Rokkon - Donjon à embranchements"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 605,
+    "itemSync": 665,
+    "memberType": 11
+  },
+  "946": {
+    "name": {
+      "chs": "",
+      "en": "Another Mount Rokkon",
+      "ja": "アナザーダンジョン 異聞六根山",
+      "de": "Der kuriose Rokkon",
+      "fr": "Le mont Rokkon annexe - Donjon alternatif"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 640,
+    "itemSync": 665,
+    "memberType": 31
+  },
+  "947": {
+    "name": {
+      "chs": "",
+      "en": "Another Mount Rokkon (Savage)",
+      "ja": "アナザーダンジョン 異聞六根山 零式",
+      "de": "Der kuriose Rokkon (episch)",
+      "fr": "Le mont Rokkon annexe - Donjon alternatif (sadique)"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 665,
+    "memberType": 2
+  },
+  "948": {
+    "name": {
+      "chs": "",
+      "en": "A Golden Opportunity",
+      "ja": "黄金闘士「ゴールドル」",
+      "de": "Goldor der Güldene",
+      "fr": "Goldor, le mage doré"
+    },
+    "type": 27,
+    "level": 80,
+    "levelSync": 80,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "949": {
+    "name": {
+      "chs": "高贝扎歼灭战",
+      "en": "The Voidcast Dais",
+      "ja": "ゴルベーザ討滅戦",
+      "de": "Prophetie - Golbez",
+      "fr": "La Chaire de l'Exilée"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 615,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "950": {
+    "name": {
+      "chs": "高贝扎歼殛战",
+      "en": "The Voidcast Dais (Extreme)",
+      "ja": "極ゴルベーザ討滅戦",
+      "de": "Eschatos - Golbez",
+      "fr": "La Chaire de l'Exilée (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 630,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "951": {
+    "name": {
+      "chs": "祖尔宛幻巧战",
+      "en": "Containment Bay Z1T9 (Unreal)",
+      "ja": "幻鬼神ズルワーン討滅戦",
+      "de": "Traumprüfung - Zurvan",
+      "fr": "Unité de contention Z1P9 (irréel)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 565,
+    "memberType": 3
+  },
+  "952": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "953": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "954": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "955": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "956": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
+  },
+  "957": {
+    "name": {
+      "chs": "出海垂钓",
+      "en": "Ocean Fishing",
+      "ja": "オーシャンフィッシング",
+      "de": "Auf großer Fahrt",
+      "fr": "Pêche en mer"
+    },
+    "type": 16,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 25
   }
 }

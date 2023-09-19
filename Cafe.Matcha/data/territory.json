@@ -2359,11 +2359,11 @@
     "fr": "Arche du néant"
   },
   "509": {
-    "chs": "奥·哥摩罗火口神殿",
-    "en": "The Navel",
-    "ja": "オ・ゴモロ火口神殿",
-    "de": "Der Nabel",
-    "fr": "Le Nombril"
+    "chs": "",
+    "en": "The Gilded Araya",
+    "ja": "アラヤの宝塔",
+    "de": "Arayas Palast",
+    "fr": "Temple d'Araya"
   },
   "510": {
     "chs": "天狼星灯塔",
@@ -6383,13 +6383,6 @@
     "de": "Garlemald",
     "fr": "Garlemald"
   },
-  "1121": {
-    "chs": "抑制绝境P1T6",
-    "en": "Containment Bay P1T6",
-    "ja": "コンテイメントベイP1T6",
-    "de": "Arretur P1T6",
-    "fr": "Unité de contention P1P6"
-  },
   "1122": {
     "chs": "时空狭缝",
     "en": "The Interdimensional Rift",
@@ -6417,5 +6410,187 @@
     "ja": "カドガの大岩",
     "de": "Khadga-Felsen",
     "fr": "Khadga"
+  },
+  "1126": {
+    "chs": "哈姆岛",
+    "en": "The Aetherfont",
+    "ja": "ハーム島",
+    "de": "Ätherborn",
+    "fr": "Île de Haam"
+  },
+  "1137": {
+    "chs": "",
+    "en": "Mount Rokkon",
+    "ja": "六根山",
+    "de": "Rokkon",
+    "fr": "Mont Rokkon"
+  },
+  "1140": {
+    "chs": "立方魔法阵",
+    "en": "The Voidcast Dais",
+    "ja": "立方魔法陣",
+    "de": "Krone der Schatten",
+    "fr": "Hypercube de Golbez"
+  },
+  "1141": {
+    "chs": "立方魔法阵",
+    "en": "The Voidcast Dais",
+    "ja": "立方魔法陣",
+    "de": "Krone der Schatten",
+    "fr": "Hypercube de Golbez"
+  },
+  "1142": {
+    "chs": "妖歌海",
+    "en": "The Sirensong Sea",
+    "ja": "セイレーン海",
+    "de": "Sirenen-See",
+    "fr": "Mer du Chant des sirènes"
+  },
+  "1143": {
+    "chs": "巴儿达木霸道",
+    "en": "Bardam's Mettle",
+    "ja": "バルダム覇道",
+    "de": "Bardams Probe",
+    "fr": "Force de Bardam"
+  },
+  "1144": {
+    "chs": "多玛王城",
+    "en": "Doma Castle",
+    "ja": "ドマ城",
+    "de": "Burg Doma",
+    "fr": "Château de Doma"
+  },
+  "1145": {
+    "chs": "帝国白山堡",
+    "en": "Castrum Abania",
+    "ja": "カストルム・アバニア",
+    "de": "Castrum Abania",
+    "fr": "Castrum Abania"
+  },
+  "1146": {
+    "chs": "阿拉米格",
+    "en": "Ala Mhigo",
+    "ja": "アラミゴ",
+    "de": "Ala Mhigo",
+    "fr": "Ala Mhigo"
+  },
+  "1147": {
+    "chs": "滞淀海域",
+    "en": "The Aetherial Slough",
+    "ja": "星海滞留域",
+    "de": "Sphäre des Pandæmoniums",
+    "fr": "Nappe stagnante"
+  },
+  "1148": {
+    "chs": "滞淀海域",
+    "en": "The Aetherial Slough",
+    "ja": "星海滞留域",
+    "de": "Sphäre des Pandæmoniums",
+    "fr": "Nappe stagnante"
+  },
+  "1149": {
+    "chs": "万魔的产房",
+    "en": "The Dæmons' Nest",
+    "ja": "万魔の産屋",
+    "de": "Dæmonisches Nest",
+    "fr": "Maternité démoniaque"
+  },
+  "1150": {
+    "chs": "万魔的产房",
+    "en": "The Dæmons' Nest",
+    "ja": "万魔の産屋",
+    "de": "Dæmonisches Nest",
+    "fr": "Maternité démoniaque"
+  },
+  "1151": {
+    "chs": "十四席大堂",
+    "en": "The Chamber of Fourteen",
+    "ja": "十四座の間",
+    "de": "Halle der Vierzehn Sitze",
+    "fr": "Prétoire des Quatorze"
+  },
+  "1152": {
+    "chs": "十四席大堂",
+    "en": "The Chamber of Fourteen",
+    "ja": "十四座の間",
+    "de": "Halle der Vierzehn Sitze",
+    "fr": "Prétoire des Quatorze"
+  },
+  "1153": {
+    "chs": "施恩神座",
+    "en": "Ascension",
+    "ja": "神の座",
+    "de": "Göttlicher Thron",
+    "fr": "Trône divin"
+  },
+  "1154": {
+    "chs": "施恩神座",
+    "en": "Ascension",
+    "ja": "神の座",
+    "de": "Göttlicher Thron",
+    "fr": "Trône divin"
+  },
+  "1155": {
+    "chs": "",
+    "en": "Another Mount Rokkon",
+    "ja": "異聞六根山",
+    "de": "Kurioser Rokkon",
+    "fr": "Mont Rokkon annexe"
+  },
+  "1156": {
+    "chs": "",
+    "en": "Another Mount Rokkon",
+    "ja": "異聞六根山",
+    "de": "Kurioser Rokkon",
+    "fr": "Mont Rokkon annexe"
+  },
+  "1157": {
+    "chs": "抑制绝境Z1T9",
+    "en": "Containment Bay Z1T9",
+    "ja": "コンテイメントベイZ1T9",
+    "de": "Arretur Z1T9",
+    "fr": "Unité de contention Z1P9"
+  },
+  "1158": {
+    "chs": "万魔的产房",
+    "en": "The Dæmons' Nest",
+    "ja": "万魔の産屋",
+    "de": "Dæmonisches Nest",
+    "fr": "Maternité démoniaque"
+  },
+  "1159": {
+    "chs": "立方魔法阵",
+    "en": "The Voidcast Dais",
+    "ja": "立方魔法陣",
+    "de": "Krone der Schatten",
+    "fr": "Hypercube de Golbez"
+  },
+  "1160": {
+    "chs": "元老院站",
+    "en": "Senatus",
+    "ja": "セナトゥス駅",
+    "de": "Senatus",
+    "fr": "Gare de Senatus"
+  },
+  "1161": {
+    "chs": "埃斯蒂尼安的房间",
+    "en": "Estinien's Chambers",
+    "ja": "エスティニアンの客室",
+    "de": "Estiniens Räumlichkeiten",
+    "fr": "Chambre d'Estinien"
+  },
+  "1162": {
+    "chs": "红月",
+    "en": "The Red Moon",
+    "ja": "赤き月",
+    "de": "Roter Mond",
+    "fr": "Lune rouge"
+  },
+  "1163": {
+    "chs": "努力号",
+    "en": "The Endeavor",
+    "ja": "エンデバー号",
+    "de": "Die Endeavor",
+    "fr": "L'Ambition"
   }
 }
