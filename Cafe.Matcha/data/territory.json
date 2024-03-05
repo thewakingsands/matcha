@@ -6418,12 +6418,33 @@
     "de": "Ätherborn",
     "fr": "Île de Haam"
   },
+  "1136": {
+    "chs": "",
+    "en": "The Gilded Araya",
+    "ja": "アラヤの宝塔",
+    "de": "Arayas Palast",
+    "fr": "Temple d'Araya"
+  },
   "1137": {
     "chs": "六根山",
     "en": "Mount Rokkon",
     "ja": "六根山",
     "de": "Rokkon",
     "fr": "Mont Rokkon"
+  },
+  "1138": {
+    "chs": "",
+    "en": "The Red Sands",
+    "ja": "レッド・サンズ",
+    "de": "Die Roten Sande",
+    "fr": "Les Sables sanglants"
+  },
+  "1139": {
+    "chs": "",
+    "en": "The Red Sands",
+    "ja": "レッド・サンズ",
+    "de": "Die Roten Sande",
+    "fr": "Les Sables sanglants"
   },
   "1140": {
     "chs": "立方魔法阵",
@@ -6544,13 +6565,6 @@
     "de": "Kurioser Rokkon",
     "fr": "Mont Rokkon annexe"
   },
-  "1157": {
-    "chs": "抑制绝境Z1T9",
-    "en": "Containment Bay Z1T9",
-    "ja": "コンテイメントベイZ1T9",
-    "de": "Arretur Z1T9",
-    "fr": "Unité de contention Z1P9"
-  },
   "1158": {
     "chs": "万魔的产房",
     "en": "The Dæmons' Nest",
@@ -6592,5 +6606,131 @@
     "ja": "エンデバー号",
     "de": "Die Endeavor",
     "fr": "L'Ambition"
+  },
+  "1164": {
+    "chs": "月面地下溪谷",
+    "en": "The Lunar Subterrane",
+    "ja": "月の地下渓谷",
+    "de": "Monduntergrund",
+    "fr": "Souterrain lunaire"
+  },
+  "1165": {
+    "chs": "",
+    "en": "Blunderville",
+    "ja": "ブランダーヴィル",
+    "de": "Stolperville",
+    "fr": "Blunderville"
+  },
+  "1168": {
+    "chs": "红月深处",
+    "en": "The Abyssal Fracture",
+    "ja": "赤き月の底",
+    "de": "Tiefen des roten Mondes",
+    "fr": "Cœur de la lune rouge"
+  },
+  "1169": {
+    "chs": "红月深处",
+    "en": "The Abyssal Fracture",
+    "ja": "赤き月の底",
+    "de": "Tiefen des roten Mondes",
+    "fr": "Cœur de la lune rouge"
+  },
+  "1172": {
+    "chs": "斯卡拉遗迹",
+    "en": "The Drowned City of Skalla",
+    "ja": "スカラ",
+    "de": "Die versunkene Stadt Skalla",
+    "fr": "Cité engloutie de Skalla"
+  },
+  "1173": {
+    "chs": "终末焦土",
+    "en": "The Burn",
+    "ja": "ザ・バーン",
+    "de": "Kargland",
+    "fr": "L'Escarre"
+  },
+  "1174": {
+    "chs": "基姆利特暗区",
+    "en": "The Ghimlyt Dark",
+    "ja": "ギムリトダーク",
+    "de": "Ghimlyt-Finsternis",
+    "fr": "Les Ténèbres de Ghimlyt"
+  },
+  "1175": {
+    "chs": "奇点反应堆",
+    "en": "Singularity Reactor",
+    "ja": "シンギュラリティ・リアクター",
+    "de": "Singularitäts-Reaktor",
+    "fr": "Réacteur de singularité"
+  },
+  "1176": {
+    "chs": "",
+    "en": "Aloalo Island",
+    "ja": "アロアロ島",
+    "de": "Aloalo",
+    "fr": "Île d'Aloalo"
+  },
+  "1177": {
+    "chs": "哈姆岛",
+    "en": "The Aetherfont",
+    "ja": "ハーム島",
+    "de": "Ätherborn",
+    "fr": "Île de Haam"
+  },
+  "1178": {
+    "chs": "荣华神域塔利亚",
+    "en": "Thaleia",
+    "ja": "華めく神域 タレイア",
+    "de": "Thaleia",
+    "fr": "Domaine divin - Thalie"
+  },
+  "1179": {
+    "chs": "",
+    "en": "Another Aloalo Island",
+    "ja": "異聞アロアロ島",
+    "de": "Kurioses Aloalo",
+    "fr": "Île d'Aloalo annexe"
+  },
+  "1180": {
+    "chs": "",
+    "en": "Another Aloalo Island",
+    "ja": "異聞アロアロ島",
+    "de": "Kurioses Aloalo",
+    "fr": "Île d'Aloalo annexe"
+  },
+  "1181": {
+    "chs": "红月深处",
+    "en": "The Abyssal Fracture",
+    "ja": "赤き月の底",
+    "de": "Tiefen des roten Mondes",
+    "fr": "Cœur de la lune rouge"
+  },
+  "1182": {
+    "chs": "荣华神域塔利亚",
+    "en": "Thaleia",
+    "ja": "華めく神域 タレイア",
+    "de": "Thaleia",
+    "fr": "Domaine divin - Thalie"
+  },
+  "1183": {
+    "chs": "",
+    "en": "The Gilded Araya",
+    "ja": "アラヤの宝塔",
+    "de": "Arayas Palast",
+    "fr": "Temple d'Araya"
+  },
+  "1184": {
+    "chs": "月面地下溪谷",
+    "en": "The Lunar Subterrane",
+    "ja": "月の地下渓谷",
+    "de": "Monduntergrund",
+    "fr": "Souterrain lunaire"
+  },
+  "1197": {
+    "chs": "",
+    "en": "Blunderville Square",
+    "ja": "ブランダーヴィルスクウェア",
+    "de": "Stolperville-Platz",
+    "fr": "Square du Blunderville"
   }
 }

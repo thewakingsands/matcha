@@ -1009,7 +1009,7 @@
       "chs": "",
       "en": "The Gilded Araya",
       "ja": "アスラ討滅戦",
-      "de": "Arayas Palast",
+      "de": "Prophetie - Asura",
       "fr": "Le temple doré d'Araya"
     },
     "type": 4,
@@ -8501,7 +8501,7 @@
     "level": 90,
     "levelSync": 90,
     "item": 540,
-    "itemSync": 0,
+    "itemSync": 570,
     "memberType": 3
   },
   "797": {
@@ -8876,6 +8876,21 @@
     "level": 90,
     "levelSync": 90,
     "item": 605,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "823": {
+    "name": {
+      "chs": "异界深渊月面地下溪谷",
+      "en": "The Lunar Subterrane",
+      "ja": "深淵潜行 月の地下渓谷",
+      "de": "Monduntergrund",
+      "fr": "Le Souterrain lunaire"
+    },
+    "type": 2,
+    "level": 90,
+    "levelSync": 90,
+    "item": 620,
     "itemSync": 0,
     "memberType": 2
   },
@@ -10055,7 +10070,7 @@
       "en": "Crystalline Conflict (Custom Match - The Clockwork Castletown)",
       "ja": "クリスタルコンフリクト(東方絡繰御殿：カスタムマッチ)",
       "de": "Crystalline Conflict: Die Mechanische Menagerie (Schaukampf)",
-      "fr": "Crystalline Conflict (partie personnalisée - Le Traquenard oriental)"
+      "fr": "Crys. Conflict (partie perso. - Le Traquenard oriental)"
     },
     "type": 6,
     "level": 30,
@@ -10334,6 +10349,21 @@
     "itemSync": 0,
     "memberType": 3
   },
+  "944": {
+    "name": {
+      "chs": "",
+      "en": "The Gilded Araya",
+      "ja": "アスラ討滅戦",
+      "de": "Prophetie - Asura",
+      "fr": "Le temple doré d'Araya"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 625,
+    "itemSync": 0,
+    "memberType": 3
+  },
   "945": {
     "name": {
       "chs": "多变迷宫 六根山",
@@ -10381,7 +10411,7 @@
   },
   "948": {
     "name": {
-      "chs": "黄金斗士金德尔",
+      "chs": "黄金斗士——金德尔",
       "en": "A Golden Opportunity",
       "ja": "黄金闘士「ゴールドル」",
       "de": "Goldor der Güldene",
@@ -10422,21 +10452,6 @@
     "levelSync": 90,
     "item": 630,
     "itemSync": 0,
-    "memberType": 3
-  },
-  "951": {
-    "name": {
-      "chs": "祖尔宛幻巧战",
-      "en": "Containment Bay Z1T9 (Unreal)",
-      "ja": "幻鬼神ズルワーン討滅戦",
-      "de": "Traumprüfung - Zurvan",
-      "fr": "Unité de contention Z1P9 (irréel)"
-    },
-    "type": 4,
-    "level": 90,
-    "levelSync": 90,
-    "item": 560,
-    "itemSync": 565,
     "memberType": 3
   },
   "952": {
@@ -10528,5 +10543,320 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 25
+  },
+  "958": {
+    "name": {
+      "chs": "",
+      "en": "Blunderville",
+      "ja": "ブランダーヴィル",
+      "de": "Stolperville",
+      "fr": "Blunderville"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 32
+  },
+  "960": {
+    "name": {
+      "chs": "",
+      "en": "The Game Is Afoot",
+      "ja": "その瞳が見据えるもの",
+      "de": "Die Jagd ist eröffnet",
+      "fr": "Par-delà l'horizon"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 660,
+    "memberType": 1
+  },
+  "961": {
+    "name": {
+      "chs": "",
+      "en": "Aloalo Island",
+      "ja": "ヴァリアントダンジョン アロアロ島",
+      "de": "Aloalo",
+      "fr": "L'île d'Aloalo - Donjon à embranchements"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 605,
+    "itemSync": 665,
+    "memberType": 11
+  },
+  "962": {
+    "name": {
+      "chs": "荣华神域塔利亚",
+      "en": "Thaleia",
+      "ja": "華めく神域 タレイア",
+      "de": "Thaleia",
+      "fr": "Domaine divin - Thalie"
+    },
+    "type": 5,
+    "level": 90,
+    "levelSync": 90,
+    "item": 625,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "963": {
+    "name": {
+      "chs": "圆桌骑士幻巧战",
+      "en": "The Singularity Reactor (Unreal)",
+      "ja": "幻ナイツ・オブ・ラウンド討滅戦",
+      "de": "Traumprüfung - Singularitäts-Reaktor",
+      "fr": "Le Réacteur de singularité (irréel)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 560,
+    "itemSync": 565,
+    "memberType": 3
+  },
+  "964": {
+    "name": {
+      "chs": "泽罗姆斯歼灭战",
+      "en": "The Abyssal Fracture",
+      "ja": "ゼロムス討滅戦",
+      "de": "Prophetie - Zeromus",
+      "fr": "La Fracture abyssale"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 625,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "965": {
+    "name": {
+      "chs": "泽罗姆斯歼殛战",
+      "en": "The Abyssal Fracture (Extreme)",
+      "ja": "極ゼロムス討滅戦",
+      "de": "Eschatos - Zeromus",
+      "fr": "La Fracture abyssale (extrême)"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 640,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "967": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "968": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "969": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "970": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "971": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "972": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "973": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "974": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "975": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "976": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "977": {
+    "name": {
+      "chs": "",
+      "en": "The Red Sands",
+      "ja": "レッド・サンズ",
+      "de": "Die Roten Sande",
+      "fr": "Les Sables sanglants"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "978": {
+    "name": {
+      "chs": "",
+      "en": "Crystalline Conflict (Custom Match - The Red Sands)",
+      "ja": "クリスタルコンフリクト(レッド・サンズ：カスタムマッチ)",
+      "de": "Crystalline Conflict: Die Roten Sande (Schaukampf)",
+      "fr": "Crystalline Conflict (partie personnalisée - Les Sables sanglants)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "979": {
+    "name": {
+      "chs": "",
+      "en": "Another Aloalo Island",
+      "ja": "アナザーダンジョン 異聞アロアロ島",
+      "de": "Kurioses Aloalo",
+      "fr": "L'île d'Aloalo annexe - Donjon alternatif"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 640,
+    "itemSync": 665,
+    "memberType": 31
+  },
+  "980": {
+    "name": {
+      "chs": "",
+      "en": "Another Aloalo Island (Savage)",
+      "ja": "アナザーダンジョン 異聞アロアロ島 零式",
+      "de": "Kurioses Aloalo (episch)",
+      "fr": "L'île d'Aloalo annexe - Donjon alternatif (sadique)"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 665,
+    "memberType": 2
   }
 }
