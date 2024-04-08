@@ -181,7 +181,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.NpcSpawn)
             {
-                if (message.Length != 672)
+                if (message.Length != 680)
                 {
                     return false;
                 }
@@ -635,7 +635,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.Examine)
             {
-                if (message.Length != 1032)
+                if (message.Length != 960)
                 {
                     return false;
                 }
