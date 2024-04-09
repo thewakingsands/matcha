@@ -6418,13 +6418,6 @@
     "de": "Ätherborn",
     "fr": "Île de Haam"
   },
-  "1136": {
-    "chs": "",
-    "en": "The Gilded Araya",
-    "ja": "アラヤの宝塔",
-    "de": "Arayas Palast",
-    "fr": "Temple d'Araya"
-  },
   "1137": {
     "chs": "六根山",
     "en": "Mount Rokkon",
@@ -6433,14 +6426,14 @@
     "fr": "Mont Rokkon"
   },
   "1138": {
-    "chs": "",
+    "chs": "赤土红沙",
     "en": "The Red Sands",
     "ja": "レッド・サンズ",
     "de": "Die Roten Sande",
     "fr": "Les Sables sanglants"
   },
   "1139": {
-    "chs": "",
+    "chs": "赤土红沙",
     "en": "The Red Sands",
     "ja": "レッド・サンズ",
     "de": "Die Roten Sande",
@@ -6615,7 +6608,7 @@
     "fr": "Souterrain lunaire"
   },
   "1165": {
-    "chs": "",
+    "chs": "金碟巨豆中心",
     "en": "Blunderville",
     "ja": "ブランダーヴィル",
     "de": "Stolperville",
@@ -6664,18 +6657,11 @@
     "fr": "Réacteur de singularité"
   },
   "1176": {
-    "chs": "",
+    "chs": "阿罗阿罗岛",
     "en": "Aloalo Island",
     "ja": "アロアロ島",
     "de": "Aloalo",
     "fr": "Île d'Aloalo"
-  },
-  "1177": {
-    "chs": "哈姆岛",
-    "en": "The Aetherfont",
-    "ja": "ハーム島",
-    "de": "Ätherborn",
-    "fr": "Île de Haam"
   },
   "1178": {
     "chs": "荣华神域塔利亚",
@@ -6685,14 +6671,14 @@
     "fr": "Domaine divin - Thalie"
   },
   "1179": {
-    "chs": "",
+    "chs": "异闻阿罗阿罗岛",
     "en": "Another Aloalo Island",
     "ja": "異聞アロアロ島",
     "de": "Kurioses Aloalo",
     "fr": "Île d'Aloalo annexe"
   },
   "1180": {
-    "chs": "",
+    "chs": "异闻阿罗阿罗岛",
     "en": "Another Aloalo Island",
     "ja": "異聞アロアロ島",
     "de": "Kurioses Aloalo",
@@ -6712,13 +6698,6 @@
     "de": "Thaleia",
     "fr": "Domaine divin - Thalie"
   },
-  "1183": {
-    "chs": "",
-    "en": "The Gilded Araya",
-    "ja": "アラヤの宝塔",
-    "de": "Arayas Palast",
-    "fr": "Temple d'Araya"
-  },
   "1184": {
     "chs": "月面地下溪谷",
     "en": "The Lunar Subterrane",
@@ -6727,7 +6706,7 @@
     "fr": "Souterrain lunaire"
   },
   "1197": {
-    "chs": "",
+    "chs": "金碟巨豆中心广场",
     "en": "Blunderville Square",
     "ja": "ブランダーヴィルスクウェア",
     "de": "Stolperville-Platz",

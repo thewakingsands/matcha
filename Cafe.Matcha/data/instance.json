@@ -1009,7 +1009,7 @@
       "chs": "",
       "en": "The Gilded Araya",
       "ja": "アスラ討滅戦",
-      "de": "Prophetie - Asura",
+      "de": "Arayas Palast",
       "fr": "Le temple doré d'Araya"
     },
     "type": 4,
@@ -10349,21 +10349,6 @@
     "itemSync": 0,
     "memberType": 3
   },
-  "944": {
-    "name": {
-      "chs": "",
-      "en": "The Gilded Araya",
-      "ja": "アスラ討滅戦",
-      "de": "Prophetie - Asura",
-      "fr": "Le temple doré d'Araya"
-    },
-    "type": 4,
-    "level": 90,
-    "levelSync": 90,
-    "item": 625,
-    "itemSync": 0,
-    "memberType": 3
-  },
   "945": {
     "name": {
       "chs": "多变迷宫 六根山",
@@ -10546,7 +10531,7 @@
   },
   "958": {
     "name": {
-      "chs": "",
+      "chs": "金碟巨豆中心",
       "en": "Blunderville",
       "ja": "ブランダーヴィル",
       "de": "Stolperville",
@@ -10559,24 +10544,9 @@
     "itemSync": 0,
     "memberType": 32
   },
-  "960": {
-    "name": {
-      "chs": "",
-      "en": "The Game Is Afoot",
-      "ja": "その瞳が見据えるもの",
-      "de": "Die Jagd ist eröffnet",
-      "fr": "Par-delà l'horizon"
-    },
-    "type": 7,
-    "level": 90,
-    "levelSync": 90,
-    "item": 0,
-    "itemSync": 660,
-    "memberType": 1
-  },
   "961": {
     "name": {
-      "chs": "",
+      "chs": "多变迷宫 阿罗阿罗岛",
       "en": "Aloalo Island",
       "ja": "ヴァリアントダンジョン アロアロ島",
       "de": "Aloalo",
@@ -10651,7 +10621,7 @@
   },
   "967": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10666,7 +10636,7 @@
   },
   "968": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10681,7 +10651,7 @@
   },
   "969": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10696,7 +10666,7 @@
   },
   "970": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10711,7 +10681,7 @@
   },
   "971": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10726,7 +10696,7 @@
   },
   "972": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10741,7 +10711,7 @@
   },
   "973": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10756,7 +10726,7 @@
   },
   "974": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10771,7 +10741,7 @@
   },
   "975": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10786,7 +10756,7 @@
   },
   "976": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10801,7 +10771,7 @@
   },
   "977": {
     "name": {
-      "chs": "",
+      "chs": "赤土红沙",
       "en": "The Red Sands",
       "ja": "レッド・サンズ",
       "de": "Die Roten Sande",
@@ -10816,7 +10786,7 @@
   },
   "978": {
     "name": {
-      "chs": "",
+      "chs": "水晶冲突（赤土红沙：自定赛）",
       "en": "Crystalline Conflict (Custom Match - The Red Sands)",
       "ja": "クリスタルコンフリクト(レッド・サンズ：カスタムマッチ)",
       "de": "Crystalline Conflict: Die Roten Sande (Schaukampf)",
@@ -10831,7 +10801,7 @@
   },
   "979": {
     "name": {
-      "chs": "",
+      "chs": "异闻迷宫 异闻阿罗阿罗岛",
       "en": "Another Aloalo Island",
       "ja": "アナザーダンジョン 異聞アロアロ島",
       "de": "Kurioses Aloalo",
@@ -10846,7 +10816,7 @@
   },
   "980": {
     "name": {
-      "chs": "",
+      "chs": "异闻迷宫 零式异闻阿罗阿罗岛",
       "en": "Another Aloalo Island (Savage)",
       "ja": "アナザーダンジョン 異聞アロアロ島 零式",
       "de": "Kurioses Aloalo (episch)",
