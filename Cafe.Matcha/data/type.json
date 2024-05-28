@@ -173,5 +173,40 @@
     "ja": "特殊ダンジョン探索",
     "de": "Gewölbesuche",
     "fr": "Donjons spéciaux"
+  },
+  "31": {
+    "chs": "出海垂钓",
+    "en": "Ocean Fishing",
+    "ja": "オーシャンフィッシング",
+    "de": "Auf großer Fahrt",
+    "fr": "Pêche en mer"
+  },
+  "32": {
+    "chs": "九宫幻卡",
+    "en": "Triple Triad",
+    "ja": "トリプルトライアド",
+    "de": "Triple Triad",
+    "fr": "Triple Triade"
+  },
+  "33": {
+    "chs": "怪物狩猎",
+    "en": "The Hunt",
+    "ja": "モブハント",
+    "de": "Hohe Jagd",
+    "fr": "Contrats de chasse"
+  },
+  "34": {
+    "chs": "钓鱼",
+    "en": "Fishing",
+    "ja": "釣り",
+    "de": "Fischen",
+    "fr": "Pêche"
+  },
+  "35": {
+    "chs": "机遇任务",
+    "en": "GATE",
+    "ja": "G.A.T.E.",
+    "de": "GATE",
+    "fr": "JACTA"
   }
 }

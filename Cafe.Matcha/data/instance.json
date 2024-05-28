@@ -1006,10 +1006,10 @@
   },
   "69": {
     "name": {
-      "chs": "",
+      "chs": "阿修罗歼灭战",
       "en": "The Gilded Araya",
       "ja": "アスラ討滅戦",
-      "de": "Arayas Palast",
+      "de": "Prophetie - Asura",
       "fr": "Le temple doré d'Araya"
     },
     "type": 4,
@@ -10349,6 +10349,21 @@
     "itemSync": 0,
     "memberType": 3
   },
+  "944": {
+    "name": {
+      "chs": "阿修罗歼灭战",
+      "en": "The Gilded Araya",
+      "ja": "アスラ討滅戦",
+      "de": "Prophetie - Asura",
+      "fr": "Le temple doré d'Araya"
+    },
+    "type": 4,
+    "level": 90,
+    "levelSync": 90,
+    "item": 625,
+    "itemSync": 0,
+    "memberType": 3
+  },
   "945": {
     "name": {
       "chs": "多变迷宫 六根山",
@@ -10543,6 +10558,21 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 32
+  },
+  "960": {
+    "name": {
+      "chs": "那双眼中映出的是",
+      "en": "The Game Is Afoot",
+      "ja": "その瞳が見据えるもの",
+      "de": "Die Jagd ist eröffnet",
+      "fr": "Par-delà l'horizon"
+    },
+    "type": 7,
+    "level": 90,
+    "levelSync": 90,
+    "item": 0,
+    "itemSync": 660,
+    "memberType": 1
   },
   "961": {
     "name": {

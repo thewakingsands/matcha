@@ -2359,7 +2359,7 @@
     "fr": "Arche du néant"
   },
   "509": {
-    "chs": "",
+    "chs": "阿赖耶宝塔",
     "en": "The Gilded Araya",
     "ja": "アラヤの宝塔",
     "de": "Arayas Palast",
@@ -6418,6 +6418,13 @@
     "de": "Ätherborn",
     "fr": "Île de Haam"
   },
+  "1136": {
+    "chs": "阿赖耶宝塔",
+    "en": "The Gilded Araya",
+    "ja": "アラヤの宝塔",
+    "de": "Arayas Palast",
+    "fr": "Temple d'Araya"
+  },
   "1137": {
     "chs": "六根山",
     "en": "Mount Rokkon",
@@ -6663,6 +6670,13 @@
     "de": "Aloalo",
     "fr": "Île d'Aloalo"
   },
+  "1177": {
+    "chs": "哈姆岛",
+    "en": "The Aetherfont",
+    "ja": "ハーム島",
+    "de": "Ätherborn",
+    "fr": "Île de Haam"
+  },
   "1178": {
     "chs": "荣华神域塔利亚",
     "en": "Thaleia",
@@ -6697,6 +6711,13 @@
     "ja": "華めく神域 タレイア",
     "de": "Thaleia",
     "fr": "Domaine divin - Thalie"
+  },
+  "1183": {
+    "chs": "阿赖耶宝塔",
+    "en": "The Gilded Araya",
+    "ja": "アラヤの宝塔",
+    "de": "Arayas Palast",
+    "fr": "Temple d'Araya"
   },
   "1184": {
     "chs": "月面地下溪谷",
