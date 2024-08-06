@@ -10559,6 +10559,21 @@
     "itemSync": 0,
     "memberType": 32
   },
+  "959": {
+    "name": {
+      "chs": "纵使前路狱火焰毒",
+      "en": "Memory of Embers",
+      "ja": "炎影の旅路",
+      "de": "Der Pfad der Flammen",
+      "fr": "Flammes primordiales"
+    },
+    "type": 7,
+    "level": 50,
+    "levelSync": 50,
+    "item": 0,
+    "itemSync": 110,
+    "memberType": 1
+  },
   "960": {
     "name": {
       "chs": "那双眼中映出的是",
