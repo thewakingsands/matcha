@@ -6216,7 +6216,7 @@
     "fr": "Mont du Supplice"
   },
   "1097": {
-    "chs": "冥魂石洞",
+    "chs": "雪山奥窟冥石洞",
     "en": "Lapis Manalis",
     "ja": "ラピス・マナリス",
     "de": "Lapis Manalis",
@@ -6370,7 +6370,7 @@
     "fr": "Domaine divin - Euphrosyne"
   },
   "1119": {
-    "chs": "冥魂石洞",
+    "chs": "雪山奥窟冥石洞",
     "en": "Lapis Manalis",
     "ja": "ラピス・マナリス",
     "de": "Lapis Manalis",
@@ -6628,6 +6628,13 @@
     "de": "Lied der Flammen",
     "fr": "Interstice du chant onirique"
   },
+  "1167": {
+    "chs": "生息河岸",
+    "en": "Ihuykatumu",
+    "ja": "イフイカ・トゥム",
+    "de": "Ihuykatumu",
+    "fr": "Ihuykatumu"
+  },
   "1168": {
     "chs": "红月深处",
     "en": "The Abyssal Fracture",
@@ -6641,6 +6648,20 @@
     "ja": "赤き月の底",
     "de": "Tiefen des roten Mondes",
     "fr": "Cœur de la lune rouge"
+  },
+  "1170": {
+    "chs": "金凰大堂",
+    "en": "Sunperch",
+    "ja": "金凰の間",
+    "de": "Sonnensitz",
+    "fr": "Salle de l'Aurore"
+  },
+  "1171": {
+    "chs": "地中天道秘密基地",
+    "en": "Earthen Sky Hideout",
+    "ja": "空の坑道のアジト",
+    "de": "Unterschlupf im Irdenen Himmel",
+    "fr": "Refuge des Cavernes célestes"
   },
   "1172": {
     "chs": "斯卡拉遗迹",
@@ -6662,13 +6683,6 @@
     "ja": "ギムリトダーク",
     "de": "Ghimlyt-Finsternis",
     "fr": "Les Ténèbres de Ghimlyt"
-  },
-  "1175": {
-    "chs": "奇点反应堆",
-    "en": "Singularity Reactor",
-    "ja": "シンギュラリティ・リアクター",
-    "de": "Singularitäts-Reaktor",
-    "fr": "Réacteur de singularité"
   },
   "1176": {
     "chs": "阿罗阿罗岛",
@@ -6733,11 +6747,368 @@
     "de": "Monduntergrund",
     "fr": "Souterrain lunaire"
   },
+  "1185": {
+    "chs": "图莱尤拉",
+    "en": "Tuliyollal",
+    "ja": "トライヨラ",
+    "de": "Tuliyollal",
+    "fr": "Tuliyollal"
+  },
+  "1186": {
+    "chs": "九号解决方案",
+    "en": "Solution Nine",
+    "ja": "ソリューション・ナイン",
+    "de": "Lösung Neun",
+    "fr": "Solution Neuf"
+  },
+  "1187": {
+    "chs": "奥阔帕恰山",
+    "en": "Urqopacha",
+    "ja": "オルコ・パチャ",
+    "de": "Urqopacha",
+    "fr": "Urqopacha"
+  },
+  "1188": {
+    "chs": "克扎玛乌卡湿地",
+    "en": "Kozama'uka",
+    "ja": "コザマル・カ",
+    "de": "Kozama'uka",
+    "fr": "Kozama'uka"
+  },
+  "1189": {
+    "chs": "亚克特尔树海",
+    "en": "Yak T'el",
+    "ja": "ヤクテル樹海",
+    "de": "Yak T'el",
+    "fr": "Yak T'el"
+  },
+  "1190": {
+    "chs": "夏劳尼荒野",
+    "en": "Shaaloani",
+    "ja": "シャーローニ荒野",
+    "de": "Shaaloani",
+    "fr": "Shaaloani"
+  },
+  "1191": {
+    "chs": "遗产之地",
+    "en": "Heritage Found",
+    "ja": "ヘリテージファウンド",
+    "de": "Ewiges Erbe",
+    "fr": "L'Hoirie recouvrée"
+  },
+  "1192": {
+    "chs": "活着的记忆",
+    "en": "Living Memory",
+    "ja": "リビング・メモリー",
+    "de": "Lebende Erinnerung",
+    "fr": "La Mémoire vivante"
+  },
+  "1193": {
+    "chs": "沃刻佐莫山",
+    "en": "Worqor Zormor",
+    "ja": "ウォーコー・ゾーモー",
+    "de": "Worqor Zormor",
+    "fr": "Worqor Zormor"
+  },
+  "1194": {
+    "chs": "深空天坑",
+    "en": "The Skydeep Cenote",
+    "ja": "天深きセノーテ",
+    "de": "Himmelstiefer Cenote",
+    "fr": "Cénote des Cieux infinis"
+  },
+  "1195": {
+    "chs": "沃刻拉朵山",
+    "en": "Worqor Lar Dor",
+    "ja": "ウォーコー・ラァ・ドー",
+    "de": "Worqor Lar Dor",
+    "fr": "Worqor Lar Dor"
+  },
+  "1196": {
+    "chs": "沃刻拉朵山",
+    "en": "Worqor Lar Dor",
+    "ja": "ウォーコー・ラァ・ドー",
+    "de": "Worqor Lar Dor",
+    "fr": "Worqor Lar Dor"
+  },
   "1197": {
     "chs": "金碟巨豆中心广场",
     "en": "Blunderville Square",
     "ja": "ブランダーヴィルスクウェア",
     "de": "Stolperville-Platz",
     "fr": "Square du Blunderville"
+  },
+  "1198": {
+    "chs": "先锋营",
+    "en": "Vanguard",
+    "ja": "ヴァンガード",
+    "de": "Außenposten",
+    "fr": "L'Avant-garde"
+  },
+  "1199": {
+    "chs": "亚历山德里亚",
+    "en": "Alexandria",
+    "ja": "アレクサンドリア",
+    "de": "Alexandria",
+    "fr": "Alexandrie"
+  },
+  "1200": {
+    "chs": "永护塔顶层",
+    "en": "Summit of Everkeep",
+    "ja": "エバーキープ最上層",
+    "de": "Immerspitze",
+    "fr": "Sommet de la Gardienne de l'Éternité"
+  },
+  "1201": {
+    "chs": "永护塔顶层",
+    "en": "Summit of Everkeep",
+    "ja": "エバーキープ最上層",
+    "de": "Immerspitze",
+    "fr": "Sommet de la Gardienne de l'Éternité"
+  },
+  "1202": {
+    "chs": "次元黄道",
+    "en": "Interphos",
+    "ja": "次元黄道",
+    "de": "Interdimensionale Ekliptik",
+    "fr": "Écliptique dimensionnelle"
+  },
+  "1203": {
+    "chs": "仙人刺谷",
+    "en": "Tender Valley",
+    "ja": "サボテンダーバレー",
+    "de": "Kaktorsenke",
+    "fr": "Vallée des Pampas"
+  },
+  "1204": {
+    "chs": "迷途鬼区",
+    "en": "Strayborough",
+    "ja": "ストレイバロー",
+    "de": "Mahrlingen-Promenade",
+    "fr": "Parc-aux-Errants"
+  },
+  "1205": {
+    "chs": "船头小屋",
+    "en": "The For'ard Cabins",
+    "ja": "フォルアード・キャビンズ",
+    "de": "Kielkajüten",
+    "fr": "Cabines de Proue"
+  },
+  "1206": {
+    "chs": "航船甲板",
+    "en": "Main Deck",
+    "ja": "大洋の船上",
+    "de": "Auf hoher See",
+    "fr": "Pont du navire"
+  },
+  "1207": {
+    "chs": "后房",
+    "en": "The Backroom",
+    "ja": "バックルーム",
+    "de": "Hinterzimmer",
+    "fr": "Le Repaire"
+  },
+  "1208": {
+    "chs": "创生设施",
+    "en": "Origenics",
+    "ja": "オリジェニクス",
+    "de": "Origenik",
+    "fr": "L'Origenèse"
+  },
+  "1209": {
+    "chs": "",
+    "en": "Cenote Ja Ja Gural",
+    "ja": "セノーテ・ジャジャグラル",
+    "de": "Cenote Ja Ja Gural",
+    "fr": "Cénote Ja Ja Gural"
+  },
+  "1210": {
+    "chs": "金凰大堂",
+    "en": "Sunperch",
+    "ja": "金凰の間",
+    "de": "Sonnensitz",
+    "fr": "Salle de l'Aurore"
+  },
+  "1211": {
+    "chs": "亚克特尔树海",
+    "en": "Yak T'el",
+    "ja": "ヤクテル樹海",
+    "de": "Yak T'el",
+    "fr": "Yak T'el"
+  },
+  "1212": {
+    "chs": "亚克特尔树海",
+    "en": "Yak T'el",
+    "ja": "ヤクテル樹海",
+    "de": "Yak T'el",
+    "fr": "Yak T'el"
+  },
+  "1213": {
+    "chs": "九号解决方案",
+    "en": "Solution Nine",
+    "ja": "ソリューション・ナイン",
+    "de": "Lösung Neun",
+    "fr": "Solution Neuf"
+  },
+  "1214": {
+    "chs": "阿巴拉提亚云海",
+    "en": "The Sea of Clouds",
+    "ja": "アバラシア雲海",
+    "de": "Abalathisches Wolkenmeer",
+    "fr": "L'Écume des cieux d'Abalathia"
+  },
+  "1215": {
+    "chs": "布雷福洛克斯野营地",
+    "en": "Brayflox's Longstop",
+    "ja": "ブレイフロクスの野営地",
+    "de": "Brüllvolx' Langrast",
+    "fr": "Bivouac de Brayflox"
+  },
+  "1216": {
+    "chs": "巴儿达木霸道",
+    "en": "Bardam's Mettle",
+    "ja": "バルダム覇道",
+    "de": "Bardams Probe",
+    "fr": "Force de Bardam"
+  },
+  "1217": {
+    "chs": "阿拉米格",
+    "en": "Ala Mhigo",
+    "ja": "アラミゴ",
+    "de": "Ala Mhigo",
+    "fr": "Ala Mhigo"
+  },
+  "1218": {
+    "chs": "剑岩",
+    "en": "Khadga",
+    "ja": "カドガの大岩",
+    "de": "Khadga-Felsen",
+    "fr": "Khadga"
+  },
+  "1219": {
+    "chs": "先锋营",
+    "en": "Vanguard",
+    "ja": "ヴァンガード",
+    "de": "Außenposten",
+    "fr": "L'Avant-garde"
+  },
+  "1220": {
+    "chs": "永护塔顶层",
+    "en": "Summit of Everkeep",
+    "ja": "エバーキープ最上層",
+    "de": "Immerspitze",
+    "fr": "Sommet de la Gardienne de l'Éternité"
+  },
+  "1221": {
+    "chs": "次元黄道",
+    "en": "Interphos",
+    "ja": "次元黄道",
+    "de": "Interdimensionale Ekliptik",
+    "fr": "Écliptique dimensionnelle"
+  },
+  "1222": {
+    "chs": "深空天坑最深处",
+    "en": "Skydeep Cenote Inner Chamber",
+    "ja": "天深きセノーテ 最深部",
+    "de": "Tiefste Tiefen des Himmelstiefen Cenote",
+    "fr": "Profondeurs du cénote des Cieux infinis"
+  },
+  "1223": {
+    "chs": "三尾训练馆",
+    "en": "Tritails Training",
+    "ja": "ジム・トライテール",
+    "de": "Tatzentrio-Training",
+    "fr": "Trois Queues"
+  },
+  "1224": {
+    "chs": "休息室",
+    "en": "Greenroom",
+    "ja": "控室",
+    "de": "Warteraum",
+    "fr": "Locaux de la Société de l'Arcadion"
+  },
+  "1225": {
+    "chs": "",
+    "en": "Scratching Ring",
+    "ja": "リング・オブ・キャット",
+    "de": "Katzenring",
+    "fr": "Ring des Griffes félines"
+  },
+  "1226": {
+    "chs": "",
+    "en": "Scratching Ring",
+    "ja": "リング・オブ・キャット",
+    "de": "Katzenring",
+    "fr": "Ring des Griffes félines"
+  },
+  "1227": {
+    "chs": "",
+    "en": "Lovely Lovering",
+    "ja": "リング・オブ・ラブ",
+    "de": "Liebesring",
+    "fr": "Ring de l'Amour mielleux"
+  },
+  "1228": {
+    "chs": "",
+    "en": "Lovely Lovering",
+    "ja": "リング・オブ・ラブ",
+    "de": "Liebesring",
+    "fr": "Ring de l'Amour mielleux"
+  },
+  "1229": {
+    "chs": "",
+    "en": "Blasting Ring",
+    "ja": "リング・オブ・ボンバー",
+    "de": "Bombenring",
+    "fr": "Ring du Bombardement brutal"
+  },
+  "1230": {
+    "chs": "",
+    "en": "Blasting Ring",
+    "ja": "リング・オブ・ボンバー",
+    "de": "Bombenring",
+    "fr": "Ring du Bombardement brutal"
+  },
+  "1231": {
+    "chs": "",
+    "en": "The Thundering",
+    "ja": "リング・オブ・サンダー",
+    "de": "Donnerring",
+    "fr": "Ring du Tonnerre terrifiant"
+  },
+  "1232": {
+    "chs": "",
+    "en": "The Thundering",
+    "ja": "リング・オブ・サンダー",
+    "de": "Donnerring",
+    "fr": "Ring du Tonnerre terrifiant"
+  },
+  "1233": {
+    "chs": "废屋地下室",
+    "en": "Manor Basement",
+    "ja": "廃屋の地下室",
+    "de": "Keller des verlassenen Gebäudes",
+    "fr": "Sous-sol du vieux manoir"
+  },
+  "1234": {
+    "chs": "如梦宫殿",
+    "en": "Dreamlike Palace",
+    "ja": "夢香る宮殿",
+    "de": "Palast der Träume",
+    "fr": "Palais au parfum onirique"
+  },
+  "1235": {
+    "chs": "中萨纳兰",
+    "en": "Central Thanalan",
+    "ja": "中央ザナラーン",
+    "de": "Zentrales Thanalan",
+    "fr": "Thanalan central"
+  },
+  "1236": {
+    "chs": "南萨纳兰",
+    "en": "Southern Thanalan",
+    "ja": "南ザナラーン",
+    "de": "Südliches Thanalan",
+    "fr": "Thanalan méridional"
   }
 }

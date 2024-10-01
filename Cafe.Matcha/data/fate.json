@@ -1345,7 +1345,7 @@
   },
   "280": {
     "name": {
-      "chs": "彷徨的匠人——弹指通 柯柯卢恩",
+      "chs": "彷徨的匠人——弹指通柯柯卢恩",
       "en": "Jewels of the Isle",
       "ja": "彷徨の業師「弾指のココルン」",
       "de": "Was auf die Finger",
@@ -4501,7 +4501,7 @@
   },
   "759": {
     "name": {
-      "chs": "蛛蜂来袭",
+      "chs": "蛛鹰蜂来袭",
       "en": "Tarantula Hawk, Pro Stinger",
       "ja": "タランチュラホークの襲撃",
       "de": "Nicht Spinne, nicht Falke",
@@ -5045,7 +5045,7 @@
       "en": "Run, Riders, Run",
       "ja": "氷上の狼",
       "de": "Wettlauf mit dem Tod",
-      "fr": "Les grands méchants loups argentés"
+      "fr": "Les grands méchants loups cendrés"
     },
     "level": 50,
     "patch": 3,
@@ -5325,7 +5325,7 @@
     },
     "level": 53,
     "patch": 3,
-    "location": 400
+    "location": 398
   },
   "837": {
     "name": {
@@ -12335,18 +12335,6 @@
     "patch": 5,
     "location": 886
   },
-  "1667": {
-    "name": {
-      "chs": "咿咻打虎",
-      "en": "Tora Tora, Burning Bright",
-      "ja": "降神祭「荒神楽で虎退治！」",
-      "de": "Hilfe, der Tiger ist los!",
-      "fr": "La chasse du tigre chimérique!"
-    },
-    "level": 5,
-    "patch": 2,
-    "location": 134
-  },
   "1668": {
     "name": {
       "chs": "西升歌文化区：第一次整备计划完工",
@@ -12921,7 +12909,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1718": {
     "name": {
@@ -12933,7 +12921,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1719": {
     "name": {
@@ -12945,7 +12933,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1720": {
     "name": {
@@ -12957,7 +12945,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1721": {
     "name": {
@@ -12969,7 +12957,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1722": {
     "name": {
@@ -12981,7 +12969,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1723": {
     "name": {
@@ -12993,7 +12981,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1724": {
     "name": {
@@ -13005,7 +12993,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1725": {
     "name": {
@@ -13017,7 +13005,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1726": {
     "name": {
@@ -13029,7 +13017,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1727": {
     "name": {
@@ -13041,7 +13029,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1728": {
     "name": {
@@ -13053,7 +13041,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1729": {
     "name": {
@@ -13065,7 +13053,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1730": {
     "name": {
@@ -13077,7 +13065,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1731": {
     "name": {
@@ -13089,7 +13077,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1732": {
     "name": {
@@ -13101,7 +13089,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1733": {
     "name": {
@@ -13113,7 +13101,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1734": {
     "name": {
@@ -13125,7 +13113,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1735": {
     "name": {
@@ -13137,7 +13125,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1736": {
     "name": {
@@ -13149,7 +13137,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1737": {
     "name": {
@@ -13161,7 +13149,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1738": {
     "name": {
@@ -13173,7 +13161,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1739": {
     "name": {
@@ -13185,7 +13173,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1740": {
     "name": {
@@ -13197,7 +13185,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1741": {
     "name": {
@@ -13209,7 +13197,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1742": {
     "name": {
@@ -13221,7 +13209,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1743": {
     "name": {
@@ -14339,28 +14327,1192 @@
     "patch": 6,
     "location": 960
   },
-  "1856": {
+  "1860": {
     "name": {
-      "chs": "彩蛋狩猎“幸福在这里！”",
-      "en": "Happiness Is a Warm Bunny",
-      "ja": "エッグハント「しあわせはここにいる」",
-      "de": "Gluckenschreck des Glücks",
-      "fr": "À la poursuite du bonheur"
+      "chs": "针针棘棘乔迁路",
+      "en": "Nopal Hunters",
+      "ja": "ノパルの引っ越し物語",
+      "de": "Gar nicht so feige Kaktoren",
+      "fr": "Aficionados de la raquette"
     },
-    "level": 15,
-    "patch": 6,
-    "location": 0
+    "level": 95,
+    "patch": 7,
+    "location": 1190
   },
-  "1857": {
+  "1861": {
     "name": {
-      "chs": "彩蛋狩猎“妖精族大战冬贝利！”",
-      "en": "Don't Be Sylphish",
-      "ja": "エッグハント「シルフ対トンベリ人間」",
-      "de": "Sylphen-Schreck",
-      "fr": "Sylphes contre tomberrys humains"
+      "chs": "天干物燥小心螃蟹",
+      "en": "Claw and Order",
+      "ja": "タンブル・ウィード",
+      "de": "Akute Brandgefahr",
+      "fr": "Les virevoltants"
     },
-    "level": 15,
-    "patch": 6,
-    "location": 0
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1862": {
+    "name": {
+      "chs": "恶魔的火种——饮火魔",
+      "en": "You Are What You Drink",
+      "ja": "悪魔の種火「フレイムドリンカー」",
+      "de": "Geboren aus Flammen",
+      "fr": "Une haleine de feu"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1863": {
+    "name": {
+      "chs": "神秘翼龙荒野奇谈",
+      "en": "That's Me and the Porter",
+      "ja": "恐竜怪鳥の伝説",
+      "de": "Urzeitliche Vögel",
+      "fr": "La vie trouve toujours un chemin"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1864": {
+    "name": {
+      "chs": "死而复生的恶棍——阴魂不散 扎特夸",
+      "en": "The Dead Never Die",
+      "ja": "死せる悪漢「デッドマン・ダーテカ」",
+      "de": "Totgesagte leben länger",
+      "fr": "Ce qui est mort ne saurait mourir"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1865": {
+    "name": {
+      "chs": "剃毛时间",
+      "en": "Gonna Have Me Some Fur",
+      "ja": "毛狩りの季節",
+      "de": "Backenhaar so wunderbar",
+      "fr": "Rasé de près"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1866": {
+    "name": {
+      "chs": "去那花花世界",
+      "en": "Dhara Dared",
+      "ja": "イントゥ・ザ・ワイルド",
+      "de": "Wild ist die Wildnis",
+      "fr": "Vers l'inconnu"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1867": {
+    "name": {
+      "chs": "蛇王得酷热涅：苏醒的征兆",
+      "en": "The Serpentlord Stirs",
+      "ja": "トクローネ：目覚めの予兆",
+      "de": "Künder seines Erwachens",
+      "fr": "Ttokrrone: prélude à l'éveil"
+    },
+    "level": 95,
+    "patch": 7,
+    "location": 1190
+  },
+  "1868": {
+    "name": {
+      "chs": "蛇王得酷热涅：苏醒的前兆",
+      "en": "The Serpentlord Speaks",
+      "ja": "トクローネ：目覚めの前兆",
+      "de": "Das Erwachen rückt näher",
+      "fr": "Ttokrrone: le roi des serpents"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1869": {
+    "name": {
+      "chs": "蛇王得酷热涅：狩猎前的准备",
+      "en": "The Serpentlord Sires",
+      "ja": "トクローネ：狩猟の下準備",
+      "de": "Vorbereitung der Jagd",
+      "fr": "Ttokrrone: la grande chasse commence"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1870": {
+    "name": {
+      "chs": "蛇王得酷热涅：狩猎的杀手锏",
+      "en": "The Serpentlord Suffers",
+      "ja": "トクローネ：狩猟の秘策",
+      "de": "Mit Blut fängt man Schlangen",
+      "fr": "Ttokrrone: massacre ophidien"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1871": {
+    "name": {
+      "chs": "蛇王得酷热涅：荒野的死斗",
+      "en": "The Serpentlord Seethes",
+      "ja": "トクローネ：荒野の死闘",
+      "de": "In den sandigen Schlund",
+      "fr": "Ttokrrone: lutte ensablée"
+    },
+    "level": 100,
+    "patch": 7,
+    "location": 1190
+  },
+  "1872": {
+    "name": {
+      "chs": "健步如龟",
+      "en": "A Tortoise of a Tale",
+      "ja": "亀は意外と速く歩く",
+      "de": "Seeungeheuer",
+      "fr": "Des tortues plus rapides que la moyenne"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1873": {
+    "name": {
+      "chs": "不该出现的鱼人——鲿鲿",
+      "en": "Breaking the Jaw",
+      "ja": "不条理魚人「ジャウジャウ」",
+      "de": "Der Lügenfresser",
+      "fr": "Mâchoire déchue"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1874": {
+    "name": {
+      "chs": "大湖之恋",
+      "en": "A Raptor Runs Through It",
+      "ja": "リバー・ランズ・スルー・イット",
+      "de": "Fang in Gefahr",
+      "fr": "Et au milieu coule une rivière"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1875": {
+    "name": {
+      "chs": "和牛一起旅行",
+      "en": "Ain't What I Herd",
+      "ja": "ロネークと人の大地",
+      "de": "Hüter der Herde",
+      "fr": "Terre des rroneeks"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1876": {
+    "name": {
+      "chs": "不甘的冲锋者——灰达奇",
+      "en": "Helms off to the Bull",
+      "ja": "嘆きの猛進「ウィデキ」",
+      "de": "Brachialer Bulle",
+      "fr": "Hwittaeki"
+    },
+    "level": 96,
+    "patch": 7,
+    "location": 1190
+  },
+  "1877": {
+    "name": {
+      "chs": "牧场关门",
+      "en": "Pasture Expiration Date",
+      "ja": "ポゼッション",
+      "de": "Unerwünschte Rasenmäher",
+      "fr": "Bestioles nuisibles"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1878": {
+    "name": {
+      "chs": "跃动的火热——山火",
+      "en": "Fire Suppression",
+      "ja": "踊る山火「ラカクウルク」",
+      "de": "Racaqurq die tanzende Flamme",
+      "fr": "La flamme dansante"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1187
+  },
+  "1879": {
+    "name": {
+      "chs": "狼之家族",
+      "en": "Wolf Parade",
+      "ja": "狼の家",
+      "de": "Hungrig wie die Wölfe",
+      "fr": "Loups affamés"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1880": {
+    "name": {
+      "chs": "飞天魔厨——佩鲁的天敌",
+      "en": "Panaq Attack",
+      "ja": "空飛ぶ鍋奉行「ペルペルイーター」",
+      "de": "Panaq-Attacke",
+      "fr": "Attaque de Panaq"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1187
+  },
+  "1881": {
+    "name": {
+      "chs": "蜜罐空空",
+      "en": "Ratels So Ravenous",
+      "ja": "今日もごきげん元気",
+      "de": "Hunger bringt Kummer",
+      "fr": "Ratels carnassiers"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1187
+  },
+  "1882": {
+    "name": {
+      "chs": "图拉尔候鸟",
+      "en": "Too Irate to Migrate",
+      "ja": "トラルの渡り鳥",
+      "de": "Zornige Zugvögel",
+      "fr": "Oiseaux de malheur"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1883": {
+    "name": {
+      "chs": "龙舌兰超级加倍",
+      "en": "Megamaguey Mayhem",
+      "ja": "ワイルドマゲイ・メガマックス",
+      "de": "Anarcho-Agaven",
+      "fr": "Mégapitas, méga problèmes"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1884": {
+    "name": {
+      "chs": "阳光照耀马黛茶园",
+      "en": "Weeding the Garden",
+      "ja": "太陽のマテ茶園",
+      "de": "Unkrautvernichtung",
+      "fr": "Matéière va craquer"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1885": {
+    "name": {
+      "chs": "咖啡豆岌岌可危",
+      "en": "Birds Up",
+      "ja": "コーヒーを巡る冒険",
+      "de": "Hiebe für die Bohnendiebe",
+      "fr": "Jacu-se"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1187
+  },
+  "1886": {
+    "name": {
+      "chs": "只有爆炸",
+      "en": "Young Volcanoes",
+      "ja": "オンリー・ザ・ボム",
+      "de": "Junge Hitzköpfe",
+      "fr": "Panique volcanique"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1887": {
+    "name": {
+      "chs": "小湖之畔",
+      "en": "Claws and Effect",
+      "ja": "小さな湖のほとりで",
+      "de": "Mörderische Meute",
+      "fr": "La source aux grosses pinces"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1888": {
+    "name": {
+      "chs": "黑水",
+      "en": "By Your Powers Combined",
+      "ja": "ダーク・ウォーター",
+      "de": "Wider die Wasserverschmutzung",
+      "fr": "Pollution lacustre"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1889": {
+    "name": {
+      "chs": "不死之人",
+      "en": "Gust Stop Already",
+      "ja": "不死の人",
+      "de": "Der Wind, das höllische Kind",
+      "fr": "Gravures au vent"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1890": {
+    "name": {
+      "chs": "暴风中的滑翔者——杜祖基",
+      "en": "Big Storm Coming",
+      "ja": "暴風の乗り手「ドゥーズーギー」",
+      "de": "Durzurgir die Sturmreiterin",
+      "fr": "Durzurgir, le Chevaucheur des Tempêtes"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1891": {
+    "name": {
+      "chs": "千年孤独",
+      "en": "Salty Showdown",
+      "ja": "千年の孤独",
+      "de": "Salziges Stelldichein",
+      "fr": "Brutes géantes"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1892": {
+    "name": {
+      "chs": "旁若无人——蛮勇巨身 沃吉祖",
+      "en": "A Valiant Duel",
+      "ja": "傍若無人、蛮勇のヴォージーズー",
+      "de": "Wagemut, der gut nicht tut",
+      "fr": "Vaillant et revanchard"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1893": {
+    "name": {
+      "chs": "吸血怪兽",
+      "en": "So Long, Suckers",
+      "ja": "吸血怪獣",
+      "de": "Böses Blut",
+      "fr": "Pas de veine"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1894": {
+    "name": {
+      "chs": "失落的山顶都城",
+      "en": "Lay Off the Horns",
+      "ja": "失われた山岳の都",
+      "de": "Es krazt mich gewaltig",
+      "fr": "Vandalisme cornu"
+    },
+    "level": 93,
+    "patch": 7,
+    "location": 1187
+  },
+  "1895": {
+    "name": {
+      "chs": "顶击大貒猪",
+      "en": "Could've Found Something Bigger",
+      "ja": "上段の突きを喰らうイブルク",
+      "de": "Zahlenmäßig unterlegen",
+      "fr": "Tout n'est pas bon dans l'ibruq"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1896": {
+    "name": {
+      "chs": "血染利爪——米尤鲁尔",
+      "en": "La Selva se lo Llevó",
+      "ja": "血濡れの爪「ミユールル」",
+      "de": "Ruhm oder Leben",
+      "fr": "Défi : Mille malheurs, voilà le Milyurrul"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1897": {
+    "name": {
+      "chs": "圣树邪魔——坏死花",
+      "en": "The Departed",
+      "ja": "邪聖樹ネクローシス",
+      "de": "Schlingelpflanzen",
+      "fr": "Nécrose ambiante"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1898": {
+    "name": {
+      "chs": "被诅咒的森林",
+      "en": "Fright or Flight",
+      "ja": "呪われの森",
+      "de": "Denn sie wussten nicht, was sie tun",
+      "fr": "Terreur de l'au-delà"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1899": {
+    "name": {
+      "chs": "致命螳螂",
+      "en": "Stick it to the Mantis",
+      "ja": "ザ・デッドリーマンティス",
+      "de": "Je mehr, desto lustiger",
+      "fr": "Mantes massivement mortelles"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1900": {
+    "name": {
+      "chs": "人猿崛起新世界",
+      "en": "The Fruit of the Problem",
+      "ja": "猿の大陸 キングダム",
+      "de": "Viel gefragte Früchte",
+      "fr": "Petits singes mal élevés"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1901": {
+    "name": {
+      "chs": "属于你的那颗星",
+      "en": "My Star",
+      "ja": "ピューと鳴く、ブラーシャ",
+      "de": "Gefährlicher Wald",
+      "fr": "Ça va coûter un br'aax"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1902": {
+    "name": {
+      "chs": "古战场怨灵——利刃遗怨库菲加",
+      "en": "I Ain't Afraid of No Ghost",
+      "ja": "怒れる古兵「怨刃のクフェージャ」",
+      "de": "Denn sie wissen noch immer nicht, was sie tun",
+      "fr": "Défi : Qui ose perturber mon sommeil éternel, ja ?"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1903": {
+    "name": {
+      "chs": "辉鳞族不法之徒袭击事件",
+      "en": "Stabbing Gutward",
+      "ja": "荒くれマムージャ襲撃編",
+      "de": "Zeittotstecherei",
+      "fr": "Les racailles de Mamook"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1904": {
+    "name": {
+      "chs": "怒火攻心——与火共舞马玛加",
+      "en": "Trial by Firedance",
+      "ja": "烈火の怒心「火踊りのママージャ」",
+      "de": "Darf ich bitten?",
+      "fr": "Défi : Touche pas à mes potes !"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1905": {
+    "name": {
+      "chs": "守护秘药之战",
+      "en": "Porting Is Such Sweet Sorrow",
+      "ja": "秘薬を守る戦い",
+      "de": "Ein Spediteur hat's schwer",
+      "fr": "Pharmacopée en danger"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1906": {
+    "name": {
+      "chs": "逃离恐怖菇",
+      "en": "Escape Shroom",
+      "ja": "恐怖！ キノコ魔物",
+      "de": "Penetrante Pilze",
+      "fr": "Mycophobie, quand tu nous tiens"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1907": {
+    "name": {
+      "chs": "剥香蕉皮的好日子",
+      "en": "Najool of Denial",
+      "ja": "バナナ剥きには最適の日",
+      "de": "Die Bananenkriege",
+      "fr": "Belle journée pour peler des bananes"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1908": {
+    "name": {
+      "chs": "深林灵蛾——幽灵蛾",
+      "en": "Moths Are Tough",
+      "ja": "深き森の霊蛾「ゴーストモス」",
+      "de": "Doktor Motte",
+      "fr": "Défi : S.O.S phalène fantôme"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1909": {
+    "name": {
+      "chs": "食人鱼归来",
+      "en": "The Spawning",
+      "ja": "ピラニア・リターンズ",
+      "de": "Kapitale Killer",
+      "fr": "Les dents de l'étang"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1910": {
+    "name": {
+      "chs": "动物王国",
+      "en": "Sick, Ornery Wivres",
+      "ja": "野生の王国",
+      "de": "Wundersame Wivren",
+      "fr": "Sauvagerie animale"
+    },
+    "level": 94,
+    "patch": 7,
+    "location": 1189
+  },
+  "1911": {
+    "name": {
+      "chs": "来自庇护所的入侵者",
+      "en": "Invaders from Asyle",
+      "ja": "インベーダー・フロム・アサイラム",
+      "de": "Eindringlinge aus Asylkan",
+      "fr": "Envahisseurs en<SoftHyphen/>va<SoftHyphen/>his<SoftHyphen/>sants"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1912": {
+    "name": {
+      "chs": "怪花多奇思——植脑",
+      "en": "Feed Me, Sentries",
+      "ja": "思考する奇花「プラントブレイン」",
+      "de": "Grüne Gehirne",
+      "fr": "Défi: la fleur pensante"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1913": {
+    "name": {
+      "chs": "良种难求",
+      "en": "Seeds of Tomorrow",
+      "ja": "種の期限",
+      "de": "Schützenswerte Samen",
+      "fr": "Graines à protéger"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1914": {
+    "name": {
+      "chs": "水城噩梦",
+      "en": "Plumbers Don't Fear Slimes",
+      "ja": "水の迷宮の夢",
+      "de": "Wasser marsch",
+      "fr": "Labyrinthe aquatique"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1915": {
+    "name": {
+      "chs": "水道吞噬者——吞河泥怪",
+      "en": "Slime to Die",
+      "ja": "水路を呑む者「カナルガルパー」",
+      "de": "Von ganz unten hochgearbeitet",
+      "fr": "Défi: nettoyage de canaux"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1916": {
+    "name": {
+      "chs": "为了运河镇的安宁",
+      "en": "Canal Carnage",
+      "ja": "カナルタウンでやすらかに",
+      "de": "Mehr Sicherheit für Kanalstadt",
+      "fr": "Éternité lacustre"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1917": {
+    "name": {
+      "chs": "记忆的碎片",
+      "en": "Scattered Memories",
+      "ja": "メモリーズ",
+      "de": "Was bleibt, ist die Erinnerung",
+      "fr": "Souvenirs robotiques"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1918": {
+    "name": {
+      "chs": "临界结构故障",
+      "en": "Critical Corruption",
+      "ja": "彼らの想いで",
+      "de": "Aus den eigenen Reihen",
+      "fr": "Contre son camp"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1919": {
+    "name": {
+      "chs": "绯色战马——莱姆珀斯",
+      "en": "Horse in the Round",
+      "ja": "緋色の戦馬「ラムポス」",
+      "de": "Scharlachrotes Streitross",
+      "fr": "Défi: le cheval écarlate"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1920": {
+    "name": {
+      "chs": "亩鼠米卡：盛装巡游开始",
+      "en": "Mascot March",
+      "ja": "マイカ・ザ・ムー：出発進行",
+      "de": "Alles andere als fade, diese Parade",
+      "fr": "Mica le mu: début du spectacle"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1921": {
+    "name": {
+      "chs": "亩鼠米卡：盛装巡游一路向前",
+      "en": "Mascot Mayhem",
+      "ja": "マイカ・ザ・ムー：大行進",
+      "de": "Bizarres Zwischenspiel",
+      "fr": "Mica le mu: la grotesque parade"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1922": {
+    "name": {
+      "chs": "亩鼠米卡：盛装巡游皆大欢喜",
+      "en": "Mascot Murder",
+      "ja": "マイカ・ザ・ムー：大団円",
+      "de": "Mordendes Maskottchen",
+      "fr": "Mica le mu: le grand final"
+    },
+    "level": 100,
+    "patch": 7,
+    "location": 1192
+  },
+  "1923": {
+    "name": {
+      "chs": "禁止逗留",
+      "en": "No Loitering",
+      "ja": "沈んだ世界",
+      "de": "Versunkene Welt",
+      "fr": "Un monde englouti"
+    },
+    "level": 99,
+    "patch": 7,
+    "location": 1192
+  },
+  "1924": {
+    "name": {
+      "chs": "沼泽美食狂欢节",
+      "en": "Crocs of the Creek",
+      "ja": "湖沼の謝肉祭",
+      "de": "Hammerharte Heraus<SoftHyphen/>forde<SoftHyphen/>rung",
+      "fr": "Des gloutons venus des lacs"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1188
+  },
+  "1925": {
+    "name": {
+      "chs": "通往天罚的阶梯",
+      "en": "Tegu or Not Tegu",
+      "ja": "天罰への階段",
+      "de": "Jeder Tegu ein Tegu zu viel",
+      "fr": "Des marches sans calme"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1188
+  },
+  "1926": {
+    "name": {
+      "chs": "怪力大肚王——非凡飔戮龙",
+      "en": "There's Always a Bigger Beast",
+      "ja": "怪力の大食漢「マイティ・マイプ」",
+      "de": "Die Fische, die ich rief",
+      "fr": "Un maip très vorace"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1188
+  },
+  "1927": {
+    "name": {
+      "chs": "芦苇荡的时光",
+      "en": "Reeds in Need",
+      "ja": "野性と葦",
+      "de": "Zu Schilfe!",
+      "fr": "SOS roseaux"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1188
+  },
+  "1928": {
+    "name": {
+      "chs": "杀手蟹传奇",
+      "en": "This Kills the Craklaw",
+      "ja": "巨大カニ魔物の襲撃",
+      "de": "Es regnet Kraklaws",
+      "fr": "Expulsion de craqulovs"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1188
+  },
+  "1929": {
+    "name": {
+      "chs": "喋血魔鸟——胡伊克库乌索",
+      "en": "Feathery Dustup",
+      "ja": "血を啜る魔鳥「フイッククルショ」",
+      "de": "Ein Lied, sie alle zu binden",
+      "fr": "Clouer le bec de Huik'ku'uxo"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1188
+  },
+  "1930": {
+    "name": {
+      "chs": "密林之王——帕玛亚瓦",
+      "en": "The Pama-yawa Dilemma",
+      "ja": "密林の王者「パマヤワー」",
+      "de": "Die Hackordnung der Pama-yawa",
+      "fr": "Pama-yawa, le maître de la jungle"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1188
+  },
+  "1931": {
+    "name": {
+      "chs": "巧若天工",
+      "en": "Combing the Area",
+      "ja": "人鳥細工",
+      "de": "Auf das richtige Material kommt es an",
+      "fr": "Ça en vaut bien le peigne"
+    },
+    "level": 90,
+    "patch": 7,
+    "location": 1188
+  },
+  "1932": {
+    "name": {
+      "chs": "贡品小偷",
+      "en": "Toucalibri at That Game",
+      "ja": "我々の貢物",
+      "de": "Nicht euer Obst",
+      "fr": "Volatiles voleurs d'offrandes"
+    },
+    "level": 91,
+    "patch": 7,
+    "location": 1188
+  },
+  "1933": {
+    "name": {
+      "chs": "苛捐杂税？",
+      "en": "Bandit Tax, Paid in Full",
+      "ja": "奸臣、非感心",
+      "de": "Nichts als Lug und Betrug",
+      "fr": "Imposteurs de l'imposition"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1934": {
+    "name": {
+      "chs": "横征暴敛？",
+      "en": "Tax Dodging",
+      "ja": "奸臣、大寒心",
+      "de": "Ehrlich währt am längsten",
+      "fr": "Taxe sur le truandage"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1935": {
+    "name": {
+      "chs": "秃鹰降临",
+      "en": "Ruffling Feathers",
+      "ja": "禿鷹は舞い降りた",
+      "de": "Der Geier ist gelandet",
+      "fr": "La valse des vautours"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1936": {
+    "name": {
+      "chs": "打鼹鼠行动",
+      "en": "Mole Patrol",
+      "ja": "モグラ退治",
+      "de": "Gefahr von unten",
+      "fr": "Taupes tapageuses"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1937": {
+    "name": {
+      "chs": "密林淘金",
+      "en": "Borne on the Backs of Burrowers",
+      "ja": "落ち石拾い",
+      "de": "Steinchensucher",
+      "fr": "Un coup de main pour les mains-du-pot"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1938": {
+    "name": {
+      "chs": "复仇的妖女——萨尤纳",
+      "en": "Sayona Your Prayers",
+      "ja": "復讐の妖女「サヨナ」",
+      "de": "Verführerisches Verderben",
+      "fr": "Le succube Sayona"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1939": {
+    "name": {
+      "chs": "告诉胡蜂",
+      "en": "Sting Operation",
+      "ja": "蜂の物語",
+      "de": "Wespenplage",
+      "fr": "Dépeuplement de polistes"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1940": {
+    "name": {
+      "chs": "美丽菇世界",
+      "en": "Putting the Fun in Fungicide",
+      "ja": "素晴らしき、キノコの世界",
+      "de": "Es ist Pilzsaison",
+      "fr": "Anéantissement d'amanites"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1941": {
+    "name": {
+      "chs": "猪多美梦——伞帽猎人",
+      "en": "Caphunter, Mushroom Muncher",
+      "ja": "夢見る猪「キャップハンター」",
+      "de": "Rampensau",
+      "fr": "Sans pitié pour le sanglier"
+    },
+    "level": 92,
+    "patch": 7,
+    "location": 1188
+  },
+  "1942": {
+    "name": {
+      "chs": "机械迷城",
+      "en": "It's Super Defective",
+      "ja": "ブロークンボットダイアリー",
+      "de": "Maschinen auf Abwegen",
+      "fr": "Le journal d'une sentinelle défectueuse"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1943": {
+    "name": {
+      "chs": "你来我往",
+      "en": "Running of the Katobleps",
+      "ja": "逃走テレメトリー",
+      "de": "Vom Regen in die Traufe",
+      "fr": "Télémétrie meurtrie"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1944": {
+    "name": {
+      "chs": "血脚印",
+      "en": "Anger Issues",
+      "ja": "紅い足跡",
+      "de": "Wutkissen wider Willen",
+      "fr": "Des traces écarlates"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1945": {
+    "name": {
+      "chs": "剥皮行者",
+      "en": "Ware the Wolves",
+      "ja": "人狼伝説",
+      "de": "Auf sie mit Geheul",
+      "fr": "Gare aux garous"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1946": {
+    "name": {
+      "chs": "电力之战",
+      "en": "Days of Thunder",
+      "ja": "ウォー・オブ・カレント",
+      "de": "Helle Leuchte",
+      "fr": "Jours de tonnerre"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1947": {
+    "name": {
+      "chs": "基本有害",
+      "en": "Hack the Planet",
+      "ja": "ほとんど有害",
+      "de": "Voll drauf eingeschlossen",
+      "fr": "Aborder avec prudence"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1948": {
+    "name": {
+      "chs": "铁嘴断头——镰喙魔鸟",
+      "en": "A Scythe to an Axe Fight",
+      "ja": "断頭の嘴「サイスビーク」",
+      "de": "Tod durch den Schnabel",
+      "fr": "Bec-faucheur"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1949": {
+    "name": {
+      "chs": "药师的工作",
+      "en": "License to Dill",
+      "ja": "薬屋のひと仕事",
+      "de": "Bauer sucht Heilkraut",
+      "fr": "Le carnet de l'apothicaire"
+    },
+    "level": 97,
+    "patch": 7,
+    "location": 1191
+  },
+  "1950": {
+    "name": {
+      "chs": "机械公敌",
+      "en": "Domo Arigato",
+      "ja": "気まぐれロボット",
+      "de": "Durchgeknallte Schaltkreise",
+      "fr": "Robot capricieux"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1951": {
+    "name": {
+      "chs": "雷霆营救",
+      "en": "Mr. Roboto",
+      "ja": "ロードソウルズ",
+      "de": "Das Gesetz der Straße",
+      "fr": "Âme chargée"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1952": {
+    "name": {
+      "chs": "铭刻于灵魂中的恐惧",
+      "en": "Old Stampeding Grounds",
+      "ja": "巨獣めざめる",
+      "de": "Erwachen der Bestie",
+      "fr": "L'éveil de la bête"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1953": {
+    "name": {
+      "chs": "前路多茫然",
+      "en": "Pulling the Wool",
+      "ja": "道を視る青年",
+      "de": "Leider konnten wir Ihr Paket nicht zustellen",
+      "fr": "Bouchon de dos-laineux"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1954": {
+    "name": {
+      "chs": "智械屠杀",
+      "en": "To Each His Drone",
+      "ja": "スローター 機械の生贄",
+      "de": "Massakrierende Maschinen",
+      "fr": "Machina militari"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1955": {
+    "name": {
+      "chs": "有仇报仇",
+      "en": "Mi Casa Es Mi Casa",
+      "ja": "怨讐領域",
+      "de": "Wie du mir, so ich dir",
+      "fr": "Sans rancune"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1956": {
+    "name": {
+      "chs": "怨怼的独眼——复仇者",
+      "en": "(Got My Eye) Set on You",
+      "ja": "復讐の単眼「ザ・アベンジャー」",
+      "de": "Rache ist bitter",
+      "fr": "Le Vengeur"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1957": {
+    "name": {
+      "chs": "亮闪闪的可回收资源",
+      "en": "When It's So Salvage",
+      "ja": "人生がときめく片づけの技法",
+      "de": "Aufräumen mit Methode",
+      "fr": "La magie du rangement"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
+  },
+  "1958": {
+    "name": {
+      "chs": "养虺成蛇",
+      "en": "print('I hate snakes')",
+      "ja": "メガ・パイソン",
+      "de": "Falsche Schlange",
+      "fr": "Méga pythons"
+    },
+    "level": 98,
+    "patch": 7,
+    "location": 1191
   }
 }
