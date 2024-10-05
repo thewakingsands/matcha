@@ -22,11 +22,11 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       with:
         path: ~/.nuget/packages
         key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
@@ -34,9 +34,9 @@ jobs:
           ${{ runner.os }}-nuget-
         
     - name: Setup NuGet.exe for use with actions
-      uses: NuGet/setup-nuget@v1.0.5
+      uses: NuGet/setup-nuget@v2
     - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1.0.2
+      uses: microsoft/setup-msbuild@v2
 
     - name: Setup thirdparty dependencies
       run: |
