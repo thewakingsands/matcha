@@ -112,8 +112,21 @@
     <Compile Include="DTO\FateWatchListChangedDTO.cs" />
     <Compile Include="DTO\TreasureResultDTO.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Network\Packet.cs" />
+    <Compile Include="Network\Universalis\Structures\IMarketBoardCurrentOfferings.cs" />
+    <Compile Include="Network\Universalis\Structures\IMarketBoardHistory.cs" />
+    <Compile Include="Network\Universalis\Structures\IMarketBoardPurchase.cs" />
+    <Compile Include="Network\Universalis\Structures\IMarketBoardPurchaseHandler.cs" />
+    <Compile Include="Network\Universalis\Structures\IMarketTaxRates.cs" />
+    <Compile Include="Network\Universalis\Structures\MarketBoardPurchase.cs" />
+    <Compile Include="Network\Universalis\Structures\MarketBoardPurchaseHandler.cs" />
+    <Compile Include="Network\Universalis\Structures\MarketTaxRates.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisItemListingDeleteRequest.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisItemUploadRequest.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisTaxData.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisTaxUploadRequest.cs" />
     <Compile Include="Network\State.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisQueryResponse.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisQueryResponse.cs" />
     <Compile Include="Telemetry\Npc.cs" />
     <Compile Include="Utils\BindingTarget.cs" />
     <Compile Include="DTO\BaseDTO.cs" />
@@ -148,12 +161,11 @@
     <Compile Include="Utils\Request.cs" />
     <Compile Include="Utils\Telemetry.cs" />
     <Compile Include="Network\Universalis\Client.cs" />
-    <Compile Include="Network\Universalis\MarketBoardItemRequest.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisHistoryEntry.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisHistoryUploadRequest.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisItemListingsEntry.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisItemListingsUploadRequest.cs" />
-    <Compile Include="Network\Universalis\Structures\UniversalisItemMateria.cs" />
+    <Compile Include="Network\Universalis\Structures\MarketBoardItemRequest.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisHistoryEntry.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisItemListingsEntry.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisItemListingsUploadRequest.cs" />
+    <Compile Include="Network\Universalis\Types\UniversalisItemMateria.cs" />
     <Compile Include="Network\Universalis\Api.cs" />
     <Compile Include="Network\Universalis\PacketProcessor.cs" />
     <Compile Include="Network\Universalis\Structures\MarketBoardCurrentOfferings.cs" />
@@ -265,6 +277,9 @@
       <Version>1.1.118</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="System.Reactive">
+      <Version>6.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>
