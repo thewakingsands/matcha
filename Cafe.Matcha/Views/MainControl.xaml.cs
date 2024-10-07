@@ -498,10 +498,13 @@ namespace Cafe.Matcha.Views
                 case EventType.CompanyVoyageStatus:
                     Output.SendWebhook(new CompanyVoyageStatusDTO { }, webhook);
                     break;
+                case EventType.None:
+                    MessageBox.Show("请选择事件类型", Data.Title);
+                    break;
                 default:
                     MessageBox.Show(
-                        string.Format("确认要删除 Webhook [{0}] 吗？", ViewModel.SelectedWebhook.Name),
-                        Data.Title, MessageBoxButton.YesNo);
+                        string.Format("暂不支持测试 [{0}] 事件", Enum.GetName(typeof(EventType), webhook.Event)),
+                        Data.Title);
                     break;
             }
         }
@@ -541,7 +544,5 @@ namespace Cafe.Matcha.Views
         {
             ViewModel.LogPause = !ViewModel.LogPause;
         }
-
-        
     }
 }
