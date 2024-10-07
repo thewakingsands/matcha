@@ -11,6 +11,8 @@ namespace Cafe.Matcha.Network
     using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
+    using Cafe.Matcha.Models;
+    using Cafe.Matcha.Network.Universalis;
     using Cafe.Matcha.Utils;
 
     internal interface INetworkMonitor
@@ -21,28 +23,11 @@ namespace Cafe.Matcha.Network
 
     internal class NetworkMonitor : INetworkMonitor
     {
-        private bool ToMatchaOpcode(ushort opcode, out MatchaOpcode matchaOpcode)
-        {
-            var region = Config.Instance.Region;
-            switch (region)
-            {
-                case Region.Global:
-                    return OpcodeStorage.Global.TryGetValue(opcode, out matchaOpcode);
-
-                case Region.China:
-                    return OpcodeStorage.China.TryGetValue(opcode, out matchaOpcode);
-
-                default:
-                    matchaOpcode = default;
-                    return false;
-            }
-        }
-
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
             try
             {
-                HandleMessage(message);
+                HandleMessage(new Packet(message));
             }
             catch (Exception e)
             {
@@ -54,36 +39,34 @@ namespace Cafe.Matcha.Network
             }
         }
 
-        private void HandleMessage(byte[] message)
+        private void HandleMessage(Packet packet)
         {
-            var segmentType = message[12];
-            // Deucalion gives wrong type (0)
-            if (message.Length < 32 || (segmentType != 0 && segmentType != 3))
+            if (!packet.Valid)
             {
                 return;
             }
 
-            var processed = HandleMessageByOpcode(message);
+            var processed = HandleMessageByOpcode(packet);
             if (!processed)
             {
 #if DEBUG
-                if (ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
+                if (packet.GetMatchaOpcode(out var opcode))
                 {
-                    LogIncorrectPacketSize(opcode, message.Length);
-                    Log.Packet(message);
+                    LogIncorrectPacketSize(opcode, packet.Length);
+                    Log.Packet(packet.Bytes);
                 }
 #endif
 
-                TryHandleMessage(message);
+                TryHandleMessage(packet);
             }
         }
 
-        private void TryHandleMessage(byte[] message)
+        private void TryHandleMessage(Packet packet)
         {
-            var data = message.Skip(32).ToArray();
             // Treasure Shifting Wheel Result
-            if (message.Length == 88)
+            if (packet.DataLength == 88)
             {
+                var data = packet.GetRawData();
                 var level = BitConverter.ToUInt32(data, 24);
                 if (
                     level == 7636061 || // G10 运河宝物库神殿
@@ -133,8 +116,9 @@ namespace Cafe.Matcha.Network
                     }
                 }
             }
-            else if (message.Length == 96)
+            else if (packet.DataLength == 96)
             {
+                var data = packet.GetRawData();
                 var flag = BitConverter.ToUInt32(data, 16);
                 if (flag == 0x04482c03)
                 {
@@ -147,22 +131,19 @@ namespace Cafe.Matcha.Network
             }
         }
 
-        private bool HandleMessageByOpcode(byte[] message)
+        private bool HandleMessageByOpcode(Packet packet)
         {
-            if (!ToMatchaOpcode(BitConverter.ToUInt16(message, 18), out var opcode))
+            if (!packet.GetMatchaOpcode(out var opcode))
             {
                 return false;
             }
 
-            Universalis.Client.HandlePacket(opcode, message);
+            Universalis.Client.HandlePacket(opcode, packet);
 
-            var source = BitConverter.ToUInt32(message, 4);
-            var target = BitConverter.ToUInt32(message, 8);
-            var data = message.Skip(32).ToArray();
-
+            var data = packet.GetRawData();
             if (opcode == MatchaOpcode.DirectorStart)
             {
-                if (message.Length != 168)
+                if (packet.Length != 168)
                 {
                     return false;
                 }
@@ -181,7 +162,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.NpcSpawn)
             {
-                if (message.Length != 680)
+                if (packet.Length != 680)
                 {
                     return false;
                 }
@@ -201,7 +182,7 @@ namespace Cafe.Matcha.Network
                         BitConverter.ToSingle(data, posOffset + 4),
                         BitConverter.ToSingle(data, posOffset + 8));
 
-                    State.Instance.Npc.Update(source, (npc) =>
+                    State.Instance.Npc.Update(packet.Source, (npc) =>
                     {
                         if (npc.BNpcName != bNpcName)
                         {
@@ -221,7 +202,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.ActorControl)
             {
-                if (message.Length != 56)
+                if (packet.Length != 56)
                 {
                     return false;
                 }
@@ -234,7 +215,7 @@ namespace Cafe.Matcha.Network
                             var status = BitConverter.ToUInt32(data, 4);
                             if (status == 2)
                             {
-                                State.Instance.Npc.Remove(source);
+                                State.Instance.Npc.Remove(packet.Source);
                             }
 
                             break;
@@ -243,7 +224,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.FateInfo)
             {
-                if (message.Length != 56)
+                if (packet.Length != 56)
                 {
                     return false;
                 }
@@ -272,7 +253,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.ActorControlSelf)
             {
-                if (message.Length != 64)
+                if (packet.Length != 64)
                 {
                     return false;
                 }
@@ -377,7 +358,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.ContentFinderNotifyPop)
             {
-                if (message.Length != 72)
+                if (packet.Length != 72)
                 {
                     return false;
                 }
@@ -393,7 +374,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.CompanyAirshipStatus)
             {
-                if (message.Length != 176)
+                if (packet.Length != 176)
                 {
                     return false;
                 }
@@ -425,7 +406,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.CompanySubmersibleStatus)
             {
-                if (message.Length != 176)
+                if (packet.Length != 176)
                 {
                     return false;
                 }
@@ -457,7 +438,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.InitZone)
             {
-                if (message.Length != 136)
+                if (packet.Length != 136)
                 {
                     return false;
                 }
@@ -476,12 +457,12 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.EventPlay)
             {
-                if (message.Length != 72)
+                if (packet.Length != 72)
                 {
                     return false;
                 }
 
-                var targetActorId = BitConverter.ToUInt32(message, 8);
+                var targetActorId = packet.Target;
                 var fishActorId = BitConverter.ToUInt32(data, 0);
 
                 if (targetActorId != fishActorId)
@@ -519,65 +500,51 @@ namespace Cafe.Matcha.Network
                         break;
                 }
             }
+            else if (opcode == MatchaOpcode.MarketBoardItemListingHistory)
+            {
+                return true;
+            }
             else if (opcode == MatchaOpcode.MarketBoardItemListingCount)
             {
-                if (message.Length != 48)
-                {
-                    return false;
-                }
-
-                var itemId = BitConverter.ToUInt32(data, 0);
-                var count = data[0x0B];
-
-                FireEvent(new MarketBoardItemListingCountDTO()
-                {
-                    Item = (int)itemId,
-                    Count = count,
-                    World = State.Instance.WorldId
-                });
-                ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
+                // Useless as ItemId is removed in 7.0
+                return true;
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListing)
             {
-                if (message.Length != 1560)
-                {
-                    return false;
-                }
-
-                var detail = new List<int>();
-
-                var itemId = (int)BitConverter.ToUInt32(data, 0x2c);
+                var result = MarketBoardCurrentOfferings.Read(data);
                 var items = new List<MarketBoardItemListingItem>();
 
-                const int LISTING_LENGTH = 152;
-                for (int i = 0; i < 10; i++)
+                uint itemId = 0;
+                foreach (var item in result.ItemListings)
                 {
-                    var pricePerUnit = BitConverter.ToUInt32(data, 0x20 + (LISTING_LENGTH * i));
-                    if (pricePerUnit == 0)
+                    if (item.PricePerUnit == 0)
                     {
                         break;
                     }
 
-                    var quantity = BitConverter.ToUInt32(data, 0x28 + (LISTING_LENGTH * i));
-                    var hq = data[0x8c + (LISTING_LENGTH * i)];
+                    itemId = item.ItemId;
                     items.Add(new MarketBoardItemListingItem()
                     {
-                        Price = (int)(pricePerUnit * 1.05),
-                        Quantity = (int)quantity,
-                        HQ = hq != 0
+                        // Price = (int)(pricePerUnit * 1.05),
+                        Price = (int)item.PricePerUnit,
+                        Quantity = (int)item.ItemQuantity,
+                        HQ = item.IsHq
                     });
                 }
 
-                FireEvent(new MarketBoardItemListingDTO()
+                if (itemId != 0)
                 {
-                    Item = itemId,
-                    Data = items,
-                    World = State.Instance.WorldId
-                });
+                    FireEvent(new MarketBoardItemListingDTO()
+                    {
+                        Item = (int)itemId,
+                        Data = items,
+                        World = State.Instance.WorldId
+                    });
+                }
             }
             else if (opcode == MatchaOpcode.ItemInfo)
             {
-                if (message.Length != 96)
+                if (packet.Length != 96)
                 {
                     return false;
                 }
@@ -611,7 +578,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.InventoryTransaction)
             {
-                if (message.Length != 80)
+                if (packet.Length != 80)
                 {
                     return false;
                 }
@@ -635,7 +602,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.Examine)
             {
-                if (message.Length != 960)
+                if (packet.Length != 960)
                 {
                     return false;
                 }
@@ -682,7 +649,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.PlayerSpawn)
             {
-                var isCurrentPlayer = source == target;
+                var isCurrentPlayer = packet.Source == packet.Target;
                 var currentWorldId = BitConverter.ToUInt16(data, 4);
 
                 State.Instance.HandleWorldId(currentWorldId, isCurrentPlayer);

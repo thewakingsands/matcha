@@ -3,7 +3,6 @@ namespace Cafe.Matcha.Network.Universalis
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Net;
     using System.Threading.Tasks;
     using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
@@ -21,76 +20,70 @@ namespace Cafe.Matcha.Network.Universalis
             _apiKey = apiKey;
         }
 
-        public async void Upload(ushort worldId, MarketBoardItemRequest request)
+        public async void Upload(uint worldId, MarketBoardItemRequest request)
         {
-            using (var client = new WebClient())
+            _packetProcessor.Log?.Invoke(this, "Starting Universalis upload.");
+            var uploader = _packetProcessor.LocalContentId;
+
+            var uploadObject = new UniversalisItemUploadRequest
             {
-                _packetProcessor.Log?.Invoke(this, "Starting Universalis upload.");
-                var uploader = _packetProcessor.LocalContentId;
+                WorldId = worldId,
+                UploaderId = uploader.ToString(),
+                ItemId = request.Listings.FirstOrDefault()?.ItemId ?? 0,
+                Listings = new List<UniversalisItemListingsEntry>(),
+                Sales = new List<UniversalisHistoryEntry>(),
+            };
 
-                var listingsRequestObject = new UniversalisItemListingsUploadRequest();
-                listingsRequestObject.WorldId = worldId;
-                listingsRequestObject.UploaderId = uploader;
-                listingsRequestObject.ItemId = request.CatalogId;
-
-                listingsRequestObject.Listings = new List<UniversalisItemListingsEntry>();
-                foreach (var marketBoardItemListing in request.Listings)
+            foreach (var marketBoardItemListing in request.Listings)
+            {
+#pragma warning disable CS0618 // Type or member is obsolete
+                var universalisListing = new UniversalisItemListingsEntry
                 {
-                    var universalisListing = new UniversalisItemListingsEntry
-                    {
-                        ListingId = marketBoardItemListing.ListingId,
-                        Hq = marketBoardItemListing.IsHq,
-                        SellerId = marketBoardItemListing.RetainerOwnerId,
-                        RetainerName = marketBoardItemListing.RetainerName,
-                        RetainerId = marketBoardItemListing.RetainerId,
-                        CreatorId = marketBoardItemListing.ArtisanId,
-                        CreatorName = marketBoardItemListing.PlayerName,
-                        OnMannequin = marketBoardItemListing.OnMannequin,
-                        LastReviewTime = ((DateTimeOffset)marketBoardItemListing.LastReviewTime).ToUnixTimeSeconds(),
-                        PricePerUnit = marketBoardItemListing.PricePerUnit,
-                        Quantity = marketBoardItemListing.ItemQuantity,
-                        RetainerCity = marketBoardItemListing.RetainerCityId
-                    };
+                    ListingId = marketBoardItemListing.ListingId.ToString(),
+                    Hq = marketBoardItemListing.IsHq,
+                    SellerId = marketBoardItemListing.RetainerOwnerId.ToString(),
+                    RetainerName = marketBoardItemListing.RetainerName,
+                    RetainerId = marketBoardItemListing.RetainerId.ToString(),
+                    CreatorId = marketBoardItemListing.ArtisanId.ToString(),
+                    CreatorName = marketBoardItemListing.PlayerName,
+                    OnMannequin = marketBoardItemListing.OnMannequin,
+                    LastReviewTime = ((DateTimeOffset)marketBoardItemListing.LastReviewTime).ToUnixTimeSeconds(),
+                    PricePerUnit = marketBoardItemListing.PricePerUnit,
+                    Quantity = marketBoardItemListing.ItemQuantity,
+                    RetainerCity = marketBoardItemListing.RetainerCityId,
+                    Materia = new List<UniversalisItemMateria>(),
+                };
+#pragma warning restore CS0618 // Type or member is obsolete
 
-                    universalisListing.Materia = new List<UniversalisItemMateria>();
-                    foreach (var itemMateria in marketBoardItemListing.Materia)
-                    {
-                        universalisListing.Materia.Add(new UniversalisItemMateria
-                        {
-                            MateriaId = itemMateria.MateriaId,
-                            SlotId = itemMateria.Index
-                        });
-                    }
-
-                    listingsRequestObject.Listings.Add(universalisListing);
-                }
-
-                await Request.SendAsJson($"{ApiBase}/upload/{_apiKey}", "", listingsRequestObject);
-
-                var historyRequestObject = new UniversalisHistoryUploadRequest();
-                historyRequestObject.WorldId = worldId;
-                historyRequestObject.UploaderId = uploader;
-                historyRequestObject.ItemId = request.CatalogId;
-
-                historyRequestObject.Entries = new List<UniversalisHistoryEntry>();
-                foreach (var marketBoardHistoryListing in request.History)
+                foreach (var itemMateria in marketBoardItemListing.Materia)
                 {
-                    historyRequestObject.Entries.Add(new UniversalisHistoryEntry
+                    universalisListing.Materia.Add(new UniversalisItemMateria
                     {
-                        BuyerName = marketBoardHistoryListing.BuyerName,
-                        Hq = marketBoardHistoryListing.IsHq,
-                        OnMannequin = marketBoardHistoryListing.OnMannequin,
-                        PricePerUnit = marketBoardHistoryListing.SalePrice,
-                        Quantity = marketBoardHistoryListing.Quantity,
-                        Timestamp = ((DateTimeOffset)marketBoardHistoryListing.PurchaseTime).ToUnixTimeSeconds()
+                        MateriaId = itemMateria.MateriaId,
+                        SlotId = itemMateria.Index,
                     });
                 }
 
-                await Request.SendAsJson($"{ApiBase}/upload/{_apiKey}", "", historyRequestObject);
-
-                _packetProcessor.Log?.Invoke(this,
-                    $"Universalis data upload for item#{request.CatalogId} to world#{historyRequestObject.WorldId} completed.");
+                uploadObject.Listings.Add(universalisListing);
             }
+
+            foreach (var marketBoardHistoryListing in request.History)
+            {
+                uploadObject.Sales.Add(new UniversalisHistoryEntry
+                {
+                    BuyerName = marketBoardHistoryListing.BuyerName,
+                    Hq = marketBoardHistoryListing.IsHq,
+                    OnMannequin = marketBoardHistoryListing.OnMannequin,
+                    PricePerUnit = marketBoardHistoryListing.SalePrice,
+                    Quantity = marketBoardHistoryListing.Quantity,
+                    Timestamp = ((DateTimeOffset)marketBoardHistoryListing.PurchaseTime).ToUnixTimeSeconds(),
+                });
+            }
+
+            var uploadPath = "/upload";
+            await Request.SendAsJson($"{ApiBase}{uploadPath}/{_apiKey}", "", uploadObject);
+
+            _packetProcessor.Log?.Invoke(this, $"Universalis data upload for item#{request.Listings.FirstOrDefault()?.CatalogId ?? 0} completed");
         }
 
         public static async Task<Dictionary<int, List<UniversalisItem>>> ListByDC(ushort worldId, uint itemId)

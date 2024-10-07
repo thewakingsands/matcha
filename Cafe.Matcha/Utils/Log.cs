@@ -36,7 +36,8 @@ namespace Cafe.Matcha.Utils
             Add(type, 'D', message);
         }
 
-        public static void Packet(byte[] byteArray) {
+        public static void Packet(byte[] byteArray)
+        {
             StringBuilder hexDump = new StringBuilder();
             const int lineLength = 16;
 

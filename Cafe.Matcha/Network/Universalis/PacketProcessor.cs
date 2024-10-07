@@ -3,14 +3,36 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Threading;
+    using System.Reactive.Concurrency;
+    using System.Reactive.Linq;
+    using System.Threading.Tasks;
     using Cafe.Matcha.Constant;
-    using Cafe.Matcha.Utils;
 
-    internal class PacketProcessor
+    internal class PacketProcessor : IDisposable
     {
-        private readonly List<MarketBoardItemRequest> _marketBoardRequests = new List<MarketBoardItemRequest>();
+        private MarketBoardItemRequest _marketBoardRequest = null;
         private readonly Api _uploader;
+
+        private readonly IDisposable handleMarketBoardItemRequest;
+
+        private event Action<Packet> MarketBoardHistoryReceived;
+        private event Action<Packet> MarketBoardItemRequestStartReceived;
+        private event Action<Packet> MarketBoardOfferingsReceived;
+
+        /// <summary>
+        /// Gets an observable to track marketboard history events.
+        /// </summary>
+        public IObservable<MarketBoardHistory> MbHistoryObservable { get; }
+
+        /// <summary>
+        /// Gets an observable to track marketboard item request events.
+        /// </summary>
+        public IObservable<MarketBoardItemRequest> MbItemRequestObservable { get; }
+
+        /// <summary>
+        /// Gets an observable to track marketboard offerings events.
+        /// </summary>
+        public IObservable<MarketBoardCurrentOfferings> MbOfferingsObservable { get; }
 
         public ushort CurrentWorldId
         {
@@ -27,201 +49,196 @@
         public PacketProcessor(string apiKey)
         {
             _uploader = new Api(this, apiKey);
+            MbHistoryObservable = Observable.Create<MarketBoardHistory>(observer =>
+            {
+                MarketBoardHistoryReceived += Observe;
+                return () => { MarketBoardHistoryReceived -= Observe; };
+
+                void Observe(Packet packet)
+                {
+                    observer.OnNext(MarketBoardHistory.Read(packet.GetRawData()));
+                }
+            });
+
+            MbItemRequestObservable = Observable.Create<MarketBoardItemRequest>(observer =>
+            {
+                MarketBoardItemRequestStartReceived += Observe;
+                return () => MarketBoardItemRequestStartReceived -= Observe;
+
+                void Observe(Packet packet)
+                {
+                    observer.OnNext(MarketBoardItemRequest.Read(packet.GetRawData()));
+                }
+            });
+
+            MbOfferingsObservable = Observable.Create<MarketBoardCurrentOfferings>(observer =>
+            {
+                MarketBoardOfferingsReceived += Observe;
+                return () => { MarketBoardOfferingsReceived -= Observe; };
+
+                void Observe(Packet packet)
+                {
+                    observer.OnNext(MarketBoardCurrentOfferings.Read(packet.GetRawData()));
+                }
+            });
+
+            handleMarketBoardItemRequest = HandleMarketBoardItemRequest();
         }
 
         /// <summary>
         /// Process a zone proto message and scan for relevant data.
         /// </summary>
         /// <param name="opcode">Opcode.</param>
-        /// <param name="message">The message bytes.</param>
-        /// <returns>True if an upload succeeded.</returns>
-        public bool ProcessZonePacket(MatchaOpcode opcode, byte[] message)
-        {
-            MarketBoardItemRequest request;
-            lock (_marketBoardRequests)
-            {
-                request = GetRequestData(opcode, message);
-                if (request != null)
-                {
-                    _marketBoardRequests.Remove(request);
-                }
-            }
-
-            if (request != null)
-            {
-                ThreadPool.QueueUserWorkItem(o =>
-                {
-                    try
-                    {
-                        _uploader.Upload(CurrentWorldId, request);
-                    }
-                    catch (Exception ex)
-                    {
-                        Log?.Invoke(this, "[ERROR] Market Board data upload failed:\n" + ex);
-                    }
-                });
-                return true;
-            }
-
-            return false;
-        }
-
-        /// <summary>
-        /// Process a zone proto message and scan for relevant data.
-        /// </summary>
-        /// <param name="message">The message bytes.</param>
-        /// <returns>True if an upload succeeded.</returns>
-        private MarketBoardItemRequest GetRequestData(MatchaOpcode opcode, byte[] message)
+        /// <param name="packet">The packet.</param>
+        public void ProcessZonePacket(MatchaOpcode opcode, Packet packet)
         {
             if (opcode == MatchaOpcode.PlayerSetup)
             {
                 // Mask lower-32bit for privacy concern
-                LocalContentId = BitConverter.ToUInt64(message, 0x20) & 0xffffffff00000000;
+                LocalContentId = BitConverter.ToUInt64(packet.Bytes, 0x20) & 0xffffffff00000000;
                 LocalContentId = LocalContentId | GetClientIdentifier();
                 Log?.Invoke(this, $"New CID: {LocalContentId.ToString("X")}");
-                return null;
             }
-
-            if (opcode == MatchaOpcode.MarketBoardItemListingCount)
+            else if (opcode == MatchaOpcode.MarketBoardItemListingCount)
             {
-                var catalogId = (uint)BitConverter.ToInt32(message, 0x20);
-                var status = BitConverter.ToInt32(message, 0x24);
-                var amount = message[0x2B];
-
-                if (status != 0)
-                {
-                    Log?.Invoke(this, $"MB Query Failed: item#{catalogId} status#{status}");
-                    return null;
-                }
-
-                var request = _marketBoardRequests.LastOrDefault(r => r.CatalogId == catalogId);
-                if (request == null)
-                {
-                    _marketBoardRequests.Add(new MarketBoardItemRequest
-                    {
-                        CatalogId = catalogId,
-                        AmountToArrive = amount,
-                        Listings = new List<MarketBoardCurrentOfferings.MarketBoardItemListing>(),
-                        History = new List<MarketBoardHistory.MarketBoardHistoryListing>()
-                    });
-                }
-                else
-                {
-                    request.AmountToArrive = amount;
-                    request.Listings.Clear();
-                }
-
-                Log?.Invoke(this, $"NEW MB REQUEST START: item#{catalogId} amount#{amount}");
-                return null;
+                MarketBoardItemRequestStartReceived?.Invoke(packet);
             }
-
-            if (opcode == MatchaOpcode.MarketBoardItemListing)
+            else if (opcode == MatchaOpcode.MarketBoardItemListing)
             {
-                var listing = MarketBoardCurrentOfferings.Read(message.Skip(0x20).ToArray());
-
-                var request =
-                    _marketBoardRequests.LastOrDefault(
-                        r => r.CatalogId == listing.ItemListings[0].CatalogId && !r.IsDone);
-
-                if (request == null)
-                {
-                    Log?.Invoke(this,
-                        $"[ERROR] Market Board data arrived without a corresponding request: item#{listing.ItemListings[0].CatalogId}");
-                    return null;
-                }
-
-                if (request.Listings.Count + listing.ItemListings.Count > request.AmountToArrive)
-                {
-                    Log?.Invoke(this,
-                        $"[ERROR] Too many Market Board listings received for request: {request.Listings.Count + listing.ItemListings.Count} > {request.AmountToArrive} item#{listing.ItemListings[0].CatalogId}");
-                    _marketBoardRequests.Remove(request);
-                    return null;
-                }
-
-                if (request.ListingsRequestId != -1 && request.ListingsRequestId != listing.RequestId)
-                {
-                    Log?.Invoke(this,
-                        $"[ERROR] Non-matching RequestIds for Market Board data request: {request.ListingsRequestId}, {listing.RequestId}");
-                    _marketBoardRequests.Remove(request);
-                    return null;
-                }
-
-                if (request.ListingsRequestId == -1 && request.Listings.Count > 0)
-                {
-                    Log?.Invoke(this,
-                        $"[ERROR] Market Board data request sequence break: {request.ListingsRequestId}, {request.Listings.Count}");
-                    _marketBoardRequests.Remove(request);
-                    return null;
-                }
-
-                if (request.ListingsRequestId == -1)
-                {
-                    request.ListingsRequestId = listing.RequestId;
-                    Log?.Invoke(this, $"First Market Board packet in sequence: {listing.RequestId}");
-                }
-
-                request.Listings.AddRange(listing.ItemListings);
-
-                Log?.Invoke(this,
-                    $"Added {listing.ItemListings.Count} ItemListings to request#{request.ListingsRequestId}, now {request.Listings.Count}/{request.AmountToArrive}, item#{request.CatalogId}");
-
-                if (request.IsDone)
-                {
-                    return Commit(request);
-                }
-
-                return null;
+                MarketBoardOfferingsReceived?.Invoke(packet);
             }
-
-            if (opcode == MatchaOpcode.MarketBoardItemListingHistory)
+            else if (opcode == MatchaOpcode.MarketBoardItemListingHistory)
             {
-                var listing = MarketBoardHistory.Read(message.Skip(0x20).ToArray());
-
-                var request = _marketBoardRequests.LastOrDefault(r => r.CatalogId == listing.CatalogId);
-
-                if (request == null)
-                {
-                    request = new MarketBoardItemRequest
-                    {
-                        CatalogId = listing.CatalogId,
-                        AmountToArrive = 0,
-                        Listings = new List<MarketBoardCurrentOfferings.MarketBoardItemListing>(),
-                        History = new List<MarketBoardHistory.MarketBoardHistoryListing>()
-                    };
-                    _marketBoardRequests.Add(request);
-                }
-
-                request.History.AddRange(listing.HistoryListings);
-
-                if (request.IsDone)
-                {
-                    return Commit(request);
-                }
-
-                Log?.Invoke(this, $"Added history for item#{listing.CatalogId}");
-                return null;
+                MarketBoardHistoryReceived?.Invoke(packet);
             }
-
-            return null;
         }
 
-        private MarketBoardItemRequest Commit(MarketBoardItemRequest request)
+        private IObservable<List<MarketBoardCurrentOfferings.MarketBoardItemListing>> OnMarketBoardListingsBatch(
+            IObservable<MarketBoardItemRequest> start)
         {
-            if (CurrentWorldId == 0)
+            var offeringsObservable = MbOfferingsObservable.Publish().RefCount();
+
+            void LogEndObserved(MarketBoardCurrentOfferings offerings)
             {
-                Log?.Invoke(this, "[ERROR] Not sure about your current world. Please move your character between zones once to start uploading.");
-                _marketBoardRequests.Remove(request);
-                return null;
+                Log?.Invoke(this, $"Observed end of request {offerings.RequestId}");
             }
 
-            if (LocalContentId == 0)
+            void LogOfferingsObserved(MarketBoardCurrentOfferings offerings)
             {
-                Log?.Invoke(this, "Not sure about your character information. Please log in once with your character while having the program open to verify it.");
+                Log?.Invoke(this, $"Observed element of request {offerings.RequestId} with {offerings.InternalItemListings.Count} listings");
             }
 
-            Log?.Invoke(this,
-                $"Market Board request finished, starting upload: request#{request.ListingsRequestId} item#{request.CatalogId} amount#{request.AmountToArrive}");
-            return request;
+            IObservable<MarketBoardCurrentOfferings> UntilBatchEnd(MarketBoardItemRequest request)
+            {
+                var totalPackets = Convert.ToInt32(Math.Ceiling((double)request.AmountToArrive / 10));
+                if (totalPackets == 0)
+                {
+                    return Observable.Empty<MarketBoardCurrentOfferings>();
+                }
+
+                return offeringsObservable
+                       .Where(offerings => offerings.InternalItemListings.All(l => l.CatalogId != 0))
+                       .Skip(totalPackets - 1)
+                       .Do(LogEndObserved);
+            }
+
+            // When a start packet is observed, begin observing a window of listings packets
+            // according to the count described by the start packet. Aggregate the listings
+            // packets, and then flatten them to the listings themselves.
+            return offeringsObservable
+                   .Do(LogOfferingsObserved)
+                   .Window(start, UntilBatchEnd)
+                   .SelectMany(
+                       o => o.Aggregate(
+                           new List<MarketBoardCurrentOfferings.MarketBoardItemListing>(),
+                           (agg, next) =>
+                           {
+                               agg.AddRange(next.InternalItemListings);
+                               return agg;
+                           }));
+        }
+
+        private IObservable<List<MarketBoardHistory.MarketBoardHistoryListing>> OnMarketBoardSalesBatch(
+            IObservable<MarketBoardItemRequest> start)
+        {
+            var historyObservable = MbHistoryObservable.Publish().RefCount();
+
+            void LogHistoryObserved(MarketBoardHistory history)
+            {
+                Log?.Invoke(this, $"Observed history for item {history.CatalogId} with {history.InternalHistoryListings.Count} sales");
+            }
+
+            IObservable<MarketBoardHistory> UntilBatchEnd(MarketBoardItemRequest request)
+            {
+                return historyObservable
+                       .Where(history => history.CatalogId != 0)
+                       .Take(1);
+            }
+
+            // When a start packet is observed, begin observing a window of history packets.
+            // We should only get one packet, which the window closing function ensures.
+            // This packet is flattened to its sale entries and emitted.
+            return historyObservable
+                   .Do(LogHistoryObserved)
+                   .Window(start, UntilBatchEnd)
+                   .SelectMany(
+                       o => o.Aggregate(
+                           new List<MarketBoardHistory.MarketBoardHistoryListing>(),
+                           (agg, next) =>
+                           {
+                               agg.AddRange(next.InternalHistoryListings);
+                               return agg;
+                           }));
+        }
+
+        private IDisposable HandleMarketBoardItemRequest()
+        {
+            void LogStartObserved(MarketBoardItemRequest request)
+            {
+                Log?.Invoke(this, $"Observed start of request for item with {request.AmountToArrive} expected listings");
+            }
+
+            var startObservable = MbItemRequestObservable
+                                      .Where(request => request.Ok).Do(LogStartObserved)
+                                      .Publish()
+                                      .RefCount();
+            return Observable.When(
+                                 startObservable
+                                     .And(OnMarketBoardSalesBatch(startObservable))
+                                     .And(OnMarketBoardListingsBatch(startObservable))
+                                     .Then((request, sales, listings) => (request, sales, listings)))
+                             .Where(ShouldUpload)
+                             .SubscribeOn(ThreadPoolScheduler.Instance)
+                             .Subscribe(
+                                 data =>
+                                 {
+                                     var (request, sales, listings) = data;
+                                     UploadMarketBoardData(request, sales, listings);
+                                 },
+                                 ex => Log?.Invoke(this, $"Failed to handle Market Board item request event: {ex}"));
+        }
+
+        private void UploadMarketBoardData(
+            MarketBoardItemRequest request,
+            ICollection<MarketBoardHistory.MarketBoardHistoryListing> sales,
+            ICollection<MarketBoardCurrentOfferings.MarketBoardItemListing> listings)
+        {
+            var catalogId = listings.FirstOrDefault()?.CatalogId ?? 0;
+            if (listings.Count != request.AmountToArrive)
+            {
+                Log?.Invoke(this, $"Wrong number of Market Board listings received for request: {listings.Count} != {request.AmountToArrive} item#{catalogId}");
+                return;
+            }
+
+            Log?.Invoke(this, $"Market Board request resolved, starting upload: item#{catalogId} listings#{listings.Count} sales#{sales.Count}");
+
+            request.Listings.AddRange(listings);
+            request.History.AddRange(sales);
+
+            Task.Run(() => _uploader.Upload(CurrentWorldId, request))
+                .ContinueWith(
+                    task => Log?.Invoke(this, "Market Board offerings data upload failed"),
+                    TaskContinuationOptions.OnlyOnFaulted);
         }
 
         private uint GetClientIdentifier()
@@ -241,6 +258,16 @@
             {
                 return 0;
             }
+        }
+
+        private bool ShouldUpload<T>(T any)
+        {
+            return Config.Instance.Overlay.Universalis;
+        }
+
+        public void Dispose()
+        {
+            handleMarketBoardItemRequest.Dispose();
         }
     }
 }

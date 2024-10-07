@@ -13,22 +13,16 @@
         private static bool Enabled => Config.Instance.Overlay.Universalis;
         private static object objLock = new object();
 
-        public static void HandlePacket(MatchaOpcode opcode, byte[] message)
+        public static void HandlePacket(MatchaOpcode opcode, Packet packet)
         {
-            if (!Enabled)
-            {
-                return;
-            }
-
-            if (opcode == MatchaOpcode.PlayerSpawn
-                || opcode == MatchaOpcode.PlayerSetup
+            if (opcode == MatchaOpcode.PlayerSetup
                 || opcode == MatchaOpcode.MarketBoardItemListingCount
                 || opcode == MatchaOpcode.MarketBoardItemListing
                 || opcode == MatchaOpcode.MarketBoardItemListingHistory)
             {
                 lock (objLock)
                 {
-                    UniversalisProcessor.ProcessZonePacket(opcode, message);
+                    UniversalisProcessor.ProcessZonePacket(opcode, packet);
                 }
             }
         }
