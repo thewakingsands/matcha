@@ -4,6 +4,7 @@ namespace Cafe.Matcha.Network.Universalis
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Cafe.Matcha.Network.Structures;
     using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 

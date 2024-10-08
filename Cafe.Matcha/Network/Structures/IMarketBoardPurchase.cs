@@ -1,4 +1,4 @@
-﻿namespace Cafe.Matcha.Network.Universalis
+﻿namespace Cafe.Matcha.Network.Structures
 {
     /// <summary>
     /// An interface that represents market board purchase information. This message is received from the

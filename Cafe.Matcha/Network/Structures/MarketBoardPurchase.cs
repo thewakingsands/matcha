@@ -1,4 +1,4 @@
-namespace Cafe.Matcha.Network.Universalis
+namespace Cafe.Matcha.Network.Structures
 {
     using System.IO;
 

@@ -7,6 +7,7 @@
     using System.Reactive.Linq;
     using System.Threading.Tasks;
     using Cafe.Matcha.Constant;
+    using Cafe.Matcha.Network.Structures;
 
     internal class PacketProcessor : IDisposable
     {

@@ -5,14 +5,12 @@ namespace Cafe.Matcha.Network
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Numerics;
     using System.Text;
     using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
-    using Cafe.Matcha.Models;
-    using Cafe.Matcha.Network.Universalis;
+    using Cafe.Matcha.Network.Structures;
     using Cafe.Matcha.Utils;
 
     internal interface INetworkMonitor
