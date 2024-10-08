@@ -2,7 +2,6 @@
 {
     using System;
     using System.Linq;
-    using System.Windows.Forms;
     using Cafe.Matcha.Constant;
 
     internal class Packet
@@ -23,6 +22,11 @@
         /// SegmentType.
         /// </summary>
         public byte SegmentType;
+
+        /// <summary>
+        /// Sender.
+        /// </summary>
+        public PacketSender Sender;
 
         /// <summary>
         /// Source.
@@ -46,9 +50,11 @@
 
         public int DataLength => Bytes.Length - HeaderLength;
 
-        public Packet(byte[] bytes)
+        public Packet(PacketSender sender, byte[] bytes)
         {
+            Sender = sender;
             Bytes = bytes;
+
             if (bytes.Length < HeaderLength)
             {
                 return;
@@ -69,14 +75,15 @@
 
         public bool GetMatchaOpcode(out MatchaOpcode matchaOpcode)
         {
+            var key = Sender == PacketSender.Server ? Opcode : (ushort)(0x8000 | Opcode);
             var region = Config.Instance.Region;
             switch (region)
             {
                 case Region.Global:
-                    return OpcodeStorage.Global.TryGetValue(Opcode, out matchaOpcode);
+                    return OpcodeStorage.Global.TryGetValue(key, out matchaOpcode);
 
                 case Region.China:
-                    return OpcodeStorage.China.TryGetValue(Opcode, out matchaOpcode);
+                    return OpcodeStorage.China.TryGetValue(key, out matchaOpcode);
 
                 default:
                     matchaOpcode = default;
@@ -87,6 +94,12 @@
         public byte[] GetRawData()
         {
             return Bytes.Skip(HeaderLength).ToArray();
+        }
+
+        public enum PacketSender
+        {
+            Server,
+            Client
         }
     }
 }
