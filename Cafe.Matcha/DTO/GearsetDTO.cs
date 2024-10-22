@@ -5,16 +5,8 @@ namespace Cafe.Matcha.DTO
 {
     using System.Collections.Generic;
     using Cafe.Matcha.Constant;
+    using Cafe.Matcha.Network.Structures;
     using Newtonsoft.Json;
-
-    internal class Materia
-    {
-        [JsonProperty("type")]
-        public int Type;
-
-        [JsonProperty("tier")]
-        public int Tier;
-    }
 
     internal class GearsetDTO : BaseDTO
     {
@@ -28,6 +20,9 @@ namespace Cafe.Matcha.DTO
 
         [JsonProperty("self")]
         public bool IsSelf;
+
+        [JsonProperty("name")]
+        public string Name = string.Empty;
 
         [JsonProperty("slot")]
         public int Slot;
