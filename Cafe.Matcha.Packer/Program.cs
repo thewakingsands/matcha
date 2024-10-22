@@ -17,7 +17,10 @@ namespace Cafe.Matcha.Packer
             string version = DateTime.UtcNow.ToString("yy.M.d.Hmm");
 
             var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Cafe.Matcha\AssemblyCopyright.cs");
-            var template = @"using System.Reflection;
+            var template = @"// Copyright (c) FFCafe. All rights reserved.
+// Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
+
+using System.Reflection;
 
 [assembly: AssemblyTitle(""Cafe.Matcha"")]
 [assembly: AssemblyDescription(""Cafe.Matcha"")]
