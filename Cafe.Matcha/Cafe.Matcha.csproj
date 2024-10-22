@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -120,7 +120,9 @@
     <Compile Include="Network\Structures\IMarketTaxRates.cs" />
     <Compile Include="Network\Structures\MarketBoardPurchase.cs" />
     <Compile Include="Network\Structures\MarketBoardPurchaseHandler.cs" />
+<Compile Include="Network\Structures\Examine.cs" />
     <Compile Include="Network\Structures\MarketTaxRates.cs" />
+<Compile Include="Network\Structures\Materia.cs" />
     <Compile Include="Network\Universalis\Types\UniversalisItemListingDeleteRequest.cs" />
     <Compile Include="Network\Universalis\Types\UniversalisItemUploadRequest.cs" />
     <Compile Include="Network\Universalis\Types\UniversalisTaxData.cs" />
