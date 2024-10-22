@@ -1,7 +1,5 @@
-﻿// <copyright file="Program.cs" company="FFCafe">
-// Copyright (c) FFCafe. All rights reserved.
+﻿// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
-// </copyright>
 
 namespace Cafe.Matcha.Packer
 {
@@ -30,7 +28,8 @@ using System.Reflection;
 
 namespace Cafe.Matcha
 {
-    partial class Data {
+    public partial class Data
+    {
         public const string Version = ""{0}"";
     }
 }
@@ -85,6 +84,5 @@ namespace Cafe.Matcha
                 Bundle(env);
             }
         }
-
     }
 }

@@ -320,6 +320,7 @@ namespace Cafe.Matcha.ViewModels
                 }
             }
         }
+
         public ListBindingTarget<Models.Template> Templates { get; set; } = Data.Instance.Templates != null ? new ListBindingTarget<Models.Template>(Data.Instance.Templates) : null;
         public Models.Template SelectedTemplate { get; set; } = null;
         public ListBindingTarget<FateTreeNodeWithChildren> Fates { get; set; } = FateTreeNodeWithChildren.Create(null);

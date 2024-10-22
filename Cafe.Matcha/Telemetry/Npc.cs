@@ -7,7 +7,7 @@ namespace Cafe.Matcha.Telemetry
     using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 
-    class NpcDTO : Models.TelemetryData
+    internal class NpcDTO : Models.TelemetryData
     {
         public NpcDTO(uint id, Network.NpcState state) : base()
         {
@@ -145,7 +145,7 @@ namespace Cafe.Matcha.Telemetry
         }
     }
 
-    class Npc : TelemetryWorker<NpcDTO>
+    internal class Npc : TelemetryWorker<NpcDTO>
     {
         public Npc() : base(Constant.Secret.TelemetryNpc) { }
 

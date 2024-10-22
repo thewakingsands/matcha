@@ -76,7 +76,9 @@ namespace Cafe.Matcha.Network.Structures
                             };
 
                             if (materiaEntry.MateriaId != 0)
+                            {
                                 materiaList.Add(materiaEntry);
+                            }
                         }
 
                         listingEntry.Materia = materiaList;
@@ -97,7 +99,9 @@ namespace Cafe.Matcha.Network.Structures
                         reader.ReadBytes(0x4); // Padding
 
                         if (listingEntry.CatalogId != 0)
+                        {
                             listings.Add(listingEntry);
+                        }
                     }
 
                     output.InternalItemListings = listings;
