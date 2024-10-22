@@ -159,7 +159,7 @@ namespace Cafe.Matcha.Network
             Universalis.Client.HandlePacket(opcode, packet);
 
             var data = packet.GetRawData();
-            if (opcode == MatchaOpcode.DirectorStart)
+            if (opcode == MatchaOpcode.ResumeEventScene32)
             {
                 if (packet.Length != 168)
                 {

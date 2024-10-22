@@ -29,7 +29,7 @@ const opcodes = [
     karashiiro: 'CFNotify'
   },
   {
-    key: 'DirectorStart'
+    key: 'ResumeEventScene32'
     // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
