@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "csv-parse": "^5.3.0",
-    "node-fetch": "^3.2.10"
+    "csv-parse": "^5.3.0"
   },
   "prettier": {
     "singleQuote": true,
