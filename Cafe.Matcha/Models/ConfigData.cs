@@ -147,8 +147,7 @@ namespace Cafe.Matcha.Models
             ConfigFormatterInstance instance,
             ConfigFormatterZone zone,
             ConfigFormatterCriticalEngagement criticalEngagement,
-            ConfigFormatterTreasure treasure
-        )
+            ConfigFormatterTreasure treasure)
         {
             Fate = fate ?? new ConfigFormatterFate();
             Fish = fish ?? new ConfigFormatterFish();
