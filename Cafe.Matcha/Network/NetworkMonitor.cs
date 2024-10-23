@@ -692,7 +692,7 @@ namespace Cafe.Matcha.Network
             else if (opcode == MatchaOpcode.PlayerSpawn)
             {
                 var isCurrentPlayer = packet.Source == packet.Target;
-                var currentWorldId = BitConverter.ToUInt16(data, 4);
+                var currentWorldId = BitConverter.ToUInt16(data, 0x14);
 
                 State.Instance.HandleWorldId(currentWorldId, isCurrentPlayer);
             }
