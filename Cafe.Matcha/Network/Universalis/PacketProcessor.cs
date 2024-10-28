@@ -208,7 +208,7 @@
                                      .And(OnMarketBoardSalesBatch(startObservable))
                                      .And(OnMarketBoardListingsBatch(startObservable))
                                      .Then((request, sales, listings) => (request, sales, listings)))
-                             .Where(ShouldUpload)
+                .Where(ShouldUpload)
                              .SubscribeOn(ThreadPoolScheduler.Instance)
                              .Subscribe(
                                  data =>
@@ -225,6 +225,12 @@
             ICollection<MarketBoardCurrentOfferings.MarketBoardItemListing> listings)
         {
             var catalogId = listings.FirstOrDefault()?.CatalogId ?? 0;
+            if (catalogId == 0)
+            {
+                Log?.Invoke(this, $"Wrong catalogId of Market Board listings received for request: item#{catalogId}");
+                return;
+            }
+
             if (listings.Count != request.AmountToArrive)
             {
                 Log?.Invoke(this, $"Wrong number of Market Board listings received for request: {listings.Count} != {request.AmountToArrive} item#{catalogId}");
