@@ -22,6 +22,7 @@ namespace Cafe.Matcha.Network
     internal class NetworkMonitor : INetworkMonitor
     {
         private uint marketQueryItemId = 0;
+        private MarketBoardItemListingCountDTO pendingMarketBoardItemListingCountDTO = null;
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
@@ -535,18 +536,27 @@ namespace Cafe.Matcha.Network
 
                 if (status == 0 && itemId != 0) // OK
                 {
-                    ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
-                    FireEvent(new MarketBoardItemListingCountDTO()
+                    var dto = new MarketBoardItemListingCountDTO()
                     {
                         Item = (int)itemId,
                         Count = (int)count,
                         World = State.Instance.WorldId
-                    });
+                    };
+                    if (itemId == 0)
+                    {
+                        pendingMarketBoardItemListingCountDTO = dto;
+                    }
+                    else
+                    {
+                        FireEvent(dto);
+                        marketQueryItemId = 0;
+                    }
                 }
 
-                marketQueryItemId = 0;
                 return true;
             }
+            //TODO: This packet not sent from client, so in only recived where in injected games
+            //We should found the another workaround here
             else if (opcode == MatchaOpcode.MarketBoardRequestItemListingInfo)
             {
                 if (packet.DataLength != 8)
@@ -587,6 +597,18 @@ namespace Cafe.Matcha.Network
 
                 if (itemId != 0)
                 {
+                    if (pendingMarketBoardItemListingCountDTO != null)
+                    {
+                        FireEvent(new MarketBoardItemListingCountDTO
+                        {
+                            Item = (int)itemId,
+                            Count = pendingMarketBoardItemListingCountDTO.Count,
+                            World = State.Instance.WorldId
+                        });
+                        pendingMarketBoardItemListingCountDTO = null;
+                    }
+
+                    ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
                     FireEvent(new MarketBoardItemListingDTO()
                     {
                         Item = (int)itemId,
