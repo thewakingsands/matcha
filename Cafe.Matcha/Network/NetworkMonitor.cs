@@ -21,8 +21,6 @@ namespace Cafe.Matcha.Network
 
     internal class NetworkMonitor : INetworkMonitor
     {
-        private uint marketQueryItemId = 0;
-        private MarketBoardItemListingCountDTO pendingMarketBoardItemListingCountDTO = null;
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
@@ -525,52 +523,10 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListingCount)
             {
-                if (packet.DataLength != 8)
-                {
-                    return false;
-                }
-
-                var status = BitConverter.ToUInt32(data, 0);
-                var count = BitConverter.ToUInt32(data, 4);
-                var itemId = marketQueryItemId;
-
-                if (status == 0 && itemId != 0) // OK
-                {
-                    var dto = new MarketBoardItemListingCountDTO()
-                    {
-                        Item = (int)itemId,
-                        Count = (int)count,
-                        World = State.Instance.WorldId
-                    };
-                    if (itemId == 0)
-                    {
-                        pendingMarketBoardItemListingCountDTO = dto;
-                    }
-                    else
-                    {
-                        FireEvent(dto);
-                        marketQueryItemId = 0;
-                    }
-                }
-
                 return true;
             }
-
-            // TODO: This packet is sent from client, so it only appear in injected games
-            // We should found the another workaround here for handling item id
             else if (opcode == MatchaOpcode.MarketBoardRequestItemListingInfo)
             {
-                if (packet.DataLength != 8)
-                {
-                    return false;
-                }
-
-                var itemId = BitConverter.ToUInt32(data, 0);
-                if (itemId != 0)
-                {
-                    marketQueryItemId = itemId;
-                }
-
                 return true;
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListing)
@@ -598,18 +554,13 @@ namespace Cafe.Matcha.Network
 
                 if (itemId != 0)
                 {
-                    if (pendingMarketBoardItemListingCountDTO != null)
-                    {
-                        FireEvent(new MarketBoardItemListingCountDTO
-                        {
-                            Item = (int)itemId,
-                            Count = pendingMarketBoardItemListingCountDTO.Count,
-                            World = State.Instance.WorldId
-                        });
-                        pendingMarketBoardItemListingCountDTO = null;
-                    }
-
                     ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
+                    FireEvent(new MarketBoardItemListingCountDTO
+                    {
+                        Item = (int)itemId,
+                        Count = items.Count,
+                        World = State.Instance.WorldId
+                    });
                     FireEvent(new MarketBoardItemListingDTO()
                     {
                         Item = (int)itemId,
