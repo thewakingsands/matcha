@@ -555,8 +555,9 @@ namespace Cafe.Matcha.Network
 
                 return true;
             }
-            //TODO: This packet not sent from client, so in only recived where in injected games
-            //We should found the another workaround here
+
+            // TODO: This packet is sent from client, so it only appear in injected games
+            // We should found the another workaround here for handling item id
             else if (opcode == MatchaOpcode.MarketBoardRequestItemListingInfo)
             {
                 if (packet.DataLength != 8)
