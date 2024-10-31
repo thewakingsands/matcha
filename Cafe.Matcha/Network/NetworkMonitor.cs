@@ -10,6 +10,7 @@ namespace Cafe.Matcha.Network
     using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
+    using Cafe.Matcha.Network.Handler;
     using Cafe.Matcha.Network.Structures;
     using Cafe.Matcha.Utils;
 
@@ -21,7 +22,11 @@ namespace Cafe.Matcha.Network
 
     internal class NetworkMonitor : INetworkMonitor
     {
-        private uint marketQueryItemId = 0;
+        private List<AbstractHandler> handlers = new List<AbstractHandler>();
+        public NetworkMonitor()
+        {
+            AddHandler<MarketBoardHandler>();
+        }
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
@@ -149,11 +154,28 @@ namespace Cafe.Matcha.Network
             }
         }
 
+        private void AddHandler<T>() where T : AbstractHandler
+        {
+            AbstractHandler handler = (AbstractHandler)Activator.CreateInstance(typeof(T), (Action<BaseDTO>)FireEvent);
+            if (handler != null)
+            {
+                handlers.Add(handler);
+            }
+        }
+
         private bool HandleMessageByOpcode(Packet packet)
         {
             if (!packet.Known)
             {
                 return false;
+            }
+
+            foreach (var handler in handlers)
+            {
+                if (handler.Handle(packet))
+                {
+                    return true;
+                }
             }
 
             var opcode = packet.MatchaOpcode;
