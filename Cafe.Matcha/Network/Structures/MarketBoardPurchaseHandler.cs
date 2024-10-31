@@ -4,7 +4,6 @@
 namespace Cafe.Matcha.Network.Structures
 {
     using System.IO;
-    using System.Windows.Markup;
 
     /// <summary>
     /// Represents market board purchase information. This message is sent from the

@@ -3,7 +3,6 @@
 
 namespace Cafe.Matcha.Models
 {
-    using System;
     using System.Collections.ObjectModel;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.Utils;
