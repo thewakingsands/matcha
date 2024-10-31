@@ -66,9 +66,9 @@ namespace Cafe.Matcha.Network
             if (!processed)
             {
 #if DEBUG
-                if (packet.GetMatchaOpcode(out var opcode))
+                if (packet.Known)
                 {
-                    LogIncorrectPacketSize(opcode, packet.Length);
+                    LogIncorrectPacketSize(packet.MatchaOpcode, packet.Length);
                     Log.Packet(packet.Bytes);
                 }
 #endif
@@ -151,11 +151,12 @@ namespace Cafe.Matcha.Network
 
         private bool HandleMessageByOpcode(Packet packet)
         {
-            if (!packet.GetMatchaOpcode(out var opcode))
+            if (!packet.Known)
             {
                 return false;
             }
 
+            var opcode = packet.MatchaOpcode;
             Universalis.Client.HandlePacket(opcode, packet);
 
             var data = packet.GetRawData();

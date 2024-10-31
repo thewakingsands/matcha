@@ -1,4 +1,4 @@
-﻿// Copyright (c) FFCafe. All rights reserved.
+// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Network
@@ -20,6 +20,11 @@ namespace Cafe.Matcha.Network
         /// Is this packet valid.
         /// </summary>
         public bool Valid = false;
+
+        /// <summary>
+        /// Is this packet known.
+        /// </summary>
+        public bool Known = false;
 
         /// <summary>
         /// SegmentType.
@@ -45,6 +50,11 @@ namespace Cafe.Matcha.Network
         /// Opcode.
         /// </summary>
         public ushort Opcode;
+
+        /// <summary>
+        /// Opcode.
+        /// </summary>
+        public MatchaOpcode MatchaOpcode;
 
         /// <summary>
         /// Gets packet length, including headers.
@@ -74,9 +84,11 @@ namespace Cafe.Matcha.Network
             Target = BitConverter.ToUInt32(Bytes, 8);
             Opcode = BitConverter.ToUInt16(Bytes, 18);
             Valid = true;
+
+            Known = GetMatchaOpcode(out MatchaOpcode);
         }
 
-        public bool GetMatchaOpcode(out MatchaOpcode matchaOpcode)
+        private bool GetMatchaOpcode(out MatchaOpcode matchaOpcode)
         {
             var key = Sender == PacketSender.Server ? Opcode : (ushort)(0x8000 | Opcode);
             var region = Config.Instance.Region;
