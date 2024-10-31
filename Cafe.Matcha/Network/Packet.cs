@@ -1,4 +1,4 @@
-// Copyright (c) FFCafe. All rights reserved.
+﻿// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Network
@@ -109,6 +109,11 @@ namespace Cafe.Matcha.Network
         public byte[] GetRawData()
         {
             return Bytes.Skip(HeaderLength).ToArray();
+        }
+
+        public uint ReadUInt32(int startIndex)
+        {
+            return BitConverter.ToUInt32(Bytes, startIndex + HeaderLength);
         }
 
         public enum PacketSender

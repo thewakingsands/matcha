@@ -1,4 +1,4 @@
-// Copyright (c) FFCafe. All rights reserved.
+﻿// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Network
@@ -7,7 +7,6 @@ namespace Cafe.Matcha.Network
     using System.Collections.Generic;
     using System.Numerics;
     using System.Text;
-    using System.Threading;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
     using Cafe.Matcha.Network.Handler;
@@ -178,9 +177,8 @@ namespace Cafe.Matcha.Network
                 }
             }
 
+            // TODO: Move all parsing logic to Handler
             var opcode = packet.MatchaOpcode;
-            Universalis.Client.HandlePacket(opcode, packet);
-
             var data = packet.GetRawData();
             if (opcode == MatchaOpcode.ResumeEventScene32)
             {
@@ -539,69 +537,6 @@ namespace Cafe.Matcha.Network
                             Type = 2
                         });
                         break;
-                }
-            }
-            else if (opcode == MatchaOpcode.MarketBoardItemListingHistory)
-            {
-                return true;
-            }
-            else if (opcode == MatchaOpcode.MarketBoardItemListingCount)
-            {
-                return true;
-            }
-            else if (opcode == MatchaOpcode.MarketBoardRequestItemListingInfo)
-            {
-                if (packet.DataLength != 8)
-                {
-                    return false;
-                }
-
-                var itemId = BitConverter.ToUInt32(data, 0);
-                if (itemId != 0)
-                {
-                    marketQueryItemId = itemId;
-                }
-
-                return true;
-            }
-            else if (opcode == MatchaOpcode.MarketBoardItemListing)
-            {
-                var result = MarketBoardCurrentOfferings.Read(data);
-                var items = new List<MarketBoardItemListingItem>();
-
-                uint itemId = 0;
-                foreach (var item in result.ItemListings)
-                {
-                    if (item.PricePerUnit == 0)
-                    {
-                        break;
-                    }
-
-                    itemId = item.ItemId;
-                    items.Add(new MarketBoardItemListingItem()
-                    {
-                        // Price = (int)(pricePerUnit * 1.05),
-                        Price = (int)item.PricePerUnit,
-                        Quantity = (int)item.ItemQuantity,
-                        HQ = item.IsHq
-                    });
-                }
-
-                if (itemId != 0)
-                {
-                    ThreadPool.QueueUserWorkItem(o => Universalis.Client.QueryItem(State.Instance.WorldId, itemId, FireEvent));
-                    FireEvent(new MarketBoardItemListingCountDTO
-                    {
-                        Item = (int)itemId,
-                        Count = items.Count,
-                        World = State.Instance.WorldId
-                    });
-                    FireEvent(new MarketBoardItemListingDTO()
-                    {
-                        Item = (int)itemId,
-                        Data = items,
-                        World = State.Instance.WorldId
-                    });
                 }
             }
             else if (opcode == MatchaOpcode.ItemInfo)

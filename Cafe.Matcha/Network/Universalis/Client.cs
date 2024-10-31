@@ -4,17 +4,23 @@
     using System.Linq;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
+    using Cafe.Matcha.Network.Handler;
     using Cafe.Matcha.Utils;
 
-    internal class Client
+    internal class Client : AbstractHandler
     {
-        public static PacketProcessor UniversalisProcessor = new PacketProcessor(Secret.UniversalisKey);
+        public PacketProcessor UniversalisProcessor = new PacketProcessor(Secret.UniversalisKey);
 
-        private static bool Enabled => Config.Instance.Overlay.Universalis;
-        private static object objLock = new object();
+        private bool Enabled => Config.Instance.Overlay.Universalis;
+        private object objLock = new object();
 
-        public static void HandlePacket(MatchaOpcode opcode, Packet packet)
+        public Client(Action<BaseDTO> fireEvent) : base(fireEvent)
         {
+        }
+
+        public override bool Handle(Packet packet)
+        {
+            var opcode = packet.MatchaOpcode;
             if (opcode == MatchaOpcode.PlayerSetup
                 || opcode == MatchaOpcode.MarketBoardItemListingCount
                 || opcode == MatchaOpcode.MarketBoardItemListing
@@ -25,9 +31,11 @@
                     UniversalisProcessor.ProcessZonePacket(opcode, packet);
                 }
             }
+
+            return false;
         }
 
-        public static async void QueryItem(ushort worldId, uint itemId, Action<BaseDTO> fireEvent)
+        public async void QueryItem(ushort worldId, uint itemId)
         {
             if (!Enabled || ParsePlugin.Instance == null)
             {

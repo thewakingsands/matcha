@@ -112,6 +112,8 @@
     <Compile Include="DTO\FateWatchListChangedDTO.cs" />
     <Compile Include="DTO\TreasureResultDTO.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Network\Handler\AbstractHandler.cs" />
+    <Compile Include="Network\Handler\MarketBoardHandler.cs" />
     <Compile Include="Network\Packet.cs" />
     <Compile Include="Network\Structures\IMarketBoardCurrentOfferings.cs" />
     <Compile Include="Network\Structures\IMarketBoardHistory.cs" />
