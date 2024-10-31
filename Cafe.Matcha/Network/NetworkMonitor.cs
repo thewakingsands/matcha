@@ -1,4 +1,4 @@
-﻿// Copyright (c) FFCafe. All rights reserved.
+// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Network
@@ -21,6 +21,7 @@ namespace Cafe.Matcha.Network
 
     internal class NetworkMonitor : INetworkMonitor
     {
+        private uint marketQueryItemId = 0;
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
         {
@@ -527,6 +528,17 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.MarketBoardRequestItemListingInfo)
             {
+                if (packet.DataLength != 8)
+                {
+                    return false;
+                }
+
+                var itemId = BitConverter.ToUInt32(data, 0);
+                if (itemId != 0)
+                {
+                    marketQueryItemId = itemId;
+                }
+
                 return true;
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListing)
