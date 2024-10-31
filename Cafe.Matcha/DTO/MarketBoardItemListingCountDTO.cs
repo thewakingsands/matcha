@@ -3,6 +3,7 @@
 
 namespace Cafe.Matcha.DTO
 {
+    using System;
     using Cafe.Matcha.Constant;
     using Newtonsoft.Json;
 
@@ -23,6 +24,7 @@ namespace Cafe.Matcha.DTO
         public int World = 0;
 
         [JsonProperty("count")]
-        public int Count;
+        [Obsolete("Count is not used in overlay and difficult to obtain after 7.0")]
+        public int Count = 0;
     }
 }
