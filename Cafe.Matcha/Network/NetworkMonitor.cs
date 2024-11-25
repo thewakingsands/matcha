@@ -87,7 +87,7 @@ namespace Cafe.Matcha.Network
         private void TryHandleServerMessage(Packet packet)
         {
             // Treasure Shifting Wheel Result
-            if (packet.DataLength == 88)
+            if (packet.DataLength == 56)
             {
                 var data = packet.GetRawData();
                 var level = BitConverter.ToUInt32(data, 24);
@@ -138,7 +138,7 @@ namespace Cafe.Matcha.Network
                     }
                 }
             }
-            else if (packet.DataLength == 96)
+            else if (packet.DataLength == 64)
             {
                 var data = packet.GetRawData();
                 var flag = BitConverter.ToUInt32(data, 16);
