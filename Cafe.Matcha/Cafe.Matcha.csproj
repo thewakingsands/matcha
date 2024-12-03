@@ -1,56 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>8.0</LangVersion>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cafe.Matcha</RootNamespace>
-    <AssemblyName>Cafe.Matcha</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
-    <FileAlignment>512</FileAlignment>
-    <StartupObject>
-    </StartupObject>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>3.5</OldToolsVersion>
-    <TargetFrameworkProfile />
-    <ProjectGuid>{0A8BC2CF-BCBA-4A7F-974A-11F078BED997}</ProjectGuid>
-    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <StartupObject></StartupObject>
     <Obfuscate>true</Obfuscate>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
     <OutputPath>..\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\bin\Release\</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
+    <DefineConstants></DefineConstants>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Optimize>true</Optimize>
   </PropertyGroup>
   <PropertyGroup>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Reference Include="Advanced Combat Tracker">
       <HintPath Condition="Exists('..\thirdparty\ACT\Advanced Combat Tracker.dll')">..\thirdparty\ACT\Advanced Combat Tracker.dll</HintPath>
@@ -73,177 +46,49 @@
       <HintPath>..\thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Network.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="System">
+    <Reference Update="System">
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Data" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Presentation" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="Windows.Foundation.UniversalApiContract">
       <HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
       <HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.18362.0\Windows.Foundation.UniversalApiContract\8.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
       <HintPath Condition="Exists('C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd')">C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="WindowsBase" />
-    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyCopyright.cs" />
-    <Compile Include="Config.cs" />
-    <Compile Include="Constant\ActorControlType.cs" />
-    <Compile Include="Constant\EventType.cs" />
-    <Compile Include="Constant\FishEventBiteType.cs" />
-    <Compile Include="Constant\FishEventType.cs" />
-    <Compile Include="Constant\LogType.cs" />
-    <Compile Include="Constant\MatchaOpcode.cs" />
-    <Compile Include="Constant\Region.cs" />
-    <Compile Include="Constant\RequestType.cs" />
-    <Compile Include="Constant\Secret.cs" />
-    <Compile Include="Constant\Secret.Local.cs" />
-    <Compile Include="Constant\TreasureShiftingWheelResultType.cs" />
-    <Compile Include="DTO\QueueDTO.cs" />
-    <Compile Include="DTO\FateWatchListChangedDTO.cs" />
-    <Compile Include="DTO\TreasureResultDTO.cs" />
-    <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="Network\Handler\AbstractHandler.cs" />
-    <Compile Include="Network\Handler\QueueHandler.cs" />
-    <Compile Include="Network\Handler\MarketBoardHandler.cs" />
-    <Compile Include="Network\Packet.cs" />
-    <Compile Include="Network\Structures\WorldVisitQueue.cs" />
-    <Compile Include="Network\Structures\IMarketBoardCurrentOfferings.cs" />
-    <Compile Include="Network\Structures\IMarketBoardHistory.cs" />
-    <Compile Include="Network\Structures\IMarketBoardPurchase.cs" />
-    <Compile Include="Network\Structures\IMarketBoardPurchaseHandler.cs" />
-    <Compile Include="Network\Structures\IMarketTaxRates.cs" />
-    <Compile Include="Network\Structures\MarketBoardPurchase.cs" />
-    <Compile Include="Network\Structures\MarketBoardPurchaseHandler.cs" />
-    <Compile Include="Network\Structures\Examine.cs" />
-    <Compile Include="Network\Structures\MarketTaxRates.cs" />
-    <Compile Include="Network\Structures\Materia.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisItemListingDeleteRequest.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisItemUploadRequest.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisTaxData.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisTaxUploadRequest.cs" />
-    <Compile Include="Network\State.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisQueryResponse.cs" />
-    <Compile Include="Telemetry\Npc.cs" />
-    <Compile Include="Utils\BindingTarget.cs" />
-    <Compile Include="DTO\BaseDTO.cs" />
-    <Compile Include="DTO\CompanyVoyageStatusDTO.cs" />
-    <Compile Include="DTO\DynamicEventDTO.cs" />
-    <Compile Include="DTO\FateDTO.cs" />
-    <Compile Include="DTO\GearsetDTO.cs" />
-    <Compile Include="DTO\FishBiteDTO.cs" />
-    <Compile Include="DTO\InitZoneDTO.cs" />
-    <Compile Include="DTO\MarketBoardItemListingDTO.cs" />
-    <Compile Include="DTO\MarketBoardItemListingCountDTO.cs" />
-    <Compile Include="DTO\MatchAlertDTO.cs" />
-    <Compile Include="DTO\MiniCactpotDTO.cs" />
-    <Compile Include="DTO\TreasureSpotDTO.cs" />
-    <Compile Include="Models\DynamicEventData.cs" />
-    <Compile Include="Models\WorldData.cs" />
-    <Compile Include="Telemetry\Fate.cs" />
-    <Compile Include="Data.cs" />
-    <Compile Include="Utils\FateManager.cs" />
-    <Compile Include="Utils\Log.cs" />
-    <Compile Include="MatchaInit.cs" />
-    <Compile Include="Models\ConfigData.cs" />
-    <Compile Include="Models\TelemetryData.cs" />
-    <Compile Include="Models\Template.cs" />
-    <Compile Include="Models\InstanceData.cs" />
-    <Compile Include="Models\FateData.cs" />
-    <Compile Include="Models\ItemName.cs" />
-    <Compile Include="Network\NetworkMonitor.cs" />
-    <Compile Include="Utils\Formatter.cs" />
-    <Compile Include="Utils\Output.cs" />
-    <Compile Include="Utils\ParsePlugin.cs" />
-    <Compile Include="Utils\Request.cs" />
-    <Compile Include="Utils\Telemetry.cs" />
-    <Compile Include="Network\Universalis\Client.cs" />
-    <Compile Include="Network\Structures\MarketBoardItemRequest.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisHistoryEntry.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisItemListingsEntry.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisItemListingsUploadRequest.cs" />
-    <Compile Include="Network\Universalis\Types\UniversalisItemMateria.cs" />
-    <Compile Include="Network\Universalis\Api.cs" />
-    <Compile Include="Network\Universalis\PacketProcessor.cs" />
-    <Compile Include="Network\Structures\MarketBoardCurrentOfferings.cs" />
-    <Compile Include="Network\Structures\MarketBoardHistory.cs" />
-    <Compile Include="Utils\Helper.cs" />
-    <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="ViewModels\TelemetrySetting.cs" />
-    <Compile Include="Views\MainControl.xaml.cs">
-      <DependentUpon>MainControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\License.xaml.cs">
-      <DependentUpon>License.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\TelemetrySetting.xaml.cs">
-      <DependentUpon>TelemetrySetting.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\OverrideConfirm.xaml.cs">
-      <DependentUpon>OverrideConfirm.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
     <None Include="Cafe.Matcha.crproj" />
-    <None Include="data\dynamic-event.json">
+    <None Update="data\dynamic-event.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\fate.json">
+    <None Update="data\fate.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\instance.json">
+    <None Update="data\instance.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\patch.json">
+    <None Update="data\patch.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\roulette.json">
+    <None Update="data\roulette.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\template.json">
+    <None Update="data\template.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\type.json">
+    <None Update="data\type.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\world.json">
+    <None Update="data\world.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="data\territory.json">
+    <None Update="data\territory.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="Views\MainControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\License.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\TelemetrySetting.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\OverrideConfirm.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
@@ -290,15 +135,11 @@
       <Version>6.0.1</Version>
     </PackageReference>
   </ItemGroup>
-  <PropertyGroup>
-    <PreBuildEvent>$(TargetDir)..\Cafe.Matcha.Packer Assembly
-cd $(ProjectDir)Constant\
-
-if not exist Secret.Local.cs (
-    type nul &gt; Secret.Local.cs
-)</PreBuildEvent>
-    <PostBuildEvent>del $(TargetPath) /F
-  xcopy "$(TargetDir)confused\*.*" "$(TargetDir)" /E /Y /C
-$(TargetDir)..\Cafe.Matcha.Packer $(ConfigurationName)</PostBuildEvent>
-  </PropertyGroup>
+  <PropertyGroup />
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="$(OutDir)..\Cafe.Matcha.Packer Assembly&#xD;&#xA;cd $(ProjectDir)Constant\&#xD;&#xA;&#xD;&#xA;if not exist Secret.Local.cs (&#xD;&#xA;    type nul &gt; Secret.Local.cs&#xD;&#xA;)" />
+  </Target>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="del $(OutDir) /F&#xD;&#xA;xcopy &quot;$(OutDir)confused\*.*&quot; &quot;$(OutDir)&quot; /E /Y /C&#xD;&#xA;$(OutDir)..\Cafe.Matcha.Packer $(ConfigurationName)" />
+  </Target>
 </Project>
