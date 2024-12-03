@@ -32,6 +32,7 @@ const opcodes = [
     // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
+  'EventStart',
   'Examine',
   'FateInfo',
   'InitZone',
@@ -96,48 +97,48 @@ const outputFromWorker = (list) =>
     })
     .join('\n')
 
-  ; (async () => {
-    const karashiiroData = await fetch(
-      'https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json'
+;(async () => {
+  const karashiiroData = await fetch(
+    'https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json'
+  )
+  const parsedData = await karashiiroData.json()
+
+  const globalOpcodes = parsedData.find((item) => item.region === 'Global')
+
+  const cactbotFate = await fetch(
+    'https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs'
+  )
+  const ceDirector =
+    /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(
+      await cactbotFate.text()
     )
-    const parsedData = await karashiiroData.json()
 
-    const globalOpcodes = parsedData.find((item) => item.region === 'Global')
-
-    const cactbotFate = await fetch(
-      'https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs'
-    )
-    const ceDirector =
-      /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(
-        await cactbotFate.text()
-      )
-
-    if (ceDirector) {
-      globalOpcodes.lists.ServerZoneIpcType.push({
-        name: '_GH_CEDirector',
-        opcode: parseOpcode(ceDirector[1])
-      })
-    }
-
-    const workerData = await fetch(
-      'https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv'
-    )
-    const workerLines = readCsv(await workerData.text(), null, {
-      header: 0,
-      skip: 0
+  if (ceDirector) {
+    globalOpcodes.lists.ServerZoneIpcType.push({
+      name: '_GH_CEDirector',
+      opcode: parseOpcode(ceDirector[1])
     })
-    const cnOpcodes = workerLines.map(({ Name: name, Scope: scope, _ }) => {
-      const valueColumn = _.reduce((val, content, index) => {
-        return content ? index : val
-      }, 0)
+  }
 
-      const isClient = scope === 'ClientZoneIpc'
-      return [name, (isClient ? 0x8000 : 0) + parseOpcode(_[valueColumn])]
-    })
+  const workerData = await fetch(
+    'https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv'
+  )
+  const workerLines = readCsv(await workerData.text(), null, {
+    header: 0,
+    skip: 0
+  })
+  const cnOpcodes = workerLines.map(({ Name: name, Scope: scope, _ }) => {
+    const valueColumn = _.reduce((val, content, index) => {
+      return content ? index : val
+    }, 0)
 
-    writeFileSync(
-      join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'),
-      `// Copyright (c) FFCafe. All rights reserved.
+    const isClient = scope === 'ClientZoneIpc'
+    return [name, (isClient ? 0x8000 : 0) + parseOpcode(_[valueColumn])]
+  })
+
+  writeFileSync(
+    join(__dirname, '../Cafe.Matcha/Constant/MatchaOpcode.cs'),
+    `// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Constant
@@ -162,5 +163,5 @@ ${outputFromWorker(cnOpcodes, 'cn')}
     }
 }
 `
-    )
-  })()
+  )
+})()
