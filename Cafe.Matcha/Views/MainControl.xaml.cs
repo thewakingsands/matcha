@@ -277,7 +277,8 @@ namespace Cafe.Matcha.Views
             }
 
             string typeString = Enum.GetName(typeof(LogType), type);
-            vm.Log = string.Format("[{0}][{1}][{2}] {3}\r\n", DateTime.Now, level, typeString, message) + vm.Log;
+            vm.Log = string.Format("[{0}][{1}][{2}] {3}\r\n", DateTime.Now, level, typeString, message) +
+                (vm.Log.Length > 10240 ? vm.Log.Substring(0, 10240) : vm.Log);
             ++vm.LogShowCount;
         }
 
