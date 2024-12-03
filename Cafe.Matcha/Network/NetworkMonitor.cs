@@ -366,6 +366,13 @@ namespace Cafe.Matcha.Network
                             break;
                         }
 
+                    case ActorControlType.FishingBaitChange:
+                        {
+                            var baitId = BitConverter.ToUInt32(data, 4);
+                            State.Instance.FishingBait = baitId;
+                            break;
+                        }
+
                     case ActorControlType.DirectorUpdate:
                         {
                             var category = BitConverter.ToUInt32(data, 4);
@@ -518,26 +525,21 @@ namespace Cafe.Matcha.Network
                     return true;
                 }
 
-                switch ((FishEventBiteType)biteType)
+                var biteTypeParsed = ((FishEventBiteType)biteType) switch
                 {
-                    case FishEventBiteType.Big:
-                        FireEvent(new FishBiteDTO()
-                        {
-                            Type = 3
-                        });
-                        break;
-                    case FishEventBiteType.Light:
-                        FireEvent(new FishBiteDTO()
-                        {
-                            Type = 1
-                        });
-                        break;
-                    case FishEventBiteType.Medium:
-                        FireEvent(new FishBiteDTO()
-                        {
-                            Type = 2
-                        });
-                        break;
+                    FishEventBiteType.Light => 1,
+                    FishEventBiteType.Medium => 2,
+                    FishEventBiteType.Big => 3,
+                    _ => 0,
+                };
+
+                if (biteTypeParsed != 0)
+                {
+                    FireEvent(new FishBiteDTO()
+                    {
+                        Time = Helper.Now,
+                        Type = 3
+                    });
                 }
             }
             else if (opcode == MatchaOpcode.ItemInfo)

@@ -9,6 +9,7 @@ namespace Cafe.Matcha.Constant
         DefeatMsg = 6,
         TreasureSpot = 84,
         DirectorUpdate = 109,
+        FishingBaitChange = 325,
         FateStart = 2370,
         FateEnd = 2357,
         FateProgress = 2364

@@ -40,6 +40,8 @@ namespace Cafe.Matcha.Network
 
         public ushort ContentId { get; private set; } = 0;
 
+        public uint FishingBait { get; set; } = 0;
+
         public readonly StateManager<FateState> Fate = new StateManager<FateState>();
         public readonly StateManager<NpcState> Npc = new StateManager<NpcState>();
 

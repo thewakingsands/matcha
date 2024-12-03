@@ -18,5 +18,8 @@ namespace Cafe.Matcha.DTO
 
         [JsonProperty("type")]
         public int Type;
+
+        [JsonProperty("time")]
+        public long Time;
     }
 }
