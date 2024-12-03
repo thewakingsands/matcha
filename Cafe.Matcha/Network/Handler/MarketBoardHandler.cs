@@ -125,6 +125,8 @@ namespace Cafe.Matcha.Network.Handler
                 // Always reset isFirstPageIncoming and queryItemId
                 isFirstPageIncoming = false;
                 queryItemId = 0;
+
+                return true;
             }
 
             return false;
