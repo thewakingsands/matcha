@@ -25,6 +25,7 @@ namespace Cafe.Matcha.Network
         public NetworkMonitor()
         {
             AddHandler<MarketBoardHandler>();
+            AddHandler<QueueHandler>();
         }
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
