@@ -44,7 +44,8 @@ const opcodes = [
   'MarketBoardRequestItemListingInfo',
   'NpcSpawn',
   'PlayerSetup',
-  'PlayerSpawn'
+  'PlayerSpawn',
+  'WorldVisitQueue'
 ]
 
 const outputOpcode = (key, value) =>
