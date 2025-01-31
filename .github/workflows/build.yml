@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ master, staging ]
+    branches: [master, staging]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
         configuration: [Release]
 
     runs-on: windows-latest
-    
+
     env:
       Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.6.0.275/ACTv3.zip
       Thirdparty_FFXIV_ACT_Plugin: https://github.com/ravahn/FFXIV_ACT_Plugin/raw/master/Releases/FFXIV_ACT_Plugin_SDK_2.0.7.0.zip
@@ -21,68 +21,69 @@ jobs:
       Secret_Path: Cafe.Matcha\Constant\Secret.Local.cs
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - uses: actions/cache@v4
-      with:
-        path: ~/.nuget/packages
-        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
-        restore-keys: |
-          ${{ runner.os }}-nuget-
-        
-    - name: Setup NuGet.exe for use with actions
-      uses: NuGet/setup-nuget@v2
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v2
+      - uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
 
-    - name: Setup thirdparty dependencies
-      run: |
-        nuget restore ${{ env.Solution_Name }}
+      - name: Setup NuGet.exe for use with actions
+        uses: NuGet/setup-nuget@v2
+      - name: Setup MSBuild.exe
+        uses: microsoft/setup-msbuild@v2
 
-        New-Item -Name "thirdparty" -ItemType "directory" -Force
+      - name: Setup thirdparty dependencies
+        run: |
+          nuget restore ${{ env.Solution_Name }}
 
-        Invoke-WebRequest -Uri ${{ env.Thirdparty_ACT }} -OutFile thirdparty\ACT.zip
-        Expand-Archive thirdparty\ACT.zip -DestinationPath thirdparty\ACT -Force
+          New-Item -Name "thirdparty" -ItemType "directory" -Force
 
-        Invoke-WebRequest -Uri ${{ env.Thirdparty_FFXIV_ACT_Plugin }} -OutFile thirdparty\FFXIV_ACT_Plugin.zip
-        Expand-Archive thirdparty\FFXIV_ACT_Plugin.zip -DestinationPath thirdparty\FFXIV_ACT_Plugin -Force
+          Invoke-WebRequest -Uri ${{ env.Thirdparty_ACT }} -OutFile thirdparty\ACT.zip
+          Expand-Archive thirdparty\ACT.zip -DestinationPath thirdparty\ACT -Force
 
-        Get-ChildItem .\thirdparty
-        Get-ChildItem .\thirdparty\ACT
-        Get-ChildItem .\thirdparty\FFXIV_ACT_Plugin
+          Invoke-WebRequest -Uri ${{ env.Thirdparty_FFXIV_ACT_Plugin }} -OutFile thirdparty\FFXIV_ACT_Plugin.zip
+          Expand-Archive thirdparty\FFXIV_ACT_Plugin.zip -DestinationPath thirdparty\FFXIV_ACT_Plugin -Force
 
-    - name: Write Secrets
-      run: |
-        $secret_content = [System.Convert]::FromBase64String("${{ secrets.CONSTANT_SECRET_LOCAL }}")
-        [IO.File]::WriteAllBytes("${{ env.Secret_Path }}", $secret_content)
+          Get-ChildItem .\thirdparty
+          Get-ChildItem .\thirdparty\ACT
+          Get-ChildItem .\thirdparty\FFXIV_ACT_Plugin
 
-    - name: Build
-      run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration
-      env:
-        Configuration: ${{ matrix.configuration }}
+      - name: Write Secrets
+        run: |
+          $secret_content = [System.Convert]::FromBase64String("${{ secrets.CONSTANT_SECRET_LOCAL }}")
+          [IO.File]::WriteAllBytes("${{ env.Secret_Path }}", $secret_content)
 
-    - name: Remove Secrets
-      run: Remove-Item -path ${{ env.Secret_Path }}
+      - name: Build
+        run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration
+        env:
+          Configuration: ${{ matrix.configuration }}
 
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Bundle
-        path: bin\*.zip
-        
-    - name: Release
-      uses: softprops/action-gh-release@v1
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        files: bin\*.zip
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Telegram Notify
-      shell: bash
-      run: |
-        export FILENAME=`cd bin && ls *.zip`
-        curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F "document=@\"bin/${FILENAME}\"" https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendDocument
+      - name: Remove Secrets
+        run: Remove-Item -path ${{ env.Secret_Path }}
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Bundle
+          path: bin\*.zip
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: bin\*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Telegram Notify
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        run: |
+          export FILENAME=`cd bin && ls *.zip`
+          curl -X POST -F chat_id=${{ secrets.TELEGRAM_CHAT }} -F "document=@\"bin/${FILENAME}\"" https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendDocument
