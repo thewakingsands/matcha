@@ -22,34 +22,30 @@ namespace Cafe.Matcha.Packer
 
             var outName = $"Cafe.Matcha-{version.FileVersion}-{env}.zip";
 
-            using (var ms = new MemoryStream())
+            using var ms = new MemoryStream();
+            using (var archive = new ZipArchive(ms, ZipArchiveMode.Create, true))
             {
-                using (var archive = new ZipArchive(ms, ZipArchiveMode.Create, true))
+                var manifestEntry = archive.CreateEntry("manifest.json");
+                using (var entryStream = manifestEntry.Open())
+                using (var streamWriter = new StreamWriter(entryStream))
                 {
-                    var manifestEntry = archive.CreateEntry("manifest.json");
-                    using (var entryStream = manifestEntry.Open())
-                    using (var streamWriter = new StreamWriter(entryStream))
-                    {
-                        streamWriter.Write(Manifest);
-                    }
-
-                    foreach (var dll in Directory.GetFiles(root, "*.dll"))
-                    {
-                        archive.CreateEntryFromFile(dll, @"Plugins/Cafe.Matcha/" + Path.GetFileName(dll));
-                    }
-
-                    foreach (var data in Directory.GetFiles(Path.Combine(root, "data"), "*.json"))
-                    {
-                        archive.CreateEntryFromFile(data, @"Plugins/Cafe.Matcha/data/" + Path.GetFileName(data));
-                    }
+                    streamWriter.Write(Manifest);
                 }
 
-                using (var fileStream = new FileStream(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, outName), FileMode.Create))
+                foreach (var dll in Directory.GetFiles(root, "*.dll"))
                 {
-                    ms.Seek(0, SeekOrigin.Begin);
-                    ms.CopyTo(fileStream);
+                    archive.CreateEntryFromFile(dll, @"Plugins/Cafe.Matcha/" + Path.GetFileName(dll));
+                }
+
+                foreach (var data in Directory.GetFiles(Path.Combine(root, "data"), "*.json"))
+                {
+                    archive.CreateEntryFromFile(data, @"Plugins/Cafe.Matcha/data/" + Path.GetFileName(data));
                 }
             }
+
+            using var fileStream = new FileStream(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, outName), FileMode.Create);
+            ms.Seek(0, SeekOrigin.Begin);
+            ms.CopyTo(fileStream);
         }
 
         private static void Main(string[] args)
