@@ -10,35 +10,10 @@ namespace Cafe.Matcha.Packer
 
     public class Program
     {
-        private static void GenerateAssembly()
-        {
-            string version = DateTime.UtcNow.ToString("yy.M.d.Hmm");
-
-            var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Cafe.Matcha\AssemblyCopyright.cs");
-            var template = @"// Copyright (c) FFCafe. All rights reserved.
-// Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
-
-using System.Reflection;
-
-[assembly: AssemblyTitle(""Cafe.Matcha"")]
-[assembly: AssemblyDescription(""Cafe.Matcha"")]
-[assembly: AssemblyCompany(""FFCafe"")]
-[assembly: AssemblyVersion(""{0}"")]
-[assembly: AssemblyCopyright(""Copyright © FFCafe {1}"")]
-
-namespace Cafe.Matcha
-{
-    public partial class Data
-    {
-        public const string Version = ""{0}"";
-    }
+        private const string Manifest = @"{
+  ""entryPoint"": ""Plugins/Cafe.Matcha/Cafe.Matcha.dll""
 }
 ";
-            var content = template.Replace("{0}", version).Replace("{1}", DateTime.Now.Year.ToString());
-            Console.WriteLine(content);
-            File.WriteAllText(path, content);
-        }
-
         private static void Bundle(string env)
         {
             var root = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, env);
@@ -51,7 +26,12 @@ namespace Cafe.Matcha
             {
                 using (var archive = new ZipArchive(ms, ZipArchiveMode.Create, true))
                 {
-                    archive.CreateEntryFromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @".\assets\manifest.json"), "manifest.json");
+                    var manifestEntry = archive.CreateEntry("manifest.json");
+                    using (var entryStream = manifestEntry.Open())
+                    using (var streamWriter = new StreamWriter(entryStream))
+                    {
+                        streamWriter.Write(Manifest);
+                    }
 
                     foreach (var dll in Directory.GetFiles(root, "*.dll"))
                     {
@@ -75,14 +55,7 @@ namespace Cafe.Matcha
         private static void Main(string[] args)
         {
             string env = args.Length >= 1 ? args[0] : "Release";
-            if (env == "Assembly")
-            {
-                GenerateAssembly();
-            }
-            else
-            {
-                Bundle(env);
-            }
+            Bundle(env);
         }
     }
 }

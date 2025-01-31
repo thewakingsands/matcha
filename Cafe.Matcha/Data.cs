@@ -6,17 +6,20 @@ namespace Cafe.Matcha
     using System;
     using System.Collections.Generic;
     using System.IO;
+    using System.Reflection;
     using System.Windows;
     using Cafe.Matcha.Utils;
     using Newtonsoft.Json;
 
-    public partial class Data : StaticBindingTarget<Data>
+    public class Data : StaticBindingTarget<Data>
     {
 #if GLOBAL
         public const string Title = "Matcha";
 #else
         public const string Title = "抹茶 Matcha";
 #endif
+        public static string Version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
         public Dictionary<int, Models.FateData> Fates { get; set; }
         public Dictionary<int, Models.DynamicEventData> DynamicEvents;
         public Dictionary<int, Models.InstanceData> Instances;

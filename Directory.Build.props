@@ -1,5 +1,5 @@
 <Project>
-<!-- StyleCop Analyzers configuration -->
+  <!-- StyleCop Analyzers configuration -->
   <PropertyGroup>
     <CodeAnalysisRuleSet>$(SolutionDir)StyleCop.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
