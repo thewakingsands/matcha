@@ -11,7 +11,6 @@
 
     internal class PacketProcessor : IDisposable
     {
-        private MarketBoardItemRequest _marketBoardRequest = null;
         private readonly Api _uploader;
 
         private readonly IDisposable handleMarketBoardItemRequest;

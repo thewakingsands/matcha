@@ -273,6 +273,7 @@
     </PackageReference>
     <PackageReference Include="PropertyChanged.Fody">
       <Version>4.1.0</Version>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="RateLimiting">
       <Version>1.0.0</Version>
