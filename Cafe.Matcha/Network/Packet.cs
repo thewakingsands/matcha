@@ -111,6 +111,11 @@ namespace Cafe.Matcha.Network
             return Bytes.Skip(HeaderLength).ToArray();
         }
 
+        public uint ReadUInt16(int startIndex)
+        {
+            return BitConverter.ToUInt16(Bytes, startIndex + HeaderLength);
+        }
+
         public uint ReadUInt32(int startIndex)
         {
             return BitConverter.ToUInt32(Bytes, startIndex + HeaderLength);

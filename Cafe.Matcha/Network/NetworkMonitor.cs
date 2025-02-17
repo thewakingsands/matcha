@@ -502,46 +502,6 @@ namespace Cafe.Matcha.Network
                     Instance = contentId
                 });
             }
-            else if (opcode == MatchaOpcode.EventPlay)
-            {
-                if (packet.Length != 72)
-                {
-                    return false;
-                }
-
-                var targetActorId = packet.Target;
-                var fishActorId = BitConverter.ToUInt32(data, 0);
-
-                if (targetActorId != fishActorId)
-                {
-                    return true;
-                }
-
-                var type = (FishEventType)BitConverter.ToUInt16(data, 12);
-                var biteType = BitConverter.ToUInt16(data, 28);
-
-                if (type != FishEventType.Bite)
-                {
-                    return true;
-                }
-
-                var biteTypeParsed = ((FishEventBiteType)biteType) switch
-                {
-                    FishEventBiteType.Light => 1,
-                    FishEventBiteType.Medium => 2,
-                    FishEventBiteType.Big => 3,
-                    _ => 0,
-                };
-
-                if (biteTypeParsed != 0)
-                {
-                    FireEvent(new FishBiteDTO()
-                    {
-                        Time = Helper.Now,
-                        Type = 3
-                    });
-                }
-            }
             else if (opcode == MatchaOpcode.ItemInfo)
             {
                 if (packet.Length != 96)
