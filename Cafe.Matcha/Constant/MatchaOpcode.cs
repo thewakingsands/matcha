@@ -70,7 +70,7 @@ namespace Cafe.Matcha.Constant
             { 0x008a, MatchaOpcode.EventPlay },
             { 0x01a7, MatchaOpcode.EventStart },
             { 0x02bd, MatchaOpcode.Examine },
-            { 0x0242, MatchaOpcode.FateInfo },
+            { 0x02b4, MatchaOpcode.FateInfo },
             { 0x0108, MatchaOpcode.InitZone },
             { 0x0162, MatchaOpcode.InventoryTransaction },
             { 0x03a9, MatchaOpcode.ItemInfo },
