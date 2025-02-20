@@ -154,11 +154,18 @@
     "fr": "Commandes spéciales"
   },
   "26": {
-    "chs": "优雷卡",
+    "chs": "禁地优雷卡",
     "en": "Eureka",
-    "ja": "エウレカ",
+    "ja": "禁断の地エウレカ",
     "de": "Eureka",
     "fr": "Eurêka"
+  },
+  "27": {
+    "chs": "假面狂欢",
+    "en": "The Masked Carnivale",
+    "ja": "マスクカーニバル",
+    "de": "Große Maskerade",
+    "fr": "La Grande Mascarade"
   },
   "28": {
     "chs": "绝境战",
@@ -166,6 +173,13 @@
     "ja": "絶レイド",
     "de": "Fatale Raids",
     "fr": "Raids fatals"
+  },
+  "29": {
+    "chs": "天佑女王",
+    "en": "Save the Queen",
+    "ja": "セイブ・ザ・クイーン",
+    "de": "Königinnenwache",
+    "fr": "Garde-la-Reine"
   },
   "30": {
     "chs": "特殊迷宫探索",
@@ -208,5 +222,19 @@
     "ja": "G.A.T.E.",
     "de": "GATE",
     "fr": "JACTA"
+  },
+  "36": {
+    "chs": "开拓无人岛",
+    "en": "Island Sanctuary",
+    "ja": "無人島開拓",
+    "de": "Inselparadies",
+    "fr": "Félicité insulaire"
+  },
+  "37": {
+    "chs": "诛灭战",
+    "en": "Chaotic Alliance Raid",
+    "ja": "滅アライアンスレイド",
+    "de": "Chaotische Allianz-Raids",
+    "fr": "Raids chaotiques"
   }
 }

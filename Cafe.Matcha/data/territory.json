@@ -6216,7 +6216,7 @@
     "fr": "Mont du Supplice"
   },
   "1097": {
-    "chs": "雪山奥窟冥石洞",
+    "chs": "冥魂石洞",
     "en": "Lapis Manalis",
     "ja": "ラピス・マナリス",
     "de": "Lapis Manalis",
@@ -6370,7 +6370,7 @@
     "fr": "Domaine divin - Euphrosyne"
   },
   "1119": {
-    "chs": "雪山奥窟冥石洞",
+    "chs": "冥魂石洞",
     "en": "Lapis Manalis",
     "ja": "ラピス・マナリス",
     "de": "Lapis Manalis",
@@ -6417,6 +6417,27 @@
     "ja": "ハーム島",
     "de": "Ätherborn",
     "fr": "Île de Haam"
+  },
+  "1127": {
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
+  },
+  "1128": {
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
+  },
+  "1129": {
+    "chs": "群狼困斗",
+    "en": "The Fold",
+    "ja": "ザ・フォールド",
+    "de": "Wolfspferch (The Fold)",
+    "fr": "La Louverie (The Fold)"
   },
   "1136": {
     "chs": "阿赖耶宝塔",
@@ -7110,5 +7131,89 @@
     "ja": "南ザナラーン",
     "de": "Südliches Thanalan",
     "fr": "Thanalan méridional"
+  },
+  "1238": {
+    "chs": "",
+    "en": "A Future Rewritten",
+    "ja": "もうひとつの未来",
+    "de": "Eine zweite Zukunft",
+    "fr": "Avenirs réécrits"
+  },
+  "1239": {
+    "chs": "白帝竹林",
+    "en": "The Jade Stoa",
+    "ja": "白帝の竹林",
+    "de": "Jadelichtung",
+    "fr": "Clairière de Jade"
+  },
+  "1242": {
+    "chs": "玉韦亚瓦塔",
+    "en": "Yuweyawata",
+    "ja": "ユウェヤーワータ",
+    "de": "Yuweyawata",
+    "fr": "Yuweyawata"
+  },
+  "1243": {
+    "chs": "次元黄道",
+    "en": "Interphos",
+    "ja": "次元黄道",
+    "de": "Interdimensionale Ekliptik",
+    "fr": "Écliptique dimensionnelle"
+  },
+  "1244": {
+    "chs": "夏劳尼荒野",
+    "en": "Shaaloani",
+    "ja": "シャーローニ荒野",
+    "de": "Shaaloani",
+    "fr": "Shaaloani"
+  },
+  "1245": {
+    "chs": "日影地修炼所",
+    "en": "Halatali",
+    "ja": "ハラタリ修練所",
+    "de": "Halatali",
+    "fr": "Halatali"
+  },
+  "1247": {
+    "chs": "星芒市场",
+    "en": "Starlight Stalls",
+    "ja": "星芒マーケット",
+    "de": "Sternenlicht-Stände",
+    "fr": "Marché des étoiles"
+  },
+  "1248": {
+    "chs": "朱诺：第一巡行",
+    "en": "Jeuno: The First Walk",
+    "ja": "ジュノ：ザ・ファーストウォーク",
+    "de": "Jeuno: Die erste Etappe",
+    "fr": "Jeuno - La première perambulation"
+  },
+  "1253": {
+    "chs": "星芒市场",
+    "en": "Starlight Stalls",
+    "ja": "星芒マーケット",
+    "de": "Sternenlicht-Stände",
+    "fr": "Marché des étoiles"
+  },
+  "1254": {
+    "chs": "玉韦亚瓦塔",
+    "en": "Yuweyawata",
+    "ja": "ユウェヤーワータ",
+    "de": "Yuweyawata",
+    "fr": "Yuweyawata"
+  },
+  "1264": {
+    "chs": "朱诺下层",
+    "en": "Lower Jeuno",
+    "ja": "ジュノ下層",
+    "de": "Unter-Jeuno",
+    "fr": "Bas Jeuno"
+  },
+  "1265": {
+    "chs": "朱诺下层",
+    "en": "Lower Jeuno",
+    "ja": "ジュノ下層",
+    "de": "Unter-Jeuno",
+    "fr": "Bas Jeuno"
   }
 }

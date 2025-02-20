@@ -1504,7 +1504,7 @@
       "chs": "交涉破裂",
       "en": "Goblin Chain",
       "ja": "交渉決裂",
-      "de": "Geplatzte Ver<SoftHyphen/>hand<SoftHyphen/>lungen",
+      "de": "Geplatzte Verhandlungen",
       "fr": "Barrage de Gobelins"
     },
     "level": 15,
@@ -2140,7 +2140,7 @@
       "chs": "炼狱的掘墓人——送葬尸灵",
       "en": "Grim Undertakings",
       "ja": "煉獄の墓掘人「アンダーテイカー」",
-      "de": "Rendez<SoftHyphen/>vous mit dem Tod",
+      "de": "Rendezvous mit dem Tod",
       "fr": "Défi: deux yalms sous terre"
     },
     "level": 17,
@@ -2992,7 +2992,7 @@
       "chs": "纠缠不清",
       "en": "Mud about You",
       "ja": "タングル湿林の大掃除",
-      "de": "Groß<SoftHyphen/>reine<SoftHyphen/>machen im Schlingwald",
+      "de": "Großreinemachen im Schlingwald",
       "fr": "Enchevêtrement fatal"
     },
     "level": 44,
@@ -3437,7 +3437,7 @@
       "en": "Gauging North Tidegate",
       "ja": "北防波壁の戦い：威力偵察",
       "de": "Aufklärung am Norddamm",
-      "fr": "Recon<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce au barrage du nord"
+      "fr": "Reconnaissance au barrage du nord"
     },
     "level": 44,
     "patch": 2,
@@ -3461,7 +3461,7 @@
       "en": "Gauging South Tidegate",
       "ja": "南防波壁の戦い：威力偵察",
       "de": "Aufklärung am Süddamm",
-      "fr": "Recon<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce au barrage du sud"
+      "fr": "Reconnaissance au barrage du sud"
     },
     "level": 45,
     "patch": 2,
@@ -4229,7 +4229,7 @@
       "en": "Glycon Air",
       "ja": "黒竜の使徒「グリコン」",
       "de": "Von schwarzem Blut",
-      "fr": "Défi: c'est com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment Glycon"
+      "fr": "Défi: c'est complètement Glycon"
     },
     "level": 54,
     "patch": 3,
@@ -4373,7 +4373,7 @@
       "en": "Don't Know Wyvern",
       "ja": "燃えよワイバーン",
       "de": "Brennt, Wyvern, brennt!",
-      "fr": "Wyverne de re<SoftHyphen/>pré<SoftHyphen/>sail<SoftHyphen/>les"
+      "fr": "Wyverne de représailles"
     },
     "level": 56,
     "patch": 3,
@@ -4516,7 +4516,7 @@
       "chs": "狂野来袭",
       "en": "Wild Wilde Death",
       "ja": "ワイルドでいこう！",
-      "de": "Doppelte Schädlings<SoftHyphen/>bekämpfung",
+      "de": "Doppelte Schädlingsbekämpfung",
       "fr": "D'une pierre deux nuisibles"
     },
     "level": 58,
@@ -6832,7 +6832,7 @@
       "chs": "红甲族千两首",
       "en": "Treasure Island",
       "ja": "紅甲羅千両首",
-      "de": "Schatz<SoftHyphen/>suche",
+      "de": "Schatzsuche",
       "fr": "Reprendre n'est pas voler"
     },
     "level": 63,
@@ -9233,7 +9233,7 @@
       "en": "Burning Hunger",
       "ja": "炎熱の巨人「エルドスルス」",
       "de": "Eldthurs, der feurige Gigant",
-      "fr": "Défi: un peu gluantes, mais ap<SoftHyphen/>pé<SoftHyphen/>tis<SoftHyphen/>san<SoftHyphen/>tes!"
+      "fr": "Défi: un peu gluantes, mais appétissantes!"
     },
     "level": 43,
     "patch": 4,
@@ -9484,7 +9484,7 @@
       "chs": "兵武塔调查支援",
       "en": "The Baldesion Arsenal: Expedition Support",
       "ja": "「バルデシオンアーセナル」調査支援",
-      "de": "Son<SoftHyphen/>der<SoftHyphen/>ein<SoftHyphen/>satz<SoftHyphen/>kom<SoftHyphen/>man<SoftHyphen/>do „Baldesions Arsenal“",
+      "de": "Sondereinsatzkommando „Baldesions Arsenal“",
       "fr": "Eurêka et son arsenal"
     },
     "level": 60,
@@ -10145,7 +10145,7 @@
       "en": "Ironbeard Builders - Rebuilt",
       "ja": "ビルドウォリアーズ：オートマトン製作",
       "de": "Krieg der Baumeister: Konstruktionsphase",
-      "fr": "Bataille d'ingénieurs: automate en con<SoftHyphen/>struc<SoftHyphen/>tion"
+      "fr": "Bataille d'ingénieurs: automate en construction"
     },
     "level": 78,
     "patch": 5,
@@ -10624,7 +10624,7 @@
       "chs": "寻求者之探索遗迹",
       "en": "Armadillo Peccadillo",
       "ja": "求める者たち：遺跡探索",
-      "de": "Schatz<SoftHyphen/>sucher und Kammerjäger",
+      "de": "Schatzsucher und Kammerjäger",
       "fr": "Appel à l'aide: fouilles aux ruines"
     },
     "level": 76,
@@ -13313,7 +13313,7 @@
       "en": "Incident Files: Elemental Attraction",
       "ja": "始末書ファイル：誘引された結晶獣",
       "de": "Lagebericht: Kristalline Gefahr",
-      "fr": "Rapport de dégâts: cristal recherche élément dé<SoftHyphen/>ses<SoftHyphen/>pé<SoftHyphen/>ré<SoftHyphen/>ment"
+      "fr": "Rapport de dégâts: cristal recherche élément désespérément"
     },
     "level": 85,
     "patch": 6,
@@ -13517,7 +13517,7 @@
       "en": "Devout Pilgrims vs. the Jungle Lizards",
       "ja": "ムリガ信仰：迷える巡礼者",
       "de": "Im Dienste der Mrga: Pilger in Not",
-      "fr": "Le culte des Mrga: pélerin perdu"
+      "fr": "Le culte des Mrga: pèlerin perdu"
     },
     "level": 85,
     "patch": 6,
@@ -14009,7 +14009,7 @@
       "en": "Ophion-mania",
       "ja": "人蛇大戦",
       "de": "Gefährdetes Gleichgewicht",
-      "fr": "Serpents en<SoftHyphen/>va<SoftHyphen/>his<SoftHyphen/>sants"
+      "fr": "Serpents envahissants"
     },
     "level": 86,
     "patch": 6,
@@ -14308,7 +14308,7 @@
       "chs": "漆黑的绝望——啵",
       "en": "Nevermore",
       "ja": "黒き絶望「ポォ」",
-      "de": "Ausgeburt finsterer Ver<SoftHyphen/>zweif<SoftHyphen/>lung",
+      "de": "Ausgeburt finsterer Verzweiflung",
       "fr": "Défi: l'étoile du soir"
     },
     "level": 89,
@@ -14740,7 +14740,7 @@
       "chs": "失落的山顶都城",
       "en": "Lay Off the Horns",
       "ja": "失われた山岳の都",
-      "de": "Es krazt mich gewaltig",
+      "de": "Es kratzt mich gewaltig",
       "fr": "Vandalisme cornu"
     },
     "level": 93,
@@ -14945,7 +14945,7 @@
       "en": "Invaders from Asyle",
       "ja": "インベーダー・フロム・アサイラム",
       "de": "Eindringlinge aus Asylkan",
-      "fr": "Envahisseurs en<SoftHyphen/>va<SoftHyphen/>his<SoftHyphen/>sants"
+      "fr": "Envahisseurs envahissants"
     },
     "level": 99,
     "patch": 7,
@@ -15100,7 +15100,7 @@
       "chs": "沼泽美食狂欢节",
       "en": "Crocs of the Creek",
       "ja": "湖沼の謝肉祭",
-      "de": "Hammerharte Heraus<SoftHyphen/>forde<SoftHyphen/>rung",
+      "de": "Hammerharte Herausforderung",
       "fr": "Des gloutons venus des lacs"
     },
     "level": 90,

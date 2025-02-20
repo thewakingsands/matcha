@@ -6136,7 +6136,7 @@
   },
   "620": {
     "name": {
-      "chs": "无头王者——幽黑曲偶",
+      "chs": "王者骑士——幽黑曲偶",
       "en": "A Little Knight Music",
       "ja": "偶像の王者「クロムドゥーブ」",
       "de": "Crom Dubh - König der Götzen",
@@ -10021,7 +10021,7 @@
   },
   "910": {
     "name": {
-      "chs": "未料想过的交易",
+      "chs": "一块面包的交易",
       "en": "An Unforeseen Bargain",
       "ja": "パンひとつと引き換えに",
       "de": "Der Wert einer Buuds",
@@ -11383,5 +11383,140 @@
     "item": 0,
     "itemSync": 680,
     "memberType": 1
+  },
+  "1006": {
+    "name": {
+      "chs": "",
+      "en": "Futures Rewritten (Ultimate)",
+      "ja": "絶もうひとつの未来",
+      "de": "Eine zweite Zukunft (fatal)",
+      "fr": "Avenirs réécrits (fatal)"
+    },
+    "type": 28,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1007": {
+    "name": {
+      "chs": "白虎幻巧战",
+      "en": "The Jade Stoa (Unreal)",
+      "ja": "幻白虎征魂戦",
+      "de": "Traumprüfung - Byakko",
+      "fr": "La Clairière de Jade (irréel)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 695,
+    "memberType": 3
+  },
+  "1008": {
+    "name": {
+      "chs": "废弃据点玉韦亚瓦塔实验站",
+      "en": "Yuweyawata Field Station",
+      "ja": "廃地討究 ユウェヤーワータ",
+      "de": "Forschungsstation Yuweyawata",
+      "fr": "Le centre de recherche de Yuweyawata"
+    },
+    "type": 2,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "1009": {
+    "name": {
+      "chs": "家人的温暖",
+      "en": "The Warmth of Family",
+      "ja": "王の家族",
+      "de": "Ein Land, eine Familie",
+      "fr": "La famille de l'Aurarque"
+    },
+    "type": 7,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 730,
+    "memberType": 1
+  },
+  "1012": {
+    "name": {
+      "chs": "处理显示标记的攻击",
+      "en": "React to Attack Markers",
+      "ja": "マーカーが出る攻撃に対処しよう！",
+      "de": "Achte auf Attackenmarkierungen!",
+      "fr": "Réagir à des marquages"
+    },
+    "type": 20,
+    "level": 49,
+    "levelSync": 49,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1013": {
+    "name": {
+      "chs": "处理在地面显示预兆的攻击",
+      "en": "React to Floor Markers",
+      "ja": "地面に予兆が出る攻撃に対処しよう！",
+      "de": "Achte auf Geländemarkierungen!",
+      "fr": "Réagir à des indications au sol"
+    },
+    "type": 20,
+    "level": 49,
+    "levelSync": 49,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1014": {
+    "name": {
+      "chs": "处理各种攻击",
+      "en": "React to Advanced Visual Indicators",
+      "ja": "さまざまな攻撃に対処しよう！",
+      "de": "Stelle dich allerlei Angriffsmanövern!",
+      "fr": "Réagir à des mécaniques variées"
+    },
+    "type": 20,
+    "level": 49,
+    "levelSync": 49,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1015": {
+    "name": {
+      "chs": "朱诺：第一巡行",
+      "en": "Jeuno: The First Walk",
+      "ja": "ジュノ：ザ・ファーストウォーク",
+      "de": "Jeuno: Die erste Etappe",
+      "fr": "Jeuno - La première perambulation"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 695,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "1017": {
+    "name": {
+      "chs": "永恒女王忆想歼灭战",
+      "en": "The Minstrel’s Ballad: Sphene's Burden",
+      "ja": "極エターナルクイーン討滅戦",
+      "de": "Gok Tajaal - Ewige Königin",
+      "fr": "Interphos (extrême)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 710,
+    "itemSync": 0,
+    "memberType": 3
   }
 }
