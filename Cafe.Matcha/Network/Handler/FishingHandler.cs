@@ -53,7 +53,7 @@ namespace Cafe.Matcha.Network.Handler
                     fireEvent(new FishBiteDTO()
                     {
                         Time = Helper.Now,
-                        Type = 3
+                        Type = biteTypeParsed
                     });
                 }
 

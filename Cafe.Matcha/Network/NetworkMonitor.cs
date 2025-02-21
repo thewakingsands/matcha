@@ -24,6 +24,7 @@ namespace Cafe.Matcha.Network
         private List<AbstractHandler> handlers = new List<AbstractHandler>();
         public NetworkMonitor()
         {
+            AddHandler<FishingHandler>();
             AddHandler<MarketBoardHandler>();
             AddHandler<QueueHandler>();
         }
