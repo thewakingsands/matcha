@@ -486,7 +486,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.InitZone)
             {
-                if (packet.Length != 136)
+                if (packet.Length != 144)
                 {
                     return false;
                 }
