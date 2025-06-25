@@ -5431,7 +5431,7 @@
   },
   "572": {
     "name": {
-      "chs": "第21关：贤者的试炼",
+      "chs": "第21关：贤人的试炼",
       "en": "Stage 21: Wise Words",
       "ja": "第21節：賢人ルイゾワの試練",
       "de": "Stufe 21: Die Leveilleurs",
@@ -8972,7 +8972,7 @@
   "829": {
     "name": {
       "chs": "神圣禁地深空天坑",
-      "en": "The Skydeep Cenote",
+      "en": "the Skydeep Cenote",
       "ja": "遺産踏査 天深きセノーテ",
       "de": "Himmelstiefer Cenote",
       "fr": "Le cénote des Cieux infinis"
@@ -9056,7 +9056,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 670,
-    "itemSync": 0,
+    "itemSync": 730,
     "memberType": 2
   },
   "835": {
@@ -11051,7 +11051,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 670,
-    "itemSync": 0,
+    "itemSync": 730,
     "memberType": 2
   },
   "982": {
@@ -11396,22 +11396,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 0,
-    "itemSync": 0,
-    "memberType": 3
-  },
-  "1007": {
-    "name": {
-      "chs": "白虎幻巧战",
-      "en": "The Jade Stoa (Unreal)",
-      "ja": "幻白虎征魂戦",
-      "de": "Traumprüfung - Byakko",
-      "fr": "La Clairière de Jade (irréel)"
-    },
-    "type": 4,
-    "level": 100,
-    "levelSync": 100,
-    "item": 690,
-    "itemSync": 695,
+    "itemSync": 735,
     "memberType": 3
   },
   "1008": {
@@ -11426,7 +11411,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 690,
-    "itemSync": 0,
+    "itemSync": 730,
     "memberType": 2
   },
   "1009": {
@@ -11443,6 +11428,21 @@
     "item": 0,
     "itemSync": 730,
     "memberType": 1
+  },
+  "1010": {
+    "name": {
+      "chs": "暗黑之云诛灭战",
+      "en": "The Cloud of Darkness (Chaotic)",
+      "ja": "滅暗闇の雲激闘戦",
+      "de": "Die Wolke der Dunkelheit (chaotisch)",
+      "fr": "La Tour de Ténèbres (chaotique)"
+    },
+    "type": 37,
+    "level": 100,
+    "levelSync": 100,
+    "item": 710,
+    "itemSync": 735,
+    "memberType": 33
   },
   "1012": {
     "name": {
@@ -11504,10 +11504,25 @@
     "itemSync": 0,
     "memberType": 4
   },
+  "1016": {
+    "name": {
+      "chs": "决战！佐戈永结桥",
+      "en": "Bar the Passage",
+      "ja": "決戦、ゾーゴー永結橋",
+      "de": "Kampf an Zorgor der Weiten",
+      "fr": "Pour s'affranchir de la tyrannie, tout s'appelle vertu"
+    },
+    "type": 7,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 730,
+    "memberType": 1
+  },
   "1017": {
     "name": {
       "chs": "永恒女王忆想歼灭战",
-      "en": "The Minstrel’s Ballad: Sphene's Burden",
+      "en": "The Minstrel's Ballad: Sphene's Burden",
       "ja": "極エターナルクイーン討滅戦",
       "de": "Gok Tajaal - Ewige Königin",
       "fr": "Interphos (extrême)"
@@ -11516,6 +11531,186 @@
     "level": 100,
     "levelSync": 100,
     "item": 710,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1019": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 中量级1",
+      "en": "AAC Cruiserweight M1",
+      "ja": "至天の座アルカディア：クルーザー級1",
+      "de": "Arkadion - Schwergewicht R1",
+      "fr": "Poids lourds-légers CCA - match 1"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 715,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1020": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 中量级1",
+      "en": "AAC Cruiserweight M1 (Savage)",
+      "ja": "至天の座アルカディア零式：クルーザー級1",
+      "de": "Arkadion - Schwergewicht R1 (episch)",
+      "fr": "Poids lourds-légers CCA - match 1 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 730,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1021": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 中量级2",
+      "en": "AAC Cruiserweight M2",
+      "ja": "至天の座アルカディア：クルーザー級2",
+      "de": "Arkadion - Schwergewicht R2",
+      "fr": "Poids lourds-légers CCA - match 2"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 715,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1022": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 中量级2",
+      "en": "AAC Cruiserweight M2 (Savage)",
+      "ja": "至天の座アルカディア零式：クルーザー級2",
+      "de": "Arkadion - Schwergewicht R2 (episch)",
+      "fr": "Poids lourds-légers CCA - match 2 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 735,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1023": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 中量级3",
+      "en": "AAC Cruiserweight M3",
+      "ja": "至天の座アルカディア：クルーザー級3",
+      "de": "Arkadion - Schwergewicht R3",
+      "fr": "Poids lourds-légers CCA - match 3"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 715,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1024": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 中量级3",
+      "en": "AAC Cruiserweight M3 (Savage)",
+      "ja": "至天の座アルカディア零式：クルーザー級3",
+      "de": "Arkadion - Schwergewicht R3 (episch)",
+      "fr": "Poids lourds-légers CCA - match 3 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 740,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1025": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 中量级4",
+      "en": "AAC Cruiserweight M4",
+      "ja": "至天の座アルカディア：クルーザー級4",
+      "de": "Arkadion - Schwergewicht R4",
+      "fr": "Poids lourds-légers CCA - match 4"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 715,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1026": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 中量级4",
+      "en": "AAC Cruiserweight M4 (Savage)",
+      "ja": "至天の座アルカディア零式：クルーザー級4",
+      "de": "Arkadion - Schwergewicht R4 (episch)",
+      "fr": "Poids lourds-légers CCA - match 4 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 740,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1027": {
+    "name": {
+      "chs": "王城古迹永护塔底",
+      "en": "the Underkeep",
+      "ja": "王城旧跡 アンダーキープ",
+      "de": "Unterfried-Ruinen",
+      "fr": "La Gardienne de l'Immémorial"
+    },
+    "type": 2,
+    "level": 100,
+    "levelSync": 100,
+    "item": 705,
+    "itemSync": 0,
+    "memberType": 2
+  },
+  "1029": {
+    "name": {
+      "chs": "朱雀幻巧战",
+      "en": "Hells' Kier (Unreal)",
+      "ja": "幻朱雀征魂戦",
+      "de": "Traumprüfung - Suzaku",
+      "fr": "Le Nid des Lamentations (irréel)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 695,
+    "memberType": 3
+  },
+  "1030": {
+    "name": {
+      "chs": "泽莲尼娅歼灭战",
+      "en": "Recollection",
+      "ja": "ゼレニア討滅戦",
+      "de": "Zel Tajaal - Zelenia",
+      "fr": "Le Sanctuaire du Serment"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 715,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1031": {
+    "name": {
+      "chs": "泽莲尼娅歼殛战",
+      "en": "Recollection (Extreme)",
+      "ja": "極ゼレニア討滅戦",
+      "de": "Gok Tajaal - Zelenia",
+      "fr": "Le Sanctuaire du Serment (extrême)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 730,
     "itemSync": 0,
     "memberType": 3
   }

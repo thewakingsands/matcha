@@ -202,20 +202,6 @@
     "de": "Pharos Sirius",
     "fr": "Phare de Sirius"
   },
-  "162": {
-    "chs": "日影地修炼所",
-    "en": "Halatali",
-    "ja": "ハラタリ修練所",
-    "de": "Halatali",
-    "fr": "Halatali"
-  },
-  "163": {
-    "chs": "喀恩埋没圣堂",
-    "en": "The Sunken Temple of Qarn",
-    "ja": "カルン埋没寺院",
-    "de": "Versunkener Tempel von Qarn",
-    "fr": "Temple enseveli de Qarn"
-  },
   "167": {
     "chs": "无限城古堡",
     "en": "Amdapor Keep",
@@ -3079,13 +3065,6 @@
     "de": "Azim-Steppe",
     "fr": "Steppe d'Azim"
   },
-  "623": {
-    "chs": "巴儿达木霸道",
-    "en": "Bardam's Mettle",
-    "ja": "バルダム覇道",
-    "de": "Bardams Probe",
-    "fr": "Force de Bardam"
-  },
   "624": {
     "chs": "云冠群岛",
     "en": "The Diadem",
@@ -3099,13 +3078,6 @@
     "ja": "ディアデム諸島",
     "de": "Das Diadem",
     "fr": "Le Diadème"
-  },
-  "626": {
-    "chs": "妖歌海",
-    "en": "The Sirensong Sea",
-    "ja": "セイレーン海",
-    "de": "Sirenen-See",
-    "fr": "Mer du Chant des sirènes"
   },
   "627": {
     "chs": "影之国",
@@ -3281,20 +3253,6 @@
     "ja": "ラールガーズリーチ",
     "de": "Rhalgrs Wacht",
     "fr": "L'Étendue de Rhalgr"
-  },
-  "660": {
-    "chs": "多玛王城",
-    "en": "Doma Castle",
-    "ja": "ドマ城",
-    "de": "Burg Doma",
-    "fr": "Château de Doma"
-  },
-  "661": {
-    "chs": "帝国白山堡",
-    "en": "Castrum Abania",
-    "ja": "カストルム・アバニア",
-    "de": "Castrum Abania",
-    "fr": "Castrum Abania"
   },
   "662": {
     "chs": "黄金阁",
@@ -3484,13 +3442,6 @@
     "ja": "アジムステップ",
     "de": "Azim-Steppe",
     "fr": "Steppe d'Azim"
-  },
-  "689": {
-    "chs": "阿拉米格",
-    "en": "Ala Mhigo",
-    "ja": "アラミゴ",
-    "de": "Ala Mhigo",
-    "fr": "Ala Mhigo"
   },
   "690": {
     "chs": "时空狭缝",
@@ -3778,13 +3729,6 @@
     "ja": "結晶化空間",
     "de": "Raum der Transparenz",
     "fr": "Transparence"
-  },
-  "731": {
-    "chs": "斯卡拉遗迹",
-    "en": "The Drowned City of Skalla",
-    "ja": "スカラ",
-    "de": "Die versunkene Stadt Skalla",
-    "fr": "Cité engloutie de Skalla"
   },
   "732": {
     "chs": "优雷卡常风之地",
@@ -4150,13 +4094,6 @@
     "de": "Sankt Mocianne-Arboretum",
     "fr": "Arboretum Sainte-Mocianne"
   },
-  "789": {
-    "chs": "终末焦土",
-    "en": "The Burn",
-    "ja": "ザ・バーン",
-    "de": "Kargland",
-    "fr": "L'Escarre"
-  },
   "790": {
     "chs": "乌尔达哈现世回廊",
     "en": "Ul'dah - Steps of Nald",
@@ -4177,13 +4114,6 @@
     "ja": "ベラフディア遺跡風特設アスレチック",
     "de": "Belah'dias Fall",
     "fr": "Chutes de Belah'dia"
-  },
-  "793": {
-    "chs": "基姆利特暗区",
-    "en": "The Ghimlyt Dark",
-    "ja": "ギムリトダーク",
-    "de": "Ghimlyt-Finsternis",
-    "fr": "Les Ténèbres de Ghimlyt"
   },
   "794": {
     "chs": "乌兹奈藏宝运河神殿",
@@ -7132,6 +7062,13 @@
     "de": "Südliches Thanalan",
     "fr": "Thanalan méridional"
   },
+  "1237": {
+    "chs": "憧憬湾",
+    "en": "",
+    "ja": "",
+    "de": "",
+    "fr": ""
+  },
   "1238": {
     "chs": "另一个未来",
     "en": "A Future Rewritten",
@@ -7139,12 +7076,12 @@
     "de": "Eine zweite Zukunft",
     "fr": "Avenirs réécrits"
   },
-  "1239": {
-    "chs": "白帝竹林",
-    "en": "The Jade Stoa",
-    "ja": "白帝の竹林",
-    "de": "Jadelichtung",
-    "fr": "Clairière de Jade"
+  "1241": {
+    "chs": "暗黑领域",
+    "en": "Sphere of Naught",
+    "ja": "暗闇の領域",
+    "de": "Sphäre der Leere",
+    "fr": "Sphère de l'absence"
   },
   "1242": {
     "chs": "玉韦亚瓦塔",
@@ -7174,6 +7111,13 @@
     "de": "Halatali",
     "fr": "Halatali"
   },
+  "1246": {
+    "chs": "佐戈永结桥",
+    "en": "Zorgor the Boundless",
+    "ja": "ゾーゴー永結橋",
+    "de": "Zorgor die Weite",
+    "fr": "Traverse de Zorgor"
+  },
   "1247": {
     "chs": "星芒市场",
     "en": "Starlight Stalls",
@@ -7202,6 +7146,69 @@
     "de": "Yuweyawata",
     "fr": "Yuweyawata"
   },
+  "1255": {
+    "chs": "临时面试会场",
+    "en": "Hall of the Unbound",
+    "ja": "仮設オーディション会場",
+    "de": "Audienzsaal",
+    "fr": "Salle d'audition des Affranchis"
+  },
+  "1256": {
+    "chs": "劲舞格斗场",
+    "en": "Groovy Ring",
+    "ja": "リング・オブ・ダンス",
+    "de": "Tanzring",
+    "fr": "Ring des Chorégraphies endiablées"
+  },
+  "1257": {
+    "chs": "劲舞格斗场",
+    "en": "Groovy Ring",
+    "ja": "リング・オブ・ダンス",
+    "de": "Tanzring",
+    "fr": "Ring des Chorégraphies endiablées"
+  },
+  "1258": {
+    "chs": "艺术格斗场",
+    "en": "Rebel Ring",
+    "ja": "リング・オブ・アート",
+    "de": "Kunstring",
+    "fr": "Ring de l'Inspiration artistique"
+  },
+  "1259": {
+    "chs": "艺术格斗场",
+    "en": "Rebel Ring",
+    "ja": "リング・オブ・アート",
+    "de": "Kunstring",
+    "fr": "Ring de l'Inspiration artistique"
+  },
+  "1260": {
+    "chs": "第八层建设区域",
+    "en": "Demolition Site",
+    "ja": "第八層建設区域",
+    "de": "Neubaugebiet der achten Ebene",
+    "fr": "Site de construction du huitième étage"
+  },
+  "1261": {
+    "chs": "第八层建设区域",
+    "en": "Demolition Site",
+    "ja": "第八層建設区域",
+    "de": "Neubaugebiet der achten Ebene",
+    "fr": "Site de construction du huitième étage"
+  },
+  "1262": {
+    "chs": "独狼格斗场",
+    "en": "Hunter's Ring",
+    "ja": "リング・オブ・ウルフ",
+    "de": "Wolfsring",
+    "fr": "Ring du Champion lupin"
+  },
+  "1263": {
+    "chs": "独狼格斗场",
+    "en": "Hunter's Ring",
+    "ja": "リング・オブ・ウルフ",
+    "de": "Wolfsring",
+    "fr": "Ring du Champion lupin"
+  },
   "1264": {
     "chs": "朱诺下层",
     "en": "Lower Jeuno",
@@ -7215,5 +7222,75 @@
     "ja": "ジュノ下層",
     "de": "Unter-Jeuno",
     "fr": "Bas Jeuno"
+  },
+  "1266": {
+    "chs": "永护塔底",
+    "en": "The Underkeep",
+    "ja": "アンダーキープ",
+    "de": "Unterfried",
+    "fr": "Gardienne de l'Immémorial"
+  },
+  "1267": {
+    "chs": "喀恩埋没圣堂",
+    "en": "The Sunken Temple of Qarn",
+    "ja": "カルン埋没寺院",
+    "de": "Versunkener Tempel von Qarn",
+    "fr": "Temple enseveli de Qarn"
+  },
+  "1268": {
+    "chs": "休息室",
+    "en": "Break Room",
+    "ja": "仮眠室",
+    "de": "Ruheraum",
+    "fr": "Salle de repos"
+  },
+  "1270": {
+    "chs": "王座大殿",
+    "en": "Recollection",
+    "ja": "玉座の間",
+    "de": "Audienzhalle",
+    "fr": "Salle du trône séculaire"
+  },
+  "1271": {
+    "chs": "王座大殿",
+    "en": "Recollection",
+    "ja": "玉座の間",
+    "de": "Audienzhalle",
+    "fr": "Salle du trône séculaire"
+  },
+  "1272": {
+    "chs": "狱之底",
+    "en": "Hells' Kier",
+    "ja": "獄之底",
+    "de": "Höllengrund",
+    "fr": "Fond des enfers"
+  },
+  "1273": {
+    "chs": "加尔提诺平原周边遗迹群",
+    "en": "Carteneau Flats: Borderland Ruins",
+    "ja": "カルテノー平原：外縁遺跡群",
+    "de": "Äußere Ruinen",
+    "fr": "Ruines frontalières"
+  },
+  "1274": {
+    "chs": "王座大殿",
+    "en": "Throne Room",
+    "ja": "玉座の間",
+    "de": "Audienzhalle",
+    "fr": "Salle du trône séculaire"
+  },
+  "1275": {
+    "chs": "王座大殿",
+    "en": "Recollection",
+    "ja": "玉座の間",
+    "de": "Audienzhalle",
+    "fr": "Salle du trône séculaire"
+  },
+  "1276": {
+    "chs": "第八层建设区域",
+    "en": "Demolition Site",
+    "ja": "第八層建設区域",
+    "de": "Neubaugebiet der achten Ebene",
+    "fr": "Site de construction du huitième étage"
   }
 }
