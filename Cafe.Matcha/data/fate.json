@@ -15514,5 +15514,521 @@
     "level": 98,
     "patch": 7,
     "location": 1191
+  },
+  "1962": {
+    "name": {
+      "chs": "涌潮海魔——纳木",
+      "en": "Rough Waters",
+      "ja": "波起こしの海魔「ナンム」",
+      "de": "Die Wogen glätten",
+      "fr": "Défi: pas de vagues"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1963": {
+    "name": {
+      "chs": "古代怪石——金色石碑",
+      "en": "The Golden Guardian",
+      "ja": "金色の怪石「ゴールデンブロックス」",
+      "de": "Brocken statt Barren",
+      "fr": "Défi: tombe vingt-quatre carats"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1964": {
+    "name": {
+      "chs": "悲鸣收集者——罗普罗斯",
+      "en": "King of the Crescent",
+      "ja": "悲鳴の蒐集者「ロプロス」",
+      "de": "Geißel Kreszentias",
+      "fr": "Défi: la bête sadique"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1965": {
+    "name": {
+      "chs": "甲板清扫者——巨大鸟",
+      "en": "The Winged Terror",
+      "ja": "甲板の掃除人「巨大鳥」",
+      "de": "Dämonenvogel am Spieß",
+      "fr": "Défi: je fus zu"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1966": {
+    "name": {
+      "chs": "神罚石兽——西西弗斯",
+      "en": "An Unending Duty",
+      "ja": "神罰の石獣「シジフォス」",
+      "de": "Los, Sisyphos, Donnerblitz!",
+      "fr": "Défi: pierre de tonnerre"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1967": {
+    "name": {
+      "chs": "进化的毒鸟——高等魔鸟",
+      "en": "Brain Drain",
+      "ja": "進化せし怪蛇「アドバンスドエイビス」",
+      "de": "Aspho ... asphy ... scheintot!",
+      "fr": "Défi: le poison de l'évolution"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1968": {
+    "name": {
+      "chs": "湿度猎手——除湿之火",
+      "en": "A Delicate Balance",
+      "ja": "湿度の狩手「ディヒューミディファイア」",
+      "de": "Kampf um Leben und Schweiß",
+      "fr": "Défi: humidité zéro"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1969": {
+    "name": {
+      "chs": "土壤守护者——癫泥怪",
+      "en": "Sworn to Soil",
+      "ja": "土壌の守り手「マッドマッド」",
+      "de": "Kampf um Leben und Boden unter den Füßen",
+      "fr": "Défi: rester de boue"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1970": {
+    "name": {
+      "chs": "监视之瞳——岛屿监视者",
+      "en": "A Prying Eye",
+      "ja": "監視の瞳「アイルオブザーバー」",
+      "de": "Wächter des Lebens",
+      "fr": "Défi: un œil sur l'île"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1971": {
+    "name": {
+      "chs": "美丽的咒杀者——执行者",
+      "en": "Fatal Allure",
+      "ja": "美しき呪殺者「イグゼクレーター」",
+      "de": "Tückische Schönheit",
+      "fr": "Défi: la belle mort"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1972": {
+    "name": {
+      "chs": "凶恶使魔——生命收割者",
+      "en": "Serving Darkness",
+      "ja": "命の収奪者「ライフギャザラー」",
+      "de": "Seelen sammeln für den bösen Zweck",
+      "fr": "Défi: collecte mortelle"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1976": {
+    "name": {
+      "chs": "幸福的魔法罐",
+      "en": "Persistent Pots",
+      "ja": "しあわせのマジックポット",
+      "de": "Freude im Pott",
+      "fr": "Pas de pot pour les pots"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1977": {
+    "name": {
+      "chs": "瑟瑟发抖的魔法罐",
+      "en": "Pleading Pots",
+      "ja": "カチカチのマジックポット",
+      "de": "Wunder im Pott",
+      "fr": "Mauvais œil pour les pots"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1978": {
+    "name": {
+      "chs": "第一次基地扩建工程",
+      "en": "Base Camp Alpha Expansion",
+      "ja": "第一次基地拡張計画",
+      "de": "Mondtor-Station: Erweiterung I",
+      "fr": "Premier agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1979": {
+    "name": {
+      "chs": "第一次宇宙飞线铺设工程支援行动",
+      "en": "Cosmoliner Alpha Construction Support",
+      "ja": "第一次コスモライナー敷設支援",
+      "de": "Kosmozapper: Bauunterstützung I",
+      "fr": "Mise en place du premier réseau de cosmo-navettes"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1980": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung I",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1981": {
+    "name": {
+      "chs": "第一次宇宙港建设工程支援行动",
+      "en": "Cosmoport Alpha Maintenance Support",
+      "ja": "第一次コスモポート整備支援",
+      "de": "Kosmoport: Bauunterstützung I",
+      "fr": "Premier aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1982": {
+    "name": {
+      "chs": "第一次机甲库扩建工程",
+      "en": "Mech Hangar Alpha Expansion",
+      "ja": "第一次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung I",
+      "fr": "Premier agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1983": {
+    "name": {
+      "chs": "第一次隧道贯通工程施工",
+      "en": "Tunnel Project Alpha Excavation",
+      "ja": "第一次トンネル掘削工事",
+      "de": "Tunnel: Aushubarbeiten I",
+      "fr": "Première excavation du tunnel"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1984": {
+    "name": {
+      "chs": "第二次隧道贯通工程施工",
+      "en": "Tunnel Project Beta Excavation",
+      "ja": "第二次トンネル掘削工事",
+      "de": "Tunnel: Aushubarbeiten II",
+      "fr": "Seconde excavation du tunnel"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1985": {
+    "name": {
+      "chs": "第二次基地扩建工程",
+      "en": "Base Camp Beta Expansion",
+      "ja": "第二次基地拡張計画",
+      "de": "Mondtor-Station: Erweiterung II",
+      "fr": "Second agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1986": {
+    "name": {
+      "chs": "能源设施扩建工程支援行动",
+      "en": "Energization Expansion Support",
+      "ja": "エネルギー設備拡充支援",
+      "de": "Energisierungswerke: Erweiterung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1987": {
+    "name": {
+      "chs": "供水设施扩建工程支援行动",
+      "en": "Hydrofication Expansion Support",
+      "ja": "給水設備拡充支援",
+      "de": "Hydrofizierungswerke: Erweiterung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1988": {
+    "name": {
+      "chs": "第二次机甲库扩建工程",
+      "en": "Mech Hangar Beta Expansion",
+      "ja": "第二次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung II",
+      "fr": "Second agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1989": {
+    "name": {
+      "chs": "第二次宇宙港建设工程支援行动",
+      "en": "Cosmoport Beta Maintenance",
+      "ja": "第二次コスモポート整備作業",
+      "de": "Kosmoport: Bauunterstützung II",
+      "fr": "Second aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1990": {
+    "name": {
+      "chs": "第一次升降梯建设用地整备工程",
+      "en": "Nadir Lift Site Preparation",
+      "ja": "第一次リフト用地整備",
+      "de": "Lift: Vorbereitungsarbeiten I",
+      "fr": "Première préparation du site pour l'ascenseur"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1991": {
+    "name": {
+      "chs": "第二次升降梯建设用地整备工程",
+      "en": "Nadir Lift Beta Site Preparation",
+      "ja": "第二次リフト用地整備",
+      "de": "Lift: Vorbereitungsarbeiten II",
+      "fr": "Seconde préparation du site pour l'ascenseur"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1992": {
+    "name": {
+      "chs": "基地综合设施扩建工程",
+      "en": "Base Camp Facility Expansion",
+      "ja": "基地総合設備拡充工事",
+      "de": "Expansion der Stationsstrukturen",
+      "fr": "Agrandissement général des installations"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1993": {
+    "name": {
+      "chs": "第一次基地扩建工程",
+      "en": "Base Camp Alpha Expansion",
+      "ja": "第一次基地拡張計画",
+      "de": "Mondtor-Station: Erweiterung I",
+      "fr": "Premier agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1994": {
+    "name": {
+      "chs": "第一次宇宙飞线铺设工程支援行动",
+      "en": "Cosmoliner Alpha Construction Support",
+      "ja": "第一次コスモライナー敷設支援",
+      "de": "Kosmozapper: Bauunterstützung I",
+      "fr": "Mise en place du premier réseau de cosmo-navettes"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1995": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung I",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1996": {
+    "name": {
+      "chs": "第一次宇宙港建设工程支援行动",
+      "en": "Cosmoport Alpha Maintenance Support",
+      "ja": "第一次コスモポート整備支援",
+      "de": "Kosmoport: Bauunterstützung I",
+      "fr": "Premier aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1997": {
+    "name": {
+      "chs": "第一次机甲库扩建工程",
+      "en": "Mech Hangar Alpha Expansion",
+      "ja": "第一次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung I",
+      "fr": "Premier agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1998": {
+    "name": {
+      "chs": "第一次隧道贯通工程施工",
+      "en": "Tunnel Project Alpha Excavation",
+      "ja": "第一次トンネル掘削工事",
+      "de": "Tunnel: Aushubarbeiten I",
+      "fr": "Première excavation du tunnel"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "1999": {
+    "name": {
+      "chs": "第二次隧道贯通工程施工",
+      "en": "Tunnel Project Beta Excavation",
+      "ja": "第二次トンネル掘削工事",
+      "de": "Tunnel: Aushubarbeiten II",
+      "fr": "Seconde excavation du tunnel"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2000": {
+    "name": {
+      "chs": "第二次基地扩建工程",
+      "en": "Base Camp Beta Expansion",
+      "ja": "第二次基地拡張計画",
+      "de": "Mondtor-Station: Erweiterung II",
+      "fr": "Second agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2001": {
+    "name": {
+      "chs": "能源设施扩建工程支援行动",
+      "en": "Energization Expansion Support",
+      "ja": "エネルギー設備拡充支援",
+      "de": "Energisierungswerke: Erweiterung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2002": {
+    "name": {
+      "chs": "供水设施扩建工程支援行动",
+      "en": "Hydrofication Expansion Support",
+      "ja": "給水設備拡充支援",
+      "de": "Hydrofizierungswerke: Erweiterung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2003": {
+    "name": {
+      "chs": "第二次机甲库扩建工程",
+      "en": "Mech Hangar Beta Expansion",
+      "ja": "第二次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung II",
+      "fr": "Second agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2004": {
+    "name": {
+      "chs": "第二次宇宙港建设工程支援行动",
+      "en": "Cosmoport Beta Maintenance",
+      "ja": "第二次コスモポート整備作業",
+      "de": "Kosmoport: Bauunterstützung II",
+      "fr": "Second aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2005": {
+    "name": {
+      "chs": "第一次升降梯建设用地整备工程",
+      "en": "Nadir Lift Site Preparation",
+      "ja": "第一次リフト用地整備",
+      "de": "Lift: Vorbereitungsarbeiten I",
+      "fr": "Première préparation du site pour l'ascenseur"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2006": {
+    "name": {
+      "chs": "第二次升降梯建设用地整备工程",
+      "en": "Nadir Lift Beta Site Preparation",
+      "ja": "第二次リフト用地整備",
+      "de": "Lift: Vorbereitungsarbeiten II",
+      "fr": "Seconde préparation du site pour l'ascenseur"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2007": {
+    "name": {
+      "chs": "基地综合设施扩建工程",
+      "en": "Base Camp Facility Expansion",
+      "ja": "基地総合設備拡充工事",
+      "de": "Expansion der Stationsstrukturen",
+      "fr": "Agrandissement général des installations"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
   }
 }

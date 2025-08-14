@@ -7064,10 +7064,10 @@
   },
   "1237": {
     "chs": "憧憬湾",
-    "en": "",
-    "ja": "",
-    "de": "",
-    "fr": ""
+    "en": "Sinus Ardorum",
+    "ja": "焦がれの入江",
+    "de": "Sinus Ardorum",
+    "fr": "Sinus Ardorum"
   },
   "1238": {
     "chs": "另一个未来",
@@ -7131,6 +7131,13 @@
     "ja": "ジュノ：ザ・ファーストウォーク",
     "de": "Jeuno: Die erste Etappe",
     "fr": "Jeuno - La première perambulation"
+  },
+  "1252": {
+    "chs": "新月岛南部",
+    "en": "South Horn",
+    "ja": "三日月島南部",
+    "de": "Südliches Kreszentia",
+    "fr": "Île de Lunule méridionale"
   },
   "1253": {
     "chs": "星芒市场",
@@ -7244,6 +7251,13 @@
     "de": "Ruheraum",
     "fr": "Salle de repos"
   },
+  "1269": {
+    "chs": "幻境村",
+    "en": "Phantom Village",
+    "ja": "蜃気楼の町",
+    "de": "Trugstadt",
+    "fr": "Ville fantôme"
+  },
   "1270": {
     "chs": "王座大殿",
     "en": "Recollection",
@@ -7292,5 +7306,19 @@
     "ja": "第八層建設区域",
     "de": "Neubaugebiet der achten Ebene",
     "fr": "Site de construction du huitième étage"
+  },
+  "1277": {
+    "chs": "航船甲板",
+    "en": "Main Deck",
+    "ja": "大洋の船上",
+    "de": "Auf hoher See",
+    "fr": "Pont du navire"
+  },
+  "1278": {
+    "chs": "幻境村",
+    "en": "Phantom Village",
+    "ja": "蜃気楼の町",
+    "de": "Trugstadt",
+    "fr": "Ville fantôme"
   }
 }

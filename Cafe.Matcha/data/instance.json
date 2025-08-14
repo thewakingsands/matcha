@@ -11534,6 +11534,21 @@
     "itemSync": 0,
     "memberType": 3
   },
+  "1018": {
+    "name": {
+      "chs": "蜃景幻界新月岛 南征之章",
+      "en": "the Occult Crescent: South Horn",
+      "ja": "蜃気楼の島 クレセントアイル：南征編",
+      "de": "Das südliche Kreszentia",
+      "fr": "Île de Lunule méridionale"
+    },
+    "type": 38,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 700,
+    "memberType": 35
+  },
   "1019": {
     "name": {
       "chs": "阿卡狄亚登天斗技场 中量级1",
