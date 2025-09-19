@@ -189,7 +189,7 @@
                             <GroupBox Header="挖宝播报" Height="52" VerticalAlignment="Top" Grid.Column="1" Margin="3,0,3,0">
                                 <CheckBox Content="结果预报" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.Treasure.Result, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
                             </GroupBox>
-                            <GroupBox Header="博兹雅播报" Height="52" VerticalAlignment="Top" Grid.Column="2" Margin="3,0,0,0">
+                            <GroupBox Header="特殊场景探索" Height="52" VerticalAlignment="Top" Grid.Column="2" Margin="3,0,0,0">
                                 <CheckBox Content="遭遇战" HorizontalAlignment="Left" Margin="6,0,0,0" IsChecked="{Binding Formatter.CriticalEngagement.Name, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" VerticalAlignment="Center"/>
                             </GroupBox>
                         </Grid>
