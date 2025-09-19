@@ -287,7 +287,142 @@
       "fr": "La revanche de Lyon"
     }
   },
-  "NaN": {
+  "1252000": {
+    "name": {
+      "chs": "两歧塔 力之塔",
+      "en": "The Forked Tower: Blood",
+      "ja": "フォークタワー：力の塔",
+      "de": "Der Turm des Blutes",
+      "fr": "Tour fourchue de la Force"
+    }
+  },
+  "1252001": {
+    "name": {
+      "chs": "脑髓爱好者——夺心魔",
+      "en": "Scourge of the Mind",
+      "ja": "脳髄愛好家「マインドフレイア」",
+      "de": "Die Geißel des Geistes",
+      "fr": "Défi : l'encéphalophage"
+    }
+  },
+  "1252002": {
+    "name": {
+      "chs": "黑色连队",
+      "en": "The Black Regiment",
+      "ja": "黒の連隊",
+      "de": "Das schwarze Regiment",
+      "fr": "Plumes d'encre"
+    }
+  },
+  "1252003": {
+    "name": {
+      "chs": "愤怒的人造人——新月狂战士",
+      "en": "The Unbridled",
+      "ja": "怒れる人造人間「クレセント・バーサーカー」",
+      "de": "Zorn auf zwei Beinen",
+      "fr": "Défi : le rageux"
+    }
+  },
+  "1252004": {
+    "name": {
+      "chs": "潜影撕裂者——死亡爪",
+      "en": "Crawling Death",
+      "ja": "忍び寄る爪「デスクロー」",
+      "de": "Das messerscharfe Schicksal",
+      "fr": "Défi : face de griffes"
+    }
+  },
+  "1252005": {
+    "name": {
+      "chs": "挣脱封印的大妖异——回廊恶魔",
+      "en": "Calamity Bound",
+      "ja": "封印大妖「クロイスターデーモン」",
+      "de": "Das versiegelte Unheil",
+      "fr": "Défi : Cloître à perpétuité"
+    }
+  },
+  "1252006": {
+    "name": {
+      "chs": "拟造使魔——水晶龙",
+      "en": "Trial by Claw",
+      "ja": "模造されしもの「水晶竜」",
+      "de": "Tödliche Schönheit",
+      "fr": "Défi : écailles de cristal"
+    }
+  },
+  "1252007": {
+    "name": {
+      "chs": "双极的造物——神秘土偶",
+      "en": "From Times Bygone",
+      "ja": "神秘の偶像「ミシカルアイドル」",
+      "de": "Von uralten Magien",
+      "fr": "Défi : idole surprise"
+    }
+  },
+  "1252008": {
+    "name": {
+      "chs": "石制骑士团",
+      "en": "Company of Stone",
+      "ja": "石造りの守護騎士たち",
+      "de": "Die steinerne Staffel",
+      "fr": "L'armée des argileux"
+    }
+  },
+  "1252009": {
+    "name": {
+      "chs": "传说中的鲨鱼——尼姆瓣齿鲨",
+      "en": "Shark Attack",
+      "ja": "伝説の鮫「ニーム・ペタロドゥス」",
+      "de": "Jäger aus alten Legenden",
+      "fr": "Défi : homo selachus"
+    }
+  },
+  "1252010": {
+    "name": {
+      "chs": "双足狮人——跃立狮",
+      "en": "On the Hunt",
+      "ja": "二足の獅子「ランパントライオン」",
+      "de": "Gefürchtetes Gebrüll",
+      "fr": "Défi : à rugir debout"
+    }
+  },
+  "1252011": {
+    "name": {
+      "chs": "防卫指令",
+      "en": "With Extreme Prejudice",
+      "ja": "セキュリティ・コマンドー",
+      "de": "Mit absoluter Sicherheit",
+      "fr": "Cordon de sécurité"
+    }
+  },
+  "1252012": {
+    "name": {
+      "chs": "厌鸟巨兽——进化加鲁拉",
+      "en": "Noise Complaint",
+      "ja": "鳥嫌いの巨獣「ネオガルラ」",
+      "de": "Keine Gnade dem Gefieder",
+      "fr": "Défi : mammouth fâché"
+    }
+  },
+  "1252013": {
+    "name": {
+      "chs": "贩卖诅咒的商贩——金钱龟",
+      "en": "Cursed Concern",
+      "ja": "呪いの商亀「コイントートス」",
+      "de": "Das Feilschen ums Verfluchte",
+      "fr": "Défi : être aux pièces"
+    }
+  },
+  "1252014": {
+    "name": {
+      "chs": "城塞守卫——复原狮像",
+      "en": "Eternal Watch",
+      "ja": "復元された獅子像「リペアドライオン」",
+      "de": "Ausgebessert und verbessert",
+      "fr": "Défi : comme un lion nouveau"
+    }
+  },
+  "1252015": {
     "name": {
       "chs": "昏暗妖魂——鬼火苗",
       "en": "Flame of Dusk",

@@ -32,8 +32,8 @@
       "fr": "スプリガンのお引っ越し"
     },
     "level": 30,
-    "patch": 2,
-    "location": 148
+    "patch": 0,
+    "location": 0
   },
   "123": {
     "name": {
@@ -2493,7 +2493,7 @@
     },
     "level": 20,
     "patch": 2,
-    "location": 139
+    "location": 510
   },
   "455": {
     "name": {
@@ -3142,6 +3142,90 @@
     "level": 44,
     "patch": 2,
     "location": 156
+  },
+  "532": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 32,
+    "patch": 0,
+    "location": 0
+  },
+  "533": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 5,
+    "patch": 2,
+    "location": 254
+  },
+  "534": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 13,
+    "patch": 0,
+    "location": 0
+  },
+  "535": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 5,
+    "patch": 0,
+    "location": 0
+  },
+  "536": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 15,
+    "patch": 0,
+    "location": 0
+  },
+  "537": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 11,
+    "patch": 0,
+    "location": 0
+  },
+  "538": {
+    "name": {
+      "chs": "大炎兽归来",
+      "en": "Return of the King",
+      "ja": "帰ってきた大炎獣「キングボンバード」",
+      "de": "Comeback mit Knall",
+      "fr": "Le retour d'un roi"
+    },
+    "level": 6,
+    "patch": 0,
+    "location": 0
   },
   "540": {
     "name": {
@@ -6668,8 +6752,8 @@
       "fr": "Défi: la philosophie d'Agni"
     },
     "level": 62,
-    "patch": 4,
-    "location": 613
+    "patch": 0,
+    "location": 0
   },
   "1149": {
     "name": {
@@ -15524,8 +15608,8 @@
       "fr": "Défi: pas de vagues"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1963": {
     "name": {
@@ -15536,8 +15620,8 @@
       "fr": "Défi: tombe vingt-quatre carats"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1964": {
     "name": {
@@ -15548,8 +15632,8 @@
       "fr": "Défi: la bête sadique"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1965": {
     "name": {
@@ -15560,8 +15644,8 @@
       "fr": "Défi: je fus zu"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1966": {
     "name": {
@@ -15572,8 +15656,8 @@
       "fr": "Défi: pierre de tonnerre"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1967": {
     "name": {
@@ -15584,8 +15668,8 @@
       "fr": "Défi: le poison de l'évolution"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1968": {
     "name": {
@@ -15596,8 +15680,8 @@
       "fr": "Défi: humidité zéro"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1969": {
     "name": {
@@ -15608,8 +15692,8 @@
       "fr": "Défi: rester de boue"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1970": {
     "name": {
@@ -15620,8 +15704,8 @@
       "fr": "Défi: un œil sur l'île"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1971": {
     "name": {
@@ -15632,8 +15716,8 @@
       "fr": "Défi: la belle mort"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1972": {
     "name": {
@@ -15644,8 +15728,8 @@
       "fr": "Défi: collecte mortelle"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1976": {
     "name": {
@@ -15656,8 +15740,8 @@
       "fr": "Pas de pot pour les pots"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1977": {
     "name": {
@@ -15668,8 +15752,8 @@
       "fr": "Mauvais œil pour les pots"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1252
   },
   "1978": {
     "name": {
@@ -15680,8 +15764,8 @@
       "fr": "Premier agrandissement de la station"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1979": {
     "name": {
@@ -15692,8 +15776,8 @@
       "fr": "Mise en place du premier réseau de cosmo-navettes"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1980": {
     "name": {
@@ -15704,8 +15788,8 @@
       "fr": "Installation des modules d'habitation"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1981": {
     "name": {
@@ -15716,8 +15800,8 @@
       "fr": "Premier aménagement du cosmoport"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1982": {
     "name": {
@@ -15728,8 +15812,8 @@
       "fr": "Premier agrandissement du hangar"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1983": {
     "name": {
@@ -15740,8 +15824,8 @@
       "fr": "Première excavation du tunnel"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1984": {
     "name": {
@@ -15752,8 +15836,8 @@
       "fr": "Seconde excavation du tunnel"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1985": {
     "name": {
@@ -15764,8 +15848,8 @@
       "fr": "Second agrandissement de la station"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1986": {
     "name": {
@@ -15776,8 +15860,8 @@
       "fr": "Expansion des infrastructures énergétiques"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1987": {
     "name": {
@@ -15788,8 +15872,8 @@
       "fr": "Expansion des infrastructures de distribution d'eau"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1988": {
     "name": {
@@ -15800,8 +15884,8 @@
       "fr": "Second agrandissement du hangar"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1989": {
     "name": {
@@ -15812,8 +15896,8 @@
       "fr": "Second aménagement du cosmoport"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1990": {
     "name": {
@@ -15824,8 +15908,8 @@
       "fr": "Première préparation du site pour l'ascenseur"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1991": {
     "name": {
@@ -15836,8 +15920,8 @@
       "fr": "Seconde préparation du site pour l'ascenseur"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1992": {
     "name": {
@@ -15848,8 +15932,8 @@
       "fr": "Agrandissement général des installations"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1993": {
     "name": {
@@ -15860,8 +15944,8 @@
       "fr": "Premier agrandissement de la station"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1994": {
     "name": {
@@ -15872,8 +15956,8 @@
       "fr": "Mise en place du premier réseau de cosmo-navettes"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1995": {
     "name": {
@@ -15884,8 +15968,8 @@
       "fr": "Installation des modules d'habitation"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1996": {
     "name": {
@@ -15896,8 +15980,8 @@
       "fr": "Premier aménagement du cosmoport"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1997": {
     "name": {
@@ -15908,8 +15992,8 @@
       "fr": "Premier agrandissement du hangar"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1998": {
     "name": {
@@ -15920,8 +16004,8 @@
       "fr": "Première excavation du tunnel"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "1999": {
     "name": {
@@ -15932,8 +16016,8 @@
       "fr": "Seconde excavation du tunnel"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2000": {
     "name": {
@@ -15944,8 +16028,8 @@
       "fr": "Second agrandissement de la station"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2001": {
     "name": {
@@ -15956,8 +16040,8 @@
       "fr": "Expansion des infrastructures énergétiques"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2002": {
     "name": {
@@ -15968,8 +16052,8 @@
       "fr": "Expansion des infrastructures de distribution d'eau"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2003": {
     "name": {
@@ -15980,8 +16064,8 @@
       "fr": "Second agrandissement du hangar"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2004": {
     "name": {
@@ -15992,8 +16076,8 @@
       "fr": "Second aménagement du cosmoport"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2005": {
     "name": {
@@ -16004,8 +16088,8 @@
       "fr": "Première préparation du site pour l'ascenseur"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2006": {
     "name": {
@@ -16016,8 +16100,8 @@
       "fr": "Seconde préparation du site pour l'ascenseur"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   },
   "2007": {
     "name": {
@@ -16028,7 +16112,7 @@
       "fr": "Agrandissement général des installations"
     },
     "level": 1,
-    "patch": 6,
-    "location": 0
+    "patch": 7,
+    "location": 1237
   }
 }
