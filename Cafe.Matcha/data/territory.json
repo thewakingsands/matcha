@@ -209,13 +209,6 @@
     "de": "Ruinen von Amdapor",
     "fr": "Château d'Amdapor"
   },
-  "170": {
-    "chs": "樵鸣洞",
-    "en": "Cutter's Cry",
-    "ja": "カッターズクライ",
-    "de": "Sägerschrei",
-    "fr": "Gouffre hurlant"
-  },
   "171": {
     "chs": "泽梅尔要塞",
     "en": "Dzemael Darkhold",
@@ -7272,13 +7265,6 @@
     "de": "Audienzhalle",
     "fr": "Salle du trône séculaire"
   },
-  "1272": {
-    "chs": "狱之底",
-    "en": "Hells' Kier",
-    "ja": "獄之底",
-    "de": "Höllengrund",
-    "fr": "Fond des enfers"
-  },
   "1273": {
     "chs": "加尔提诺平原周边遗迹群",
     "en": "Carteneau Flats: Borderland Ruins",
@@ -7320,5 +7306,222 @@
     "ja": "蜃気楼の町",
     "de": "Trugstadt",
     "fr": "Ville fantôme"
+  },
+  "1279": {
+    "chs": "巡梦金库",
+    "en": "Vault Oneiron",
+    "ja": "ボルト・オネイロン",
+    "de": "Tresor Oneiron",
+    "fr": "Coffre d'Oneiron"
+  },
+  "1280": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1281": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1282": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1283": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1284": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1285": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1286": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1287": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1288": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1289": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1290": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1291": {
+    "chs": "法恩娜行星",
+    "en": "Phaenna",
+    "ja": "惑星パエンナ",
+    "de": "Phaenna",
+    "fr": "Phaenna"
+  },
+  "1292": {
+    "chs": "中央终端",
+    "en": "The Meso Terminal",
+    "ja": "メインターミナル",
+    "de": "Meso-System",
+    "fr": "Mésoterminal"
+  },
+  "1293": {
+    "chs": "海岸斗场",
+    "en": "The Bayside Battleground",
+    "ja": "ベイサイド・バトルグラウンド",
+    "de": "Der Küstenkampf",
+    "fr": "Le Rivage redoutable"
+  },
+  "1294": {
+    "chs": "海岸斗场",
+    "en": "The Bayside Battleground",
+    "ja": "ベイサイド・バトルグラウンド",
+    "de": "Der Küstenkampf",
+    "fr": "Le Rivage redoutable"
+  },
+  "1295": {
+    "chs": "死亡满溢之地",
+    "en": "The Ageless Necropolis",
+    "ja": "死の満ちる地",
+    "de": "Fülle des Todes",
+    "fr": "Nécropole intemporelle"
+  },
+  "1296": {
+    "chs": "死亡满溢之地",
+    "en": "The Ageless Necropolis",
+    "ja": "死の満ちる地",
+    "de": "Fülle des Todes",
+    "fr": "Nécropole intemporelle"
+  },
+  "1297": {
+    "chs": "雪棱拜坛",
+    "en": "Zirgorteh the Open-armed",
+    "ja": "ジィゴーテー拝壇",
+    "de": "Zirgorteh der Grüßende",
+    "fr": "Autel de Zirgorteh"
+  },
+  "1299": {
+    "chs": "仓库栋10-29",
+    "en": "Containment Complex 10-29",
+    "ja": "格納殻10-29",
+    "de": "Lagerhülle 10-29",
+    "fr": "Division d'entreposage 10-29"
+  },
+  "1300": {
+    "chs": "天堑荒地",
+    "en": "The Windward Wilds",
+    "ja": "隔ての荒地",
+    "de": "Wildebene",
+    "fr": "Plaines venteuses"
+  },
+  "1301": {
+    "chs": "天堑荒地",
+    "en": "The Windward Wilds",
+    "ja": "隔ての荒地",
+    "de": "Wildebene",
+    "fr": "Plaines venteuses"
+  },
+  "1302": {
+    "chs": "蛇神大社",
+    "en": "The Wreath of Snakes",
+    "ja": "蛇神大社",
+    "de": "Heiligtum der Schlange",
+    "fr": "Sanctuaire du Grand Serpent"
+  },
+  "1303": {
+    "chs": "樵鸣洞",
+    "en": "Cutter's Cry",
+    "ja": "カッターズクライ",
+    "de": "Sägerschrei",
+    "fr": "Gouffre hurlant"
+  },
+  "1304": {
+    "chs": "桑多利亚：第二巡行",
+    "en": "San d'Oria: The Second Walk",
+    "ja": "サンドリア：ザ・セカンドウォーク",
+    "de": "San d'Oria: Die zweite Etappe",
+    "fr": "San d'Oria - La deuxième perambulation"
+  },
+  "1305": {
+    "chs": "亡灵府邸闹鬼庄园",
+    "en": "Haunted Manor",
+    "ja": "亡霊屋敷 ホーンテッドマナー",
+    "de": "Geisterschloss",
+    "fr": "Manoir hanté"
+  },
+  "1306": {
+    "chs": "天堑荒地",
+    "en": "The Windward Wilds",
+    "ja": "隔ての荒地",
+    "de": "Wildebene",
+    "fr": "Plaines venteuses"
+  },
+  "1309": {
+    "chs": "星芒市场",
+    "en": "Starlight Stalls",
+    "ja": "星芒マーケット",
+    "de": "Sternenlicht-Stände",
+    "fr": "Marché des étoiles"
+  },
+  "1311": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
+  },
+  "1312": {
+    "chs": "死亡满溢之地",
+    "en": "The Ageless Necropolis",
+    "ja": "死の満ちる地",
+    "de": "Fülle des Todes",
+    "fr": "Nécropole intemporelle"
+  },
+  "1333": {
+    "chs": "朝圣交错路",
+    "en": "Pilgrim's Traverse",
+    "ja": "ピルグリム・トラバース",
+    "de": "Pilgers Pfad",
+    "fr": "Sanctuaire des pèlerins"
   }
 }

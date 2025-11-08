@@ -32,8 +32,8 @@
       "fr": "スプリガンのお引っ越し"
     },
     "level": 30,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 148
   },
   "123": {
     "name": {
@@ -141,7 +141,7 @@
     },
     "level": 13,
     "patch": 2,
-    "location": 154
+    "location": 148
   },
   "138": {
     "name": {
@@ -152,8 +152,8 @@
       "fr": "Limaces voraces"
     },
     "level": 10,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 148
   },
   "139": {
     "name": {
@@ -236,8 +236,8 @@
       "fr": "Jusqu'au champ de bataille"
     },
     "level": 19,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "148": {
     "name": {
@@ -248,8 +248,8 @@
       "fr": "Massacre de limaces"
     },
     "level": 10,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "149": {
     "name": {
@@ -284,8 +284,8 @@
       "fr": "Le petit pont de bois"
     },
     "level": 24,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "152": {
     "name": {
@@ -476,8 +476,8 @@
       "fr": "Bandits en fuite"
     },
     "level": 24,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "172": {
     "name": {
@@ -632,8 +632,8 @@
       "fr": "Défi: un grand fracas"
     },
     "level": 33,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "191": {
     "name": {
@@ -704,8 +704,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 148
   },
   "197": {
     "name": {
@@ -716,8 +716,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 148
   },
   "198": {
     "name": {
@@ -728,8 +728,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "199": {
     "name": {
@@ -740,8 +740,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "200": {
     "name": {
@@ -752,8 +752,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 152
   },
   "201": {
     "name": {
@@ -764,8 +764,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "202": {
     "name": {
@@ -776,8 +776,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "203": {
     "name": {
@@ -788,8 +788,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "204": {
     "name": {
@@ -800,8 +800,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 153
   },
   "205": {
     "name": {
@@ -812,8 +812,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 154
   },
   "206": {
     "name": {
@@ -824,8 +824,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 154
   },
   "207": {
     "name": {
@@ -836,8 +836,8 @@
       "fr": "Défi: le Chevalier des ombres"
     },
     "level": 50,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 154
   },
   "208": {
     "name": {
@@ -2493,7 +2493,7 @@
     },
     "level": 20,
     "patch": 2,
-    "location": 510
+    "location": 139
   },
   "455": {
     "name": {
@@ -3152,8 +3152,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 32,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 137
   },
   "533": {
     "name": {
@@ -3165,7 +3165,7 @@
     },
     "level": 5,
     "patch": 2,
-    "location": 254
+    "location": 134
   },
   "534": {
     "name": {
@@ -3176,8 +3176,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 13,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 135
   },
   "535": {
     "name": {
@@ -3188,8 +3188,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 5,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 141
   },
   "536": {
     "name": {
@@ -3200,8 +3200,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 15,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 145
   },
   "537": {
     "name": {
@@ -3212,8 +3212,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 11,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 148
   },
   "538": {
     "name": {
@@ -3224,8 +3224,8 @@
       "fr": "Le retour d'un roi"
     },
     "level": 6,
-    "patch": 0,
-    "location": 0
+    "patch": 2,
+    "location": 154
   },
   "540": {
     "name": {
@@ -3789,7 +3789,7 @@
     },
     "level": 47,
     "patch": 2,
-    "location": 510
+    "location": 180
   },
   "599": {
     "name": {
@@ -5384,8 +5384,8 @@
       "fr": "Ça tourne au vinaigrier"
     },
     "level": 53,
-    "patch": 3,
-    "location": 398
+    "patch": 6,
+    "location": 961
   },
   "835": {
     "name": {
@@ -5396,8 +5396,8 @@
       "fr": "Défi: Robairlain l'écailleux"
     },
     "level": 53,
-    "patch": 3,
-    "location": 398
+    "patch": 6,
+    "location": 961
   },
   "836": {
     "name": {
@@ -6321,7 +6321,7 @@
     },
     "level": 67,
     "patch": 4,
-    "location": 614
+    "location": 759
   },
   "1112": {
     "name": {
@@ -6752,8 +6752,8 @@
       "fr": "Défi: la philosophie d'Agni"
     },
     "level": 62,
-    "patch": 0,
-    "location": 0
+    "patch": 4,
+    "location": 613
   },
   "1149": {
     "name": {
@@ -7725,7 +7725,7 @@
     },
     "level": 67,
     "patch": 4,
-    "location": 614
+    "location": 759
   },
   "1234": {
     "name": {
@@ -7773,7 +7773,7 @@
     },
     "level": 67,
     "patch": 4,
-    "location": 614
+    "location": 759
   },
   "1238": {
     "name": {
@@ -8108,8 +8108,8 @@
       "fr": "Défi: l'odeur de la tortue verte"
     },
     "level": 65,
-    "patch": 0,
-    "location": 0
+    "patch": 4,
+    "location": 622
   },
   "1266": {
     "name": {
@@ -8840,8 +8840,8 @@
       "fr": "Défi: le sage putréfié"
     },
     "level": 10,
-    "patch": 0,
-    "location": 0
+    "patch": 4,
+    "location": 732
   },
   "1337": {
     "name": {
@@ -8864,8 +8864,8 @@
       "fr": "Défi: la reine infernale"
     },
     "level": 19,
-    "patch": 0,
-    "location": 0
+    "patch": 4,
+    "location": 732
   },
   "1339": {
     "name": {
@@ -9248,8 +9248,8 @@
       "fr": "Défi: monstres sophistiqués"
     },
     "level": 37,
-    "patch": 0,
-    "location": 0
+    "patch": 4,
+    "location": 795
   },
   "1391": {
     "name": {
@@ -12993,7 +12993,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1718": {
     "name": {
@@ -13005,7 +13005,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1719": {
     "name": {
@@ -13017,7 +13017,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1720": {
     "name": {
@@ -13029,7 +13029,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1721": {
     "name": {
@@ -13041,7 +13041,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1722": {
     "name": {
@@ -13053,7 +13053,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1723": {
     "name": {
@@ -13065,7 +13065,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1724": {
     "name": {
@@ -13077,7 +13077,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1725": {
     "name": {
@@ -13089,7 +13089,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1726": {
     "name": {
@@ -13101,7 +13101,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1727": {
     "name": {
@@ -13113,7 +13113,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1728": {
     "name": {
@@ -13125,7 +13125,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1729": {
     "name": {
@@ -13137,7 +13137,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1730": {
     "name": {
@@ -13149,7 +13149,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1731": {
     "name": {
@@ -13161,7 +13161,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1732": {
     "name": {
@@ -13173,7 +13173,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1733": {
     "name": {
@@ -13185,7 +13185,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1734": {
     "name": {
@@ -13197,7 +13197,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1735": {
     "name": {
@@ -13209,7 +13209,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1736": {
     "name": {
@@ -13221,7 +13221,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1737": {
     "name": {
@@ -13233,7 +13233,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1738": {
     "name": {
@@ -13245,7 +13245,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1739": {
     "name": {
@@ -13257,7 +13257,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1740": {
     "name": {
@@ -13269,7 +13269,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1741": {
     "name": {
@@ -13281,7 +13281,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1742": {
     "name": {
@@ -13293,7 +13293,7 @@
     },
     "level": 80,
     "patch": 5,
-    "location": 920
+    "location": 975
   },
   "1743": {
     "name": {
@@ -14121,7 +14121,7 @@
     },
     "level": 86,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1828": {
     "name": {
@@ -14193,7 +14193,7 @@
     },
     "level": 87,
     "patch": 6,
-    "location": 0
+    "location": 961
   },
   "1834": {
     "name": {
@@ -14228,8 +14228,8 @@
       "fr": "Serpents pollueurs"
     },
     "level": 87,
-    "patch": 6,
-    "location": 961
+    "patch": 2,
+    "location": 148
   },
   "1837": {
     "name": {
@@ -14768,8 +14768,8 @@
       "fr": "Gravures au vent"
     },
     "level": 93,
-    "patch": 7,
-    "location": 1187
+    "patch": 2,
+    "location": 152
   },
   "1890": {
     "name": {
@@ -14780,8 +14780,8 @@
       "fr": "Durzurgir, le Chevaucheur des Tempêtes"
     },
     "level": 93,
-    "patch": 7,
-    "location": 1187
+    "patch": 2,
+    "location": 152
   },
   "1891": {
     "name": {
@@ -14792,8 +14792,8 @@
       "fr": "Brutes géantes"
     },
     "level": 93,
-    "patch": 7,
-    "location": 1187
+    "patch": 2,
+    "location": 152
   },
   "1892": {
     "name": {
@@ -14804,8 +14804,8 @@
       "fr": "Vaillant et revanchard"
     },
     "level": 93,
-    "patch": 7,
-    "location": 1187
+    "patch": 2,
+    "location": 152
   },
   "1893": {
     "name": {
@@ -14816,8 +14816,8 @@
       "fr": "Pas de veine"
     },
     "level": 93,
-    "patch": 7,
-    "location": 1187
+    "patch": 2,
+    "location": 152
   },
   "1894": {
     "name": {
@@ -14993,7 +14993,7 @@
       "en": "Moths Are Tough",
       "ja": "深き森の霊蛾「ゴーストモス」",
       "de": "Doktor Motte",
-      "fr": "Défi : S.O.S phalène fantôme"
+      "fr": "Défi : S.O.S. phalène fantôme"
     },
     "level": 94,
     "patch": 7,
@@ -15221,7 +15221,7 @@
       "en": "Reeds in Need",
       "ja": "野性と葦",
       "de": "Zu Schilfe!",
-      "fr": "SOS roseaux"
+      "fr": "S.O.S. roseaux"
     },
     "level": 90,
     "patch": 7,
@@ -16114,5 +16114,413 @@
     "level": 1,
     "patch": 7,
     "location": 1237
+  },
+  "2008": {
+    "name": {
+      "chs": "第一次基地扩建工程",
+      "en": "Beacon Camp Alpha Expansion",
+      "ja": "第一次基地拡張計画",
+      "de": "Glasbläser-Basis: Erweiterung I",
+      "fr": "Premier agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2009": {
+    "name": {
+      "chs": "第一次宇宙飞线铺设工程支援行动",
+      "en": "Cosmoliner Alpha Construction Support",
+      "ja": "第一次コスモライナー敷設支援",
+      "de": "Kosmozapper: Bauunterstützung I",
+      "fr": "Mise en place du premier réseau de cosmo-navettes"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2010": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung I",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2011": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2012": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2013": {
+    "name": {
+      "chs": "第一次机甲库扩建工程",
+      "en": "Mech Hangar Alpha Expansion",
+      "ja": "第一次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung I",
+      "fr": "Premier agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2014": {
+    "name": {
+      "chs": "第一次升降机建设工程",
+      "en": "Upper Crane Construction",
+      "ja": "第一次降下クレーン建設工事",
+      "de": "Applike-Kräne: Bauunterstützung I",
+      "fr": "Première préparation des grues"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2015": {
+    "name": {
+      "chs": "第二次升降机建设工程",
+      "en": "Lower Crane Construction",
+      "ja": "第二次降下クレーン建設工事",
+      "de": "Applike-Kräne: Bauunterstützung II",
+      "fr": "Seconde préparation des grues"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2016": {
+    "name": {
+      "chs": "第二次基地扩建工程",
+      "en": "Beacon Camp Beta Expansion",
+      "ja": "第二次基地拡張計画",
+      "de": "Glasbläser-Basis: Erweiterung II",
+      "fr": "Second agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2017": {
+    "name": {
+      "chs": "第二次机甲库扩建工程",
+      "en": "Mech Hangar Beta Expansion",
+      "ja": "第二次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung II",
+      "fr": "Second agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2018": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2019": {
+    "name": {
+      "chs": "第一次能量集散设施建设工程",
+      "en": "Power Procurement",
+      "ja": "第一次エネルギー集積施設工事",
+      "de": "Energiespeicheranlage: Bauunterstützung I",
+      "fr": "Première préparation du réseau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2020": {
+    "name": {
+      "chs": "第二次能量集散设施建设工程",
+      "en": "Additional Power Procurement",
+      "ja": "第二次エネルギー集積施設工事",
+      "de": "Energiespeicheranlage: Bauunterstützung II",
+      "fr": "Seconde préparation du réseau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2021": {
+    "name": {
+      "chs": "冷却无人机据点建设工程",
+      "en": "Mobilization Station Construction",
+      "ja": "冷却ドローン拠点建設工事",
+      "de": "Kühldrohnenstation: Bauunterstützung",
+      "fr": "Construction de la station des drones"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2022": {
+    "name": {
+      "chs": "第一次冷却熔融玻璃大作战",
+      "en": "Operation Chilling-a-Way: Phase One",
+      "ja": "第一次溶融ガラス冷却作戦",
+      "de": "Magmaglaskühlung: Phase I",
+      "fr": "Première opération de refroidissement"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2023": {
+    "name": {
+      "chs": "第二次冷却熔融玻璃大作战",
+      "en": "Operation Chilling-a-Way: Phase Two",
+      "ja": "第二次溶融ガラス冷却作戦",
+      "de": "Magmaglaskühlung: Phase II",
+      "fr": "Seconde opération de refroidissement"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2024": {
+    "name": {
+      "chs": "基地综合设施扩建工程",
+      "en": "Beacon Camp Facility Expansion",
+      "ja": "基地総合設備拡張工事",
+      "de": "Expansion der Basisstrukturen",
+      "fr": "Agrandissement général des installations"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2025": {
+    "name": {
+      "chs": "第一次基地扩建工程",
+      "en": "Beacon Camp Alpha Expansion",
+      "ja": "第一次基地拡張計画",
+      "de": "Glasbläser-Basis: Erweiterung I",
+      "fr": "Premier agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2026": {
+    "name": {
+      "chs": "第一次宇宙飞线铺设工程支援行动",
+      "en": "Cosmoliner Alpha Construction Support",
+      "ja": "第一次コスモライナー敷設支援",
+      "de": "Kosmozapper: Bauunterstützung I",
+      "fr": "Mise en place du premier réseau de cosmo-navettes"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2027": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2028": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2029": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2030": {
+    "name": {
+      "chs": "第一次机甲库扩建工程",
+      "en": "Mech Hangar Alpha Expansion",
+      "ja": "第一次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung I",
+      "fr": "Premier agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2031": {
+    "name": {
+      "chs": "第一次升降机建设工程",
+      "en": "Upper Crane Construction",
+      "ja": "第一次降下クレーン建設工事",
+      "de": "Applike-Kräne: Bauunterstützung I",
+      "fr": "Première préparation des grues"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2032": {
+    "name": {
+      "chs": "第二次升降机建设工程",
+      "en": "Lower Crane Construction",
+      "ja": "第二次降下クレーン建設工事",
+      "de": "Applike-Kräne: Bauunterstützung II",
+      "fr": "Seconde préparation des grues"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2033": {
+    "name": {
+      "chs": "第二次基地扩建工程",
+      "en": "Beacon Camp Beta Expansion",
+      "ja": "第二次基地拡張計画",
+      "de": "Glasbläser-Basis: Erweiterung II",
+      "fr": "Second agrandissement de la station"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2034": {
+    "name": {
+      "chs": "第二次机甲库扩建工程",
+      "en": "Mech Hangar Beta Expansion",
+      "ja": "第二次ハンガー拡張計画",
+      "de": "Sternenhangar: Erweiterung II",
+      "fr": "Second agrandissement du hangar"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2035": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2036": {
+    "name": {
+      "chs": "第一次能量集散设施建设工程",
+      "en": "Power Procurement",
+      "ja": "第一次エネルギー集積施設工事",
+      "de": "Energiespeicheranlage: Bauunterstützung I",
+      "fr": "Première préparation du réseau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2037": {
+    "name": {
+      "chs": "第二次能量集散设施建设工程",
+      "en": "Additional Power Procurement",
+      "ja": "第二次エネルギー集積施設工事",
+      "de": "Energiespeicheranlage: Bauunterstützung II",
+      "fr": "Seconde préparation du réseau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2038": {
+    "name": {
+      "chs": "冷却无人机据点建设工程",
+      "en": "Mobilization Station Construction",
+      "ja": "冷却ドローン拠点建設工事",
+      "de": "Kühldrohnenstation: Bauunterstützung",
+      "fr": "Construction de la station des drones"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2039": {
+    "name": {
+      "chs": "第一次冷却熔融玻璃大作战",
+      "en": "Operation Chilling-a-Way: Phase One",
+      "ja": "第一次溶融ガラス冷却作戦",
+      "de": "Magmaglaskühlung: Phase I",
+      "fr": "Première opération de refroidissement"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2040": {
+    "name": {
+      "chs": "第二次冷却熔融玻璃大作战",
+      "en": "Operation Chilling-a-Way: Phase Two",
+      "ja": "第二次溶融ガラス冷却作戦",
+      "de": "Magmaglaskühlung: Phase II",
+      "fr": "Seconde opération de refroidissement"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2041": {
+    "name": {
+      "chs": "基地综合设施扩建工程",
+      "en": "Beacon Camp Facility Expansion",
+      "ja": "基地総合設備拡張工事",
+      "de": "Expansion der Basisstrukturen",
+      "fr": "Agrandissement général des installations"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
   }
 }

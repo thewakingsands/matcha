@@ -6483,7 +6483,7 @@
     "name": {
       "chs": "多玛方城战：半庄战一般桌（段位战）",
       "en": "Novice Mahjong (Full Ranked Match)",
-      "ja": "ドマ式麻雀：半荘戦一般卓（段位変動有り）",
+      "ja": "ドマ式麻雀：半荘戦一般卓 (段位変動有り)",
       "de": "Anfänger-Mahjong (komplette Partie, gewertet)",
       "fr": "Mahjong domien: tous rangs (partie classée)"
     },
@@ -6498,7 +6498,7 @@
     "name": {
       "chs": "多玛方城战：半庄战有段桌（段位战）",
       "en": "Advanced Mahjong (Full Ranked Match)",
-      "ja": "ドマ式麻雀：半荘戦有段卓（段位変動有り）",
+      "ja": "ドマ式麻雀：半荘戦有段卓 (段位変動有り)",
       "de": "Fortgeschrittenen-Mahjong (komplette Partie, gewertet)",
       "fr": "Mahjong domien: dan seulement (partie classée)"
     },
@@ -6513,7 +6513,7 @@
     "name": {
       "chs": "多玛方城战：半庄战4人亲友桌（带食断）",
       "en": "Four-player Mahjong (Full Match, Kuitan Enabled)",
-      "ja": "ドマ式麻雀：半荘戦4人セット卓（クイタン有り）",
+      "ja": "ドマ式麻雀：半荘戦4人セット卓 (クイタン有り)",
       "de": "4-Spieler-Mahjong (komplette Partie, Kuitan aktiviert)",
       "fr": "Mahjong domien: 4 joueurs (partie avec kuitan)"
     },
@@ -6573,7 +6573,7 @@
     "name": {
       "chs": "多玛方城战：半庄战4人亲友桌（不带食断）",
       "en": "Four-player Mahjong (Full Match, Kuitan Disabled)",
-      "ja": "ドマ式麻雀：半荘戦4人セット卓（クイタン無し）",
+      "ja": "ドマ式麻雀：半荘戦4人セット卓 (クイタン無し)",
       "de": "4-Spieler-Mahjong (komplette Partie, Kuitan deaktiviert)",
       "fr": "Mahjong domien: 4 joueurs (partie sans kuitan)"
     },
@@ -8058,7 +8058,7 @@
     "name": {
       "chs": "多玛方城战：东风战一般桌（段位战）",
       "en": "Novice Mahjong (Quick Ranked Match)",
-      "ja": "ドマ式麻雀：東風戦一般卓（段位変動有り）",
+      "ja": "ドマ式麻雀：東風戦一般卓 (段位変動有り)",
       "de": "Anfänger-Mahjong (schnelle Partie, gewertet)",
       "fr": "Mahjong domien: tous rangs (partie rapide classée)"
     },
@@ -8073,7 +8073,7 @@
     "name": {
       "chs": "多玛方城战：东风战有段桌（段位战）",
       "en": "Advanced Mahjong (Quick Ranked Match)",
-      "ja": "ドマ式麻雀：東風戦有段卓（段位変動有り）",
+      "ja": "ドマ式麻雀：東風戦有段卓 (段位変動有り)",
       "de": "Fortgeschrittenen-Mahjong (schnelle Partie, gewertet)",
       "fr": "Mahjong domien: dan seulement (partie rapide classée)"
     },
@@ -8088,7 +8088,7 @@
     "name": {
       "chs": "多玛方城战：东风战4人亲友桌（带食断）",
       "en": "Four-player Mahjong (Quick Match, Kuitan Enabled)",
-      "ja": "ドマ式麻雀：東風戦4人セット卓（クイタン有り）",
+      "ja": "ドマ式麻雀：東風戦4人セット卓 (クイタン有り)",
       "de": "4-Spieler-Mahjong (schnelle Partie, Kuitan aktiviert)",
       "fr": "Mahjong domien: 4 joueurs (partie rapide avec kuitan)"
     },
@@ -8103,7 +8103,7 @@
     "name": {
       "chs": "多玛方城战：东风战4人亲友桌（不带食断）",
       "en": "Four-player Mahjong (Quick Match, Kuitan Disabled)",
-      "ja": "ドマ式麻雀：東風戦4人セット卓（クイタン無し）",
+      "ja": "ドマ式麻雀：東風戦4人セット卓 (クイタン無し)",
       "de": "4-Spieler-Mahjong (schnelle Partie, Kuitan deaktiviert)",
       "fr": "Mahjong domien: 4 joueurs (partie rapide sans kuitan)"
     },
@@ -11087,7 +11087,7 @@
   "984": {
     "name": {
       "chs": "永恒女王歼灭战",
-      "en": "The Interphos",
+      "en": "the Interphos",
       "ja": "エターナルクイーン討滅戦",
       "de": "Zel Tajaal - Ewige Königin",
       "fr": "Interphos"
@@ -11522,7 +11522,7 @@
   "1017": {
     "name": {
       "chs": "永恒女王忆想歼灭战",
-      "en": "The Minstrel's Ballad: Sphene's Burden",
+      "en": "the Minstrel's Ballad: Sphene's Burden",
       "ja": "極エターナルクイーン討滅戦",
       "de": "Gok Tajaal - Ewige Königin",
       "fr": "Interphos (extrême)"
@@ -11684,20 +11684,20 @@
     "itemSync": 0,
     "memberType": 2
   },
-  "1029": {
+  "1028": {
     "name": {
-      "chs": "朱雀幻巧战",
-      "en": "Hells' Kier (Unreal)",
-      "ja": "幻朱雀征魂戦",
-      "de": "Traumprüfung - Suzaku",
-      "fr": "Le Nid des Lamentations (irréel)"
+      "chs": "永久幽界中央终端",
+      "en": "the Meso Terminal",
+      "ja": "永久幽界 メインターミナル",
+      "de": "Das Meso-System",
+      "fr": "Le Mésoterminal"
     },
-    "type": 4,
+    "type": 2,
     "level": 100,
     "levelSync": 100,
-    "item": 690,
-    "itemSync": 695,
-    "memberType": 3
+    "item": 720,
+    "itemSync": 0,
+    "memberType": 2
   },
   "1030": {
     "name": {
@@ -11728,5 +11728,470 @@
     "item": 730,
     "itemSync": 0,
     "memberType": 3
+  },
+  "1032": {
+    "name": {
+      "chs": "朝圣交错路 第1～10朝圣路",
+      "en": "Pilgrim's Traverse (Stones 1-10)",
+      "ja": "ピルグリム・トラバース 第1～10巡礼路",
+      "de": "Pilgers Pfad (Ebenen 1-10)",
+      "fr": "Le Sanctuaire des pèlerins (zones 1-10)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1033": {
+    "name": {
+      "chs": "朝圣交错路 第11～20朝圣路",
+      "en": "Pilgrim's Traverse (Stones 11-20)",
+      "ja": "ピルグリム・トラバース 第11～20巡礼路",
+      "de": "Pilgers Pfad (Ebenen 11-20)",
+      "fr": "Le Sanctuaire des pèlerins (zones 11-20)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1034": {
+    "name": {
+      "chs": "朝圣交错路 第21～30朝圣路",
+      "en": "Pilgrim's Traverse (Stones 21-30)",
+      "ja": "ピルグリム・トラバース 第21～30巡礼路",
+      "de": "Pilgers Pfad (Ebenen 21-30)",
+      "fr": "Le Sanctuaire des pèlerins (zones 21-30)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1035": {
+    "name": {
+      "chs": "朝圣交错路 第31～40朝圣路",
+      "en": "Pilgrim's Traverse (Stones 31-40)",
+      "ja": "ピルグリム・トラバース 第31～40巡礼路",
+      "de": "Pilgers Pfad (Ebenen 31-40)",
+      "fr": "Le Sanctuaire des pèlerins (zones 31-40)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1036": {
+    "name": {
+      "chs": "朝圣交错路 第41～50朝圣路",
+      "en": "Pilgrim's Traverse (Stones 41-50)",
+      "ja": "ピルグリム・トラバース 第41～50巡礼路",
+      "de": "Pilgers Pfad (Ebenen 41-50)",
+      "fr": "Le Sanctuaire des pèlerins (zones 41-50)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1037": {
+    "name": {
+      "chs": "朝圣交错路 第51～60朝圣路",
+      "en": "Pilgrim's Traverse (Stones 51-60)",
+      "ja": "ピルグリム・トラバース 第51～60巡礼路",
+      "de": "Pilgers Pfad (Ebenen 51-60)",
+      "fr": "Le Sanctuaire des pèlerins (zones 51-60)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1038": {
+    "name": {
+      "chs": "朝圣交错路 第61～70朝圣路",
+      "en": "Pilgrim's Traverse (Stones 61-70)",
+      "ja": "ピルグリム・トラバース 第61～70巡礼路",
+      "de": "Pilgers Pfad (Ebenen 61-70)",
+      "fr": "Le Sanctuaire des pèlerins (zones 61-70)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1039": {
+    "name": {
+      "chs": "朝圣交错路 第71～80朝圣路",
+      "en": "Pilgrim's Traverse (Stones 71-80)",
+      "ja": "ピルグリム・トラバース 第71～80巡礼路",
+      "de": "Pilgers Pfad (Ebenen 71-80)",
+      "fr": "Le Sanctuaire des pèlerins (zones 71-80)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1040": {
+    "name": {
+      "chs": "朝圣交错路 第81～90朝圣路",
+      "en": "Pilgrim's Traverse (Stones 81-90)",
+      "ja": "ピルグリム・トラバース 第81～90巡礼路",
+      "de": "Pilgers Pfad (Ebenen 81-90)",
+      "fr": "Le Sanctuaire des pèlerins (zones 81-90)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1041": {
+    "name": {
+      "chs": "朝圣交错路 第91～100朝圣路",
+      "en": "Pilgrim's Traverse (Stones 91-100)",
+      "ja": "ピルグリム・トラバース 第91～100巡礼路",
+      "de": "Pilgers Pfad (Ebenen 91-100)",
+      "fr": "Le Sanctuaire des pèlerins (zones 91-100)"
+    },
+    "type": 21,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1042": {
+    "name": {
+      "chs": "青龙幻巧战",
+      "en": "the Wreath of Snakes (Unreal)",
+      "ja": "幻青龍征魂戦",
+      "de": "Traumprüfung - Seiryu",
+      "fr": "L'Îlot des Amertumes (irréel)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 695,
+    "memberType": 3
+  },
+  "1043": {
+    "name": {
+      "chs": "护锁刃龙狩猎战",
+      "en": "the Windward Wilds",
+      "ja": "護竜アルシュベルド狩猟戦",
+      "de": "Jagd auf Wächter-Arkveld",
+      "fr": "Chasse à l'Arkveld Gardien"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 725,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1044": {
+    "name": {
+      "chs": "护锁刃龙上位狩猎战",
+      "en": "the Windward Wilds (Extreme)",
+      "ja": "極護竜アルシュベルド狩猟戦",
+      "de": "Jagd auf Wächter-Arkveld (schwer)",
+      "fr": "Chasse à l'Arkveld Gardien (extrême)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 740,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1046": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1047": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1048": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1049": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1050": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1051": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1052": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1053": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1054": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1055": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1056": {
+    "name": {
+      "chs": "海岸斗场",
+      "en": "the Bayside Battleground",
+      "ja": "ベイサイド・バトルグラウンド",
+      "de": "Der Küstenkampf",
+      "fr": "Le Rivage redoutable"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 29
+  },
+  "1057": {
+    "name": {
+      "chs": "水晶冲突（海岸斗场：自定赛）",
+      "en": "Crystalline Conflict (Custom Match - The Bayside Battleground)",
+      "ja": "クリスタルコンフリクト(ベイサイド・バトルグラウンド：カスタムマッチ)",
+      "de": "Crystalline Conflict: Der Küstenkampf (Schaukampf)",
+      "fr": "Crys. Conflict (partie perso. - Le Rivage redoutable)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 30
+  },
+  "1058": {
+    "name": {
+      "chs": "桑多利亚：第二巡行",
+      "en": "San d'Oria: The Second Walk",
+      "ja": "サンドリア：ザ・セカンドウォーク",
+      "de": "San d'Oria: Die zweite Etappe",
+      "fr": "San d'Oria - La deuxième perambulation"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 725,
+    "itemSync": 0,
+    "memberType": 4
+  },
+  "1060": {
+    "name": {
+      "chs": "巡梦金库",
+      "en": "Vault Oneiron",
+      "ja": "宝物庫 ボルト・オネイロン",
+      "de": "Tresor Oneiron",
+      "fr": "le coffre d'Oneiron"
+    },
+    "type": 9,
+    "level": 1,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1061": {
+    "name": {
+      "chs": "永远之暗歼灭战",
+      "en": "the Ageless Necropolis",
+      "ja": "永遠の闇討滅戦",
+      "de": "Zel Tajaal - Das Ewige Dunkel",
+      "fr": "La Nécropole intemporelle"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 725,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1062": {
+    "name": {
+      "chs": "永远之暗悲惶歼灭战",
+      "en": "the Minstrel's Ballad: Necron's Embrace",
+      "ja": "極永遠の闇討滅戦",
+      "de": "Gok Tajaal - Das Ewige Dunkel",
+      "fr": "La Nécropole intemporelle (extrême)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 740,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1063": {
+    "name": {
+      "chs": "卓异的悲寂深想战",
+      "en": "the Final Verse (Quantum)",
+      "ja": "詩想エミネントグリーフ討滅戦",
+      "de": "Eminente Trauer (variabel)",
+      "fr": "Le Verset final (quantique)"
+    },
+    "type": 39,
+    "level": 100,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
+  },
+  "1065": {
+    "name": {
+      "chs": "卓异的悲寂歼灭战",
+      "en": "the Final Verse",
+      "ja": "エミネントグリーフ討滅戦",
+      "de": "Eminente Trauer",
+      "fr": "Le Verset final"
+    },
+    "type": 39,
+    "level": 91,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
   }
 }
