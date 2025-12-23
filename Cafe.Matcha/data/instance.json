@@ -11231,7 +11231,7 @@
     "level": 1,
     "levelSync": 100,
     "item": 0,
-    "itemSync": 0,
+    "itemSync": 765,
     "memberType": 3
   },
   "994": {
@@ -11432,7 +11432,7 @@
   "1010": {
     "name": {
       "chs": "暗黑之云诛灭战",
-      "en": "The Cloud of Darkness (Chaotic)",
+      "en": "the Cloud of Darkness (Chaotic)",
       "ja": "滅暗闇の雲激闘戦",
       "de": "Die Wolke der Dunkelheit (chaotisch)",
       "fr": "La Tour de Ténèbres (chaotique)"
@@ -11681,7 +11681,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 705,
-    "itemSync": 0,
+    "itemSync": 760,
     "memberType": 2
   },
   "1028": {
@@ -11696,7 +11696,7 @@
     "level": 100,
     "levelSync": 100,
     "item": 720,
-    "itemSync": 0,
+    "itemSync": 760,
     "memberType": 2
   },
   "1030": {
@@ -11879,21 +11879,6 @@
     "itemSync": 0,
     "memberType": 11
   },
-  "1042": {
-    "name": {
-      "chs": "青龙幻巧战",
-      "en": "the Wreath of Snakes (Unreal)",
-      "ja": "幻青龍征魂戦",
-      "de": "Traumprüfung - Seiryu",
-      "fr": "L'Îlot des Amertumes (irréel)"
-    },
-    "type": 4,
-    "level": 100,
-    "levelSync": 100,
-    "item": 690,
-    "itemSync": 695,
-    "memberType": 3
-  },
   "1043": {
     "name": {
       "chs": "护锁刃龙狩猎战",
@@ -11923,6 +11908,21 @@
     "item": 740,
     "itemSync": 0,
     "memberType": 3
+  },
+  "1045": {
+    "name": {
+      "chs": "瓦伦提昂蛋糕店",
+      "en": "the Pâtisserie",
+      "ja": "ヴァレンティオンパティスリー",
+      "de": "Die Pâtisserie",
+      "fr": "La Pâtisserie de la Valention"
+    },
+    "type": 22,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
   },
   "1046": {
     "name": {
@@ -12131,7 +12131,7 @@
     "level": 1,
     "levelSync": 100,
     "item": 0,
-    "itemSync": 0,
+    "itemSync": 765,
     "memberType": 3
   },
   "1061": {
@@ -12179,6 +12179,21 @@
     "itemSync": 0,
     "memberType": 11
   },
+  "1064": {
+    "name": {
+      "chs": "遗忘行路雾之迹",
+      "en": "Mistwake",
+      "ja": "遺忘行路 ミストウェイク",
+      "de": "Die Nebeltrift",
+      "fr": "Le Sillage brumeux"
+    },
+    "type": 2,
+    "level": 100,
+    "levelSync": 100,
+    "item": 735,
+    "itemSync": 0,
+    "memberType": 2
+  },
   "1065": {
     "name": {
       "chs": "卓异的悲寂歼灭战",
@@ -12193,5 +12208,245 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 11
+  },
+  "1067": {
+    "name": {
+      "chs": "月读幻巧战",
+      "en": "Tsukuyomi's Pain (Unreal)",
+      "ja": "幻ツクヨミ討滅戦",
+      "de": "Traumprüfung - Tsukuyomi",
+      "fr": "Castrum Fluminis (irréel)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 695,
+    "memberType": 3
+  },
+  "1068": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 重量级1",
+      "en": "AAC Heavyweight M1",
+      "ja": "至天の座アルカディア：ヘビー級1",
+      "de": "Arkadion - Superschwergewicht R1",
+      "fr": "Poids lourds CCA - match 1"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 745,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1069": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 重量级1",
+      "en": "AAC Heavyweight M1 (Savage)",
+      "ja": "至天の座アルカディア零式：ヘビー級1",
+      "de": "Arkadion - Superschwergewicht R1 (episch)",
+      "fr": "Poids lourds CCA - match 1 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 760,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1070": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 重量级2",
+      "en": "AAC Heavyweight M2",
+      "ja": "至天の座アルカディア：ヘビー級2",
+      "de": "Arkadion - Superschwergewicht R2",
+      "fr": "Poids lourds CCA - match 2"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 745,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1071": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 重量级2",
+      "en": "AAC Heavyweight M2 (Savage)",
+      "ja": "至天の座アルカディア零式：ヘビー級2",
+      "de": "Arkadion - Superschwergewicht R2 (episch)",
+      "fr": "Poids lourds CCA - match 2 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 765,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1072": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 重量级3",
+      "en": "AAC Heavyweight M3",
+      "ja": "至天の座アルカディア：ヘビー級3",
+      "de": "Arkadion - Superschwergewicht R3",
+      "fr": "Poids lourds CCA - match 3"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 745,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1073": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 重量级3",
+      "en": "AAC Heavyweight M3 (Savage)",
+      "ja": "至天の座アルカディア零式：ヘビー級3",
+      "de": "Arkadion - Superschwergewicht R3 (episch)",
+      "fr": "Poids lourds CCA - match 3 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 770,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1074": {
+    "name": {
+      "chs": "阿卡狄亚登天斗技场 重量级4",
+      "en": "AAC Heavyweight M4",
+      "ja": "至天の座アルカディア：ヘビー級4",
+      "de": "Arkadion - Superschwergewicht R4",
+      "fr": "Poids lourds CCA - match 4"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 745,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1075": {
+    "name": {
+      "chs": "阿卡狄亚零式登天斗技场 重量级4",
+      "en": "AAC Heavyweight M4 (Savage)",
+      "ja": "至天の座アルカディア零式：ヘビー級4",
+      "de": "Arkadion - Superschwergewicht R4 (episch)",
+      "fr": "Poids lourds CCA - match 4 (sadique)"
+    },
+    "type": 5,
+    "level": 100,
+    "levelSync": 100,
+    "item": 770,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1076": {
+    "name": {
+      "chs": "格莱杨拉波尔歼灭战",
+      "en": "Hell on Rails",
+      "ja": "グラシャラボラス討滅戦",
+      "de": "Zel Tajaal - Doomtrain",
+      "fr": "Le Convoi maléfique"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 745,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1077": {
+    "name": {
+      "chs": "格莱杨拉波尔歼殛战",
+      "en": "Hell on Rails (Extreme)",
+      "ja": "極グラシャラボラス討滅戦",
+      "de": "Gok Tajaal - Doomtrain",
+      "fr": "Le Convoi maléfique (extrême)"
+    },
+    "type": 4,
+    "level": 100,
+    "levelSync": 100,
+    "item": 760,
+    "itemSync": 0,
+    "memberType": 3
+  },
+  "1080": {
+    "name": {
+      "chs": "沃刻其特（演习战）",
+      "en": "Worqor Chirteh (Triumph)",
+      "ja": "ウォーコー・チーテ (演習戦)",
+      "de": "Worqor Chirteh (Triumph)",
+      "fr": "Worqor Chirteh (manœuvre)"
+    },
+    "type": 6,
+    "level": 30,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 7
+  },
+  "1081": {
+    "name": {
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1082": {
+    "name": {
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1083": {
+    "name": {
+      "chs": "空军装甲驾驶员",
+      "en": "Air Force One",
+      "ja": "出撃！ エアフォースパイロット",
+      "de": "Luftwaffe, Feuer frei!",
+      "fr": "As de l'air"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1085": {
+    "name": {
+      "chs": "梦想造就风花遍地的",
+      "en": "Where We Call Home",
+      "ja": "隣人と手を取り合いて",
+      "de": "Die Hüterin Trenos",
+      "fr": "Solidarité entre voisins"
+    },
+    "type": 7,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 735,
+    "memberType": 1
   }
 }

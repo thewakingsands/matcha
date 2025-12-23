@@ -7440,6 +7440,13 @@
     "de": "Zirgorteh der Grüßende",
     "fr": "Autel de Zirgorteh"
   },
+  "1298": {
+    "chs": "瓦伦提昂蛋糕店",
+    "en": "The Pâtisserie",
+    "ja": "ヴァレンティオンパティスリー",
+    "de": "Pâtisserie",
+    "fr": "Pâtisserie de la Valention"
+  },
   "1299": {
     "chs": "仓库栋10-29",
     "en": "Containment Complex 10-29",
@@ -7460,13 +7467,6 @@
     "ja": "隔ての荒地",
     "de": "Wildebene",
     "fr": "Plaines venteuses"
-  },
-  "1302": {
-    "chs": "蛇神大社",
-    "en": "The Wreath of Snakes",
-    "ja": "蛇神大社",
-    "de": "Heiligtum der Schlange",
-    "fr": "Sanctuaire du Grand Serpent"
   },
   "1303": {
     "chs": "樵鸣洞",
@@ -7496,6 +7496,20 @@
     "de": "Wildebene",
     "fr": "Plaines venteuses"
   },
+  "1307": {
+    "chs": "铁马车轨道",
+    "en": "Hell on Rails",
+    "ja": "鉄馬車線路",
+    "de": "Gütergleise",
+    "fr": "Voie ferroviaire"
+  },
+  "1308": {
+    "chs": "铁马车轨道",
+    "en": "Hell on Rails",
+    "ja": "鉄馬車線路",
+    "de": "Gütergleise",
+    "fr": "Voie ferroviaire"
+  },
   "1309": {
     "chs": "星芒市场",
     "en": "Starlight Stalls",
@@ -7517,11 +7531,151 @@
     "de": "Fülle des Todes",
     "fr": "Nécropole intemporelle"
   },
+  "1313": {
+    "chs": "沃刻其特",
+    "en": "Worqor Chirteh",
+    "ja": "ウォーコー・チーテ",
+    "de": "Worqor Chirteh",
+    "fr": "Worqor Chirteh"
+  },
+  "1314": {
+    "chs": "雾之迹",
+    "en": "Mistwake",
+    "ja": "ミストウェイク",
+    "de": "Nebeltrift",
+    "fr": "Sillage brumeux"
+  },
+  "1318": {
+    "chs": "帝国河畔堡",
+    "en": "Castrum Fluminis",
+    "ja": "カストルム・フルーミニス",
+    "de": "Castrum Fluminis",
+    "fr": "Castrum Fluminis"
+  },
+  "1320": {
+    "chs": "致命格斗场",
+    "en": "Ring Noir",
+    "ja": "リング・オブ・ヴァンプ",
+    "de": "Vampirring",
+    "fr": "Ring fatal"
+  },
+  "1321": {
+    "chs": "致命格斗场",
+    "en": "Ring Noir",
+    "ja": "リング・オブ・ヴァンプ",
+    "de": "Vampirring",
+    "fr": "Ring fatal"
+  },
+  "1322": {
+    "chs": "极限格斗场",
+    "en": "The X-Ring",
+    "ja": "リング・オブ・エクストリーム",
+    "de": "Extremring",
+    "fr": "Ring extrême"
+  },
+  "1323": {
+    "chs": "极限格斗场",
+    "en": "The X-Ring",
+    "ja": "リング・オブ・エクストリーム",
+    "de": "Extremring",
+    "fr": "Ring extrême"
+  },
+  "1324": {
+    "chs": "霸王格斗场",
+    "en": "The Crown",
+    "ja": "リング・オブ・タイラント",
+    "de": "Tyrannenring",
+    "fr": "Ring du champion"
+  },
+  "1325": {
+    "chs": "霸王格斗场",
+    "en": "The Crown",
+    "ja": "リング・オブ・タイラント",
+    "de": "Tyrannenring",
+    "fr": "Ring du champion"
+  },
+  "1326": {
+    "chs": "登天格斗场",
+    "en": "Arcadia",
+    "ja": "リング・オブ・アルカディア",
+    "de": "Arkadionring",
+    "fr": "Ring arcadien"
+  },
+  "1327": {
+    "chs": "登天格斗场",
+    "en": "Arcadia",
+    "ja": "リング・オブ・アルカディア",
+    "de": "Arkadionring",
+    "fr": "Ring arcadien"
+  },
+  "1328": {
+    "chs": "特雷诺",
+    "en": "Treno",
+    "ja": "トレノ",
+    "de": "Treno",
+    "fr": "Tréno"
+  },
+  "1330": {
+    "chs": "泽梅尔要塞",
+    "en": "Dzemael Darkhold",
+    "ja": "ゼーメル要塞",
+    "de": "Feste Dzemael",
+    "fr": "Forteresse de Dzemael"
+  },
+  "1331": {
+    "chs": "黄金谷",
+    "en": "Aurum Vale",
+    "ja": "オーラムヴェイル",
+    "de": "Goldklamm",
+    "fr": "Val d'Aurum"
+  },
+  "1332": {
+    "chs": "特雷诺",
+    "en": "Treno",
+    "ja": "トレノ",
+    "de": "Treno",
+    "fr": "Tréno"
+  },
   "1333": {
     "chs": "朝圣交错路",
     "en": "Pilgrim's Traverse",
     "ja": "ピルグリム・トラバース",
     "de": "Pilgers Pfad",
     "fr": "Sanctuaire des pèlerins"
+  },
+  "1334": {
+    "chs": "亚历山德里亚王国遗址",
+    "en": "Alexandria Crater",
+    "ja": "アレクサンドリア王国跡地",
+    "de": "Alexandrias Ruinenring",
+    "fr": "Vestiges d'Alexandrie"
+  },
+  "1335": {
+    "chs": "金碟游乐场",
+    "en": "The Gold Saucer",
+    "ja": "ゴールドソーサー",
+    "de": "Gold Saucer",
+    "fr": "Gold Saucer"
+  },
+  "1336": {
+    "chs": "睡莲湖附近",
+    "en": "Lilyswim",
+    "ja": "睡蓮湖近郊",
+    "de": "睡蓮湖近郊",
+    "fr": "Alentours du lac aux Nénuphars"
+  },
+  "1338": {
+    "chs": "本蒂尼货运站",
+    "en": "Bentini Depot",
+    "ja": "ベンティーニ貨物駅",
+    "de": "Bahnhof Bentini",
+    "fr": "Gare de Bendini"
+  },
+  "1344": {
+    "chs": "三尾训练馆",
+    "en": "Tritails Training",
+    "ja": "ジム・トライテール",
+    "de": "Tatzentrio-Training",
+    "fr": "Trois Queues"
   }
 }

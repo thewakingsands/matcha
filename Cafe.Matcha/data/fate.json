@@ -3076,7 +3076,7 @@
       "chs": "骏鹰的晚餐",
       "en": "Another Day, Another Demon",
       "ja": "ヒッポグリフの晩餐会",
-      "de": "Hippogryhpen greifen an",
+      "de": "Hippogryphen greifen an",
       "fr": "À chaque jour suffit son monstre"
     },
     "level": 46,
@@ -13805,7 +13805,7 @@
       "en": "Artificial Malevolence: Mighty Metatron",
       "ja": "魔導技師の帰郷：メタトロン・ベース",
       "de": "Reinwaschung eines Ingenieurs: Metatron",
-      "fr": "Retour au pays: Metatron "
+      "fr": "Retour au pays: Métatron "
     },
     "level": 83,
     "patch": 6,
@@ -15613,7 +15613,7 @@
   },
   "1963": {
     "name": {
-      "chs": "古代怪石——金色石碑",
+      "chs": "古代怪石——金色石面",
       "en": "The Golden Guardian",
       "ja": "金色の怪石「ゴールデンブロックス」",
       "de": "Brocken statt Barren",
@@ -16522,5 +16522,53 @@
     "level": 1,
     "patch": 6,
     "location": 1291
+  },
+  "2042": {
+    "name": {
+      "chs": "特别露天公演",
+      "en": "Live from Ul'dah",
+      "ja": "プリンセスデー「特別路上公演」",
+      "de": "Der Kreuzgang rockt",
+      "fr": "Des spectacles inoubliables"
+    },
+    "level": 5,
+    "patch": 6,
+    "location": 0
+  },
+  "2043": {
+    "name": {
+      "chs": "特别露天公演",
+      "en": "Live from Ul'dah",
+      "ja": "プリンセスデー「特別路上公演」",
+      "de": "Der Kreuzgang rockt",
+      "fr": "Des spectacles inoubliables"
+    },
+    "level": 5,
+    "patch": 6,
+    "location": 0
+  },
+  "2044": {
+    "name": {
+      "chs": "特别露天公演",
+      "en": "Live from Ul'dah",
+      "ja": "プリンセスデー「特別路上公演」",
+      "de": "Der Kreuzgang rockt",
+      "fr": "Des spectacles inoubliables"
+    },
+    "level": 5,
+    "patch": 6,
+    "location": 0
+  },
+  "2045": {
+    "name": {
+      "chs": "特别露天公演",
+      "en": "Live from Ul'dah",
+      "ja": "プリンセスデー「特別路上公演」",
+      "de": "Der Kreuzgang rockt",
+      "fr": "Des spectacles inoubliables"
+    },
+    "level": 5,
+    "patch": 6,
+    "location": 0
   }
 }
