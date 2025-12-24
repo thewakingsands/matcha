@@ -203,7 +203,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.NpcSpawn)
             {
-                if (packet.Length != 680)
+                if (packet.Length != 688)
                 {
                     return false;
                 }
@@ -294,7 +294,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.ActorControlSelf)
             {
-                if (packet.Length != 64)
+                if (packet.Length != 72)
                 {
                     return false;
                 }
@@ -486,7 +486,7 @@ namespace Cafe.Matcha.Network
             }
             else if (opcode == MatchaOpcode.InitZone)
             {
-                if (packet.Length != 144)
+                if (packet.Length != 168)
                 {
                     return false;
                 }
