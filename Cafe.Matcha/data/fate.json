@@ -16570,5 +16570,317 @@
     "level": 5,
     "patch": 6,
     "location": 0
+  },
+  "2046": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2047": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2048": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2049": {
+    "name": {
+      "chs": "重力控制器安装工程支援行动",
+      "en": "Gravitational Generator Construction Support",
+      "ja": "重力制御装置設置支援",
+      "de": "Gravitisierungskontrolle: Bauunterstützung",
+      "fr": "Construction de générateurs de gravité"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2050": {
+    "name": {
+      "chs": "大地基地重建工程",
+      "en": "Terra Firma Maintenance",
+      "ja": "テラ・ファーマ基地再整備工事",
+      "de": "Terra Firma: Renovierung",
+      "fr": "Maintenance de Terra Firma"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2051": {
+    "name": {
+      "chs": "自形晶修复计划",
+      "en": "Euhedron Restoration",
+      "ja": "エウヘドロン修復計画",
+      "de": "Euhedron: Restaurierung",
+      "fr": "Restauration de l'euèdre"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2052": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2053": {
+    "name": {
+      "chs": "翠核深谷遗迹挖掘计划",
+      "en": "Emerald Echoes Excavation",
+      "ja": "翠核の谷遺跡発掘計画",
+      "de": "Tiefgrünes Echo: Ausgrabung",
+      "fr": "Excavation des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2054": {
+    "name": {
+      "chs": "翠核深谷遗迹解锁计划",
+      "en": "Emerald Echoes Exploration",
+      "ja": "翠核の谷遺跡解錠計画",
+      "de": "Tiefgrünes Echo: Entriegelung",
+      "fr": "Ouverture des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2055": {
+    "name": {
+      "chs": "翠核深谷遗迹修复计划",
+      "en": "Emerald Echoes Restoration",
+      "ja": "翠核の谷遺跡復旧計画",
+      "de": "Tiefgrünes Echo: Letzter Vorstoß",
+      "fr": "Restauration des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2056": {
+    "name": {
+      "chs": "翠核深谷遗迹最深处重启计划",
+      "en": "Reawakening the Deep Echoes",
+      "ja": "翠核の谷遺跡最深部再起動計画",
+      "de": "Tiefgrünes Echo: Kristallrestaurierung",
+      "fr": "Réactivation des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2057": {
+    "name": {
+      "chs": "大地基地结构强化工程",
+      "en": "Refirming Terra Firma",
+      "ja": "テラ・ファーマ基地構造強化工事",
+      "de": "Terra Firma: Kernstabilisierung",
+      "fr": "Renforcement de Terra Firma"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2058": {
+    "name": {
+      "chs": "自形晶重启作战",
+      "en": "Euhedron Activation Protocols",
+      "ja": "エウヘドロン再起動作戦",
+      "de": "Datenempfangsapparatur: Bauunterstützung",
+      "fr": "Réactivation de l'euèdre"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2059": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2060": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2061": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2062": {
+    "name": {
+      "chs": "重力控制器安装工程支援行动",
+      "en": "Gravitational Generator Construction Support",
+      "ja": "重力制御装置設置支援",
+      "de": "Gravitisierungskontrolle: Bauunterstützung",
+      "fr": "Construction de générateurs de gravité"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2063": {
+    "name": {
+      "chs": "大地基地重建工程",
+      "en": "Terra Firma Maintenance",
+      "ja": "テラ・ファーマ基地再整備工事",
+      "de": "Terra Firma: Renovierung",
+      "fr": "Maintenance de Terra Firma"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2064": {
+    "name": {
+      "chs": "自形晶修复计划",
+      "en": "Euhedron Restoration",
+      "ja": "エウヘドロン修復計画",
+      "de": "Euhedron: Restaurierung",
+      "fr": "Restauration de l'euèdre"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2065": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2066": {
+    "name": {
+      "chs": "翠核深谷遗迹挖掘计划",
+      "en": "Emerald Echoes Excavation",
+      "ja": "翠核の谷遺跡発掘計画",
+      "de": "Tiefgrünes Echo: Ausgrabung",
+      "fr": "Excavation des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2067": {
+    "name": {
+      "chs": "翠核深谷遗迹解锁计划",
+      "en": "Emerald Echoes Exploration",
+      "ja": "翠核の谷遺跡解錠計画",
+      "de": "Tiefgrünes Echo: Entriegelung",
+      "fr": "Ouverture des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2068": {
+    "name": {
+      "chs": "翠核深谷遗迹修复计划",
+      "en": "Emerald Echoes Restoration",
+      "ja": "翠核の谷遺跡復旧計画",
+      "de": "Tiefgrünes Echo: Letzter Vorstoß",
+      "fr": "Restauration des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2069": {
+    "name": {
+      "chs": "翠核深谷遗迹最深处重启计划",
+      "en": "Reawakening the Deep Echoes",
+      "ja": "翠核の谷遺跡最深部再起動計画",
+      "de": "Tiefgrünes Echo: Kristallrestaurierung",
+      "fr": "Réactivation des Échos d'Émeraude"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2070": {
+    "name": {
+      "chs": "大地基地结构强化工程",
+      "en": "Refirming Terra Firma",
+      "ja": "テラ・ファーマ基地構造強化工事",
+      "de": "Terra Firma: Kernstabilisierung",
+      "fr": "Renforcement de Terra Firma"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2071": {
+    "name": {
+      "chs": "自形晶重启作战",
+      "en": "Euhedron Activation Protocols",
+      "ja": "エウヘドロン再起動作戦",
+      "de": "Datenempfangsapparatur: Bauunterstützung",
+      "fr": "Réactivation de l'euèdre"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
   }
 }
