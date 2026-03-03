@@ -9691,7 +9691,7 @@
   },
   "878": {
     "name": {
-      "chs": "异闻迷宫 异闻希拉狄哈水道",
+      "chs": "异闻希拉狄哈水道",
       "en": "Another Sil'dihn Subterrane",
       "ja": "アナザーダンジョン 異聞シラディハ水道",
       "de": "Die kuriose Unterstadt von Sil'dih",
@@ -9706,7 +9706,7 @@
   },
   "879": {
     "name": {
-      "chs": "异闻迷宫 零式异闻希拉狄哈水道",
+      "chs": "零式异闻希拉狄哈水道",
       "en": "Another Sil'dihn Subterrane (Savage)",
       "ja": "アナザーダンジョン 異聞シラディハ水道 零式",
       "de": "Die kuriose Unterstadt von Sil'dih (episch)",
@@ -10546,7 +10546,7 @@
   },
   "946": {
     "name": {
-      "chs": "异闻迷宫 异闻六根山",
+      "chs": "异闻六根山",
       "en": "Another Mount Rokkon",
       "ja": "アナザーダンジョン 異聞六根山",
       "de": "Der kuriose Rokkon",
@@ -10561,7 +10561,7 @@
   },
   "947": {
     "name": {
-      "chs": "异闻迷宫 零式异闻六根山",
+      "chs": "零式异闻六根山",
       "en": "Another Mount Rokkon (Savage)",
       "ja": "アナザーダンジョン 異聞六根山 零式",
       "de": "Der kuriose Rokkon (episch)",
@@ -11011,7 +11011,7 @@
   },
   "979": {
     "name": {
-      "chs": "异闻迷宫 异闻阿罗阿罗岛",
+      "chs": "异闻阿罗阿罗岛",
       "en": "Another Aloalo Island",
       "ja": "アナザーダンジョン 異聞アロアロ島",
       "de": "Kurioses Aloalo",
@@ -11026,7 +11026,7 @@
   },
   "980": {
     "name": {
-      "chs": "异闻迷宫 零式异闻阿罗阿罗岛",
+      "chs": "零式异闻阿罗阿罗岛",
       "en": "Another Aloalo Island (Savage)",
       "ja": "アナザーダンジョン 異聞アロアロ島 零式",
       "de": "Kurioses Aloalo (episch)",
@@ -12209,6 +12209,21 @@
     "itemSync": 0,
     "memberType": 11
   },
+  "1066": {
+    "name": {
+      "chs": "多变迷宫 商客奇谭",
+      "en": "The Merchant's Tale",
+      "ja": "ヴァリアントダンジョン 商客物語",
+      "de": "Des Händlers Liebesmüh",
+      "fr": "Contes du Camelot - Donjon à embranchements"
+    },
+    "type": 30,
+    "level": 90,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 765,
+    "memberType": 11
+  },
   "1067": {
     "name": {
       "chs": "月读幻巧战",
@@ -12374,6 +12389,21 @@
     "itemSync": 0,
     "memberType": 3
   },
+  "1079": {
+    "name": {
+      "chs": "异闻商客奇谭",
+      "en": "Another Merchant's Tale",
+      "ja": "アナザーダンジョン 異聞商客物語",
+      "de": "Des Händlers kuriose Liebesmüh",
+      "fr": "Contes du Camelot annexes - Donjon alternatif"
+    },
+    "type": 30,
+    "level": 100,
+    "levelSync": 100,
+    "item": 770,
+    "itemSync": 795,
+    "memberType": 31
+  },
   "1080": {
     "name": {
       "chs": "沃刻其特（演习战）",
@@ -12433,6 +12463,21 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 1
+  },
+  "1084": {
+    "name": {
+      "chs": "深读商客奇谭",
+      "en": "The Merchant's Tale (Advanced)",
+      "ja": "アドバンスド・ヴァリアントダンジョン 商客物語",
+      "de": "Des Händlers Liebesmüh (fortgeschritten)",
+      "fr": "Contes du Camelot - Donjon à embranchements (avancé)"
+    },
+    "type": 30,
+    "level": 100,
+    "levelSync": 100,
+    "item": 760,
+    "itemSync": 785,
+    "memberType": 34
   },
   "1085": {
     "name": {

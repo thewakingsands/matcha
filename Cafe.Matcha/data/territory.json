@@ -7552,6 +7552,27 @@
     "de": "Nebeltrift",
     "fr": "Sillage brumeux"
   },
+  "1315": {
+    "chs": "商客奇谭",
+    "en": "The Merchant's Tale",
+    "ja": "商客物語",
+    "de": "Des Händlers Liebesmüh",
+    "fr": "Contes du Camelot"
+  },
+  "1316": {
+    "chs": "商客奇谭",
+    "en": "The Merchant's Tale",
+    "ja": "商客物語",
+    "de": "Des Händlers Liebesmüh",
+    "fr": "Contes du Camelot"
+  },
+  "1317": {
+    "chs": "异闻商客奇谭",
+    "en": "Another Merchant's Tale",
+    "ja": "異聞商客物語",
+    "de": "Des Händlers kuriose Liebesmüh",
+    "fr": "Contes du Camelot annexes"
+  },
   "1318": {
     "chs": "帝国河畔堡",
     "en": "Castrum Fluminis",
@@ -7668,8 +7689,15 @@
     "chs": "睡莲湖附近",
     "en": "Lilyswim",
     "ja": "睡蓮湖近郊",
-    "de": "睡蓮湖近郊",
+    "de": "Lilienteich",
     "fr": "Alentours du lac aux Nénuphars"
+  },
+  "1337": {
+    "chs": "美丽的姑娘的家",
+    "en": "The Maiden's Home",
+    "ja": "美しい娘の家",
+    "de": "Gemächer der jungen Angebeteten",
+    "fr": "Appartements de la belle demoiselle"
   },
   "1338": {
     "chs": "本蒂尼货运站",
