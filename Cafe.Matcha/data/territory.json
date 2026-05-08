@@ -1833,13 +1833,6 @@
     "de": "Anwesen der Fortemps",
     "fr": "Manoir des Fortemps"
   },
-  "434": {
-    "chs": "暮卫塔",
-    "en": "Dusk Vigil",
-    "ja": "ダスクヴィジル",
-    "de": "Abendrot-Wacht",
-    "fr": "Vigile du Crépuscule"
-  },
   "436": {
     "chs": "无尽苍空",
     "en": "The Limitless Blue",
@@ -3022,13 +3015,6 @@
     "ja": "ヤンサ",
     "de": "Yanxia",
     "fr": "Yanxia"
-  },
-  "616": {
-    "chs": "紫水宫",
-    "en": "Shisui of the Violet Tides",
-    "ja": "紫水宮",
-    "de": "Shisui-Palast",
-    "fr": "Palais aux Marées violettes"
   },
   "617": {
     "chs": "索姆阿尔灵峰",
@@ -7573,13 +7559,6 @@
     "de": "Des Händlers kuriose Liebesmüh",
     "fr": "Contes du Camelot annexes"
   },
-  "1318": {
-    "chs": "帝国河畔堡",
-    "en": "Castrum Fluminis",
-    "ja": "カストルム・フルーミニス",
-    "de": "Castrum Fluminis",
-    "fr": "Castrum Fluminis"
-  },
   "1320": {
     "chs": "致命格斗场",
     "en": "Ring Noir",
@@ -7712,5 +7691,96 @@
     "ja": "ジム・トライテール",
     "de": "Tatzentrio-Training",
     "fr": "Trois Queues"
+  },
+  "1345": {
+    "chs": "克吕提俄斯魔导工厂",
+    "en": "The Clyteum",
+    "ja": "クルティウス魔導工廠",
+    "de": "Klyteum",
+    "fr": "Le Clyteum"
+  },
+  "1357": {
+    "chs": "休兵书库",
+    "en": "Archeia Harmonias",
+    "ja": "ハルモニア戦争図書館",
+    "de": "Archeia Harmonias",
+    "fr": "La Bibliothèque Harmonia"
+  },
+  "1358": {
+    "chs": "休兵书库",
+    "en": "Archeia Harmonias",
+    "ja": "ハルモニア戦争図書館",
+    "de": "Archeia Harmonias",
+    "fr": "La Bibliothèque Harmonia"
+  },
+  "1361": {
+    "chs": "无之领域",
+    "en": "The Unmaking",
+    "ja": "無の領域",
+    "de": "Nichts-Territorium",
+    "fr": "Domaine du néant"
+  },
+  "1362": {
+    "chs": "无之领域",
+    "en": "The Unmaking",
+    "ja": "無の領域",
+    "de": "Nichts-Territorium",
+    "fr": "Domaine du néant"
+  },
+  "1366": {
+    "chs": "暮卫塔",
+    "en": "Dusk Vigil",
+    "ja": "ダスクヴィジル",
+    "de": "Abendrot-Wacht",
+    "fr": "Vigile du Crépuscule"
+  },
+  "1367": {
+    "chs": "紫水宫",
+    "en": "Shisui of the Violet Tides",
+    "ja": "紫水宮",
+    "de": "Shisui-Palast",
+    "fr": "Palais aux Marées violettes"
+  },
+  "1368": {
+    "chs": "温达斯：第三巡行",
+    "en": "Windurst: The Third Walk",
+    "ja": "ウィンダス：ザ・サードウォーク",
+    "de": "Windurst: Die dritte Etappe",
+    "fr": "Windurst - La troisième perambulation"
+  },
+  "1369": {
+    "chs": "闹鬼盛宴",
+    "en": "The Phantoms' Feast",
+    "ja": "ホーンテッドフィースト",
+    "de": "Lustiges Bankett",
+    "fr": "Banquet cauchemardesque"
+  },
+  "1370": {
+    "chs": "闹鬼盛宴",
+    "en": "The Phantoms' Feast",
+    "ja": "ホーンテッドフィースト",
+    "de": "Lustiges Bankett",
+    "fr": "Banquet cauchemardesque"
+  },
+  "1372": {
+    "chs": "结晶化空间",
+    "en": "Transparency",
+    "ja": "結晶化空間",
+    "de": "Raum der Transparenz",
+    "fr": "Transparence"
+  },
+  "1373": {
+    "chs": "无之领域",
+    "en": "The Unmaking",
+    "ja": "無の領域",
+    "de": "Nichts-Territorium",
+    "fr": "Domaine du néant"
+  },
+  "1384": {
+    "chs": "星芒市场",
+    "en": "Starlight Stalls",
+    "ja": "星芒マーケット",
+    "de": "Sternenlicht-Stände",
+    "fr": "Marché des étoiles"
   }
 }
