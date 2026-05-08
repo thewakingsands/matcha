@@ -6,6 +6,7 @@ import { writeFileSync } from 'fs'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
+const useCNOpcodesForGlobal = true
 const opcodes = [
   'ActorControl',
   'ActorControlSelf',
@@ -155,7 +156,7 @@ ${outputKeys()}
     {
         public static Dictionary<ushort, MatchaOpcode> Global = new Dictionary<ushort, MatchaOpcode>
         {
-${outputFromKarashiiro(globalOpcodes, 'global')}
+${useCNOpcodesForGlobal ? outputFromWorker(cnOpcodes, 'cn') : outputFromKarashiiro(globalOpcodes, 'global')}
         };
         public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
         {
