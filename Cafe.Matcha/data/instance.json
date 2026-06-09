@@ -12494,6 +12494,21 @@
     "itemSync": 735,
     "memberType": 1
   },
+  "1094": {
+    "name": {
+      "chs": "妖星乱舞绝境战",
+      "en": "Dancing Mad (Ultimate)",
+      "ja": "絶妖星乱舞",
+      "de": "Tanzender Wahn (fatal)",
+      "fr": "Danse démente (fatal)"
+    },
+    "type": 28,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 3
+  },
   "1098": {
     "name": {
       "chs": "出海垂钓",

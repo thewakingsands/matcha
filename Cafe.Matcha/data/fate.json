@@ -16882,5 +16882,317 @@
     "level": 1,
     "patch": 6,
     "location": 0
+  },
+  "2085": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2086": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2087": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2088": {
+    "name": {
+      "chs": "子叶塔修复计划",
+      "en": "Sprouting Towerling Revivification",
+      "ja": "子葉の塔復旧計画",
+      "de": "Keimturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse épanouie"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2089": {
+    "name": {
+      "chs": "原木屋基地扩建工程",
+      "en": "Timberlodge Expansion",
+      "ja": "ティンバーロッジ基地拡張計画",
+      "de": "Baumesruh: Renovierung",
+      "fr": "Maintenance de la station du Havre forestier"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2090": {
+    "name": {
+      "chs": "常叶塔开路支援行动",
+      "en": "Passage to the Sunning Towerling",
+      "ja": "常葉の塔への経路確保支援",
+      "de": "Blütenturmling: Freilegung",
+      "fr": "Accès aux Bibliothèques sylvestres"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2091": {
+    "name": {
+      "chs": "常叶塔修复计划",
+      "en": "Sunning Towerling Revivification",
+      "ja": "常葉の塔復旧計画",
+      "de": "Blütenturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse fleurie"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2092": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2093": {
+    "name": {
+      "chs": "末叶塔开路支援行动",
+      "en": "Passage to the Rooting Towerling",
+      "ja": "末葉の塔への経路確保支援",
+      "de": "Wurzelturmling: Freilegung",
+      "fr": "Accès à la Pousse vivace"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2094": {
+    "name": {
+      "chs": "末叶塔修复计划",
+      "en": "Rooting Towerling Revivification",
+      "ja": "末葉の塔復旧計画",
+      "de": "Wurzelturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse vivace"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2095": {
+    "name": {
+      "chs": "机甲库扩建工程",
+      "en": "Mech Hangar Expansion",
+      "ja": "ハンガー拡張計画",
+      "de": "Sternenhangar: Renovierung",
+      "fr": "Agrandissement des hangars"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2096": {
+    "name": {
+      "chs": "核心林区环境整备支援行动",
+      "en": "Core Shroud Beautification",
+      "ja": "コア・シュラウドの環境整備支援",
+      "de": "Großmütterchen Lorbeer: Freilegung",
+      "fr": "Aménagement de l'Écosystème central"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2097": {
+    "name": {
+      "chs": "太母神桂重启作战",
+      "en": "Grandma Laurel Activation Protocols",
+      "ja": "グランマ・ローレル再起動作戦",
+      "de": "Großmütterchen Lorbeer: Reaktivierung",
+      "fr": "Réactivation du Laurier-Mère"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2098": {
+    "name": {
+      "chs": "居住舱安装工程支援行动",
+      "en": "Habitation Module Construction Support",
+      "ja": "居住モジュール設置支援",
+      "de": "Habitationsmodul: Bauunterstützung",
+      "fr": "Installation des modules d'habitation"
+    },
+    "level": 1,
+    "patch": 7,
+    "location": 1237
+  },
+  "2099": {
+    "name": {
+      "chs": "能源设施建设工程支援行动",
+      "en": "Energization Station Construction Support",
+      "ja": "エネルギー設備建設支援",
+      "de": "Energisierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures énergétiques"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2100": {
+    "name": {
+      "chs": "供水设施建设工程支援行动",
+      "en": "Hydrofication Station Construction Support",
+      "ja": "給水設備建設支援",
+      "de": "Hydrofizierungswerke: Bauunterstützung",
+      "fr": "Expansion des infrastructures de distribution d'eau"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2101": {
+    "name": {
+      "chs": "子叶塔修复计划",
+      "en": "Sprouting Towerling Revivification",
+      "ja": "子葉の塔復旧計画",
+      "de": "Keimturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse épanouie"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2102": {
+    "name": {
+      "chs": "原木屋基地扩建工程",
+      "en": "Timberlodge Expansion",
+      "ja": "ティンバーロッジ基地拡張計画",
+      "de": "Baumesruh: Renovierung",
+      "fr": "Maintenance de la station du Havre forestier"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2103": {
+    "name": {
+      "chs": "常叶塔开路支援行动",
+      "en": "Passage to the Sunning Towerling",
+      "ja": "常葉の塔への経路確保支援",
+      "de": "Blütenturmling: Freilegung",
+      "fr": "Accès aux Bibliothèques sylvestres"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2104": {
+    "name": {
+      "chs": "常叶塔修复计划",
+      "en": "Sunning Towerling Revivification",
+      "ja": "常葉の塔復旧計画",
+      "de": "Blütenturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse fleurie"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2105": {
+    "name": {
+      "chs": "宇宙港建设工程支援行动",
+      "en": "Cosmoport Maintenance Support",
+      "ja": "コスモポート整備支援",
+      "de": "Kosmoport: Renovierung",
+      "fr": "Support à l'aménagement du cosmoport"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 1291
+  },
+  "2106": {
+    "name": {
+      "chs": "末叶塔开路支援行动",
+      "en": "Passage to the Rooting Towerling",
+      "ja": "末葉の塔への経路確保支援",
+      "de": "Wurzelturmling: Freilegung",
+      "fr": "Accès à la Pousse vivace"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2107": {
+    "name": {
+      "chs": "末叶塔修复计划",
+      "en": "Rooting Towerling Revivification",
+      "ja": "末葉の塔復旧計画",
+      "de": "Wurzelturmling: Revitalisierung",
+      "fr": "Restauration de la Pousse vivace"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2108": {
+    "name": {
+      "chs": "机甲库扩建工程",
+      "en": "Mech Hangar Expansion",
+      "ja": "ハンガー拡張計画",
+      "de": "Sternenhangar: Renovierung",
+      "fr": "Agrandissement des hangars"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2109": {
+    "name": {
+      "chs": "核心林区环境整备支援行动",
+      "en": "Core Shroud Beautification",
+      "ja": "コア・シュラウドの環境整備支援",
+      "de": "Großmütterchen Lorbeer: Freilegung",
+      "fr": "Aménagement de l'Écosystème central"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2110": {
+    "name": {
+      "chs": "太母神桂重启作战",
+      "en": "Grandma Laurel Activation Protocols",
+      "ja": "グランマ・ローレル再起動作戦",
+      "de": "Großmütterchen Lorbeer: Reaktivierung",
+      "fr": "Réactivation du Laurier-Mère"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
   }
 }
