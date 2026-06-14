@@ -28,6 +28,7 @@ namespace Cafe.Matcha.Constant
         NpcSpawn,
         PlayerSetup,
         PlayerSpawn,
+        SubmarineStatusList,
         WorldVisitQueue,
     }
 
@@ -56,6 +57,7 @@ namespace Cafe.Matcha.Constant
             { 0x0113, MatchaOpcode.NpcSpawn },
             { 0x03a8, MatchaOpcode.PlayerSetup },
             { 0x03b4, MatchaOpcode.PlayerSpawn },
+            { 0x0370, MatchaOpcode.SubmarineStatusList },
             { 0x009e, MatchaOpcode.WorldVisitQueue },
         };
         public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
@@ -81,6 +83,7 @@ namespace Cafe.Matcha.Constant
             { 0x0113, MatchaOpcode.NpcSpawn },
             { 0x03a8, MatchaOpcode.PlayerSetup },
             { 0x03b4, MatchaOpcode.PlayerSpawn },
+            { 0x0370, MatchaOpcode.SubmarineStatusList },
             { 0x009e, MatchaOpcode.WorldVisitQueue },
         };
     }

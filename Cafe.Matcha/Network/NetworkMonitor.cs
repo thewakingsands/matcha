@@ -27,6 +27,7 @@ namespace Cafe.Matcha.Network
             AddHandler<FishingHandler>();
             AddHandler<MarketBoardHandler>();
             AddHandler<QueueHandler>();
+            AddHandler<SubmarineHandler>();
         }
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)
@@ -449,38 +450,6 @@ namespace Cafe.Matcha.Network
                 FireEvent(new CompanyVoyageStatusDTO()
                 {
                     Type = "airship",
-                    List = list
-                });
-            }
-            else if (opcode == MatchaOpcode.CompanySubmersibleStatus)
-            {
-                if (packet.Length != 176)
-                {
-                    return false;
-                }
-
-                var list = new List<CompanyVoyageStatusItem>();
-                for (int i = 0; i < 4; ++i)
-                {
-                    list.Add(new CompanyVoyageStatusItem
-                    {
-                        ReturnTime = BitConverter.ToUInt32(data, i * 36),
-                        MaxDistance = BitConverter.ToUInt16(data, i * 36 + 4),
-                        Name = Helper.ReadString(data, i * 36 + 8, 22),
-                        Destination = new int[]
-                        {
-                            (sbyte)data[i * 36 + 31],
-                            (sbyte)data[i * 36 + 32],
-                            (sbyte)data[i * 36 + 33],
-                            (sbyte)data[i * 36 + 34],
-                            (sbyte)data[i * 36 + 35]
-                        }
-                    });
-                }
-
-                FireEvent(new CompanyVoyageStatusDTO()
-                {
-                    Type = "submersible",
                     List = list
                 });
             }

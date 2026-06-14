@@ -46,6 +46,7 @@ const opcodes = [
   'NpcSpawn',
   'PlayerSetup',
   'PlayerSpawn',
+  'SubmarineStatusList',
   'WorldVisitQueue'
 ]
 
