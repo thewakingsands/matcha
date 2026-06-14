@@ -1,4 +1,4 @@
-﻿// Copyright (c) FFCafe. All rights reserved.
+// Copyright (c) FFCafe. All rights reserved.
 // Licensed under the AGPL-3.0 license. See LICENSE file in the project root for full license information.
 
 namespace Cafe.Matcha.Network
@@ -26,6 +26,7 @@ namespace Cafe.Matcha.Network
         {
             AddHandler<FishingHandler>();
             AddHandler<MarketBoardHandler>();
+            AddHandler<TreasureHandler>();
             AddHandler<QueueHandler>();
             AddHandler<SubmarineHandler>();
         }
@@ -70,90 +71,13 @@ namespace Cafe.Matcha.Network
             }
 
             var processed = HandleMessageByOpcode(packet);
-            if (!processed)
-            {
 #if DEBUG
-                if (packet.Known)
-                {
-                    LogIncorrectPacketSize(packet.MatchaOpcode, packet.Length);
-                    Log.Packet(packet.Bytes);
-                }
+            if (!processed && packet.Known)
+            {
+                LogIncorrectPacketSize(packet.MatchaOpcode, packet.Length);
+                Log.Packet(packet.Bytes);
+            }
 #endif
-
-                if (packet.Sender == Packet.PacketSender.Server)
-                {
-                    TryHandleServerMessage(packet);
-                }
-            }
-        }
-
-        private void TryHandleServerMessage(Packet packet)
-        {
-            // Treasure Shifting Wheel Result
-            if (packet.DataLength == 56)
-            {
-                var data = packet.GetRawData();
-                var level = BitConverter.ToUInt32(data, 24);
-                if (
-                    level == 7636061 || // G10 运河宝物库神殿
-                    level == 8508181 || // G12 梦羽宝殿
-                    level == 9413549) // G15 育体宝殿
-                {
-                    var result = (TreasureShiftingWheelResultType)data[40];
-                    switch (result)
-                    {
-                        case TreasureShiftingWheelResultType.Low:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-low"
-                            });
-                            break;
-                        case TreasureShiftingWheelResultType.Medium:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-medium"
-                            });
-                            break;
-                        case TreasureShiftingWheelResultType.High:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-high"
-                            });
-                            break;
-                        case TreasureShiftingWheelResultType.Shift:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-shift"
-                            });
-                            break;
-                        case TreasureShiftingWheelResultType.Special:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-special"
-                            });
-                            break;
-                        case TreasureShiftingWheelResultType.End:
-                            FireEvent(new TreasureResultDTO()
-                            {
-                                Value = "wheel-end"
-                            });
-                            break;
-                    }
-                }
-            }
-            else if (packet.DataLength == 64)
-            {
-                var data = packet.GetRawData();
-                var flag = BitConverter.ToUInt32(data, 16);
-                if (flag == 0x04482c03)
-                {
-                    FireEvent(new TreasureResultDTO()
-                    {
-                        Round = data[32] + 1,
-                        Value = data[40] == 1 ? "gate-open" : "gate-fail"
-                    });
-                }
-            }
         }
 
         private void AddHandler<T>() where T : AbstractHandler
@@ -390,17 +314,6 @@ namespace Cafe.Matcha.Network
                                 });
                             }
 
-                            break;
-                        }
-
-                    case ActorControlType.TreasureSpot:
-                        {
-                            FireEvent(new TreasureSpotDTO()
-                            {
-                                Item = (int)BitConverter.ToUInt32(data, 4),
-                                Location = (int)BitConverter.ToUInt32(data, 8),
-                                IsNew = BitConverter.ToUInt32(data, 12) != 0
-                            });
                             break;
                         }
                 }
