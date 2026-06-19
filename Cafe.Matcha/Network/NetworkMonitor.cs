@@ -349,13 +349,13 @@ namespace Cafe.Matcha.Network
                         ReturnTime = BitConverter.ToUInt32(data, i * 36),
                         MaxDistance = BitConverter.ToUInt16(data, i * 36 + 4),
                         Name = Helper.ReadString(data, i * 36 + 6, 22),
-                        Destination = new int[]
+                        Destination = new uint[]
                         {
-                            (sbyte)data[i * 36 + 29],
-                            (sbyte)data[i * 36 + 30],
-                            (sbyte)data[i * 36 + 31],
-                            (sbyte)data[i * 36 + 32],
-                            (sbyte)data[i * 36 + 33]
+                            data[i * 36 + 29],
+                            data[i * 36 + 30],
+                            data[i * 36 + 31],
+                            data[i * 36 + 32],
+                            data[i * 36 + 33]
                         }
                     });
                 }
