@@ -53,13 +53,13 @@ namespace Cafe.Matcha.Network.Handler
                     ReturnTime = BitConverter.ToUInt32(data, offset),
                     MaxDistance = BitConverter.ToUInt16(data, offset + 4),
                     Name = Helper.ReadString(data, offset + 8, 22),
-                    Destination = new int[]
+                    Destination = new uint[]
                     {
-                        (sbyte)data[offset + 31],
-                        (sbyte)data[offset + 32],
-                        (sbyte)data[offset + 33],
-                        (sbyte)data[offset + 34],
-                        (sbyte)data[offset + 35]
+                        data[offset + 31],
+                        data[offset + 32],
+                        data[offset + 33],
+                        data[offset + 34],
+                        data[offset + 35]
                     }
                 });
             }
@@ -99,13 +99,13 @@ namespace Cafe.Matcha.Network.Handler
                     Stern = BitConverter.ToUInt16(data, offset + 48),
                     Bow = BitConverter.ToUInt16(data, offset + 50),
                     Bridge = BitConverter.ToUInt16(data, offset + 52),
-                    Destination = new int[]
+                    Destination = new uint[]
                     {
-                        (sbyte)data[offset + 54],
-                        (sbyte)data[offset + 55],
-                        (sbyte)data[offset + 56],
-                        (sbyte)data[offset + 57],
-                        (sbyte)data[offset + 58]
+                        data[offset + 54],
+                        data[offset + 55],
+                        data[offset + 56],
+                        data[offset + 57],
+                        data[offset + 58]
                     }
                 });
             }

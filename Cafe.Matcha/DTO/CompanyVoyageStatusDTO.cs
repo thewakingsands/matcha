@@ -13,13 +13,13 @@ namespace Cafe.Matcha.DTO
         public uint ReturnTime;
 
         [JsonProperty("maxDistance")]
-        public int MaxDistance;
+        public uint MaxDistance;
 
         [JsonProperty("name")]
         public string Name;
 
         [JsonProperty("destination")]
-        public int[] Destination;
+        public uint[] Destination;
     }
 
     internal class CompanyVoyageStatusDTO : BaseDTO

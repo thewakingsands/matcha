@@ -56,6 +56,6 @@ namespace Cafe.Matcha.DTO
         public ushort Bridge;
 
         [JsonProperty("destination")]
-        public int[] Destination;
+        public uint[] Destination;
     }
 }
