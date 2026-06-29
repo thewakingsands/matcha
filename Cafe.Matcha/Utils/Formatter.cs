@@ -167,7 +167,7 @@ namespace Cafe.Matcha.Utils
                 case "wheel-shift":
                     return "召唤式变动";
                 case "wheel-special":
-                    return "下级召唤";
+                    return "特殊召唤";
                 case "wheel-end":
                     return "召唤失败";
                 case "gate-open":
