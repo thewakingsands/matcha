@@ -16883,6 +16883,162 @@
     "patch": 6,
     "location": 0
   },
+  "2072": {
+    "name": {
+      "chs": "被欺负的魔法罐",
+      "en": "Daylight Pottery",
+      "ja": "隠されのマジックポット",
+      "de": "Versteckt im Pott",
+      "fr": "Cache-cache avec le pot"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2073": {
+    "name": {
+      "chs": "被吹飞的魔法罐",
+      "en": "In a Pot of Bother",
+      "ja": "飛ばされのマジックポット",
+      "de": "Wind im Pott",
+      "fr": "Se prendre un vent, c'est pas de pot"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2074": {
+    "name": {
+      "chs": "暴力牛魔——好战弥诺陶洛斯",
+      "en": "Raging Thrall",
+      "ja": "暴力の牛魔「ミノタウロス・マキア」",
+      "de": "Mit Kraft und Keule",
+      "fr": "Défi : quand le dopage fait des ravages"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2075": {
+    "name": {
+      "chs": "诅咒宝珠——邪瞳",
+      "en": "Eye to Eye",
+      "ja": "呪いの宝珠「イビルシーア」",
+      "de": "Auge um Auge",
+      "fr": "Défi : voyant malveillant"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2076": {
+    "name": {
+      "chs": "水边暴君——统领奇美拉",
+      "en": "Shoreline Showdown",
+      "ja": "水辺の暴君「レグナントキマイラ」",
+      "de": "Wassertyrannei",
+      "fr": "Défi : chasse gardée"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2077": {
+    "name": {
+      "chs": "历战水马——凯尔派总领",
+      "en": "Waved Away",
+      "ja": "歴戦水馬「アーチケルピー」",
+      "de": "Mit allen Wassern gewaschen",
+      "fr": "Défi : une vie de combats"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2078": {
+    "name": {
+      "chs": "魔界的叹息——妖艳魔花珊迪",
+      "en": "Allure of the Occult",
+      "ja": "ため息モルボル「センシュアル・サンディ」",
+      "de": "Auf den Atem kommt es an",
+      "fr": "Défi : je t'aime... moi non plus"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2079": {
+    "name": {
+      "chs": "自怨自艾的歌手——伊阿姆柏",
+      "en": "Inconstant Gardener",
+      "ja": "自滅の歌い手「イアムベー」",
+      "de": "Sing mir das Lied vom Tod",
+      "fr": "Défi : la diva destructrice"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2080": {
+    "name": {
+      "chs": "狼占狗窝——遗迹冰狼",
+      "en": "Territorial Dispute",
+      "ja": "遺跡荒らしの氷狼「ルーインハウンド」",
+      "de": "Der Hund von Kreszentia",
+      "fr": "Défi : un froid de loup"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2081": {
+    "name": {
+      "chs": "腐坏街道的守护者——忍耐基路伯",
+      "en": "A Rotten Affair",
+      "ja": "腐都の守護者「ペイシェント・クリブ」",
+      "de": "Die ewige Wächterin",
+      "fr": "Défi: pas de patience pour la pourriture"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2082": {
+    "name": {
+      "chs": "驾驭自然的巨兽——呼风狮鹫",
+      "en": "Gale-force Encounter",
+      "ja": "暴風の操者「ストームコーラー」",
+      "de": "Stürmischer Empfang",
+      "fr": "Défi: autant en emporte la tempête"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2083": {
+    "name": {
+      "chs": "仿制的蛇人偶——半灵美杜莎",
+      "en": "Scale Model",
+      "ja": "模造の蛇人形「デミメデューサ」",
+      "de": "Stein zu Stein",
+      "fr": "Défi: rideau sur la méduse"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
+  "2084": {
+    "name": {
+      "chs": "高傲的雷兽——新月女王",
+      "en": "Thunderregnum",
+      "ja": "気高き雷獣「クレセントレギナ」",
+      "de": "Königliche Arroganz",
+      "fr": "Défi: la reine des coeurls brisés"
+    },
+    "level": 1,
+    "patch": 6,
+    "location": 0
+  },
   "2085": {
     "name": {
       "chs": "居住舱安装工程支援行动",

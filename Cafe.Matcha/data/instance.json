@@ -11045,7 +11045,7 @@
       "en": "The Strayborough Deadwalk",
       "ja": "悪夢遊園 ストレイバロー",
       "de": "Mahrlingen-Promenade",
-      "fr": "le Parc-aux-Errants"
+      "fr": "Le Parc-aux-Errants"
     },
     "type": 2,
     "level": 100,
@@ -12494,6 +12494,36 @@
     "itemSync": 735,
     "memberType": 1
   },
+  "1087": {
+    "name": {
+      "chs": "绅士与硬汉",
+      "en": "Clotted Crime",
+      "ja": "つわものふたり",
+      "de": "Hartgesotten",
+      "fr": "Les deux durs à cuire"
+    },
+    "type": 7,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1093": {
+    "name": {
+      "chs": "蜃景幻界新月岛 北征之章",
+      "en": "the Occult Crescent: North Horn",
+      "ja": "蜃気楼の島 クレセントアイル：北征編",
+      "de": "Das nördliche Kreszentia",
+      "fr": "Île de Lunule septentrionale"
+    },
+    "type": 38,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 700,
+    "memberType": 35
+  },
   "1094": {
     "name": {
       "chs": "妖星乱舞绝境战",
@@ -12508,6 +12538,21 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 3
+  },
+  "1095": {
+    "name": {
+      "chs": "魔光键影",
+      "en": "Keybound Brawler",
+      "ja": "キーバウンド・ブロウラー",
+      "de": "Tastenschläger",
+      "fr": "Frappe Fatale"
+    },
+    "type": 19,
+    "level": 1,
+    "levelSync": 0,
+    "item": 0,
+    "itemSync": 0,
+    "memberType": 11
   },
   "1098": {
     "name": {
@@ -12733,6 +12778,21 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 30
+  },
+  "1114": {
+    "name": {
+      "chs": "蜃景幻界新月岛 北征之章（两歧塔 超魔之塔）",
+      "en": "the Occult Crescent: North Horn - The Forked Tower: Magic (Extreme)",
+      "ja": "蜃気楼の島 クレセントアイル：北征編（極フォークタワー：魔の塔）",
+      "de": "Das nördliche Kreszentia: Fork-Turm - Magie (extrem)",
+      "fr": "Île de Lunule septentrionale: Tour fourchue de la Magie (extrême)"
+    },
+    "type": 38,
+    "level": 100,
+    "levelSync": 100,
+    "item": 690,
+    "itemSync": 700,
+    "memberType": 36
   },
   "1115": {
     "name": {

@@ -7629,6 +7629,13 @@
     "de": "Treno",
     "fr": "Tréno"
   },
+  "1329": {
+    "chs": "卡尼洛喀技术研究所地下",
+    "en": "Kanilokka Corpus Substructure",
+    "ja": "カニロッカ技研地下",
+    "de": "Tiefen von Kanilokkas Institut",
+    "fr": "Sous-sol de l'Institut Kanilokka"
+  },
   "1330": {
     "chs": "泽梅尔要塞",
     "en": "Dzemael Darkhold",
@@ -7706,6 +7713,13 @@
     "de": "Klyteum",
     "fr": "Le Clyteum"
   },
+  "1346": {
+    "chs": "新月岛北部",
+    "en": "North Horn",
+    "ja": "三日月島北部",
+    "de": "Nördliches Kreszentia",
+    "fr": "Île de Lunule septentrionale"
+  },
   "1357": {
     "chs": "休兵书库",
     "en": "Archeia Harmonias",
@@ -7719,6 +7733,20 @@
     "ja": "ハルモニア戦争図書館",
     "de": "Archeia Harmonias",
     "fr": "La Bibliothèque Harmonia"
+  },
+  "1359": {
+    "chs": "金碟游乐场",
+    "en": "The Gold Saucer",
+    "ja": "ゴールドソーサー",
+    "de": "Gold Saucer",
+    "fr": "Gold Saucer"
+  },
+  "1360": {
+    "chs": "键斗广场",
+    "en": "Keybound Square",
+    "ja": "キーバウンドスクウェア",
+    "de": "Ring der Tasten",
+    "fr": "Square des clavistes"
   },
   "1361": {
     "chs": "无之领域",
