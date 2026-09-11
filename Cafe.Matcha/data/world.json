@@ -485,6 +485,30 @@
     "dc": "Dynamis",
     "dc_en": "Dynamis"
   },
+  "408": {
+    "name": "Cuchulainn",
+    "name_en": "Cuchulainn",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "409": {
+    "name": "Kraken",
+    "name_en": "Kraken",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "410": {
+    "name": "Rafflesia",
+    "name_en": "Rafflesia",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
+  "411": {
+    "name": "Golem",
+    "name_en": "Golem",
+    "dc": "Dynamis",
+    "dc_en": "Dynamis"
+  },
   "1042": {
     "name": "拉诺西亚",
     "name_en": "LaNuoXiYa",
@@ -680,6 +704,12 @@
   "2080": {
     "name": "펜리르",
     "name_en": "펜리르",
+    "dc": "Korea",
+    "dc_en": "Korea"
+  },
+  "2081": {
+    "name": "오메가",
+    "name_en": "오메가",
     "dc": "Korea",
     "dc_en": "Korea"
   }

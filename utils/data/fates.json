@@ -1,0 +1,6878 @@
+{
+  "120": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "121": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "122": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "123": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "124": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "125": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "126": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "127": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "128": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "131": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "136": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "137": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "138": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "139": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "140": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "141": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "142": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "143": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "144": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "145": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "148": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "149": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "150": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "151": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "152": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "153": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "154": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "158": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "159": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "160": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "161": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "162": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "163": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "164": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "166": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "167": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "168": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "169": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "170": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "171": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "172": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "173": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "174": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "178": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "180": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "183": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "184": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "185": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "187": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "188": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "189": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "190": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "191": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "192": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "193": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "194": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "195": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "196": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "197": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "198": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "199": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "200": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "201": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "202": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "203": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "204": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "205": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "206": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "207": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "208": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "209": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "212": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "213": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "214": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "215": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "216": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "217": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "218": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "220": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "221": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "222": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "223": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "225": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "226": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "227": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "229": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "231": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "233": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "235": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "237": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "238": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "239": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "240": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "245": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "246": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "249": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "250": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "251": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "257": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "260": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "261": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "262": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "264": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "265": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "267": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "268": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "271": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "272": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "274": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "278": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "279": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "280": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "282": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "286": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "287": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "289": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "290": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "291": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "295": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "297": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "298": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "303": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "304": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "306": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "308": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "309": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "310": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "312": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "314": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "317": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "320": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "321": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "322": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "323": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "329": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "331": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "332": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "333": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "334": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "335": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "336": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "342": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "343": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "344": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "345": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "346": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "347": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "348": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "349": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "350": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "352": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "353": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "354": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "355": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "356": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "357": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "361": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "366": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "367": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "370": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "373": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "374": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "375": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "376": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "377": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "378": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "379": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "381": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "383": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "385": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "389": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "393": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "394": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "395": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "397": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "398": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "400": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "401": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "402": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "406": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "407": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "409": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "412": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "413": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "419": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "420": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "421": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "422": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "423": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "424": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "427": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "429": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "430": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "431": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "432": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "434": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "436": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "437": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "441": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "446": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "447": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "449": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "450": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "451": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "452": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "453": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "454": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "455": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "456": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "457": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "460": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "461": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "463": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "464": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "465": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "466": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "467": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "469": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "470": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "472": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "473": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "474": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "475": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "479": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "480": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "482": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "483": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "484": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "486": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "487": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "489": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "490": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "491": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "493": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "494": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "496": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "497": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "498": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "499": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "500": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "501": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "502": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "503": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "504": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "505": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "506": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "507": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "508": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "512": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "514": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "516": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "517": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "520": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "521": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "522": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "523": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "524": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "525": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "526": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "527": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "529": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "530": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "532": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "533": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "534": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "535": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "536": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "537": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "538": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "540": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "541": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "542": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "543": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "545": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "546": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "548": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "549": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "550": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "551": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "552": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "553": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "554": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "555": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "556": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "557": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "558": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "560": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "561": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "562": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "563": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "564": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "565": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "566": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "568": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "569": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "570": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "571": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "572": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "574": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "575": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "576": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "577": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "578": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "580": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "581": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "583": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "586": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "587": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "588": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "589": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "591": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "593": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "594": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "595": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "597": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "598": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "599": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "600": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "601": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "602": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "603": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "604": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "607": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "608": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "609": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "610": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "611": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "612": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "615": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "616": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "618": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "619": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "620": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "622": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "624": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "626": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "627": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "628": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "631": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "632": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "633": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "634": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "636": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "637": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "638": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "639": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "640": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "641": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "642": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "643": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "644": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "645": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "646": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "647": {
+    "territoryId": 147,
+    "patch": 2
+  },
+  "649": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "650": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "651": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "652": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "653": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "654": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "655": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "656": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "657": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "658": {
+    "territoryId": 156,
+    "patch": 2
+  },
+  "660": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "661": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "666": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "667": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "668": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "669": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "670": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "671": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "672": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "673": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "674": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "675": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "676": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "677": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "679": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "680": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "681": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "682": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "683": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "684": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "685": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "686": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "687": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "688": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "689": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "690": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "691": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "692": {
+    "territoryId": 152,
+    "patch": 2
+  },
+  "693": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "694": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "695": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "696": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "697": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "698": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "699": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "700": {
+    "territoryId": 180,
+    "patch": 2
+  },
+  "701": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "702": {
+    "territoryId": 138,
+    "patch": 2
+  },
+  "703": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "704": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "705": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "706": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "707": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "708": {
+    "territoryId": 153,
+    "patch": 2
+  },
+  "709": {
+    "territoryId": 155,
+    "patch": 2
+  },
+  "710": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "711": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "712": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "713": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "714": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "715": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "716": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "717": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "718": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "719": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "720": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "722": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "725": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "726": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "727": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "728": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "731": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "732": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "735": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "736": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "737": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "738": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "740": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "741": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "742": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "744": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "746": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "747": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "748": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "751": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "752": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "753": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "754": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "755": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "756": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "757": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "758": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "759": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "760": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "761": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "762": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "763": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "764": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "766": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "767": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "768": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "769": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "770": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "771": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "772": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "773": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "774": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "775": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "777": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "778": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "779": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "780": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "781": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "782": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "783": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "784": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "785": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "786": {
+    "territoryId": 399,
+    "patch": 3
+  },
+  "787": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "788": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "789": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "791": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "792": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "793": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "794": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "795": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "796": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "798": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "800": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "801": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "802": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "805": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "807": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "809": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "810": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "811": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "812": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "813": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "814": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "815": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "816": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "817": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "818": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "819": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "820": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "821": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "822": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "823": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "824": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "825": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "826": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "827": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "828": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "829": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "830": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "831": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "832": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "833": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "834": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "835": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "836": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "837": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "838": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "839": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "840": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "841": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "842": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "843": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "844": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "845": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "846": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "847": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "851": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "852": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "853": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "854": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "855": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "856": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "857": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "860": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "861": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "862": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "863": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "864": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "865": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "866": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "867": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "868": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "869": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "870": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "871": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "872": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "873": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "874": {
+    "territoryId": 400,
+    "patch": 3
+  },
+  "875": {
+    "territoryId": 401,
+    "patch": 3
+  },
+  "877": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "878": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "879": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "880": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "881": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "882": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "883": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "884": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "885": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "886": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "887": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "888": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "889": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "890": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "891": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "892": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "893": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "894": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "895": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "897": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "898": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "899": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "900": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "901": {
+    "territoryId": 402,
+    "patch": 3
+  },
+  "902": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "903": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "904": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "905": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "906": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "907": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "908": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "909": {
+    "territoryId": 397,
+    "patch": 3
+  },
+  "910": {
+    "territoryId": 398,
+    "patch": 3
+  },
+  "911": {
+    "territoryId": 140,
+    "patch": 2
+  },
+  "912": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "913": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "914": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "915": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "916": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "917": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "918": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "920": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "921": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "922": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "923": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "924": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "925": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "932": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "933": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "934": {
+    "territoryId": 146,
+    "patch": 2
+  },
+  "935": {
+    "territoryId": 139,
+    "patch": 2
+  },
+  "936": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "937": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "938": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "939": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "940": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "941": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "942": {
+    "territoryId": 133,
+    "patch": 2
+  },
+  "943": {
+    "territoryId": 133,
+    "patch": 2
+  },
+  "944": {
+    "territoryId": 133,
+    "patch": 2
+  },
+  "945": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "946": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "947": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "948": {
+    "territoryId": 154,
+    "patch": 2
+  },
+  "949": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "950": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "951": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "952": {
+    "territoryId": 145,
+    "patch": 2
+  },
+  "959": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "960": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "961": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "962": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "963": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "964": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "965": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "966": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "967": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "968": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "969": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "970": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "971": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "972": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "973": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "974": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "975": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "976": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "977": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "978": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "979": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "980": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "981": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "982": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "983": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "984": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "985": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "986": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "987": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "988": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "989": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "990": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "991": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "992": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "993": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "994": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "995": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "996": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "997": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "998": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "999": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1000": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1001": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1002": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1003": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1004": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1005": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1006": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1007": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1008": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1009": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1010": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1011": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1012": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1013": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1014": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1015": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1016": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1017": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1019": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1020": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1021": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1022": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1023": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1024": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1025": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1026": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1027": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1028": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1029": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1030": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1031": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1032": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1033": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1034": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1035": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1036": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1037": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1038": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1039": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1040": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1041": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1042": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1043": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1044": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1045": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1046": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1047": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1048": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1049": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1050": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1051": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1052": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1053": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1054": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1055": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1056": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1057": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1058": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1059": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1060": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1061": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1062": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1063": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1064": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1065": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1066": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1067": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1068": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1069": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1070": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1071": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1072": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1073": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1074": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1075": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1076": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1077": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1078": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1079": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1080": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1081": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1082": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1083": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1084": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1085": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1086": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1087": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1088": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1089": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1090": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1091": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1092": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1093": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1094": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1095": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1096": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1097": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1098": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1099": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1100": {
+    "territoryId": 656,
+    "patch": 3
+  },
+  "1103": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1104": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1105": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1106": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1107": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1108": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1109": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1110": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1111": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1112": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1113": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1114": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1115": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1116": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1117": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1118": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1119": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1120": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1121": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1122": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1124": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1125": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1126": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1127": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1128": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1129": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1130": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1131": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1132": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1133": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1134": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1135": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1136": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1137": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1138": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1139": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1140": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1141": {
+    "territoryId": 612,
+    "patch": 4
+  },
+  "1142": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1143": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1144": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1145": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1146": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1147": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1148": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1149": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1150": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1151": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1152": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1153": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1154": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1155": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1156": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1157": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1158": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1159": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1160": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1161": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1162": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1163": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1164": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1165": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1166": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1167": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1168": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1170": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1171": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1172": {
+    "territoryId": 613,
+    "patch": 4
+  },
+  "1173": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1174": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1175": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1176": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1177": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1178": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1179": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1180": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1181": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1182": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1184": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1185": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1186": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1187": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1188": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1189": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1190": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1191": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1193": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1194": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1195": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1196": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1197": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1198": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1199": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1200": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1201": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1202": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1203": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1204": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1205": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1207": {
+    "territoryId": 620,
+    "patch": 4
+  },
+  "1208": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1209": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1210": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1211": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1212": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1213": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1214": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1215": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1216": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1217": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1218": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1219": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1220": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1221": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1222": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1223": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1224": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1225": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1226": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1227": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1228": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1229": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1230": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1231": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1232": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1233": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1234": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1235": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1236": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1237": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1238": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1239": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1240": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1241": {
+    "territoryId": 614,
+    "patch": 4
+  },
+  "1242": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1243": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1244": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1245": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1246": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1247": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1248": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1249": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1250": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1251": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1252": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1253": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1254": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1255": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1256": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1257": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1258": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1259": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1260": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1261": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1262": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1263": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1264": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1265": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1266": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1267": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1268": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1269": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1270": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1271": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1272": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1273": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1274": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1275": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1276": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1277": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1278": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1279": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1280": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1281": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1282": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1283": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1284": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1285": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1286": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1287": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1288": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1289": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1290": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1291": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1292": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1293": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1294": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1295": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1296": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1297": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1298": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1299": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1300": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1301": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1302": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1303": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1304": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1305": {
+    "territoryId": 621,
+    "patch": 4
+  },
+  "1306": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1307": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1308": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1309": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1310": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1311": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1312": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1313": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1315": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1316": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1317": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1318": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1319": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1320": {
+    "territoryId": 622,
+    "patch": 4
+  },
+  "1321": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1322": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1323": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1324": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1325": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "1326": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "1327": {
+    "territoryId": 135,
+    "patch": 2
+  },
+  "1328": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1329": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1330": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1331": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1332": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1333": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1334": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1335": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1336": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1337": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1338": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1339": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1340": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1341": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1342": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1343": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1344": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1345": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1346": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1347": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1348": {
+    "territoryId": 732,
+    "patch": 4
+  },
+  "1349": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1350": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1351": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1352": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1353": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1354": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1355": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1356": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1357": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1358": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1359": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1360": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1361": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1362": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1363": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1364": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1365": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1366": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1367": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1368": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1369": {
+    "territoryId": 763,
+    "patch": 4
+  },
+  "1370": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1372": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1375": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1376": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1378": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1381": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1382": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1384": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1386": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1387": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "1388": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1389": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1390": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1391": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1392": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1393": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1394": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1395": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1396": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1397": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1398": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1399": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1400": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1401": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1402": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1403": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1404": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1405": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1406": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "1407": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1408": {
+    "territoryId": 795,
+    "patch": 4
+  },
+  "1409": {
+    "territoryId": 141,
+    "patch": 2
+  },
+  "1412": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1413": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1414": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1415": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1416": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1417": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1418": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1419": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1420": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1421": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1422": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1423": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1424": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1425": {
+    "territoryId": 827,
+    "patch": 4
+  },
+  "1426": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1427": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1428": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1429": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1430": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1431": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1432": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1433": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1434": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1435": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1436": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1437": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1438": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1439": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1440": {
+    "territoryId": 818,
+    "patch": 5
+  },
+  "1441": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1442": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1443": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1444": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1445": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1446": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1447": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1448": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1449": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1450": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1451": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1452": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1453": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1454": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1455": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1456": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1457": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1458": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1459": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1460": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1461": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1462": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1463": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1464": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1465": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1466": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1467": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1468": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1469": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1470": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1471": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1472": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1473": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1474": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1475": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1476": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1477": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1478": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1479": {
+    "territoryId": 814,
+    "patch": 5
+  },
+  "1480": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1481": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1482": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1483": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1484": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1485": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1486": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1487": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1488": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1489": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1490": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1491": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1492": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1493": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1494": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1495": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1496": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1497": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1498": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1499": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1500": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1501": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1502": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1503": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1504": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1505": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1506": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1507": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1508": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1509": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1510": {
+    "territoryId": 813,
+    "patch": 5
+  },
+  "1511": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1512": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1513": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1514": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1515": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1516": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1517": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1518": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1519": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1520": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1521": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1522": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1523": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1524": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1525": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1526": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1527": {
+    "territoryId": 815,
+    "patch": 5
+  },
+  "1528": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1529": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1530": {
+    "territoryId": 817,
+    "patch": 5
+  },
+  "1531": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1532": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1533": {
+    "territoryId": 816,
+    "patch": 5
+  },
+  "1537": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "1538": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1539": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1540": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1541": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1542": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1543": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1544": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1545": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1546": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1547": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1548": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1549": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1550": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1551": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1552": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1553": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1554": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1555": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1556": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1557": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1558": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1559": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1560": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1561": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1562": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1563": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1564": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1565": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1566": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1567": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1568": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1569": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1570": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1571": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1572": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1573": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1574": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1575": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1576": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1577": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1578": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1579": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1580": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1581": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1582": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1583": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1584": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1585": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1586": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1587": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1588": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1589": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1590": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1591": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1592": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1593": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1594": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "1595": {
+    "territoryId": 133,
+    "patch": 2
+  },
+  "1596": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1597": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1598": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1599": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1600": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1601": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1602": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1603": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1604": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1605": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1606": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1607": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1608": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1609": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1610": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1611": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1612": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1613": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1614": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1615": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1616": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1617": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1618": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1619": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1620": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1621": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1622": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1623": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1624": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1625": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1626": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1627": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1628": {
+    "territoryId": 920,
+    "patch": 5
+  },
+  "1629": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1630": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1631": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1632": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1633": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1634": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1635": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1636": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1637": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1638": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1639": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1640": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1641": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1642": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1643": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1644": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1645": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1646": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1647": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1648": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1649": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1650": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1651": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1652": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1653": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1654": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1655": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1656": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1657": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1658": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1659": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1660": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1661": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1662": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1663": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1664": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1665": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1666": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1667": {
+    "territoryId": 134,
+    "patch": 2
+  },
+  "1668": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1669": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1670": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1671": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1672": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1673": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1674": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1675": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1676": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1677": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1678": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1679": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1680": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1681": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1682": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1683": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1684": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1685": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1686": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1687": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1688": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1689": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1690": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1691": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1692": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1693": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1694": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1695": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1696": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1697": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1698": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1699": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1700": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1701": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1702": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1703": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1704": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1705": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1706": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1707": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1708": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1709": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1710": {
+    "territoryId": 137,
+    "patch": 2
+  },
+  "1711": {
+    "territoryId": 133,
+    "patch": 2
+  },
+  "1712": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1713": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1714": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1715": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1716": {
+    "territoryId": 886,
+    "patch": 2
+  },
+  "1717": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1718": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1719": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1720": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1721": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1722": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1723": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1724": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1725": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1726": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1727": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1728": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1729": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1730": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1731": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1732": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1733": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1734": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1735": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1736": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1737": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1738": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1739": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1740": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1741": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1742": {
+    "territoryId": 975,
+    "patch": 5
+  },
+  "1743": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1744": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1745": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1746": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1747": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1748": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1749": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1750": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1751": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1752": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1753": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1754": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1755": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1756": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1757": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1758": {
+    "territoryId": 956,
+    "patch": 6
+  },
+  "1763": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1764": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1765": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1766": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1767": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1768": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1769": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1770": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1771": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1772": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1773": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1774": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1775": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1776": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1777": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1778": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1779": {
+    "territoryId": 957,
+    "patch": 6
+  },
+  "1783": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1784": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1785": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1786": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1787": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1788": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1789": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1790": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1791": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1792": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1793": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1794": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1795": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1796": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1797": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1798": {
+    "territoryId": 958,
+    "patch": 6
+  },
+  "1803": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1804": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1805": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1806": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1807": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1808": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1809": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1810": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1811": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1812": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1813": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1814": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1815": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1816": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1817": {
+    "territoryId": 959,
+    "patch": 6
+  },
+  "1823": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1824": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1825": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1826": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1827": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1828": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1829": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1830": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1831": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1832": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1833": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1834": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1835": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1836": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1837": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1838": {
+    "territoryId": 961,
+    "patch": 6
+  },
+  "1843": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1844": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1845": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1846": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1847": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1848": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1849": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1850": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1851": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1852": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1853": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1854": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1855": {
+    "territoryId": 960,
+    "patch": 6
+  },
+  "1856": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "1857": {
+    "territoryId": 148,
+    "patch": 2
+  },
+  "1860": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1861": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1862": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1863": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1864": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1865": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1866": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1867": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1868": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1869": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1870": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1871": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1872": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1873": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1874": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1875": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1876": {
+    "territoryId": 1190,
+    "patch": 7
+  },
+  "1877": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1878": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1879": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1880": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1881": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1882": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1883": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1884": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1885": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1886": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1887": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1888": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1889": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1890": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1891": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1892": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1893": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1894": {
+    "territoryId": 1187,
+    "patch": 7
+  },
+  "1895": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1896": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1897": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1898": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1899": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1900": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1901": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1902": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1903": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1904": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1905": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1906": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1907": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1908": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1909": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1910": {
+    "territoryId": 1189,
+    "patch": 7
+  },
+  "1911": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1912": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1913": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1914": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1915": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1916": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1917": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1918": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1919": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1920": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1921": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1922": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1923": {
+    "territoryId": 1192,
+    "patch": 7
+  },
+  "1924": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1925": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1926": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1927": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1928": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1929": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1930": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1931": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1932": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1933": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1934": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1935": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1936": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1937": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1938": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1939": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1940": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1941": {
+    "territoryId": 1188,
+    "patch": 7
+  },
+  "1942": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1943": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1944": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1945": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1946": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1947": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1948": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1949": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1950": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1951": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1952": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1953": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1954": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1955": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1956": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1957": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1958": {
+    "territoryId": 1191,
+    "patch": 7
+  },
+  "1962": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1963": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1964": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1965": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1966": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1967": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1968": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1969": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1970": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1971": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1972": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1976": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1977": {
+    "territoryId": 1252,
+    "patch": 7
+  },
+  "1978": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1979": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1980": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1981": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1982": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1983": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1984": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1985": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1986": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1987": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1988": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1989": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1990": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1991": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1992": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1993": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1994": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1995": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1996": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1997": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1998": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "1999": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2000": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2001": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2002": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2003": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2004": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2005": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2006": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2007": {
+    "territoryId": 1237,
+    "patch": 2
+  },
+  "2008": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2009": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2010": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2011": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2012": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2013": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2014": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2015": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2016": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2017": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2018": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2019": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2020": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2021": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2022": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2023": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2024": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2025": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2026": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2027": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2028": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2029": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2030": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2031": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2032": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2033": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2034": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2035": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2036": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2037": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2038": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2039": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2040": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2041": {
+    "territoryId": 1291,
+    "patch": 2
+  },
+  "2042": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "2043": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "2044": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "2045": {
+    "territoryId": 130,
+    "patch": 2
+  },
+  "2046": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2047": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2048": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2049": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2050": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2051": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2052": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2053": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2054": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2055": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2056": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2057": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2058": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2059": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2060": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2061": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2062": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2063": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2064": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2065": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2066": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2067": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2068": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2069": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2070": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2071": {
+    "territoryId": 1310,
+    "patch": 2
+  },
+  "2072": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2073": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2074": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2075": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2076": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2077": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2078": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2079": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2080": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2081": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2082": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2083": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2084": {
+    "territoryId": 1346,
+    "patch": 7
+  },
+  "2085": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2086": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2087": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2088": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2089": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2090": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2091": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2092": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2093": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2094": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2095": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2096": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2097": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2098": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2099": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2100": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2101": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2102": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2103": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2104": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2105": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2106": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2107": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2108": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2109": {
+    "territoryId": 1319,
+    "patch": 2
+  },
+  "2110": {
+    "territoryId": 1319,
+    "patch": 2
+  }
+}

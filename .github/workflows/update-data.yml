@@ -1,0 +1,41 @@
+name: Update data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test updater
+        run: node --test utils/update-data.test.mjs
+      - name: Update data
+        run: node utils/update-data.mjs
+      - name: Commit and push changes
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git add -- Cafe.Matcha/data/*.json utils/fates.json
+          if git diff --cached --quiet; then
+            echo "Data is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update game data"
+          git push origin "HEAD:$TARGET_BRANCH"

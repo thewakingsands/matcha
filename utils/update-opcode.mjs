@@ -1,8 +1,8 @@
-import { readCsv } from './lib/csv.mjs'
-import { formatOpcode, parseOpcode } from './lib/opcode.mjs'
+import { writeFileSync } from 'fs'
 import { join } from 'path'
 import { fileURLToPath } from 'url'
-import { writeFileSync } from 'fs'
+import { readCsv } from './lib/csv.mjs'
+import { formatOpcode, parseOpcode } from './lib/opcode.mjs'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
@@ -14,22 +14,22 @@ const opcodes = [
     // https://github.com/quisquous/cactbot/blob/main/plugin/CactbotEventSource/FateWatcher.cs#L45
     key: 'CEDirector',
     // this is not the actual key, just a hack
-    karashiiro: '_GH_CEDirector'
+    karashiiro: '_GH_CEDirector',
   },
   {
     key: 'CompanyAirshipStatus',
-    karashiiro: 'AirshipTimers'
+    karashiiro: 'AirshipTimers',
   },
   {
     key: 'CompanySubmersibleStatus',
-    karashiiro: 'SubmarineTimers'
+    karashiiro: 'SubmarineTimers',
   },
   {
     key: 'ContentFinderNotifyPop',
-    karashiiro: 'CFNotify'
+    karashiiro: 'CFNotify',
   },
   {
-    key: 'ResumeEventScene32'
+    key: 'ResumeEventScene32',
     // karashiiro: 'MiniCactpotInit'
   },
   'EventPlay',
@@ -47,7 +47,7 @@ const opcodes = [
   'PlayerSetup',
   'PlayerSpawn',
   'SubmarineStatusList',
-  'WorldVisitQueue'
+  'WorldVisitQueue',
 ]
 
 const outputOpcode = (key, value) =>
@@ -78,7 +78,7 @@ const outputFromKarashiiro = (list, region) =>
 
       const fromKey = item.karashiiro || item.key
       const row = list.lists.ServerZoneIpcType.find(
-        (row) => row.name === fromKey
+        (row) => row.name === fromKey,
       )
       const value = row ? row.opcode : 0xf000 + index
 
@@ -102,33 +102,33 @@ const outputFromWorker = (list) =>
 
 ;(async () => {
   const karashiiroData = await fetch(
-    'https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json'
+    'https://raw.githubusercontent.com/karashiiro/FFXIVOpcodes/master/opcodes.json',
   )
   const parsedData = await karashiiroData.json()
 
   const globalOpcodes = parsedData.find((item) => item.region === 'Global')
 
   const cactbotFate = await fetch(
-    'https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs'
+    'https://raw.githubusercontent.com/quisquous/cactbot/main/plugin/CactbotEventSource/FateWatcher.cs',
   )
   const ceDirector =
     /cedirector_intl.+\n.+0x30.+\n\s+(0x[0-9a-fA-F]+),?\s*\n\s*\)/.exec(
-      await cactbotFate.text()
+      await cactbotFate.text(),
     )
 
   if (ceDirector) {
     globalOpcodes.lists.ServerZoneIpcType.push({
       name: '_GH_CEDirector',
-      opcode: parseOpcode(ceDirector[1])
+      opcode: parseOpcode(ceDirector[1]),
     })
   }
 
   const workerData = await fetch(
-    'https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv'
+    'https://raw.githubusercontent.com/zhyupe/ffxiv-opcode-worker/master/cn-opcodes.csv',
   )
   const workerLines = readCsv(await workerData.text(), null, {
     header: 0,
-    skip: 0
+    skip: 0,
   })
   const cnOpcodes = workerLines.map(({ Name: name, Scope: scope, _ }) => {
     const valueColumn = _.reduce((val, content, index) => {
@@ -165,6 +165,6 @@ ${outputFromWorker(cnOpcodes, 'cn')}
         };
     }
 }
-`
+`,
   )
 })()
