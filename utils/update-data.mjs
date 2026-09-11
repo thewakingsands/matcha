@@ -8,6 +8,7 @@ const outputDir = fileURLToPath(
 )
 const locationsFile = new URL('./cache/fate-locations.json', import.meta.url)
 const fatesFile = new URL('./data/fates.json', import.meta.url)
+const dynamicEventsFile = new URL('./data/dynamic-events.json', import.meta.url)
 const serverUrl = 'https://zhyupe.github.io/ffxiv-datamining-worker/server.json'
 const localized = (column) =>
   xivapiLanguages.map((lang) => `${column}@lang(${lang})`)
@@ -89,8 +90,40 @@ export async function loadFateLocations({
   return mapping
 }
 
+export async function loadDynamicEventLocations({
+  file = locationsFile,
+  fallbackFile = dynamicEventsFile,
+} = {}) {
+  let data
+  try {
+    data = JSON.parse(await readFile(file, 'utf8'))
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error
+    const mapping = JSON.parse(await readFile(fallbackFile, 'utf8'))
+    if (!mapping || Array.isArray(mapping) || typeof mapping !== 'object' ||
+        !Object.keys(mapping).length || Object.entries(mapping).some(([id, territoryId]) =>
+          !/^[1-9]\d*$/.test(id) || !Number.isSafeInteger(territoryId) || territoryId <= 0)) {
+      throw new Error('Invalid simplified dynamic event locations')
+    }
+    return mapping
+  }
+  if (!Array.isArray(data?.dynamicEventLocations) || !data.dynamicEventLocations.length) {
+    throw new Error('Invalid raw dynamic event locations')
+  }
+  const mapping = {}
+  for (const { dynamicEventId, territoryId } of data.dynamicEventLocations) {
+    if (!Number.isSafeInteger(dynamicEventId) || dynamicEventId <= 0 ||
+        !Number.isSafeInteger(territoryId) || territoryId <= 0) {
+      throw new Error('Invalid raw dynamic event location IDs')
+    }
+    mapping[dynamicEventId] ??= territoryId
+  }
+  return mapping
+}
+
 export async function buildData(
   fateLocations,
+  dynamicEventLocations,
   blacklist,
   cnServers,
   readSheet = listItems,
@@ -164,25 +197,38 @@ export async function buildData(
     `FATEs without a local location: ${unmapped} (location/patch = 0)`,
   )
 
-  // DynamicEventSet has no TerritoryType link. Keep the game's existing group mapping.
-  // Subrow IDs are event IDs on the wire, and must not be collapsed into row IDs.
-  const eventTerritories = { 1: 920, 2: 975, 3: 1252 }
-  const dynamicEvents = {}
-  const skippedGroups = new Set()
+  // Raw locations are keyed by DynamicEvent ID, not DynamicEventSet group/subrow.
+  const groupTerritories = new Map()
   for (const row of sheets.DynamicEventSet) {
-    if (!row.fields.DynamicEvent.value) continue
-    const territoryId = eventTerritories[row.row_id]
+    const territoryId = dynamicEventLocations[row.fields.DynamicEvent.value]
+    if (!territoryId) continue
+    if (!territories.get(territoryId)?.PlaceName.value) {
+      throw new Error(`Dynamic event ${row.fields.DynamicEvent.value}: cannot resolve territory ${territoryId}`)
+    }
+    if (!groupTerritories.has(row.row_id)) groupTerritories.set(row.row_id, new Set())
+    groupTerritories.get(row.row_id).add(territoryId)
+  }
+  const dynamicEvents = {}
+  const skippedEvents = new Set()
+  for (const row of sheets.DynamicEventSet) {
+    const eventId = row.fields.DynamicEvent.value
+    if (!eventId) continue
+    // Sieges may have no LGB placement. Use the group only when its known locations agree.
+    const group = groupTerritories.get(row.row_id)
+    const territoryId = dynamicEventLocations[eventId] ??
+      (group?.size === 1 ? group.values().next().value : undefined)
     if (!territoryId) {
-      skippedGroups.add(row.row_id)
+      skippedEvents.add(eventId)
       continue
     }
-    dynamicEvents[territoryId * 1000 + row.subrow_id] = {
+    // Preserve subrow zero. Alternate groups can share a wire key; keep the first.
+    dynamicEvents[territoryId * 1000 + row.subrow_id] ??= {
       name: formatStrings(row.fields.DynamicEvent.fields),
     }
   }
-  if (skippedGroups.size)
+  if (skippedEvents.size)
     console.warn(
-      `Unmapped DynamicEventSet groups skipped: ${[...skippedGroups].join(', ')}`,
+      `Dynamic events without a local location skipped: ${[...skippedEvents].join(', ')}`,
     )
 
   const worlds = dictionary(
@@ -273,14 +319,15 @@ async function main() {
   const args = process.argv.slice(2)
   if (args.length) throw new Error('Usage: node utils/update-data.mjs')
   const fateLocations = await loadFateLocations()
+  const dynamicEventLocations = await loadDynamicEventLocations()
   const cnServers = await requestJson(serverUrl)
   const blacklist = JSON.parse(
     await readFile(
-      new URL('./data/fate-blacklist.data.json', import.meta.url),
+      new URL('./data/fate-blacklist.json', import.meta.url),
       'utf8',
     ),
   )
-  const data = await buildData(fateLocations, blacklist, cnServers)
+  const data = await buildData(fateLocations, dynamicEventLocations, blacklist, cnServers)
   await mkdir(outputDir, { recursive: true })
   for (const [file, content] of Object.entries(data)) {
     if (!Object.keys(content).length)
@@ -291,6 +338,8 @@ async function main() {
     console.log(`Updated ${file}: ${Object.keys(content).length} entries`)
   }
   await writeFile(fatesFile, JSON.stringify(fateLocations, null, 2))
+  await writeFile(dynamicEventsFile, JSON.stringify(dynamicEventLocations, null, 2))
+  console.log(`Updated utils/data/dynamic-events.json: ${Object.keys(dynamicEventLocations).length} entries`)
   console.log(
     `Updated utils/data/fates.json: ${Object.keys(fateLocations).length} entries`,
   )

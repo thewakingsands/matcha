@@ -30,7 +30,7 @@ jobs:
         env:
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          git add -- Cafe.Matcha/data/*.json utils/fates.json
+          git add -- Cafe.Matcha/data/*.json utils/data/fates.json utils/data/dynamic-events.json
           if git diff --cached --quiet; then
             echo "Data is already up to date."
             exit 0

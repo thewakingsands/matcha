@@ -33,9 +33,19 @@ current working directory.
   `bg/exN/` means N + 2 (for example, `bg/ex3/` means 5). Unrecognized paths cause
   an error. CI uses the saved expansion instead of inferring it from
   `TerritoryType.ExVersion`. FATEs without a location use `location: 0, patch: 0`.
-  The `tools/fate-blacklist.data.json` and `※` test-entry filters remain in effect.
-- Dynamic events retain the original group mapping: 1 → 920, 2 → 975, and
-  3 → 1252. Other groups are skipped. Event keys are territory ID × 1000 + subrow ID.
+  The `utils/data/fate-blacklist.json` and `※` test-entry filters remain in effect.
+- Dynamic event territories come from `dynamicEventLocations` in the same raw
+  export, keyed by `dynamicEventId`. Duplicate IDs use the first record.
+  The updater saves this mapping in `utils/data/dynamic-events.json`, using the
+  format `{ "49": 1346 }`. When the raw file is absent, CI reads this simplified
+  file; invalid or missing `dynamicEventLocations` in an existing export causes
+  an error. Regenerate older exports with an Ixion version that includes this field.
+- Dynamic event names and group/subrow IDs still come from XIVAPI's
+  `DynamicEventSet`. Events without individual placements (such as sieges) use
+  their group's territory only when all known placements in that group agree.
+  Unresolved events are reported and skipped. Event keys remain territory ID ×
+  1000 + subrow ID, including subrow zero. If alternate groups share an output
+  key, the first entry is retained.
 - Chinese worlds and data centers come from
   [server.json](https://zhyupe.github.io/ffxiv-datamining-worker/server.json),
   overriding the corresponding XIVAPI world entries.
@@ -67,7 +77,8 @@ pnpm x fate export-locations "C:/Games/FINAL FANTASY XIV/game" outputs/fate-loca
 Copy the exported `outputs/fate-locations.json` into this repository at
 `utils/cache/fate-locations.json`, creating the cache directory if necessary.
 Then run `node utils/update-data.mjs` from the Cafe.Matcha repository root to
-regenerate the game data and `utils/data/fates.json`.
+regenerate the game data, `utils/data/fates.json`, and
+`utils/data/dynamic-events.json`.
 
 ## GitHub Actions
 
@@ -75,6 +86,8 @@ Manually run **Update data** in GitHub Actions and select the target branch.
 CI uses the simplified location file. Generated data changes are committed and
 pushed to the selected branch; no commit is created when nothing changes.
 
-The raw cache is ignored by Git. Keep `utils/data/fates.json` under version
-control so CI can run without the game installation or raw export. All data is
+The raw cache is ignored by Git. Keep `utils/data/fates.json` and
+`utils/data/dynamic-events.json` under version control so CI can run without the
+game installation or raw export. The workflow commits both simplified files
+along with the generated game data. All data is
 fetched and converted successfully before output files are written.

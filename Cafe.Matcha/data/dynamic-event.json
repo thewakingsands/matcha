@@ -430,5 +430,149 @@
       "de": "Das finsterste Feuer",
       "fr": "Défi : les ailes de pierre"
     }
+  },
+  "1346000": {
+    "name": {
+      "chs": "两岐塔 魔之塔",
+      "en": "The Forked Tower: Magic",
+      "ja": "フォークタワー：魔の塔",
+      "de": "Der Turm der Magie",
+      "fr": "Tour fourchue de la Magie"
+    }
+  },
+  "1346001": {
+    "name": {
+      "chs": "四颚斧花——提蔛",
+      "en": "Many Mouths to Feed",
+      "ja": "四つ顎の魔樹「ペレキュス」",
+      "de": "Verfressen bis in die Wurzeln",
+      "fr": "Défi : appétit vorace"
+    }
+  },
+  "1346002": {
+    "name": {
+      "chs": "魔女复制体——卡洛菲斯提莉二重身",
+      "en": "Doubled Trouble",
+      "ja": "魔女の複製体「カロフィステリ・ダブル」",
+      "de": "Doppelt gehext hält besser",
+      "fr": "Défi : les dérives du clonage"
+    }
+  },
+  "1346003": {
+    "name": {
+      "chs": "纯白守护者——雪石膏之剑",
+      "en": "Quarried Away",
+      "ja": "白の守護者「アラバスターブレード」",
+      "de": "Schwert und Stein",
+      "fr": "Défi : l'homme à albâtre"
+    }
+  },
+  "1346004": {
+    "name": {
+      "chs": "禁书化形——古术魔典",
+      "en": "Forbidden Folios",
+      "ja": "禁忌の魔道書「アルバテル」",
+      "de": "Verbotenes Wissen",
+      "fr": "Défi : magie taboue"
+    }
+  },
+  "1346005": {
+    "name": {
+      "chs": "暗红尸骸——赤龙",
+      "en": "Cursed Resurgence",
+      "ja": "暗紅の屍竜「ルブルムドラゴン」",
+      "de": "Gift und Kralle",
+      "fr": "Défi: dragon en décomposition"
+    }
+  },
+  "1346006": {
+    "name": {
+      "chs": "暴食咒鬼——阿尔戈尔",
+      "en": "Imbalanced Diet",
+      "ja": "大食の呪鬼「アルゴル」",
+      "de": "Unersättliches Unheil",
+      "fr": "Défi: Algol l'insatiable"
+    }
+  },
+  "1346007": {
+    "name": {
+      "chs": "残暴的母蜘蛛——新月阿剌克涅",
+      "en": "Web of Terror",
+      "ja": "猟奇の母蜘蛛「クレセント・アルケニー」",
+      "de": "Wie eine Fliege im Netz",
+      "fr": "Défi: cruelles chasseresses"
+    }
+  },
+  "1346008": {
+    "name": {
+      "chs": "叛逆使魔——负隅宝石兽",
+      "en": "A Beast Unleashed",
+      "ja": "反逆の使い魔「アトラス・カーバンクル」",
+      "de": "Rubinrote Rebellion",
+      "fr": "Défi : le familier se rebelle"
+    }
+  },
+  "1346009": {
+    "name": {
+      "chs": "天道好轮回——魔亡灵法师",
+      "en": "Dark Artistry",
+      "ja": "死霊使いの亡霊「マギ・ネクロマンサー」",
+      "de": "Auf Tod komm raus",
+      "fr": "Défi : croisade pour un cadavre"
+    }
+  },
+  "1346010": {
+    "name": {
+      "chs": "求道的人造人——神木巨人",
+      "en": "Familiar Tactics",
+      "ja": "求道の人造人間「エルムギガース」",
+      "de": "Auf dem Weg der Erleuchtung",
+      "fr": "Défi : la voie de l'orme"
+    }
+  },
+  "1346011": {
+    "name": {
+      "chs": "诅咒的继承者——惨白魔人",
+      "en": "Appalling Behavior",
+      "ja": "呪いを継ぐ者「ペイルマギア」",
+      "de": "Verflucht noch eins",
+      "fr": "Défi : vert de rancœur"
+    }
+  },
+  "1346012": {
+    "name": {
+      "chs": "魔法军团——小小法师",
+      "en": "Tiny Terror",
+      "ja": "魔道兵団「タイニーメイジ」",
+      "de": "Klein aber oho",
+      "fr": "Défi : petits mais costauds"
+    }
+  },
+  "1346013": {
+    "name": {
+      "chs": "孤岛的绑架犯——诱拐魔",
+      "en": "Lost on the Wind",
+      "ja": "絶島の誘拐者「アブダクター」",
+      "de": "Vom Winde verweht",
+      "fr": "Défi : alerte enlèvement"
+    }
+  },
+  "1346014": {
+    "name": {
+      "chs": "苏醒的多头龙——魔许德拉",
+      "en": "Ahead of the Competition",
+      "ja": "覚醒の多頭竜「マギ・ヒュドラ」",
+      "de": "Mehr Köpfe als Verstand",
+      "fr": "Défi : têtes à claques"
+    }
+  },
+  "1346015": {
+    "name": {
+      "chs": "拟态使魔——变形法师",
+      "en": "Accept No Imitators",
+      "ja": "変化の使い魔「メタモルファ」",
+      "de": "Mieses Mimikry",
+      "fr": "Défi : attention aux contrefaçons"
+    }
   }
 }
