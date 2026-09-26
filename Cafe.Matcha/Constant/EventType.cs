@@ -26,6 +26,7 @@ namespace Cafe.Matcha.Constant
         FateWatchListChanged,
         Queue,
         FishCast,
-        SubmarineStatus
+        SubmarineStatus,
+        Fishing
     }
 }

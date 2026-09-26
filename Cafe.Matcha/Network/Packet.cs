@@ -63,8 +63,11 @@ namespace Cafe.Matcha.Network
 
         public int DataLength => Bytes.Length - HeaderLength;
 
-        public Packet(PacketSender sender, byte[] bytes)
+        public long Timestamp { get; }
+
+        public Packet(PacketSender sender, byte[] bytes, long timestamp = 0)
         {
+            Timestamp = timestamp > 0 ? timestamp : Utils.Helper.Now;
             Sender = sender;
             Bytes = bytes;
 

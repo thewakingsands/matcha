@@ -135,7 +135,7 @@ namespace Cafe.Matcha.Network.Handler
         /// <summary>
         /// Init (reset overlay status) for specified itemId.
         /// </summary>
-        /// <param name="itemId">ItemId</param>
+        /// <param name="itemId">ItemId.</param>
         private void InitMarketBoardListing(uint itemId)
         {
             fireEvent(new MarketBoardItemListingCountDTO()

@@ -35,7 +35,7 @@ namespace Cafe.Matcha.Network
         {
             try
             {
-                HandleMessage(new Packet(Packet.PacketSender.Server, message));
+                HandleMessage(new Packet(Packet.PacketSender.Server, message, epoch));
             }
             catch (Exception e)
             {
@@ -51,7 +51,7 @@ namespace Cafe.Matcha.Network
         {
             try
             {
-                HandleMessage(new Packet(Packet.PacketSender.Client, message));
+                HandleMessage(new Packet(Packet.PacketSender.Client, message, epoch));
             }
             catch (Exception e)
             {

@@ -6,8 +6,10 @@ namespace Cafe.Matcha.Constant
     internal enum FishEventType
     {
         Cast = 1,
-        Hook = 2,
+        ReelIn = 2,
         End = 3,
-        Bite = 5
+        Ready = 4,
+        Bite = 5,
+        Hook = 6
     }
 }
