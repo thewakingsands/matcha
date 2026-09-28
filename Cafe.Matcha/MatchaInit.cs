@@ -70,6 +70,7 @@ namespace Cafe.Matcha
             if (mainControl != null)
             {
                 mainControl.DeInit();
+                mainControl = null;
             }
         }
     }

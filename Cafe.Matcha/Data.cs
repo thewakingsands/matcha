@@ -29,6 +29,7 @@ namespace Cafe.Matcha
         public Dictionary<int, Models.WorldData> Worlds;
         public List<Models.Template> Templates { get; set; }
         public Dictionary<int, Models.ItemName> Roulettes;
+        public Models.FishingNotebookData FishingNotebook;
 
         private bool ReadData<T>(string path, string file, out T dict) where T : new()
         {
@@ -57,6 +58,7 @@ namespace Cafe.Matcha
             ReadData(dataRoot, "patch.json", out Patches);
             ReadData(dataRoot, "world.json", out Worlds);
             ReadData(dataRoot, "dynamic-event.json", out DynamicEvents);
+            ReadData(dataRoot, "fishing-notebook.json", out FishingNotebook);
 
             ReadData(dataRoot, "fate.json", out Dictionary<int, Models.FateData> fates);
             Fates = fates;

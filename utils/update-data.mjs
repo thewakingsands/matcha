@@ -147,6 +147,8 @@ export async function buildData(
     RelicNote: [...localized('EventItem.Singular'), 'Fate[].value'],
     Fate: [...localized('Name'), 'ClassJobLevel'],
     DynamicEventSet: localized('DynamicEvent.Name'),
+    FishParameter: ['Item.value'],
+    SpearfishingItem: ['Item.value'],
     World: [
       'Name',
       'IsPublic',
@@ -312,7 +314,28 @@ export async function buildData(
     'fate.json': fates,
     'dynamic-event.json': dynamicEvents,
     'world.json': worlds,
+    'fishing-notebook.json': buildFishingNotebook(sheets.FishParameter, sheets.SpearfishingItem),
   }
+}
+
+export function buildFishingNotebook(fishRows, spearfishRows) {
+  const mapItems = (rows, firstId) => {
+    if (!Array.isArray(rows) || !rows.length) throw new Error('Empty fishing notebook sheet')
+    const result = {}
+    for (const row of rows) {
+      const item = row.fields?.Item?.value
+      if (firstId === 20000 && row.row_id === 0 && item === 0) continue
+      if (!Number.isSafeInteger(row.row_id) || row.row_id < firstId ||
+          !Number.isSafeInteger(item) || item < 0 || item > 0xffffffff ||
+          Object.hasOwn(result, row.row_id)) {
+        throw new Error('Invalid fishing notebook item mapping')
+      }
+      result[row.row_id] = item
+    }
+    if (!Object.keys(result).length) throw new Error('Empty fishing notebook sheet')
+    return result
+  }
+  return { fish: mapItems(fishRows, 0), spearfish: mapItems(spearfishRows, 20000) }
 }
 
 async function main() {

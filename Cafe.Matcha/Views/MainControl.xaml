@@ -232,6 +232,35 @@
                     </DockPanel>
                 </Grid>
             </TabItem>
+            <TabItem Header="用户初始数据">
+                <StackPanel Margin="16">
+                    <TextBlock Text="{Binding InitialDataStatus}" TextWrapping="Wrap" Margin="0,0,0,16" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="快照角色" Margin="0,0,0,10" />
+                        <TextBlock Text="{Binding InitialDataCharacter}" Grid.Column="1" TextWrapping="Wrap" />
+                        <TextBlock Text="接收时间" Grid.Row="1" Margin="0,0,0,10" />
+                        <TextBlock Text="{Binding InitialDataReceivedAt}" Grid.Row="1" Grid.Column="1" />
+                        <TextBlock Text="普通钓鱼完成" Grid.Row="2" Margin="0,0,0,10" />
+                        <TextBlock Text="{Binding InitialDataFishCount}" Grid.Row="2" Grid.Column="1" />
+                        <TextBlock Text="刺鱼完成" Grid.Row="3" Margin="0,0,0,10" />
+                        <TextBlock Text="{Binding InitialDataSpearfishCount}" Grid.Row="3" Grid.Column="1" />
+                    </Grid>
+                    <TextBlock Text="导出最近一次登录时收到的快照；本次登录后新增的鱼获需重新登录后更新。快照仅在当前插件运行期间保存。"
+                               TextWrapping="Wrap" Margin="0,8,0,16" />
+                    <Button Content="导出鱼糕钓鱼笔记" HorizontalAlignment="Left" Padding="12,5"
+                            IsEnabled="{Binding CanExportInitialData}" Click="BExportFishingNotebook_Click" />
+                </StackPanel>
+            </TabItem>
             <TabItem Header="Webhook">
                 <Grid>
                     <Grid.ColumnDefinitions>

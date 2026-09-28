@@ -97,7 +97,6 @@
                 // Mask lower-32bit for privacy concern
                 LocalContentId = BitConverter.ToUInt64(packet.Bytes, 0x20) & 0xffffffff00000000;
                 LocalContentId = LocalContentId | GetClientIdentifier();
-                Log?.Invoke(this, $"New CID: {LocalContentId.ToString("X")}");
             }
             else if (opcode == MatchaOpcode.MarketBoardItemListingCount)
             {

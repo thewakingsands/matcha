@@ -202,6 +202,35 @@ namespace Cafe.Matcha.ViewModels
 
     public class MainViewModel : BindingTarget
     {
+        private Models.InitialDataSnapshot initialData;
+
+        public bool CanExportInitialData => initialData?.CanExport == true;
+
+        public string InitialDataStatus => initialData == null
+            ? "尚未收到初始数据，请在插件启动后重新登录游戏"
+            : initialData.Error ?? "已收到初始数据，可导出鱼糕钓鱼笔记。";
+
+        public string InitialDataCharacter => initialData == null || string.IsNullOrEmpty(initialData.CharacterName)
+            ? "—" : initialData.CharacterName;
+
+        public string InitialDataReceivedAt => initialData == null ? "—"
+            : DateTimeOffset.FromUnixTimeMilliseconds(initialData.ReceivedAt).ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
+
+        public string InitialDataFishCount => CanExportInitialData ? initialData.Fish.Count.ToString() : "—";
+
+        public string InitialDataSpearfishCount => CanExportInitialData ? initialData.Spearfish.Count.ToString() : "—";
+
+        internal void SetInitialData(Models.InitialDataSnapshot snapshot)
+        {
+            initialData = snapshot;
+            EmitPropertyChanged(nameof(CanExportInitialData));
+            EmitPropertyChanged(nameof(InitialDataStatus));
+            EmitPropertyChanged(nameof(InitialDataCharacter));
+            EmitPropertyChanged(nameof(InitialDataReceivedAt));
+            EmitPropertyChanged(nameof(InitialDataFishCount));
+            EmitPropertyChanged(nameof(InitialDataSpearfishCount));
+        }
+
         public MainViewModel()
         {
             Config.Instance.PropertyChanged += (sender, e) =>

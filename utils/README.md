@@ -9,8 +9,9 @@ node utils/update-data.mjs
 node --test utils/update-data.test.mjs
 ```
 
-The script generates nine JSON files in `Cafe.Matcha/data`: `instance`, `type`,
-`roulette`, `territory`, `patch`, `template`, `fate`, `dynamic-event`, and `world`.
+The script generates ten JSON files in `Cafe.Matcha/data`: `instance`, `type`,
+`roulette`, `territory`, `patch`, `template`, `fate`, `dynamic-event`, `world`, and
+`fishing-notebook`.
 Input and output paths are resolved relative to the script, independently of the
 current working directory.
 
@@ -49,6 +50,12 @@ current working directory.
 - Chinese worlds and data centers come from
   [server.json](https://zhyupe.github.io/ffxiv-datamining-worker/server.json),
   overriding the corresponding XIVAPI world entries.
+- Fishing notebook mappings read `Item.value` from `FishParameter` and
+  `SpearfishingItem`. `fishing-notebook.json` contains `fish` and `spearfish`
+  objects keyed by sheet row ID, with item IDs as values. Empty item entries
+  retain the value zero; the blank `SpearfishingItem` row zero is omitted.
+  Spearfishing row IDs start at 20000. The plugin bundles this file for offline
+  completion exports.
 
 ## Generating raw FATE locations from LGB data
 

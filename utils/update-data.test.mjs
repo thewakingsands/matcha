@@ -5,7 +5,7 @@ import { join } from 'node:path'
 import { test } from 'node:test'
 import { pathToFileURL } from 'node:url'
 import { listItems, requestJson } from './lib/xivapi-v2.mjs'
-import { buildData, loadFateLocations, loadDynamicEventLocations } from './update-data.mjs'
+import { buildData, buildFishingNotebook, loadFateLocations, loadDynamicEventLocations } from './update-data.mjs'
 
 test('pagination retains subrow zero and merges languages with different row sets', async (t) => {
   const requests = []
@@ -157,10 +157,12 @@ test('dynamic event locations prefer raw records and fall back only when the sou
   await assert.rejects(loadDynamicEventLocations({ file, fallbackFile }), { code: 'ENOENT' })
 })
 
-test('all nine outputs preserve IDs, expansions, templates, filters and CN server overrides', async () => {
+test('all ten outputs preserve IDs, expansions, templates, filters and CN server overrides', async () => {
   const name = (value) => ({ 'Name@lang(en)': value })
   const row = (row_id, fields, subrow_id) => ({ row_id, fields, subrow_id })
   const sheets = {
+    FishParameter: [row(0, { Item: { value: 0 } }), row(1, { Item: { value: 10001 } })],
+    SpearfishingItem: [row(20000, { Item: { value: 10002 } })],
     ContentFinderCondition: [
       row(1, {
         ...name('New duty'),
@@ -241,9 +243,17 @@ test('all nine outputs preserve IDs, expansions, templates, filters and CN serve
         worlds: [{ id: 1042, name_chs: '拉诺西亚', name_en: 'LaNuoXiYa' }],
       },
     ],
-    async (sheet) => sheets[sheet],
+    async (sheet, fields) => {
+      if (sheet === 'FishParameter' || sheet === 'SpearfishingItem') {
+        assert.deepEqual(fields, ['Item.value'])
+      }
+      return sheets[sheet]
+    },
   )
-  assert.equal(Object.keys(data).length, 9)
+  assert.equal(Object.keys(data).length, 10)
+  assert.deepEqual(data['fishing-notebook.json'], {
+    fish: { 0: 0, 1: 10001 }, spearfish: { 20000: 10002 },
+  })
   assert.equal(data['instance.json'][1].name.chs, '')
   assert.equal(data['instance.json'][1].itemSync, 700)
   // Use the path-derived patch, even when TerritoryType.ExVersion differs.
@@ -269,4 +279,21 @@ test('all nine outputs preserve IDs, expansions, templates, filters and CN serve
   assert.equal(data['world.json'][99], undefined)
   assert.equal(data['world.json'][2075].dc, 'Korea')
   assert.equal(data['world.json'][3000], undefined)
+})
+
+test('fishing notebook maps retain empty entries and keep fish and spear row spaces separate', () => {
+  const row = (row_id, value) => ({ row_id, fields: { Item: { value } } })
+  assert.deepEqual(buildFishingNotebook(
+    [row(0, 0), row(1, 10001), row(2, 10001), row(1527, 10002)],
+    [row(0, 0), row(20000, 10003), row(20303, 0)],
+  ), {
+    fish: { 0: 0, 1: 10001, 2: 10001, 1527: 10002 },
+    spearfish: { 20000: 10003, 20303: 0 },
+  })
+  for (const invalid of [[], [row(-1, 10001)], [row(1, -1)], [row(1, '10001')],
+    [row(1, 0x100000000)], [row(1, 10001), row(1, 10002)], [{ row_id: 1, fields: {} }]]) {
+    assert.throws(() => buildFishingNotebook(invalid, [row(20000, 10003)]), /fishing notebook/)
+  }
+  assert.throws(() => buildFishingNotebook([row(1, 10001)], [row(19999, 10003)]), /fishing notebook/)
+  assert.throws(() => buildFishingNotebook([row(1, 10001)], [row(0, 0)]), /Empty fishing notebook/)
 })

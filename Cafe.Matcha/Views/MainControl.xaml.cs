@@ -8,6 +8,7 @@ namespace Cafe.Matcha.Views
     using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.Diagnostics;
+    using System.IO;
     using System.Linq;
     using System.Windows;
     using System.Windows.Controls;
@@ -46,9 +47,13 @@ namespace Cafe.Matcha.Views
         }
 
         private IActPluginV1 ffxivPlugin = null;
+        private bool deinitialized;
 
         public void DeInit()
         {
+            deinitialized = true;
+            InitialDataStore.Instance.Changed -= InitialData_Changed;
+            InitialDataStore.Instance.EndSession();
             if (ParsePlugin.Instance != null)
             {
                 ParsePlugin.Instance.Stop();
@@ -60,6 +65,8 @@ namespace Cafe.Matcha.Views
 
         private async void Init()
         {
+            InitialDataStore.Instance.Changed += InitialData_Changed;
+            ViewModel.SetInitialData(null);
             ViewModel.PropertyChanged += (_, e) =>
             {
                 if (e.PropertyName == "Fates")
@@ -86,6 +93,10 @@ namespace Cafe.Matcha.Views
 
             Utils.Log.Handler += Log;
             ffxivPlugin = await Helper.GetFFXIVPlugin();
+            if (deinitialized)
+            {
+                return;
+            }
 
             Telemetry.Init();
             Helper.CheckLicenseNotice();
@@ -108,6 +119,55 @@ namespace Cafe.Matcha.Views
 
             ParsePlugin.Instance.Network = network;
             ParsePlugin.Instance.Start();
+        }
+
+        private void InitialData_Changed(object sender, EventArgs e)
+        {
+            if (deinitialized || Dispatcher.HasShutdownStarted)
+            {
+                return;
+            }
+
+            Dispatcher.BeginInvoke(new Action(() =>
+            {
+                if (!deinitialized)
+                {
+                    ViewModel.SetInitialData(InitialDataStore.Instance.Current);
+                }
+            }));
+        }
+
+        private void BExportFishingNotebook_Click(object sender, RoutedEventArgs e)
+        {
+            var snapshot = InitialDataStore.Instance.Current;
+            if (snapshot?.CanExport != true)
+            {
+                ViewModel.SetInitialData(snapshot);
+                return;
+            }
+
+            var dialog = new SaveFileDialog
+            {
+                Filter = "鱼糕钓鱼笔记 (*.json)|*.json",
+                FileName = "fishcake-completion.json",
+                DefaultExt = ".json",
+                AddExtension = true
+            };
+            if (dialog.ShowDialog() != true)
+            {
+                return;
+            }
+
+            try
+            {
+                snapshot.SaveFishcake(dialog.FileName);
+                MessageBox.Show("已保存鱼糕钓鱼笔记。", Data.Title);
+            }
+            catch (Exception error) when (error is IOException || error is UnauthorizedAccessException
+                || error is InvalidOperationException)
+            {
+                MessageBox.Show($"保存失败：{error.Message}", Data.Title, MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void FateNode_PropertyChanged(object sender, PropertyChangedEventArgs e)

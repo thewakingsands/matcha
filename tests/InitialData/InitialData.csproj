@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Remove="StyleCop.Analyzers" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <Compile Include="../../Cafe.Matcha/Network/Packet.cs" Link="Packet.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/InitialDataStore.cs" Link="InitialDataStore.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/AbstractHandler.cs" Link="AbstractHandler.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/PlayerSetupHandler.cs" Link="PlayerSetupHandler.cs" />
+    <Compile Include="../../Cafe.Matcha/Models/FishingNotebookData.cs" Link="FishingNotebookData.cs" />
+    <Compile Include="../../Cafe.Matcha/Models/InitialDataSnapshot.cs" Link="InitialDataSnapshot.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/BaseDTO.cs" Link="BaseDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/EventType.cs" Link="EventType.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/MatchaOpcode.cs" Link="MatchaOpcode.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/Region.cs" Link="Region.cs" />
+    <None Include="../../Cafe.Matcha/data/fishing-notebook.json" Link="fishing-notebook.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
