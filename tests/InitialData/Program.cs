@@ -10,9 +10,16 @@ using Cafe.Matcha.Network;
 using Cafe.Matcha.Network.Handler;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Serialization;
 
 internal static class Program
 {
+    private sealed class RejectingContractResolver : IContractResolver
+    {
+        public JsonContract ResolveContract(Type type) =>
+            throw new JsonSerializationException("CLR contract resolution is unavailable in this export test.");
+    }
+
     private static void Check(bool condition, string message)
     {
         if (!condition) throw new Exception(message);
@@ -65,6 +72,25 @@ internal static class Program
         Check(json.Properties().Select(p => p.Name).SequenceEqual(new[] { "completed", "pinned", "alarmFish" }), "Only fishcake fields");
         Check(!json["pinned"].Any() && !json["alarmFish"].Any(), "Empty pinned and alarmFish");
         Check(captured.ToFishcakeJson().Contains("\n") && !captured.ToFishcakeJson().Contains("Synthetic"), "Indented export without character metadata");
+
+        var defaultSettings = JsonConvert.DefaultSettings;
+        try
+        {
+            JsonConvert.DefaultSettings = () => new JsonSerializerSettings
+            {
+                ContractResolver = new RejectingContractResolver()
+            };
+            Check(JToken.DeepEquals(json, JObject.Parse(captured.ToFishcakeJson())),
+                "Export preserves the fishcake schema without CLR member or constructor metadata");
+            var empty = new InitialDataSnapshot("Synthetic", 1000, Array.Empty<uint>(), Array.Empty<uint>());
+            Check(JToken.DeepEquals(JObject.Parse(empty.ToFishcakeJson()),
+                JObject.Parse("{\"completed\":[],\"pinned\":[],\"alarmFish\":[]}")),
+                "Empty export also bypasses CLR contract resolution");
+        }
+        finally
+        {
+            JsonConvert.DefaultSettings = defaultSettings;
+        }
 
         var unrelated = PacketWith(Array.Empty<int>(), Array.Empty<int>(), opcode: MatchaOpcode.InitZone);
         handler.Handle(unrelated);

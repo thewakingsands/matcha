@@ -10,6 +10,7 @@ namespace Cafe.Matcha.Models
     using System.Linq;
     using System.Text;
     using Newtonsoft.Json;
+    using Newtonsoft.Json.Linq;
 
     internal sealed class InitialDataSnapshot
     {
@@ -42,12 +43,12 @@ namespace Cafe.Matcha.Models
                 throw new InvalidOperationException(Error);
             }
 
-            return JsonConvert.SerializeObject(new
+            return new JObject
             {
-                completed = Fish.Concat(Spearfish).Distinct().OrderBy(id => id).ToArray(),
-                pinned = Array.Empty<uint>(),
-                alarmFish = Array.Empty<uint>()
-            }, Formatting.Indented);
+                ["completed"] = new JArray(Fish.Concat(Spearfish).Distinct().OrderBy(id => id)),
+                ["pinned"] = new JArray(),
+                ["alarmFish"] = new JArray()
+            }.ToString(Formatting.Indented);
         }
 
         public void SaveFishcake(string path)

@@ -164,7 +164,7 @@ namespace Cafe.Matcha.Views
                 MessageBox.Show("已保存鱼糕钓鱼笔记。", Data.Title);
             }
             catch (Exception error) when (error is IOException || error is UnauthorizedAccessException
-                || error is InvalidOperationException)
+                || error is InvalidOperationException || error is Newtonsoft.Json.JsonException)
             {
                 MessageBox.Show($"保存失败：{error.Message}", Data.Title, MessageBoxButton.OK, MessageBoxImage.Error);
             }
