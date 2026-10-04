@@ -17,12 +17,58 @@ namespace Cafe.Matcha.Network.Handler
         private const int SubmarineStatusItemLength = 60;
         private const int SubmarineStatusPacketDataLength = SubmarineStatusItemLength * SubmarineCount;
 
+        private const ushort WorkshopPartsContainer = 25004;
+        private const int PartCount = 4;
+        private const int PartSlotStride = 5;
+        private readonly object sync = new object();
+        private readonly SubmarinePartConditionDTO[][] partConditions = new SubmarinePartConditionDTO[SubmarineCount][];
+        private bool inWorkshop;
+
         public SubmarineHandler(Action<BaseDTO> fireEvent) : base(fireEvent)
         {
         }
 
         public override bool Handle(Packet packet)
         {
+            lock (sync)
+            {
+                return HandlePacket(packet);
+            }
+        }
+
+        private bool HandlePacket(Packet packet)
+        {
+            if (!packet.Valid || !packet.Known || packet.Sender != Packet.PacketSender.Server)
+            {
+                return false;
+            }
+
+            if (packet.MatchaOpcode == MatchaOpcode.InitZone)
+            {
+                ResetParts();
+                if (packet.DataLength >= 4)
+                {
+                    // This inventory ID is reused by furniture outside company workshops.
+                    var territory = packet.ReadUInt16(2);
+                    inWorkshop = territory == 423 || territory == 424 || territory == 425
+                        || territory == 653 || territory == 984;
+                }
+                return false;
+            }
+
+            if (packet.MatchaOpcode == MatchaOpcode.PlayerSetup || packet.MatchaOpcode == MatchaOpcode.Logout)
+            {
+                ResetParts();
+                return packet.MatchaOpcode == MatchaOpcode.Logout;
+            }
+
+            if (packet.MatchaOpcode == MatchaOpcode.ItemInfo || packet.MatchaOpcode == MatchaOpcode.UpdateInventorySlot)
+            {
+                var handled = HandlePartCondition(packet);
+                // Other item snapshots still need the normal equipped-item handler.
+                return handled || (packet.MatchaOpcode == MatchaOpcode.UpdateInventorySlot && packet.DataLength >= 64);
+            }
+
             if (packet.MatchaOpcode == MatchaOpcode.CompanySubmersibleStatus)
             {
                 return HandleCompanySubmersibleStatus(packet);
@@ -34,6 +80,45 @@ namespace Cafe.Matcha.Network.Handler
             }
 
             return false;
+        }
+
+        private void ResetParts()
+        {
+            inWorkshop = false;
+            Array.Clear(partConditions, 0, partConditions.Length);
+            fireEvent(new SubmarinePartsDTO { Reset = true, Index = -1, Parts = Array.Empty<SubmarinePartConditionDTO>() });
+        }
+
+        private bool HandlePartCondition(Packet packet)
+        {
+            if (!inWorkshop || packet.DataLength < 64 || packet.ReadUInt16(8) != WorkshopPartsContainer)
+            {
+                return false;
+            }
+
+            var slot = (int)packet.ReadUInt16(10);
+            var index = slot / PartSlotStride;
+            var part = slot % PartSlotStride;
+            if (index >= SubmarineCount || part >= PartCount)
+            {
+                return false;
+            }
+
+            var itemId = packet.ReadUInt32(16);
+            var condition = (ushort)packet.ReadUInt16(34);
+            if (partConditions[index] == null)
+            {
+                partConditions[index] = new SubmarinePartConditionDTO[PartCount];
+            }
+            partConditions[index][part] = itemId == 0 || condition > 30000
+                ? null
+                : new SubmarinePartConditionDTO { ItemId = itemId, Condition = condition };
+            fireEvent(new SubmarinePartsDTO
+            {
+                Index = index,
+                Parts = (SubmarinePartConditionDTO[])partConditions[index].Clone(),
+            });
+            return true;
         }
 
         private bool HandleCompanySubmersibleStatus(Packet packet)
@@ -80,6 +165,8 @@ namespace Cafe.Matcha.Network.Handler
                 return false;
             }
 
+            // A status list also establishes workshop context when attaching mid-session.
+            inWorkshop = true;
             var data = packet.GetRawData();
             for (int i = 0; i < SubmarineCount; ++i)
             {

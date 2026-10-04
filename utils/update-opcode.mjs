@@ -34,6 +34,8 @@ const opcodes = [
   'FishCaught',
   'StatusEffectList',
   'ClientTrigger',
+  'UpdateInventorySlot',
+  'Logout',
 ]
 const clientOpcodes = new Set(['MarketBoardRequestItemListingInfo', 'ClientTrigger'])
 

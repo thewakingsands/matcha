@@ -24,6 +24,8 @@ namespace Cafe.Matcha.Network
         private List<AbstractHandler> handlers = new List<AbstractHandler>();
         public NetworkMonitor()
         {
+            // Observe login and zone resets before another handler consumes them.
+            AddHandler<SubmarineHandler>();
             var session = InitialDataStore.Instance.BeginSession();
             handlers.Add(new PlayerSetupHandler(FireEvent, InitialDataStore.Instance,
                 () => Data.Instance.FishingNotebook, session));
@@ -31,7 +33,6 @@ namespace Cafe.Matcha.Network
             AddHandler<MarketBoardHandler>();
             AddHandler<TreasureHandler>();
             AddHandler<QueueHandler>();
-            AddHandler<SubmarineHandler>();
         }
 
         public void HandleMessageReceived(string connection, long epoch, byte[] message)

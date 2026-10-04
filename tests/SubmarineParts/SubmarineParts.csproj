@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Remove="StyleCop.Analyzers" />
+    <Reference Include="Newtonsoft.Json"><HintPath>$(MSBuildSDKsPath)/../Newtonsoft.Json.dll</HintPath></Reference>
+    <Compile Include="../../Cafe.Matcha/Network/Packet.cs" Link="Packet.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/AbstractHandler.cs" Link="AbstractHandler.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/SubmarineHandler.cs" Link="SubmarineHandler.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/BaseDTO.cs" Link="BaseDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/SubmarineStatusDTO.cs" Link="SubmarineStatusDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/SubmarinePartsDTO.cs" Link="SubmarinePartsDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/CompanyVoyageStatusDTO.cs" Link="CompanyVoyageStatusDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/EventType.cs" Link="EventType.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/MatchaOpcode.cs" Link="MatchaOpcode.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/Region.cs" Link="Region.cs" />
+  </ItemGroup>
+</Project>

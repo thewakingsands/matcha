@@ -35,6 +35,8 @@ namespace Cafe.Matcha.Constant
         FishCaught,
         StatusEffectList,
         ClientTrigger,
+        UpdateInventorySlot,
+        Logout,
     }
 
     internal static class OpcodeStorage
@@ -69,6 +71,8 @@ namespace Cafe.Matcha.Constant
             { 0x0110, MatchaOpcode.FishCaught },
             { 0x0083, MatchaOpcode.StatusEffectList },
             { 0x8187, MatchaOpcode.ClientTrigger },
+            { 0x02a2, MatchaOpcode.UpdateInventorySlot },
+            { 0x01d6, MatchaOpcode.Logout },
         };
         public static Dictionary<ushort, MatchaOpcode> China = new Dictionary<ushort, MatchaOpcode>
         {
@@ -100,6 +104,8 @@ namespace Cafe.Matcha.Constant
             { 0x0110, MatchaOpcode.FishCaught },
             { 0x0083, MatchaOpcode.StatusEffectList },
             { 0x8187, MatchaOpcode.ClientTrigger },
+            { 0x02a2, MatchaOpcode.UpdateInventorySlot },
+            { 0x01d6, MatchaOpcode.Logout },
         };
     }
 }
