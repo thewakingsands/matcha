@@ -208,6 +208,13 @@
                                 <Button x:Name="BtnViewDetails" Content="查看详情" Grid.Column="1" Margin="0,0,6,0" Click="BtnViewDetails_Click" Grid.Row="1" Height="24" Width="74" HorizontalAlignment="Right"/>
                             </Grid>
                         </GroupBox>
+                        <GroupBox Header="鱼漂" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
+                            <StackPanel Margin="6">
+                                <CheckBox Content="启用鱼漂咬钩时间查询及钓鱼数据上报" IsChecked="{Binding Overlay.FishingFloat, Mode=TwoWay, Source={x:Static matcha:Config.Instance}}" />
+                                <TextBlock TextWrapping="Wrap" Margin="0,4,0,0" Text="api.ffxiv.cyou：共享钓场、鱼饵、鱼获、竿时、技能状态和采集属性。不发送角色名称、角色 ID、账号、聊天或原始数据包。关闭后停止查询与上报。" />
+                                <TextBlock x:Name="FishingServiceStatus" Text="未启用" Margin="0,4,0,0" />
+                            </StackPanel>
+                        </GroupBox>
                         <GroupBox Header="日志及数据共享" Height="82" VerticalAlignment="Top" Margin="0,6,0,0" DockPanel.Dock="Top">
                             <Grid>
                                 <Grid.RowDefinitions>

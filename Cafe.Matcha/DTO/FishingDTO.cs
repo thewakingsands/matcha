@@ -9,6 +9,9 @@ namespace Cafe.Matcha.DTO
     // Every transition carries a complete cast snapshot. Null means not observed.
     internal class FishingDTO : BaseDTO
     {
+        [JsonIgnore]
+        public Network.Fishing.FishingCapture Capture;
+
         public override EventType EventType => EventType.Fishing;
         [JsonProperty("action")]
         public string Action;
@@ -16,8 +19,6 @@ namespace Cafe.Matcha.DTO
         public long Time;
         [JsonProperty("castId")]
         public string CastId;
-        [JsonProperty("actorId")]
-        public uint ActorId;
         [JsonProperty("castTime")]
         public long? CastTime;
         [JsonProperty("biteTime")]

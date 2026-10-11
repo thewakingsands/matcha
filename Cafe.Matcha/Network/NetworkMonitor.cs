@@ -22,14 +22,17 @@ namespace Cafe.Matcha.Network
     internal class NetworkMonitor : INetworkMonitor
     {
         private List<AbstractHandler> handlers = new List<AbstractHandler>();
-        public NetworkMonitor()
+        private readonly FishingHandler fishing;
+        public void ResetFishing() => fishing.ResetSession();
+        public NetworkMonitor(Func<Fishing.FishingAttributes> attributes = null)
         {
             // Observe login and zone resets before another handler consumes them.
             AddHandler<SubmarineHandler>();
             var session = InitialDataStore.Instance.BeginSession();
             handlers.Add(new PlayerSetupHandler(FireEvent, InitialDataStore.Instance,
                 () => Data.Instance.FishingNotebook, session));
-            AddHandler<FishingHandler>();
+            fishing = new FishingHandler(FireEvent, attributes ?? (() => null));
+            handlers.Add(fishing);
             AddHandler<MarketBoardHandler>();
             AddHandler<TreasureHandler>();
             AddHandler<QueueHandler>();

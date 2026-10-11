@@ -54,6 +54,18 @@ namespace Cafe.Matcha.Utils
             }
         }
 
+        public System.Diagnostics.Process GetProcess() => _parsePlugin.DataRepository.GetCurrentFFXIVProcess();
+
+        public int?[] GetGatheringPoints()
+        {
+            var id = _parsePlugin.DataRepository.GetCurrentPlayerID();
+            var players = _parsePlugin.DataRepository.GetCombatantList();
+            if (id != 0 && players != null)
+                foreach (var player in players)
+                    if (player.ID == id) return new int?[] { (int)player.CurrentGP, (int)player.MaxGP, unchecked((int)id) };
+            return new int?[] { null, null };
+        }
+
         public uint GetServer()
         {
             var combatantList = _parsePlugin.DataRepository.GetCombatantList();

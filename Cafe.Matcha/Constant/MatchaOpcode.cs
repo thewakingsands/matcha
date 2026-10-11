@@ -37,6 +37,8 @@ namespace Cafe.Matcha.Constant
         ClientTrigger,
         UpdateInventorySlot,
         Logout,
+        StatusEffectList2,
+        StatusEffectList3,
     }
 
     internal static class OpcodeStorage
@@ -103,6 +105,8 @@ namespace Cafe.Matcha.Constant
             { 0x00a8, MatchaOpcode.SystemLogMessage },
             { 0x0110, MatchaOpcode.FishCaught },
             { 0x0083, MatchaOpcode.StatusEffectList },
+            { 0x0151, MatchaOpcode.StatusEffectList2 },
+            { 0x03dc, MatchaOpcode.StatusEffectList3 },
             { 0x8187, MatchaOpcode.ClientTrigger },
             { 0x02a2, MatchaOpcode.UpdateInventorySlot },
             { 0x01d6, MatchaOpcode.Logout },

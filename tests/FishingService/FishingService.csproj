@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><OutputType>Exe</OutputType><LangVersion>8.0</LangVersion><EnableNETAnalyzers>false</EnableNETAnalyzers><CodeAnalysisRuleSet></CodeAnalysisRuleSet></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Remove="StyleCop.Analyzers" />
+    <Reference Include="Newtonsoft.Json"><HintPath>$(MSBuildSDKsPath)/../Newtonsoft.Json.dll</HintPath></Reference>
+    <Compile Include="../../Cafe.Matcha/Network/Fishing/*.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/BaseDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/FishingDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/FishingStatisticsDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/DTO/FishBiteDTO.cs" />
+    <Compile Include="../../Cafe.Matcha/Constant/*.cs" Exclude="../../Cafe.Matcha/Constant/Secret.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Packet.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/AbstractHandler.cs" />
+    <Compile Include="../../Cafe.Matcha/Network/Handler/FishingHandler.cs" />
+  </ItemGroup>
+</Project>

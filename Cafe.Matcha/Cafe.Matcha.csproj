@@ -71,6 +71,7 @@
     <None Update="data\fate.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="data\fishing-places.json"><CopyToOutputDirectory>Always</CopyToOutputDirectory></None>
     <None Update="data\fishing-notebook.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
