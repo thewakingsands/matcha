@@ -9,6 +9,7 @@ namespace Cafe.Matcha.Network.Fishing
 
     internal sealed class FishingRuntime : IDisposable
     {
+        private readonly FishingDiagnostics diagnostics = new FishingDiagnostics();
         private readonly FishingService service;
         private readonly IFishingMemoryReader memory;
         private readonly Timer sampleTimer, serviceTimer;
@@ -23,9 +24,9 @@ namespace Cafe.Matcha.Network.Fishing
         {
             this.reset = reset;
             memory = new FishingMemoryReader(() => ParsePlugin.Instance?.GetProcess(),
-                () => ParsePlugin.Instance?.GetGatheringPoints(), () => Helper.Now);
+                () => ParsePlugin.Instance?.GetGatheringPoints(), () => Helper.Now, diagnostics);
             service = new FishingService(new FishingApi(), () => Helper.Now,
-                place => Data.Instance.FishingPlaces?.Contains(place) == true, () => Snapshot, publish);
+                place => Data.Instance.FishingPlaces?.Contains(place) == true, () => Snapshot, publish, diagnostics);
             config = Config.Instance.Overlay;
             config.PropertyChanged += SettingsChanged;
             service.SetEnabled(config.FishingFloat);
@@ -34,7 +35,18 @@ namespace Cafe.Matcha.Network.Fishing
         }
         private void SettingsChanged(object sender, PropertyChangedEventArgs e)
         { if (e.PropertyName == nameof(config.FishingFloat)) service.SetEnabled(config.FishingFloat); }
-        private void Tick() { try { if (!disposed) service.Tick(); } catch { } }
+        private void Tick()
+        {
+            try { if (!disposed) { service.Tick(); diagnostics.State("service-timer", "ready"); } }
+            catch (Exception error) { diagnostics.State("service-timer", FishingDiagnostics.Error(error), 'W'); }
+        }
+        private void ResetSession()
+        {
+            try { reset(); }
+            catch (Exception error) { diagnostics.State("session-reset", FishingDiagnostics.Error(error), 'W'); }
+            try { service.Reset(); }
+            catch (Exception error) { diagnostics.State("service-reset", FishingDiagnostics.Error(error), 'W'); }
+        }
         private void Sample()
         {
             if (!Monitor.TryEnter(sampleLock)) return;
@@ -46,12 +58,17 @@ namespace Cafe.Matcha.Network.Fishing
                 if (key != processKey)
                 {
                     processKey = key; Volatile.Write(ref snapshot, null);
-                    reset(); service.Reset();
+                    diagnostics.Event("memory: process-session-changed");
+                    ResetSession();
                 }
                 var value = memory.Read();
-                if (!disposed) Volatile.Write(ref snapshot, value);
+                if (!disposed)
+                {
+                    Volatile.Write(ref snapshot, value);
+                    diagnostics.State("attributes", $"gathering={value?.Gathering.HasValue == true}; perception={value?.Perception.HasValue == true}; gp={value?.CurrentGp.HasValue == true}; max-gp={value?.MaxGp.HasValue == true}; bait={value?.BaitId.HasValue == true}");
+                }
             }
-            catch { Volatile.Write(ref snapshot, null); if (!disposed) { reset(); service.Reset(); } }
+            catch (Exception error) { Volatile.Write(ref snapshot, null); diagnostics.State("sampling", FishingDiagnostics.Error(error), 'W'); if (!disposed && processKey != null) { processKey = null; ResetSession(); } }
             finally { Monitor.Exit(sampleLock); }
         }
         public void Observe(FishingDTO value)

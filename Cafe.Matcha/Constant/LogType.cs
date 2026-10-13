@@ -10,6 +10,7 @@ namespace Cafe.Matcha.Constant
         LogLine,
         State,
         Event,
+        Fishing,
 
 #if DEBUG
         Request,

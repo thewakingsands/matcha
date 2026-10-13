@@ -32,8 +32,10 @@ internal static class Program
     {
         long time = 1000000;
         var api = new Api(); FishingStatisticsDTO last = null;
+        var logs = new List<string>();
+        var diagnostics = new FishingDiagnostics((_, text) => logs.Add(text));
         var stats = new FishingAttributes(time, 200, 300, 0, 600, 10);
-        using (var service = new FishingService(api, () => time, p => p == 20, () => stats, s => last = s))
+        using (var service = new FishingService(api, () => time, p => p == 20, () => stats, s => last = s, diagnostics))
         {
             service.Observe(Cast("off", time, place: 20)); service.Tick(); Check(api.Queries == 0, "opt-in required");
             service.SetEnabled(true); Check(api.Queries == 1, "enable queries current spot");
@@ -60,6 +62,10 @@ internal static class Program
             service.SetEnabled(false); api.Sent.SetException(new Exception()); await Task.Delay(20);
             Check(last.State == "disabled", "upload failure cannot re-enable state");
         }
+        Check(logs.Any(s => s.StartsWith("query: completed")), "query success diagnostics");
+        Check(logs.Any(s => s.StartsWith("upload: completed")), "upload success diagnostics");
+        Check(logs.Any(s => s.Contains("obsolete-result-ignored")), "late result diagnostics");
+        Check(!logs.Any(s => s.Contains("actorId") || s.Contains("castId")), "diagnostic field boundary");
         var record = Catch("artificial", time);
         Check(!record.ToJSON().Contains("actorId") && !record.ToJSON().Contains("Capture"), "public field boundary");
         var row = FishingUpload.Create(record, new FishingAttributes(time, 200, 300, 0, 600));
@@ -77,6 +83,7 @@ internal static class Program
         await CacheTests.Run();
         HandlerTests.Run();
         MemoryTests.Run();
+        DiagnosticsTests.Run();
         Console.WriteLine("Fishing service artificial-data tests passed");
     }
 }

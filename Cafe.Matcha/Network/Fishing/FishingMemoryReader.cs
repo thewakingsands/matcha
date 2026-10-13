@@ -13,11 +13,12 @@ namespace Cafe.Matcha.Network.Fishing
         private readonly Func<long> now;
         private string identity;
         private long playerState;
+        private readonly FishingDiagnostics diagnostics;
         private bool disposed;
         private const int StateReadExtent = 0x4e8;
         internal const uint ReadAccess = 0x1010; // VM_READ | QUERY_LIMITED_INFORMATION; never write or VM_OPERATION.
-        public FishingMemoryReader(Func<Process> process, Func<int?[]> gp, Func<long> now)
-        { this.process = process; this.gp = gp; this.now = now; }
+        public FishingMemoryReader(Func<Process> process, Func<int?[]> gp, Func<long> now, FishingDiagnostics diagnostics = null)
+        { this.process = process; this.gp = gp; this.now = now; this.diagnostics = diagnostics ?? new FishingDiagnostics(); }
 
         public FishingAttributes Read()
         {
@@ -26,11 +27,12 @@ namespace Cafe.Matcha.Network.Fishing
             try
             {
                 var target = process();
-                if (target == null || target.HasExited) { identity = null; playerState = 0; return new FishingAttributes(time); }
+                if (target == null || target.HasExited) { identity = null; playerState = 0; diagnostics.State("memory", "no-process"); return new FishingAttributes(time); }
                 var key = target.Id + ":" + target.StartTime.ToUniversalTime().Ticks + ":" + target.MainModule.FileName;
                 if (identity != key)
                 {
                     identity = key; playerState = 0;
+                    diagnostics.Event("memory: scan-start");
                     // Bound allocation even if the executable is replaced or malformed.
                     byte[] image;
                     using (var file = File.OpenRead(target.MainModule.FileName))
@@ -43,23 +45,25 @@ namespace Cafe.Matcha.Network.Fishing
                     var rva = Locate(image);
                     if (rva.HasValue && (long)rva.Value + StateReadExtent <= target.MainModule.ModuleMemorySize)
                         playerState = checked(target.MainModule.BaseAddress.ToInt64() + rva.Value);
+                    diagnostics.Event(playerState == 0 ? "memory: signature-or-image-invalid" : "memory: scan-resolved", playerState == 0 ? 'W' : 'I');
                 }
                 var points = gp();
                 if (playerState == 0) return new FishingAttributes(time, gp: points?.Length >= 2 ? points[0] : null, maxGp: points?.Length >= 2 ? points[1] : null);
                 using (var handle = OpenProcess(ReadAccess, false, target.Id))
                 {
-                    if (handle.IsInvalid) { return new FishingAttributes(time); }
+                    if (handle.IsInvalid) { diagnostics.State("memory", "open-denied", 'W'); return new FishingAttributes(time); }
                     // Bind this handle to the selected process instance, including PID reuse races.
                     if (!GetProcessTimes(handle, out var created, out var exited, out var kernel, out var user)
                         || created != target.StartTime.ToUniversalTime().ToFileTimeUtc())
-                    { return new FishingAttributes(time); }
+                    { diagnostics.State("memory", "process-changed", 'W'); return new FishingAttributes(time); }
                     var result = Sample(time, offset => Read(handle, checked(playerState + offset.Item1), offset.Item2), points);
-                    if (target.HasExited) { return new FishingAttributes(time); }
+                    if (target.HasExited) { diagnostics.State("memory", "process-exited"); return new FishingAttributes(time); }
+                    diagnostics.State("memory", result.Gathering.HasValue ? "read-ready" : "attributes-unavailable");
                     return result;
                 }
             }
             // A transient read failure must not rescan the executable on the next sample.
-            catch { return new FishingAttributes(time); }
+            catch (Exception error) { diagnostics.State("memory", FishingDiagnostics.Error(error), 'W'); return new FishingAttributes(time); }
         }
         internal static FishingAttributes Sample(long time, Func<Tuple<int, int>, byte[]> read, int?[] points)
         {

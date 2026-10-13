@@ -17,8 +17,9 @@ namespace Cafe.Matcha.Network.Fishing
     internal sealed class FishingApiException : Exception
     {
         public TimeSpan RetryAfter { get; }
-        public FishingApiException(TimeSpan retryAfter) : base("Fishing service request failed")
-        { RetryAfter = retryAfter < TimeSpan.FromSeconds(60) ? TimeSpan.FromSeconds(60) : retryAfter; }
+        public int StatusCode { get; }
+        public FishingApiException(TimeSpan retryAfter, int statusCode = 0) : base("Fishing service request failed")
+        { StatusCode = statusCode; RetryAfter = retryAfter < TimeSpan.FromSeconds(60) ? TimeSpan.FromSeconds(60) : retryAfter; }
     }
     internal sealed class FishingApi : IFishingApi
     {
@@ -80,7 +81,7 @@ namespace Cafe.Matcha.Network.Fishing
         {
             if (response.IsSuccessStatusCode) return;
             var retry = response.Headers.RetryAfter;
-            throw new FishingApiException(retry?.Delta ?? (retry?.Date - DateTimeOffset.UtcNow) ?? TimeSpan.FromSeconds(60));
+            throw new FishingApiException(retry?.Delta ?? (retry?.Date - DateTimeOffset.UtcNow) ?? TimeSpan.FromSeconds(60), (int)response.StatusCode);
         }
         public void Dispose() => client.Dispose();
     }
