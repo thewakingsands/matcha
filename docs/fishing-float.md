@@ -21,7 +21,7 @@ C# 负责请求，悬浮窗只接收 `FishingStatistics` v1 日志事件。查�
 - CN：`7ba28760bc53cbbbf66b63105fea6c1bfe09cb6b1c6353fc8fb0ff03cc1a30f4`
 - Global：`2d5457305db876f4bf68080f7703dd187375cd7e2fd607fa211b3b3c204e4b25`
 
-两个文件均已验证静态地址签名唯一及属性索引读取；CN 的 PlayerSetup 处理验证了鱼饵写入。匹配不唯一、角色未加载、进程变化或读取失败均返回未知。国际服新增状态列表变体尚未配置经核对的 opcode；未取得完整状态基线时跳过上传。
+两个文件均已验证静态地址签名唯一及属性索引读取；CN 的 PlayerSetup 处理验证了鱼饵写入。匹配不唯一、角色未加载、进程变化或读取失败均返回未知。钓鱼状态基线仅接入普通 `StatusEffectList`，随后结合 `ActorControl` 状态增减事件维护。不接入未经个人钓鱼场景确认的 `StatusEffectList2/3`；未取得完整状态基线时跳过上传。
 
 ## 验证
 

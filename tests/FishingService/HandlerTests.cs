@@ -47,6 +47,8 @@ internal static class HandlerTests
         time += 3000; Play(5, 293); Action(2); Play(6); Log(3527, 0);
         Check(Last().Capture.GatheringFailed && Last().Capture.Terminal, "failure cause");
         handler.ResetSession(); Check(Last().BaseBaitId == null && Last().PlaceId == null, "reset clears context");
+        Check(!handler.Handle(Make(0x151, 384, b => U16(b, 24, 763))), "removed list variant ignored");
+        Check(!handler.Handle(Make(0x3dc, 360, b => U16(b, 0, 763))), "removed status-only variant ignored");
         time += 1000; Action(0); Play(1); Log(1110, 20);
         Check(Last().Chum == null && Last().Capture.Unsupported, "missing status baseline not inferred false");
     }

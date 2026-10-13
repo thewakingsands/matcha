@@ -134,9 +134,9 @@ namespace Cafe.Matcha.Network.Handler
                 return false;
             }
 
-            if (packet.MatchaOpcode == MatchaOpcode.StatusEffectList || packet.MatchaOpcode == MatchaOpcode.StatusEffectList2 || packet.MatchaOpcode == MatchaOpcode.StatusEffectList3)
+            if (packet.MatchaOpcode == MatchaOpcode.StatusEffectList)
             {
-                var start = packet.MatchaOpcode == MatchaOpcode.StatusEffectList3 ? 0 : packet.MatchaOpcode == MatchaOpcode.StatusEffectList2 ? 24 : 20;
+                const int start = 20;
                 if (packet.DataLength < start + 360 || packet.Source != packet.Target) return false;
                 ObserveActor(packet.Target, packet.Timestamp);
                 var updated = new HashSet<uint>();
