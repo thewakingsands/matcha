@@ -10,6 +10,7 @@ namespace Cafe.Matcha.Utils
     using System.Collections.Generic;
     using System.Net.Http;
     using System.Text;
+    using System.Threading;
     using System.Threading.Tasks;
     using Cafe.Matcha.Constant;
     using Newtonsoft.Json;
@@ -118,6 +119,19 @@ namespace Cafe.Matcha.Utils
             return null;
         }
 
+        // The caller owns the client, request and response. This transport path
+        // preserves cancellation and exceptions and never logs request/response bodies.
+        public static Task<HttpResponseMessage> Send(
+            HttpClient client,
+            HttpRequestMessage request,
+            HttpCompletionOption completionOption,
+            CancellationToken cancellationToken)
+        {
+            request.Headers.UserAgent.Clear();
+            request.Headers.UserAgent.ParseAdd($"Cafe.Matcha/{Data.Version}");
+            return client.SendAsync(request, completionOption, cancellationToken);
+        }
+
         public static async Task<HttpResponseMessage> Send(string endpoint, HttpMethod method, RequestHeaders header, HttpContent data)
         {
 #if DEBUG
@@ -134,7 +148,6 @@ namespace Cafe.Matcha.Utils
                         Method = method
                     };
 
-                    request.Headers.Add("User-Agent", $"Cafe.Matcha/{Data.Version}");
                     if (header != null)
                     {
                         foreach (var pair in header)
@@ -152,7 +165,7 @@ namespace Cafe.Matcha.Utils
 #endif
                     }
 
-                    var res = await client.SendAsync(request);
+                    var res = await Send(client, request, HttpCompletionOption.ResponseContentRead, CancellationToken.None);
 #if DEBUG
                     var content = await res.Content.ReadAsStringAsync();
                     Log.Debug(LogType.Request, $"[Response] {res.StatusCode} {content}");

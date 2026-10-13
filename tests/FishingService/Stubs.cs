@@ -9,6 +9,7 @@ namespace Cafe.Matcha
     }
     internal class Data
     {
+        public static string Version = "1.2.3.4";
         public static Data Instance { get; } = new Data();
         public uint[] FishingPlaces { get; } = new uint[] { 20 };
     }
