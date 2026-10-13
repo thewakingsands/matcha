@@ -72,7 +72,7 @@ internal static class Program
         Check(BitConverter.ToString(encoded) ==
             "81-8A-00-17-18-18-19-01-00-1A-00-01-00-00-1B-00-00-00-01-00-00-00-00-F5-F4-F6-82-01-02",
             "CBOR canonical batch contract");
-        Check(FishingMemoryReader.Scan(new byte[64]) == null, "invalid PE rejected");
+        Check(FishingMemoryReader.Locate(new byte[64]) == null, "invalid PE rejected");
         await HttpTests.Run();
         await CacheTests.Run();
         HandlerTests.Run();
