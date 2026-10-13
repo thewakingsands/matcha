@@ -47,11 +47,14 @@ namespace Cafe.Matcha.Views
         }
 
         private IActPluginV1 ffxivPlugin = null;
+        private Network.Fishing.FishingRuntime fishingRuntime;
         private bool deinitialized;
 
         public void DeInit()
         {
             deinitialized = true;
+            fishingRuntime?.Dispose();
+            fishingRuntime = null;
             InitialDataStore.Instance.Changed -= InitialData_Changed;
             InitialDataStore.Instance.EndSession();
             if (ParsePlugin.Instance != null)
@@ -101,11 +104,21 @@ namespace Cafe.Matcha.Views
             Telemetry.Init();
             Helper.CheckLicenseNotice();
 
-            var network = new NetworkMonitor();
+            var network = new NetworkMonitor(() => fishingRuntime?.Snapshot);
             network.OnException += LogException;
             network.OnReceiveEvent += Network_onReceiveEvent;
 
             ParsePlugin.Init(ffxivPlugin, network);
+            fishingRuntime = new Network.Fishing.FishingRuntime(network.ResetFishing, dto =>
+            {
+                Output.SendLog(dto, false);
+                Dispatcher.BeginInvoke(new System.Action(() =>
+                {
+                    if (!deinitialized) FishingServiceStatus.Text = !dto.Enabled ? "未启用" : dto.UploadState == "error"
+                        ? "上报失败；查询与本地计时不受影响" : dto.UploadState == "incomplete" ? "部分记录信息不完整，已跳过上报；查询不受影响" : dto.State == "error" || dto.State == "stale"
+                        ? "查询失败，使用缓存或本地数据" : "已启用";
+                }));
+            });
 
             if (Config.Instance.Language == null)
             {
@@ -222,6 +235,7 @@ namespace Cafe.Matcha.Views
 
         private void Network_onReceiveEvent(BaseDTO dto)
         {
+            if (dto is FishingDTO fishing) fishingRuntime?.Observe(fishing);
             var isFateProgress = dto is FateDTO f && f.Type == "progress";
 
             Output.SendLog(dto, !isFateProgress);

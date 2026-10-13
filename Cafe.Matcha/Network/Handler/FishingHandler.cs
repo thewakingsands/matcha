@@ -8,12 +8,14 @@ namespace Cafe.Matcha.Network.Handler
     using System.Linq;
     using Cafe.Matcha.Constant;
     using Cafe.Matcha.DTO;
+    using Cafe.Matcha.Network.Fishing;
 
     internal class FishingHandler : AbstractHandler
     {
         private const uint FishingEventId = 0x00150001;
         private readonly object sync = new object();
         private readonly HashSet<uint> statuses = new HashSet<uint>();
+        private readonly Dictionary<uint, uint> statusStacks = new Dictionary<uint, uint>();
         private bool statusesKnown;
         private uint actorId;
         private uint? baitId;
@@ -23,7 +25,13 @@ namespace Cafe.Matcha.Network.Handler
         private uint? pendingCommand;
         private long pendingTime;
 
-        public FishingHandler(Action<BaseDTO> fireEvent) : base(fireEvent) { }
+        private readonly Func<FishingAttributes> readAttributes;
+        private FishingCapture capture;
+        private uint slap, identical, swimBait, taskBait;
+        private bool taskActive;
+        public FishingHandler(Action<BaseDTO> fireEvent) : this(fireEvent, () => null) { }
+        public FishingHandler(Action<BaseDTO> fireEvent, Func<FishingAttributes> attributes) : base(fireEvent)
+        { readAttributes = attributes; }
 
         public override bool Handle(Packet packet)
         {
@@ -41,9 +49,17 @@ namespace Cafe.Matcha.Network.Handler
                 return false;
             }
 
-            if (packet.MatchaOpcode == MatchaOpcode.InitZone)
+            if (packet.MatchaOpcode == MatchaOpcode.PlayerSetup && packet.DataLength >= 0x30)
             {
-                if (packet.Length != 168)
+                baitId = packet.ReadUInt32(0x2c);
+                State.Instance.FishingBait = baitId.Value;
+                Emit("bait", packet.Timestamp);
+                return false;
+            }
+
+            if (packet.MatchaOpcode == MatchaOpcode.InitZone || packet.MatchaOpcode == MatchaOpcode.Logout)
+            {
+                if (packet.MatchaOpcode == MatchaOpcode.InitZone && packet.Length != 168)
                 {
                     return false;
                 }
@@ -52,8 +68,9 @@ namespace Cafe.Matcha.Network.Handler
                 cast = null;
                 phase = null;
                 actorId = 0;
+                capture = null; slap = identical = swimBait = taskBait = 0; taskActive = false;
                 baitId = placeId = pendingCommand = null;
-                statuses.Clear();
+                statuses.Clear(); statusStacks.Clear();
                 statusesKnown = false;
                 return false; // The normal zone handler must also run.
             }
@@ -65,43 +82,75 @@ namespace Cafe.Matcha.Network.Handler
                     return false;
                 }
 
-                pendingCommand = packet.ReadUInt32(4);
-                pendingTime = packet.Timestamp;
+                var command = packet.ReadUInt32(4);
+                if (command == 0 || command == 3 || command == 15)
+                { pendingCommand = command; pendingTime = packet.Timestamp; }
+                if (capture != null && cast != null)
+                {
+                    switch (command)
+                    {
+                        case 2: capture.Hook = 1; break;
+                        case 10: capture.Hook = 2; break;
+                        case 11: capture.Hook = 3; break;
+                        case 16: capture.Hook = 4; break;
+                        case 21: capture.Hook = 5; break;
+                        case 28: capture.Hook = 6; break;
+                        case 22: case 23:
+                            capture.LureTarget = false;
+                            break;
+                    }
+                }
                 return true; // A request never starts a timer; wait for the server.
             }
 
             if (packet.MatchaOpcode == MatchaOpcode.ActorControlSelf)
             {
-                if (packet.Length != 72 || packet.ReadUInt16(0) != (uint)ActorControlType.FishingBaitChange)
+                if (packet.Length != 72) return false;
+                var category = packet.ReadUInt16(0);
+                if (category == 325)
                 {
-                    return false;
+                    ObserveActor(packet.Target, packet.Timestamp);
+                    baitId = packet.ReadUInt32(4);
+                    State.Instance.FishingBait = baitId.Value;
+                    Emit("bait", packet.Timestamp); return true;
                 }
-
-                ObserveActor(packet.Target, packet.Timestamp);
-                baitId = packet.ReadUInt32(4);
-                State.Instance.FishingBait = baitId.Value;
-                Emit("bait", packet.Timestamp);
-                return true;
+                if (packet.Target != actorId) return false;
+                if (category == 338)
+                {
+                    var index = packet.ReadUInt32(4);
+                    swimBait = index < 3 ? packet.ReadUInt32(8 + (int)index * 4) : 0;
+                    return true;
+                }
+                if (category == 3501) { taskBait = packet.ReadUInt32(4); return true; }
+                if (category == 517)
+                    return HandleLog(packet.ReadUInt32(4), packet.ReadUInt32(8), packet.Timestamp);
+                if (category == 320 && cast != null && (phase == "hook" || phase == "reel"))
+                {
+                    var packed = packet.ReadUInt32(8);
+                    Catch(packet.ReadUInt32(4), (int)(packed >> 16), (int)(packed & 255),
+                        (packet.ReadUInt32(12) & 16) != 0, packet.Timestamp);
+                    return true;
+                }
+                return false;
             }
 
             if (packet.MatchaOpcode == MatchaOpcode.StatusEffectList)
             {
-                if (packet.DataLength != 384 || packet.Source != packet.Target)
-                {
-                    return false;
-                }
-
+                const int start = 20;
+                if (packet.DataLength < start + 360 || packet.Source != packet.Target) return false;
                 ObserveActor(packet.Target, packet.Timestamp);
-                statuses.Clear();
-                for (var offset = 20; offset < 380; offset += 12)
+                var updated = new HashSet<uint>();
+                for (var offset = start; offset < start + 360; offset += 12)
                 {
                     var status = packet.ReadUInt16(offset);
-                    if (status != 0)
-                    {
-                        statuses.Add(status);
-                    }
+                    if (status == 0) continue;
+                    updated.Add(status);
+                    ObserveStatus(status, packet.ReadUInt16(offset + 2), packet.Timestamp);
                 }
-
+                foreach (var missing in statuses.Where(id => !updated.Contains(id)).ToArray())
+                { statusStacks.Remove(missing); statuses.Remove(missing); }
+                if (!updated.Contains(1803)) slap = 0;
+                if (!updated.Contains(1804)) identical = 0;
                 statusesKnown = true;
                 return true;
             }
@@ -116,12 +165,15 @@ namespace Cafe.Matcha.Network.Handler
                 var category = packet.ReadUInt16(0);
                 if (category == 20)
                 {
-                    statuses.Add(packet.ReadUInt32(4));
+                    ObserveStatus(packet.ReadUInt32(4), packet.ReadUInt32(8), packet.Timestamp);
                 }
 
                 if (category == 21)
                 {
-                    statuses.Remove(packet.ReadUInt32(4));
+                    var lost = packet.ReadUInt32(4);
+                    statuses.Remove(lost); statusStacks.Remove(lost);
+                    if (lost == 1803) slap = 0;
+                    if (lost == 1804) identical = 0;
                 }
 
                 // Changes do not retroactively alter the cast's status snapshot.
@@ -135,50 +187,7 @@ namespace Cafe.Matcha.Network.Handler
                     return false;
                 }
 
-                var message = packet.ReadUInt32(4);
-                if (message == 1110 || message == 1115)
-                {
-                    placeId = packet.ReadUInt32(12);
-                    if (cast != null && (phase == "cast" || message == 1115))
-                    {
-                        cast.PlaceId = placeId;
-                        if (message == 1110)
-                        {
-                            cast.Mooch = false;
-                            cast.BaitId = baitId;
-                        }
-
-                        Emit("place", packet.Timestamp);
-                    }
-                }
-
-                // Server confirmation identifies the effective live bait, including Mooch II.
-                // Do not guess undocumented ClientTrigger subcommands.
-                else if (message == 1121 && cast != null && phase == "cast" && packet.Timestamp - cast.CastTime <= 2000)
-                {
-                    cast.Mooch = true;
-                    cast.BaitId = packet.ReadUInt32(12);
-                    cast.PlaceId = placeId;
-                    Emit("place", packet.Timestamp);
-                }
-                else if (message >= 1111 && message <= 1113)
-                {
-                    Emit("quit", packet.Timestamp);
-                    cast = null;
-                    phase = null;
-                    placeId = null;
-                    pendingCommand = null;
-                }
-                else if ((message >= 1117 && message <= 1120) || message == 1127 || message == 1129)
-                {
-                    if (cast != null && phase != "catch" && phase != "end")
-                    {
-                        phase = "end";
-                        Emit("end", packet.Timestamp);
-                    }
-                }
-
-                return true;
+                return HandleLog(packet.ReadUInt32(4), packet.ReadUInt32(12), packet.Timestamp);
             }
 
             if (packet.MatchaOpcode == MatchaOpcode.FishCaught)
@@ -188,15 +197,8 @@ namespace Cafe.Matcha.Network.Handler
                     return false;
                 }
 
-                var fish = packet.ReadUInt32(0);
-                if (fish == 0)
-                {
-                    return true;
-                }
-
-                cast.FishId = fish;
-                phase = "catch";
-                Emit("catch", packet.Timestamp);
+                Catch(packet.ReadUInt32(0), (int)packet.ReadUInt16(4), (int)(packet.ReadUInt16(6) & 255),
+                    (packet.ReadUInt32(12) & 16) != 0, packet.Timestamp);
                 return true;
             }
 
@@ -217,6 +219,15 @@ namespace Cafe.Matcha.Network.Handler
             }
 
             ObserveActor(packet.Target, packet.Timestamp);
+            if (capture != null)
+            {
+                var animation = packet.ReadUInt16(28);
+                if (new uint[] { 4659, 4660, 4663, 4664, 4665, 4666, 12510, 12511, 12512, 12513, 12514, 12515 }.Contains(animation))
+                {
+                    capture.PatiencePrecision = new uint[] { 4660, 4665, 4666, 12511, 12514, 12515 }.Contains(animation);
+                    capture.PatienceSuccess = animation < 12510;
+                }
+            }
             var type = (FishEventType)packet.ReadUInt16(12);
             switch (type)
             {
@@ -228,12 +239,21 @@ namespace Cafe.Matcha.Network.Handler
                     }
 
                     var commandKnown = pendingCommand.HasValue && packet.Timestamp >= pendingTime && packet.Timestamp - pendingTime < 5000;
-                    var mooch = commandKnown && pendingCommand == 0 ? (bool?)false : null;
+                    var mooch = commandKnown ? (bool?)(pendingCommand == 3 || pendingCommand == 15) : null;
+                    if (!baitId.HasValue)
+                    {
+                        var memory = readAttributes();
+                        if (memory != null && Utils.Helper.Now - memory.SampledAt >= 0 && Utils.Helper.Now - memory.SampledAt <= 2000)
+                            baitId = memory.BaitId;
+                    }
+                    capture = new FishingCapture { Slap = slap, Identical = identical,
+                        Unsupported = !statusesKnown || statuses.Contains(3972) || statuses.Contains(3973) };
+                    uint? effective = swimBait != 0 ? swimBait : taskActive ? (taskBait == 0 ? (uint?)null : taskBait) : baitId;
                     cast = new FishingDTO
                     {
-                        CastId = Guid.NewGuid().ToString("N"), ActorId = actorId,
+                        CastId = Guid.NewGuid().ToString("N"),
                         CastTime = packet.Timestamp, BaseBaitId = baitId,
-                        BaitId = mooch == false ? baitId : null,
+                        BaitId = mooch == false ? effective : null,
                         Mooch = mooch, Chum = statusesKnown ? (bool?)statuses.Contains(0x2fb) : null,
                         Snagging = statusesKnown ? (bool?)statuses.Contains(0x2f9) : null,
                         Statuses = statusesKnown ? statuses.OrderBy(id => id).ToArray() : null,
@@ -288,6 +308,7 @@ namespace Cafe.Matcha.Network.Handler
                     if (cast != null && phase != "catch" && phase != "end")
                     {
                         phase = "end";
+                        if (capture != null) capture.Terminal = true;
                         Emit("end", packet.Timestamp);
                     }
 
@@ -303,6 +324,87 @@ namespace Cafe.Matcha.Network.Handler
             return true;
         }
 
+        public void ResetSession()
+        {
+            lock (sync)
+            {
+                cast = null; capture = null; phase = null; actorId = 0;
+                baitId = placeId = pendingCommand = null; slap = identical = swimBait = taskBait = 0;
+                taskActive = false; statuses.Clear(); statusStacks.Clear(); statusesKnown = false;
+                Emit("reset", Utils.Helper.Now);
+            }
+        }
+
+        private void ObserveStatus(uint status, uint stacks, long time)
+        {
+            bool changed = !statusStacks.TryGetValue(status, out var previous) || previous != stacks;
+            statuses.Add(status); statusStacks[status] = stacks;
+            if (!changed || capture == null || phase != "cast" || (status != 3972 && status != 3973)) return;
+            if (stacks < 1 || stacks > 3) { capture.Unsupported = true; return; }
+            capture.Lure = status == 3972 ? (int)stacks : 8 - (int)stacks;
+            capture.LureTimes = capture.LureTimes.Concat(new[] { time }).ToArray();
+        }
+
+        private uint? EffectiveBait => swimBait != 0 ? swimBait : taskActive ? (taskBait == 0 ? (uint?)null : taskBait) : baitId;
+
+        private bool HandleLog(uint message, uint parameter, long time)
+        {
+            if (message == 1110 || message == 1115)
+            {
+                placeId = parameter;
+                if (cast != null && (phase == "cast" || message == 1115))
+                {
+                    cast.PlaceId = placeId;
+                    if (message == 1110)
+                    {
+                        cast.Mooch = false; cast.BaitId = EffectiveBait;
+                        capture.ServerCastTime = time;
+                    }
+                    Emit("place", time);
+                }
+            }
+            else if (message == 1121 && cast != null && phase == "cast" && time - cast.CastTime <= 2000)
+            {
+                cast.Mooch = true; cast.BaitId = parameter; cast.PlaceId = placeId;
+                capture.ServerCastTime = time; Emit("place", time);
+            }
+            else if (message >= 1111 && message <= 1113)
+            {
+                Emit("quit", time); cast = null; capture = null; phase = null; placeId = null; pendingCommand = null;
+            }
+            else if ((message >= 1117 && message <= 1120) || message == 1127 || message == 1129 || message == 3527)
+            {
+                if (cast != null && phase != "catch" && phase != "end")
+                {
+                    phase = "end"; capture.Terminal = true; capture.GatheringFailed = message == 3527;
+                    Emit("end", time);
+                }
+            }
+            else if (message == 5505) identical = parameter;
+            else if (message == 5506) slap = parameter;
+            else if (message == 11154) taskActive = true;
+            else if (message == 10769) taskActive = false;
+            else if (capture != null)
+            {
+                if (message == 5564)
+                {
+                    capture.Hidden = parameter;
+                    var stacks = capture.Lure <= 3 ? capture.Lure : 8 - capture.Lure;
+                    capture.HiddenStack = capture.LureTimes.Length > 0 && (Math.Abs(time - capture.LureTimes.Last()) < 800 || stacks >= 3) ? stacks : stacks + 1;
+                    if (capture.HiddenStack < 1 || capture.HiddenStack > 3) capture.Unsupported = true;
+                }
+                // Keep a confirmed hidden-fish observation through its removal on catch.
+                if (message == 5565 || message == 5569) capture.LureTarget = true;
+            }
+            return true;
+        }
+        private void Catch(uint fish, int size, int quantity, bool large, long time)
+        {
+            if (fish == 0 || cast == null || capture == null || phase == "catch") return;
+            cast.FishId = fish; capture.Size = size; capture.Quantity = quantity; capture.Large = large;
+            capture.Terminal = true; phase = "catch"; Emit("catch", time);
+        }
+
         private void ObserveActor(uint id, long time)
         {
             if (actorId != 0 && actorId != id)
@@ -311,8 +413,9 @@ namespace Cafe.Matcha.Network.Handler
                 cast = null;
                 phase = null;
                 baitId = placeId = pendingCommand = null;
-                statuses.Clear();
+                statuses.Clear(); statusStacks.Clear();
                 statusesKnown = false;
+                capture = null; slap = identical = swimBait = taskBait = 0; taskActive = false;
             }
 
             actorId = id;
@@ -323,7 +426,7 @@ namespace Cafe.Matcha.Network.Handler
             // Never publish the mutable instance retained by the handler.
             fireEvent(new FishingDTO
             {
-                Action = action, Time = time, ActorId = actorId,
+                Action = action, Time = time,
                 CastId = cast?.CastId, CastTime = cast?.CastTime, BiteTime = cast?.BiteTime,
                 HookTime = cast?.HookTime, BaitId = cast?.BaitId,
                 BaseBaitId = cast != null && action != "bait" ? cast.BaseBaitId : baitId,
@@ -331,6 +434,7 @@ namespace Cafe.Matcha.Network.Handler
                 Tug = cast?.Tug, FishId = cast?.FishId, Mooch = cast?.Mooch,
                 Chum = cast?.Chum, Snagging = cast?.Snagging,
                 Statuses = cast?.Statuses,
+                Capture = capture?.Copy(),
             });
         }
     }

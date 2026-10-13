@@ -157,7 +157,7 @@ test('dynamic event locations prefer raw records and fall back only when the sou
   await assert.rejects(loadDynamicEventLocations({ file, fallbackFile }), { code: 'ENOENT' })
 })
 
-test('all ten outputs preserve IDs, expansions, templates, filters and CN server overrides', async () => {
+test('all eleven outputs preserve IDs, expansions, templates, filters and CN server overrides', async () => {
   const name = (value) => ({ 'Name@lang(en)': value })
   const row = (row_id, fields, subrow_id) => ({ row_id, fields, subrow_id })
   const sheets = {
@@ -208,6 +208,7 @@ test('all ten outputs preserve IDs, expansions, templates, filters and CN server
       row(7, { DynamicEvent: { value: 1, fields: name('Engagement') } }, 2),
       row(7, { DynamicEvent: { value: 49, fields: name('North event') } }, 2),
     ],
+    FishingSpot: [row(1, { PlaceName: { value: 20 } }), row(2, { PlaceName: { value: 20 } }), row(3, { PlaceName: { value: 950 } }), row(10001, { PlaceName: { value: 99 } })],
     World: [
       row(21, {
         Name: 'Ravana',
@@ -250,7 +251,8 @@ test('all ten outputs preserve IDs, expansions, templates, filters and CN server
       return sheets[sheet]
     },
   )
-  assert.equal(Object.keys(data).length, 10)
+  assert.equal(Object.keys(data).length, 11)
+  assert.deepEqual(data['fishing-places.json'], [20])
   assert.deepEqual(data['fishing-notebook.json'], {
     fish: { 0: 0, 1: 10001 }, spearfish: { 20000: 10002 },
   })

@@ -28,6 +28,7 @@ namespace Cafe.Matcha.Constant
         FishCast,
         SubmarineStatus,
         Fishing,
-        SubmarineParts
+        SubmarineParts,
+        FishingStatistics
     }
 }

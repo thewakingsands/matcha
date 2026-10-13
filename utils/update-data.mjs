@@ -148,6 +148,7 @@ export async function buildData(
     Fate: [...localized('Name'), 'ClassJobLevel'],
     DynamicEventSet: localized('DynamicEvent.Name'),
     FishParameter: ['Item.value'],
+    FishingSpot: ['PlaceName.value'],
     SpearfishingItem: ['Item.value'],
     World: [
       'Name',
@@ -314,6 +315,7 @@ export async function buildData(
     'fate.json': fates,
     'dynamic-event.json': dynamicEvents,
     'world.json': worlds,
+    'fishing-places.json': [...new Set(sheets.FishingSpot.filter(r => r.row_id < 10000).map(r => r.fields.PlaceName.value).filter(id => Number.isSafeInteger(id) && id > 0 && id !== 950))].sort((a,b) => a-b),
     'fishing-notebook.json': buildFishingNotebook(sheets.FishParameter, sheets.SpearfishingItem),
   }
 }

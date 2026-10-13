@@ -105,6 +105,8 @@ namespace Cafe.Matcha.Models
 
     public class ConfigOverlay : BindingTarget
     {
+        [JsonProperty("fishingFloat")]
+        public bool FishingFloat { get; set; } = false;
         [JsonProperty("universalis")]
         public bool Universalis { get; set; } = false;
     }
