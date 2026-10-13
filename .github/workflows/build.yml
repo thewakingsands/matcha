@@ -15,9 +15,10 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.8.5.288/ACTv3.zip
-      # Pin the SDK to its release tag; old SDK archives can be removed from master.
-      Thirdparty_FFXIV_ACT_Plugin: https://raw.githubusercontent.com/ravahn/FFXIV_ACT_Plugin/3.0.3.1/Releases/FFXIV_ACT_Plugin_SDK_3.0.3.1.zip
+      Thirdparty_ACT: https://github.com/EQAditu/AdvancedCombatTracker/releases/download/3.6.0.275/ACTv3.zip
+      # Keep the unsigned SDK for compatibility with the customized CN host.
+      # It already exposes CurrentGP/MaxGP; the signed 3.x SDK cannot replace it.
+      Thirdparty_FFXIV_ACT_Plugin: https://raw.githubusercontent.com/ravahn/FFXIV_ACT_Plugin/2.0.7.0/Releases/FFXIV_ACT_Plugin_SDK_2.0.7.0.zip
       Solution_Name: Cafe.Matcha.sln
       Secret_Path: Cafe.Matcha\Constant\Secret.Local.cs
 
@@ -63,6 +64,15 @@ jobs:
 
           Invoke-WebRequest -Uri ${{ env.Thirdparty_FFXIV_ACT_Plugin }} -OutFile thirdparty\FFXIV_ACT_Plugin.zip
           Expand-Archive thirdparty\FFXIV_ACT_Plugin.zip -DestinationPath thirdparty\FFXIV_ACT_Plugin -Force
+
+          $sdkReferences = @('FFXIV_ACT_Plugin.dll', 'SDK\FFXIV_ACT_Plugin.Common.dll', 'SDK\FFXIV_ACT_Plugin.Memory.dll', 'SDK\FFXIV_ACT_Plugin.Network.dll')
+          foreach ($reference in $sdkReferences) {
+            $assemblyPath = (Resolve-Path (Join-Path 'thirdparty\FFXIV_ACT_Plugin' $reference)).Path
+            $identity = [System.Reflection.AssemblyName]::GetAssemblyName($assemblyPath)
+            if ($identity.GetPublicKeyToken().Length -ne 0) {
+              throw "Signed SDK reference is incompatible with the customized CN host: $reference"
+            }
+          }
 
           Get-ChildItem .\thirdparty
           Get-ChildItem .\thirdparty\ACT
