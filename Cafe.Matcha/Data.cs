@@ -60,7 +60,8 @@ namespace Cafe.Matcha
             ReadData(dataRoot, "world.json", out Worlds);
             ReadData(dataRoot, "dynamic-event.json", out DynamicEvents);
             ReadData(dataRoot, "fishing-notebook.json", out FishingNotebook);
-            ReadData(dataRoot, "fishing-places.json", out FishingPlaces);
+            ReadData(dataRoot, "fishing-places.json", out List<uint> fishingPlaces);
+            FishingPlaces = fishingPlaces?.ToArray() ?? Array.Empty<uint>();
 
             ReadData(dataRoot, "fate.json", out Dictionary<int, Models.FateData> fates);
             Fates = fates;
