@@ -74,6 +74,34 @@ internal static class HandlerTests
         handler.ResetSession(); Check(Last().BaseBaitId == null && Last().PlaceId == null, "reset clears context");
         Check(!Enum.IsDefined(typeof(MatchaOpcode), "StatusEffectList2") && !Enum.IsDefined(typeof(MatchaOpcode), "StatusEffectList3"), "unverified variants are not registered");
         time += 1000; Action(0); Play(1); Log(1110, 20);
-        Check(Last().Chum == null && Last().Capture.Unsupported, "missing status baseline not inferred false");
+        Check(Last().Chum == null && Last().Statuses == null && !Last().Capture.Unsupported,
+            "missing baseline remains unknown only for local consumers");
+        // Initialize bait without supplying a status baseline.
+        handler.ResetSession();
+        handler.Handle(Make(MatchaOpcode.PlayerSetup, 0x30, b => U32(b, 0x2c, 10)));
+        Action(0); Play(1); Log(1110, 20);
+        time += 2000; Play(5, 292); Action(2); Play(6);
+        handler.Handle(Make(MatchaOpcode.FishCaught, 16, b => { U32(b, 0, 30); U16(b, 4, 42); U16(b, 6, 1); }));
+        var unknown = Last();
+        var row = FishingUpload.Create(unknown, new FishingAttributes(time, 200, 300, 0));
+        Check(row != null && ((uint)row[4] & 0x7f) == 0, "unobserved upload buffs default absent");
+        Check(unknown.Chum == null && unknown.Statuses == null, "upload does not replace local unknowns");
+
+        handler.Handle(Make(MatchaOpcode.StatusEffectList, 384, b => U16(b, 20, 763)));
+        Action(0); Play(1); Log(1110, 20);
+        var snapshot = Last();
+        handler.Handle(Make(MatchaOpcode.StatusEffectList, 384, b => { }));
+        time += 2000; Action(2); Play(6); Play(4);
+        row = FishingUpload.Create(Last(), new FishingAttributes(time, 200, 300, 0));
+        Check(row != null && ((uint)row[4] & 1) != 0, "upload keeps cast-time chum despite later list change");
+        Last().Capture.UploadStatuses[0] = 0;
+        Check(snapshot.Capture.UploadStatuses.SequenceEqual(new uint[] { 763 }), "upload snapshot is deeply copied");
+        handler.Handle(Make(MatchaOpcode.ActorControl, 24, b => { U16(b, 0, 20); U32(b, 4, 763); }));
+        Action(0); Play(1); Log(1110, 20);
+        Check(Last().Capture.UploadStatuses.Length == 0, "upload uses full list instead of incremental buff event");
+        handler.ResetSession();
+        handler.Handle(Make(MatchaOpcode.PlayerSetup, 0x30, b => U32(b, 0x2c, 10)));
+        Action(0); Play(1);
+        Check(Last().Capture.UploadStatuses.Length == 0 && Last().Chum == null, "reset discards upload buff baseline");
     }
 }

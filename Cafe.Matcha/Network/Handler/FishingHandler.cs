@@ -17,6 +17,7 @@ namespace Cafe.Matcha.Network.Handler
         private readonly HashSet<uint> statuses = new HashSet<uint>();
         private readonly Dictionary<uint, uint> statusStacks = new Dictionary<uint, uint>();
         private bool statusesKnown;
+        private uint[] uploadStatuses = Array.Empty<uint>();
         private uint actorId;
         private uint? baitId;
         private uint? placeId;
@@ -71,7 +72,7 @@ namespace Cafe.Matcha.Network.Handler
                 capture = null; slap = identical = swimBait = taskBait = 0; taskActive = false;
                 baitId = placeId = pendingCommand = null;
                 statuses.Clear(); statusStacks.Clear();
-                statusesKnown = false;
+                statusesKnown = false; uploadStatuses = Array.Empty<uint>();
                 return false; // The normal zone handler must also run.
             }
 
@@ -151,6 +152,7 @@ namespace Cafe.Matcha.Network.Handler
                 { statusStacks.Remove(missing); statuses.Remove(missing); }
                 if (!updated.Contains(1803)) slap = 0;
                 if (!updated.Contains(1804)) identical = 0;
+                uploadStatuses = updated.OrderBy(id => id).ToArray();
                 statusesKnown = true;
                 return true;
             }
@@ -247,7 +249,8 @@ namespace Cafe.Matcha.Network.Handler
                             baitId = memory.BaitId;
                     }
                     capture = new FishingCapture { Slap = slap, Identical = identical,
-                        Unsupported = !statusesKnown || statuses.Contains(3972) || statuses.Contains(3973) };
+                        UploadStatuses = (uint[])uploadStatuses.Clone(),
+                        Unsupported = statuses.Contains(3972) || statuses.Contains(3973) };
                     uint? effective = swimBait != 0 ? swimBait : taskActive ? (taskBait == 0 ? (uint?)null : taskBait) : baitId;
                     cast = new FishingDTO
                     {
@@ -338,7 +341,7 @@ namespace Cafe.Matcha.Network.Handler
             {
                 cast = null; capture = null; phase = null; actorId = 0;
                 baitId = placeId = pendingCommand = null; slap = identical = swimBait = taskBait = 0;
-                taskActive = false; statuses.Clear(); statusStacks.Clear(); statusesKnown = false;
+                taskActive = false; statuses.Clear(); statusStacks.Clear(); statusesKnown = false; uploadStatuses = Array.Empty<uint>();
                 Emit("reset", Utils.Helper.Now);
             }
         }
@@ -430,7 +433,7 @@ namespace Cafe.Matcha.Network.Handler
                 phase = null;
                 baitId = placeId = pendingCommand = null;
                 statuses.Clear(); statusStacks.Clear();
-                statusesKnown = false;
+                statusesKnown = false; uploadStatuses = Array.Empty<uint>();
                 capture = null; slap = identical = swimBait = taskBait = 0; taskActive = false;
             }
 

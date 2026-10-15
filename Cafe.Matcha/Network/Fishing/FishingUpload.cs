@@ -22,19 +22,18 @@ namespace Cafe.Matcha.Network.Fishing
             if (!c.Terminal || c.Unsupported || !c.ServerCastTime.HasValue || !end.HasValue
                 || end <= c.ServerCastTime || (!early && end - c.ServerCastTime < 1000)
                 || end - c.ServerCastTime > 600000 || !cast.PlaceId.HasValue || !cast.BaitId.HasValue
-                || !cast.Chum.HasValue || !cast.Mooch.HasValue || cast.Statuses == null
+                || !cast.Mooch.HasValue
                 || (!early && (!cast.Tug.HasValue || cast.Tug < 1 || cast.Tug > 3 || !c.Hook.HasValue))
                 || (c.Hook.HasValue && (c.Hook < 1 || c.Hook > 6))
                 || attributes?.Gathering == null || attributes.Perception == null || attributes.CurrentGp == null
                 || c.LureTimes.Any(t => t < c.ServerCastTime || t > end)) return null;
             var success = cast.FishId.HasValue;
             if (success && (!c.Size.HasValue || !c.Quantity.HasValue || c.Quantity <= 0 || !c.Large.HasValue)) return null;
-            if (cast.Statuses.Contains(1803u) && c.Slap == 0 || cast.Statuses.Contains(1804u) && c.Identical == 0) return null;
-            if (!early && cast.Statuses.Contains(764u) && c.PatienceSuccess == null) return null;
+            var observed = c.UploadStatuses ?? cast.Statuses ?? Array.Empty<uint>();
             uint flags = 0;
             var statuses = new uint[] { 763, 762, 568, 3907, 2780 };
-            for (var i = 0; i < statuses.Length; i++) if (cast.Statuses.Contains(statuses[i])) flags |= 1u << i;
-            if (cast.Statuses.Contains(764u)) flags |= cast.Statuses.Contains(765u) ? 1u << 6 : 1u << 5;
+            for (var i = 0; i < statuses.Length; i++) if (observed.Contains(statuses[i])) flags |= 1u << i;
+            if (observed.Contains(764u)) flags |= observed.Contains(765u) ? 1u << 6 : 1u << 5;
             if (c.Identical != 0) flags |= 1u << 7;
             if (c.Slap != 0) flags |= 1u << 8;
             flags |= (uint)(cast.Tug ?? 0) << 9 | (uint)(c.Hook ?? 0) << 11;
