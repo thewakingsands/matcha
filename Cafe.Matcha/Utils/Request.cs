@@ -145,6 +145,11 @@ namespace Cafe.Matcha.Utils
 #endif
                 var response = await client.SendAsync(request, completionOption, cancellationToken).ConfigureAwait(false);
 #if DEBUG
+                LogResponseHeaders(response.Headers);
+                if (response.Content != null)
+                {
+                    LogResponseHeaders(response.Content.Headers);
+                }
                 if (logBodies && response.Content != null)
                 {
                     var content = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
@@ -163,6 +168,17 @@ namespace Cafe.Matcha.Utils
                 throw;
             }
         }
+
+#if DEBUG
+        private static void LogResponseHeaders(System.Net.Http.Headers.HttpHeaders headers)
+        {
+            foreach (var header in headers)
+            {
+                var value = string.Join(", ", header.Value);
+                Log.Debug(LogType.Request, $"[Response Header] {header.Key}: {value.Replace("\r", "\\r").Replace("\n", "\\n")}");
+            }
+        }
+#endif
 
         [System.Diagnostics.Conditional("DEBUG")]
         private static void LogFailure(Exception error)
