@@ -119,24 +119,62 @@ namespace Cafe.Matcha.Utils
             return null;
         }
 
-        // The caller owns the client, request and response. This transport path
-        // preserves cancellation and exceptions and never logs request/response bodies.
-        public static Task<HttpResponseMessage> Send(
+        // The caller owns the client, request and response. Exceptions and
+        // cancellation propagate to callers that implement retries or consent checks.
+        // Streaming/sensitive requests log metadata only; logging bodies buffers them.
+        public static async Task<HttpResponseMessage> Send(
             HttpClient client,
             HttpRequestMessage request,
             HttpCompletionOption completionOption,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken,
+            bool logBodies = false)
         {
-            request.Headers.UserAgent.Clear();
-            request.Headers.UserAgent.ParseAdd($"Cafe.Matcha/{Data.Version}");
-            return client.SendAsync(request, completionOption, cancellationToken);
+            try
+            {
+                request.Headers.UserAgent.Clear();
+                request.Headers.UserAgent.ParseAdd($"Cafe.Matcha/{Data.Version}");
+#if DEBUG
+                var uri = request.RequestUri.IsAbsoluteUri
+                    ? request.RequestUri : new Uri(client.BaseAddress, request.RequestUri);
+                Log.Debug(LogType.Request, $"{request.Method} {(logBodies ? uri.ToString() : uri.GetLeftPart(UriPartial.Path))}");
+                if (logBodies && request.Content != null)
+                {
+                    var body = await request.Content.ReadAsStringAsync().ConfigureAwait(false);
+                    Log.Debug(LogType.Request, $"[Content] {body}");
+                }
+#endif
+                var response = await client.SendAsync(request, completionOption, cancellationToken).ConfigureAwait(false);
+#if DEBUG
+                if (logBodies && response.Content != null)
+                {
+                    var content = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                    Log.Debug(LogType.Request, $"[Response] {response.StatusCode} {content}");
+                }
+                else
+                {
+                    Log.Debug(LogType.Request, $"[Response] {response.StatusCode}");
+                }
+#endif
+                return response;
+            }
+            catch (Exception e)
+            {
+                LogFailure(e);
+                throw;
+            }
+        }
+
+        [System.Diagnostics.Conditional("DEBUG")]
+        private static void LogFailure(Exception error)
+        {
+#if DEBUG
+            // Exception messages can contain URLs, credentials or remote content.
+            Log.Error(LogType.Request, $"[Error] {error.GetType().Name}");
+#endif
         }
 
         public static async Task<HttpResponseMessage> Send(string endpoint, HttpMethod method, RequestHeaders header, HttpContent data)
         {
-#if DEBUG
-            Log.Debug(LogType.Request, $"{method} {endpoint}");
-#endif
             try
             {
                 var uri = new Uri(endpoint);
@@ -159,26 +197,14 @@ namespace Cafe.Matcha.Utils
                     if (data != null)
                     {
                         request.Content = data;
-#if DEBUG
-                        var body = await data.ReadAsStringAsync();
-                        Log.Debug(LogType.Request, $"[Content] {body}");
-#endif
                     }
 
-                    var res = await Send(client, request, HttpCompletionOption.ResponseContentRead, CancellationToken.None);
-#if DEBUG
-                    var content = await res.Content.ReadAsStringAsync();
-                    Log.Debug(LogType.Request, $"[Response] {res.StatusCode} {content}");
-#endif
-
-                    return res;
+                    return await Send(client, request, HttpCompletionOption.ResponseContentRead, CancellationToken.None, logBodies: true);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
-#if DEBUG
-                Log.Error(LogType.Request, $"{e.Message}");
-#endif
+                // Preserve the legacy convenience API's null-on-failure behavior.
                 return null;
             }
         }

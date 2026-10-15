@@ -47,7 +47,33 @@ internal static class HttpTests
                         throw new Exception("upload content");
                 };
                 await api.Upload(payload, 123, CancellationToken.None);
-                if (messages.Count != 0) throw new Exception("transport must not log fishing data");
+                #if DEBUG
+                if (messages.Count != 2 || messages[0] != "POST https://api.ffxiv.cyou/fisher/upload" ||
+                    messages[1] != "[Response] NoContent")
+                    throw new Exception("upload must log request and status only");
+#else
+                if (messages.Count != 0) throw new Exception("release request logs must be disabled");
+#endif
+                messages.Clear();
+                handler.Inspect = null;
+                handler.Response = new HttpResponseMessage(HttpStatusCode.OK)
+                { Content = new StringContent("{\"spot_id\":20,\"distributions\":[]}") };
+                await api.Query(20, CancellationToken.None);
+#if DEBUG
+                if (messages.Count != 2 || messages[0] != "GET https://api.ffxiv.cyou/fisher/fish-duration" ||
+                    messages[1] != "[Response] OK")
+                    throw new Exception("query logs must omit parameters and response body");
+#endif
+                messages.Clear();
+                handler.Inspect = _ => throw new HttpRequestException("synthetic-private-text");
+                try { await api.Query(20, CancellationToken.None); throw new Exception("expected network failure"); }
+                catch (HttpRequestException) { }
+#if DEBUG
+                if (messages.Count != 2 || messages[1] != "[Error] HttpRequestException")
+                    throw new Exception("network error must be logged without exception content");
+#endif
+                if (messages.Any(m => m.Contains("synthetic-private-text")))
+                    throw new Exception("private error text leaked");
             }
             finally { Log.Handler -= onLog; handler.Inspect = null; }
 
