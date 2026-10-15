@@ -292,6 +292,7 @@ namespace Cafe.Matcha.Network.Handler
                     }
 
                     cast.HookTime = packet.Timestamp;
+                    if (!cast.BiteTime.HasValue && capture != null) capture.EndTime = packet.Timestamp;
                     phase = "hook";
                     Emit("hook", packet.Timestamp);
                     break;
@@ -301,6 +302,8 @@ namespace Cafe.Matcha.Network.Handler
                         return true;
                     }
 
+                    if (!cast.BiteTime.HasValue && capture != null && !capture.EndTime.HasValue)
+                        capture.EndTime = packet.Timestamp;
                     phase = "reel";
                     Emit("reel", packet.Timestamp);
                     break;
@@ -308,12 +311,17 @@ namespace Cafe.Matcha.Network.Handler
                     if (cast != null && phase != "catch" && phase != "end")
                     {
                         phase = "end";
-                        if (capture != null) capture.Terminal = true;
+                        if (capture != null)
+                        {
+                            capture.Terminal = true;
+                            if (!cast.BiteTime.HasValue && !capture.EndTime.HasValue) capture.EndTime = packet.Timestamp;
+                        }
                         Emit("end", packet.Timestamp);
                     }
 
                     break;
                 case FishEventType.End:
+                    FinishInterruptedCast(packet.Timestamp);
                     Emit("quit", packet.Timestamp);
                     cast = null;
                     placeId = null;
@@ -347,6 +355,13 @@ namespace Cafe.Matcha.Network.Handler
 
         private uint? EffectiveBait => swimBait != 0 ? swimBait : taskActive ? (taskBait == 0 ? (uint?)null : taskBait) : baitId;
 
+        private void FinishInterruptedCast(long time)
+        {
+            if (cast == null || capture == null || capture.Terminal || cast.BiteTime.HasValue) return;
+            if (!capture.EndTime.HasValue) capture.EndTime = time;
+            capture.Terminal = true; phase = "end";
+            Emit("end", time);
+        }
         private bool HandleLog(uint message, uint parameter, long time)
         {
             if (message == 1110 || message == 1115)
@@ -370,6 +385,7 @@ namespace Cafe.Matcha.Network.Handler
             }
             else if (message >= 1111 && message <= 1113)
             {
+                FinishInterruptedCast(time);
                 Emit("quit", time); cast = null; capture = null; phase = null; placeId = null; pendingCommand = null;
             }
             else if ((message >= 1117 && message <= 1120) || message == 1127 || message == 1129 || message == 3527)

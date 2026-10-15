@@ -19,6 +19,7 @@ namespace Cafe.Matcha.Models
     internal class ConfigOverlay : System.ComponentModel.INotifyPropertyChanged
     {
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        public string FishingFloatAuth { get; set; }
         private bool enabled;
         public bool FishingFloat { get => enabled; set { enabled = value; PropertyChanged?.Invoke(this, new System.ComponentModel.PropertyChangedEventArgs(nameof(FishingFloat))); } }
     }

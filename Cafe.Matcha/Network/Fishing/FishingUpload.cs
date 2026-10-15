@@ -6,30 +6,38 @@ namespace Cafe.Matcha.Network.Fishing
     using System.Linq;
     using Cafe.Matcha.DTO;
 
-    // Wire contract: ffxiv-cyou/ffxiv-fishing-float, 13baacb3e14c2db848855f43d204decdcddc92dd,
+    // Wire contract: ffxiv-cyou/ffxiv-fishing-float, 22e72eeb0c34c1025d95129c9b51c074e821fe85,
     // src/model/FishingSession.ts serialize(). Protocol encoding implemented independently.
     internal static class FishingUpload
     {
         public static object[] Create(FishingDTO cast, FishingAttributes attributes)
         {
             var c = cast.Capture;
-            if (c == null || !c.Terminal || c.Unsupported || !c.ServerCastTime.HasValue || !cast.BiteTime.HasValue
-                || cast.BiteTime <= c.ServerCastTime || cast.BiteTime - c.ServerCastTime < 1000
-                || cast.BiteTime - c.ServerCastTime > 600000 || !cast.PlaceId.HasValue || !cast.BaitId.HasValue
-                || !cast.Chum.HasValue || !cast.Mooch.HasValue || cast.Statuses == null || cast.Tug < 1 || cast.Tug > 3 || !cast.Tug.HasValue
+            if (c == null) return null;
+            // No tug flag plus a null result encodes a right-censored, early-ended cast.
+            // Keep BiteTime absent: this is an observed end, not an inferred bite.
+            var early = !cast.BiteTime.HasValue && c.EndTime.HasValue && !cast.FishId.HasValue
+                && !cast.Tug.HasValue && !c.GatheringFailed;
+            var end = early ? c.EndTime : cast.BiteTime;
+            if (!c.Terminal || c.Unsupported || !c.ServerCastTime.HasValue || !end.HasValue
+                || end <= c.ServerCastTime || (!early && end - c.ServerCastTime < 1000)
+                || end - c.ServerCastTime > 600000 || !cast.PlaceId.HasValue || !cast.BaitId.HasValue
+                || !cast.Chum.HasValue || !cast.Mooch.HasValue || cast.Statuses == null
+                || (!early && (!cast.Tug.HasValue || cast.Tug < 1 || cast.Tug > 3 || !c.Hook.HasValue))
+                || (c.Hook.HasValue && (c.Hook < 1 || c.Hook > 6))
                 || attributes?.Gathering == null || attributes.Perception == null || attributes.CurrentGp == null
-                || !c.Hook.HasValue || c.LureTimes.Any(t => t < c.ServerCastTime || t > cast.BiteTime)) return null;
+                || c.LureTimes.Any(t => t < c.ServerCastTime || t > end)) return null;
             var success = cast.FishId.HasValue;
             if (success && (!c.Size.HasValue || !c.Quantity.HasValue || c.Quantity <= 0 || !c.Large.HasValue)) return null;
             if (cast.Statuses.Contains(1803u) && c.Slap == 0 || cast.Statuses.Contains(1804u) && c.Identical == 0) return null;
-            if (cast.Statuses.Contains(764u) && c.PatienceSuccess == null) return null;
+            if (!early && cast.Statuses.Contains(764u) && c.PatienceSuccess == null) return null;
             uint flags = 0;
             var statuses = new uint[] { 763, 762, 568, 3907, 2780 };
             for (var i = 0; i < statuses.Length; i++) if (cast.Statuses.Contains(statuses[i])) flags |= 1u << i;
             if (cast.Statuses.Contains(764u)) flags |= cast.Statuses.Contains(765u) ? 1u << 6 : 1u << 5;
             if (c.Identical != 0) flags |= 1u << 7;
             if (c.Slap != 0) flags |= 1u << 8;
-            flags |= (uint)cast.Tug.Value << 9 | (uint)c.Hook.Value << 11;
+            flags |= (uint)(cast.Tug ?? 0) << 9 | (uint)(c.Hook ?? 0) << 11;
             if (c.GatheringFailed) flags |= 2u << 14;
             else if (success) flags |= 1u << 14;
             flags |= (uint)c.Lure << 16;
@@ -43,7 +51,7 @@ namespace Cafe.Matcha.Network.Fishing
             }
             flags |= (uint)c.HiddenStack << 24;
             return new object[] { c.ServerCastTime.Value, cast.PlaceId.Value, cast.BaitId.Value,
-                cast.BiteTime.Value - c.ServerCastTime.Value, flags,
+                end.Value - c.ServerCastTime.Value, flags,
                 success ? new object[] { cast.FishId.Value, c.Size.Value, c.Large.Value, c.Quantity.Value } : null,
                 c.Slap, c.Identical, c.Hidden,
                 c.LureTimes.Length == 0 ? 0L : c.LureTimes.Last() - c.ServerCastTime.Value,

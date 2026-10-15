@@ -27,6 +27,7 @@ namespace Cafe.Matcha.Network.Fishing
     internal sealed class FishingCapture
     {
         public long? ServerCastTime;
+        public long? EndTime;
         public int? Hook;
         public int? Size;
         public int? Quantity;
@@ -44,7 +45,7 @@ namespace Cafe.Matcha.Network.Fishing
         public bool LureTarget;
         public long[] LureTimes = Array.Empty<long>();
         public FishingCapture Copy() => new FishingCapture {
-            ServerCastTime = ServerCastTime, Hook = Hook, Size = Size, Quantity = Quantity,
+            ServerCastTime = ServerCastTime, EndTime = EndTime, Hook = Hook, Size = Size, Quantity = Quantity,
             Large = Large, GatheringFailed = GatheringFailed, Unsupported = Unsupported,
             Terminal = Terminal, PatiencePrecision = PatiencePrecision, PatienceSuccess = PatienceSuccess,
             Slap = Slap, Identical = Identical, Hidden = Hidden, HiddenStack = HiddenStack,

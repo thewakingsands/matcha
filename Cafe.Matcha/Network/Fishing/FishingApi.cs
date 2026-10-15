@@ -25,8 +25,11 @@ namespace Cafe.Matcha.Network.Fishing
     internal sealed class FishingApi : IFishingApi
     {
         private readonly HttpClient client;
-        public FishingApi(HttpMessageHandler handler = null)
+        private readonly FishingCredentials credentials;
+        public FishingApi(HttpMessageHandler handler = null, FishingCredentials credentials = null)
         {
+            this.credentials = credentials ?? new FishingCredentials();
+            if (credentials == null) this.credentials.SetEnabled(true);
             client = new HttpClient(handler ?? new HttpClientHandler { AllowAutoRedirect = false, UseCookies = false });
             client.BaseAddress = new Uri("https://api.ffxiv.cyou/fisher/");
             client.Timeout = TimeSpan.FromSeconds(5);
@@ -42,7 +45,7 @@ namespace Cafe.Matcha.Network.Fishing
         private async Task<FishingDistribution[]> QueryCore(uint place, CancellationToken cancellation)
         {
             using (var request = new HttpRequestMessage(HttpMethod.Get, "fish-duration?spot_id=" + place + "&min_count=10"))
-            using (var response = await Request.Send(client, request, HttpCompletionOption.ResponseHeadersRead, cancellation).ConfigureAwait(false))
+            using (var response = await Send(request, cancellation).ConfigureAwait(false))
             {
                 Check(response);
                 if (response.Content.Headers.ContentLength > 2 * 1024 * 1024) throw new InvalidDataException("Fishing response too large");
@@ -75,8 +78,15 @@ namespace Cafe.Matcha.Network.Fishing
                 request.Content = new ByteArrayContent(data);
                 request.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/cbor");
                 request.Headers.Add("X-Client-Timestamp", timestamp.ToString(System.Globalization.CultureInfo.InvariantCulture));
-                using (var response = await Request.Send(client, request, HttpCompletionOption.ResponseHeadersRead, cancellation).ConfigureAwait(false)) Check(response);
+                using (var response = await Send(request, cancellation).ConfigureAwait(false)) Check(response);
             }
+        }
+        private async Task<HttpResponseMessage> Send(HttpRequestMessage request, CancellationToken cancellation)
+        {
+            var generation = credentials.Apply(request, cancellation);
+            var response = await Request.Send(client, request, HttpCompletionOption.ResponseHeadersRead, cancellation).ConfigureAwait(false);
+            try { credentials.Accept(response, generation, cancellation); return response; }
+            catch { response.Dispose(); throw; }
         }
         private static void Check(HttpResponseMessage response)
         {
@@ -84,6 +94,6 @@ namespace Cafe.Matcha.Network.Fishing
             var retry = response.Headers.RetryAfter;
             throw new FishingApiException(retry?.Delta ?? (retry?.Date - DateTimeOffset.UtcNow) ?? TimeSpan.FromSeconds(60), (int)response.StatusCode);
         }
-        public void Dispose() => client.Dispose();
+        public void Dispose() { credentials.Stop(); client.Dispose(); }
     }
 }

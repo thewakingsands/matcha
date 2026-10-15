@@ -71,7 +71,31 @@ internal static class Program
         var row = FishingUpload.Create(record, new FishingAttributes(time, 200, 300, 0, 600));
         Check(row != null && (int)((object[])row[11])[2] == 0, "zero GP is valid");
         Check(FishingUpload.Create(record, new FishingAttributes(time)) == null, "unknown stats are not zero");
+        var early = Cast("early", time, "end", 20);
+        early.Capture.Terminal = true; early.Capture.Hook = null; early.Capture.EndTime = time + 800;
+        var earlyRow = FishingUpload.Create(early, stats);
+        Check(earlyRow != null && (long)earlyRow[3] == 800 && (uint)earlyRow[4] == 0 && earlyRow[5] == null, "early wire contract");
+        early.Capture.EndTime = null;
+        Check(FishingUpload.Create(early, stats) == null, "missing end does not imply early withdrawal");
+        early.Capture.EndTime = time + 800; early.Capture.Unsupported = true;
+        Check(FishingUpload.Create(early, stats) == null, "unsupported early casts remain excluded");
+
         Check(FishingUpload.Encode(new[] { row })[0] == 0x81, "CBOR batch array");
+        var earlyApi = new Api();
+        var earlyTime = time;
+        var earlyAttributes = new FishingAttributes(earlyTime, 200, 300, 0, 600, 10);
+        using (var service = new FishingService(earlyApi, () => earlyTime, p => p == 20, () => earlyAttributes, _ => { }))
+        {
+            service.SetEnabled(true);
+            service.Observe(Cast("early-queued", earlyTime, place: 20));
+            var ended = Cast("early-queued", earlyTime, "end", 20);
+            ended.Capture.Terminal = true; ended.Capture.Hook = null; ended.Capture.EndTime = earlyTime + 2500;
+            service.Observe(ended); service.Observe(ended);
+            service.Observe(new FishingDTO { Action = "quit" });
+            earlyTime += 60000; service.Tick();
+            Check(earlyApi.Uploads == 1, "early terminal queues once and survives quit");
+            earlyApi.Sent.SetResult(true);
+        }
         // Independent, entirely artificial CBOR contract vector exercises all wire scalar widths.
         var encoded = FishingUpload.Encode(new[] { new object[] {
             0, 23, 24, 256, 65536, 4294967296L, true, false, null, new object[] { 1, 2 } } });
@@ -80,6 +104,7 @@ internal static class Program
             "CBOR canonical batch contract");
         Check(FishingMemoryReader.Locate(new byte[64]) == null, "invalid PE rejected");
         await HttpTests.Run();
+        await CredentialTests.Run();
         await CacheTests.Run();
         HandlerTests.Run();
         MemoryTests.Run();

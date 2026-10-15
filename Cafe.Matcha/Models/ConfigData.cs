@@ -107,6 +107,9 @@ namespace Cafe.Matcha.Models
     {
         [JsonProperty("fishingFloat")]
         public bool FishingFloat { get; set; } = false;
+        [JsonProperty("fishingFloatAuth")]
+        public string FishingFloatAuth { get; set; }
+
         [JsonProperty("universalis")]
         public bool Universalis { get; set; } = false;
     }

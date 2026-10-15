@@ -48,6 +48,29 @@ internal static class HandlerTests
         Log(1121, 30); Check(Last().BaitId == 30 && Last().PlaceId == 20 && Last().Mooch == true, "server-confirmed mooch");
         time += 3000; Play(5, 293); Action(2); Play(6); Log(3527, 0);
         Check(Last().Capture.GatheringFailed && Last().Capture.Terminal, "failure cause");
+        // Ended before a bite: server timing, no invented tug or catch.
+        handler.Handle(Make(MatchaOpcode.StatusEffectList, 384, b => { }));
+        time += 1000; Action(0); Play(1); Log(1110, 20);
+        var earlyStart = time;
+        time += 2500; Action(2); Play(6);
+        var earlyEnd = time;
+        time += 700; Play(4);
+        var early = Last();
+        var earlyRow = FishingUpload.Create(early, new FishingAttributes(time, 200, 300, 0, 600));
+        Check(early.Capture.Terminal && early.BiteTime == null && early.Tug == null, "early end is not a bite");
+        Check(early.Capture.EndTime == earlyEnd && (long)earlyRow[3] == earlyEnd - earlyStart, "early duration excludes reel animation");
+        Check(((uint)earlyRow[4] & (3u << 9)) == 0 && earlyRow[5] == null, "censored flags and null result");
+        Check(earlyRow[3].Equals(2500L), "server-confirmed early duration");
+
+        time += 1000; Action(0); Play(1); Log(1110, 20);
+        time += 500; Log(1111, 0);
+        var quitEnd = events.OfType<FishingDTO>().Last(e => e.Action == "end");
+        Check(Last().Action == "quit", "quit after terminal snapshot");
+        var quitRow = FishingUpload.Create(quitEnd, new FishingAttributes(time, 200, 300, 0, 600));
+        Check(quitRow != null && (long)quitRow[3] == 500, "short early withdrawal uploads");
+        var ends = events.OfType<FishingDTO>().Count(e => e.Action == "end");
+        Play(3); Check(events.OfType<FishingDTO>().Count(e => e.Action == "end") == ends, "duplicate quit does not finish twice");
+
         handler.ResetSession(); Check(Last().BaseBaitId == null && Last().PlaceId == null, "reset clears context");
         Check(!Enum.IsDefined(typeof(MatchaOpcode), "StatusEffectList2") && !Enum.IsDefined(typeof(MatchaOpcode), "StatusEffectList3"), "unverified variants are not registered");
         time += 1000; Action(0); Play(1); Log(1110, 20);

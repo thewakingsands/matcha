@@ -11,6 +11,7 @@ namespace Cafe.Matcha.Network.Fishing
     {
         private readonly FishingDiagnostics diagnostics = new FishingDiagnostics();
         private readonly FishingService service;
+        private readonly FishingCredentials credentials;
         private readonly IFishingMemoryReader memory;
         private readonly Timer sampleTimer, serviceTimer;
         private readonly Models.ConfigOverlay config;
@@ -25,16 +26,24 @@ namespace Cafe.Matcha.Network.Fishing
             this.reset = reset;
             memory = new FishingMemoryReader(() => ParsePlugin.Instance?.GetProcess(),
                 () => ParsePlugin.Instance?.GetGatheringPoints(), () => Helper.Now, diagnostics);
-            service = new FishingService(new FishingApi(), () => Helper.Now,
-                place => Data.Instance.FishingPlaces?.Contains(place) == true, () => Snapshot, publish, diagnostics);
             config = Config.Instance.Overlay;
+            credentials = new FishingCredentials(config.FishingFloatAuth, value => config.FishingFloatAuth = value);
+            credentials.SetEnabled(config.FishingFloat);
+            service = new FishingService(new FishingApi(credentials: credentials), () => Helper.Now,
+                place => Data.Instance.FishingPlaces?.Contains(place) == true, () => Snapshot, publish, diagnostics);
             config.PropertyChanged += SettingsChanged;
             service.SetEnabled(config.FishingFloat);
             sampleTimer = new Timer(_ => Sample(), null, 0, 500);
             serviceTimer = new Timer(_ => Tick(), null, 0, 5000);
         }
         private void SettingsChanged(object sender, PropertyChangedEventArgs e)
-        { if (e.PropertyName == nameof(config.FishingFloat)) service.SetEnabled(config.FishingFloat); }
+        {
+            if (e.PropertyName == nameof(config.FishingFloat))
+            {
+                credentials.SetEnabled(config.FishingFloat);
+                service.SetEnabled(config.FishingFloat);
+            }
+        }
         private void Tick()
         {
             try { if (!disposed) { service.Tick(); diagnostics.State("service-timer", "ready"); } }
