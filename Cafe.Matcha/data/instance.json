@@ -12509,6 +12509,81 @@
     "itemSync": 0,
     "memberType": 1
   },
+  "1088": {
+    "name": {
+      "chs": "斗兽奇弈 第一盘",
+      "en": "First Board of the Unbroken",
+      "ja": "闘獣練 第一盤",
+      "de": "Erstes Brett der Bestie",
+      "fr": "Dédale bestial - 1er plateau"
+    },
+    "type": 40,
+    "level": 30,
+    "levelSync": 30,
+    "item": 25,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1089": {
+    "name": {
+      "chs": "斗兽奇弈 第二盘",
+      "en": "Second Board of the Unbroken",
+      "ja": "闘獣練 第二盤",
+      "de": "Zweites Brett der Bestie",
+      "fr": "Dédale bestial - 2e plateau"
+    },
+    "type": 40,
+    "level": 40,
+    "levelSync": 40,
+    "item": 35,
+    "itemSync": 0,
+    "memberType": 1
+  },
+  "1090": {
+    "name": {
+      "chs": "斗兽奇弈 第三盘",
+      "en": "Third Board of the Unbroken",
+      "ja": "闘獣練 第三盤",
+      "de": "Drittes Brett der Bestie",
+      "fr": "Dédale bestial - 3e plateau"
+    },
+    "type": 40,
+    "level": 50,
+    "levelSync": 50,
+    "item": 82,
+    "itemSync": 100,
+    "memberType": 1
+  },
+  "1091": {
+    "name": {
+      "chs": "斗兽奇弈高段 第一盘",
+      "en": "First Master's Board",
+      "ja": "闘獣練 特一盤",
+      "de": "Erstes Meisterbrett der Bestie",
+      "fr": "Dédale bestial - 1er plateau expert"
+    },
+    "type": 40,
+    "level": 50,
+    "levelSync": 50,
+    "item": 82,
+    "itemSync": 120,
+    "memberType": 1
+  },
+  "1092": {
+    "name": {
+      "chs": "斗兽奇弈高段 第二盘",
+      "en": "Second Master's Board",
+      "ja": "闘獣練 特二盤",
+      "de": "Zweites Meisterbrett der Bestie",
+      "fr": "Dédale bestial - 2e plateau expert"
+    },
+    "type": 40,
+    "level": 50,
+    "levelSync": 50,
+    "item": 82,
+    "itemSync": 135,
+    "memberType": 1
+  },
   "1093": {
     "name": {
       "chs": "蜃景幻界新月岛 北征之章",
@@ -12598,6 +12673,21 @@
     "item": 0,
     "itemSync": 0,
     "memberType": 25
+  },
+  "1101": {
+    "name": {
+      "chs": "寒风来临之时",
+      "en": "A Rush of Cold Wind",
+      "ja": "寒風の吹くとき",
+      "de": "Wo die kalten Winde wehen",
+      "fr": "L'heure de briser la glace"
+    },
+    "type": 7,
+    "level": 100,
+    "levelSync": 100,
+    "item": 0,
+    "itemSync": 755,
+    "memberType": 1
   },
   "1102": {
     "name": {

@@ -7699,6 +7699,41 @@
     "de": "Bahnhof Bentini",
     "fr": "Gare de Bendini"
   },
+  "1339": {
+    "chs": "斗兽奇弈 第一盘",
+    "en": "First Board of the Unbroken",
+    "ja": "闘獣練 第一盤",
+    "de": "Erstes Brett der Bestie",
+    "fr": "1er plateau"
+  },
+  "1340": {
+    "chs": "斗兽奇弈 第二盘",
+    "en": "Second Board of the Unbroken",
+    "ja": "闘獣練 第二盤",
+    "de": "Zweites Brett der Bestie",
+    "fr": "2e plateau"
+  },
+  "1341": {
+    "chs": "斗兽奇弈 第三盘",
+    "en": "Third Board of the Unbroken",
+    "ja": "闘獣練 第三盤",
+    "de": "Drittes Brett der Bestie",
+    "fr": "3e plateau"
+  },
+  "1342": {
+    "chs": "斗兽奇弈高段 第一盘",
+    "en": "First Master's Board",
+    "ja": "闘獣練 特一盤",
+    "de": "Erstes Meisterbrett der Bestie",
+    "fr": "1er plateau expert"
+  },
+  "1343": {
+    "chs": "斗兽奇弈高段 第二盘",
+    "en": "Second Master's Board",
+    "ja": "闘獣練 特二盤",
+    "de": "Zweites Meisterbrett der Bestie",
+    "fr": "2e plateau expert"
+  },
   "1344": {
     "chs": "三尾训练馆",
     "en": "Tritails Training",
@@ -7769,6 +7804,20 @@
     "de": "Sigmametrie 4.0",
     "fr": "Sigmastice v4.0"
   },
+  "1364": {
+    "chs": "无名浮岛",
+    "en": "Unmoored Isle",
+    "ja": "名もなき浮島",
+    "de": "Schwebende Insel",
+    "fr": "Île flottante sans nom"
+  },
+  "1365": {
+    "chs": "无名浮岛",
+    "en": "Unmoored Isle",
+    "ja": "名もなき浮島",
+    "de": "Schwebende Insel",
+    "fr": "Île flottante sans nom"
+  },
   "1366": {
     "chs": "暮卫塔",
     "en": "Dusk Vigil",
@@ -7791,18 +7840,25 @@
     "fr": "Windurst - La troisième perambulation"
   },
   "1369": {
-    "chs": "闹鬼盛宴",
-    "en": "The Phantoms' Feast",
-    "ja": "ホーンテッドフィースト",
-    "de": "Lustiges Bankett",
-    "fr": "Banquet cauchemardesque"
+    "chs": "废弃墓地",
+    "en": "The Dire Deepcroft",
+    "ja": "廃墓所",
+    "de": "Düsterer Totenacker",
+    "fr": "Cimetière désaffecté"
   },
   "1370": {
-    "chs": "闹鬼盛宴",
-    "en": "The Phantoms' Feast",
-    "ja": "ホーンテッドフィースト",
-    "de": "Lustiges Bankett",
-    "fr": "Banquet cauchemardesque"
+    "chs": "废弃墓地",
+    "en": "The Dire Deepcroft",
+    "ja": "廃墓所",
+    "de": "Düsterer Totenacker",
+    "fr": "Cimetière désaffecté"
+  },
+  "1371": {
+    "chs": "无名浮岛",
+    "en": "Unmoored Isle",
+    "ja": "名もなき浮島",
+    "de": "Schwebende Insel",
+    "fr": "Île flottante sans nom"
   },
   "1372": {
     "chs": "结晶化空间",

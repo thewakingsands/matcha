@@ -14,44 +14,44 @@
   "23": {
     "name": "Asura",
     "name_en": "Asura",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "24": {
     "name": "Belias",
     "name_en": "Belias",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "28": {
     "name": "Pandaemonium",
     "name_en": "Pandaemonium",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "29": {
     "name": "Shinryu",
     "name_en": "Shinryu",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "30": {
     "name": "Unicorn",
     "name_en": "Unicorn",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "31": {
     "name": "Yojimbo",
     "name_en": "Yojimbo",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "32": {
     "name": "Zeromus",
     "name_en": "Zeromus",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "33": {
     "name": "Twintania",
@@ -110,14 +110,14 @@
   "43": {
     "name": "Alexander",
     "name_en": "Alexander",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "44": {
     "name": "Anima",
     "name_en": "Anima",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "45": {
     "name": "Carbuncle",
@@ -128,20 +128,20 @@
   "46": {
     "name": "Fenrir",
     "name_en": "Fenrir",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "47": {
     "name": "Hades",
     "name_en": "Hades",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "48": {
     "name": "Ixion",
     "name_en": "Ixion",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "49": {
     "name": "Kujata",
@@ -158,14 +158,14 @@
   "51": {
     "name": "Ultima",
     "name_en": "Ultima",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "52": {
     "name": "Valefor",
     "name_en": "Valefor",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "53": {
     "name": "Exodus",
@@ -206,20 +206,20 @@
   "59": {
     "name": "Ifrit",
     "name_en": "Ifrit",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "60": {
     "name": "Ramuh",
     "name_en": "Ramuh",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "61": {
     "name": "Titan",
     "name_en": "Titan",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "62": {
     "name": "Diabolos",
@@ -266,14 +266,14 @@
   "69": {
     "name": "Bahamut",
     "name_en": "Bahamut",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "70": {
     "name": "Chocobo",
     "name_en": "Chocobo",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "71": {
     "name": "Moogle",
@@ -308,8 +308,8 @@
   "76": {
     "name": "Tiamat",
     "name_en": "Tiamat",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "77": {
     "name": "Ultros",
@@ -344,8 +344,8 @@
   "82": {
     "name": "Mandragora",
     "name_en": "Mandragora",
-    "dc": "Meteor",
-    "dc_en": "Meteor"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "83": {
     "name": "Louisoix",
@@ -392,8 +392,8 @@
   "92": {
     "name": "Durandal",
     "name_en": "Durandal",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "93": {
     "name": "Excalibur",
@@ -416,8 +416,8 @@
   "96": {
     "name": "Masamune",
     "name_en": "Masamune",
-    "dc": "Mana",
-    "dc_en": "Mana"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "97": {
     "name": "Ragnarok",
@@ -428,8 +428,8 @@
   "98": {
     "name": "Ridill",
     "name_en": "Ridill",
-    "dc": "Gaia",
-    "dc_en": "Gaia"
+    "dc": "Elemental",
+    "dc_en": "Elemental"
   },
   "99": {
     "name": "Sargatanas",
